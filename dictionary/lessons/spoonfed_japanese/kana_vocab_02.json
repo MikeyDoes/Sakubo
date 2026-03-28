@@ -1,0 +1,50 @@
+{
+  "title": "Lesson 8: (Vocab) - こっち, そっち, あっち...",
+  "lesson_type": "kana_vocab",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "The Small っ (Sokuon)",
+      "body": "A small っ (called sokuon) doubles the consonant that follows it, creating a brief pause:\n\nこっち (kocchi) — 'this way'\nそっち (socchi) — 'that way'\nあっち (acchi) — 'over there'\n\nNotice that っ is written smaller than the regular つ. In romaji, the doubled consonant shows the pause: kocchi (こっち)."
+    }
+  ],
+  "items": [
+    {
+      "entry_id": 326650,
+      "kana": "こっち",
+      "gloss": "this way; this direction; here",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326676,
+      "kana": "そっち",
+      "gloss": "that way; that direction; there",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326625,
+      "kana": "あっち",
+      "gloss": "that way (over there); that direction; over there; yonder",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326627,
+      "kana": "いくつ",
+      "gloss": "how many?; how old?",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37207,
+      "kana": "さあ",
+      "gloss": "come (on)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62969,
+      "kana": "いつ",
+      "gloss": "when; at what time; how soon",
+      "card_type": "vocab"
+    }
+  ],
+  "lesson_number": 8
+}

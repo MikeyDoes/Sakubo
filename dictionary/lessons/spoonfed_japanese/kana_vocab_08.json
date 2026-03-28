@@ -1,0 +1,43 @@
+{
+  "title": "Lesson 24: (Vocab) - こちら, そちら, ただいま, いってきます...",
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 326649,
+      "kana": "こちら",
+      "gloss": "this way; this direction; here (polite)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326675,
+      "kana": "そちら",
+      "gloss": "that way; that direction; there (polite)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109285,
+      "kana": "ただいま",
+      "gloss": "I'm home!; right now",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 173774,
+      "kana": "いってきます",
+      "gloss": "I'll be back soon; I'm off; see you later; be back soon",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 183134,
+      "kana": "いってらっしゃい",
+      "gloss": "have a good day; take care; see you",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36449,
+      "kana": "おかえりなさい",
+      "gloss": "welcome home",
+      "card_type": "vocab"
+    }
+  ],
+  "lesson_number": 24
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Lesson 21: (Hiragana) \"わ, を, ん\"",
+  "lesson_type": "kana",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Special Characters: を and ん",
+      "body": "Two final characters with special roles:\n\nを is almost exclusively used as a grammar particle (marking the object of a verb). It's pronounced 'o.'\n\nん is the only kana that represents a single consonant — 'n.' ん is the only consonant a syllable can end with.\n\nWith this lesson, you'll complete all 71 hiragana characters — 46 basic, 20 dakuten, and 5 handakuten!"
+    }
+  ],
+  "items": [
+    {
+      "entry_id": 325176,
+      "kana": "わ",
+      "gloss": "wa",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325179,
+      "kana": "を",
+      "gloss": "wo",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325180,
+      "kana": "ん",
+      "gloss": "n",
+      "card_type": "kana"
+    }
+  ],
+  "lesson_number": 21
+}

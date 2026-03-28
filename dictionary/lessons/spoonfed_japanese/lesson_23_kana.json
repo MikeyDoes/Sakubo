@@ -1,0 +1,44 @@
+{
+  "title": "Lesson 32: (Katakana) \"ダ, ヂ, ヅ, デ, ド\"",
+  "lesson_type": "kana",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "ヂ and ヅ Are Rare",
+      "body": "Just like their hiragana counterparts ぢ and づ, the katakana ヂ and ヅ are rarely used in modern Japanese.\n\nIn almost all cases, ジ (ji) is used instead of ヂ, and ズ (zu) is used instead of ヅ. They sound identical.\n\nYou'll encounter ジ and ズ far more often in katakana words."
+    }
+  ],
+  "items": [
+    {
+      "entry_id": 325264,
+      "kana": "ダ",
+      "gloss": "da",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325265,
+      "kana": "ヂ",
+      "gloss": "ji",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325266,
+      "kana": "ヅ",
+      "gloss": "zu",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325267,
+      "kana": "デ",
+      "gloss": "de",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325268,
+      "kana": "ド",
+      "gloss": "do",
+      "card_type": "kana"
+    }
+  ],
+  "lesson_number": 32
+}
