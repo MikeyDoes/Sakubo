@@ -6459,15 +6459,15 @@ class LessonsScreen(BoxLayout):
             if collection_name == 'kana':
                 min_lesson, max_lesson = 1, 50
             elif collection_name == 'n5':
-                min_lesson, max_lesson = 51, 263
+                min_lesson, max_lesson = 51, 278
             elif collection_name == 'n4':
-                min_lesson, max_lesson = 264, 443
+                min_lesson, max_lesson = 279, 482
             elif collection_name == 'n3':
-                min_lesson, max_lesson = 444, 874
+                min_lesson, max_lesson = 483, 908
             elif collection_name == 'n2':
-                min_lesson, max_lesson = 875, 1329
+                min_lesson, max_lesson = 909, 1361
             elif collection_name == 'n1':
-                min_lesson, max_lesson = 1330, 2062
+                min_lesson, max_lesson = 1362, 2093
             else:
                 return False
             
@@ -7169,35 +7169,35 @@ class LessonsScreen(BoxLayout):
     def show_n5_vocab_lessons(self, query: str | None = None, record_nav: bool = True):
         """Show JLPT N5 vocabulary lessons."""
         self._show_level_vocab_lessons_async(
-            'n5', (51, 263), 'n5_vocab_lessons',
+            'n5', (51, 278), 'n5_vocab_lessons',
             'add_all_n5_vocab_to_queue', 'remove_all_n5_vocab_from_queue',
             query=query, record_nav=record_nav)
 
     def show_n4_vocab_lessons(self, query: str | None = None, record_nav: bool = True):
         """Show JLPT N4 vocabulary lessons."""
         self._show_level_vocab_lessons_async(
-            'n4', (252, 431), 'n4_vocab_lessons',
+            'n4', (279, 482), 'n4_vocab_lessons',
             'add_all_n4_vocab_to_queue', 'remove_all_n4_vocab_from_queue',
             query=query, record_nav=record_nav)
 
     def show_n3_vocab_lessons(self, query: str | None = None, record_nav: bool = True):
         """Show JLPT N3 vocabulary lessons."""
         self._show_level_vocab_lessons_async(
-            'n3', (432, 862), 'n3_vocab_lessons',
+            'n3', (483, 908), 'n3_vocab_lessons',
             'add_all_n3_vocab_to_queue', 'remove_all_n3_vocab_from_queue',
             query=query, record_nav=record_nav)
 
     def show_n2_vocab_lessons(self, query: str | None = None, record_nav: bool = True):
         """Show JLPT N2 vocabulary lessons."""
         self._show_level_vocab_lessons_async(
-            'n2', (863, 1317), 'n2_vocab_lessons',
+            'n2', (909, 1361), 'n2_vocab_lessons',
             'add_all_n2_vocab_to_queue', 'remove_all_n2_vocab_from_queue',
             query=query, record_nav=record_nav)
 
     def show_n1_vocab_lessons(self, query: str | None = None, record_nav: bool = True):
         """Show JLPT N1 vocabulary lessons."""
         self._show_level_vocab_lessons_async(
-            'n1', (1318, 2050), 'n1_vocab_lessons',
+            'n1', (1362, 2093), 'n1_vocab_lessons',
             'add_all_n1_vocab_to_queue', 'remove_all_n1_vocab_from_queue',
             query=query, record_nav=record_nav)
 
@@ -24820,8 +24820,8 @@ class SpoonfedApp(App):
             
             # Define lesson ranges (must match show_*_lessons methods)
             ranges = {
-                'kana': (1, 50), 'n5': (51, 263), 'n4': (264, 443),
-                'n3': (444, 874), 'n2': (875, 1329), 'n1': (1330, 2062),
+                'kana': (1, 50), 'n5': (51, 278), 'n4': (279, 482),
+                'n3': (483, 908), 'n2': (909, 1361), 'n1': (1362, 2093),
             }
             if collection_name not in ranges:
                 return {}
@@ -34279,8 +34279,8 @@ class SpoonfedApp(App):
                 if index_file.exists():
                     idx = self._load_lesson_json(index_file).get('lessons', {})
                     ranges = {
-                        'Kana': (1, 50), 'JLPT N5': (51, 263), 'JLPT N4': (264, 443),
-                        'JLPT N3': (444, 874), 'JLPT N2': (875, 1329), 'JLPT N1': (1330, 2062),
+                        'Kana': (1, 50), 'JLPT N5': (51, 278), 'JLPT N4': (279, 482),
+                        'JLPT N3': (483, 908), 'JLPT N2': (909, 1361), 'JLPT N1': (1362, 2093),
                     }
                     num_to_coll = {}
                     for coll, (lo, hi) in ranges.items():

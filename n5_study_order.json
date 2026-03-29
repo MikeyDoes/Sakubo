@@ -1,0 +1,5930 @@
+{
+  "level": "N5",
+  "description": "Canonical N5 study order. This is the single source of truth for lesson generation.",
+  "vocab": [
+    {
+      "entry_id": 79017,
+      "kanji": "私",
+      "kana": "わたし",
+      "gloss": "I; me",
+      "study_order": 1
+    },
+    {
+      "entry_id": 201348,
+      "kanji": null,
+      "kana": "これ",
+      "gloss": "this; this one",
+      "study_order": 2
+    },
+    {
+      "entry_id": 201361,
+      "kanji": null,
+      "kana": "それ",
+      "gloss": "that; that one",
+      "study_order": 3
+    },
+    {
+      "entry_id": 313031,
+      "kanji": null,
+      "kana": "あれ",
+      "gloss": "that; that thing; that over there",
+      "study_order": 4
+    },
+    {
+      "entry_id": 326648,
+      "kanji": null,
+      "kana": "ここ",
+      "gloss": "here; this place; this point; now; these past ... (e.g. three years); these last",
+      "study_order": 5
+    },
+    {
+      "entry_id": 326673,
+      "kanji": null,
+      "kana": "そこ",
+      "gloss": "there (place relatively near listener); there (place just mentioned); that place",
+      "study_order": 6
+    },
+    {
+      "entry_id": 115150,
+      "kanji": "何",
+      "kana": "なに",
+      "gloss": "what; you-know-what; that thing; whatsit; whachamacallit; what's-his-name; what'",
+      "study_order": 7
+    },
+    {
+      "entry_id": 116288,
+      "kanji": "人",
+      "kana": "ひと",
+      "gloss": "man; person; human being; mankind; people; human (Homo sapiens); humans as a spe",
+      "study_order": 8
+    },
+    {
+      "entry_id": 65315,
+      "kanji": "学生",
+      "kana": "がくせい",
+      "gloss": "student (esp. a university student)",
+      "study_order": 9
+    },
+    {
+      "entry_id": 89326,
+      "kanji": "先生",
+      "kana": "せんせい",
+      "gloss": "teacher; instructor; master; sensei; title or form of address for a teacher, mas",
+      "study_order": 10
+    },
+    {
+      "entry_id": 109422,
+      "kanji": "友達",
+      "kana": "ともだち",
+      "gloss": "friend; companion",
+      "study_order": 11
+    },
+    {
+      "entry_id": 78580,
+      "kanji": "子供",
+      "kana": "こども",
+      "gloss": "child",
+      "study_order": 12
+    },
+    {
+      "entry_id": 93611,
+      "kanji": "男",
+      "kana": "おとこ",
+      "gloss": "man; male; fellow; guy; chap; bloke; male lover; boyfriend; manliness; manly hon",
+      "study_order": 13
+    },
+    {
+      "entry_id": 83474,
+      "kanji": "女",
+      "kana": "おんな",
+      "gloss": "female; woman; female sex; female lover; girlfriend; mistress; (someone's) woman",
+      "study_order": 14
+    },
+    {
+      "entry_id": 108222,
+      "kanji": "名前",
+      "kana": "なまえ",
+      "gloss": "name; given name; first name",
+      "study_order": 15
+    },
+    {
+      "entry_id": 107040,
+      "kanji": "本",
+      "kana": "ほん",
+      "gloss": "book; volume; script",
+      "study_order": 16
+    },
+    {
+      "entry_id": 87017,
+      "kanji": "水",
+      "kana": "みず",
+      "gloss": "water (esp. cool, fresh water, e.g. drinking water); fluid (esp. in an animal ti",
+      "study_order": 17
+    },
+    {
+      "entry_id": 36651,
+      "kanji": "お茶",
+      "kana": "おちゃ",
+      "gloss": "tea (usu. green); tea break (at work); tea ceremony",
+      "study_order": 18
+    },
+    {
+      "entry_id": 73732,
+      "kanji": "ご飯",
+      "kana": "ごはん",
+      "gloss": "cooked rice; meal",
+      "study_order": 19
+    },
+    {
+      "entry_id": 85809,
+      "kanji": "新聞",
+      "kana": "しんぶん",
+      "gloss": "newspaper",
+      "study_order": 20
+    },
+    {
+      "entry_id": 63326,
+      "kanji": "家",
+      "kana": "いえ",
+      "gloss": "house; residence; dwelling; family; household; lineage; family name",
+      "study_order": 21
+    },
+    {
+      "entry_id": 65297,
+      "kanji": "学校",
+      "kana": "がっこう",
+      "gloss": "school",
+      "study_order": 22
+    },
+    {
+      "entry_id": 121999,
+      "kanji": "飲み物",
+      "kana": "のみもの",
+      "gloss": "drink; beverage",
+      "study_order": 23
+    },
+    {
+      "entry_id": 99905,
+      "kanji": "猫",
+      "kana": "ねこ",
+      "gloss": "cat (esp. the domestic cat, Felis catus); shamisen; geisha; wheelbarrow; clay be",
+      "study_order": 24
+    },
+    {
+      "entry_id": 96651,
+      "kanji": "電車",
+      "kana": "でんしゃ",
+      "gloss": "train; electric train",
+      "study_order": 25
+    },
+    {
+      "entry_id": 72034,
+      "kanji": "犬",
+      "kana": "いぬ",
+      "gloss": "dog (Canis (lupus) familiaris); squealer; rat; snitch; informer; informant; spy;",
+      "study_order": 26
+    },
+    {
+      "entry_id": 97788,
+      "kanji": "動物",
+      "kana": "どうぶつ",
+      "gloss": "animal",
+      "study_order": 27
+    },
+    {
+      "entry_id": 80537,
+      "kanji": "車",
+      "kana": "くるま",
+      "gloss": "car; automobile; vehicle; wheel",
+      "study_order": 28
+    },
+    {
+      "entry_id": 96686,
+      "kanji": "電話",
+      "kana": "でんわ",
+      "gloss": "telephone call; phone call; telephone (device); phone",
+      "study_order": 29
+    },
+    {
+      "entry_id": 79675,
+      "kanji": "時間",
+      "kana": "じかん",
+      "gloss": "time; hour; period; class; lesson",
+      "study_order": 30
+    },
+    {
+      "entry_id": 62970,
+      "kanji": "何時",
+      "kana": "なんじ",
+      "gloss": "what time?; what hour?",
+      "study_order": 31
+    },
+    {
+      "entry_id": 173843,
+      "kanji": "時",
+      "kana": "じ",
+      "gloss": "hour; o'clock; (specified) time; when ...; during ...",
+      "study_order": 32
+    },
+    {
+      "entry_id": 36467,
+      "kanji": "お金",
+      "kana": "おかね",
+      "gloss": "money",
+      "study_order": 33
+    },
+    {
+      "entry_id": 78163,
+      "kanji": "仕事",
+      "kana": "しごと",
+      "gloss": "work; job; labor; labour; business; task; assignment; occupation; employment",
+      "study_order": 34
+    },
+    {
+      "entry_id": 104129,
+      "kanji": "部屋",
+      "kana": "へや",
+      "gloss": "room; chamber; apartment; flat; pad; stable",
+      "study_order": 35
+    },
+    {
+      "entry_id": 116704,
+      "kanji": "店",
+      "kana": "みせ",
+      "gloss": "store; shop; establishment; restaurant",
+      "study_order": 36
+    },
+    {
+      "entry_id": 111631,
+      "kanji": "冷蔵庫",
+      "kana": "れいぞうこ",
+      "gloss": "refrigerator; fridge",
+      "study_order": 37
+    },
+    {
+      "entry_id": 118667,
+      "kanji": "大きい",
+      "kana": "おおきい",
+      "gloss": "big; large; great; loud; extensive; spacious; important; decisive; valuable; old",
+      "study_order": 38
+    },
+    {
+      "entry_id": 83827,
+      "kanji": "小さい",
+      "kana": "ちいさい",
+      "gloss": "small; little; tiny; slight; below average (in degree, amount, etc.); minor; low",
+      "study_order": 39
+    },
+    {
+      "entry_id": 85723,
+      "kanji": "新しい",
+      "kana": "あたらしい",
+      "gloss": "new; novel; fresh; recent; latest; up-to-date; modern",
+      "study_order": 40
+    },
+    {
+      "entry_id": 72962,
+      "kanji": "古い",
+      "kana": "ふるい",
+      "gloss": "old; aged; ancient; antiquated; antique; timeworn; long; since long ago; time-ho",
+      "study_order": 41
+    },
+    {
+      "entry_id": 282148,
+      "kanji": null,
+      "kana": "いい",
+      "gloss": "good; excellent; fine; nice; pleasant; agreeable; sufficient; enough; ready; pre",
+      "study_order": 42
+    },
+    {
+      "entry_id": 75297,
+      "kanji": "高い",
+      "kana": "たかい",
+      "gloss": "high; tall; expensive; high-priced; high (level); above average (in degree, qual",
+      "study_order": 43
+    },
+    {
+      "entry_id": 326749,
+      "kanji": "安い",
+      "kana": "やすい",
+      "gloss": "cheap; inexpensive; calm; peaceful; quiet",
+      "study_order": 44
+    },
+    {
+      "entry_id": 102450,
+      "kanji": "美味しい",
+      "kana": "おいしい",
+      "gloss": "delicious; tasty; sweet; attractive; appealing; convenient; favorable; desirable",
+      "study_order": 45
+    },
+    {
+      "entry_id": 57900,
+      "kanji": "悪い",
+      "kana": "わるい",
+      "gloss": "bad; poor; undesirable; poor (quality); inferior; insufficient; evil; sinful; ug",
+      "study_order": 46
+    },
+    {
+      "entry_id": 91667,
+      "kanji": "早い",
+      "kana": "はやい",
+      "gloss": "fast; quick; hasty; brisk; early (in the day, etc.); premature; (too) soon; not ",
+      "study_order": 47
+    },
+    {
+      "entry_id": 93885,
+      "kanji": "遅い",
+      "kana": "おそい",
+      "gloss": "slow; time-consuming; sluggish; late (in the day); towards the end (of the day o",
+      "study_order": 48
+    },
+    {
+      "entry_id": 83268,
+      "kanji": "暑い",
+      "kana": "あつい",
+      "gloss": "hot; warm; sultry; heated; passionate; impassioned; burning (desire, etc.); on e",
+      "study_order": 49
+    },
+    {
+      "entry_id": 65869,
+      "kanji": "寒い",
+      "kana": "さむい",
+      "gloss": "cold (e.g. weather); uninteresting (esp. joke); lame; dull; weak; corny",
+      "study_order": 50
+    },
+    {
+      "entry_id": 98992,
+      "kanji": "難しい",
+      "kana": "むずかしい",
+      "gloss": "difficult; hard; troublesome; complicated; serious (disease, problem, etc.); imp",
+      "study_order": 51
+    },
+    {
+      "entry_id": 108456,
+      "kanji": "面白い",
+      "kana": "おもしろい",
+      "gloss": "interesting; fascinating; intriguing; enthralling; amusing; funny; comical; enjo",
+      "study_order": 52
+    },
+    {
+      "entry_id": 326748,
+      "kanji": null,
+      "kana": "やさしい",
+      "gloss": "easy; plain; simple",
+      "study_order": 53
+    },
+    {
+      "entry_id": 88408,
+      "kanji": "静か",
+      "kana": "しずか",
+      "gloss": "quiet; silent; slow; unhurried; calm; peaceful",
+      "study_order": 54
+    },
+    {
+      "entry_id": 72378,
+      "kanji": "元気",
+      "kana": "げんき",
+      "gloss": "lively; full of spirit; energetic; vigorous; vital; spirited; healthy; well; fit",
+      "study_order": 55
+    },
+    {
+      "entry_id": 74586,
+      "kanji": "好き",
+      "kana": "すき",
+      "gloss": "liked; well-liked; favourite; favorite; in love (with); loved; romantically inte",
+      "study_order": 56
+    },
+    {
+      "entry_id": 71909,
+      "kanji": "嫌い",
+      "kana": "きらい",
+      "gloss": "disliked; hated; disagreeable; tendency; smack (of); touch (of); distinction; di",
+      "study_order": 57
+    },
+    {
+      "entry_id": 92872,
+      "kanji": "大切",
+      "kana": "たいせつ",
+      "gloss": "important; necessary; indispensable; beloved; precious; dear; cherished; valuabl",
+      "study_order": 58
+    },
+    {
+      "entry_id": 92842,
+      "kanji": "大丈夫",
+      "kana": "だいじょうぶ",
+      "gloss": "safe; secure; sound; problem-free; without fear; all right; alright; OK; okay; c",
+      "study_order": 59
+    },
+    {
+      "entry_id": 109609,
+      "kanji": "有名",
+      "kana": "ゆうめい",
+      "gloss": "famous; fame",
+      "study_order": 60
+    },
+    {
+      "entry_id": 105801,
+      "kanji": "便利",
+      "kana": "べんり",
+      "gloss": "convenient; handy; useful",
+      "study_order": 61
+    },
+    {
+      "entry_id": 85294,
+      "kanji": "食べる",
+      "kana": "たべる",
+      "gloss": "to eat; to live on (e.g. a salary); to live off; to subsist on",
+      "study_order": 62
+    },
+    {
+      "entry_id": 72157,
+      "kanji": "見る",
+      "kana": "みる",
+      "gloss": "to see; to look; to watch; to view; to observe; to examine; to look over; to ass",
+      "study_order": 63
+    },
+    {
+      "entry_id": 85493,
+      "kanji": "寝る",
+      "kana": "ねる",
+      "gloss": "to sleep (lying down); to go to bed; to lie in bed; to lie down; to sleep (with ",
+      "study_order": 64
+    },
+    {
+      "entry_id": 67587,
+      "kanji": "起きる",
+      "kana": "おきる",
+      "gloss": "to get up; to rise; to blaze up (fire); to wake up; to be awake; to stay awake; ",
+      "study_order": 65
+    },
+    {
+      "entry_id": 82620,
+      "kanji": "出る",
+      "kana": "でる",
+      "gloss": "to leave; to exit; to go out; to come out; to get out; to leave (on a journey); ",
+      "study_order": 66
+    },
+    {
+      "entry_id": 99655,
+      "kanji": "入れる",
+      "kana": "いれる",
+      "gloss": "to put in; to let in; to take in; to bring in; to insert; to install (e.g. softw",
+      "study_order": 67
+    },
+    {
+      "entry_id": 69253,
+      "kanji": "教える",
+      "kana": "おしえる",
+      "gloss": "to teach; to instruct; to tell; to inform; to preach",
+      "study_order": 68
+    },
+    {
+      "entry_id": 106675,
+      "kanji": "忘れる",
+      "kana": "わすれる",
+      "gloss": "to forget; to leave carelessly; to be forgetful of; to forget about; to forget (",
+      "study_order": 69
+    },
+    {
+      "entry_id": 115740,
+      "kanji": "行く",
+      "kana": "いく",
+      "gloss": "to go; to move (in a direction or towards a specific location); to head (towards",
+      "study_order": 70
+    },
+    {
+      "entry_id": 110421,
+      "kanji": "来る",
+      "kana": "くる",
+      "gloss": "to come (spatially or temporally); to approach; to arrive; to come back; to do .",
+      "study_order": 71
+    },
+    {
+      "entry_id": 118115,
+      "kanji": "言う",
+      "kana": "いう",
+      "gloss": "to say; to utter; to declare; to name; to call; to go (e.g. \"the alarm went ping",
+      "study_order": 72
+    },
+    {
+      "entry_id": 83358,
+      "kanji": "書く",
+      "kana": "かく",
+      "gloss": "to write; to compose; to pen; to draw; to paint",
+      "study_order": 73
+    },
+    {
+      "entry_id": 98363,
+      "kanji": "読む",
+      "kana": "よむ",
+      "gloss": "to read; to count; to guess; to predict; to read (someone's thoughts); to see (e",
+      "study_order": 74
+    },
+    {
+      "entry_id": 119341,
+      "kanji": "聞く",
+      "kana": "きく",
+      "gloss": "to hear; to listen (e.g. to music); to ask; to enquire; to query; to hear about;",
+      "study_order": 75
+    },
+    {
+      "entry_id": 112344,
+      "kanji": "話す",
+      "kana": "はなす",
+      "gloss": "to talk; to speak; to converse; to chat; to tell; to explain; to narrate; to men",
+      "study_order": 76
+    },
+    {
+      "entry_id": 60492,
+      "kanji": "飲む",
+      "kana": "のむ",
+      "gloss": "to drink; to gulp; to swallow; to take (medicine); to smoke (tobacco); to engulf",
+      "study_order": 77
+    },
+    {
+      "entry_id": 100759,
+      "kanji": "買う",
+      "kana": "かう",
+      "gloss": "to buy; to purchase; to value; to have a high opinion; to stir; to provoke; to d",
+      "study_order": 78
+    },
+    {
+      "entry_id": 92390,
+      "kanji": "待つ",
+      "kana": "まつ",
+      "gloss": "to wait; to await; to look forward to; to anticipate; to depend on; to need",
+      "study_order": 79
+    },
+    {
+      "entry_id": 79636,
+      "kanji": "持つ",
+      "kana": "もつ",
+      "gloss": "to hold (in one's hand); to take; to carry; to possess; to have; to own; to main",
+      "study_order": 80
+    },
+    {
+      "entry_id": 82097,
+      "kanji": "住む",
+      "kana": "すむ",
+      "gloss": "to live (of humans); to reside; to inhabit; to dwell; to abide",
+      "study_order": 81
+    },
+    {
+      "entry_id": 106045,
+      "kanji": "歩く",
+      "kana": "あるく",
+      "gloss": "to walk",
+      "study_order": 82
+    },
+    {
+      "entry_id": 91354,
+      "kanji": "走る",
+      "kana": "はしる",
+      "gloss": "to run; to run (of a vehicle); to drive; to travel; to move; to sail; to rush (t",
+      "study_order": 83
+    },
+    {
+      "entry_id": 61127,
+      "kanji": "泳ぐ",
+      "kana": "およぐ",
+      "gloss": "to swim",
+      "study_order": 84
+    },
+    {
+      "entry_id": 121282,
+      "kanji": "作る",
+      "kana": "つくる",
+      "gloss": "to make; to produce; to manufacture; to build; to construct; to prepare (food); ",
+      "study_order": 85
+    },
+    {
+      "entry_id": 326668,
+      "kanji": null,
+      "kana": "する",
+      "gloss": "to do; to carry out; to perform; to cause to become; to make (into); to turn (in",
+      "study_order": 86
+    },
+    {
+      "entry_id": 123843,
+      "kanji": "分かる",
+      "kana": "わかる",
+      "gloss": "to understand; to comprehend; to grasp; to see; to get; to follow; to become cle",
+      "study_order": 87
+    },
+    {
+      "entry_id": 93680,
+      "kanji": "知る",
+      "kana": "しる",
+      "gloss": "to be aware of; to know; to be conscious of; to cognize; to cognise; to notice; ",
+      "study_order": 88
+    },
+    {
+      "entry_id": 109679,
+      "kanji": "遊ぶ",
+      "kana": "あそぶ",
+      "gloss": "to play (games, sports); to enjoy oneself; to have a good time; to mess about (w",
+      "study_order": 89
+    },
+    {
+      "entry_id": 78343,
+      "kanji": "使う",
+      "kana": "つかう",
+      "gloss": "to use (a thing, method, etc.); to make use of; to put to use; to use (a person,",
+      "study_order": 90
+    },
+    {
+      "entry_id": 78969,
+      "kanji": "死ぬ",
+      "kana": "しぬ",
+      "gloss": "to die; to pass away; to lose spirit; to lose vigor; to look dead; to cease; to ",
+      "study_order": 91
+    },
+    {
+      "entry_id": 121023,
+      "kanji": "立つ",
+      "kana": "たつ",
+      "gloss": "to stand; to rise; to stand up; to find oneself (e.g. in a difficult position); ",
+      "study_order": 92
+    },
+    {
+      "entry_id": 76434,
+      "kanji": "座る",
+      "kana": "すわる",
+      "gloss": "to sit; to squat; to assume (a position); to hold steady; to hold still",
+      "study_order": 93
+    },
+    {
+      "entry_id": 76023,
+      "kanji": "今",
+      "kana": "いま",
+      "gloss": "now; the present time; just now; soon; immediately; another; more",
+      "study_order": 94
+    },
+    {
+      "entry_id": 115814,
+      "kanji": "今日",
+      "kana": "きょう",
+      "gloss": "today; this day; these days; recently; nowadays",
+      "study_order": 95
+    },
+    {
+      "entry_id": 117385,
+      "kanji": "明日",
+      "kana": "あした",
+      "gloss": "tomorrow; near future",
+      "study_order": 96
+    },
+    {
+      "entry_id": 115853,
+      "kanji": "昨日",
+      "kana": "きのう",
+      "gloss": "yesterday",
+      "study_order": 97
+    },
+    {
+      "entry_id": 99433,
+      "kanji": "日",
+      "kana": "ひ",
+      "gloss": "day; days; sun; sunshine; sunlight; (the) day; daytime; date; deadline",
+      "study_order": 98
+    },
+    {
+      "entry_id": 94674,
+      "kanji": "朝",
+      "kana": "あさ",
+      "gloss": "morning; breakfast; next morning",
+      "study_order": 99
+    },
+    {
+      "entry_id": 94407,
+      "kanji": "昼",
+      "kana": "ひる",
+      "gloss": "noon; midday; daytime; lunch",
+      "study_order": 100
+    },
+    {
+      "entry_id": 108915,
+      "kanji": "夜",
+      "kana": "よる",
+      "gloss": "evening; night; dinner",
+      "study_order": 101
+    },
+    {
+      "entry_id": 109767,
+      "kanji": "夕方",
+      "kana": "ゆうがた",
+      "gloss": "evening; dusk",
+      "study_order": 102
+    },
+    {
+      "entry_id": 80431,
+      "kanji": "射る",
+      "kana": "いる",
+      "gloss": "to shoot (arrow, bolt, dart)",
+      "study_order": 103
+    },
+    {
+      "entry_id": 99651,
+      "kanji": "入る",
+      "kana": "いる",
+      "gloss": "to get in; to go in; to come in; to flow into; to set; to set in",
+      "study_order": 104
+    },
+    {
+      "entry_id": 110290,
+      "kanji": "要る",
+      "kana": "いる",
+      "gloss": "to be needed; to be wanted",
+      "study_order": 105
+    },
+    {
+      "entry_id": 115478,
+      "kanji": null,
+      "kana": "いる",
+      "gloss": "to be (of animate things); to exist; to stay; to be ...-ing; to have been ...-ing",
+      "study_order": 106
+    },
+    {
+      "entry_id": 326644,
+      "kanji": null,
+      "kana": "ください",
+      "gloss": "please (give me); please (do for me)",
+      "study_order": 107
+    },
+    {
+      "entry_id": 107362,
+      "kanji": "毎日",
+      "kana": "まいにち",
+      "gloss": "every day",
+      "study_order": 108
+    },
+    {
+      "entry_id": 76065,
+      "kanji": "今週",
+      "kana": "こんしゅう",
+      "gloss": "this week",
+      "study_order": 109
+    },
+    {
+      "entry_id": 89312,
+      "kanji": "先週",
+      "kana": "せんしゅう",
+      "gloss": "last week; the week before",
+      "study_order": 110
+    },
+    {
+      "entry_id": 110455,
+      "kanji": "来週",
+      "kana": "らいしゅう",
+      "gloss": "next week",
+      "study_order": 111
+    },
+    {
+      "entry_id": 76050,
+      "kanji": "今月",
+      "kana": "こんげつ",
+      "gloss": "this month",
+      "study_order": 112
+    },
+    {
+      "entry_id": 89271,
+      "kanji": "先月",
+      "kana": "せんげつ",
+      "gloss": "last month",
+      "study_order": 113
+    },
+    {
+      "entry_id": 110444,
+      "kanji": "来月",
+      "kana": "らいげつ",
+      "gloss": "next month",
+      "study_order": 114
+    },
+    {
+      "entry_id": 107359,
+      "kanji": "毎朝",
+      "kana": "まいあさ",
+      "gloss": "every morning",
+      "study_order": 115
+    },
+    {
+      "entry_id": 59137,
+      "kanji": "一",
+      "kana": "いち",
+      "gloss": "one; best; first; foremost; beginning; start; a (single); one (of many); ace (pl",
+      "study_order": 116
+    },
+    {
+      "entry_id": 64227,
+      "kanji": "会う",
+      "kana": "あう",
+      "gloss": "to meet; to encounter; to see; to have an interview",
+      "study_order": 117
+    },
+    {
+      "entry_id": 99026,
+      "kanji": "二",
+      "kana": "に",
+      "gloss": "two",
+      "study_order": 118
+    },
+    {
+      "entry_id": 115873,
+      "kanji": "三",
+      "kana": "さん",
+      "gloss": "three; tri-",
+      "study_order": 119
+    },
+    {
+      "entry_id": 115918,
+      "kanji": "四",
+      "kana": "し",
+      "gloss": "four",
+      "study_order": 120
+    },
+    {
+      "entry_id": 73379,
+      "kanji": "五",
+      "kana": "ご",
+      "gloss": "five",
+      "study_order": 121
+    },
+    {
+      "entry_id": 117574,
+      "kanji": "六",
+      "kana": "ろく",
+      "gloss": "six",
+      "study_order": 122
+    },
+    {
+      "entry_id": 80050,
+      "kanji": "七",
+      "kana": "しち",
+      "gloss": "seven; hepta-",
+      "study_order": 123
+    },
+    {
+      "entry_id": 116987,
+      "kanji": "八",
+      "kana": "はち",
+      "gloss": "eight",
+      "study_order": 124
+    },
+    {
+      "entry_id": 115532,
+      "kanji": "九",
+      "kana": "きゅう",
+      "gloss": "nine",
+      "study_order": 125
+    },
+    {
+      "entry_id": 116026,
+      "kanji": "十",
+      "kana": "じゅう",
+      "gloss": "ten; ten years of age",
+      "study_order": 126
+    },
+    {
+      "entry_id": 102646,
+      "kanji": "百",
+      "kana": "ひゃく",
+      "gloss": "100; hundred",
+      "study_order": 127
+    },
+    {
+      "entry_id": 89413,
+      "kanji": "千",
+      "kana": "せん",
+      "gloss": "1,000; thousand",
+      "study_order": 128
+    },
+    {
+      "entry_id": 117335,
+      "kanji": "万",
+      "kana": "まん",
+      "gloss": "10,000; ten thousand; myriad; everything; all; various",
+      "study_order": 129
+    },
+    {
+      "entry_id": 326724,
+      "kanji": "一つ",
+      "kana": "ひとつ",
+      "gloss": "one; for one thing; only; (not) even; just (e.g. \"just try it\"); some kind of; o",
+      "study_order": 130
+    },
+    {
+      "entry_id": 326728,
+      "kanji": "二つ",
+      "kana": "ふたつ",
+      "gloss": "two",
+      "study_order": 131
+    },
+    {
+      "entry_id": 326741,
+      "kanji": "三つ",
+      "kana": "みっつ",
+      "gloss": "three; three years of age",
+      "study_order": 132
+    },
+    {
+      "entry_id": 84461,
+      "kanji": "上",
+      "kana": "うえ",
+      "gloss": "above; up; over; elder (e.g. daughter); top; summit; head (e.g. of a staircase);",
+      "study_order": 133
+    },
+    {
+      "entry_id": 62392,
+      "kanji": "下",
+      "kana": "した",
+      "gloss": "below; down; under; younger (e.g. daughter); bottom; beneath; underneath; just a",
+      "study_order": 134
+    },
+    {
+      "entry_id": 98633,
+      "kanji": "中",
+      "kana": "うち",
+      "gloss": "inside; within; while (e.g. one is young); during; within (e.g. a day); in the c",
+      "study_order": 135
+    },
+    {
+      "entry_id": 64873,
+      "kanji": "外",
+      "kana": "そと",
+      "gloss": "outside; exterior; the open (air); other place; somewhere else; outside one's gr",
+      "study_order": 136
+    },
+    {
+      "entry_id": 89967,
+      "kanji": "前",
+      "kana": "まえ",
+      "gloss": "in front (of); before (e.g. a building); before; earlier; previously; prior; ago",
+      "study_order": 137
+    },
+    {
+      "entry_id": 73544,
+      "kanji": "後ろ",
+      "kana": "うしろ",
+      "gloss": "back; behind; rear",
+      "study_order": 138
+    },
+    {
+      "entry_id": 111476,
+      "kanji": null,
+      "kana": "となり",
+      "gloss": "next (to); adjoining; adjacent; house next door; neighbouring house; next-door n",
+      "study_order": 139
+    },
+    {
+      "entry_id": 69917,
+      "kanji": "近く",
+      "kana": "ちかく",
+      "gloss": "near; neighbourhood; neighborhood; vicinity; nearly (e.g. \"it took nearly one ye",
+      "study_order": 140
+    },
+    {
+      "entry_id": 326652,
+      "kanji": null,
+      "kana": "この",
+      "gloss": "this; these",
+      "study_order": 141
+    },
+    {
+      "entry_id": 326677,
+      "kanji": null,
+      "kana": "その",
+      "gloss": "that; the; part (as in \"part two\"); um ...; er ...; uh ...",
+      "study_order": 142
+    },
+    {
+      "entry_id": 36247,
+      "kanji": null,
+      "kana": "あの",
+      "gloss": "say; well; um; er",
+      "study_order": 143
+    },
+    {
+      "entry_id": 326709,
+      "kanji": null,
+      "kana": "どの",
+      "gloss": "Mr.; Mrs.; Miss; Ms.",
+      "study_order": 144
+    },
+    {
+      "entry_id": 326649,
+      "kanji": null,
+      "kana": "こちら",
+      "gloss": "this way; this direction; here; this (one); I; me; we; us; this person",
+      "study_order": 145
+    },
+    {
+      "entry_id": 326675,
+      "kanji": null,
+      "kana": "そちら",
+      "gloss": "that way; that direction; there; that (one); you; your family; your company; tha",
+      "study_order": 146
+    },
+    {
+      "entry_id": 326624,
+      "kanji": null,
+      "kana": "あちら",
+      "gloss": "that way; that direction; over there; yonder; that (one); that person; there; fo",
+      "study_order": 147
+    },
+    {
+      "entry_id": 326706,
+      "kanji": null,
+      "kana": "どちら",
+      "gloss": "which way; which direction; where; which one (esp. of two alternatives); who",
+      "study_order": 148
+    },
+    {
+      "entry_id": 326704,
+      "kanji": null,
+      "kana": "どこ",
+      "gloss": "where; what place; how much (long, far); what extent",
+      "study_order": 149
+    },
+    {
+      "entry_id": 62969,
+      "kanji": null,
+      "kana": "いつ",
+      "gloss": "when; at what time; how soon; normal times; ordinary days",
+      "study_order": 150
+    },
+    {
+      "entry_id": 326628,
+      "kanji": null,
+      "kana": "いくら",
+      "gloss": "how much; something over; and something; -odd; however (much); no matter how",
+      "study_order": 151
+    },
+    {
+      "entry_id": 326627,
+      "kanji": null,
+      "kana": "いくつ",
+      "gloss": "how many?; how old?",
+      "study_order": 152
+    },
+    {
+      "entry_id": 206906,
+      "kanji": null,
+      "kana": "どう",
+      "gloss": "precisely; exactly; plumb; totally; very much; damn; stupid; cursed",
+      "study_order": 153
+    },
+    {
+      "entry_id": 326703,
+      "kanji": null,
+      "kana": "どうして",
+      "gloss": "how; in what way; by what means; why; for what reason; for what purpose; what fo",
+      "study_order": 154
+    },
+    {
+      "entry_id": 326713,
+      "kanji": null,
+      "kana": "なぜ",
+      "gloss": "why; how",
+      "study_order": 155
+    },
+    {
+      "entry_id": 37969,
+      "kanji": null,
+      "kana": "はい",
+      "gloss": "yes; that is correct; understood; I see; OK; okay; present; here; pardon?; what'",
+      "study_order": 156
+    },
+    {
+      "entry_id": 326336,
+      "kanji": null,
+      "kana": "いいえ",
+      "gloss": "no; nay",
+      "study_order": 157
+    },
+    {
+      "entry_id": 76794,
+      "kanji": null,
+      "kana": "すみません",
+      "gloss": "excuse me; pardon me; I'm sorry; I beg your pardon; thank you",
+      "study_order": 158
+    },
+    {
+      "entry_id": 326393,
+      "kanji": null,
+      "kana": "ごめんなさい",
+      "gloss": "I'm sorry; my apologies; excuse me; pardon me",
+      "study_order": 159
+    },
+    {
+      "entry_id": 84627,
+      "kanji": "上手",
+      "kana": "じょうず",
+      "gloss": "skillful; skilled; proficient; good (at); adept; clever; flattery",
+      "study_order": 160
+    },
+    {
+      "entry_id": 62528,
+      "kanji": "下手",
+      "kana": "へた",
+      "gloss": "unskillful; poor; awkward; imprudent; untactful",
+      "study_order": 161
+    },
+    {
+      "entry_id": 326371,
+      "kanji": null,
+      "kana": "とても",
+      "gloss": "very; awfully; exceedingly; (not) at all; by no means; simply (cannot)",
+      "study_order": 162
+    },
+    {
+      "entry_id": 38449,
+      "kanji": null,
+      "kana": "もう",
+      "gloss": "now; soon; shortly; before long; presently; already; yet; by now; (not) anymore;",
+      "study_order": 163
+    },
+    {
+      "entry_id": 326738,
+      "kanji": null,
+      "kana": "まだ",
+      "gloss": "still; as yet; only; (not) yet; more; (more) still; at least; comparatively; rel",
+      "study_order": 164
+    },
+    {
+      "entry_id": 38468,
+      "kanji": null,
+      "kana": "もっと",
+      "gloss": "(some) more; even more; longer; further",
+      "study_order": 165
+    },
+    {
+      "entry_id": 326633,
+      "kanji": null,
+      "kana": "いつも",
+      "gloss": "always; all the time; at all times; never; usual; regular; habitual; customary",
+      "study_order": 166
+    },
+    {
+      "entry_id": 90319,
+      "kanji": "全然",
+      "kana": "ぜんぜん",
+      "gloss": "(not) at all; (not) in the slightest; wholly; entirely; completely; totally; ext",
+      "study_order": 167
+    },
+    {
+      "entry_id": 326686,
+      "kanji": null,
+      "kana": "たくさん",
+      "gloss": "a lot; lots; plenty; many; a large number; much; a great deal; a good deal; enou",
+      "study_order": 168
+    },
+    {
+      "entry_id": 83988,
+      "kanji": "少し",
+      "kana": "すこし",
+      "gloss": "small quantity; little; few; something; little while; short distance",
+      "study_order": 169
+    },
+    {
+      "entry_id": 64786,
+      "kanji": "開ける",
+      "kana": "あける",
+      "gloss": "to open (a door, etc.); to unwrap (e.g. parcel, package); to unlock; to open (fo",
+      "study_order": 170
+    },
+    {
+      "entry_id": 70922,
+      "kanji": "兄",
+      "kana": "あに",
+      "gloss": "older brother; elder brother",
+      "study_order": 171
+    },
+    {
+      "entry_id": 78547,
+      "kanji": "姉",
+      "kana": "あね",
+      "gloss": "older sister; elder sister",
+      "study_order": 172
+    },
+    {
+      "entry_id": 110382,
+      "kanji": "浴びる",
+      "kana": "あびる",
+      "gloss": "to dash over oneself (e.g. water); to take (e.g. shower); to bask in (e.g. the s",
+      "study_order": 173
+    },
+    {
+      "entry_id": 107348,
+      "kanji": "妹",
+      "kana": "いもうと",
+      "gloss": "younger sister",
+      "study_order": 174
+    },
+    {
+      "entry_id": 116914,
+      "kanji": "入口",
+      "kana": "いりぐち",
+      "gloss": "entrance; entry; gate; approach; mouth",
+      "study_order": 175
+    },
+    {
+      "entry_id": 36696,
+      "kanji": "お母さん",
+      "kana": "おかあさん",
+      "gloss": "mother; mom; mum; ma; wife",
+      "study_order": 176
+    },
+    {
+      "entry_id": 61739,
+      "kanji": "奥さん",
+      "kana": "おくさん",
+      "gloss": "wife; your wife; his wife; married lady; madam",
+      "study_order": 177
+    },
+    {
+      "entry_id": 326359,
+      "kanji": null,
+      "kana": "おじさん",
+      "gloss": "uncle; old man; mister; manybar goatfish (Parupeneus multifasciatus)",
+      "study_order": 178
+    },
+    {
+      "entry_id": 36550,
+      "kanji": "お手洗い",
+      "kana": "おてあらい",
+      "gloss": "toilet; restroom; lavatory; bathroom",
+      "study_order": 179
+    },
+    {
+      "entry_id": 36682,
+      "kanji": "お父さん",
+      "kana": "おとうさん",
+      "gloss": "father; dad; papa; pa; pop; daddy; dada; husband; you; he; him",
+      "study_order": 180
+    },
+    {
+      "entry_id": 116648,
+      "kanji": "弟",
+      "kana": "おとうと",
+      "gloss": "younger brother; little brother; kid brother; brother-in-law (spouse's younger b",
+      "study_order": 181
+    },
+    {
+      "entry_id": 36469,
+      "kanji": "お兄さん",
+      "kana": "おにいさん",
+      "gloss": "older brother; elder brother; young man; buddy; fella; laddie",
+      "study_order": 182
+    },
+    {
+      "entry_id": 36515,
+      "kanji": "お姉さん",
+      "kana": "おねえさん",
+      "gloss": "older sister; elder sister; young lady; miss; ma'am; older girl",
+      "study_order": 183
+    },
+    {
+      "entry_id": 326640,
+      "kanji": null,
+      "kana": "おばあさん",
+      "gloss": "grandmother; old woman; female senior citizen",
+      "study_order": 184
+    },
+    {
+      "entry_id": 326360,
+      "kanji": null,
+      "kana": "おばさん",
+      "gloss": "aunt",
+      "study_order": 185
+    },
+    {
+      "entry_id": 326361,
+      "kanji": "お風呂",
+      "kana": "おふろ",
+      "gloss": "bath",
+      "study_order": 186
+    },
+    {
+      "entry_id": 63371,
+      "kanji": "家族",
+      "kana": "かぞく",
+      "gloss": "family; members of a family",
+      "study_order": 187
+    },
+    {
+      "entry_id": 63395,
+      "kanji": "家庭",
+      "kana": "かてい",
+      "gloss": "home; family; household",
+      "study_order": 188
+    },
+    {
+      "entry_id": 61687,
+      "kanji": "汚い",
+      "kana": "きたない",
+      "gloss": "dirty; filthy; foul; unclean; disordered; messy; untidy; poor (e.g. handwriting)",
+      "study_order": 189
+    },
+    {
+      "entry_id": 70932,
+      "kanji": "兄弟",
+      "kana": "きょうだい",
+      "gloss": "siblings; brothers and sisters; brothers; siblings-in-law; brothers-in-law; sist",
+      "study_order": 190
+    },
+    {
+      "entry_id": 74343,
+      "kanji": "口",
+      "kana": "くち",
+      "gloss": "mouth; opening; hole; gap; orifice; mouth (of a bottle); spout; nozzle; mouthpie",
+      "study_order": 191
+    },
+    {
+      "entry_id": 72678,
+      "kanji": "玄関",
+      "kana": "げんかん",
+      "gloss": "entrance; front door; entryway; entranceway; entry hall; vestibule; porch; foyer",
+      "study_order": 192
+    },
+    {
+      "entry_id": 326676,
+      "kanji": null,
+      "kana": "そっち",
+      "gloss": "that way; that direction; there; that (one); you; your family; your company; tha",
+      "study_order": 193
+    },
+    {
+      "entry_id": 92657,
+      "kanji": "台所",
+      "kana": "だいどころ",
+      "gloss": "kitchen; financial situation",
+      "study_order": 194
+    },
+    {
+      "entry_id": 73213,
+      "kanji": "戸",
+      "kana": "と",
+      "gloss": "door (esp. Japanese-style); shutter; window shutter; entrance (to a home); narro",
+      "study_order": 195
+    },
+    {
+      "entry_id": 73214,
+      "kanji": "門",
+      "kana": "と",
+      "gloss": "door (esp. Japanese-style); shutter; window shutter; entrance (to a home); narro",
+      "study_order": 196
+    },
+    {
+      "entry_id": 81103,
+      "kanji": "取る",
+      "kana": "とる",
+      "gloss": "to take; to pick up; to grab; to catch; to pass; to hand; to give; to get; to ob",
+      "study_order": 197
+    },
+    {
+      "entry_id": 95723,
+      "kanji": "庭",
+      "kana": "にわ",
+      "gloss": "garden; yard; courtyard; field (of action); area",
+      "study_order": 198
+    },
+    {
+      "entry_id": 60361,
+      "kanji": "引く",
+      "kana": "ひく",
+      "gloss": "to pull; to tug; to lead (e.g. a horse); to draw (attention, sympathy, etc.); to",
+      "study_order": 199
+    },
+    {
+      "entry_id": 91197,
+      "kanji": "窓",
+      "kana": "まど",
+      "gloss": "window",
+      "study_order": 200
+    },
+    {
+      "entry_id": 73147,
+      "kanji": "呼ぶ",
+      "kana": "よぶ",
+      "gloss": "to call out (to); to call; to invoke; to summon (a doctor, etc.); to invite; to ",
+      "study_order": 201
+    },
+    {
+      "entry_id": 122691,
+      "kanji": "両親",
+      "kana": "りょうしん",
+      "gloss": "parents; both parents",
+      "study_order": 202
+    },
+    {
+      "entry_id": 39233,
+      "kanji": null,
+      "kana": "アパート",
+      "gloss": "apartment building; apartment block; apartment house; apartment",
+      "study_order": 203
+    },
+    {
+      "entry_id": 48643,
+      "kanji": null,
+      "kana": "トイレ",
+      "gloss": "toilet; restroom; bathroom; lavatory",
+      "study_order": 204
+    },
+    {
+      "entry_id": 49036,
+      "kanji": null,
+      "kana": "ドア",
+      "gloss": "door (Western-style, car, etc.)",
+      "study_order": 205
+    },
+    {
+      "entry_id": 326622,
+      "kanji": null,
+      "kana": "あげる",
+      "gloss": "to raise; to elevate; to do up (one's hair); to fly (a kite, etc.); to launch (f",
+      "study_order": 206
+    },
+    {
+      "entry_id": 117893,
+      "kanji": "朝ご飯",
+      "kana": "あさごはん",
+      "gloss": "breakfast",
+      "study_order": 207
+    },
+    {
+      "entry_id": 66222,
+      "kanji": "甘い",
+      "kana": "あまい",
+      "gloss": "sweet-tasting; sweet; sugary; sugared; fragrant (smelling); sweet (music); light",
+      "study_order": 208
+    },
+    {
+      "entry_id": 117458,
+      "kanji": "余り",
+      "kana": "あまり",
+      "gloss": "remainder; remnant; rest; balance; surplus; remains (of a meal); leftovers; (not",
+      "study_order": 209
+    },
+    {
+      "entry_id": 58233,
+      "kanji": "飴",
+      "kana": "あめ",
+      "gloss": "(hard) candy; toffee; rice-sugar; sugar made from the starch of rice, potatoes, ",
+      "study_order": 210
+    },
+    {
+      "entry_id": 106684,
+      "kanji": "忙しい",
+      "kana": "いそがしい",
+      "gloss": "busy; occupied; hectic; restless; hurried; fidgety",
+      "study_order": 211
+    },
+    {
+      "entry_id": 92418,
+      "kanji": null,
+      "kana": "いただきます",
+      "gloss": "thank you (for the meal just served); I receive (this meal)",
+      "study_order": 212
+    },
+    {
+      "entry_id": 36441,
+      "kanji": "お菓子",
+      "kana": "おかし",
+      "gloss": "confections; sweets; candy; cake",
+      "study_order": 213
+    },
+    {
+      "entry_id": 326358,
+      "kanji": "お皿",
+      "kana": "おさら",
+      "gloss": "plate; dish",
+      "study_order": 214
+    },
+    {
+      "entry_id": 105870,
+      "kanji": "お弁当",
+      "kana": "おべんとう",
+      "gloss": "bento; Japanese box lunch",
+      "study_order": 215
+    },
+    {
+      "entry_id": 67260,
+      "kanji": "帰る",
+      "kana": "かえる",
+      "gloss": "to return; to come home; to go home; to go back; to leave; to get home; to get t",
+      "study_order": 216
+    },
+    {
+      "entry_id": 65417,
+      "kanji": "掛ける",
+      "kana": "かける",
+      "gloss": "to hang up (e.g. a coat, a picture on the wall); to let hang; to suspend (from);",
+      "study_order": 217
+    },
+    {
+      "entry_id": 86329,
+      "kanji": "辛い",
+      "kana": "からい",
+      "gloss": "spicy; hot; salty; harsh (criticism); severe (punishment); strict; painful; bitt",
+      "study_order": 218
+    },
+    {
+      "entry_id": 115193,
+      "kanji": "可愛い",
+      "kana": "かわいい",
+      "gloss": "cute; adorable; charming; lovely; pretty; dear; precious; darling; pet; innocent",
+      "study_order": 219
+    },
+    {
+      "entry_id": 67975,
+      "kanji": "喫茶店",
+      "kana": "きっさてん",
+      "gloss": "coffee shop; tearoom; coffee lounge; coffeehouse; cafe",
+      "study_order": 220
+    },
+    {
+      "entry_id": 68636,
+      "kanji": "牛乳",
+      "kana": "ぎゅうにゅう",
+      "gloss": "(cow's) milk",
+      "study_order": 221
+    },
+    {
+      "entry_id": 63497,
+      "kanji": "果物",
+      "kana": "くだもの",
+      "gloss": "fruit",
+      "study_order": 222
+    },
+    {
+      "entry_id": 119673,
+      "kanji": "曇り",
+      "kana": "くもり",
+      "gloss": "cloudiness; cloudy weather; fog (on a mirror, glasses, etc.); cloud (e.g. in mar",
+      "study_order": 223
+    },
+    {
+      "entry_id": 37198,
+      "kanji": null,
+      "kana": "ごちそうさまでした",
+      "gloss": "thank you for the meal; that was a delicious meal; what a wonderful meal",
+      "study_order": 224
+    },
+    {
+      "entry_id": 115482,
+      "kanji": "魚",
+      "kana": "さかな",
+      "gloss": "fish",
+      "study_order": 225
+    },
+    {
+      "entry_id": 76408,
+      "kanji": "砂糖",
+      "kana": "さとう",
+      "gloss": "sugar",
+      "study_order": 226
+    },
+    {
+      "entry_id": 115042,
+      "kanji": "塩",
+      "kana": "しお",
+      "gloss": "salt; common salt; table salt; sodium chloride; hardship; toil; trouble; saltine",
+      "study_order": 227
+    },
+    {
+      "entry_id": 95787,
+      "kanji": "締める",
+      "kana": "しめる",
+      "gloss": "to tie; to fasten; to tighten; to wear (necktie, belt); to put on; to total; to ",
+      "study_order": 228
+    },
+    {
+      "entry_id": 85304,
+      "kanji": "食べ物",
+      "kana": "たべもの",
+      "gloss": "food",
+      "study_order": 229
+    },
+    {
+      "entry_id": 110613,
+      "kanji": "卵",
+      "kana": "たまご",
+      "gloss": "eggs; egg; spawn; roe; (hen's) egg; (an expert) in the making; beginning; origin",
+      "study_order": 230
+    },
+    {
+      "entry_id": 82611,
+      "kanji": "出す",
+      "kana": "だす",
+      "gloss": "to take out; to get out; to put out; to reveal; to show; to submit (e.g. thesis)",
+      "study_order": 231
+    },
+    {
+      "entry_id": 121184,
+      "kanji": "茶碗",
+      "kana": "ちゃわん",
+      "gloss": "rice bowl; tea cup; teacup",
+      "study_order": 232
+    },
+    {
+      "entry_id": 94954,
+      "kanji": "鳥",
+      "kana": "とり",
+      "gloss": "bird; bird meat (esp. chicken meat); fowl; poultry",
+      "study_order": 233
+    },
+    {
+      "entry_id": 71343,
+      "kanji": "とり肉",
+      "kana": "とりにく",
+      "gloss": "chicken meat; fowl; poultry; bird meat",
+      "study_order": 234
+    },
+    {
+      "entry_id": 99388,
+      "kanji": "肉",
+      "kana": "にく",
+      "gloss": "flesh; meat; the physical body (as opposed to the spirit); thickness; ink pad",
+      "study_order": 235
+    },
+    {
+      "entry_id": 84543,
+      "kanji": "登る",
+      "kana": "のぼる",
+      "gloss": "to ascend; to go up; to climb; to ascend (as a natural process, e.g. the Sun); t",
+      "study_order": 236
+    },
+    {
+      "entry_id": 69310,
+      "kanji": "橋",
+      "kana": "はし",
+      "gloss": "bridge",
+      "study_order": 237
+    },
+    {
+      "entry_id": 101131,
+      "kanji": "箸",
+      "kana": "はし",
+      "gloss": "chopsticks",
+      "study_order": 238
+    },
+    {
+      "entry_id": 101858,
+      "kanji": "晩",
+      "kana": "ばん",
+      "gloss": "evening; night; dinner; evening meal; counter for nights",
+      "study_order": 239
+    },
+    {
+      "entry_id": 122281,
+      "kanji": "晩ご飯",
+      "kana": "ばんごはん",
+      "gloss": "dinner; evening meal",
+      "study_order": 240
+    },
+    {
+      "entry_id": 64785,
+      "kanji": "開く",
+      "kana": "ひらく",
+      "gloss": "to open; to undo; to unseal; to unpack; to bloom; to unfold; to spread out; to o",
+      "study_order": 241
+    },
+    {
+      "entry_id": 76966,
+      "kanji": null,
+      "kana": "ある",
+      "gloss": "to be; to exist; to live; to have; to be located; to be equipped with; to happen",
+      "study_order": 242
+    },
+    {
+      "entry_id": 59842,
+      "kanji": "一番",
+      "kana": "いちばん",
+      "gloss": "number one; first; first place; best; most; game; round; bout; as a test; as an ",
+      "study_order": 243
+    },
+    {
+      "entry_id": 63513,
+      "kanji": "歌",
+      "kana": "うた",
+      "gloss": "song; classical Japanese poetry (esp. tanka); modern poetry",
+      "study_order": 244
+    },
+    {
+      "entry_id": 61631,
+      "kanji": "鉛筆",
+      "kana": "えんぴつ",
+      "gloss": "pencil",
+      "study_order": 245
+    },
+    {
+      "entry_id": 93870,
+      "kanji": "置く",
+      "kana": "おく",
+      "gloss": "to put; to place; to leave (behind); to establish (an organization, a facility, ",
+      "study_order": 246
+    },
+    {
+      "entry_id": 65224,
+      "kanji": "角",
+      "kana": "かく",
+      "gloss": "angle; square; cube; bishop; third degree (of the Japanese and Chinese pentatoni",
+      "study_order": 247
+    },
+    {
+      "entry_id": 79076,
+      "kanji": "紙",
+      "kana": "かみ",
+      "gloss": "paper",
+      "study_order": 248
+    },
+    {
+      "entry_id": 69281,
+      "kanji": "教室",
+      "kana": "きょうしつ",
+      "gloss": "classroom; department; laboratory; single-room school; small school",
+      "study_order": 249
+    },
+    {
+      "entry_id": 88899,
+      "kanji": "切る",
+      "kana": "きる",
+      "gloss": "to cut; to cut through; to perform (surgery); to sever (connections, ties); to t",
+      "study_order": 250
+    },
+    {
+      "entry_id": 77064,
+      "kanji": "咲く",
+      "kana": "さく",
+      "gloss": "to bloom; to flower; to blossom; to open",
+      "study_order": 251
+    },
+    {
+      "entry_id": 82503,
+      "kanji": "宿題",
+      "kana": "しゅくだい",
+      "gloss": "homework; assignment; pending issue; unresolved problem; open question",
+      "study_order": 252
+    },
+    {
+      "entry_id": 100934,
+      "kanji": "白",
+      "kana": "しろ",
+      "gloss": "white; innocence; innocent person; blank space; white go stone; white dragon til",
+      "study_order": 253
+    },
+    {
+      "entry_id": 80020,
+      "kanji": "辞書",
+      "kana": "じしょ",
+      "gloss": "dictionary; lexicon; letter of resignation",
+      "study_order": 254
+    },
+    {
+      "entry_id": 81639,
+      "kanji": "授業",
+      "kana": "じゅぎょう",
+      "gloss": "lesson; class work; teaching; instruction",
+      "study_order": 255
+    },
+    {
+      "entry_id": 88096,
+      "kanji": "生徒",
+      "kana": "せいと",
+      "gloss": "pupil; student; schoolchild",
+      "study_order": 256
+    },
+    {
+      "entry_id": 92742,
+      "kanji": "大学",
+      "kana": "だいがく",
+      "gloss": "university; college; former central university of Kyoto (established under the r",
+      "study_order": 257
+    },
+    {
+      "entry_id": 67117,
+      "kanji": "机",
+      "kana": "つくえ",
+      "gloss": "desk",
+      "study_order": 258
+    },
+    {
+      "entry_id": 69154,
+      "kanji": "強い",
+      "kana": "つよい",
+      "gloss": "strong; potent; competent; domineering; tough; brawny; powerful; healthy; rugged",
+      "study_order": 259
+    },
+    {
+      "entry_id": 86884,
+      "kanji": "図書館",
+      "kana": "としょかん",
+      "gloss": "library",
+      "study_order": 260
+    },
+    {
+      "entry_id": 78946,
+      "kanji": "止まる",
+      "kana": "とまる",
+      "gloss": "to stop (moving); to come to a stop; to stop (doing, working, being supplied); t",
+      "study_order": 261
+    },
+    {
+      "entry_id": 326715,
+      "kanji": null,
+      "kana": "など",
+      "gloss": "et cetera; etc.; and the like; and so forth; or something; the likes of; for exa",
+      "study_order": 262
+    },
+    {
+      "entry_id": 78530,
+      "kanji": "始まる",
+      "kana": "はじまる",
+      "gloss": "to begin; to start; to commence; to happen (again); to begin (anew); to date (fr",
+      "study_order": 263
+    },
+    {
+      "entry_id": 83154,
+      "kanji": "始め",
+      "kana": "はじめ",
+      "gloss": "beginning; start; outset; opening; first (in line, etc.); origin; such as ...; n",
+      "study_order": 264
+    },
+    {
+      "entry_id": 83155,
+      "kanji": "初め",
+      "kana": "はじめ",
+      "gloss": "beginning; start; outset; opening; first (in line, etc.); origin; such as ...; n",
+      "study_order": 265
+    },
+    {
+      "entry_id": 94626,
+      "kanji": "貼る",
+      "kana": "はる",
+      "gloss": "to stick; to paste; to affix; to stretch; to spread; to strain; to tighten; to p",
+      "study_order": 266
+    },
+    {
+      "entry_id": 107568,
+      "kanji": "万年筆",
+      "kana": "まんねんひつ",
+      "gloss": "fountain pen",
+      "study_order": 267
+    },
+    {
+      "entry_id": 91610,
+      "kanji": "足",
+      "kana": "あし",
+      "gloss": "foot; paw; arm (of an octopus, squid, etc.); leg; gait; pace; bottom structural ",
+      "study_order": 268
+    },
+    {
+      "entry_id": 116795,
+      "kanji": "頭",
+      "kana": "あたま",
+      "gloss": "head; hair (on one's head); mind; brains; intellect; leader; chief; boss; captai",
+      "study_order": 269
+    },
+    {
+      "entry_id": 73533,
+      "kanji": "後",
+      "kana": "あと",
+      "gloss": "behind; rear; after; later; remainder; the rest; more (e.g. five more minutes); ",
+      "study_order": 270
+    },
+    {
+      "entry_id": 326619,
+      "kanji": null,
+      "kana": "あなた",
+      "gloss": "you; dear; honey",
+      "study_order": 271
+    },
+    {
+      "entry_id": 89713,
+      "kanji": "洗う",
+      "kana": "あらう",
+      "gloss": "to wash; to cleanse; to rinse; to inquire into; to investigate; to purify (one's",
+      "study_order": 272
+    },
+    {
+      "entry_id": 58701,
+      "kanji": "椅子",
+      "kana": "いす",
+      "gloss": "chair; stool; post; office; position",
+      "study_order": 273
+    },
+    {
+      "entry_id": 73388,
+      "kanji": "五つ",
+      "kana": "いつつ",
+      "gloss": "five; five years of age; eight o'clock (old time system)",
+      "study_order": 274
+    },
+    {
+      "entry_id": 85175,
+      "kanji": "色",
+      "kana": "いろ",
+      "gloss": "colour; color; hue; tint; tinge; shade; complexion; skin colour; skin color; loo",
+      "study_order": 275
+    },
+    {
+      "entry_id": 64752,
+      "kanji": "絵",
+      "kana": "え",
+      "gloss": "picture; drawing; painting; sketch; image (TV, film, etc.); footage",
+      "study_order": 276
+    },
+    {
+      "entry_id": 283694,
+      "kanji": "お正月",
+      "kana": "おしょうがつ",
+      "gloss": "New Year (esp. first three days); first month of the year; January",
+      "study_order": 277
+    },
+    {
+      "entry_id": 61931,
+      "kanji": "押す",
+      "kana": "おす",
+      "gloss": "to push; to press; to apply pressure from above; to press down; to stamp (i.e. a",
+      "study_order": 278
+    },
+    {
+      "entry_id": 114850,
+      "kanji": "一昨年",
+      "kana": "おととし",
+      "gloss": "year before last",
+      "study_order": 279
+    },
+    {
+      "entry_id": 36688,
+      "kanji": "お腹",
+      "kana": "おなか",
+      "gloss": "belly; abdomen; stomach",
+      "study_order": 280
+    },
+    {
+      "entry_id": 65216,
+      "kanji": "覚える",
+      "kana": "おぼえる",
+      "gloss": "to memorize; to memorise; to commit to memory; to learn by heart; to bear in min",
+      "study_order": 281
+    },
+    {
+      "entry_id": 118841,
+      "kanji": "降りる",
+      "kana": "おりる",
+      "gloss": "to descend (e.g. a mountain); to go down; to come down; to alight (e.g. from bus",
+      "study_order": 282
+    },
+    {
+      "entry_id": 105749,
+      "kanji": "返す",
+      "kana": "かえす",
+      "gloss": "to return (something); to restore; to put back; to turn over; to turn upside dow",
+      "study_order": 283
+    },
+    {
+      "entry_id": 66782,
+      "kanji": "顔",
+      "kana": "かお",
+      "gloss": "face; visage; look; expression; countenance; honor; honour; influence; notoriety",
+      "study_order": 284
+    },
+    {
+      "entry_id": 92207,
+      "kanji": "体",
+      "kana": "からだ",
+      "gloss": "body; torso; trunk; build; physique; frame; figure; health; constitution; corpse",
+      "study_order": 285
+    },
+    {
+      "entry_id": 71279,
+      "kanji": "軽い",
+      "kana": "かるい",
+      "gloss": "light (i.e. not heavy); feeling light (i.e. offering little resistance, moving e",
+      "study_order": 286
+    },
+    {
+      "entry_id": 84152,
+      "kanji": "消える",
+      "kana": "きえる",
+      "gloss": "to go out; to vanish; to disappear",
+      "study_order": 287
+    },
+    {
+      "entry_id": 88929,
+      "kanji": "切手",
+      "kana": "きって",
+      "gloss": "stamp (postage); merchandise certificate",
+      "study_order": 288
+    },
+    {
+      "entry_id": 68655,
+      "kanji": "去年",
+      "kana": "きょねん",
+      "gloss": "last year",
+      "study_order": 289
+    },
+    {
+      "entry_id": 94019,
+      "kanji": "着る",
+      "kana": "きる",
+      "gloss": "to wear (in modern Japanese, from the shoulders down); to put on; to bear (guilt",
+      "study_order": 290
+    },
+    {
+      "entry_id": 119561,
+      "kanji": null,
+      "kana": "きれい",
+      "gloss": "pretty; lovely; beautiful; fair; clean; clear; pure; tidy; neat; completely; ent",
+      "study_order": 291
+    },
+    {
+      "entry_id": 109152,
+      "kanji": "薬",
+      "kana": "くすり",
+      "gloss": "medicine; pharmaceuticals; (legal) drugs; pill; ointment; salve; efficacious che",
+      "study_order": 292
+    },
+    {
+      "entry_id": 62434,
+      "kanji": "降る",
+      "kana": "くだる",
+      "gloss": "to descend; to go down; to come down; to be handed down (of an order, judgment, ",
+      "study_order": 293
+    },
+    {
+      "entry_id": 70529,
+      "kanji": "靴",
+      "kana": "くつ",
+      "gloss": "shoe; shoes; boots; footwear; footgear",
+      "study_order": 294
+    },
+    {
+      "entry_id": 88334,
+      "kanji": "青",
+      "kana": "あお",
+      "gloss": "blue; azure; green; green light (traffic); black (horse coat color); blue 5-poin",
+      "study_order": 295
+    },
+    {
+      "entry_id": 172913,
+      "kanji": "赤",
+      "kana": "あか",
+      "gloss": "red; crimson; scarlet; red-containing colour (e.g. brown, pink, orange); Red (i.",
+      "study_order": 296
+    },
+    {
+      "entry_id": 61211,
+      "kanji": "駅",
+      "kana": "えき",
+      "gloss": "railway station; train station; staging post on a highway (in pre-modern Japan);",
+      "study_order": 297
+    },
+    {
+      "entry_id": 326641,
+      "kanji": null,
+      "kana": "おまわりさん",
+      "gloss": "police officer",
+      "study_order": 298
+    },
+    {
+      "entry_id": 326362,
+      "kanji": null,
+      "kana": "かかる",
+      "gloss": "to span; to bridge; to cross; to straddle",
+      "study_order": 299
+    },
+    {
+      "entry_id": 108585,
+      "kanji": "木",
+      "kana": "き",
+      "gloss": "tree; shrub; bush; wood; timber",
+      "study_order": 300
+    },
+    {
+      "entry_id": 70095,
+      "kanji": "銀行",
+      "kana": "ぎんこう",
+      "gloss": "bank; banking institution",
+      "study_order": 301
+    },
+    {
+      "entry_id": 71256,
+      "kanji": "警官",
+      "kana": "けいかん",
+      "gloss": "police officer; policeman; constable",
+      "study_order": 302
+    },
+    {
+      "entry_id": 74096,
+      "kanji": "公園",
+      "kana": "こうえん",
+      "gloss": "(public) park",
+      "study_order": 303
+    },
+    {
+      "entry_id": 119831,
+      "kanji": "交差点",
+      "kana": "こうさてん",
+      "gloss": "crossing; intersection",
+      "study_order": 304
+    },
+    {
+      "entry_id": 74010,
+      "kanji": "交番",
+      "kana": "こうばん",
+      "gloss": "police box; koban; small neighborhood police station; alternation; alternating (",
+      "study_order": 305
+    },
+    {
+      "entry_id": 85412,
+      "kanji": "信号",
+      "kana": "しんごう",
+      "gloss": "signal; signalling; signaling; traffic light; traffic signal",
+      "study_order": 306
+    },
+    {
+      "entry_id": 79947,
+      "kanji": "自転車",
+      "kana": "じてんしゃ",
+      "gloss": "bicycle; bike",
+      "study_order": 307
+    },
+    {
+      "entry_id": 116221,
+      "kanji": "丈夫",
+      "kana": "じょうぶ",
+      "gloss": "healthy; robust; strong; solid; durable",
+      "study_order": 308
+    },
+    {
+      "entry_id": 100615,
+      "kanji": "背広",
+      "kana": "せびろ",
+      "gloss": "business suit",
+      "study_order": 309
+    },
+    {
+      "entry_id": 71947,
+      "kanji": "建物",
+      "kana": "たてもの",
+      "gloss": "building",
+      "study_order": 310
+    },
+    {
+      "entry_id": 93736,
+      "kanji": "地下鉄",
+      "kana": "ちかてつ",
+      "gloss": "underground train; subway",
+      "study_order": 311
+    },
+    {
+      "entry_id": 93785,
+      "kanji": "地図",
+      "kana": "ちず",
+      "gloss": "map",
+      "study_order": 312
+    },
+    {
+      "entry_id": 79732,
+      "kanji": "次",
+      "kana": "つぎ",
+      "gloss": "next; following; subsequent; stage; station",
+      "study_order": 313
+    },
+    {
+      "entry_id": 99383,
+      "kanji": "賑やか",
+      "kana": "にぎやか",
+      "gloss": "bustling; busy; lively",
+      "study_order": 314
+    },
+    {
+      "entry_id": 117645,
+      "kanji": "箱",
+      "kana": "はこ",
+      "gloss": "box; case; chest; package; pack; crate; car (of a train, etc.); shamisen case; s",
+      "study_order": 315
+    },
+    {
+      "entry_id": 102307,
+      "kanji": "飛行機",
+      "kana": "ひこうき",
+      "gloss": "aeroplane; airplane; aircraft",
+      "study_order": 316
+    },
+    {
+      "entry_id": 115217,
+      "kanji": "暇",
+      "kana": "ひま",
+      "gloss": "spare time; free time; leisure; time (e.g. time it takes to do something); time ",
+      "study_order": 317
+    },
+    {
+      "entry_id": 102940,
+      "kanji": "病院",
+      "kana": "びょういん",
+      "gloss": "hospital; clinic; doctor's office; doctor's surgery; infirmary",
+      "study_order": 318
+    },
+    {
+      "entry_id": 123082,
+      "kanji": "町",
+      "kana": "まち",
+      "gloss": "town; block; neighbourhood; neighborhood; downtown; main street; street; road; 1",
+      "study_order": 319
+    },
+    {
+      "entry_id": 98077,
+      "kanji": "道",
+      "kana": "みち",
+      "gloss": "road; path; street; lane; passage; route; way; distance; journey; road (e.g. to ",
+      "study_order": 320
+    },
+    {
+      "entry_id": 109709,
+      "kanji": "郵便局",
+      "kana": "ゆうびんきょく",
+      "gloss": "post office",
+      "study_order": 321
+    },
+    {
+      "entry_id": 111871,
+      "kanji": "練習",
+      "kana": "れんしゅう",
+      "gloss": "practice; training; drill; (an) exercise; workout",
+      "study_order": 322
+    },
+    {
+      "entry_id": 47483,
+      "kanji": null,
+      "kana": "タクシー",
+      "gloss": "taxi",
+      "study_order": 323
+    },
+    {
+      "entry_id": 48050,
+      "kanji": null,
+      "kana": "テレビ",
+      "gloss": "television; TV; TV program; TV programme; TV broadcast",
+      "study_order": 324
+    },
+    {
+      "entry_id": 50513,
+      "kanji": null,
+      "kana": "バス",
+      "gloss": "bus",
+      "study_order": 325
+    },
+    {
+      "entry_id": 54027,
+      "kanji": null,
+      "kana": "ホテル",
+      "gloss": "hotel",
+      "study_order": 326
+    },
+    {
+      "entry_id": 326758,
+      "kanji": null,
+      "kana": "ワイシャツ",
+      "gloss": "shirt; business shirt; dress shirt",
+      "study_order": 327
+    },
+    {
+      "entry_id": 88337,
+      "kanji": "青い",
+      "kana": "あおい",
+      "gloss": "blue; azure; green; pale; gray; grey; unripe; inexperienced",
+      "study_order": 328
+    },
+    {
+      "entry_id": 88598,
+      "kanji": "赤い",
+      "kana": "あかい",
+      "gloss": "red; crimson; scarlet; vermilion; vermillion; Red; communist; beautiful",
+      "study_order": 329
+    },
+    {
+      "entry_id": 108302,
+      "kanji": "明るい",
+      "kana": "あかるい",
+      "gloss": "light; well-lit; well-lighted; bright (of a colour); brightly-coloured; brightly",
+      "study_order": 330
+    },
+    {
+      "entry_id": 117923,
+      "kanji": "暖かい",
+      "kana": "あたたかい",
+      "gloss": "warm; mild; (pleasantly) hot; considerate; kind; genial; warm (of a colour); mel",
+      "study_order": 331
+    },
+    {
+      "entry_id": 74309,
+      "kanji": "厚い",
+      "kana": "あつい",
+      "gloss": "thick; deep; heavy; kind; cordial; hospitable; warm; faithful; serious (of an il",
+      "study_order": 332
+    },
+    {
+      "entry_id": 99915,
+      "kanji": "熱い",
+      "kana": "あつい",
+      "gloss": "hot (thing); passionate (feelings, etc.); ardent; hot (e.g. gaze); hot (e.g. tem",
+      "study_order": 333
+    },
+    {
+      "entry_id": 66880,
+      "kanji": "危ない",
+      "kana": "あぶない",
+      "gloss": "dangerous; risky; hazardous; perilous; precarious; in danger; in jeopardy; criti",
+      "study_order": 334
+    },
+    {
+      "entry_id": 114910,
+      "kanji": "一日",
+      "kana": "いちにち",
+      "gloss": "one day; all day (long); throughout the day; first day of the month",
+      "study_order": 335
+    },
+    {
+      "entry_id": 326634,
+      "kanji": null,
+      "kana": "いろいろ",
+      "gloss": "various; all sorts of; variety of; various colors (colours)",
+      "study_order": 336
+    },
+    {
+      "entry_id": 101025,
+      "kanji": "薄い",
+      "kana": "うすい",
+      "gloss": "thin; pale; light; faint; watery; dilute; weak (taste, etc.); little (affection,",
+      "study_order": 337
+    },
+    {
+      "entry_id": 82332,
+      "kanji": "重い",
+      "kana": "おもい",
+      "gloss": "heavy; weighty; heavy (feeling); depressed; gloomy; blue; uneasy; slow; sluggish",
+      "study_order": 338
+    },
+    {
+      "entry_id": 64269,
+      "kanji": "会社員",
+      "kana": "かいしゃいん",
+      "gloss": "company employee; office worker; white-collar worker",
+      "study_order": 339
+    },
+    {
+      "entry_id": 118900,
+      "kanji": "買い物",
+      "kana": "かいもの",
+      "gloss": "shopping; purchased goods",
+      "study_order": 340
+    },
+    {
+      "entry_id": 77746,
+      "kanji": "傘",
+      "kana": "かさ",
+      "gloss": "umbrella; parasol; something shaped like an umbrella or a conical hat; shade (of",
+      "study_order": 341
+    },
+    {
+      "entry_id": 115067,
+      "kanji": "黄色",
+      "kana": "きいろ",
+      "gloss": "yellow; amber",
+      "study_order": 342
+    },
+    {
+      "entry_id": 62125,
+      "kanji": "黄色い",
+      "kana": "きいろい",
+      "gloss": "yellow; high-pitched (voice); shrill",
+      "study_order": 343
+    },
+    {
+      "entry_id": 98598,
+      "kanji": "曇る",
+      "kana": "くもる",
+      "gloss": "to get cloudy; to cloud over; to become overcast; to cloud up; to fog up; to mis",
+      "study_order": 344
+    },
+    {
+      "entry_id": 58347,
+      "kanji": "暗い",
+      "kana": "くらい",
+      "gloss": "dark; gloomy; murky; depressed; dispirited; down in the dumps; dark (mood); dark",
+      "study_order": 345
+    },
+    {
+      "entry_id": 75788,
+      "kanji": "黒",
+      "kana": "くろ",
+      "gloss": "black; black go stone; guilt; guilty person",
+      "study_order": 346
+    },
+    {
+      "entry_id": 74989,
+      "kanji": "紅茶",
+      "kana": "こうちゃ",
+      "gloss": "black tea",
+      "study_order": 347
+    },
+    {
+      "entry_id": 88227,
+      "kanji": "声",
+      "kana": "こえ",
+      "gloss": "voice; singing (of a bird); chirping (of an insect); hoot; opinion (as expressed",
+      "study_order": 348
+    },
+    {
+      "entry_id": 76109,
+      "kanji": "困る",
+      "kana": "こまる",
+      "gloss": "to be troubled; to have difficulty; to be in a fix; to be at a loss; to be stump",
+      "study_order": 349
+    },
+    {
+      "entry_id": 37207,
+      "kanji": null,
+      "kana": "さあ",
+      "gloss": "come; come now; come along; go on; hurry up; well; who knows; I don't know...; u",
+      "study_order": 350
+    },
+    {
+      "entry_id": 76299,
+      "kanji": "左様なら",
+      "kana": "さようなら",
+      "gloss": "farewell; adieu; goodbye; so long",
+      "study_order": 351
+    },
+    {
+      "entry_id": 100935,
+      "kanji": "白い",
+      "kana": "しろい",
+      "gloss": "white",
+      "study_order": 352
+    },
+    {
+      "entry_id": 69343,
+      "kanji": "狭い",
+      "kana": "せまい",
+      "gloss": "narrow; confined; small; cramped; limited; narrow-minded; confining",
+      "study_order": 353
+    },
+    {
+      "entry_id": 92858,
+      "kanji": "大勢",
+      "kana": "たいせい",
+      "gloss": "general situation; general trend; general tendency; way things are moving; curre",
+      "study_order": 354
+    },
+    {
+      "entry_id": 81898,
+      "kanji": "秋",
+      "kana": "あき",
+      "gloss": "autumn; fall",
+      "study_order": 355
+    },
+    {
+      "entry_id": 60769,
+      "kanji": "雨",
+      "kana": "あめ",
+      "gloss": "rain; rainy day; rainy weather; the November suit (in hanafuda)",
+      "study_order": 356
+    },
+    {
+      "entry_id": 117173,
+      "kanji": "風邪",
+      "kana": "かぜ",
+      "gloss": "(common) cold; influenza; flu; ague; inflammatory respiratory system illness (in",
+      "study_order": 357
+    },
+    {
+      "entry_id": 106868,
+      "kanji": "北",
+      "kana": "きた",
+      "gloss": "north; the North; northern territories; North Korea; north wind",
+      "study_order": 358
+    },
+    {
+      "entry_id": 80400,
+      "kanji": "写真",
+      "kana": "しゃしん",
+      "gloss": "photograph; photo; picture; snapshot; snap; moving picture; movie",
+      "study_order": 359
+    },
+    {
+      "entry_id": 96066,
+      "kanji": "天気",
+      "kana": "てんき",
+      "gloss": "weather; the elements; fair weather; fine weather",
+      "study_order": 360
+    },
+    {
+      "entry_id": 121515,
+      "kanji": "時々",
+      "kana": "ときどき",
+      "gloss": "sometimes; occasionally; at times; from time to time; now and then; once in a wh",
+      "study_order": 361
+    },
+    {
+      "entry_id": 77283,
+      "kanji": "撮る",
+      "kana": "とる",
+      "gloss": "to take (a photo); to record (video, audio, etc.); to make (a film)",
+      "study_order": 362
+    },
+    {
+      "entry_id": 63278,
+      "kanji": "夏",
+      "kana": "なつ",
+      "gloss": "summer",
+      "study_order": 363
+    },
+    {
+      "entry_id": 63287,
+      "kanji": "夏休み",
+      "kana": "なつやすみ",
+      "gloss": "summer vacation; summer holiday",
+      "study_order": 364
+    },
+    {
+      "entry_id": 326722,
+      "kanji": null,
+      "kana": "ぬるい",
+      "gloss": "lukewarm; tepid; lenient; slow; stupid",
+      "study_order": 365
+    },
+    {
+      "entry_id": 102941,
+      "kanji": "病気",
+      "kana": "びょうき",
+      "gloss": "illness (usu. excluding minor ailments, e.g. colds); disease; sickness; weirdnes",
+      "study_order": 366
+    },
+    {
+      "entry_id": 97085,
+      "kanji": "冬",
+      "kana": "ふゆ",
+      "gloss": "winter",
+      "study_order": 367
+    },
+    {
+      "entry_id": 69610,
+      "kanji": "曲る",
+      "kana": "まがる",
+      "gloss": "to bend; to curve; to warp; to wind; to twist; to turn; to be awry; to be askew;",
+      "study_order": 368
+    },
+    {
+      "entry_id": 89107,
+      "kanji": "雪",
+      "kana": "ゆき",
+      "gloss": "snow; snowfall",
+      "study_order": 369
+    },
+    {
+      "entry_id": 43959,
+      "kanji": null,
+      "kana": "コピー",
+      "gloss": "copy; photocopy; blurb on a book jacket; catch copy",
+      "study_order": 370
+    },
+    {
+      "entry_id": 54397,
+      "kanji": null,
+      "kana": "ポスト",
+      "gloss": "postbox; mailbox; mail box; pillar box; post; position; post (e.g. goalpost); po",
+      "study_order": 371
+    },
+    {
+      "entry_id": 59330,
+      "kanji": "一月",
+      "kana": "いちがつ",
+      "gloss": "January; first month of the lunar calendar",
+      "study_order": 372
+    },
+    {
+      "entry_id": 73446,
+      "kanji": "五日",
+      "kana": "いつか",
+      "gloss": "fifth day of the month; five days",
+      "study_order": 373
+    },
+    {
+      "entry_id": 63690,
+      "kanji": "火曜日",
+      "kana": "かようび",
+      "gloss": "Tuesday",
+      "study_order": 374
+    },
+    {
+      "entry_id": 70072,
+      "kanji": "金曜日",
+      "kana": "きんようび",
+      "gloss": "Friday",
+      "study_order": 375
+    },
+    {
+      "entry_id": 71738,
+      "kanji": "月曜日",
+      "kana": "げつようび",
+      "gloss": "Monday",
+      "study_order": 376
+    },
+    {
+      "entry_id": 70135,
+      "kanji": "九日",
+      "kana": "ここのか",
+      "gloss": "ninth day of the month; nine days",
+      "study_order": 377
+    },
+    {
+      "entry_id": 87161,
+      "kanji": "水曜日",
+      "kana": "すいようび",
+      "gloss": "Wednesday",
+      "study_order": 378
+    },
+    {
+      "entry_id": 93486,
+      "kanji": "誕生日",
+      "kana": "たんじょうび",
+      "gloss": "birthday",
+      "study_order": 379
+    },
+    {
+      "entry_id": 82217,
+      "kanji": "十日",
+      "kana": "とおか",
+      "gloss": "tenth day of the month; ten days",
+      "study_order": 380
+    },
+    {
+      "entry_id": 37814,
+      "kanji": null,
+      "kana": "どうも",
+      "gloss": "thank you; thanks; much (thanks); very (sorry); quite (regret); quite; really; m",
+      "study_order": 381
+    },
+    {
+      "entry_id": 97022,
+      "kanji": "土曜日",
+      "kana": "どようび",
+      "gloss": "Saturday",
+      "study_order": 382
+    },
+    {
+      "entry_id": 115968,
+      "kanji": "七日",
+      "kana": "なのか",
+      "gloss": "seventh day of the month; seven days",
+      "study_order": 383
+    },
+    {
+      "entry_id": 99557,
+      "kanji": "日曜日",
+      "kana": "にちようび",
+      "gloss": "Sunday",
+      "study_order": 384
+    },
+    {
+      "entry_id": 122134,
+      "kanji": "二十日",
+      "kana": "はつか",
+      "gloss": "twentieth day of the month; twenty days",
+      "study_order": 385
+    },
+    {
+      "entry_id": 99312,
+      "kanji": "二日",
+      "kana": "ふつか",
+      "gloss": "second day of the month; two days",
+      "study_order": 386
+    },
+    {
+      "entry_id": 77670,
+      "kanji": "三日",
+      "kana": "みっか",
+      "gloss": "third day of the month; three days",
+      "study_order": 387
+    },
+    {
+      "entry_id": 112224,
+      "kanji": "六日",
+      "kana": "むいか",
+      "gloss": "sixth day of the month; six days",
+      "study_order": 388
+    },
+    {
+      "entry_id": 108667,
+      "kanji": "木曜日",
+      "kana": "もくようび",
+      "gloss": "Thursday",
+      "study_order": 389
+    },
+    {
+      "entry_id": 101218,
+      "kanji": "八日",
+      "kana": "ようか",
+      "gloss": "eighth day of the month; eight days",
+      "study_order": 390
+    },
+    {
+      "entry_id": 78508,
+      "kanji": "四日",
+      "kana": "よっか",
+      "gloss": "fourth day of the month; four days",
+      "study_order": 391
+    },
+    {
+      "entry_id": 326625,
+      "kanji": null,
+      "kana": "あっち",
+      "gloss": "that way; that direction; over there; yonder; that (one); that person; there; fo",
+      "study_order": 392
+    },
+    {
+      "entry_id": 58670,
+      "kanji": "意味",
+      "kana": "いみ",
+      "gloss": "meaning; significance; sense",
+      "study_order": 393
+    },
+    {
+      "entry_id": 118445,
+      "kanji": "歌う",
+      "kana": "うたう",
+      "gloss": "to sing; to sing (one's praises in a poem, etc.); to compose a poem; to recite a",
+      "study_order": 394
+    },
+    {
+      "entry_id": 61065,
+      "kanji": "映画",
+      "kana": "えいが",
+      "gloss": "movie; film",
+      "study_order": 395
+    },
+    {
+      "entry_id": 61068,
+      "kanji": "映画館",
+      "kana": "えいがかん",
+      "gloss": "movie theatre; movie theater; cinema",
+      "study_order": 396
+    },
+    {
+      "entry_id": 61136,
+      "kanji": "英語",
+      "kana": "えいご",
+      "gloss": "English (language)",
+      "study_order": 397
+    },
+    {
+      "entry_id": 62342,
+      "kanji": "音楽",
+      "kana": "おんがく",
+      "gloss": "music",
+      "study_order": 398
+    },
+    {
+      "entry_id": 64919,
+      "kanji": "外国",
+      "kana": "がいこく",
+      "gloss": "foreign country",
+      "study_order": 399
+    },
+    {
+      "entry_id": 64923,
+      "kanji": "外国人",
+      "kana": "がいこくじん",
+      "gloss": "foreigner; foreign citizen; foreign national; alien; non-Japanese",
+      "study_order": 400
+    },
+    {
+      "entry_id": 77160,
+      "kanji": "作文",
+      "kana": "さくぶん",
+      "gloss": "writing (an essay, prose, etc.); composition; formal writing with little real me",
+      "study_order": 401
+    },
+    {
+      "entry_id": 81215,
+      "kanji": "手紙",
+      "kana": "てがみ",
+      "gloss": "letter; missive; note; mail",
+      "study_order": 402
+    },
+    {
+      "entry_id": 116887,
+      "kanji": "日本",
+      "kana": "にほん",
+      "gloss": "Japan",
+      "study_order": 403
+    },
+    {
+      "entry_id": 99516,
+      "kanji": "日本語",
+      "kana": "にほんご",
+      "gloss": "Japanese (language)",
+      "study_order": 404
+    },
+    {
+      "entry_id": 42214,
+      "kanji": null,
+      "kana": "カメラ",
+      "gloss": "camera",
+      "study_order": 405
+    },
+    {
+      "entry_id": 52114,
+      "kanji": null,
+      "kana": "フィルム",
+      "gloss": "film",
+      "study_order": 406
+    },
+    {
+      "entry_id": 326348,
+      "kanji": null,
+      "kana": "ページ",
+      "gloss": "page",
+      "study_order": 407
+    },
+    {
+      "entry_id": 56239,
+      "kanji": null,
+      "kana": "ラジオ",
+      "gloss": "radio",
+      "study_order": 408
+    },
+    {
+      "entry_id": 56246,
+      "kanji": null,
+      "kana": "ラジオカセット",
+      "gloss": "radio-cassette; tape recorder",
+      "study_order": 409
+    },
+    {
+      "entry_id": 56254,
+      "kanji": null,
+      "kana": "ラジカセ",
+      "gloss": "radio-cassette player",
+      "study_order": 410
+    },
+    {
+      "entry_id": 117382,
+      "kanji": "明後日",
+      "kana": "あさって",
+      "gloss": "day after tomorrow",
+      "study_order": 411
+    },
+    {
+      "entry_id": 326623,
+      "kanji": null,
+      "kana": "あそこ",
+      "gloss": "there; over there; that place; yonder; you-know-where; genitals; private parts; ",
+      "study_order": 412
+    },
+    {
+      "entry_id": 93850,
+      "kanji": "池",
+      "kana": "いけ",
+      "gloss": "pond",
+      "study_order": 413
+    },
+    {
+      "entry_id": 59051,
+      "kanji": "医者",
+      "kana": "いしゃ",
+      "gloss": "(medical) doctor; physician",
+      "study_order": 414
+    },
+    {
+      "entry_id": 59487,
+      "kanji": "一緒",
+      "kana": "いっしょ",
+      "gloss": "together; at the same time; same; identical",
+      "study_order": 415
+    },
+    {
+      "entry_id": 64589,
+      "kanji": "海",
+      "kana": "うみ",
+      "gloss": "sea; ocean; waters",
+      "study_order": 416
+    },
+    {
+      "entry_id": 116183,
+      "kanji": "上着",
+      "kana": "うわぎ",
+      "gloss": "coat; tunic; jacket; outer garment",
+      "study_order": 417
+    },
+    {
+      "entry_id": 36352,
+      "kanji": null,
+      "kana": "ええ",
+      "gloss": "yes; that is correct; right; um; errr; huh?; grrr; gah; Must I?; good",
+      "study_order": 418
+    },
+    {
+      "entry_id": 92695,
+      "kanji": "大きな",
+      "kana": "おおきな",
+      "gloss": "big; large; great",
+      "study_order": 419
+    },
+    {
+      "entry_id": 326357,
+      "kanji": "お酒",
+      "kana": "おさけ",
+      "gloss": "alcohol; sake",
+      "study_order": 420
+    },
+    {
+      "entry_id": 93614,
+      "kanji": "男の子",
+      "kana": "おとこのこ",
+      "gloss": "boy; son; baby boy; young man",
+      "study_order": 421
+    },
+    {
+      "entry_id": 114847,
+      "kanji": "一昨日",
+      "kana": "おととい",
+      "gloss": "day before yesterday",
+      "study_order": 422
+    },
+    {
+      "entry_id": 92845,
+      "kanji": "大人",
+      "kana": "おとな",
+      "gloss": "adult; grown-up",
+      "study_order": 423
+    },
+    {
+      "entry_id": 97817,
+      "kanji": "同じ",
+      "kana": "おなじ",
+      "gloss": "same; identical; equal; uniform; equivalent; similar; common (origin); changeles",
+      "study_order": 424
+    },
+    {
+      "entry_id": 83481,
+      "kanji": "女の子",
+      "kana": "おんなのこ",
+      "gloss": "girl; daughter; baby girl; young woman",
+      "study_order": 425
+    },
+    {
+      "entry_id": 64268,
+      "kanji": "会社",
+      "kana": "かいしゃ",
+      "gloss": "company; corporation; workplace",
+      "study_order": 426
+    },
+    {
+      "entry_id": 64858,
+      "kanji": "階段",
+      "kana": "かいだん",
+      "gloss": "stairs; stairway; staircase",
+      "study_order": 427
+    },
+    {
+      "entry_id": 72337,
+      "kanji": "鍵",
+      "kana": "かぎ",
+      "gloss": "key; lock; key (to a problem); clue",
+      "study_order": 428
+    },
+    {
+      "entry_id": 326363,
+      "kanji": null,
+      "kana": "かばん",
+      "gloss": "bag; satchel; briefcase; basket",
+      "study_order": 429
+    },
+    {
+      "entry_id": 63772,
+      "kanji": "花瓶",
+      "kana": "かびん",
+      "gloss": "(flower) vase",
+      "study_order": 430
+    },
+    {
+      "entry_id": 89582,
+      "kanji": "川",
+      "kana": "かわ",
+      "gloss": "river; stream; River; the ... river",
+      "study_order": 431
+    },
+    {
+      "entry_id": 66198,
+      "kanji": "漢字",
+      "kana": "かんじ",
+      "gloss": "kanji; Chinese characters",
+      "study_order": 432
+    },
+    {
+      "entry_id": 88944,
+      "kanji": "切符",
+      "kana": "きっぷ",
+      "gloss": "ticket",
+      "study_order": 433
+    },
+    {
+      "entry_id": 68635,
+      "kanji": "牛肉",
+      "kana": "ぎゅうにく",
+      "gloss": "beef",
+      "study_order": 434
+    },
+    {
+      "entry_id": 70538,
+      "kanji": "靴下",
+      "kana": "くつした",
+      "gloss": "socks; sock; stockings; stocking",
+      "study_order": 435
+    },
+    {
+      "entry_id": 119647,
+      "kanji": "国",
+      "kana": "くに",
+      "gloss": "country; state; region; national government; central government; home (i.e. home",
+      "study_order": 436
+    },
+    {
+      "entry_id": 115812,
+      "kanji": "今朝",
+      "kana": "けさ",
+      "gloss": "this morning",
+      "study_order": 437
+    },
+    {
+      "entry_id": 71592,
+      "kanji": "結構",
+      "kana": "けっこう",
+      "gloss": "splendid; nice; wonderful; delicious; sweet; sufficient; fine (in the sense of \"",
+      "study_order": 438
+    },
+    {
+      "entry_id": 71595,
+      "kanji": "結婚",
+      "kana": "けっこん",
+      "gloss": "marriage",
+      "study_order": 439
+    },
+    {
+      "entry_id": 70107,
+      "kanji": "九つ",
+      "kana": "ここのつ",
+      "gloss": "nine; nine years of age; twelve o'clock (old time system)",
+      "study_order": 440
+    },
+    {
+      "entry_id": 326650,
+      "kanji": null,
+      "kana": "こっち",
+      "gloss": "this way; this direction; here; this (one); I; me; we; us; this person",
+      "study_order": 441
+    },
+    {
+      "entry_id": 115820,
+      "kanji": "今年",
+      "kana": "ことし",
+      "gloss": "this year",
+      "study_order": 442
+    },
+    {
+      "entry_id": 72886,
+      "kanji": "言葉",
+      "kana": "ことば",
+      "gloss": "language; dialect; word; words; phrase; term; expression; remark; speech; (manne",
+      "study_order": 443
+    },
+    {
+      "entry_id": 37140,
+      "kanji": null,
+      "kana": "こんな",
+      "gloss": "this sort of; this kind of; like this; such",
+      "study_order": 444
+    },
+    {
+      "entry_id": 76095,
+      "kanji": "今晩",
+      "kana": "こんばん",
+      "gloss": "tonight; this evening",
+      "study_order": 445
+    },
+    {
+      "entry_id": 73493,
+      "kanji": "午後",
+      "kana": "ごご",
+      "gloss": "afternoon; p.m.",
+      "study_order": 446
+    },
+    {
+      "entry_id": 73500,
+      "kanji": "午前",
+      "kana": "ごぜん",
+      "gloss": "morning; a.m.",
+      "study_order": 447
+    },
+    {
+      "entry_id": 77025,
+      "kanji": "財布",
+      "kana": "さいふ",
+      "gloss": "purse; handbag; wallet",
+      "study_order": 448
+    },
+    {
+      "entry_id": 89231,
+      "kanji": "先",
+      "kana": "さき",
+      "gloss": "point; tip; end; nozzle; head (of a line); front; first; before; ahead (of); (th",
+      "study_order": 449
+    },
+    {
+      "entry_id": 76638,
+      "kanji": "さ来年",
+      "kana": "さらいねん",
+      "gloss": "year after next",
+      "study_order": 450
+    },
+    {
+      "entry_id": 77977,
+      "kanji": "散歩",
+      "kana": "さんぽ",
+      "gloss": "walk; stroll",
+      "study_order": 451
+    },
+    {
+      "entry_id": 77412,
+      "kanji": "雑誌",
+      "kana": "ざっし",
+      "gloss": "journal; magazine; periodical",
+      "study_order": 452
+    },
+    {
+      "entry_id": 80268,
+      "kanji": "質問",
+      "kana": "しつもん",
+      "gloss": "question; inquiry; enquiry",
+      "study_order": 453
+    },
+    {
+      "entry_id": 120415,
+      "kanji": "醤油",
+      "kana": "しょうゆ",
+      "gloss": "soy sauce; shoyu",
+      "study_order": 454
+    },
+    {
+      "entry_id": 85328,
+      "kanji": "食堂",
+      "kana": "しょくどう",
+      "gloss": "dining room; dining hall; cafeteria; canteen; messroom; restaurant; eatery; snac",
+      "study_order": 455
+    },
+    {
+      "entry_id": 79960,
+      "kanji": "自動車",
+      "kana": "じどうしゃ",
+      "gloss": "car; automobile; motorcar; motor vehicle; auto",
+      "study_order": 456
+    },
+    {
+      "entry_id": 79981,
+      "kanji": "自分",
+      "kana": "じぶん",
+      "gloss": "myself; yourself; oneself; himself; herself; I; me; you",
+      "study_order": 457
+    },
+    {
+      "entry_id": 191256,
+      "kanji": "背",
+      "kana": "せ",
+      "gloss": "back; spine; reverse; rear side; height; stature; ridge (of a mountain)",
+      "study_order": 458
+    },
+    {
+      "entry_id": 88497,
+      "kanji": "石鹸",
+      "kana": "せっけん",
+      "gloss": "soap",
+      "study_order": 459
+    },
+    {
+      "entry_id": 89718,
+      "kanji": "洗濯",
+      "kana": "せんたく",
+      "gloss": "washing; laundry; relaxing; taking a break",
+      "study_order": 460
+    },
+    {
+      "entry_id": 90368,
+      "kanji": "全部",
+      "kana": "ぜんぶ",
+      "gloss": "all; entire; whole; altogether",
+      "study_order": 461
+    },
+    {
+      "entry_id": 90916,
+      "kanji": "掃除",
+      "kana": "そうじ",
+      "gloss": "cleaning; sweeping; dusting; scrubbing",
+      "study_order": 462
+    },
+    {
+      "entry_id": 69449,
+      "kanji": "蕎麦",
+      "kana": "そば",
+      "gloss": "buckwheat (Fagopyrum esculentum); soba; Japanese buckwheat noodles",
+      "study_order": 463
+    },
+    {
+      "entry_id": 70323,
+      "kanji": "空",
+      "kana": "そら",
+      "gloss": "sky; the air; the heavens; weather; far-off place; distant place; state of mind;",
+      "study_order": 464
+    },
+    {
+      "entry_id": 92816,
+      "kanji": "大使館",
+      "kana": "たいしかん",
+      "gloss": "embassy",
+      "study_order": 465
+    },
+    {
+      "entry_id": 92947,
+      "kanji": "大変",
+      "kana": "たいへん",
+      "gloss": "very; greatly; terribly; awfully; immense; enormous; great; serious; grave; drea",
+      "study_order": 466
+    },
+    {
+      "entry_id": 82315,
+      "kanji": "縦",
+      "kana": "たて",
+      "gloss": "the vertical; height; front-to-back; length; north-to-south; vertical (relations",
+      "study_order": 467
+    },
+    {
+      "entry_id": 121062,
+      "kanji": null,
+      "kana": "タバコ",
+      "gloss": "tobacco; cigarette; cigar",
+      "study_order": 468
+    },
+    {
+      "entry_id": 92007,
+      "kanji": "多分",
+      "kana": "たぶん",
+      "gloss": "perhaps; probably",
+      "study_order": 469
+    },
+    {
+      "entry_id": 92793,
+      "kanji": "大好き",
+      "kana": "だいすき",
+      "gloss": "loveable; very likeable; like very much",
+      "study_order": 470
+    },
+    {
+      "entry_id": 93204,
+      "kanji": "誰",
+      "kana": "だれ",
+      "gloss": "who",
+      "study_order": 471
+    },
+    {
+      "entry_id": 121128,
+      "kanji": null,
+      "kana": "だんだん",
+      "gloss": "gradually; by degrees; little by little; more and more; increasingly; steps; sta",
+      "study_order": 472
+    },
+    {
+      "entry_id": 189587,
+      "kanji": "小さな",
+      "kana": "ちいさな",
+      "gloss": "small; little; tiny",
+      "study_order": 473
+    },
+    {
+      "entry_id": 93986,
+      "kanji": "茶色",
+      "kana": "ちゃいろ",
+      "gloss": "light brown; tawny",
+      "study_order": 474
+    },
+    {
+      "entry_id": 81140,
+      "kanji": "手",
+      "kana": "て",
+      "gloss": "hand; arm; forepaw; foreleg; handle; worker; help; trouble; care; effort; means;",
+      "study_order": 475
+    },
+    {
+      "entry_id": 82696,
+      "kanji": "出口",
+      "kana": "でぐち",
+      "gloss": "exit; gateway; way out; outlet; vent; leak",
+      "study_order": 476
+    },
+    {
+      "entry_id": 96596,
+      "kanji": "電気",
+      "kana": "でんき",
+      "gloss": "electricity; (electric) light",
+      "study_order": 477
+    },
+    {
+      "entry_id": 79699,
+      "kanji": "時計",
+      "kana": "とけい",
+      "gloss": "clock; watch; timepiece",
+      "study_order": 478
+    },
+    {
+      "entry_id": 326699,
+      "kanji": null,
+      "kana": "ところ",
+      "gloss": "place; spot; scene; site; address; district; area; locality; one's house; point;",
+      "study_order": 479
+    },
+    {
+      "entry_id": 99949,
+      "kanji": "年",
+      "kana": "とし",
+      "gloss": "year; age; years; past one's prime; old age",
+      "study_order": 480
+    },
+    {
+      "entry_id": 326707,
+      "kanji": null,
+      "kana": "どっち",
+      "gloss": "which way; which direction; where; which one (esp. of two alternatives); who",
+      "study_order": 481
+    },
+    {
+      "entry_id": 326708,
+      "kanji": null,
+      "kana": "どなた",
+      "gloss": "who",
+      "study_order": 482
+    },
+    {
+      "entry_id": 326710,
+      "kanji": null,
+      "kana": "どれ",
+      "gloss": "which (of three or more); well; now; c'mon",
+      "study_order": 483
+    },
+    {
+      "entry_id": 80066,
+      "kanji": "七つ",
+      "kana": "ななつ",
+      "gloss": "seven; seven years of age; four o'clock (old time system)",
+      "study_order": 484
+    },
+    {
+      "entry_id": 88270,
+      "kanji": "西",
+      "kana": "にし",
+      "gloss": "west",
+      "study_order": 485
+    },
+    {
+      "entry_id": 63853,
+      "kanji": "荷物",
+      "kana": "にもつ",
+      "gloss": "luggage; baggage; package; burden; payload (of a packet, cell, etc.)",
+      "study_order": 486
+    },
+    {
+      "entry_id": 79286,
+      "kanji": "歯",
+      "kana": "は",
+      "gloss": "tooth",
+      "study_order": 487
+    },
+    {
+      "entry_id": 64706,
+      "kanji": "灰皿",
+      "kana": "はいざら",
+      "gloss": "ashtray",
+      "study_order": 488
+    },
+    {
+      "entry_id": 110282,
+      "kanji": "葉書",
+      "kana": "はがき",
+      "gloss": "postcard; memo; note; card",
+      "study_order": 489
+    },
+    {
+      "entry_id": 83156,
+      "kanji": "初めて",
+      "kana": "はじめて",
+      "gloss": "for the first time; only after ... is it ...; only when ... do you ...",
+      "study_order": 490
+    },
+    {
+      "entry_id": 122116,
+      "kanji": "二十歳",
+      "kana": "はたち",
+      "gloss": "20 years old; twenty",
+      "study_order": 491
+    },
+    {
+      "entry_id": 63718,
+      "kanji": "花",
+      "kana": "はな",
+      "gloss": "flower; blossom; bloom; petal; cherry blossom; beauty; blooming (esp. of cherry ",
+      "study_order": 492
+    },
+    {
+      "entry_id": 102457,
+      "kanji": "鼻",
+      "kana": "はな",
+      "gloss": "nose",
+      "study_order": 493
+    },
+    {
+      "entry_id": 122152,
+      "kanji": "話",
+      "kana": "はなし",
+      "gloss": "talk; speech; chat; conversation; topic; subject; discussions; negotiation; argu",
+      "study_order": 494
+    },
+    {
+      "entry_id": 82953,
+      "kanji": "春",
+      "kana": "はる",
+      "gloss": "spring; springtime; New Year; prime (of life); height (of one's prosperity); hey",
+      "study_order": 495
+    },
+    {
+      "entry_id": 87727,
+      "kanji": "晴れ",
+      "kana": "はれ",
+      "gloss": "clear weather; fine weather; formal; ceremonial; public; cleared of suspicion",
+      "study_order": 496
+    },
+    {
+      "entry_id": 101455,
+      "kanji": "半",
+      "kana": "はん",
+      "gloss": "half; semi-; half-past; odd number; unit of land area (595.8 m^2)",
+      "study_order": 497
+    },
+    {
+      "entry_id": 101582,
+      "kanji": "半分",
+      "kana": "はんぶん",
+      "gloss": "half",
+      "study_order": 498
+    },
+    {
+      "entry_id": 101880,
+      "kanji": "番号",
+      "kana": "ばんごう",
+      "gloss": "number; series of digits",
+      "study_order": 499
+    },
+    {
+      "entry_id": 97258,
+      "kanji": "東",
+      "kana": "ひがし",
+      "gloss": "east",
+      "study_order": 500
+    },
+    {
+      "entry_id": 76261,
+      "kanji": "左",
+      "kana": "ひだり",
+      "gloss": "left; left hand side",
+      "study_order": 501
+    },
+    {
+      "entry_id": 326725,
+      "kanji": "一人",
+      "kana": "ひとり",
+      "gloss": "one person; being alone; being by oneself; being single; being unmarried; by one",
+      "study_order": 502
+    },
+    {
+      "entry_id": 122608,
+      "kanji": "昼ご飯",
+      "kana": "ひるごはん",
+      "gloss": "lunch; midday meal",
+      "study_order": 503
+    },
+    {
+      "entry_id": 104167,
+      "kanji": "封筒",
+      "kana": "ふうとう",
+      "gloss": "envelope",
+      "study_order": 504
+    },
+    {
+      "entry_id": 104325,
+      "kanji": "服",
+      "kana": "ふく",
+      "gloss": "clothes (esp. Western clothes); counter for doses of medicine, gulps of tea, dra",
+      "study_order": 505
+    },
+    {
+      "entry_id": 326729,
+      "kanji": "二人",
+      "kana": "ふたり",
+      "gloss": "two persons; two people; pair; couple",
+      "study_order": 506
+    },
+    {
+      "entry_id": 104170,
+      "kanji": "風",
+      "kana": "かぜ",
+      "gloss": "wind; breeze; draught; draft",
+      "study_order": 507
+    },
+    {
+      "entry_id": 98573,
+      "kanji": "豚肉",
+      "kana": "ぶたにく",
+      "gloss": "pork",
+      "study_order": 508
+    },
+    {
+      "entry_id": 104929,
+      "kanji": "文章",
+      "kana": "ぶんしょう",
+      "gloss": "writing; composition; essay; article; passage; prose; (writing) style; sentence",
+      "study_order": 509
+    },
+    {
+      "entry_id": 105742,
+      "kanji": "辺",
+      "kana": "へん",
+      "gloss": "area; vicinity; region; side; edge; circumstances",
+      "study_order": 510
+    },
+    {
+      "entry_id": 105809,
+      "kanji": "勉強",
+      "kana": "べんきょう",
+      "gloss": "study; diligence; discount; reduction",
+      "study_order": 511
+    },
+    {
+      "entry_id": 326731,
+      "kanji": null,
+      "kana": "ほか",
+      "gloss": "other (place, thing, person); the rest; outside; beyond; nothing except; nothing",
+      "study_order": 512
+    },
+    {
+      "entry_id": 107130,
+      "kanji": "本棚",
+      "kana": "ほんだな",
+      "gloss": "bookshelves; bookshelf; bookcase",
+      "study_order": 513
+    },
+    {
+      "entry_id": 107143,
+      "kanji": "本当",
+      "kana": "ほんとう",
+      "gloss": "truth; reality; actuality; fact; proper; right; correct; official; genuine; auth",
+      "study_order": 514
+    },
+    {
+      "entry_id": 106671,
+      "kanji": "帽子",
+      "kana": "ぼうし",
+      "gloss": "hat; cap",
+      "study_order": 515
+    },
+    {
+      "entry_id": 107358,
+      "kanji": "毎週",
+      "kana": "まいしゅう",
+      "gloss": "every week",
+      "study_order": 516
+    },
+    {
+      "entry_id": 117316,
+      "kanji": "毎月",
+      "kana": "まいつき",
+      "gloss": "every month; each month; monthly",
+      "study_order": 517
+    },
+    {
+      "entry_id": 117318,
+      "kanji": "毎年",
+      "kana": "まいとし",
+      "gloss": "every year; yearly; annually",
+      "study_order": 518
+    },
+    {
+      "entry_id": 107363,
+      "kanji": "毎晩",
+      "kana": "まいばん",
+      "gloss": "every night",
+      "study_order": 519
+    },
+    {
+      "entry_id": 326736,
+      "kanji": null,
+      "kana": "また",
+      "gloss": "again; once more; also; too; moreover",
+      "study_order": 520
+    },
+    {
+      "entry_id": 326739,
+      "kanji": null,
+      "kana": "まっすぐ",
+      "gloss": "straight (ahead); direct; upright; erect; straightforward; honest; frank",
+      "study_order": 521
+    },
+    {
+      "entry_id": 60649,
+      "kanji": "右",
+      "kana": "みぎ",
+      "gloss": "right; right-hand side; afore-mentioned (esp. in vertical Japanese writing); for",
+      "study_order": 522
+    },
+    {
+      "entry_id": 111390,
+      "kanji": "緑",
+      "kana": "みどり",
+      "gloss": "green; greenery (esp. fresh verdure)",
+      "study_order": 523
+    },
+    {
+      "entry_id": 64738,
+      "kanji": "皆さん",
+      "kana": "みなさん",
+      "gloss": "all; everyone; everybody",
+      "study_order": 524
+    },
+    {
+      "entry_id": 98877,
+      "kanji": "南",
+      "kana": "みなみ",
+      "gloss": "south",
+      "study_order": 525
+    },
+    {
+      "entry_id": 79819,
+      "kanji": "耳",
+      "kana": "みみ",
+      "gloss": "ear; hearing; edge; crust; selvedge (non-fray machined edge of fabrics); selvage",
+      "study_order": 526
+    },
+    {
+      "entry_id": 326742,
+      "kanji": null,
+      "kana": "みんな",
+      "gloss": "everyone; everybody; all; everything",
+      "study_order": 527
+    },
+    {
+      "entry_id": 74530,
+      "kanji": "向こう",
+      "kana": "むこう",
+      "gloss": "opposite side; other side; opposite direction; over there; that way; far away; b",
+      "study_order": 528
+    },
+    {
+      "entry_id": 117583,
+      "kanji": "六つ",
+      "kana": "むっつ",
+      "gloss": "six; six years of age; six o'clock (old time system)",
+      "study_order": 529
+    },
+    {
+      "entry_id": 91878,
+      "kanji": "村",
+      "kana": "むら",
+      "gloss": "village",
+      "study_order": 530
+    },
+    {
+      "entry_id": 123371,
+      "kanji": "目",
+      "kana": "め",
+      "gloss": "eye; eyeball; eyesight; sight; vision; look; stare; gaze; glance; notice; attent",
+      "study_order": 531
+    },
+    {
+      "entry_id": 115350,
+      "kanji": "眼鏡",
+      "kana": "めがね",
+      "gloss": "glasses; eyeglasses; spectacles; judgment; judgement; discrimination; discernmen",
+      "study_order": 532
+    },
+    {
+      "entry_id": 80527,
+      "kanji": "者",
+      "kana": "もの",
+      "gloss": "person",
+      "study_order": 533
+    },
+    {
+      "entry_id": 108880,
+      "kanji": "問題",
+      "kana": "もんだい",
+      "gloss": "question (e.g. on a test); problem; problem (e.g. societal, political); question",
+      "study_order": 534
+    },
+    {
+      "entry_id": 101223,
+      "kanji": "八百屋",
+      "kana": "やおや",
+      "gloss": "greengrocer; fruit and vegetable shop",
+      "study_order": 535
+    },
+    {
+      "entry_id": 109045,
+      "kanji": "野菜",
+      "kana": "やさい",
+      "gloss": "vegetable",
+      "study_order": 536
+    },
+    {
+      "entry_id": 68132,
+      "kanji": "休み",
+      "kana": "やすみ",
+      "gloss": "rest; recess; respite; vacation; holiday; absence; suspension; dormancy (of a si",
+      "study_order": 537
+    },
+    {
+      "entry_id": 116993,
+      "kanji": "八つ",
+      "kana": "やっつ",
+      "gloss": "eight; eight years of age; two o'clock (old time system)",
+      "study_order": 538
+    },
+    {
+      "entry_id": 77823,
+      "kanji": "山",
+      "kana": "やま",
+      "gloss": "mountain; hill; mine (e.g. coal mine); heap; pile; crown (of a hat); thread (of ",
+      "study_order": 539
+    },
+    {
+      "entry_id": 117455,
+      "kanji": "夕飯",
+      "kana": "ゆうはん",
+      "gloss": "evening meal",
+      "study_order": 540
+    },
+    {
+      "entry_id": 109741,
+      "kanji": "昨夜",
+      "kana": "ゆうべ",
+      "gloss": "evening; last night; yesterday evening",
+      "study_order": 541
+    },
+    {
+      "entry_id": 38529,
+      "kanji": null,
+      "kana": "ゆっくり",
+      "gloss": "slowly; unhurriedly; without haste; leisurely; at one's leisure; easily (e.g. in",
+      "study_order": 542
+    },
+    {
+      "entry_id": 83810,
+      "kanji": "良い",
+      "kana": "よい",
+      "gloss": "good; excellent; fine; nice; pleasant; agreeable",
+      "study_order": 543
+    },
+    {
+      "entry_id": 110168,
+      "kanji": "洋服",
+      "kana": "ようふく",
+      "gloss": "Western-style clothes (cf. traditional Japanese clothes)",
+      "study_order": 544
+    },
+    {
+      "entry_id": 110362,
+      "kanji": null,
+      "kana": "よく",
+      "gloss": "nicely; properly; well; frequently; often",
+      "study_order": 545
+    },
+    {
+      "entry_id": 61948,
+      "kanji": "横",
+      "kana": "よこ",
+      "gloss": "horizontal (as opposed to vertical); lying down; side-to-side (as opposed to fro",
+      "study_order": 546
+    },
+    {
+      "entry_id": 78466,
+      "kanji": "四つ",
+      "kana": "よっつ",
+      "gloss": "four; four years of age; ten o'clock (old time system); cross grips",
+      "study_order": 547
+    },
+    {
+      "entry_id": 110477,
+      "kanji": "来年",
+      "kana": "らいねん",
+      "gloss": "next year",
+      "study_order": 548
+    },
+    {
+      "entry_id": 110975,
+      "kanji": "立派",
+      "kana": "りっぱ",
+      "gloss": "splendid; fine; handsome; elegant; imposing; prominent; praiseworthy; creditable",
+      "study_order": 549
+    },
+    {
+      "entry_id": 111087,
+      "kanji": "留学生",
+      "kana": "りゅうがくせい",
+      "gloss": "overseas student; exchange student",
+      "study_order": 550
+    },
+    {
+      "entry_id": 111283,
+      "kanji": "料理",
+      "kana": "りょうり",
+      "gloss": "cooking; cookery; cuisine; meal; food; dish; item on a menu; dealing with someth",
+      "study_order": 551
+    },
+    {
+      "entry_id": 111148,
+      "kanji": "旅行",
+      "kana": "りょこう",
+      "gloss": "travel; trip; journey; excursion; tour",
+      "study_order": 552
+    },
+    {
+      "entry_id": 112078,
+      "kanji": "廊下",
+      "kana": "ろうか",
+      "gloss": "corridor; hallway; passageway",
+      "study_order": 553
+    },
+    {
+      "entry_id": 41122,
+      "kanji": null,
+      "kana": "エレベーター",
+      "gloss": "elevator; lift; elevator (aviation)",
+      "study_order": 554
+    },
+    {
+      "entry_id": 42113,
+      "kanji": null,
+      "kana": "カップ",
+      "gloss": "cup (drinking vessel, measure, brassiere, prize, etc.)",
+      "study_order": 555
+    },
+    {
+      "entry_id": 42329,
+      "kanji": null,
+      "kana": "カレンダー",
+      "gloss": "calendar; calender (machine for flattening things)",
+      "study_order": 556
+    },
+    {
+      "entry_id": 326364,
+      "kanji": null,
+      "kana": "カレー",
+      "gloss": "curry (esp. Japanese curry); rice and curry",
+      "study_order": 557
+    },
+    {
+      "entry_id": 42793,
+      "kanji": null,
+      "kana": "キロ",
+      "gloss": "kilo-; 1000; kilogram; kilogramme; kilometre; kilometer; 1024; 2^10",
+      "study_order": 558
+    },
+    {
+      "entry_id": 326365,
+      "kanji": null,
+      "kana": "キログラム",
+      "gloss": "kilogram; kilogramme",
+      "study_order": 559
+    },
+    {
+      "entry_id": 326366,
+      "kanji": null,
+      "kana": "キロメートル",
+      "gloss": "kilometer; kilometre",
+      "study_order": 560
+    },
+    {
+      "entry_id": 42820,
+      "kanji": null,
+      "kana": "ギター",
+      "gloss": "guitar",
+      "study_order": 561
+    },
+    {
+      "entry_id": 43005,
+      "kanji": null,
+      "kana": "クラス",
+      "gloss": "class",
+      "study_order": 562
+    },
+    {
+      "entry_id": 326367,
+      "kanji": null,
+      "kana": "グラム",
+      "gloss": "gram; gramme",
+      "study_order": 563
+    },
+    {
+      "entry_id": 311450,
+      "kanji": null,
+      "kana": "コップ",
+      "gloss": "cop; police officer",
+      "study_order": 564
+    },
+    {
+      "entry_id": 43703,
+      "kanji": null,
+      "kana": "コート",
+      "gloss": "coat; coating",
+      "study_order": 565
+    },
+    {
+      "entry_id": 326757,
+      "kanji": null,
+      "kana": "コーヒー",
+      "gloss": "coffee",
+      "study_order": 566
+    },
+    {
+      "entry_id": 45486,
+      "kanji": null,
+      "kana": "シャツ",
+      "gloss": "shirt (underwear); undershirt; singlet; shirt (outerwear, esp. dress shirt)",
+      "study_order": 567
+    },
+    {
+      "entry_id": 45526,
+      "kanji": null,
+      "kana": "シャワー",
+      "gloss": "shower",
+      "study_order": 568
+    },
+    {
+      "entry_id": 46300,
+      "kanji": null,
+      "kana": "スカート",
+      "gloss": "skirt",
+      "study_order": 569
+    },
+    {
+      "entry_id": 46770,
+      "kanji": null,
+      "kana": "ストーブ",
+      "gloss": "(room) heater; stove",
+      "study_order": 570
+    },
+    {
+      "entry_id": 47022,
+      "kanji": null,
+      "kana": "スプーン",
+      "gloss": "spoon",
+      "study_order": 571
+    },
+    {
+      "entry_id": 47098,
+      "kanji": null,
+      "kana": "スポーツ",
+      "gloss": "sport; sports",
+      "study_order": 572
+    },
+    {
+      "entry_id": 47193,
+      "kanji": null,
+      "kana": "スリッパ",
+      "gloss": "slipper; slippers",
+      "study_order": 573
+    },
+    {
+      "entry_id": 47236,
+      "kanji": null,
+      "kana": "ズボン",
+      "gloss": "trousers; pants",
+      "study_order": 574
+    },
+    {
+      "entry_id": 47237,
+      "kanji": null,
+      "kana": "セーター",
+      "gloss": "sweater; jumper",
+      "study_order": 575
+    },
+    {
+      "entry_id": 302782,
+      "kanji": null,
+      "kana": "ゼロ",
+      "gloss": "zero; nought; nil; nothing; zilch",
+      "study_order": 576
+    },
+    {
+      "entry_id": 47965,
+      "kanji": null,
+      "kana": "テスト",
+      "gloss": "examination; quiz; test; tryout; trial; rehearsal (in filming)",
+      "study_order": 577
+    },
+    {
+      "entry_id": 47801,
+      "kanji": null,
+      "kana": "テーブル",
+      "gloss": "table",
+      "study_order": 578
+    },
+    {
+      "entry_id": 47822,
+      "kanji": null,
+      "kana": "テープ",
+      "gloss": "tape",
+      "study_order": 579
+    },
+    {
+      "entry_id": 47832,
+      "kanji": null,
+      "kana": "テープレコーダー",
+      "gloss": "tape recorder",
+      "study_order": 580
+    },
+    {
+      "entry_id": 48479,
+      "kanji": null,
+      "kana": "デパート",
+      "gloss": "department store; department",
+      "study_order": 581
+    },
+    {
+      "entry_id": 49330,
+      "kanji": null,
+      "kana": "ナイフ",
+      "gloss": "knife",
+      "study_order": 582
+    },
+    {
+      "entry_id": 49555,
+      "kanji": null,
+      "kana": "ニュース",
+      "gloss": "news",
+      "study_order": 583
+    },
+    {
+      "entry_id": 49768,
+      "kanji": null,
+      "kana": "ネクタイ",
+      "gloss": "tie; necktie",
+      "study_order": 584
+    },
+    {
+      "entry_id": 49855,
+      "kanji": null,
+      "kana": "ノート",
+      "gloss": "notebook; copy-book; exercise book; note; noting down; (musical) note; notebook ",
+      "study_order": 585
+    },
+    {
+      "entry_id": 50234,
+      "kanji": null,
+      "kana": "ハンカチ",
+      "gloss": "handkerchief",
+      "study_order": 586
+    },
+    {
+      "entry_id": 50539,
+      "kanji": null,
+      "kana": "バター",
+      "gloss": "butter",
+      "study_order": 587
+    },
+    {
+      "entry_id": 51177,
+      "kanji": null,
+      "kana": "パン",
+      "gloss": "bread; pastries (e.g. croissants); pastry-based products; pan; frying pan; panni",
+      "study_order": 588
+    },
+    {
+      "entry_id": 50857,
+      "kanji": null,
+      "kana": "パーティー",
+      "gloss": "party (gathering, celebration, etc.); party (group, political, etc.)",
+      "study_order": 589
+    },
+    {
+      "entry_id": 52208,
+      "kanji": null,
+      "kana": "フォーク",
+      "gloss": "fork; forkball",
+      "study_order": 590
+    },
+    {
+      "entry_id": 52954,
+      "kanji": null,
+      "kana": "プール",
+      "gloss": "(swimming) pool; pool (billiards); pool (together)",
+      "study_order": 591
+    },
+    {
+      "entry_id": 53577,
+      "kanji": null,
+      "kana": "ベッド",
+      "gloss": "bed",
+      "study_order": 592
+    },
+    {
+      "entry_id": 53793,
+      "kanji": null,
+      "kana": "ペット",
+      "gloss": "pet; trumpet",
+      "study_order": 593
+    },
+    {
+      "entry_id": 53844,
+      "kanji": null,
+      "kana": "ペン",
+      "gloss": "pen",
+      "study_order": 594
+    },
+    {
+      "entry_id": 62235,
+      "kanji": null,
+      "kana": "ボタン",
+      "gloss": "tree peony (Paeonia suffruticosa); moutan; wild boar (meat)",
+      "study_order": 595
+    },
+    {
+      "entry_id": 54160,
+      "kanji": null,
+      "kana": "ボールペン",
+      "gloss": "ball-point pen",
+      "study_order": 596
+    },
+    {
+      "entry_id": 54368,
+      "kanji": null,
+      "kana": "ポケット",
+      "gloss": "pocket",
+      "study_order": 597
+    },
+    {
+      "entry_id": 277060,
+      "kanji": null,
+      "kana": "マッチ",
+      "gloss": "match (contest); to match with; to go well with",
+      "study_order": 598
+    },
+    {
+      "entry_id": 326373,
+      "kanji": null,
+      "kana": "メートル",
+      "gloss": "metre; meter; gauge",
+      "study_order": 599
+    },
+    {
+      "entry_id": 57049,
+      "kanji": null,
+      "kana": "レコード",
+      "gloss": "record (e.g. LP); record (e.g. in sports); record (data structure)",
+      "study_order": 600
+    },
+    {
+      "entry_id": 57096,
+      "kanji": null,
+      "kana": "レストラン",
+      "gloss": "restaurant (esp. Western-style)",
+      "study_order": 601
+    },
+    {
+      "entry_id": 87999,
+      "kanji": "生まれる",
+      "kana": "うまれる",
+      "gloss": "to be born",
+      "study_order": 602
+    },
+    {
+      "entry_id": 100797,
+      "kanji": "売る",
+      "kana": "うる",
+      "gloss": "to sell",
+      "study_order": 603
+    },
+    {
+      "entry_id": 118868,
+      "kanji": "終る",
+      "kana": "おわる",
+      "gloss": "to end; to come to an end; to close; to finish",
+      "study_order": 604
+    },
+    {
+      "entry_id": 92470,
+      "kanji": "貸す",
+      "kana": "かす",
+      "gloss": "to lend; to loan; to rent out; to hire out",
+      "study_order": 605
+    },
+    {
+      "entry_id": 80611,
+      "kanji": "借りる",
+      "kana": "かりる",
+      "gloss": "to borrow; to have a loan; to rent; to hire",
+      "study_order": 606
+    },
+    {
+      "entry_id": 84162,
+      "kanji": "消す",
+      "kana": "けす",
+      "gloss": "to erase; to delete; to cross out; to turn off (power); to switch off; to exting",
+      "study_order": 607
+    },
+    {
+      "entry_id": 97526,
+      "kanji": "答える",
+      "kana": "こたえる",
+      "gloss": "to answer; to reply",
+      "study_order": 608
+    },
+    {
+      "entry_id": 76366,
+      "kanji": "差す",
+      "kana": "さす",
+      "gloss": "to shine; to be visible; to be tinged with; to rise (of water levels); to flow i",
+      "study_order": 609
+    },
+    {
+      "entry_id": 95784,
+      "kanji": "閉まる",
+      "kana": "しまる",
+      "gloss": "to be shut; to close; to be closed; to be firm (of a body, face, etc.); to be we",
+      "study_order": 610
+    },
+    {
+      "entry_id": 105322,
+      "kanji": "閉める",
+      "kana": "しめる",
+      "gloss": "to close; to shut",
+      "study_order": 611
+    },
+    {
+      "entry_id": 68220,
+      "kanji": "吸う",
+      "kana": "すう",
+      "gloss": "to smoke; to breathe in; to inhale; to suck; to sip; to slurp; to absorb; to soa",
+      "study_order": 612
+    },
+    {
+      "entry_id": 326666,
+      "kanji": null,
+      "kana": "すぐに",
+      "gloss": "immediately; right away; at once; instantly",
+      "study_order": 613
+    },
+    {
+      "entry_id": 110493,
+      "kanji": "頼む",
+      "kana": "たのむ",
+      "gloss": "to request; to beg; to ask; to call; to order; to reserve; to entrust to; to rel",
+      "study_order": 614
+    },
+    {
+      "entry_id": 58935,
+      "kanji": "違う",
+      "kana": "ちがう",
+      "gloss": "to differ (from); to vary; to not be in the usual condition; to not match the co",
+      "study_order": 615
+    },
+    {
+      "entry_id": 326693,
+      "kanji": null,
+      "kana": "ちょうど",
+      "gloss": "exactly; precisely; just; right; as if; as though; quite",
+      "study_order": 616
+    },
+    {
+      "entry_id": 326694,
+      "kanji": null,
+      "kana": "ちょっと",
+      "gloss": "a little; a bit; slightly; just a minute; for a moment; briefly; somewhat; rathe",
+      "study_order": 617
+    },
+    {
+      "entry_id": 102069,
+      "kanji": "疲れる",
+      "kana": "つかれる",
+      "gloss": "to get tired; to tire; to get fatigued; to become exhausted; to grow weary; to b",
+      "study_order": 618
+    },
+    {
+      "entry_id": 94017,
+      "kanji": "着く",
+      "kana": "つく",
+      "gloss": "to arrive at; to reach; to sit on; to sit at (e.g. the table)",
+      "study_order": 619
+    },
+    {
+      "entry_id": 326369,
+      "kanji": null,
+      "kana": "つける",
+      "gloss": "to attach; to join; to add; to turn on",
+      "study_order": 620
+    },
+    {
+      "entry_id": 69752,
+      "kanji": "勤める",
+      "kana": "つとめる",
+      "gloss": "to work (for); to be employed (at); to serve (in); to serve (as); to act (as); t",
+      "study_order": 621
+    },
+    {
+      "entry_id": 121479,
+      "kanji": "出かける",
+      "kana": "でかける",
+      "gloss": "to go out (e.g. on an excursion or outing); to leave; to depart; to start; to se",
+      "study_order": 622
+    },
+    {
+      "entry_id": 326370,
+      "kanji": null,
+      "kana": "できる",
+      "gloss": "to be out of; to have no more at hand",
+      "study_order": 623
+    },
+    {
+      "entry_id": 94873,
+      "kanji": "飛ぶ",
+      "kana": "とぶ",
+      "gloss": "to fly; to soar; to jump; to leap; to spring; to bound; to hop; to spatter; to s",
+      "study_order": 624
+    },
+    {
+      "entry_id": 63026,
+      "kanji": null,
+      "kana": "どうぞ",
+      "gloss": "please; kindly; I beg of you; by all means; feel free; you are welcome; here you",
+      "study_order": 625
+    },
+    {
+      "entry_id": 108366,
+      "kanji": "鳴く",
+      "kana": "なく",
+      "gloss": "to make sound (of an animal); to call; to cry; to whine; to sing; to chirp; to m",
+      "study_order": 626
+    },
+    {
+      "entry_id": 107932,
+      "kanji": "無くす",
+      "kana": "なくす",
+      "gloss": "to lose (something); to mislay; to get rid of; to eliminate; to remove",
+      "study_order": 627
+    },
+    {
+      "entry_id": 81953,
+      "kanji": "習う",
+      "kana": "ならう",
+      "gloss": "to take lessons in; to be taught; to learn (from a teacher); to study (under a t",
+      "study_order": 628
+    },
+    {
+      "entry_id": 105277,
+      "kanji": "並ぶ",
+      "kana": "ならぶ",
+      "gloss": "to line up; to stand in a line; to rival; to match; to equal",
+      "study_order": 629
+    },
+    {
+      "entry_id": 105280,
+      "kanji": "並べる",
+      "kana": "ならべる",
+      "gloss": "to line up; to set up; to arrange in a line; to enumerate; to itemize; to be equ",
+      "study_order": 630
+    },
+    {
+      "entry_id": 87625,
+      "kanji": "成る",
+      "kana": "なる",
+      "gloss": "to become; to get; to grow; to be; to reach; to attain; to result in; to prove t",
+      "study_order": 631
+    },
+    {
+      "entry_id": 93139,
+      "kanji": "脱ぐ",
+      "kana": "ぬぐ",
+      "gloss": "to take off (clothes, shoes, etc.); to undress",
+      "study_order": 632
+    },
+    {
+      "entry_id": 84861,
+      "kanji": "乗る",
+      "kana": "のる",
+      "gloss": "to get on (train, plane, bus, ship, etc.); to get in; to board; to take; to emba",
+      "study_order": 633
+    },
+    {
+      "entry_id": 90913,
+      "kanji": "掃く",
+      "kana": "はく",
+      "gloss": "to sweep; to brush; to clean; to gather silkworms",
+      "study_order": 634
+    },
+    {
+      "entry_id": 93533,
+      "kanji": "弾く",
+      "kana": "はじく",
+      "gloss": "to flip; to snap; to flick; to repel; to use (an abacus); to calculate; to strum",
+      "study_order": 635
+    },
+    {
+      "entry_id": 97754,
+      "kanji": "働く",
+      "kana": "はたらく",
+      "gloss": "to work; to labor; to labour; to function; to operate; to be effective; to work ",
+      "study_order": 636
+    },
+    {
+      "entry_id": 87730,
+      "kanji": "晴れる",
+      "kana": "はれる",
+      "gloss": "to clear up; to clear away; to be sunny; to stop raining; to refresh (e.g. spiri",
+      "study_order": 637
+    },
+    {
+      "entry_id": 86941,
+      "kanji": "吹く",
+      "kana": "ふく",
+      "gloss": "to blow (of the wind); to blow (one's breath); to breathe out; to blow on (hot t",
+      "study_order": 638
+    },
+    {
+      "entry_id": 107242,
+      "kanji": "磨く",
+      "kana": "みがく",
+      "gloss": "to polish; to shine; to brush (e.g. teeth); to grind (e.g. lens); to refine (e.g",
+      "study_order": 639
+    },
+    {
+      "entry_id": 72145,
+      "kanji": "見せる",
+      "kana": "みせる",
+      "gloss": "to show; to display",
+      "study_order": 640
+    },
+    {
+      "entry_id": 68141,
+      "kanji": "休む",
+      "kana": "やすむ",
+      "gloss": "to be absent; to take a day off; to rest; to have a break; to go to bed; to (lie",
+      "study_order": 641
+    },
+    {
+      "entry_id": 326753,
+      "kanji": null,
+      "kana": "やる",
+      "gloss": "to do; to undertake; to perform; to play (a game); to study; to send; to dispatc",
+      "study_order": 642
+    },
+    {
+      "entry_id": 38547,
+      "kanji": null,
+      "kana": "より",
+      "gloss": "than; from; out of; since; at; on; except; but; other than; more",
+      "study_order": 643
+    },
+    {
+      "entry_id": 96880,
+      "kanji": "渡す",
+      "kana": "わたす",
+      "gloss": "to ferry across (e.g. a river); to carry across; to traverse; to lay across; to ",
+      "study_order": 644
+    },
+    {
+      "entry_id": 96888,
+      "kanji": "渡る",
+      "kana": "わたる",
+      "gloss": "to cross over; to go across; to extend; to cover; to range; to span",
+      "study_order": 645
+    },
+    {
+      "entry_id": 95261,
+      "kanji": "痛い",
+      "kana": "いたい",
+      "gloss": "painful; sore; cringy; embarrassing; exceeding",
+      "study_order": 646
+    },
+    {
+      "entry_id": 101835,
+      "kanji": "煩い",
+      "kana": "うるさい",
+      "gloss": "noisy; loud; annoying; troublesome; tiresome; persistent; importunate; fussy; fi",
+      "study_order": 647
+    },
+    {
+      "entry_id": 91955,
+      "kanji": "多い",
+      "kana": "おおい",
+      "gloss": "many; numerous; a lot; large amount of; large quantity of; much; frequent; commo",
+      "study_order": 648
+    },
+    {
+      "entry_id": 75789,
+      "kanji": "黒い",
+      "kana": "くろい",
+      "gloss": "black; dark; blackish; sun-tanned (skin); suspicious; criminal; illicit; darkene",
+      "study_order": 649
+    },
+    {
+      "entry_id": 83999,
+      "kanji": "少ない",
+      "kana": "すくない",
+      "gloss": "few; a little; scarce; insufficient; seldom",
+      "study_order": 650
+    },
+    {
+      "entry_id": 111289,
+      "kanji": "涼しい",
+      "kana": "すずしい",
+      "gloss": "cool; refreshing; clear (e.g. eyes); bright; clear; distinct; composed (facial e",
+      "study_order": 651
+    },
+    {
+      "entry_id": 65352,
+      "kanji": "楽しい",
+      "kana": "たのしい",
+      "gloss": "enjoyable; fun; pleasant; happy; delightful",
+      "study_order": 652
+    },
+    {
+      "entry_id": 69913,
+      "kanji": "近い",
+      "kana": "ちかい",
+      "gloss": "near; close; short (distance); close (in time); soon; close (relationship); frie",
+      "study_order": 653
+    },
+    {
+      "entry_id": 326695,
+      "kanji": null,
+      "kana": "つまらない",
+      "gloss": "dull; uninteresting; boring; tedious; insignificant; unimportant; trifling; triv",
+      "study_order": 654
+    },
+    {
+      "entry_id": 111583,
+      "kanji": "冷たい",
+      "kana": "つめたい",
+      "gloss": "cold (to the touch); chilly; icy; freezing; (emotionally) cold; coldhearted; unf",
+      "study_order": 655
+    },
+    {
+      "entry_id": 61542,
+      "kanji": "遠い",
+      "kana": "とおい",
+      "gloss": "far; distant; far away; a long way off; in the distance; distant (past); remote ",
+      "study_order": 656
+    },
+    {
+      "entry_id": 94880,
+      "kanji": "長い",
+      "kana": "ながい",
+      "gloss": "long (distance, length); long (time); protracted; prolonged",
+      "study_order": 657
+    },
+    {
+      "entry_id": 91668,
+      "kanji": "速い",
+      "kana": "はやい",
+      "gloss": "fast; quick; hasty; brisk; early (in the day, etc.); premature; (too) soon; not ",
+      "study_order": 658
+    },
+    {
+      "entry_id": 95508,
+      "kanji": "低い",
+      "kana": "ひくい",
+      "gloss": "low (rank, degree, value, content, quality, etc.); low (position); close to the ",
+      "study_order": 659
+    },
+    {
+      "entry_id": 74697,
+      "kanji": "広い",
+      "kana": "ひろい",
+      "gloss": "spacious; vast; wide",
+      "study_order": 660
+    },
+    {
+      "entry_id": 92026,
+      "kanji": "太い",
+      "kana": "ふとい",
+      "gloss": "fat; thick; deep (of a voice); sonorous; daring; shameless; brazen; audacious",
+      "study_order": 661
+    },
+    {
+      "entry_id": 110364,
+      "kanji": "欲しい",
+      "kana": "ほしい",
+      "gloss": "wanted; wished for; in need of; desired; I want (you) to",
+      "study_order": 662
+    },
+    {
+      "entry_id": 76855,
+      "kanji": "細い",
+      "kana": "ほそい",
+      "gloss": "thin; slender; fine; unlucky",
+      "study_order": 663
+    },
+    {
+      "entry_id": 326372,
+      "kanji": null,
+      "kana": "まずい",
+      "gloss": "poor-quality; shoddy; crude; unskillful; inexpert; maladroit; inept; foolish; cl",
+      "study_order": 664
+    },
+    {
+      "entry_id": 123179,
+      "kanji": "丸い",
+      "kana": "まるい",
+      "gloss": "round; circular; spherical; curved; smooth; harmonious; calm; peaceful; amiable;",
+      "study_order": 665
+    },
+    {
+      "entry_id": 123181,
+      "kanji": "円い",
+      "kana": "まるい",
+      "gloss": "round; circular; spherical; curved; smooth; harmonious; calm; peaceful; amiable;",
+      "study_order": 666
+    },
+    {
+      "entry_id": 93415,
+      "kanji": "短い",
+      "kana": "みじかい",
+      "gloss": "short; brief",
+      "study_order": 667
+    },
+    {
+      "entry_id": 80757,
+      "kanji": "弱い",
+      "kana": "よわい",
+      "gloss": "weak; frail; delicate; tender; unskilled; weak (wine)",
+      "study_order": 668
+    },
+    {
+      "entry_id": 80715,
+      "kanji": "若い",
+      "kana": "わかい",
+      "gloss": "young; youthful; immature; green; low (number); small",
+      "study_order": 669
+    },
+    {
+      "entry_id": 109537,
+      "kanji": null,
+      "kana": "ありがとうございます",
+      "gloss": "thank you",
+      "study_order": 670
+    },
+    {
+      "entry_id": 326349,
+      "kanji": null,
+      "kana": "いかが",
+      "gloss": "how; in what way; how about",
+      "study_order": 671
+    },
+    {
+      "entry_id": 289308,
+      "kanji": null,
+      "kana": "いや",
+      "gloss": "why; oh; no!; quit it!; stop!",
+      "study_order": 672
+    },
+    {
+      "entry_id": 36443,
+      "kanji": "お願いします",
+      "kana": "おねがいします",
+      "gloss": "please",
+      "study_order": 673
+    },
+    {
+      "entry_id": 36621,
+      "kanji": "お早うございます",
+      "kana": "おはようございます",
+      "gloss": "good morning",
+      "study_order": 674
+    },
+    {
+      "entry_id": 76087,
+      "kanji": "今日は",
+      "kana": "こんにちは",
+      "gloss": "hello; good day; good afternoon",
+      "study_order": 675
+    },
+    {
+      "entry_id": 76096,
+      "kanji": "今晩は",
+      "kana": "こんばんは",
+      "gloss": "good evening",
+      "study_order": 676
+    },
+    {
+      "entry_id": 326658,
+      "kanji": null,
+      "kana": "しかし",
+      "gloss": "however; but",
+      "study_order": 677
+    },
+    {
+      "entry_id": 37320,
+      "kanji": null,
+      "kana": "じゃ",
+      "gloss": "then; well; so; well then; be; is",
+      "study_order": 678
+    },
+    {
+      "entry_id": 37319,
+      "kanji": null,
+      "kana": "じゃあ",
+      "gloss": "then; well; so; well then; be; is",
+      "study_order": 679
+    },
+    {
+      "entry_id": 326672,
+      "kanji": null,
+      "kana": "そうして",
+      "gloss": "and; like that",
+      "study_order": 680
+    },
+    {
+      "entry_id": 326674,
+      "kanji": null,
+      "kana": "そして",
+      "gloss": "and; and then; thus; and now; and finally",
+      "study_order": 681
+    },
+    {
+      "entry_id": 326679,
+      "kanji": null,
+      "kana": "それから",
+      "gloss": "and then; after that",
+      "study_order": 682
+    },
+    {
+      "entry_id": 326681,
+      "kanji": null,
+      "kana": "それでは",
+      "gloss": "well then ...; in that situation; in which case",
+      "study_order": 683
+    },
+    {
+      "entry_id": 37737,
+      "kanji": null,
+      "kana": "では",
+      "gloss": "then; well; so; well then; if not ...; unless ...",
+      "study_order": 684
+    },
+    {
+      "entry_id": 37738,
+      "kanji": null,
+      "kana": "でも",
+      "gloss": "but; however; though; nevertheless; still; yet; even so; also; as well; even; no",
+      "study_order": 685
+    },
+    {
+      "entry_id": 126511,
+      "kanji": "初めまして",
+      "kana": "はじめまして",
+      "gloss": "How do you do?; I am glad to meet you",
+      "study_order": 686
+    },
+    {
+      "entry_id": 275216,
+      "kanji": null,
+      "kana": "ほう",
+      "gloss": "oh; ho; exclamation of surprise, admiration, etc.; hoo (owl call); toot (sound o",
+      "study_order": 687
+    },
+    {
+      "entry_id": 171753,
+      "kanji": "もう一度",
+      "kana": "もういちど",
+      "gloss": "once more; again",
+      "study_order": 688
+    },
+    {
+      "entry_id": 66779,
+      "kanji": "頑張る",
+      "kana": "がんばる",
+      "gloss": "to persevere; to persist; to keep at it; to hang on; to hold out; to do one's best",
+      "study_order": 689
+    },
+    {
+      "entry_id": 37241,
+      "kanji": null,
+      "kana": "さん",
+      "gloss": "Mr.",
+      "study_order": 690
+    },
+    {
+      "entry_id": 38673,
+      "kanji": null,
+      "kana": "アイス",
+      "gloss": "ice",
+      "study_order": 691
+    },
+    {
+      "entry_id": 39096,
+      "kanji": null,
+      "kana": "アップロード",
+      "gloss": "upload",
+      "study_order": 692
+    },
+    {
+      "entry_id": 39208,
+      "kanji": null,
+      "kana": "アニメ",
+      "gloss": "animation",
+      "study_order": 693
+    },
+    {
+      "entry_id": 39287,
+      "kanji": null,
+      "kana": "アプリ",
+      "gloss": "app",
+      "study_order": 694
+    },
+    {
+      "entry_id": 40373,
+      "kanji": null,
+      "kana": "ウェブ",
+      "gloss": "web",
+      "study_order": 695
+    },
+    {
+      "entry_id": 40999,
+      "kanji": null,
+      "kana": "エピソード",
+      "gloss": "episode",
+      "study_order": 696
+    },
+    {
+      "entry_id": 42265,
+      "kanji": null,
+      "kana": "カラオケ",
+      "gloss": "karaoke",
+      "study_order": 697
+    },
+    {
+      "entry_id": 42554,
+      "kanji": null,
+      "kana": "キーボード",
+      "gloss": "keyboard",
+      "study_order": 698
+    },
+    {
+      "entry_id": 42965,
+      "kanji": null,
+      "kana": "クッキー",
+      "gloss": "cookie",
+      "study_order": 699
+    },
+    {
+      "entry_id": 42972,
+      "kanji": null,
+      "kana": "クッション",
+      "gloss": "cushion",
+      "study_order": 700
+    },
+    {
+      "entry_id": 43575,
+      "kanji": null,
+      "kana": "ケチャップ",
+      "gloss": "ketchup",
+      "study_order": 701
+    },
+    {
+      "entry_id": 43868,
+      "kanji": null,
+      "kana": "ココア",
+      "gloss": "cocoa (beverage, cocoa solids)",
+      "study_order": 702
+    },
+    {
+      "entry_id": 44519,
+      "kanji": null,
+      "kana": "ゴルフ",
+      "gloss": "golf",
+      "study_order": 703
+    },
+    {
+      "entry_id": 44587,
+      "kanji": null,
+      "kana": "サーフィン",
+      "gloss": "surfing",
+      "study_order": 704
+    },
+    {
+      "entry_id": 44641,
+      "kanji": null,
+      "kana": "サイクリング",
+      "gloss": "cycling",
+      "study_order": 705
+    },
+    {
+      "entry_id": 44676,
+      "kanji": null,
+      "kana": "サイト",
+      "gloss": "site (usu. website)",
+      "study_order": 706
+    },
+    {
+      "entry_id": 44806,
+      "kanji": null,
+      "kana": "サッカー",
+      "gloss": "soccer",
+      "study_order": 707
+    },
+    {
+      "entry_id": 45224,
+      "kanji": null,
+      "kana": "シーン",
+      "gloss": "scene",
+      "study_order": 708
+    },
+    {
+      "entry_id": 45540,
+      "kanji": null,
+      "kana": "シャンプー",
+      "gloss": "shampoo",
+      "study_order": 709
+    },
+    {
+      "entry_id": 46144,
+      "kanji": null,
+      "kana": "ジョギング",
+      "gloss": "jogging",
+      "study_order": 710
+    },
+    {
+      "entry_id": 46191,
+      "kanji": null,
+      "kana": "スーパー",
+      "gloss": "supermarket",
+      "study_order": 711
+    },
+    {
+      "entry_id": 47370,
+      "kanji": null,
+      "kana": "ソーセージ",
+      "gloss": "sausage",
+      "study_order": 712
+    },
+    {
+      "entry_id": 47580,
+      "kanji": null,
+      "kana": "ダウンロード",
+      "gloss": "download",
+      "study_order": 713
+    },
+    {
+      "entry_id": 47760,
+      "kanji": null,
+      "kana": "チョコ",
+      "gloss": "chocolate",
+      "study_order": 714
+    },
+    {
+      "entry_id": 47875,
+      "kanji": null,
+      "kana": "ティッシュ",
+      "gloss": "tissue",
+      "study_order": 715
+    },
+    {
+      "entry_id": 48652,
+      "kanji": null,
+      "kana": "トイレットペーパー",
+      "gloss": "toilet paper",
+      "study_order": 716
+    },
+    {
+      "entry_id": 49023,
+      "kanji": null,
+      "kana": "ドーナツ",
+      "gloss": "doughnut",
+      "study_order": 717
+    },
+    {
+      "entry_id": 49194,
+      "kanji": null,
+      "kana": "ドラム",
+      "gloss": "drum",
+      "study_order": 718
+    },
+    {
+      "entry_id": 49789,
+      "kanji": null,
+      "kana": "ネット",
+      "gloss": "network",
+      "study_order": 719
+    },
+    {
+      "entry_id": 50205,
+      "kanji": null,
+      "kana": "ハム",
+      "gloss": "ham (cured pig meat)",
+      "study_order": 720
+    },
+    {
+      "entry_id": 50952,
+      "kanji": null,
+      "kana": "パスタ",
+      "gloss": "pasta",
+      "study_order": 721
+    },
+    {
+      "entry_id": 50960,
+      "kanji": null,
+      "kana": "パスワード",
+      "gloss": "password",
+      "study_order": 722
+    },
+    {
+      "entry_id": 53107,
+      "kanji": null,
+      "kana": "プリン",
+      "gloss": "pudding (esp. custard)",
+      "study_order": 723
+    },
+    {
+      "entry_id": 53116,
+      "kanji": null,
+      "kana": "プリンター",
+      "gloss": "printer",
+      "study_order": 724
+    },
+    {
+      "entry_id": 54154,
+      "kanji": null,
+      "kana": "ボウリング",
+      "gloss": "bowling (esp. tenpin)",
+      "study_order": 725
+    },
+    {
+      "entry_id": 54669,
+      "kanji": null,
+      "kana": "マウス",
+      "gloss": "mouse (esp. laboratory)",
+      "study_order": 726
+    },
+    {
+      "entry_id": 54856,
+      "kanji": null,
+      "kana": "マット",
+      "gloss": "mat",
+      "study_order": 727
+    },
+    {
+      "entry_id": 54958,
+      "kanji": null,
+      "kana": "マヨネーズ",
+      "gloss": "mayonnaise",
+      "study_order": 728
+    },
+    {
+      "entry_id": 55639,
+      "kanji": null,
+      "kana": "メロン",
+      "gloss": "melon (esp. a muskmelon, Cucumis melo)",
+      "study_order": 729
+    },
+    {
+      "entry_id": 56058,
+      "kanji": null,
+      "kana": "ヨガ",
+      "gloss": "yoga",
+      "study_order": 730
+    },
+    {
+      "entry_id": 56063,
+      "kanji": null,
+      "kana": "ヨーグルト",
+      "gloss": "yogurt",
+      "study_order": 731
+    },
+    {
+      "entry_id": 56162,
+      "kanji": null,
+      "kana": "ライブ",
+      "gloss": "live (esp. concert, show, etc.)",
+      "study_order": 732
+    },
+    {
+      "entry_id": 56808,
+      "kanji": null,
+      "kana": "リモコン",
+      "gloss": "remote control",
+      "study_order": 733
+    },
+    {
+      "entry_id": 57212,
+      "kanji": null,
+      "kana": "レモン",
+      "gloss": "lemon",
+      "study_order": 734
+    },
+    {
+      "entry_id": 57377,
+      "kanji": null,
+      "kana": "ログイン",
+      "gloss": "login",
+      "study_order": 735
+    },
+    {
+      "entry_id": 107638,
+      "kanji": null,
+      "kana": "マンガ",
+      "gloss": "cartoon",
+      "study_order": 736
+    },
+    {
+      "entry_id": 111421,
+      "kanji": null,
+      "kana": "リンゴ",
+      "gloss": "apple (fruit)",
+      "study_order": 737
+    },
+    {
+      "entry_id": 113822,
+      "kanji": null,
+      "kana": "イチゴ",
+      "gloss": "strawberry (esp. the garden strawberry, Fragaria x ananassa)",
+      "study_order": 738
+    },
+    {
+      "entry_id": 176008,
+      "kanji": null,
+      "kana": "ブログ",
+      "gloss": "blog",
+      "study_order": 739
+    },
+    {
+      "entry_id": 257730,
+      "kanji": null,
+      "kana": "スマホ",
+      "gloss": "smartphone",
+      "study_order": 740
+    }
+  ],
+  "grammar": [
+    {
+      "entry_id": 325425,
+      "kanji": "は",
+      "kana": "は",
+      "gloss": "topic marker particle",
+      "study_order": 656
+    },
+    {
+      "entry_id": 325422,
+      "kanji": "です",
+      "kana": "です",
+      "gloss": "be; is",
+      "study_order": 657
+    },
+    {
+      "entry_id": 325459,
+      "kanji": "じゃない",
+      "kana": "じゃない",
+      "gloss": "is not; am not; are not; isn't it?",
+      "study_order": 658
+    },
+    {
+      "entry_id": 325432,
+      "kanji": "か",
+      "kana": "か",
+      "gloss": "yes?; no?; isn't it?; is it?; or; whether or not; some- (e.g. something, someone",
+      "study_order": 659
+    },
+    {
+      "entry_id": 325423,
+      "kanji": "い-adjectives",
+      "kana": "い-adjectives",
+      "gloss": "i-adjectives",
+      "study_order": 660
+    },
+    {
+      "entry_id": 325424,
+      "kanji": "な-adjectives",
+      "kana": "な-adjectives",
+      "gloss": "na-adjectives",
+      "study_order": 661
+    },
+    {
+      "entry_id": 325426,
+      "kanji": "が",
+      "kana": "が",
+      "gloss": "indicates sentence subject (occasionally object); indicates possessive (esp. in ",
+      "study_order": 662
+    },
+    {
+      "entry_id": 326759,
+      "kanji": "ます",
+      "kana": "ます",
+      "gloss": "polite present/future affirmative verb ending; used to make verbs polite",
+      "study_order": 663
+    },
+    {
+      "entry_id": 326760,
+      "kanji": "ません",
+      "kana": "ません",
+      "gloss": "polite present/future negative verb ending; does not; will not",
+      "study_order": 664
+    },
+    {
+      "entry_id": 326761,
+      "kanji": "ました",
+      "kana": "ました",
+      "gloss": "polite past affirmative verb ending; did; have done",
+      "study_order": 665
+    },
+    {
+      "entry_id": 326762,
+      "kanji": "ませんでした",
+      "kana": "ませんでした",
+      "gloss": "polite past negative verb ending; did not; have not done",
+      "study_order": 666
+    },
+    {
+      "entry_id": 325427,
+      "kanji": "を",
+      "kana": "を",
+      "gloss": "indicates direct object of action; indicates subject of causative expression; in",
+      "study_order": 667
+    },
+    {
+      "entry_id": 325428,
+      "kanji": "に",
+      "kana": "に",
+      "gloss": "at (place, time); in; on; during; to (direction, state); toward; into; for (purp",
+      "study_order": 668
+    },
+    {
+      "entry_id": 325429,
+      "kanji": "で",
+      "kana": "で",
+      "gloss": "at; in; when; by; with; and then; so; and; then; let me tell you; don't you know",
+      "study_order": 669
+    },
+    {
+      "entry_id": 325430,
+      "kanji": "へ",
+      "kana": "へ",
+      "gloss": "to; towards; for",
+      "study_order": 670
+    },
+    {
+      "entry_id": 325431,
+      "kanji": "と",
+      "kana": "と",
+      "gloss": "if; when; and; with; used for quoting (thoughts, speech, etc.); promoted pawn; i",
+      "study_order": 671
+    },
+    {
+      "entry_id": 325435,
+      "kanji": "の",
+      "kana": "の",
+      "gloss": "indicates possessive; nominalizes verbs and adjectives; substitutes for \"ga\" in ",
+      "study_order": 672
+    },
+    {
+      "entry_id": 325436,
+      "kanji": "も",
+      "kana": "も",
+      "gloss": "too; also; in addition; as well; (not) either (in a negative sentence); both A a",
+      "study_order": 673
+    },
+    {
+      "entry_id": 325437,
+      "kanji": "や",
+      "kana": "や",
+      "gloss": "such things as ...; and ... and; the minute (that) ...; no sooner than ...; as s",
+      "study_order": 674
+    },
+    {
+      "entry_id": 325438,
+      "kanji": "よ",
+      "kana": "よ",
+      "gloss": "hey; you; hold on; yo",
+      "study_order": 675
+    },
+    {
+      "entry_id": 325434,
+      "kanji": "ね",
+      "kana": "ね",
+      "gloss": "right?; don't you think; hey; come on; listen",
+      "study_order": 676
+    },
+    {
+      "entry_id": 325421,
+      "kanji": "だ",
+      "kana": "だ",
+      "gloss": "be; is; did; (have) done; please; do",
+      "study_order": 677
+    },
+    {
+      "entry_id": 326351,
+      "kanji": "でした",
+      "kana": "でした",
+      "gloss": "polite copula past tense; was/were (polite)",
+      "study_order": 678
+    },
+    {
+      "entry_id": 325460,
+      "kanji": "ではない",
+      "kana": "ではない",
+      "gloss": "is not; am not; are not",
+      "study_order": 679
+    },
+    {
+      "entry_id": 326352,
+      "kanji": "じゃありません",
+      "kana": "じゃありません",
+      "gloss": "polite copula negative; is not/am not/are not (polite)",
+      "study_order": 680
+    },
+    {
+      "entry_id": 326353,
+      "kanji": "ではありません",
+      "kana": "ではありません",
+      "gloss": "polite copula negative; is not/am not/are not (formal/polite)",
+      "study_order": 681
+    },
+    {
+      "entry_id": 326354,
+      "kanji": "じゃありませんでした",
+      "kana": "じゃありませんでした",
+      "gloss": "polite copula past negative; was not/were not (polite)",
+      "study_order": 682
+    },
+    {
+      "entry_id": 326355,
+      "kanji": "ではありませんでした",
+      "kana": "ではありませんでした",
+      "gloss": "polite copula past negative; was not/were not (formal/polite)",
+      "study_order": 683
+    },
+    {
+      "entry_id": 326356,
+      "kanji": "かった",
+      "kana": "かった",
+      "gloss": "i-adjective past tense ending; was (adjective)",
+      "study_order": 684
+    },
+    {
+      "entry_id": 326763,
+      "kanji": "た",
+      "kana": "た",
+      "gloss": "plain past tense; casual past affirmative; did; have done",
+      "study_order": 685
+    },
+    {
+      "entry_id": 326764,
+      "kanji": "ない",
+      "kana": "ない",
+      "gloss": "plain negative; casual present negative; do not; is not",
+      "study_order": 686
+    },
+    {
+      "entry_id": 326765,
+      "kanji": "なかった",
+      "kana": "なかった",
+      "gloss": "plain past negative; casual past negative; did not; was not",
+      "study_order": 687
+    },
+    {
+      "entry_id": 325518,
+      "kanji": "て",
+      "kana": "て",
+      "gloss": "you said; he said; she said; they said; if ... then; do you seriously think that",
+      "study_order": 688
+    },
+    {
+      "entry_id": 325462,
+      "kanji": "ている",
+      "kana": "ている",
+      "gloss": "to be doing (progressive/continuous tense)",
+      "study_order": 689
+    },
+    {
+      "entry_id": 325466,
+      "kanji": "てください",
+      "kana": "てください",
+      "gloss": "please do (polite request)",
+      "study_order": 690
+    },
+    {
+      "entry_id": 325465,
+      "kanji": "てから",
+      "kana": "てから",
+      "gloss": "after doing~",
+      "study_order": 691
+    },
+    {
+      "entry_id": 325464,
+      "kanji": "てある",
+      "kana": "てある",
+      "gloss": "is/has been done (resulting state)",
+      "study_order": 692
+    },
+    {
+      "entry_id": 325463,
+      "kanji": "たことがある",
+      "kana": "たことがある",
+      "gloss": "have done before (experience)",
+      "study_order": 693
+    },
+    {
+      "entry_id": 325516,
+      "kanji": "ていただけませんか",
+      "kana": "ていただけませんか",
+      "gloss": "could you please",
+      "study_order": 694
+    },
+    {
+      "entry_id": 325517,
+      "kanji": "てすみません",
+      "kana": "てすみません",
+      "gloss": "I’m sorry for",
+      "study_order": 695
+    },
+    {
+      "entry_id": 325467,
+      "kanji": "てもいいです",
+      "kana": "てもいいです",
+      "gloss": "is OK to..; is alright to..; may I..?",
+      "study_order": 696
+    },
+    {
+      "entry_id": 325468,
+      "kanji": "なくてもいい",
+      "kana": "なくてもいい",
+      "gloss": "need not; (not) have to; need not have; need not exist",
+      "study_order": 697
+    },
+    {
+      "entry_id": 325469,
+      "kanji": "てはいけない",
+      "kana": "てはいけない",
+      "gloss": "must not do (prohibition)",
+      "study_order": 698
+    },
+    {
+      "entry_id": 325470,
+      "kanji": "なくてはいけない",
+      "kana": "なくてはいけない",
+      "gloss": "must do; need to do",
+      "study_order": 699
+    },
+    {
+      "entry_id": 325471,
+      "kanji": "じゃいけない",
+      "kana": "じゃいけない",
+      "gloss": "must not do (spoken Japanese)",
+      "study_order": 700
+    },
+    {
+      "entry_id": 325472,
+      "kanji": "ちゃいけない",
+      "kana": "ちゃいけない",
+      "gloss": "must not do (spoken Japanese)",
+      "study_order": 701
+    },
+    {
+      "entry_id": 325474,
+      "kanji": "なくてはならない",
+      "kana": "なくてはならない",
+      "gloss": "must do; need to do",
+      "study_order": 702
+    },
+    {
+      "entry_id": 325475,
+      "kanji": "なくちゃ",
+      "kana": "なくちゃ",
+      "gloss": "unless; without",
+      "study_order": 703
+    },
+    {
+      "entry_id": 325455,
+      "kanji": "があります",
+      "kana": "があります",
+      "gloss": "there is; is (non-living things)",
+      "study_order": 704
+    },
+    {
+      "entry_id": 325456,
+      "kanji": "がいます",
+      "kana": "がいます",
+      "gloss": "there is; to be; is (living things)",
+      "study_order": 705
+    },
+    {
+      "entry_id": 325478,
+      "kanji": "たい",
+      "kana": "たい",
+      "gloss": "want to ... do something; would like to ...; indicates emphasis; very ...",
+      "study_order": 706
+    },
+    {
+      "entry_id": 325477,
+      "kanji": "がほしい",
+      "kana": "がほしい",
+      "gloss": "to want something",
+      "study_order": 707
+    },
+    {
+      "entry_id": 325476,
+      "kanji": "ほうがいい",
+      "kana": "ほうがいい",
+      "gloss": "had better; had better not",
+      "study_order": 708
+    },
+    {
+      "entry_id": 325453,
+      "kanji": "一番",
+      "kana": "いちばん",
+      "gloss": "number one; first; first place; best; most; game; round; bout; as a test; as an ",
+      "study_order": 709
+    },
+    {
+      "entry_id": 325479,
+      "kanji": "は〜より",
+      "kana": "は〜より",
+      "gloss": "[A] is more ~ than [B]",
+      "study_order": 710
+    },
+    {
+      "entry_id": 325480,
+      "kanji": "より〜ほうが",
+      "kana": "より〜ほうが",
+      "gloss": "[A] is more than [B]",
+      "study_order": 711
+    },
+    {
+      "entry_id": 325481,
+      "kanji": "の中で[A]が一番",
+      "kana": "の中で[A]が一番",
+      "gloss": "out of this group, [A] is best",
+      "study_order": 712
+    },
+    {
+      "entry_id": 325512,
+      "kanji": "より",
+      "kana": "より",
+      "gloss": "than; from; out of; since; at; on; except; but; other than; more",
+      "study_order": 713
+    },
+    {
+      "entry_id": 325442,
+      "kanji": "けど",
+      "kana": "けど",
+      "gloss": "but; however; although",
+      "study_order": 714
+    },
+    {
+      "entry_id": 325445,
+      "kanji": "でも",
+      "kana": "でも",
+      "gloss": "but; however; though; nevertheless; still; yet; even so; also; as well; even; no",
+      "study_order": 715
+    },
+    {
+      "entry_id": 325449,
+      "kanji": "から",
+      "kana": "から",
+      "gloss": "from (e.g. time, place, numerical quantity); since; from (originator); by; becau",
+      "study_order": 716
+    },
+    {
+      "entry_id": 325501,
+      "kanji": "ので",
+      "kana": "ので",
+      "gloss": "that being the case; because of ...; the reason is ...; given that ...",
+      "study_order": 717
+    },
+    {
+      "entry_id": 325450,
+      "kanji": "まで",
+      "kana": "まで",
+      "gloss": "until (a time); till; to; up to; to (a place); as far as; to (an extent); so far",
+      "study_order": 718
+    },
+    {
+      "entry_id": 325451,
+      "kanji": "前に",
+      "kana": "まえに",
+      "gloss": "ahead; before; ago",
+      "study_order": 719
+    },
+    {
+      "entry_id": 325510,
+      "kanji": "後で",
+      "kana": "あとで",
+      "gloss": "afterwards",
+      "study_order": 720
+    },
+    {
+      "entry_id": 325511,
+      "kanji": "間",
+      "kana": "あいだ",
+      "gloss": "space (between); gap; interval; distance; stretch; period of time (during, while",
+      "study_order": 721
+    },
+    {
+      "entry_id": 325502,
+      "kanji": "とき",
+      "kana": "とき",
+      "gloss": "when; at the time; while; during",
+      "study_order": 722
+    },
+    {
+      "entry_id": 325487,
+      "kanji": "のです",
+      "kana": "のです",
+      "gloss": "the expectation is that ...; the reason is that ...; the fact is that ...; the e",
+      "study_order": 723
+    },
+    {
+      "entry_id": 325488,
+      "kanji": "んです",
+      "kana": "んです",
+      "gloss": "the expectation is that ...; the reason is that ...; the fact is that ...; the e",
+      "study_order": 724
+    },
+    {
+      "entry_id": 325473,
+      "kanji": "ないでください",
+      "kana": "ないでください",
+      "gloss": "please don't do",
+      "study_order": 725
+    },
+    {
+      "entry_id": 325457,
+      "kanji": "ませんか",
+      "kana": "ませんか",
+      "gloss": "won't (hasn't, isn't, doesn't, etc.); won't you",
+      "study_order": 726
+    },
+    {
+      "entry_id": 325494,
+      "kanji": "ましょう",
+      "kana": "ましょう",
+      "gloss": "I'll; let's; probably",
+      "study_order": 727
+    },
+    {
+      "entry_id": 325495,
+      "kanji": "ましょうか",
+      "kana": "ましょうか",
+      "gloss": "shall I?; shall we?",
+      "study_order": 728
+    },
+    {
+      "entry_id": 325498,
+      "kanji": "たり〜たり",
+      "kana": "たり〜たり",
+      "gloss": "do such things as A and B",
+      "study_order": 729
+    },
+    {
+      "entry_id": 325458,
+      "kanji": "まだ〜ていません",
+      "kana": "まだ〜ていません",
+      "gloss": "have not yet",
+      "study_order": 730
+    },
+    {
+      "entry_id": 325461,
+      "kanji": "ないで",
+      "kana": "ないで",
+      "gloss": "without doing ...; don't",
+      "study_order": 731
+    },
+    {
+      "entry_id": 325484,
+      "kanji": "のが上手",
+      "kana": "のが上手",
+      "gloss": "to be good at",
+      "study_order": 732
+    },
+    {
+      "entry_id": 325485,
+      "kanji": "のが下手",
+      "kana": "のが下手",
+      "gloss": "to be bad at doing something",
+      "study_order": 733
+    },
+    {
+      "entry_id": 325486,
+      "kanji": "のが好き",
+      "kana": "のが好き",
+      "gloss": "to like doing something",
+      "study_order": 734
+    },
+    {
+      "entry_id": 325482,
+      "kanji": "に行く",
+      "kana": "にいく",
+      "gloss": "go to do",
+      "study_order": 735
+    },
+    {
+      "entry_id": 325483,
+      "kanji": "にする",
+      "kana": "にする",
+      "gloss": "to decide on",
+      "study_order": 736
+    },
+    {
+      "entry_id": 325440,
+      "kanji": "どうやって",
+      "kana": "どうやって",
+      "gloss": "how; in what way; by what means",
+      "study_order": 737
+    },
+    {
+      "entry_id": 325441,
+      "kanji": "どんな",
+      "kana": "どんな",
+      "gloss": "what kind of; what sort of; what; no matter what (kind of); whatever; any; all",
+      "study_order": 738
+    },
+    {
+      "entry_id": 325454,
+      "kanji": "方",
+      "kana": "かた",
+      "gloss": "direction; way; person; lady; gentleman; method of; manner of; way of; care of .",
+      "study_order": 739
+    },
+    {
+      "entry_id": 325490,
+      "kanji": "か〜か",
+      "kana": "か〜か",
+      "gloss": "or",
+      "study_order": 740
+    },
+    {
+      "entry_id": 325491,
+      "kanji": "だけ",
+      "kana": "だけ",
+      "gloss": "only; just; merely; simply; no more than; nothing but; alone; as much as; to the",
+      "study_order": 741
+    },
+    {
+      "entry_id": 325492,
+      "kanji": "だろう",
+      "kana": "だろう",
+      "gloss": "seems; I think; I guess; I wonder; I hope; don't you agree?; I thought you'd say",
+      "study_order": 742
+    },
+    {
+      "entry_id": 325493,
+      "kanji": "でしょう",
+      "kana": "でしょう",
+      "gloss": "it seems; I think; I guess; I wonder; right?; don't you agree?",
+      "study_order": 743
+    },
+    {
+      "entry_id": 325496,
+      "kanji": "一緒に",
+      "kana": "いっしょに",
+      "gloss": "together (with); at the same time; in a lump",
+      "study_order": 744
+    },
+    {
+      "entry_id": 325497,
+      "kanji": "なる",
+      "kana": "なる",
+      "gloss": "to become; to get; to grow; to be; to reach; to attain; to result in; to prove t",
+      "study_order": 745
+    },
+    {
+      "entry_id": 325500,
+      "kanji": "をください",
+      "kana": "をください",
+      "gloss": "please give me~",
+      "study_order": 746
+    },
+    {
+      "entry_id": 325503,
+      "kanji": "はどうですか",
+      "kana": "はどうですか",
+      "gloss": "how about; how is",
+      "study_order": 747
+    },
+    {
+      "entry_id": 325433,
+      "kanji": "なあ",
+      "kana": "なあ",
+      "gloss": "hey; say; look",
+      "study_order": 748
+    },
+    {
+      "entry_id": 325506,
+      "kanji": "さ",
+      "kana": "さ",
+      "gloss": "-ness; indicates assertion; come; come now",
+      "study_order": 749
+    },
+    {
+      "entry_id": 325507,
+      "kanji": "な",
+      "kana": "な",
+      "gloss": "don't; do; hey; listen; you; now, ...; well, ...; I tell you!; you know; wow; oo",
+      "study_order": 750
+    },
+    {
+      "entry_id": 325504,
+      "kanji": "で",
+      "kana": "で",
+      "gloss": "at; in; when; by; with; and then; so; and; then; let me tell you; don't you know",
+      "study_order": 751
+    },
+    {
+      "entry_id": 325505,
+      "kanji": "と",
+      "kana": "と",
+      "gloss": "if; when; and; with; used for quoting (thoughts, speech, etc.); promoted pawn; i",
+      "study_order": 752
+    },
+    {
+      "entry_id": 325508,
+      "kanji": "も",
+      "kana": "も",
+      "gloss": "too; also; in addition; as well; (not) either (in a negative sentence); both A a",
+      "study_order": 753
+    },
+    {
+      "entry_id": 325509,
+      "kanji": "でも",
+      "kana": "でも",
+      "gloss": "but; however; though; nevertheless; still; yet; even so; also; as well; even; no",
+      "study_order": 754
+    },
+    {
+      "entry_id": 325513,
+      "kanji": "いたします",
+      "kana": "いたします",
+      "gloss": "to do (polite form of する)",
+      "study_order": 755
+    },
+    {
+      "entry_id": 325514,
+      "kanji": "ございます",
+      "kana": "ございます",
+      "gloss": "to be; to exist",
+      "study_order": 756
+    },
+    {
+      "entry_id": 325515,
+      "kanji": "でございます",
+      "kana": "でございます",
+      "gloss": "to be (honorific)",
+      "study_order": 757
+    },
+    {
+      "entry_id": 326766,
+      "kanji": "つもり",
+      "kana": "つもり",
+      "gloss": "plan to; intend to; intention; belief that",
+      "study_order": 758
+    },
+    {
+      "entry_id": 326767,
+      "kanji": "ことができる",
+      "kana": "ことができる",
+      "gloss": "can do; to be able to; it is possible to",
+      "study_order": 759
+    },
+    {
+      "entry_id": 326768,
+      "kanji": "と思う",
+      "kana": "とおもう",
+      "gloss": "I think that; I believe that; I feel that",
+      "study_order": 760
+    },
+    {
+      "entry_id": 326769,
+      "kanji": "あげる・もらう・くれる",
+      "kana": "あげる・もらう・くれる",
+      "gloss": "to give; to receive; to do for (giving and receiving actions)",
+      "study_order": 761
+    }
+  ]
+}

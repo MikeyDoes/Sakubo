@@ -4404,6 +4404,412 @@
       "kana": "ガス",
       "gloss": "gas",
       "study_order": 629
+    },
+    {
+      "entry_id": 119433,
+      "kanji": "決まる",
+      "kana": "きまる",
+      "gloss": "to be decided",
+      "study_order": 630
+    },
+    {
+      "entry_id": 98522,
+      "kanji": "届く",
+      "kana": "とどく",
+      "gloss": "to reach",
+      "study_order": 631
+    },
+    {
+      "entry_id": 85872,
+      "kanji": "申し込む",
+      "kana": "もうしこむ",
+      "gloss": "to apply for",
+      "study_order": 632
+    },
+    {
+      "entry_id": 93559,
+      "kanji": "断る",
+      "kana": "ことわる",
+      "gloss": "to refuse",
+      "study_order": 633
+    },
+    {
+      "entry_id": 109642,
+      "kanji": "誘う",
+      "kana": "さそう",
+      "gloss": "to invite",
+      "study_order": 634
+    },
+    {
+      "entry_id": 59108,
+      "kanji": "育つ",
+      "kana": "そだつ",
+      "gloss": "to be raised (e.g. child)",
+      "study_order": 635
+    },
+    {
+      "entry_id": 116707,
+      "kanji": "転ぶ",
+      "kana": "ころぶ",
+      "gloss": "to fall down",
+      "study_order": 636
+    },
+    {
+      "entry_id": 61691,
+      "kanji": "汚す",
+      "kana": "よごす",
+      "gloss": "to pollute",
+      "study_order": 637
+    },
+    {
+      "entry_id": 79928,
+      "kanji": "自然",
+      "kana": "しぜん",
+      "gloss": "nature",
+      "study_order": 638
+    },
+    {
+      "entry_id": 98505,
+      "kanji": "突然",
+      "kana": "とつぜん",
+      "gloss": "abrupt",
+      "study_order": 639
+    },
+    {
+      "entry_id": 111543,
+      "kanji": "例えば",
+      "kana": "たとえば",
+      "gloss": "for example",
+      "study_order": 640
+    },
+    {
+      "entry_id": 92890,
+      "kanji": "大体",
+      "kana": "だいたい",
+      "gloss": "outline",
+      "study_order": 641
+    },
+    {
+      "entry_id": 92939,
+      "kanji": "大分",
+      "kana": "だいぶ",
+      "gloss": "considerably",
+      "study_order": 642
+    },
+    {
+      "entry_id": 121727,
+      "kanji": "中々",
+      "kana": "なかなか",
+      "gloss": "very",
+      "study_order": 643
+    },
+    {
+      "entry_id": 87486,
+      "kanji": "凄い",
+      "kana": "すごい",
+      "gloss": "terrible",
+      "study_order": 644
+    },
+    {
+      "entry_id": 63911,
+      "kanji": "過ぎる",
+      "kana": "すぎる",
+      "gloss": "to pass through",
+      "study_order": 645
+    },
+    {
+      "entry_id": 77759,
+      "kanji": "参る",
+      "kana": "まいる",
+      "gloss": "to go",
+      "study_order": 646
+    },
+    {
+      "entry_id": 93874,
+      "kanji": "致す",
+      "kana": "いたす",
+      "gloss": "to do",
+      "study_order": 647
+    },
+    {
+      "entry_id": 97561,
+      "kanji": "到着",
+      "kana": "とうちゃく",
+      "gloss": "arrival",
+      "study_order": 648
+    },
+    {
+      "entry_id": 77762,
+      "kanji": "参加",
+      "kana": "さんか",
+      "gloss": "participation",
+      "study_order": 649
+    },
+    {
+      "entry_id": 81790,
+      "kanji": "就職",
+      "kana": "しゅうしょく",
+      "gloss": "finding employment",
+      "study_order": 650
+    },
+    {
+      "entry_id": 65201,
+      "kanji": "確認",
+      "kana": "かくにん",
+      "gloss": "confirmation",
+      "study_order": 651
+    },
+    {
+      "entry_id": 66120,
+      "kanji": "感動",
+      "kana": "かんどう",
+      "gloss": "being deeply moved emotionally",
+      "study_order": 652
+    },
+    {
+      "entry_id": 78062,
+      "kanji": "賛成",
+      "kana": "さんせい",
+      "gloss": "approval",
+      "study_order": 653
+    },
+    {
+      "entry_id": 87640,
+      "kanji": "成功",
+      "kana": "せいこう",
+      "gloss": "success",
+      "study_order": 654
+    },
+    {
+      "entry_id": 106229,
+      "kanji": "報告",
+      "kana": "ほうこく",
+      "gloss": "report",
+      "study_order": 655
+    },
+    {
+      "entry_id": 111086,
+      "kanji": "留学",
+      "kana": "りゅうがく",
+      "gloss": "studying abroad",
+      "study_order": 656
+    },
+    {
+      "entry_id": 42734,
+      "kanji": null,
+      "kana": "キャンプ",
+      "gloss": "camp",
+      "study_order": 657
+    },
+    {
+      "entry_id": 44739,
+      "kanji": null,
+      "kana": "サイン",
+      "gloss": "autograph",
+      "study_order": 658
+    },
+    {
+      "entry_id": 49149,
+      "kanji": null,
+      "kana": "ドライブ",
+      "gloss": "drive",
+      "study_order": 659
+    },
+    {
+      "entry_id": 55134,
+      "kanji": null,
+      "kana": "ミス",
+      "gloss": "mistake",
+      "study_order": 660
+    },
+    {
+      "entry_id": 56576,
+      "kanji": null,
+      "kana": "リサイクル",
+      "gloss": "recycling",
+      "study_order": 661
+    },
+    {
+      "entry_id": 39179,
+      "kanji": null,
+      "kana": "アナウンス",
+      "gloss": "announcement (esp. over public-address system)",
+      "study_order": 662
+    },
+    {
+      "entry_id": 87766,
+      "kanji": "正確",
+      "kana": "せいかく",
+      "gloss": "accurate",
+      "study_order": 663
+    },
+    {
+      "entry_id": 72088,
+      "kanji": "県",
+      "kana": "けん",
+      "gloss": "prefecture (Japan)",
+      "study_order": 664
+    },
+    {
+      "entry_id": 101156,
+      "kanji": "畑",
+      "kana": "はたけ",
+      "gloss": "field (for fruits, vegetables, etc.)",
+      "study_order": 665
+    },
+    {
+      "entry_id": 66210,
+      "kanji": "環境",
+      "kana": "かんきょう",
+      "gloss": "environment",
+      "study_order": 666
+    },
+    {
+      "entry_id": 87646,
+      "kanji": "成績",
+      "kana": "せいせき",
+      "gloss": "results",
+      "study_order": 667
+    },
+    {
+      "entry_id": 109173,
+      "kanji": "訳",
+      "kana": "わけ",
+      "gloss": "conclusion from reasoning, judgement or calculation based on something read or heard",
+      "study_order": 668
+    },
+    {
+      "entry_id": 123149,
+      "kanji": "お祭り",
+      "kana": "おまつり",
+      "gloss": "festival",
+      "study_order": 669
+    },
+    {
+      "entry_id": 36477,
+      "kanji": "お見舞い",
+      "kana": "おみまい",
+      "gloss": "calling on someone who is ill",
+      "study_order": 670
+    },
+    {
+      "entry_id": 96569,
+      "kanji": "田んぼ",
+      "kana": "たんぼ",
+      "gloss": "paddy field",
+      "study_order": 671
+    },
+    {
+      "entry_id": 209837,
+      "kanji": "お寺",
+      "kana": "おてら",
+      "gloss": "temple",
+      "study_order": 672
+    },
+    {
+      "entry_id": 91772,
+      "kanji": "卒業式",
+      "kana": "そつぎょうしき",
+      "gloss": "graduation ceremony",
+      "study_order": 673
+    },
+    {
+      "entry_id": 50959,
+      "kanji": null,
+      "kana": "パスポート",
+      "gloss": "passport",
+      "study_order": 674
+    },
+    {
+      "entry_id": 47481,
+      "kanji": null,
+      "kana": "タオル",
+      "gloss": "towel",
+      "study_order": 675
+    },
+    {
+      "entry_id": 46975,
+      "kanji": null,
+      "kana": "スピーチ",
+      "gloss": "speech",
+      "study_order": 676
+    },
+    {
+      "entry_id": 55589,
+      "kanji": null,
+      "kana": "メニュー",
+      "gloss": "menu",
+      "study_order": 677
+    },
+    {
+      "entry_id": 55057,
+      "kanji": null,
+      "kana": "マンション",
+      "gloss": "condominium (often mid-rise or high-rise concrete)",
+      "study_order": 678
+    },
+    {
+      "entry_id": 54389,
+      "kanji": null,
+      "kana": "ポスター",
+      "gloss": "poster",
+      "study_order": 679
+    },
+    {
+      "entry_id": 42896,
+      "kanji": null,
+      "kana": "クーラー",
+      "gloss": "air conditioner",
+      "study_order": 680
+    },
+    {
+      "entry_id": 54152,
+      "kanji": null,
+      "kana": "ボーナス",
+      "gloss": "bonus",
+      "study_order": 681
+    },
+    {
+      "entry_id": 57433,
+      "kanji": null,
+      "kana": "ロッカー",
+      "gloss": "locker",
+      "study_order": 682
+    },
+    {
+      "entry_id": 39913,
+      "kanji": null,
+      "kana": "インターネット",
+      "gloss": "Internet",
+      "study_order": 683
+    },
+    {
+      "entry_id": 86808,
+      "kanji": null,
+      "kana": "ゴミ",
+      "gloss": "rubbish",
+      "study_order": 684
+    },
+    {
+      "entry_id": 47691,
+      "kanji": null,
+      "kana": "チケット",
+      "gloss": "ticket",
+      "study_order": 685
+    },
+    {
+      "entry_id": 51945,
+      "kanji": null,
+      "kana": "ファッション",
+      "gloss": "fashion",
+      "study_order": 686
+    },
+    {
+      "entry_id": 56281,
+      "kanji": null,
+      "kana": "ラッシュ",
+      "gloss": "rush",
+      "study_order": 687
     }
   ],
   "grammar": [
