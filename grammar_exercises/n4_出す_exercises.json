@@ -73,6 +73,109 @@
           "audio_text": "急に走り出しました。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "友達が急に歌い出しました。",
+          "japanese_with_blank": "友達が急に歌い[___]。",
+          "english": "My friend suddenly started singing.",
+          "target_answer": "出しました",
+          "alternative_answers": [],
+          "hint": "suddenly started",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "急に",
+            "歌い",
+            "出しました"
+          ],
+          "audio_text": "友達が急に歌い出しました。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "赤ちゃんが泣き出しました。",
+          "japanese_with_blank": "赤ちゃんが泣き[___]。",
+          "english": "The baby started crying.",
+          "target_answer": "出しました",
+          "alternative_answers": [],
+          "hint": "suddenly started",
+          "scramble_blocks": [
+            "赤ちゃん",
+            "が",
+            "泣き",
+            "出しました"
+          ],
+          "audio_text": "赤ちゃんが泣き出しました。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "みんなが話し出しました。",
+          "japanese_with_blank": "みんなが話し[___]。",
+          "english": "Everyone started talking.",
+          "target_answer": "出しました",
+          "alternative_answers": [],
+          "hint": "suddenly started",
+          "scramble_blocks": [
+            "みんな",
+            "が",
+            "話し",
+            "出しました"
+          ],
+          "audio_text": "みんなが話し出しました。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "急に降り出しました。",
+          "japanese_with_blank": "急に降り[___]。",
+          "english": "It suddenly started raining.",
+          "target_answer": "出しました",
+          "alternative_answers": [],
+          "hint": "suddenly started",
+          "scramble_blocks": [
+            "急に",
+            "降り",
+            "出しました"
+          ],
+          "audio_text": "急に降り出しました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "猫が急に走り出しました。",
+          "japanese_with_blank": "猫が急に走り[___]。",
+          "english": "The cat suddenly started running.",
+          "target_answer": "出しました",
+          "alternative_answers": [],
+          "hint": "suddenly started",
+          "scramble_blocks": [
+            "猫",
+            "が",
+            "急に",
+            "走り",
+            "出しました"
+          ],
+          "audio_text": "猫が急に走り出しました。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "子供が笑い出しました。",
+          "japanese_with_blank": "子供が笑い[___]。",
+          "english": "The child burst out laughing.",
+          "target_answer": "出しました",
+          "alternative_answers": [],
+          "hint": "suddenly started",
+          "scramble_blocks": [
+            "子供",
+            "が",
+            "笑い",
+            "出しました"
+          ],
+          "audio_text": "子供が笑い出しました。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

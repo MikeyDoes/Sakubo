@@ -88,6 +88,83 @@
           "audio_text": "聞いてよかったです。",
           "notes": "聞く → 聞いてよかった.",
           "position": 5
+        },
+        {
+          "japanese": "薬を飲んでよかったです。",
+          "japanese_with_blank": "薬を飲んで[___]。",
+          "english": "I'm glad I took medicine.",
+          "target_answer": "よかったです",
+          "hint": "glad I did",
+          "scramble_blocks": [
+            "薬",
+            "を",
+            "飲んで",
+            "よかったです"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "早く起きてよかったです。",
+          "japanese_with_blank": "早く起きて[___]。",
+          "english": "I'm glad I woke up early.",
+          "target_answer": "よかったです",
+          "hint": "glad I did",
+          "scramble_blocks": [
+            "早く",
+            "起きて",
+            "よかったです"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "傘を持ってきてよかったです。",
+          "japanese_with_blank": "傘を持ってきて[___]。",
+          "english": "I'm glad I brought an umbrella.",
+          "target_answer": "よかったです",
+          "hint": "glad I did",
+          "scramble_blocks": [
+            "傘",
+            "を",
+            "持ってきて",
+            "よかったです"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "日本に来てよかったです。",
+          "japanese_with_blank": "日本に来て[___]。",
+          "english": "I'm glad I came to Japan.",
+          "target_answer": "よかったです",
+          "hint": "glad I did",
+          "scramble_blocks": [
+            "日本",
+            "に",
+            "来て",
+            "よかったです"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "勉強してよかったです。",
+          "japanese_with_blank": "勉強して[___]。",
+          "english": "I'm glad I studied.",
+          "target_answer": "よかったです",
+          "hint": "glad I did",
+          "scramble_blocks": [
+            "勉強して",
+            "よかったです"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

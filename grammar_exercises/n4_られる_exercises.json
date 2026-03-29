@@ -91,6 +91,86 @@
           "audio_text": "一人で食べられます。",
           "notes": "",
           "position": 5
+        },
+        {
+          "japanese": "漢字が書けます。",
+          "japanese_with_blank": "漢字が[___]。",
+          "english": "I can write kanji.",
+          "target_answer": "書けます",
+          "alternative_answers": [],
+          "hint": "can do",
+          "scramble_blocks": [
+            "漢字",
+            "が",
+            "書けます"
+          ],
+          "audio_text": "漢字が書けます。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "この魚は食べられますか。",
+          "japanese_with_blank": "この魚は[___]。",
+          "english": "Can you eat this fish?",
+          "target_answer": "食べられますか",
+          "alternative_answers": [],
+          "hint": "can?",
+          "scramble_blocks": [
+            "この",
+            "魚",
+            "は",
+            "食べられますか"
+          ],
+          "audio_text": "この魚は食べられますか。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "明日会えますか。",
+          "japanese_with_blank": "明日[___]。",
+          "english": "Can we meet tomorrow?",
+          "target_answer": "会えますか",
+          "alternative_answers": [],
+          "hint": "can?",
+          "scramble_blocks": [
+            "明日",
+            "会えますか"
+          ],
+          "audio_text": "明日会えますか。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "一人で行けます。",
+          "japanese_with_blank": "一人で[___]。",
+          "english": "I can go alone.",
+          "target_answer": "行けます",
+          "alternative_answers": [],
+          "hint": "can go",
+          "scramble_blocks": [
+            "一人",
+            "で",
+            "行けます"
+          ],
+          "audio_text": "一人で行けます。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "電車に乗れます。",
+          "japanese_with_blank": "電車に[___]。",
+          "english": "I can ride the train.",
+          "target_answer": "乗れます",
+          "alternative_answers": [],
+          "hint": "can ride",
+          "scramble_blocks": [
+            "電車",
+            "に",
+            "乗れます"
+          ],
+          "audio_text": "電車に乗れます。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

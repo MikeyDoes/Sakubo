@@ -70,6 +70,104 @@
           "audio_text": "あまり分かりません。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "あまり暑くないです。",
+          "japanese_with_blank": "[___]暑くないです。",
+          "english": "It's not very hot.",
+          "target_answer": "あまり",
+          "alternative_answers": [],
+          "hint": "not very",
+          "scramble_blocks": [
+            "あまり",
+            "暑くないです"
+          ],
+          "audio_text": "あまり暑くないです。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "あまり難しくないです。",
+          "japanese_with_blank": "[___]難しくないです。",
+          "english": "It's not very difficult.",
+          "target_answer": "あまり",
+          "alternative_answers": [],
+          "hint": "not very",
+          "scramble_blocks": [
+            "あまり",
+            "難しくないです"
+          ],
+          "audio_text": "あまり難しくないです。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "この映画はあまり面白くないです。",
+          "japanese_with_blank": "この映画は[___]面白くないです。",
+          "english": "This movie isn't very interesting.",
+          "target_answer": "あまり",
+          "alternative_answers": [],
+          "hint": "not very",
+          "scramble_blocks": [
+            "この",
+            "映画",
+            "は",
+            "あまり",
+            "面白くないです"
+          ],
+          "audio_text": "この映画はあまり面白くないです。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "あまりお金がないです。",
+          "japanese_with_blank": "[___]お金がないです。",
+          "english": "I don't have much money.",
+          "target_answer": "あまり",
+          "alternative_answers": [],
+          "hint": "not much",
+          "scramble_blocks": [
+            "あまり",
+            "お金",
+            "が",
+            "ないです"
+          ],
+          "audio_text": "あまりお金がないです。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "あまり上手じゃないです。",
+          "japanese_with_blank": "[___]上手じゃないです。",
+          "english": "I'm not very good at it.",
+          "target_answer": "あまり",
+          "alternative_answers": [],
+          "hint": "not very",
+          "scramble_blocks": [
+            "あまり",
+            "上手",
+            "じゃないです"
+          ],
+          "audio_text": "あまり上手じゃないです。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "あまり時間がありません。",
+          "japanese_with_blank": "[___]時間がありません。",
+          "english": "There isn't much time.",
+          "target_answer": "あまり",
+          "alternative_answers": [],
+          "hint": "not much",
+          "scramble_blocks": [
+            "あまり",
+            "時間",
+            "が",
+            "ありません"
+          ],
+          "audio_text": "あまり時間がありません。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

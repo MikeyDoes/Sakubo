@@ -83,6 +83,119 @@
           "audio_text": "先生は学生を立たせました。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "先生は学生に歌わせました。",
+          "japanese_with_blank": "先生は学生に歌わせました。",
+          "english": "The teacher made students sing.",
+          "target_answer": "させました",
+          "alternative_answers": [],
+          "hint": "made do",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "学生",
+            "に",
+            "歌わ",
+            "せました"
+          ],
+          "audio_text": "先生は学生に歌わせました。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "先生は子供を走らせました。",
+          "japanese_with_blank": "先生は子供を走らせました。",
+          "english": "The teacher made the children run.",
+          "target_answer": "させました",
+          "alternative_answers": [],
+          "hint": "made do",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "子供",
+            "を",
+            "走ら",
+            "せました"
+          ],
+          "audio_text": "先生は子供を走らせました。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "お母さんは子供に勉強させます。",
+          "japanese_with_blank": "お母さんは子供に勉強[___]。",
+          "english": "The mother makes her child study.",
+          "target_answer": "させます",
+          "alternative_answers": [],
+          "hint": "make do",
+          "scramble_blocks": [
+            "お母さん",
+            "は",
+            "子供",
+            "に",
+            "勉強",
+            "させます"
+          ],
+          "audio_text": "お母さんは子供に勉強させます。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "友達を待たせてすみません。",
+          "japanese_with_blank": "友達を待たせてすみません。",
+          "english": "I'm sorry for making my friend wait.",
+          "target_answer": "させて",
+          "alternative_answers": [],
+          "hint": "making do",
+          "scramble_blocks": [
+            "友達",
+            "を",
+            "待た",
+            "させて",
+            "すみません"
+          ],
+          "audio_text": "友達を待たせてすみません。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "子供に手紙を書かせました。",
+          "japanese_with_blank": "子供に手紙を書かせました。",
+          "english": "I made the child write a letter.",
+          "target_answer": "させました",
+          "alternative_answers": [],
+          "hint": "made do",
+          "scramble_blocks": [
+            "子供",
+            "に",
+            "手紙",
+            "を",
+            "書か",
+            "せました"
+          ],
+          "audio_text": "子供に手紙を書かせました。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "弟に部屋を掃除させました。",
+          "japanese_with_blank": "弟に部屋を掃除[___]。",
+          "english": "I made my brother clean the room.",
+          "target_answer": "させました",
+          "alternative_answers": [],
+          "hint": "made do",
+          "scramble_blocks": [
+            "弟",
+            "に",
+            "部屋",
+            "を",
+            "掃除",
+            "させました"
+          ],
+          "audio_text": "弟に部屋を掃除させました。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

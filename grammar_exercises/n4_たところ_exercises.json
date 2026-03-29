@@ -57,6 +57,123 @@
           "audio_text": "宿題をしたところです。",
           "notes": "する → したところ.",
           "position": 3
+        },
+        {
+          "japanese": "今食べたところです。",
+          "japanese_with_blank": "今食べた[___]です。",
+          "english": "I just ate.",
+          "target_answer": "ところ",
+          "hint": "just did",
+          "scramble_blocks": [
+            "今",
+            "食べた",
+            "ところ",
+            "です"
+          ],
+          "notes": "",
+          "position": 4,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "今帰ってきたところです。",
+          "japanese_with_blank": "今帰ってき[___]。",
+          "english": "I just got back.",
+          "target_answer": "たところです",
+          "alternative_answers": [],
+          "hint": "just did",
+          "scramble_blocks": [
+            "今",
+            "帰ってきた",
+            "ところです"
+          ],
+          "audio_text": "今帰ってきたところです。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "学校から帰ったところです。",
+          "japanese_with_blank": "学校から帰った[___]です。",
+          "english": "I just got home from school.",
+          "target_answer": "ところ",
+          "hint": "just did",
+          "scramble_blocks": [
+            "学校",
+            "から",
+            "帰った",
+            "ところ",
+            "です"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "今起きたところです。",
+          "japanese_with_blank": "今起きた[___]です。",
+          "english": "I just woke up.",
+          "target_answer": "ところ",
+          "hint": "just did",
+          "scramble_blocks": [
+            "今",
+            "起きた",
+            "ところ",
+            "です"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達に電話をかけたところです。",
+          "japanese_with_blank": "友達に電話をかけた[___]です。",
+          "english": "I just called my friend.",
+          "target_answer": "ところ",
+          "hint": "just did",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "電話",
+            "を",
+            "かけた",
+            "ところ",
+            "です"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "映画が始まったところです。",
+          "japanese_with_blank": "映画が始まった[___]です。",
+          "english": "The movie just started.",
+          "target_answer": "ところ",
+          "hint": "just did",
+          "scramble_blocks": [
+            "映画",
+            "が",
+            "始まった",
+            "ところ",
+            "です"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "今着いたところです。",
+          "japanese_with_blank": "今着いた[___]です。",
+          "english": "I just arrived.",
+          "target_answer": "ところ",
+          "hint": "just did",
+          "scramble_blocks": [
+            "今",
+            "着いた",
+            "ところ",
+            "です"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

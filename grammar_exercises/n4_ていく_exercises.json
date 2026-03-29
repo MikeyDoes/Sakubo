@@ -58,6 +58,118 @@
           "audio_text": "日本語が上手になっていきました。",
           "notes": "Past gradual change.",
           "position": 3
+        },
+        {
+          "japanese": "だんだん暑くなっていきます。",
+          "japanese_with_blank": "だんだん暑くなって[___]。",
+          "english": "It gradually gets hotter.",
+          "target_answer": "いきます",
+          "hint": "ongoing change",
+          "scramble_blocks": [
+            "だんだん",
+            "暑くなって",
+            "いきます"
+          ],
+          "notes": "",
+          "position": 4,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "日本語が上手になっていきます。",
+          "japanese_with_blank": "日本語が上手になって[___]。",
+          "english": "Japanese keeps improving.",
+          "target_answer": "いきます",
+          "hint": "ongoing change",
+          "scramble_blocks": [
+            "日本語",
+            "が",
+            "上手になって",
+            "いきます"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "空が暗くなっていきます。",
+          "japanese_with_blank": "空が暗くなって[___]。",
+          "english": "The sky is getting darker.",
+          "target_answer": "いきます",
+          "hint": "ongoing change",
+          "scramble_blocks": [
+            "空",
+            "が",
+            "暗くなって",
+            "いきます"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "天気が暑くなっていきます。",
+          "japanese_with_blank": "天気が暑くなっ[___]。",
+          "english": "The weather will become hot.",
+          "target_answer": "ていきます",
+          "alternative_answers": [],
+          "hint": "gradually",
+          "scramble_blocks": [
+            "天気",
+            "が",
+            "暑く",
+            "なっ",
+            "ていきます"
+          ],
+          "audio_text": "天気が暑くなっていきます。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "日が短くなっていきます。",
+          "japanese_with_blank": "日が短くなって[___]。",
+          "english": "Days keep getting shorter.",
+          "target_answer": "いきます",
+          "hint": "ongoing change",
+          "scramble_blocks": [
+            "日",
+            "が",
+            "短くなって",
+            "いきます"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "寒くなっていきます。",
+          "japanese_with_blank": "寒くなって[___]。",
+          "english": "It keeps getting cold.",
+          "target_answer": "いきます",
+          "hint": "ongoing change",
+          "scramble_blocks": [
+            "寒くなって",
+            "いきます"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "花がきれいに咲いていきます。",
+          "japanese_with_blank": "花がきれいに咲いて[___]。",
+          "english": "Flowers keep blooming.",
+          "target_answer": "いきます",
+          "hint": "ongoing change",
+          "scramble_blocks": [
+            "花",
+            "が",
+            "きれいに",
+            "咲いて",
+            "いきます"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     },
@@ -99,6 +211,141 @@
           "audio_text": "傘を持っていってください。",
           "notes": "持っていってください.",
           "position": 2
+        },
+        {
+          "japanese": "お弁当を持っていきます。",
+          "japanese_with_blank": "お弁当を持って[___]。",
+          "english": "I'll take a lunch box.",
+          "target_answer": "いきます",
+          "hint": "take along",
+          "scramble_blocks": [
+            "お弁当",
+            "を",
+            "持って",
+            "いきます"
+          ],
+          "notes": "",
+          "position": 3,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "傘を持っていきましょう。",
+          "japanese_with_blank": "傘を持って[___]。",
+          "english": "Let's take an umbrella.",
+          "target_answer": "いきましょう",
+          "hint": "take along",
+          "scramble_blocks": [
+            "傘",
+            "を",
+            "持って",
+            "いきましょう"
+          ],
+          "notes": "",
+          "position": 4,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "子供を連れていきます。",
+          "japanese_with_blank": "子供を連れて[___]。",
+          "english": "I'll take the child.",
+          "target_answer": "いきます",
+          "hint": "take along",
+          "scramble_blocks": [
+            "子供",
+            "を",
+            "連れて",
+            "いきます"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "犬を散歩に連れていきました。",
+          "japanese_with_blank": "犬を散歩に連れて[___]。",
+          "english": "I took the dog for a walk.",
+          "target_answer": "いきました",
+          "hint": "took along",
+          "scramble_blocks": [
+            "犬",
+            "を",
+            "散歩に",
+            "連れて",
+            "いきました"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "本を持っていってもいいですか。",
+          "japanese_with_blank": "本を持って[___]もいいですか。",
+          "english": "May I take the book?",
+          "target_answer": "いって",
+          "hint": "take along",
+          "scramble_blocks": [
+            "本",
+            "を",
+            "持って",
+            "いって",
+            "も",
+            "いいですか"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "飲み物を持っていきましょう。",
+          "japanese_with_blank": "飲み物を持って[___]。",
+          "english": "Let's take drinks.",
+          "target_answer": "いきましょう",
+          "hint": "take along",
+          "scramble_blocks": [
+            "飲み物",
+            "を",
+            "持って",
+            "いきましょう"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "写真を学校に持っていきます。",
+          "japanese_with_blank": "写真を学校に持って[___]。",
+          "english": "I'll take photos to school.",
+          "target_answer": "いきます",
+          "hint": "take along",
+          "scramble_blocks": [
+            "写真",
+            "を",
+            "学校",
+            "に",
+            "持って",
+            "いきます"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達をパーティーに連れていきます。",
+          "japanese_with_blank": "友達をパーティーに連れて[___]。",
+          "english": "I'll bring my friend to the party.",
+          "target_answer": "いきます",
+          "hint": "take along",
+          "scramble_blocks": [
+            "友達",
+            "を",
+            "パーティー",
+            "に",
+            "連れて",
+            "いきます"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

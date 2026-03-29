@@ -75,6 +75,116 @@
           "audio_text": "このお茶は花から作られます。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "この料理は卵から作ります。",
+          "japanese_with_blank": "この料理は卵[___]。",
+          "english": "This dish is made from eggs.",
+          "target_answer": "から作ります",
+          "alternative_answers": [],
+          "hint": "made from",
+          "scramble_blocks": [
+            "この",
+            "料理",
+            "は",
+            "卵",
+            "から作ります"
+          ],
+          "audio_text": "この料理は卵から作ります。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "この薬は花から作られます。",
+          "japanese_with_blank": "この薬は花[___]。",
+          "english": "This medicine is made from flowers.",
+          "target_answer": "から作られます",
+          "alternative_answers": [],
+          "hint": "made from",
+          "scramble_blocks": [
+            "この",
+            "薬",
+            "は",
+            "花",
+            "から作られます"
+          ],
+          "audio_text": "この薬は花から作られます。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "この薬は花から作ります。",
+          "japanese_with_blank": "この薬は花[___]。",
+          "english": "This medicine is made from flowers.",
+          "target_answer": "から作ります",
+          "alternative_answers": [],
+          "hint": "made from",
+          "scramble_blocks": [
+            "この",
+            "薬",
+            "は",
+            "花",
+            "から作ります"
+          ],
+          "audio_text": "この薬は花から作ります。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "お茶は何から作りますか。",
+          "japanese_with_blank": "お茶は何[___]。",
+          "english": "What is tea made from?",
+          "target_answer": "から作りますか",
+          "alternative_answers": [],
+          "hint": "made from",
+          "scramble_blocks": [
+            "お茶",
+            "は",
+            "何",
+            "から作りますか"
+          ],
+          "audio_text": "お茶は何から作りますか。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "お母さんは卵から料理を作ります。",
+          "japanese_with_blank": "お母さんは卵[___]料理を作ります。",
+          "english": "My mother makes a dish from eggs.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "from",
+          "scramble_blocks": [
+            "お母さん",
+            "は",
+            "卵",
+            "から",
+            "料理",
+            "を",
+            "作ります"
+          ],
+          "audio_text": "お母さんは卵から料理を作ります。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "花からお茶を作ることができます。",
+          "japanese_with_blank": "花[___]お茶を作ることができます。",
+          "english": "You can make tea from flowers.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "from",
+          "scramble_blocks": [
+            "花",
+            "から",
+            "お茶",
+            "を",
+            "作る",
+            "ことができます"
+          ],
+          "audio_text": "花からお茶を作ることができます。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

@@ -78,6 +78,117 @@
           "audio_text": "来週は忙しいらしいです。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "友達は元気らしいです。",
+          "japanese_with_blank": "友達は元気[___]です。",
+          "english": "Apparently my friend is well.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "apparently",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "元気",
+            "らしい",
+            "です"
+          ],
+          "audio_text": "友達は元気らしいです。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "あの映画は面白いらしいです。",
+          "japanese_with_blank": "あの映画は面白い[___]です。",
+          "english": "Apparently that movie is interesting.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "apparently",
+          "scramble_blocks": [
+            "あの",
+            "映画",
+            "は",
+            "面白い",
+            "らしい",
+            "です"
+          ],
+          "audio_text": "あの映画は面白いらしいです。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "先生は来ないらしいです。",
+          "japanese_with_blank": "先生は来ない[___]です。",
+          "english": "Apparently the teacher isn't coming.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "apparently",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "来ない",
+            "らしい",
+            "です"
+          ],
+          "audio_text": "先生は来ないらしいです。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "明日は晴れるらしいです。",
+          "japanese_with_blank": "明日は晴れる[___]です。",
+          "english": "Apparently it will be sunny tomorrow.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "apparently",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "晴れる",
+            "らしい",
+            "です"
+          ],
+          "audio_text": "明日は晴れるらしいです。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "あの店は安いらしいです。",
+          "japanese_with_blank": "あの店は安い[___]です。",
+          "english": "Apparently that shop is cheap.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "apparently",
+          "scramble_blocks": [
+            "あの",
+            "店",
+            "は",
+            "安い",
+            "らしい",
+            "です"
+          ],
+          "audio_text": "あの店は安いらしいです。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "来月テストがあるらしいです。",
+          "japanese_with_blank": "来月テストがある[___]です。",
+          "english": "Apparently there's a test next month.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "apparently",
+          "scramble_blocks": [
+            "来月",
+            "テスト",
+            "が",
+            "ある",
+            "らしい",
+            "です"
+          ],
+          "audio_text": "来月テストがあるらしいです。",
+          "notes": "",
+          "position": 10
         }
       ]
     },
@@ -123,6 +234,153 @@
           "audio_text": "男らしい人が好きです。",
           "notes": "",
           "position": 2
+        },
+        {
+          "japanese": "子供らしい絵ですね。",
+          "japanese_with_blank": "子供[___]絵ですね。",
+          "english": "It's a child-like drawing, isn't it.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "typical of",
+          "scramble_blocks": [
+            "子供",
+            "らしい",
+            "絵",
+            "です",
+            "ね"
+          ],
+          "audio_text": "子供らしい絵ですね。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "学生らしい勉強ですね。",
+          "japanese_with_blank": "学生[___]勉強ですね。",
+          "english": "That's student-like studying.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "typical of",
+          "scramble_blocks": [
+            "学生",
+            "らしい",
+            "勉強",
+            "です",
+            "ね"
+          ],
+          "audio_text": "学生らしい勉強ですね。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "春らしい花が咲きました。",
+          "japanese_with_blank": "春[___]花が咲きました。",
+          "english": "Spring-like flowers have bloomed.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "typical of",
+          "scramble_blocks": [
+            "春",
+            "らしい",
+            "花",
+            "が",
+            "咲きました"
+          ],
+          "audio_text": "春らしい花が咲きました。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "日本らしい料理を食べたいです。",
+          "japanese_with_blank": "日本[___]料理を食べたいです。",
+          "english": "I want to eat Japanese-like cuisine.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "typical of",
+          "scramble_blocks": [
+            "日本",
+            "らしい",
+            "料理",
+            "を",
+            "食べたい",
+            "です"
+          ],
+          "audio_text": "日本らしい料理を食べたいです。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "夏らしい天気ですね。",
+          "japanese_with_blank": "夏[___]天気ですね。",
+          "english": "It's summer-like weather.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "typical of",
+          "scramble_blocks": [
+            "夏",
+            "らしい",
+            "天気",
+            "です",
+            "ね"
+          ],
+          "audio_text": "夏らしい天気ですね。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "あの人は先生らしい人です。",
+          "japanese_with_blank": "あの人は先生[___]人です。",
+          "english": "That person is a teacher-like person.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "typical of",
+          "scramble_blocks": [
+            "あの",
+            "人",
+            "は",
+            "先生",
+            "らしい",
+            "人",
+            "です"
+          ],
+          "audio_text": "あの人は先生らしい人です。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "冬らしい寒さですね。",
+          "japanese_with_blank": "冬[___]寒さですね。",
+          "english": "It's winter-like cold.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "typical of",
+          "scramble_blocks": [
+            "冬",
+            "らしい",
+            "寒さ",
+            "です",
+            "ね"
+          ],
+          "audio_text": "冬らしい寒さですね。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "女の子らしい色ですね。",
+          "japanese_with_blank": "女の子[___]色ですね。",
+          "english": "It's a girly color.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "typical of",
+          "scramble_blocks": [
+            "女の子",
+            "らしい",
+            "色",
+            "です",
+            "ね"
+          ],
+          "audio_text": "女の子らしい色ですね。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

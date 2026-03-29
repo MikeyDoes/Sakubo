@@ -74,6 +74,100 @@
           "audio_text": "先生みたいに上手になりたいです。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "子供みたいに遊びました。",
+          "japanese_with_blank": "子供[___]遊びました。",
+          "english": "I played like a child.",
+          "target_answer": "みたいに",
+          "hint": "like (adv)",
+          "scramble_blocks": [
+            "子供",
+            "みたいに",
+            "遊びました"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "鳥みたいに飛びたいです。",
+          "japanese_with_blank": "鳥[___]飛びたいです。",
+          "english": "I want to fly like a bird.",
+          "target_answer": "みたいに",
+          "hint": "like (adv)",
+          "scramble_blocks": [
+            "鳥",
+            "みたいに",
+            "飛びたいです"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "先生みたいに上手に話したいです。",
+          "japanese_with_blank": "先生[___]上手に話したいです。",
+          "english": "I want to speak like teacher.",
+          "target_answer": "みたいに",
+          "hint": "like (adv)",
+          "scramble_blocks": [
+            "先生",
+            "みたいに",
+            "上手に",
+            "話したいです"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "日本人みたいに日本語を話します。",
+          "japanese_with_blank": "日本人[___]日本語を話します。",
+          "english": "I speak Japanese like a native.",
+          "target_answer": "みたいに",
+          "hint": "like (adv)",
+          "scramble_blocks": [
+            "日本人",
+            "みたいに",
+            "日本語",
+            "を",
+            "話します"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "猫みたいに静かに歩きます。",
+          "japanese_with_blank": "猫[___]静かに歩きます。",
+          "english": "I walk quietly like a cat.",
+          "target_answer": "みたいに",
+          "hint": "like (adv)",
+          "scramble_blocks": [
+            "猫",
+            "みたいに",
+            "静かに",
+            "歩きます"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "花みたいにきれいですね。",
+          "japanese_with_blank": "花[___]きれいですね。",
+          "english": "Pretty like a flower.",
+          "target_answer": "みたいに",
+          "hint": "like (adv)",
+          "scramble_blocks": [
+            "花",
+            "みたいに",
+            "きれいですね"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

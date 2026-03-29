@@ -7,18 +7,20 @@
       "label": "If (Hypothetical)",
       "sentences": [
         {
-          "japanese": "安ければ買います。",
-          "japanese_with_blank": "安けれ[___]買います。",
-          "english": "If it's cheap, I'll buy it.",
+          "japanese": "天気がよければ出かけます。",
+          "japanese_with_blank": "天気がよけれ[___]出かけます。",
+          "english": "If the weather is good, I'll go out.",
           "target_answer": "ば",
           "alternative_answers": [],
           "hint": "if",
           "scramble_blocks": [
-            "安けれ",
+            "天気",
+            "が",
+            "よけれ",
             "ば",
-            "買います"
+            "出かけます"
           ],
-          "audio_text": "安ければ買います。",
+          "audio_text": "天気がよければ出かけます。",
           "notes": "",
           "position": 1
         },
@@ -90,6 +92,91 @@
           "audio_text": "早く起きれば間に合います。",
           "notes": "",
           "position": 5
+        },
+        {
+          "japanese": "天気がよければ出かけます。",
+          "japanese_with_blank": "天気がよけれ[___]出かけます。",
+          "english": "If the weather is good, I'll go out.",
+          "target_answer": "ば",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "天気",
+            "が",
+            "よけれ",
+            "ば",
+            "出かけます"
+          ],
+          "audio_text": "天気がよければ出かけます。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "暇であれば散歩しましょう。",
+          "japanese_with_blank": "暇であれ[___]散歩しましょう。",
+          "english": "If free, let's take a walk.",
+          "target_answer": "ば",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "暇",
+            "であれ",
+            "ば",
+            "散歩しましょう"
+          ],
+          "audio_text": "暇であれば散歩しましょう。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "本があれば読みます。",
+          "japanese_with_blank": "本があれ[___]読みます。",
+          "english": "If there's a book, I'll read it.",
+          "target_answer": "ば",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "本",
+            "が",
+            "あれ",
+            "ば",
+            "読みます"
+          ],
+          "audio_text": "本があれば読みます。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "聞けば分かります。",
+          "japanese_with_blank": "聞け[___]分かります。",
+          "english": "If you ask, you'll understand.",
+          "target_answer": "ば",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "聞け",
+            "ば",
+            "分かります"
+          ],
+          "audio_text": "聞けば分かります。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "早く寝れば元気になります。",
+          "japanese_with_blank": "早く寝[___]元気になります。",
+          "english": "If you sleep early, you'll feel fine.",
+          "target_answer": "れば",
+          "hint": "if",
+          "scramble_blocks": [
+            "早く",
+            "寝",
+            "れば",
+            "元気になります"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

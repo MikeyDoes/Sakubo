@@ -74,6 +74,117 @@
           "audio_text": "この答えが正しいかどうか分かりません。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "明日雨が降るかどうか分かりません。",
+          "japanese_with_blank": "明日雨が降る[___]分かりません。",
+          "english": "I don't know whether it will rain tomorrow.",
+          "target_answer": "かどうか",
+          "alternative_answers": [],
+          "hint": "whether or not",
+          "scramble_blocks": [
+            "明日",
+            "雨",
+            "が",
+            "降る",
+            "かどうか",
+            "分かりません"
+          ],
+          "audio_text": "明日雨が降るかどうか分かりません。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "あの店がいいかどうか聞いてみます。",
+          "japanese_with_blank": "あの店がいい[___]聞いてみます。",
+          "english": "I'll ask whether that shop is good.",
+          "target_answer": "かどうか",
+          "alternative_answers": [],
+          "hint": "whether or not",
+          "scramble_blocks": [
+            "あの",
+            "店",
+            "が",
+            "いい",
+            "かどうか",
+            "聞いてみます"
+          ],
+          "audio_text": "あの店がいいかどうか聞いてみます。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "時間があるかどうか分かりません。",
+          "japanese_with_blank": "時間がある[___]分かりません。",
+          "english": "I don't know whether I have time.",
+          "target_answer": "かどうか",
+          "alternative_answers": [],
+          "hint": "whether or not",
+          "scramble_blocks": [
+            "時間",
+            "が",
+            "ある",
+            "かどうか",
+            "分かりません"
+          ],
+          "audio_text": "時間があるかどうか分かりません。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "友達が来るかどうか分かりません。",
+          "japanese_with_blank": "友達が来る[___]分かりません。",
+          "english": "I don't know whether my friend will come.",
+          "target_answer": "かどうか",
+          "alternative_answers": [],
+          "hint": "whether or not",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "来る",
+            "かどうか",
+            "分かりません"
+          ],
+          "audio_text": "友達が来るかどうか分かりません。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "この本が面白いかどうか読んでみます。",
+          "japanese_with_blank": "この本が面白い[___]読んでみます。",
+          "english": "I'll read it to see if this book is interesting.",
+          "target_answer": "かどうか",
+          "alternative_answers": [],
+          "hint": "whether or not",
+          "scramble_blocks": [
+            "この",
+            "本",
+            "が",
+            "面白い",
+            "かどうか",
+            "読んでみます"
+          ],
+          "audio_text": "この本が面白いかどうか読んでみます。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "テストができたかどうか分かりません。",
+          "japanese_with_blank": "テストができた[___]分かりません。",
+          "english": "I don't know whether I did well on the test.",
+          "target_answer": "かどうか",
+          "alternative_answers": [],
+          "hint": "whether or not",
+          "scramble_blocks": [
+            "テスト",
+            "が",
+            "できた",
+            "かどうか",
+            "分かりません"
+          ],
+          "audio_text": "テストができたかどうか分かりません。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

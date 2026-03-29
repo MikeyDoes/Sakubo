@@ -91,6 +91,94 @@
           "audio_text": "髪を短くしました。",
           "notes": "",
           "position": 5
+        },
+        {
+          "japanese": "部屋を暗くしてください。",
+          "japanese_with_blank": "部屋を暗[___]ください。",
+          "english": "Please make the room darker.",
+          "target_answer": "くして",
+          "alternative_answers": [],
+          "hint": "make ~",
+          "scramble_blocks": [
+            "部屋",
+            "を",
+            "暗",
+            "くして",
+            "ください"
+          ],
+          "audio_text": "部屋を暗くしてください。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "もっと早くしてください。",
+          "japanese_with_blank": "もっと早[___]ください。",
+          "english": "Please make it faster.",
+          "target_answer": "くして",
+          "alternative_answers": [],
+          "hint": "make ~",
+          "scramble_blocks": [
+            "もっと",
+            "早",
+            "くして",
+            "ください"
+          ],
+          "audio_text": "もっと早くしてください。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "部屋を明るくしました。",
+          "japanese_with_blank": "部屋を明る[___]。",
+          "english": "I made the room bright.",
+          "target_answer": "くしました",
+          "alternative_answers": [],
+          "hint": "made ~",
+          "scramble_blocks": [
+            "部屋",
+            "を",
+            "明る",
+            "くしました"
+          ],
+          "audio_text": "部屋を明るくしました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "お茶を熱くしてください。",
+          "japanese_with_blank": "お茶を熱[___]ください。",
+          "english": "Please make the tea hot.",
+          "target_answer": "くして",
+          "alternative_answers": [],
+          "hint": "make ~",
+          "scramble_blocks": [
+            "お茶",
+            "を",
+            "熱",
+            "くして",
+            "ください"
+          ],
+          "audio_text": "お茶を熱くしてください。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "荷物を軽くしたいです。",
+          "japanese_with_blank": "荷物を軽[___]です。",
+          "english": "I want to make the luggage lighter.",
+          "target_answer": "くしたい",
+          "alternative_answers": [],
+          "hint": "want to make",
+          "scramble_blocks": [
+            "荷物",
+            "を",
+            "軽",
+            "くしたい",
+            "です"
+          ],
+          "audio_text": "荷物を軽くしたいです。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

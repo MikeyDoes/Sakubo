@@ -74,6 +74,108 @@
           "audio_text": "分かるようにゆっくり話します。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "見えるように前に座りました。",
+          "japanese_with_blank": "見える[___]前に座りました。",
+          "english": "I sat in front so I could see.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "so that",
+          "scramble_blocks": [
+            "見える",
+            "ように",
+            "前",
+            "に",
+            "座りました"
+          ],
+          "audio_text": "見えるように前に座りました。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "起きられるように早く寝ます。",
+          "japanese_with_blank": "起きられる[___]早く寝ます。",
+          "english": "I'll go to bed early so I can wake up.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "so that",
+          "scramble_blocks": [
+            "起きられる",
+            "ように",
+            "早く",
+            "寝ます"
+          ],
+          "audio_text": "起きられるように早く寝ます。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "間に合うように走りました。",
+          "japanese_with_blank": "間に合う[___]走りました。",
+          "english": "I ran so as to make it in time.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "so that",
+          "scramble_blocks": [
+            "間に合う",
+            "ように",
+            "走りました"
+          ],
+          "audio_text": "間に合うように走りました。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "遅くならないように早く出ます。",
+          "japanese_with_blank": "遅くならない[___]早く出ます。",
+          "english": "I'll leave early so I won't be late.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "so that",
+          "scramble_blocks": [
+            "遅くならない",
+            "ように",
+            "早く",
+            "出ます"
+          ],
+          "audio_text": "遅くならないように早く出ます。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "忘れないように朝言いました。",
+          "japanese_with_blank": "忘れない[___]朝言いました。",
+          "english": "I said it in the morning so as not to forget.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "so that",
+          "scramble_blocks": [
+            "忘れない",
+            "ように",
+            "朝",
+            "言いました"
+          ],
+          "audio_text": "忘れないように朝言いました。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "分かるようにゆっくり話してください。",
+          "japanese_with_blank": "分かる[___]ゆっくり話してください。",
+          "english": "Please speak slowly so it's understandable.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "so that",
+          "scramble_blocks": [
+            "分かる",
+            "ように",
+            "ゆっくり",
+            "話してください"
+          ],
+          "audio_text": "分かるようにゆっくり話してください。",
+          "notes": "",
+          "position": 10
         }
       ]
     },
@@ -98,6 +200,163 @@
           "audio_text": "先生が言ったようにしてください。",
           "notes": "",
           "position": 1
+        },
+        {
+          "japanese": "お母さんが教えたようにやりました。",
+          "japanese_with_blank": "お母さんが教えた[___]やりました。",
+          "english": "I did it the way my mother taught me.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "as; like",
+          "scramble_blocks": [
+            "お母さん",
+            "が",
+            "教えた",
+            "ように",
+            "やりました"
+          ],
+          "audio_text": "お母さんが教えたようにやりました。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "先生が書いたように書いてください。",
+          "japanese_with_blank": "先生が書いた[___]書いてください。",
+          "english": "Please write as the teacher wrote.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "as; like",
+          "scramble_blocks": [
+            "先生",
+            "が",
+            "書いた",
+            "ように",
+            "書いてください"
+          ],
+          "audio_text": "先生が書いたように書いてください。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "友達が言ったようにしました。",
+          "japanese_with_blank": "友達が言った[___]しました。",
+          "english": "I did as my friend said.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "as; like",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "言った",
+            "ように",
+            "しました"
+          ],
+          "audio_text": "友達が言ったようにしました。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "本に書いてあるようにやりました。",
+          "japanese_with_blank": "本に書いてある[___]やりました。",
+          "english": "I did it as written in the book.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "as; like",
+          "scramble_blocks": [
+            "本",
+            "に",
+            "書いてある",
+            "ように",
+            "やりました"
+          ],
+          "audio_text": "本に書いてあるようにやりました。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "前と同じように作ってください。",
+          "japanese_with_blank": "前と同じ[___]作ってください。",
+          "english": "Please make it the same way as before.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "as; like",
+          "scramble_blocks": [
+            "前",
+            "と",
+            "同じ",
+            "ように",
+            "作ってください"
+          ],
+          "audio_text": "前と同じように作ってください。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "日本人のように話したいです。",
+          "japanese_with_blank": "日本人の[___]話したいです。",
+          "english": "I want to speak like a Japanese person.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "as; like",
+          "scramble_blocks": [
+            "日本人",
+            "の",
+            "ように",
+            "話したい",
+            "です"
+          ],
+          "audio_text": "日本人のように話したいです。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "思ったようにできませんでした。",
+          "japanese_with_blank": "思った[___]できませんでした。",
+          "english": "I couldn't do it as I thought.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "as; like",
+          "scramble_blocks": [
+            "思った",
+            "ように",
+            "できませんでした"
+          ],
+          "audio_text": "思ったようにできませんでした。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "聞いたように答えてください。",
+          "japanese_with_blank": "聞いた[___]答えてください。",
+          "english": "Please answer as you heard.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "as; like",
+          "scramble_blocks": [
+            "聞いた",
+            "ように",
+            "答えてください"
+          ],
+          "audio_text": "聞いたように答えてください。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "子供のように走りました。",
+          "japanese_with_blank": "子供の[___]走りました。",
+          "english": "I ran like a child.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "as; like",
+          "scramble_blocks": [
+            "子供",
+            "の",
+            "ように",
+            "走りました"
+          ],
+          "audio_text": "子供のように走りました。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

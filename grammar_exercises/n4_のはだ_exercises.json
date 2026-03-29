@@ -7,22 +7,20 @@
       "label": "The Reason Is / A Is B",
       "sentences": [
         {
-          "japanese": "遅れたのは電車が止まったからです。",
-          "japanese_with_blank": "遅れた[___]電車が止まったからです。",
-          "english": "The reason I was late is that the train stopped.",
-          "target_answer": "のは",
+          "japanese": "遅れたのは朝寝たからです。",
+          "japanese_with_blank": "遅れたのは朝寝たからです。",
+          "english": "The reason I was late is that I overslept.",
+          "target_answer": "のは～からです",
           "alternative_answers": [],
-          "hint": "the reason",
+          "hint": "the reason is",
           "scramble_blocks": [
             "遅れた",
             "のは",
-            "電車",
-            "が",
-            "止まった",
-            "から",
-            "です"
+            "朝",
+            "寝た",
+            "からです"
           ],
-          "audio_text": "遅れたのは電車が止まったからです。",
+          "audio_text": "遅れたのは朝寝たからです。",
           "notes": "",
           "position": 1
         },
@@ -84,6 +82,114 @@
           "audio_text": "楽しいのは友達と話すことです。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "遅れたのは朝寝たからです。",
+          "japanese_with_blank": "遅れたのは朝寝たからです。",
+          "english": "The reason I was late is that I overslept.",
+          "target_answer": "のは～からです",
+          "alternative_answers": [],
+          "hint": "the reason is",
+          "scramble_blocks": [
+            "遅れた",
+            "のは",
+            "朝",
+            "寝た",
+            "からです"
+          ],
+          "audio_text": "遅れたのは朝寝たからです。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "買ったのは安かったからです。",
+          "japanese_with_blank": "買ったのは安かったからです。",
+          "english": "The reason I bought it is that it was cheap.",
+          "target_answer": "のは～からです",
+          "alternative_answers": [],
+          "hint": "the reason is",
+          "scramble_blocks": [
+            "買った",
+            "のは",
+            "安かった",
+            "からです"
+          ],
+          "audio_text": "買ったのは安かったからです。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "走ったのは遅かったからです。",
+          "japanese_with_blank": "走ったのは遅かったからです。",
+          "english": "The reason I ran is that I was late.",
+          "target_answer": "のは～からです",
+          "alternative_answers": [],
+          "hint": "the reason is",
+          "scramble_blocks": [
+            "走った",
+            "のは",
+            "遅かった",
+            "からです"
+          ],
+          "audio_text": "走ったのは遅かったからです。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "泣いたのはうれしかったからです。",
+          "japanese_with_blank": "泣いたのはうれしかったからです。",
+          "english": "The reason I cried is that I was happy.",
+          "target_answer": "のは～からです",
+          "alternative_answers": [],
+          "hint": "the reason is",
+          "scramble_blocks": [
+            "泣いた",
+            "のは",
+            "うれしかった",
+            "からです"
+          ],
+          "audio_text": "泣いたのはうれしかったからです。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "日本に来たのは日本語を勉強したかったからです。",
+          "japanese_with_blank": "日本に来たのは日本語を勉強したかったからです。",
+          "english": "The reason I came to Japan is that I wanted to study Japanese.",
+          "target_answer": "のは～からです",
+          "alternative_answers": [],
+          "hint": "the reason is",
+          "scramble_blocks": [
+            "日本",
+            "に",
+            "来た",
+            "のは",
+            "日本語",
+            "を",
+            "勉強したかった",
+            "からです"
+          ],
+          "audio_text": "日本に来たのは日本語を勉強したかったからです。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "早く帰ったのは疲れたからです。",
+          "japanese_with_blank": "早く帰ったのは疲れたからです。",
+          "english": "The reason I went home early is that I was tired.",
+          "target_answer": "のは～からです",
+          "alternative_answers": [],
+          "hint": "the reason is",
+          "scramble_blocks": [
+            "早く",
+            "帰った",
+            "のは",
+            "疲れた",
+            "からです"
+          ],
+          "audio_text": "早く帰ったのは疲れたからです。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

@@ -73,6 +73,107 @@
           "audio_text": "何を食べたらいいですか。",
           "notes": "食べる → 食べたらいいですか.",
           "position": 4
+        },
+        {
+          "japanese": "何を食べたらいいですか。",
+          "japanese_with_blank": "何を食べ[___]か。",
+          "english": "What should I eat?",
+          "target_answer": "たらいいです",
+          "hint": "should I",
+          "scramble_blocks": [
+            "何",
+            "を",
+            "食べ",
+            "たらいいです",
+            "か"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "何時に起きたらいいですか。",
+          "japanese_with_blank": "何時に起き[___]か。",
+          "english": "What time should I wake up?",
+          "target_answer": "たらいいです",
+          "hint": "should I",
+          "scramble_blocks": [
+            "何時",
+            "に",
+            "起き",
+            "たらいいです",
+            "か"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "どこで買ったらいいですか。",
+          "japanese_with_blank": "どこで買っ[___]か。",
+          "english": "Where should I buy it?",
+          "target_answer": "たらいいです",
+          "hint": "should I",
+          "scramble_blocks": [
+            "どこ",
+            "で",
+            "買っ",
+            "たらいいです",
+            "か"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "どう書いたらいいですか。",
+          "japanese_with_blank": "どう書い[___]か。",
+          "english": "How should I write it?",
+          "target_answer": "たらいいです",
+          "hint": "should I",
+          "scramble_blocks": [
+            "どう",
+            "書い",
+            "たらいいです",
+            "か"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "何を持って行ったらいいですか。",
+          "japanese_with_blank": "何を持って行っ[___]か。",
+          "english": "What should I bring?",
+          "target_answer": "たらいいです",
+          "hint": "should I",
+          "scramble_blocks": [
+            "何",
+            "を",
+            "持って行っ",
+            "たらいいです",
+            "か"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "誰に聞いたらいいですか。",
+          "japanese_with_blank": "誰に聞い[___]か。",
+          "english": "Who should I ask?",
+          "target_answer": "たらいいです",
+          "hint": "should I",
+          "scramble_blocks": [
+            "誰",
+            "に",
+            "聞い",
+            "たらいいです",
+            "か"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

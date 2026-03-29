@@ -77,6 +77,110 @@
           "audio_text": "友達は暑がっています。",
           "notes": "暑い → 暑がる.",
           "position": 4
+        },
+        {
+          "japanese": "弟が暑がっています。",
+          "japanese_with_blank": "弟が暑[___]。",
+          "english": "My brother is feeling hot.",
+          "target_answer": "がっています",
+          "alternative_answers": [],
+          "hint": "shows feeling",
+          "scramble_blocks": [
+            "弟",
+            "が",
+            "暑",
+            "がっています"
+          ],
+          "audio_text": "弟が暑がっています。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "子供がうれしがっています。",
+          "japanese_with_blank": "子供がうれし[___]。",
+          "english": "The child is showing happiness.",
+          "target_answer": "がっています",
+          "alternative_answers": [],
+          "hint": "shows feeling",
+          "scramble_blocks": [
+            "子供",
+            "が",
+            "うれし",
+            "がっています"
+          ],
+          "audio_text": "子供がうれしがっています。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "猫が外に出たがっています。",
+          "japanese_with_blank": "猫が外に出た[___]。",
+          "english": "The cat is wanting to go outside.",
+          "target_answer": "がっています",
+          "alternative_answers": [],
+          "hint": "shows desire",
+          "scramble_blocks": [
+            "猫",
+            "が",
+            "外",
+            "に",
+            "出た",
+            "がっています"
+          ],
+          "audio_text": "猫が外に出たがっています。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "学生が帰りたがっています。",
+          "japanese_with_blank": "学生が帰りた[___]。",
+          "english": "The student wants to go home.",
+          "target_answer": "がっています",
+          "alternative_answers": [],
+          "hint": "shows desire",
+          "scramble_blocks": [
+            "学生",
+            "が",
+            "帰りた",
+            "がっています"
+          ],
+          "audio_text": "学生が帰りたがっています。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "弟が遊びたがっています。",
+          "japanese_with_blank": "弟が遊びた[___]。",
+          "english": "My brother wants to play.",
+          "target_answer": "がっています",
+          "alternative_answers": [],
+          "hint": "shows desire",
+          "scramble_blocks": [
+            "弟",
+            "が",
+            "遊びた",
+            "がっています"
+          ],
+          "audio_text": "弟が遊びたがっています。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "友達が食べたがっています。",
+          "japanese_with_blank": "友達が食べた[___]。",
+          "english": "My friend wants to eat.",
+          "target_answer": "がっています",
+          "alternative_answers": [],
+          "hint": "shows desire",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "食べた",
+            "がっています"
+          ],
+          "audio_text": "友達が食べたがっています。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

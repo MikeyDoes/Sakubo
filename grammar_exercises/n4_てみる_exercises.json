@@ -78,6 +78,111 @@
           "audio_text": "日本の食べ物を食べてみたいです。",
           "notes": "てみたい = want to try.",
           "position": 4
+        },
+        {
+          "japanese": "この料理を食べてみてください。",
+          "japanese_with_blank": "この料理を食べて[___]ください。",
+          "english": "Please try eating this.",
+          "target_answer": "みて",
+          "hint": "try",
+          "scramble_blocks": [
+            "この",
+            "料理",
+            "を",
+            "食べて",
+            "みて",
+            "ください"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "お茶を飲んでみました。",
+          "japanese_with_blank": "お茶を飲んで[___]。",
+          "english": "I tried the tea.",
+          "target_answer": "みました",
+          "hint": "tried",
+          "scramble_blocks": [
+            "お茶",
+            "を",
+            "飲んで",
+            "みました"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "新しいケーキを食べてみましょう。",
+          "japanese_with_blank": "新しいケーキを食べて[___]。",
+          "english": "Let's try the new cake.",
+          "target_answer": "みましょう",
+          "hint": "let's try",
+          "scramble_blocks": [
+            "新しい",
+            "ケーキ",
+            "を",
+            "食べて",
+            "みましょう"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この魚を食べてみたいです。",
+          "japanese_with_blank": "この魚を食べて[___]。",
+          "english": "I want to try this fish.",
+          "target_answer": "みたいです",
+          "hint": "want to try",
+          "scramble_blocks": [
+            "この",
+            "魚",
+            "を",
+            "食べて",
+            "みたいです"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "日本の食べ物を食べてみました。",
+          "japanese_with_blank": "日本の食べ物を食べて[___]。",
+          "english": "I tried Japanese food.",
+          "target_answer": "みました",
+          "hint": "tried",
+          "scramble_blocks": [
+            "日本",
+            "の",
+            "食べ物",
+            "を",
+            "食べて",
+            "みました"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "一人で料理を作ってみました。",
+          "japanese_with_blank": "一人で料理を作っ[___]。",
+          "english": "I tried cooking alone.",
+          "target_answer": "てみました",
+          "alternative_answers": [],
+          "hint": "tried",
+          "scramble_blocks": [
+            "一人",
+            "で",
+            "料理",
+            "を",
+            "作っ",
+            "てみました"
+          ],
+          "audio_text": "一人で料理を作ってみました。",
+          "notes": "",
+          "position": 10
         }
       ]
     },
@@ -173,6 +278,91 @@
           "audio_text": "新しい歌を聞いてみました。",
           "notes": "聞く → 聞いてみました.",
           "position": 5
+        },
+        {
+          "japanese": "日本語で話してみます。",
+          "japanese_with_blank": "日本語で話して[___]。",
+          "english": "I'll try speaking Japanese.",
+          "target_answer": "みます",
+          "hint": "try",
+          "scramble_blocks": [
+            "日本語",
+            "で",
+            "話して",
+            "みます"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この本を読んでみたいです。",
+          "japanese_with_blank": "この本を読んで[___]。",
+          "english": "I want to try reading this.",
+          "target_answer": "みたいです",
+          "hint": "want to try",
+          "scramble_blocks": [
+            "この",
+            "本",
+            "を",
+            "読んで",
+            "みたいです"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "一人で行ってみましょう。",
+          "japanese_with_blank": "一人で行って[___]。",
+          "english": "Let's try going alone.",
+          "target_answer": "みましょう",
+          "hint": "let's try",
+          "scramble_blocks": [
+            "一人",
+            "で",
+            "行って",
+            "みましょう"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "新しい服を着てみました。",
+          "japanese_with_blank": "新しい服を着て[___]。",
+          "english": "I tried on new clothes.",
+          "target_answer": "みました",
+          "hint": "tried",
+          "scramble_blocks": [
+            "新しい",
+            "服",
+            "を",
+            "着て",
+            "みました"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この本を読んでみたいです。",
+          "japanese_with_blank": "この本を読んでみたいです。",
+          "english": "I want to try reading this book.",
+          "target_answer": "てみたい",
+          "alternative_answers": [],
+          "hint": "want to try",
+          "scramble_blocks": [
+            "この",
+            "本",
+            "を",
+            "読ん",
+            "でみたい",
+            "です"
+          ],
+          "audio_text": "この本を読んでみたいです。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

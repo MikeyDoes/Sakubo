@@ -95,6 +95,89 @@
           "audio_text": "あの映画は面白いって。",
           "notes": "",
           "position": 5
+        },
+        {
+          "japanese": "友達が来るって言っていました。",
+          "japanese_with_blank": "友達が来る[___]言っていました。",
+          "english": "They said a friend is coming.",
+          "target_answer": "って",
+          "hint": "casual quote",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "来る",
+            "って",
+            "言っていました"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "おいしいって聞きました。",
+          "japanese_with_blank": "おいしい[___]聞きました。",
+          "english": "I heard it's delicious.",
+          "target_answer": "って",
+          "hint": "casual quote",
+          "scramble_blocks": [
+            "おいしい",
+            "って",
+            "聞きました"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "明日休みだって。",
+          "japanese_with_blank": "明日休みだ[___]。",
+          "english": "They say tomorrow is off.",
+          "target_answer": "って",
+          "hint": "casual quote",
+          "scramble_blocks": [
+            "明日",
+            "休み",
+            "だ",
+            "って"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この店は高いって聞きました。",
+          "japanese_with_blank": "この店は高い[___]聞きました。",
+          "english": "I heard this shop is pricey.",
+          "target_answer": "って",
+          "hint": "casual quote",
+          "scramble_blocks": [
+            "この",
+            "店",
+            "は",
+            "高い",
+            "って",
+            "聞きました"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "先生が来ないって言っていました。",
+          "japanese_with_blank": "先生が来ない[___]言っていました。",
+          "english": "They said teacher isn't coming.",
+          "target_answer": "って",
+          "hint": "casual quote",
+          "scramble_blocks": [
+            "先生",
+            "が",
+            "来ない",
+            "って",
+            "言っていました"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

@@ -74,6 +74,107 @@
           "audio_text": "勉強を始めたばかりです。",
           "notes": "始める → 始めたばかり.",
           "position": 4
+        },
+        {
+          "japanese": "この本は買ったばかりです。",
+          "japanese_with_blank": "この本は買った[___]です。",
+          "english": "I just bought this book.",
+          "target_answer": "ばかり",
+          "hint": "just did",
+          "scramble_blocks": [
+            "この",
+            "本",
+            "は",
+            "買った",
+            "ばかり",
+            "です"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "ご飯を食べたばかりです。",
+          "japanese_with_blank": "ご飯を食べた[___]です。",
+          "english": "I just ate.",
+          "target_answer": "ばかり",
+          "hint": "just did",
+          "scramble_blocks": [
+            "ご飯",
+            "を",
+            "食べた",
+            "ばかり",
+            "です"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達に会ったばかりです。",
+          "japanese_with_blank": "友達に会った[___]です。",
+          "english": "I just met my friend.",
+          "target_answer": "ばかり",
+          "hint": "just did",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "会った",
+            "ばかり",
+            "です"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "日本に来たばかりです。",
+          "japanese_with_blank": "日本に来た[___]です。",
+          "english": "I just came to Japan.",
+          "target_answer": "ばかり",
+          "hint": "just did",
+          "scramble_blocks": [
+            "日本",
+            "に",
+            "来た",
+            "ばかり",
+            "です"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "起きたばかりです。",
+          "japanese_with_blank": "起きた[___]です。",
+          "english": "I just woke up.",
+          "target_answer": "ばかり",
+          "hint": "just did",
+          "scramble_blocks": [
+            "起きた",
+            "ばかり",
+            "です"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "勉強を始めたばかりです。",
+          "japanese_with_blank": "勉強を始めた[___]です。",
+          "english": "I just started studying.",
+          "target_answer": "ばかり",
+          "hint": "just did",
+          "scramble_blocks": [
+            "勉強",
+            "を",
+            "始めた",
+            "ばかり",
+            "です"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

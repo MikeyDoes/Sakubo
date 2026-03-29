@@ -88,6 +88,90 @@
           "audio_text": "もう帰ったかもしれません。",
           "notes": "",
           "position": 5
+        },
+        {
+          "japanese": "明日は寒いかもしれません。",
+          "japanese_with_blank": "明日は寒い[___]。",
+          "english": "It might be cold tomorrow.",
+          "target_answer": "かもしれません",
+          "alternative_answers": [],
+          "hint": "might",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "寒い",
+            "かもしれません"
+          ],
+          "audio_text": "明日は寒いかもしれません。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "電車が遅れるかもしれません。",
+          "japanese_with_blank": "電車が遅れる[___]。",
+          "english": "The train might be delayed.",
+          "target_answer": "かもしれません",
+          "alternative_answers": [],
+          "hint": "might",
+          "scramble_blocks": [
+            "電車",
+            "が",
+            "遅れる",
+            "かもしれません"
+          ],
+          "audio_text": "電車が遅れるかもしれません。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "分からないかもしれません。",
+          "japanese_with_blank": "分からない[___]。",
+          "english": "I might not understand.",
+          "target_answer": "かもしれません",
+          "alternative_answers": [],
+          "hint": "might",
+          "scramble_blocks": [
+            "分からない",
+            "かもしれません"
+          ],
+          "audio_text": "分からないかもしれません。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "友達が来るかもしれません。",
+          "japanese_with_blank": "友達が来る[___]。",
+          "english": "A friend might come.",
+          "target_answer": "かもしれません",
+          "alternative_answers": [],
+          "hint": "might",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "来る",
+            "かもしれません"
+          ],
+          "audio_text": "友達が来るかもしれません。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "あの人は先生かもしれません。",
+          "japanese_with_blank": "あの人は先生[___]。",
+          "english": "That person might be a teacher.",
+          "target_answer": "かもしれません",
+          "alternative_answers": [],
+          "hint": "might",
+          "scramble_blocks": [
+            "あの",
+            "人",
+            "は",
+            "先生",
+            "かもしれません"
+          ],
+          "audio_text": "あの人は先生かもしれません。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

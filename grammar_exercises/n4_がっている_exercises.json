@@ -61,6 +61,132 @@
           "audio_text": "子供が遊びたがっている。",
           "notes": "遊ぶ → 遊びたがっている.",
           "position": 3
+        },
+        {
+          "japanese": "友達が寒がっている。",
+          "japanese_with_blank": "友達が寒[___]。",
+          "english": "My friend is showing signs of being cold.",
+          "target_answer": "がっている",
+          "alternative_answers": [],
+          "hint": "showing signs",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "寒",
+            "がっている"
+          ],
+          "audio_text": "友達が寒がっている。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "姉が新しい靴を欲しがっている。",
+          "japanese_with_blank": "姉が新しい靴を欲し[___]。",
+          "english": "My sister is wanting new shoes.",
+          "target_answer": "がっている",
+          "alternative_answers": [],
+          "hint": "showing signs",
+          "scramble_blocks": [
+            "姉",
+            "が",
+            "新しい",
+            "靴",
+            "を",
+            "欲し",
+            "がっている"
+          ],
+          "audio_text": "姉が新しい靴を欲しがっている。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "弟がお菓子を食べたがっている。",
+          "japanese_with_blank": "弟がお菓子を食べた[___]。",
+          "english": "My brother wants to eat sweets.",
+          "target_answer": "がっている",
+          "alternative_answers": [],
+          "hint": "showing desire",
+          "scramble_blocks": [
+            "弟",
+            "が",
+            "お菓子",
+            "を",
+            "食べた",
+            "がっている"
+          ],
+          "audio_text": "弟がお菓子を食べたがっている。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "子供が暑がっている。",
+          "japanese_with_blank": "子供が暑[___]。",
+          "english": "The child looks hot.",
+          "target_answer": "がっている",
+          "alternative_answers": [],
+          "hint": "showing signs",
+          "scramble_blocks": [
+            "子供",
+            "が",
+            "暑",
+            "がっている"
+          ],
+          "audio_text": "子供が暑がっている。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "学生が帰りたがっている。",
+          "japanese_with_blank": "学生が帰りた[___]。",
+          "english": "The students want to go home.",
+          "target_answer": "がっている",
+          "alternative_answers": [],
+          "hint": "showing desire",
+          "scramble_blocks": [
+            "学生",
+            "が",
+            "帰りた",
+            "がっている"
+          ],
+          "audio_text": "学生が帰りたがっている。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "妹が映画を見たがっている。",
+          "japanese_with_blank": "妹が映画を見た[___]。",
+          "english": "My younger sister wants to watch a movie.",
+          "target_answer": "がっている",
+          "alternative_answers": [],
+          "hint": "showing desire",
+          "scramble_blocks": [
+            "妹",
+            "が",
+            "映画",
+            "を",
+            "見た",
+            "がっている"
+          ],
+          "audio_text": "妹が映画を見たがっている。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "友達は行きたがっている。",
+          "japanese_with_blank": "友達は行きた[___]。",
+          "english": "My friend wants to go.",
+          "target_answer": "がっている",
+          "alternative_answers": [],
+          "hint": "showing desire",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "行きた",
+            "がっている"
+          ],
+          "audio_text": "友達は行きたがっている。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

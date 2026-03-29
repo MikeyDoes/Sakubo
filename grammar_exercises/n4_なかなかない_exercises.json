@@ -69,6 +69,96 @@
           "audio_text": "なかなか上手になりません。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "なかなか覚えられません。",
+          "japanese_with_blank": "[___]覚えられません。",
+          "english": "I can't easily memorize.",
+          "target_answer": "なかなか",
+          "hint": "not easily",
+          "scramble_blocks": [
+            "なかなか",
+            "覚えられません"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "なかなか寝られません。",
+          "japanese_with_blank": "[___]寝られません。",
+          "english": "I can't easily sleep.",
+          "target_answer": "なかなか",
+          "hint": "not easily",
+          "scramble_blocks": [
+            "なかなか",
+            "寝られません"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "バスがなかなか来ません。",
+          "japanese_with_blank": "バスが[___]来ません。",
+          "english": "The bus doesn't easily come.",
+          "target_answer": "なかなか",
+          "hint": "not easily",
+          "scramble_blocks": [
+            "バス",
+            "が",
+            "なかなか",
+            "来ません"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "日本語がなかなか上手になりません。",
+          "japanese_with_blank": "日本語が[___]上手になりません。",
+          "english": "My Japanese hardly improves.",
+          "target_answer": "なかなか",
+          "hint": "not easily",
+          "scramble_blocks": [
+            "日本語",
+            "が",
+            "なかなか",
+            "上手になりません"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "なかなか決められません。",
+          "japanese_with_blank": "[___]決められません。",
+          "english": "I can't easily decide.",
+          "target_answer": "なかなか",
+          "hint": "not easily",
+          "scramble_blocks": [
+            "なかなか",
+            "決められません"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "仕事がなかなか終わりません。",
+          "japanese_with_blank": "仕事が[___]終わりません。",
+          "english": "Work doesn't easily finish.",
+          "target_answer": "なかなか",
+          "hint": "not easily",
+          "scramble_blocks": [
+            "仕事",
+            "が",
+            "なかなか",
+            "終わりません"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

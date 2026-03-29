@@ -66,6 +66,101 @@
           "audio_text": "大丈夫かい。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "今日は暇かい。",
+          "japanese_with_blank": "今日は暇[___]。",
+          "english": "Are you free today?",
+          "target_answer": "かい",
+          "alternative_answers": [],
+          "hint": "casual ?",
+          "scramble_blocks": [
+            "今日",
+            "は",
+            "暇",
+            "かい"
+          ],
+          "audio_text": "今日は暇かい。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "お腹すいたかい。",
+          "japanese_with_blank": "お腹すいた[___]。",
+          "english": "Are you hungry?",
+          "target_answer": "かい",
+          "alternative_answers": [],
+          "hint": "casual ?",
+          "scramble_blocks": [
+            "お腹",
+            "すいた",
+            "かい"
+          ],
+          "audio_text": "お腹すいたかい。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "宿題やったかい。",
+          "japanese_with_blank": "宿題やった[___]。",
+          "english": "Did you do your homework?",
+          "target_answer": "かい",
+          "alternative_answers": [],
+          "hint": "casual ?",
+          "scramble_blocks": [
+            "宿題",
+            "やった",
+            "かい"
+          ],
+          "audio_text": "宿題やったかい。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "面白かったかい。",
+          "japanese_with_blank": "面白かった[___]。",
+          "english": "Was it interesting?",
+          "target_answer": "かい",
+          "alternative_answers": [],
+          "hint": "casual ?",
+          "scramble_blocks": [
+            "面白かった",
+            "かい"
+          ],
+          "audio_text": "面白かったかい。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "もう食べたかい。",
+          "japanese_with_blank": "もう食べた[___]。",
+          "english": "Did you already eat?",
+          "target_answer": "かい",
+          "alternative_answers": [],
+          "hint": "casual ?",
+          "scramble_blocks": [
+            "もう",
+            "食べた",
+            "かい"
+          ],
+          "audio_text": "もう食べたかい。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "楽しかったかい。",
+          "japanese_with_blank": "楽しかった[___]。",
+          "english": "Was it fun?",
+          "target_answer": "かい",
+          "alternative_answers": [],
+          "hint": "casual ?",
+          "scramble_blocks": [
+            "楽しかった",
+            "かい"
+          ],
+          "audio_text": "楽しかったかい。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

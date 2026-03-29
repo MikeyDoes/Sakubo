@@ -81,6 +81,84 @@
           "audio_text": "飲んじゃった。",
           "notes": "でしまった → じゃった.",
           "position": 5
+        },
+        {
+          "japanese": "全部食べちゃった。",
+          "japanese_with_blank": "全部食べ[___]。",
+          "english": "I ate it all.",
+          "target_answer": "ちゃった",
+          "hint": "did (casual)",
+          "scramble_blocks": [
+            "全部",
+            "食べ",
+            "ちゃった"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "宿題を忘れちゃった。",
+          "japanese_with_blank": "宿題を忘れ[___]。",
+          "english": "I forgot my homework.",
+          "target_answer": "ちゃった",
+          "hint": "did (casual)",
+          "scramble_blocks": [
+            "宿題",
+            "を",
+            "忘れ",
+            "ちゃった"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "寝ちゃった。",
+          "japanese_with_blank": "寝[___]。",
+          "english": "I fell asleep.",
+          "target_answer": "ちゃった",
+          "hint": "did (casual)",
+          "scramble_blocks": [
+            "寝",
+            "ちゃった"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "牛乳を飲んじゃった。",
+          "japanese_with_blank": "牛乳を飲ん[___]。",
+          "english": "I drank the milk.",
+          "target_answer": "じゃった",
+          "hint": "did (casual)",
+          "scramble_blocks": [
+            "牛乳",
+            "を",
+            "飲ん",
+            "じゃった"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "お菓子を全部食べちゃった。",
+          "japanese_with_blank": "お菓子を全部食べ[___]。",
+          "english": "I ate all the sweets.",
+          "target_answer": "ちゃった",
+          "hint": "did (casual)",
+          "scramble_blocks": [
+            "お菓子",
+            "を",
+            "全部",
+            "食べ",
+            "ちゃった"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

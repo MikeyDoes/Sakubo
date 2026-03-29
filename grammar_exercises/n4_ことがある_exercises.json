@@ -77,6 +77,115 @@
           "audio_text": "この映画を見たことがありません。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "一人で電車に乗ったことがあります。",
+          "japanese_with_blank": "一人で電車に乗った[___]。",
+          "english": "I have ridden the train alone before.",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "have experienced",
+          "scramble_blocks": [
+            "一人",
+            "で",
+            "電車",
+            "に",
+            "乗った",
+            "ことがあります"
+          ],
+          "audio_text": "一人で電車に乗ったことがあります。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "きれいな山を見たことがあります。",
+          "japanese_with_blank": "きれいな山を見た[___]。",
+          "english": "I have seen a beautiful mountain.",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "have experienced",
+          "scramble_blocks": [
+            "きれいな",
+            "山",
+            "を",
+            "見た",
+            "ことがあります"
+          ],
+          "audio_text": "きれいな山を見たことがあります。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "日本語で手紙を書いたことがあります。",
+          "japanese_with_blank": "日本語で手紙を書いた[___]。",
+          "english": "I have written a letter in Japanese.",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "have experienced",
+          "scramble_blocks": [
+            "日本語",
+            "で",
+            "手紙",
+            "を",
+            "書いた",
+            "ことがあります"
+          ],
+          "audio_text": "日本語で手紙を書いたことがあります。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "あの店に行ったことがありますか。",
+          "japanese_with_blank": "あの店に行った[___]。",
+          "english": "Have you ever been to that shop?",
+          "target_answer": "ことがありますか",
+          "alternative_answers": [],
+          "hint": "have experienced?",
+          "scramble_blocks": [
+            "あの",
+            "店",
+            "に",
+            "行った",
+            "ことがありますか"
+          ],
+          "audio_text": "あの店に行ったことがありますか。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "一人で旅行したことがあります。",
+          "japanese_with_blank": "一人で旅行した[___]。",
+          "english": "I have traveled alone.",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "have experienced",
+          "scramble_blocks": [
+            "一人",
+            "で",
+            "旅行した",
+            "ことがあります"
+          ],
+          "audio_text": "一人で旅行したことがあります。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "この歌を聞いたことがありません。",
+          "japanese_with_blank": "この歌を聞いた[___]。",
+          "english": "I've never heard this song.",
+          "target_answer": "ことがありません",
+          "alternative_answers": [],
+          "hint": "never experienced",
+          "scramble_blocks": [
+            "この",
+            "歌",
+            "を",
+            "聞いた",
+            "ことがありません"
+          ],
+          "audio_text": "この歌を聞いたことがありません。",
+          "notes": "",
+          "position": 10
         }
       ]
     },
@@ -117,6 +226,147 @@
           "audio_text": "電車が遅れることがあります。",
           "notes": "",
           "position": 2
+        },
+        {
+          "japanese": "日曜日に仕事をすることがあります。",
+          "japanese_with_blank": "日曜日に仕事をする[___]。",
+          "english": "There are times when I work on Sunday.",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "sometimes",
+          "scramble_blocks": [
+            "日曜日",
+            "に",
+            "仕事",
+            "を",
+            "する",
+            "ことがあります"
+          ],
+          "audio_text": "日曜日に仕事をすることがあります。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "歩いて学校に行くことがあります。",
+          "japanese_with_blank": "歩いて学校に行く[___]。",
+          "english": "Sometimes I walk to school.",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "sometimes",
+          "scramble_blocks": [
+            "歩いて",
+            "学校",
+            "に",
+            "行く",
+            "ことがあります"
+          ],
+          "audio_text": "歩いて学校に行くことがあります。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "夜遅くまで勉強することがあります。",
+          "japanese_with_blank": "夜遅くまで勉強する[___]。",
+          "english": "There are times when I study until late at night.",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "sometimes",
+          "scramble_blocks": [
+            "夜",
+            "遅くまで",
+            "勉強する",
+            "ことがあります"
+          ],
+          "audio_text": "夜遅くまで勉強することがあります。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "朝ご飯を食べないことがあります。",
+          "japanese_with_blank": "朝ご飯を食べない[___]。",
+          "english": "There are times when I don't eat breakfast.",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "sometimes",
+          "scramble_blocks": [
+            "朝ご飯",
+            "を",
+            "食べない",
+            "ことがあります"
+          ],
+          "audio_text": "朝ご飯を食べないことがあります。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "バスで寝ることがあります。",
+          "japanese_with_blank": "バスで寝る[___]。",
+          "english": "Sometimes I fall asleep on the bus.",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "sometimes",
+          "scramble_blocks": [
+            "バス",
+            "で",
+            "寝る",
+            "ことがあります"
+          ],
+          "audio_text": "バスで寝ることがあります。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "友達の家に泊まることがあります。",
+          "japanese_with_blank": "友達の家に泊まる[___]。",
+          "english": "Sometimes I stay at a friend's house.",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "sometimes",
+          "scramble_blocks": [
+            "友達",
+            "の",
+            "家",
+            "に",
+            "泊まる",
+            "ことがあります"
+          ],
+          "audio_text": "友達の家に泊まることがあります。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "お昼ご飯を食べないことがあります。",
+          "japanese_with_blank": "お昼ご飯を食べない[___]。",
+          "english": "There are times when I don't eat lunch.",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "sometimes",
+          "scramble_blocks": [
+            "お昼ご飯",
+            "を",
+            "食べない",
+            "ことがあります"
+          ],
+          "audio_text": "お昼ご飯を食べないことがあります。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "朝遅く起きることがあります。",
+          "japanese_with_blank": "朝遅く起きる[___]。",
+          "english": "Sometimes I wake up late in the morning.",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "sometimes",
+          "scramble_blocks": [
+            "朝",
+            "遅く",
+            "起きる",
+            "ことがあります"
+          ],
+          "audio_text": "朝遅く起きることがあります。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

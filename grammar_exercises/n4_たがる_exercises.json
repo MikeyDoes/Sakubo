@@ -65,6 +65,135 @@
           "audio_text": "妹は新しい服を買いたがっています。",
           "notes": "買う → 買いたがる.",
           "position": 3
+        },
+        {
+          "japanese": "弟は外で遊びたがります。",
+          "japanese_with_blank": "弟は外で遊び[___]。",
+          "english": "My brother wants to play outside.",
+          "target_answer": "たがります",
+          "hint": "wants to (3rd)",
+          "scramble_blocks": [
+            "弟",
+            "は",
+            "外",
+            "で",
+            "遊び",
+            "たがります"
+          ],
+          "notes": "",
+          "position": 4,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "子供はお菓子を食べたがります。",
+          "japanese_with_blank": "子供はお菓子を食べ[___]。",
+          "english": "Kids want to eat sweets.",
+          "target_answer": "たがります",
+          "hint": "wants to (3rd)",
+          "scramble_blocks": [
+            "子供",
+            "は",
+            "お菓子",
+            "を",
+            "食べ",
+            "たがります"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "猫は外に出たがります。",
+          "japanese_with_blank": "猫は外に出[___]。",
+          "english": "The cat wants to go out.",
+          "target_answer": "たがります",
+          "hint": "wants to (3rd)",
+          "scramble_blocks": [
+            "猫",
+            "は",
+            "外",
+            "に",
+            "出",
+            "たがります"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達はいつも新しい服を買いたがります。",
+          "japanese_with_blank": "友達はいつも新しい服を買い[___]。",
+          "english": "My friend always wants to buy new clothes.",
+          "target_answer": "たがります",
+          "alternative_answers": [],
+          "hint": "wants to",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "いつも",
+            "新しい",
+            "服",
+            "を",
+            "買い",
+            "たがります"
+          ],
+          "audio_text": "友達はいつも新しい服を買いたがります。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "姉は日本に行きたがっています。",
+          "japanese_with_blank": "姉は日本に行き[___]。",
+          "english": "My sister wants to go to Japan.",
+          "target_answer": "たがっています",
+          "alternative_answers": [],
+          "hint": "wants to",
+          "scramble_blocks": [
+            "姉",
+            "は",
+            "日本",
+            "に",
+            "行き",
+            "たがっています"
+          ],
+          "audio_text": "姉は日本に行きたがっています。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "学生はもっと話したがっています。",
+          "japanese_with_blank": "学生はもっと話し[___]。",
+          "english": "Students want to talk more.",
+          "target_answer": "たがっています",
+          "hint": "wants to (ongoing)",
+          "scramble_blocks": [
+            "学生",
+            "は",
+            "もっと",
+            "話し",
+            "たがっています"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "弟は映画を見たがっています。",
+          "japanese_with_blank": "弟は映画を見[___]。",
+          "english": "My brother wants to see a movie.",
+          "target_answer": "たがっています",
+          "hint": "wants to (ongoing)",
+          "scramble_blocks": [
+            "弟",
+            "は",
+            "映画",
+            "を",
+            "見",
+            "たがっています"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

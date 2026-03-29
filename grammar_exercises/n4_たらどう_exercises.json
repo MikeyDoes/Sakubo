@@ -76,6 +76,106 @@
           "audio_text": "薬を飲んだらどうですか。",
           "notes": "飲む → 飲んだらどう.",
           "position": 4
+        },
+        {
+          "japanese": "薬を飲んだらどうですか。",
+          "japanese_with_blank": "薬を飲ん[___]か。",
+          "english": "How about taking medicine?",
+          "target_answer": "だらどうです",
+          "hint": "how about",
+          "scramble_blocks": [
+            "薬",
+            "を",
+            "飲ん",
+            "だらどうです",
+            "か"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "少し休んだらどうですか。",
+          "japanese_with_blank": "少し休ん[___]か。",
+          "english": "How about resting?",
+          "target_answer": "だらどうです",
+          "hint": "how about",
+          "scramble_blocks": [
+            "少し",
+            "休ん",
+            "だらどうです",
+            "か"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "先生に聞いたらどうですか。",
+          "japanese_with_blank": "先生に聞い[___]か。",
+          "english": "How about asking the teacher?",
+          "target_answer": "たらどうです",
+          "hint": "how about",
+          "scramble_blocks": [
+            "先生",
+            "に",
+            "聞い",
+            "たらどうです",
+            "か"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "早く寝たらどうですか。",
+          "japanese_with_blank": "早く寝[___]か。",
+          "english": "How about sleeping early?",
+          "target_answer": "たらどうです",
+          "hint": "how about",
+          "scramble_blocks": [
+            "早く",
+            "寝",
+            "たらどうです",
+            "か"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達を呼んだらどうですか。",
+          "japanese_with_blank": "友達を呼ん[___]か。",
+          "english": "How about inviting a friend?",
+          "target_answer": "だらどうです",
+          "hint": "how about",
+          "scramble_blocks": [
+            "友達",
+            "を",
+            "呼ん",
+            "だらどうです",
+            "か"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "日本語を勉強したらどうですか。",
+          "japanese_with_blank": "日本語を勉強し[___]か。",
+          "english": "How about studying Japanese?",
+          "target_answer": "たらどうです",
+          "hint": "how about",
+          "scramble_blocks": [
+            "日本語",
+            "を",
+            "勉強し",
+            "たらどうです",
+            "か"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

@@ -83,6 +83,118 @@
           "audio_text": "日本語が話せるということはすごいです。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "毎日練習するということが大切です。",
+          "japanese_with_blank": "毎日練習する[___]が大切です。",
+          "english": "Practicing daily is important.",
+          "target_answer": "ということ",
+          "hint": "the fact that",
+          "scramble_blocks": [
+            "毎日",
+            "練習する",
+            "ということ",
+            "が",
+            "大切です"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "たくさん読むということが勉強になります。",
+          "japanese_with_blank": "たくさん読む[___]が勉強になります。",
+          "english": "Reading a lot is educational.",
+          "target_answer": "ということ",
+          "hint": "the fact that",
+          "scramble_blocks": [
+            "たくさん",
+            "読む",
+            "ということ",
+            "が",
+            "勉強になります"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達を大切にするということは大切です。",
+          "japanese_with_blank": "友達を大切にする[___]は大切です。",
+          "english": "Cherishing friends is important.",
+          "target_answer": "ということ",
+          "alternative_answers": [],
+          "hint": "the fact that",
+          "scramble_blocks": [
+            "友達",
+            "を",
+            "大切にする",
+            "ということ",
+            "は",
+            "大切",
+            "です"
+          ],
+          "audio_text": "友達を大切にするということは大切です。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "自分で考えるということが大切です。",
+          "japanese_with_blank": "自分で考える[___]が大切です。",
+          "english": "Thinking for yourself is important.",
+          "target_answer": "ということ",
+          "alternative_answers": [],
+          "hint": "the fact that",
+          "scramble_blocks": [
+            "自分",
+            "で",
+            "考える",
+            "ということ",
+            "が",
+            "大切",
+            "です"
+          ],
+          "audio_text": "自分で考えるということが大切です。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "毎日勉強するということは大切です。",
+          "japanese_with_blank": "毎日勉強する[___]は大切です。",
+          "english": "Studying every day is important.",
+          "target_answer": "ということ",
+          "alternative_answers": [],
+          "hint": "the fact that",
+          "scramble_blocks": [
+            "毎日",
+            "勉強する",
+            "ということ",
+            "は",
+            "大切",
+            "です"
+          ],
+          "audio_text": "毎日勉強するということは大切です。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "早く寝るということは大切です。",
+          "japanese_with_blank": "早く寝る[___]は大切です。",
+          "english": "Going to bed early is important.",
+          "target_answer": "ということ",
+          "alternative_answers": [],
+          "hint": "the fact that",
+          "scramble_blocks": [
+            "早く",
+            "寝る",
+            "ということ",
+            "は",
+            "大切",
+            "です"
+          ],
+          "audio_text": "早く寝るということは大切です。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

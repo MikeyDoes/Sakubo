@@ -70,6 +70,107 @@
           "audio_text": "もう一度練習する必要があります。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "日本語を勉強する必要があります。",
+          "japanese_with_blank": "日本語を勉強する[___]。",
+          "english": "There is a need to study Japanese.",
+          "target_answer": "必要があります",
+          "alternative_answers": [],
+          "hint": "there is a need",
+          "scramble_blocks": [
+            "日本語",
+            "を",
+            "勉強する",
+            "必要があります"
+          ],
+          "audio_text": "日本語を勉強する必要があります。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "毎日走る必要があります。",
+          "japanese_with_blank": "毎日走る[___]。",
+          "english": "There is a need to run every day.",
+          "target_answer": "必要があります",
+          "alternative_answers": [],
+          "hint": "there is a need",
+          "scramble_blocks": [
+            "毎日",
+            "走る",
+            "必要があります"
+          ],
+          "audio_text": "毎日走る必要があります。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "薬を飲む必要があります。",
+          "japanese_with_blank": "薬を飲む[___]。",
+          "english": "There is a need to take medicine.",
+          "target_answer": "必要があります",
+          "alternative_answers": [],
+          "hint": "there is a need",
+          "scramble_blocks": [
+            "薬",
+            "を",
+            "飲む",
+            "必要があります"
+          ],
+          "audio_text": "薬を飲む必要があります。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "もっと寝る必要があります。",
+          "japanese_with_blank": "もっと寝る[___]。",
+          "english": "There is a need to sleep more.",
+          "target_answer": "必要があります",
+          "alternative_answers": [],
+          "hint": "there is a need",
+          "scramble_blocks": [
+            "もっと",
+            "寝る",
+            "必要があります"
+          ],
+          "audio_text": "もっと寝る必要があります。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "先生に聞く必要があります。",
+          "japanese_with_blank": "先生に聞く[___]。",
+          "english": "There is a need to ask the teacher.",
+          "target_answer": "必要があります",
+          "alternative_answers": [],
+          "hint": "there is a need",
+          "scramble_blocks": [
+            "先生",
+            "に",
+            "聞く",
+            "必要があります"
+          ],
+          "audio_text": "先生に聞く必要があります。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "新しい本を買う必要があります。",
+          "japanese_with_blank": "新しい本を買う[___]。",
+          "english": "There is a need to buy a new book.",
+          "target_answer": "必要があります",
+          "alternative_answers": [],
+          "hint": "there is a need",
+          "scramble_blocks": [
+            "新しい",
+            "本",
+            "を",
+            "買う",
+            "必要があります"
+          ],
+          "audio_text": "新しい本を買う必要があります。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

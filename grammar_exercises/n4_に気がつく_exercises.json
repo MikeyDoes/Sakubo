@@ -73,6 +73,100 @@
           "audio_text": "自分の間違いに気がつきませんでした。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "間違いに気がつきました。",
+          "japanese_with_blank": "間違い[___]。",
+          "english": "I noticed the mistake.",
+          "target_answer": "に気がつきました",
+          "hint": "noticed",
+          "scramble_blocks": [
+            "間違い",
+            "に気がつきました"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達がいることに気がつきました。",
+          "japanese_with_blank": "友達がいること[___]。",
+          "english": "I noticed my friend was there.",
+          "target_answer": "に気がつきました",
+          "hint": "noticed",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "いること",
+            "に気がつきました"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "財布がないことに気がつきました。",
+          "japanese_with_blank": "財布がないこと[___]。",
+          "english": "I noticed my wallet was gone.",
+          "target_answer": "に気がつきました",
+          "hint": "noticed",
+          "scramble_blocks": [
+            "財布",
+            "が",
+            "ないこと",
+            "に気がつきました"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "雨が降っていることに気がつきました。",
+          "japanese_with_blank": "雨が降っていること[___]。",
+          "english": "I noticed it was raining.",
+          "target_answer": "に気がつきました",
+          "hint": "noticed",
+          "scramble_blocks": [
+            "雨",
+            "が",
+            "降っていること",
+            "に気がつきました"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "時計が止まっていることに気がつきました。",
+          "japanese_with_blank": "時計が止まっていること[___]。",
+          "english": "I noticed the clock had stopped.",
+          "target_answer": "に気がつきました",
+          "hint": "noticed",
+          "scramble_blocks": [
+            "時計",
+            "が",
+            "止まっていること",
+            "に気がつきました"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "花が咲いていることに気がつきました。",
+          "japanese_with_blank": "花が咲いていること[___]。",
+          "english": "I noticed flowers had bloomed.",
+          "target_answer": "に気がつきました",
+          "hint": "noticed",
+          "scramble_blocks": [
+            "花",
+            "が",
+            "咲いていること",
+            "に気がつきました"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

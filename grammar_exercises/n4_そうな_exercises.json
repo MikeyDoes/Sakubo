@@ -77,6 +77,108 @@
           "audio_text": "元気そうな子供が遊んでいます。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "おいしそうなケーキですね。",
+          "japanese_with_blank": "おいし[___]ケーキですね。",
+          "english": "Delicious-looking cake!",
+          "target_answer": "そうな",
+          "hint": "-looking",
+          "scramble_blocks": [
+            "おいし",
+            "そうな",
+            "ケーキ",
+            "です",
+            "ね"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "楽しそうな人ですね。",
+          "japanese_with_blank": "楽し[___]人ですね。",
+          "english": "They look like a fun person.",
+          "target_answer": "そうな",
+          "hint": "-looking",
+          "scramble_blocks": [
+            "楽し",
+            "そうな",
+            "人",
+            "です",
+            "ね"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "難しそうな本を読んでいます。",
+          "japanese_with_blank": "難し[___]本を読んでいます。",
+          "english": "Reading a difficult-looking book.",
+          "target_answer": "そうな",
+          "hint": "-looking",
+          "scramble_blocks": [
+            "難し",
+            "そうな",
+            "本",
+            "を",
+            "読んでいます"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "高そうな服を着ています。",
+          "japanese_with_blank": "高[___]服を着ています。",
+          "english": "Wearing expensive-looking clothes.",
+          "target_answer": "そうな",
+          "hint": "-looking",
+          "scramble_blocks": [
+            "高",
+            "そうな",
+            "服",
+            "を",
+            "着ています"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "元気そうな子供がいます。",
+          "japanese_with_blank": "元気[___]子供がいます。",
+          "english": "There are healthy-looking children.",
+          "target_answer": "そうな",
+          "hint": "-looking",
+          "scramble_blocks": [
+            "元気",
+            "そうな",
+            "子供",
+            "が",
+            "います"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "面白そうな映画があります。",
+          "japanese_with_blank": "面白[___]映画があります。",
+          "english": "There is an interesting-looking movie.",
+          "target_answer": "そうな",
+          "hint": "-looking",
+          "scramble_blocks": [
+            "面白",
+            "そうな",
+            "映画",
+            "が",
+            "あります"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

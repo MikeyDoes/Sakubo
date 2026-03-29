@@ -67,6 +67,101 @@
           "audio_text": "全然大丈夫です。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "全然聞こえません。",
+          "japanese_with_blank": "[___]聞こえません。",
+          "english": "I can't hear at all.",
+          "target_answer": "全然",
+          "alternative_answers": [],
+          "hint": "not at all",
+          "scramble_blocks": [
+            "全然",
+            "聞こえません"
+          ],
+          "audio_text": "全然聞こえません。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "全然疲れていません。",
+          "japanese_with_blank": "[___]疲れていません。",
+          "english": "I'm not tired at all.",
+          "target_answer": "全然",
+          "alternative_answers": [],
+          "hint": "not at all",
+          "scramble_blocks": [
+            "全然",
+            "疲れていません"
+          ],
+          "audio_text": "全然疲れていません。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "日本語は全然難しくないです。",
+          "japanese_with_blank": "日本語は[___]難しくないです。",
+          "english": "Japanese isn't difficult at all.",
+          "target_answer": "全然",
+          "alternative_answers": [],
+          "hint": "not at all",
+          "scramble_blocks": [
+            "日本語",
+            "は",
+            "全然",
+            "難しくないです"
+          ],
+          "audio_text": "日本語は全然難しくないです。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "全然知りません。",
+          "japanese_with_blank": "[___]知りません。",
+          "english": "I don't know at all.",
+          "target_answer": "全然",
+          "alternative_answers": [],
+          "hint": "not at all",
+          "scramble_blocks": [
+            "全然",
+            "知りません"
+          ],
+          "audio_text": "全然知りません。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "あの映画は全然面白くなかったです。",
+          "japanese_with_blank": "あの映画は[___]面白くなかったです。",
+          "english": "That movie wasn't interesting at all.",
+          "target_answer": "全然",
+          "alternative_answers": [],
+          "hint": "not at all",
+          "scramble_blocks": [
+            "あの",
+            "映画",
+            "は",
+            "全然",
+            "面白くなかったです"
+          ],
+          "audio_text": "あの映画は全然面白くなかったです。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "全然見えません。",
+          "japanese_with_blank": "[___]見えません。",
+          "english": "I can't see at all.",
+          "target_answer": "全然",
+          "alternative_answers": [],
+          "hint": "not at all",
+          "scramble_blocks": [
+            "全然",
+            "見えません"
+          ],
+          "audio_text": "全然見えません。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

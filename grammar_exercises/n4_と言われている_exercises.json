@@ -80,6 +80,108 @@
           "audio_text": "水をたくさん飲むといいと言われています。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "日本語は難しいと言われています。",
+          "japanese_with_blank": "日本語は難しい[___]。",
+          "english": "Japanese is said to be hard.",
+          "target_answer": "と言われています",
+          "hint": "is said",
+          "scramble_blocks": [
+            "日本語",
+            "は",
+            "難しい",
+            "と言われています"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この町はきれいだと言われています。",
+          "japanese_with_blank": "この町はきれいだ[___]。",
+          "english": "This town is said to be beautiful.",
+          "target_answer": "と言われています",
+          "alternative_answers": [],
+          "hint": "it is said",
+          "scramble_blocks": [
+            "この",
+            "町",
+            "は",
+            "きれいだ",
+            "と言われています"
+          ],
+          "audio_text": "この町はきれいだと言われています。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "朝ご飯は大切だと言われています。",
+          "japanese_with_blank": "朝ご飯は大切だ[___]。",
+          "english": "Breakfast is said to be important.",
+          "target_answer": "と言われています",
+          "hint": "is said",
+          "scramble_blocks": [
+            "朝ご飯",
+            "は",
+            "大切だ",
+            "と言われています"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "魚は体にいいと言われています。",
+          "japanese_with_blank": "魚は体にいい[___]。",
+          "english": "Fish is said to be healthy.",
+          "target_answer": "と言われています",
+          "hint": "is said",
+          "scramble_blocks": [
+            "魚",
+            "は",
+            "体にいい",
+            "と言われています"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この店はおいしいと言われています。",
+          "japanese_with_blank": "この店はおいしい[___]。",
+          "english": "This shop is said to be delicious.",
+          "target_answer": "と言われています",
+          "alternative_answers": [],
+          "hint": "it is said",
+          "scramble_blocks": [
+            "この",
+            "店",
+            "は",
+            "おいしい",
+            "と言われています"
+          ],
+          "audio_text": "この店はおいしいと言われています。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "日本の水はきれいだと言われています。",
+          "japanese_with_blank": "日本の水はきれいだ[___]。",
+          "english": "Japan's water is said to be clean.",
+          "target_answer": "と言われています",
+          "hint": "is said",
+          "scramble_blocks": [
+            "日本",
+            "の",
+            "水",
+            "は",
+            "きれいだ",
+            "と言われています"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

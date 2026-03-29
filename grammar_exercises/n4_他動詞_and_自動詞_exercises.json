@@ -51,6 +51,121 @@
           "audio_text": "窓を閉めました。",
           "notes": "",
           "position": 3
+        },
+        {
+          "japanese": "窓を開けてください。",
+          "japanese_with_blank": "窓を[___]ください。",
+          "english": "Please open the window.",
+          "target_answer": "開けて",
+          "alternative_answers": [],
+          "hint": "open (tr.)",
+          "scramble_blocks": [
+            "窓",
+            "を",
+            "開けて",
+            "ください"
+          ],
+          "audio_text": "窓を開けてください。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "電気を消しました。",
+          "japanese_with_blank": "電気を[___]。",
+          "english": "I turned off the light.",
+          "target_answer": "消しました",
+          "alternative_answers": [],
+          "hint": "turn off (tr.)",
+          "scramble_blocks": [
+            "電気",
+            "を",
+            "消しました"
+          ],
+          "audio_text": "電気を消しました。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "ドアを閉めてください。",
+          "japanese_with_blank": "ドアを[___]ください。",
+          "english": "Please close the door.",
+          "target_answer": "閉めて",
+          "alternative_answers": [],
+          "hint": "close (tr.)",
+          "scramble_blocks": [
+            "ドア",
+            "を",
+            "閉めて",
+            "ください"
+          ],
+          "audio_text": "ドアを閉めてください。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "音を大きくしました。",
+          "japanese_with_blank": "音を[___]。",
+          "english": "I turned up the volume.",
+          "target_answer": "大きくしました",
+          "alternative_answers": [],
+          "hint": "made big",
+          "scramble_blocks": [
+            "音",
+            "を",
+            "大きくしました"
+          ],
+          "audio_text": "音を大きくしました。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "お湯を沸かしました。",
+          "japanese_with_blank": "お湯を[___]。",
+          "english": "I boiled water.",
+          "target_answer": "沸かしました",
+          "alternative_answers": [],
+          "hint": "boil (tr.)",
+          "scramble_blocks": [
+            "お湯",
+            "を",
+            "沸かしました"
+          ],
+          "audio_text": "お湯を沸かしました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "時計を直しました。",
+          "japanese_with_blank": "時計を[___]。",
+          "english": "I fixed the clock.",
+          "target_answer": "直しました",
+          "alternative_answers": [],
+          "hint": "fix (tr.)",
+          "scramble_blocks": [
+            "時計",
+            "を",
+            "直しました"
+          ],
+          "audio_text": "時計を直しました。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "火を消してください。",
+          "japanese_with_blank": "火を[___]ください。",
+          "english": "Please put out the fire.",
+          "target_answer": "消して",
+          "alternative_answers": [],
+          "hint": "turn off (tr.)",
+          "scramble_blocks": [
+            "火",
+            "を",
+            "消して",
+            "ください"
+          ],
+          "audio_text": "火を消してください。",
+          "notes": "",
+          "position": 10
         }
       ]
     },
@@ -102,6 +217,118 @@
           "audio_text": "窓が閉まりました。",
           "notes": "",
           "position": 3
+        },
+        {
+          "japanese": "窓が開きました。",
+          "japanese_with_blank": "窓が[___]。",
+          "english": "The window opened.",
+          "target_answer": "開きました",
+          "alternative_answers": [],
+          "hint": "open (intr.)",
+          "scramble_blocks": [
+            "窓",
+            "が",
+            "開きました"
+          ],
+          "audio_text": "窓が開きました。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "電気が消えました。",
+          "japanese_with_blank": "電気が[___]。",
+          "english": "The lights went off.",
+          "target_answer": "消えました",
+          "alternative_answers": [],
+          "hint": "go off (intr.)",
+          "scramble_blocks": [
+            "電気",
+            "が",
+            "消えました"
+          ],
+          "audio_text": "電気が消えました。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "ドアが閉まりました。",
+          "japanese_with_blank": "ドアが[___]。",
+          "english": "The door closed.",
+          "target_answer": "閉まりました",
+          "alternative_answers": [],
+          "hint": "close (intr.)",
+          "scramble_blocks": [
+            "ドア",
+            "が",
+            "閉まりました"
+          ],
+          "audio_text": "ドアが閉まりました。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "お湯が沸きました。",
+          "japanese_with_blank": "お湯が[___]。",
+          "english": "The water boiled.",
+          "target_answer": "沸きました",
+          "alternative_answers": [],
+          "hint": "boil (intr.)",
+          "scramble_blocks": [
+            "お湯",
+            "が",
+            "沸きました"
+          ],
+          "audio_text": "お湯が沸きました。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "火が消えました。",
+          "japanese_with_blank": "火が[___]。",
+          "english": "The fire went out.",
+          "target_answer": "消えました",
+          "alternative_answers": [],
+          "hint": "go off (intr.)",
+          "scramble_blocks": [
+            "火",
+            "が",
+            "消えました"
+          ],
+          "audio_text": "火が消えました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "授業が終わりました。",
+          "japanese_with_blank": "授業が[___]。",
+          "english": "The class ended.",
+          "target_answer": "終わりました",
+          "alternative_answers": [],
+          "hint": "end (intr.)",
+          "scramble_blocks": [
+            "授業",
+            "が",
+            "終わりました"
+          ],
+          "audio_text": "授業が終わりました。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "音が聞こえました。",
+          "japanese_with_blank": "音が[___]。",
+          "english": "I heard a sound.",
+          "target_answer": "聞こえました",
+          "alternative_answers": [],
+          "hint": "hear (intr.)",
+          "scramble_blocks": [
+            "音",
+            "が",
+            "聞こえました"
+          ],
+          "audio_text": "音が聞こえました。",
+          "notes": "",
+          "position": 10
         }
       ]
     },
@@ -140,6 +367,134 @@
           "audio_text": "先生が授業を始めました。",
           "notes": "",
           "position": 2
+        },
+        {
+          "japanese": "ドアを開けました。ドアが開きました。",
+          "japanese_with_blank": "ドアを[___]。ドアが開きました。",
+          "english": "I opened the door. The door opened.",
+          "target_answer": "開けました",
+          "alternative_answers": [],
+          "hint": "open (tr.)",
+          "scramble_blocks": [
+            "ドア",
+            "を",
+            "開けました"
+          ],
+          "audio_text": "ドアを開けました。ドアが開きました。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "電気をつけました。電気がつきました。",
+          "japanese_with_blank": "電気を[___]。電気がつきました。",
+          "english": "I turned on the light. The light turned on.",
+          "target_answer": "つけました",
+          "alternative_answers": [],
+          "hint": "turn on (tr.)",
+          "scramble_blocks": [
+            "電気",
+            "を",
+            "つけました"
+          ],
+          "audio_text": "電気をつけました。電気がつきました。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "窓を閉めました。窓が閉まりました。",
+          "japanese_with_blank": "窓を[___]。窓が閉まりました。",
+          "english": "I closed the window. The window closed.",
+          "target_answer": "閉めました",
+          "alternative_answers": [],
+          "hint": "close (tr.)",
+          "scramble_blocks": [
+            "窓",
+            "を",
+            "閉めました"
+          ],
+          "audio_text": "窓を閉めました。窓が閉まりました。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "電気を消しました。電気が消えました。",
+          "japanese_with_blank": "電気を[___]。電気が消えました。",
+          "english": "I turned off the light. The light went off.",
+          "target_answer": "消しました",
+          "alternative_answers": [],
+          "hint": "turn off (tr.)",
+          "scramble_blocks": [
+            "電気",
+            "を",
+            "消しました"
+          ],
+          "audio_text": "電気を消しました。電気が消えました。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "友達を起こしました。友達が起きました。",
+          "japanese_with_blank": "友達を[___]。友達が起きました。",
+          "english": "I woke my friend. My friend woke up.",
+          "target_answer": "起こしました",
+          "alternative_answers": [],
+          "hint": "wake (tr.)",
+          "scramble_blocks": [
+            "友達",
+            "を",
+            "起こしました"
+          ],
+          "audio_text": "友達を起こしました。友達が起きました。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "お湯を沸かしました。お湯が沸きました。",
+          "japanese_with_blank": "お湯を[___]。お湯が沸きました。",
+          "english": "I boiled water. The water boiled.",
+          "target_answer": "沸かしました",
+          "alternative_answers": [],
+          "hint": "boil (tr.)",
+          "scramble_blocks": [
+            "お湯",
+            "を",
+            "沸かしました"
+          ],
+          "audio_text": "お湯を沸かしました。お湯が沸きました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "窓を開けました。窓が開きました。",
+          "japanese_with_blank": "窓を[___]。窓が開きました。",
+          "english": "I opened the window. The window opened.",
+          "target_answer": "開けました",
+          "alternative_answers": [],
+          "hint": "open (tr.)",
+          "scramble_blocks": [
+            "窓",
+            "を",
+            "開けました"
+          ],
+          "audio_text": "窓を開けました。窓が開きました。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "授業を始めました。授業が始まりました。",
+          "japanese_with_blank": "授業を[___]。授業が始まりました。",
+          "english": "I started class. Class started.",
+          "target_answer": "始めました",
+          "alternative_answers": [],
+          "hint": "start (tr.)",
+          "scramble_blocks": [
+            "授業",
+            "を",
+            "始めました"
+          ],
+          "audio_text": "授業を始めました。授業が始まりました。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

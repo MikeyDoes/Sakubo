@@ -72,6 +72,107 @@
           "audio_text": "間に合うかしら。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "明日は雨かしら。",
+          "japanese_with_blank": "明日は雨[___]。",
+          "english": "I wonder if it will rain tomorrow.",
+          "target_answer": "かしら",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "雨",
+            "かしら"
+          ],
+          "audio_text": "明日は雨かしら。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "あの人は誰かしら。",
+          "japanese_with_blank": "あの人は誰[___]。",
+          "english": "I wonder who that person is.",
+          "target_answer": "かしら",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "あの",
+            "人",
+            "は",
+            "誰",
+            "かしら"
+          ],
+          "audio_text": "あの人は誰かしら。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "大丈夫かしら。",
+          "japanese_with_blank": "大丈夫[___]。",
+          "english": "I wonder if it will be all right.",
+          "target_answer": "かしら",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "大丈夫",
+            "かしら"
+          ],
+          "audio_text": "大丈夫かしら。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "バスは来るかしら。",
+          "japanese_with_blank": "バスは来る[___]。",
+          "english": "I wonder if the bus will come.",
+          "target_answer": "かしら",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "バス",
+            "は",
+            "来る",
+            "かしら"
+          ],
+          "audio_text": "バスは来るかしら。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "もう遅いかしら。",
+          "japanese_with_blank": "もう遅い[___]。",
+          "english": "I wonder if it is too late.",
+          "target_answer": "かしら",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "もう",
+            "遅い",
+            "かしら"
+          ],
+          "audio_text": "もう遅いかしら。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "この服は高いかしら。",
+          "japanese_with_blank": "この服は高い[___]。",
+          "english": "I wonder if these clothes are expensive.",
+          "target_answer": "かしら",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "この",
+            "服",
+            "は",
+            "高い",
+            "かしら"
+          ],
+          "audio_text": "この服は高いかしら。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

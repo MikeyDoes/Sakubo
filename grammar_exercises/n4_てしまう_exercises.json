@@ -56,6 +56,126 @@
           "audio_text": "食べてしまいましょう。",
           "notes": "Let's complete.",
           "position": 3
+        },
+        {
+          "japanese": "本を全部読んでしまいました。",
+          "japanese_with_blank": "本を全部読んで[___]。",
+          "english": "I finished reading the whole book.",
+          "target_answer": "しまいました",
+          "hint": "completely",
+          "scramble_blocks": [
+            "本",
+            "を",
+            "全部",
+            "読んで",
+            "しまいました"
+          ],
+          "notes": "",
+          "position": 4,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "ケーキを全部食べてしまいました。",
+          "japanese_with_blank": "ケーキを全部食べて[___]。",
+          "english": "I ate all the cake.",
+          "target_answer": "しまいました",
+          "hint": "completely",
+          "scramble_blocks": [
+            "ケーキ",
+            "を",
+            "全部",
+            "食べて",
+            "しまいました"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "ご飯をもう食べてしまいました。",
+          "japanese_with_blank": "ご飯をもう食べ[___]。",
+          "english": "I've already finished eating.",
+          "target_answer": "てしまいました",
+          "alternative_answers": [],
+          "hint": "completely",
+          "scramble_blocks": [
+            "ご飯",
+            "を",
+            "もう",
+            "食べ",
+            "てしまいました"
+          ],
+          "audio_text": "ご飯をもう食べてしまいました。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "映画を見てしまいました。",
+          "japanese_with_blank": "映画を見て[___]。",
+          "english": "I ended up watching the movie.",
+          "target_answer": "しまいました",
+          "hint": "completely",
+          "scramble_blocks": [
+            "映画",
+            "を",
+            "見て",
+            "しまいました"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "手紙を書いてしまいましょう。",
+          "japanese_with_blank": "手紙を書いて[___]。",
+          "english": "Let's finish writing the letter.",
+          "target_answer": "しまいましょう",
+          "hint": "completely",
+          "scramble_blocks": [
+            "手紙",
+            "を",
+            "書いて",
+            "しまいましょう"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "お金を全部使ってしまいました。",
+          "japanese_with_blank": "お金を全部使って[___]。",
+          "english": "I used up all the money.",
+          "target_answer": "しまいました",
+          "hint": "completely",
+          "scramble_blocks": [
+            "お金",
+            "を",
+            "全部",
+            "使って",
+            "しまいました"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "早く宿題をしてしまいたいです。",
+          "japanese_with_blank": "早く宿題をし[___]です。",
+          "english": "I want to finish my homework quickly.",
+          "target_answer": "てしまいたい",
+          "alternative_answers": [],
+          "hint": "completely",
+          "scramble_blocks": [
+            "早く",
+            "宿題",
+            "を",
+            "し",
+            "てしまいたい",
+            "です"
+          ],
+          "audio_text": "早く宿題をしてしまいたいです。",
+          "notes": "",
+          "position": 10
         }
       ]
     },
@@ -114,6 +234,130 @@
           "audio_text": "大切な本を無くしてしまいました。",
           "notes": "Regrettable loss.",
           "position": 3
+        },
+        {
+          "japanese": "大切な写真をなくしてしまいました。",
+          "japanese_with_blank": "大切な写真をなくして[___]。",
+          "english": "I lost an important photo.",
+          "target_answer": "しまいました",
+          "hint": "unfortunately",
+          "scramble_blocks": [
+            "大切な",
+            "写真",
+            "を",
+            "なくして",
+            "しまいました"
+          ],
+          "notes": "",
+          "position": 4,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "名前を忘れてしまいました。",
+          "japanese_with_blank": "名前を忘れ[___]。",
+          "english": "I forgot the name.",
+          "target_answer": "てしまいました",
+          "alternative_answers": [],
+          "hint": "unfortunately",
+          "scramble_blocks": [
+            "名前",
+            "を",
+            "忘れ",
+            "てしまいました"
+          ],
+          "audio_text": "名前を忘れてしまいました。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "電車で寝てしまいました。",
+          "japanese_with_blank": "電車で寝[___]。",
+          "english": "I accidentally fell asleep on the train.",
+          "target_answer": "てしまいました",
+          "alternative_answers": [],
+          "hint": "unfortunately",
+          "scramble_blocks": [
+            "電車",
+            "で",
+            "寝",
+            "てしまいました"
+          ],
+          "audio_text": "電車で寝てしまいました。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "お金をなくしてしまいました。",
+          "japanese_with_blank": "お金をなくし[___]。",
+          "english": "I lost my money.",
+          "target_answer": "てしまいました",
+          "alternative_answers": [],
+          "hint": "unfortunately",
+          "scramble_blocks": [
+            "お金",
+            "を",
+            "なくし",
+            "てしまいました"
+          ],
+          "audio_text": "お金をなくしてしまいました。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "大切な手紙をなくしてしまいました。",
+          "japanese_with_blank": "大切な手紙をなくし[___]。",
+          "english": "I lost an important letter.",
+          "target_answer": "てしまいました",
+          "alternative_answers": [],
+          "hint": "unfortunately",
+          "scramble_blocks": [
+            "大切",
+            "な",
+            "手紙",
+            "を",
+            "なくし",
+            "てしまいました"
+          ],
+          "audio_text": "大切な手紙をなくしてしまいました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "友達の本を汚してしまいました。",
+          "japanese_with_blank": "友達の本を汚して[___]。",
+          "english": "I dirtied my friend's book.",
+          "target_answer": "しまいました",
+          "hint": "unfortunately",
+          "scramble_blocks": [
+            "友達",
+            "の",
+            "本",
+            "を",
+            "汚して",
+            "しまいました"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達の名前を間違えてしまいました。",
+          "japanese_with_blank": "友達の名前を間違え[___]。",
+          "english": "I accidentally got my friend's name wrong.",
+          "target_answer": "てしまいました",
+          "alternative_answers": [],
+          "hint": "unfortunately",
+          "scramble_blocks": [
+            "友達",
+            "の",
+            "名前",
+            "を",
+            "間違え",
+            "てしまいました"
+          ],
+          "audio_text": "友達の名前を間違えてしまいました。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

@@ -77,6 +77,113 @@
           "audio_text": "今本を読んでいるところです。",
           "notes": "読む → 読んでいるところ.",
           "position": 4
+        },
+        {
+          "japanese": "今ご飯を食べているところです。",
+          "japanese_with_blank": "今ご飯を食べている[___]です。",
+          "english": "I'm eating right now.",
+          "target_answer": "ところ",
+          "hint": "in the middle of",
+          "scramble_blocks": [
+            "今",
+            "ご飯",
+            "を",
+            "食べている",
+            "ところ",
+            "です"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "今宿題をしているところです。",
+          "japanese_with_blank": "今宿題をしている[___]です。",
+          "english": "I'm doing homework now.",
+          "target_answer": "ところ",
+          "hint": "in the middle of",
+          "scramble_blocks": [
+            "今",
+            "宿題",
+            "を",
+            "している",
+            "ところ",
+            "です"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "先生は勉強を教えているところです。",
+          "japanese_with_blank": "先生は勉強を教え[___]。",
+          "english": "The teacher is in the middle of teaching.",
+          "target_answer": "ているところです",
+          "alternative_answers": [],
+          "hint": "in the middle of",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "勉強",
+            "を",
+            "教え",
+            "ているところです"
+          ],
+          "audio_text": "先生は勉強を教えているところです。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "今出かけているところです。",
+          "japanese_with_blank": "今出かけている[___]です。",
+          "english": "I'm on my way out.",
+          "target_answer": "ところ",
+          "hint": "in the middle of",
+          "scramble_blocks": [
+            "今",
+            "出かけている",
+            "ところ",
+            "です"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "今本を読んでいるところです。",
+          "japanese_with_blank": "今本を読んでいる[___]です。",
+          "english": "I'm in the middle of reading.",
+          "target_answer": "ところ",
+          "hint": "in the middle of",
+          "scramble_blocks": [
+            "今",
+            "本",
+            "を",
+            "読んでいる",
+            "ところ",
+            "です"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "今掃除をしているところです。",
+          "japanese_with_blank": "今掃除をしている[___]です。",
+          "english": "I'm cleaning right now.",
+          "target_answer": "ところ",
+          "hint": "in the middle of",
+          "scramble_blocks": [
+            "今",
+            "掃除",
+            "を",
+            "している",
+            "ところ",
+            "です"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

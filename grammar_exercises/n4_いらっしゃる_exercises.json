@@ -74,6 +74,107 @@
           "audio_text": "お元気でいらっしゃいますか。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "先生はどこにいらっしゃいますか。",
+          "japanese_with_blank": "先生はどこに[___]。",
+          "english": "Where is the teacher?",
+          "target_answer": "いらっしゃいますか",
+          "alternative_answers": [],
+          "hint": "honorific be",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "どこ",
+            "に",
+            "いらっしゃいますか"
+          ],
+          "audio_text": "先生はどこにいらっしゃいますか。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "お母さんはいらっしゃいますか。",
+          "japanese_with_blank": "お母さんは[___]。",
+          "english": "Is your mother here?",
+          "target_answer": "いらっしゃいますか",
+          "alternative_answers": [],
+          "hint": "honorific be",
+          "scramble_blocks": [
+            "お母さん",
+            "は",
+            "いらっしゃいますか"
+          ],
+          "audio_text": "お母さんはいらっしゃいますか。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "先生は家にいらっしゃいます。",
+          "japanese_with_blank": "先生は家に[___]。",
+          "english": "The teacher is at home.",
+          "target_answer": "いらっしゃいます",
+          "alternative_answers": [],
+          "hint": "honorific be",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "家",
+            "に",
+            "いらっしゃいます"
+          ],
+          "audio_text": "先生は家にいらっしゃいます。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "どなたがいらっしゃいますか。",
+          "japanese_with_blank": "どなたが[___]。",
+          "english": "Who is there?",
+          "target_answer": "いらっしゃいますか",
+          "alternative_answers": [],
+          "hint": "honorific be",
+          "scramble_blocks": [
+            "どなた",
+            "が",
+            "いらっしゃいますか"
+          ],
+          "audio_text": "どなたがいらっしゃいますか。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "明日もいらっしゃいますか。",
+          "japanese_with_blank": "明日も[___]。",
+          "english": "Will you be here tomorrow too?",
+          "target_answer": "いらっしゃいますか",
+          "alternative_answers": [],
+          "hint": "honorific be",
+          "scramble_blocks": [
+            "明日",
+            "も",
+            "いらっしゃいますか"
+          ],
+          "audio_text": "明日もいらっしゃいますか。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "先生はまだいらっしゃいます。",
+          "japanese_with_blank": "先生はまだ[___]。",
+          "english": "The teacher is still here.",
+          "target_answer": "いらっしゃいます",
+          "alternative_answers": [],
+          "hint": "honorific be",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "まだ",
+            "いらっしゃいます"
+          ],
+          "audio_text": "先生はまだいらっしゃいます。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

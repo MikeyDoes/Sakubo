@@ -72,6 +72,100 @@
           "audio_text": "お腹がすいてきました。",
           "notes": "Physical sensation onset.",
           "position": 4
+        },
+        {
+          "japanese": "だんだん寒くなってきました。",
+          "japanese_with_blank": "だんだん寒くなって[___]。",
+          "english": "It's gotten colder.",
+          "target_answer": "きました",
+          "hint": "gradual change",
+          "scramble_blocks": [
+            "だんだん",
+            "寒くなって",
+            "きました"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "日本語が分かってきました。",
+          "japanese_with_blank": "日本語が分かって[___]。",
+          "english": "I'm starting to understand.",
+          "target_answer": "きました",
+          "hint": "gradual change",
+          "scramble_blocks": [
+            "日本語",
+            "が",
+            "分かって",
+            "きました"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "雨が降ってきました。",
+          "japanese_with_blank": "雨が降って[___]。",
+          "english": "It's started raining.",
+          "target_answer": "きました",
+          "hint": "change toward now",
+          "scramble_blocks": [
+            "雨",
+            "が",
+            "降って",
+            "きました"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "お腹がすいてきました。",
+          "japanese_with_blank": "お腹がすいて[___]。",
+          "english": "I'm getting hungry.",
+          "target_answer": "きました",
+          "hint": "gradual change",
+          "scramble_blocks": [
+            "お腹",
+            "が",
+            "すいて",
+            "きました"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "暗くなってきましたね。",
+          "japanese_with_blank": "暗くなって[___]ね。",
+          "english": "It's gotten dark.",
+          "target_answer": "きました",
+          "hint": "gradual change",
+          "scramble_blocks": [
+            "暗くなって",
+            "きました",
+            "ね"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "風が強くなってきました。",
+          "japanese_with_blank": "風が強くなって[___]。",
+          "english": "The wind's gotten stronger.",
+          "target_answer": "きました",
+          "hint": "gradual change",
+          "scramble_blocks": [
+            "風",
+            "が",
+            "強くなって",
+            "きました"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     },
@@ -113,6 +207,138 @@
           "audio_text": "水を持ってきてください。",
           "notes": "持ってくる = bring.",
           "position": 2
+        },
+        {
+          "japanese": "パンを買ってきました。",
+          "japanese_with_blank": "パンを買っ[___]。",
+          "english": "I went and bought bread.",
+          "target_answer": "てきました",
+          "alternative_answers": [],
+          "hint": "went and",
+          "scramble_blocks": [
+            "パン",
+            "を",
+            "買っ",
+            "てきました"
+          ],
+          "audio_text": "パンを買ってきました。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "水を持ってきてください。",
+          "japanese_with_blank": "水を持って[___]ください。",
+          "english": "Please bring water.",
+          "target_answer": "きて",
+          "hint": "bring",
+          "scramble_blocks": [
+            "水",
+            "を",
+            "持って",
+            "きて",
+            "ください"
+          ],
+          "notes": "",
+          "position": 4,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達を連れてきました。",
+          "japanese_with_blank": "友達を連れて[___]。",
+          "english": "I brought my friend.",
+          "target_answer": "きました",
+          "hint": "brought",
+          "scramble_blocks": [
+            "友達",
+            "を",
+            "連れて",
+            "きました"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "本を借りてきました。",
+          "japanese_with_blank": "本を借りて[___]。",
+          "english": "I borrowed a book.",
+          "target_answer": "きました",
+          "hint": "go and come back",
+          "scramble_blocks": [
+            "本",
+            "を",
+            "借りて",
+            "きました"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "写真を撮ってきました。",
+          "japanese_with_blank": "写真を撮って[___]。",
+          "english": "I went and took photos.",
+          "target_answer": "きました",
+          "hint": "go and come back",
+          "scramble_blocks": [
+            "写真",
+            "を",
+            "撮って",
+            "きました"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "コーヒーを買ってきます。",
+          "japanese_with_blank": "コーヒーを買って[___]。",
+          "english": "I'll go buy coffee.",
+          "target_answer": "きます",
+          "hint": "go and come back",
+          "scramble_blocks": [
+            "コーヒー",
+            "を",
+            "買って",
+            "きます"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "猫を連れてきてください。",
+          "japanese_with_blank": "猫を連れて[___]ください。",
+          "english": "Please bring the cat.",
+          "target_answer": "きて",
+          "hint": "bring",
+          "scramble_blocks": [
+            "猫",
+            "を",
+            "連れて",
+            "きて",
+            "ください"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "お弁当を持ってきましたか。",
+          "japanese_with_blank": "お弁当を持って[___]か。",
+          "english": "Did you bring lunch?",
+          "target_answer": "きました",
+          "hint": "brought",
+          "scramble_blocks": [
+            "お弁当",
+            "を",
+            "持って",
+            "きました",
+            "か"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

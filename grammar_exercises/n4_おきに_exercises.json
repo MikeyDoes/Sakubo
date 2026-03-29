@@ -75,6 +75,110 @@
           "audio_text": "五分おきに電車が来ます。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "一時間おきに水を飲みます。",
+          "japanese_with_blank": "一時間[___]水を飲みます。",
+          "english": "I drink water every hour.",
+          "target_answer": "おきに",
+          "alternative_answers": [],
+          "hint": "every",
+          "scramble_blocks": [
+            "一時間",
+            "おきに",
+            "水",
+            "を",
+            "飲みます"
+          ],
+          "audio_text": "一時間おきに水を飲みます。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "十分おきに休みます。",
+          "japanese_with_blank": "十分[___]休みます。",
+          "english": "I rest every ten minutes.",
+          "target_answer": "おきに",
+          "alternative_answers": [],
+          "hint": "every",
+          "scramble_blocks": [
+            "十分",
+            "おきに",
+            "休みます"
+          ],
+          "audio_text": "十分おきに休みます。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "二日おきに散歩します。",
+          "japanese_with_blank": "二日[___]散歩します。",
+          "english": "I take a walk every other day.",
+          "target_answer": "おきに",
+          "alternative_answers": [],
+          "hint": "every",
+          "scramble_blocks": [
+            "二日",
+            "おきに",
+            "散歩します"
+          ],
+          "audio_text": "二日おきに散歩します。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "三時間おきに赤ちゃんが起きます。",
+          "japanese_with_blank": "三時間[___]赤ちゃんが起きます。",
+          "english": "The baby wakes up every three hours.",
+          "target_answer": "おきに",
+          "alternative_answers": [],
+          "hint": "every",
+          "scramble_blocks": [
+            "三時間",
+            "おきに",
+            "赤ちゃん",
+            "が",
+            "起きます"
+          ],
+          "audio_text": "三時間おきに赤ちゃんが起きます。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "一週間おきに病院に行きます。",
+          "japanese_with_blank": "一週間[___]病院に行きます。",
+          "english": "I go to the hospital every other week.",
+          "target_answer": "おきに",
+          "alternative_answers": [],
+          "hint": "every",
+          "scramble_blocks": [
+            "一週間",
+            "おきに",
+            "病院",
+            "に",
+            "行きます"
+          ],
+          "audio_text": "一週間おきに病院に行きます。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "二十分おきに電車が来ます。",
+          "japanese_with_blank": "二十分[___]電車が来ます。",
+          "english": "A train comes every twenty minutes.",
+          "target_answer": "おきに",
+          "alternative_answers": [],
+          "hint": "every",
+          "scramble_blocks": [
+            "二十分",
+            "おきに",
+            "電車",
+            "が",
+            "来ます"
+          ],
+          "audio_text": "二十分おきに電車が来ます。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

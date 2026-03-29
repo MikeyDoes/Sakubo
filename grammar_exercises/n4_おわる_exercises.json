@@ -72,6 +72,109 @@
           "audio_text": "仕事が終わったら電話します。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "映画を見終わりました。",
+          "japanese_with_blank": "映画を見[___]。",
+          "english": "I finished watching the movie.",
+          "target_answer": "終わりました",
+          "alternative_answers": [],
+          "hint": "finish",
+          "scramble_blocks": [
+            "映画",
+            "を",
+            "見",
+            "終わりました"
+          ],
+          "audio_text": "映画を見終わりました。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "ご飯を食べ終わりました。",
+          "japanese_with_blank": "ご飯を食べ[___]。",
+          "english": "I finished eating.",
+          "target_answer": "終わりました",
+          "alternative_answers": [],
+          "hint": "finish",
+          "scramble_blocks": [
+            "ご飯",
+            "を",
+            "食べ",
+            "終わりました"
+          ],
+          "audio_text": "ご飯を食べ終わりました。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "手紙を書き終わりました。",
+          "japanese_with_blank": "手紙を書き[___]。",
+          "english": "I finished writing the letter.",
+          "target_answer": "終わりました",
+          "alternative_answers": [],
+          "hint": "finish",
+          "scramble_blocks": [
+            "手紙",
+            "を",
+            "書き",
+            "終わりました"
+          ],
+          "audio_text": "手紙を書き終わりました。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "料理を作り終わったら呼んでください。",
+          "japanese_with_blank": "料理を作り[___]呼んでください。",
+          "english": "Please call me when you finish cooking.",
+          "target_answer": "終わったら",
+          "alternative_answers": [],
+          "hint": "when finished",
+          "scramble_blocks": [
+            "料理",
+            "を",
+            "作り",
+            "終わったら",
+            "呼んでください"
+          ],
+          "audio_text": "料理を作り終わったら呼んでください。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "掃除を終わらせてから出かけます。",
+          "japanese_with_blank": "掃除を[___]から出かけます。",
+          "english": "I'll go out after finishing cleaning.",
+          "target_answer": "終わらせて",
+          "alternative_answers": [],
+          "hint": "finish",
+          "scramble_blocks": [
+            "掃除",
+            "を",
+            "終わらせて",
+            "から",
+            "出かけます"
+          ],
+          "audio_text": "掃除を終わらせてから出かけます。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "勉強し終わったら遊びましょう。",
+          "japanese_with_blank": "勉強し[___]遊びましょう。",
+          "english": "Let's play after finishing studying.",
+          "target_answer": "終わったら",
+          "alternative_answers": [],
+          "hint": "when finished",
+          "scramble_blocks": [
+            "勉強し",
+            "終わったら",
+            "遊びましょう"
+          ],
+          "audio_text": "勉強し終わったら遊びましょう。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

@@ -93,6 +93,93 @@
           "audio_text": "もっと話してほしいです。",
           "notes": "話す → 話してほしい.",
           "position": 5
+        },
+        {
+          "japanese": "友達に来てほしいです。",
+          "japanese_with_blank": "友達に来て[___]。",
+          "english": "I want my friend to come.",
+          "target_answer": "ほしいです",
+          "hint": "want someone to",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "来て",
+            "ほしいです"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "先生に教えてほしいです。",
+          "japanese_with_blank": "先生に教えて[___]。",
+          "english": "I want the teacher to teach me.",
+          "target_answer": "ほしいです",
+          "hint": "want someone to",
+          "scramble_blocks": [
+            "先生",
+            "に",
+            "教えて",
+            "ほしいです"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "お母さんに料理を作ってほしいです。",
+          "japanese_with_blank": "お母さんに料理を作っ[___]です。",
+          "english": "I want my mother to cook.",
+          "target_answer": "てほしい",
+          "alternative_answers": [],
+          "hint": "want someone to",
+          "scramble_blocks": [
+            "お母さん",
+            "に",
+            "料理",
+            "を",
+            "作っ",
+            "てほしい",
+            "です"
+          ],
+          "audio_text": "お母さんに料理を作ってほしいです。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "友達に来てほしいです。",
+          "japanese_with_blank": "友達に来[___]です。",
+          "english": "I want my friend to come.",
+          "target_answer": "てほしい",
+          "alternative_answers": [],
+          "hint": "want someone to",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "来",
+            "てほしい",
+            "です"
+          ],
+          "audio_text": "友達に来てほしいです。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "姉に一緒に来てほしいです。",
+          "japanese_with_blank": "姉に一緒に来て[___]。",
+          "english": "I want my sister to come.",
+          "target_answer": "ほしいです",
+          "hint": "want someone to",
+          "scramble_blocks": [
+            "姉",
+            "に",
+            "一緒に",
+            "来て",
+            "ほしいです"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     },
@@ -153,6 +240,132 @@
           "audio_text": "一人で行かないでほしいです。",
           "notes": "遅れる → 遅れないでほしい.",
           "position": 3
+        },
+        {
+          "japanese": "友達に忘れないでほしいです。",
+          "japanese_with_blank": "友達に忘れない[___]です。",
+          "english": "I don't want my friend to forget.",
+          "target_answer": "でほしい",
+          "alternative_answers": [],
+          "hint": "want not to",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "忘れないで",
+            "ほしい",
+            "です"
+          ],
+          "audio_text": "友達に忘れないでほしいです。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "弟にうるさくしないでほしいです。",
+          "japanese_with_blank": "弟にうるさくしないで[___]。",
+          "english": "I want him to be quiet.",
+          "target_answer": "ほしいです",
+          "hint": "don't want to",
+          "scramble_blocks": [
+            "弟",
+            "に",
+            "うるさくしないで",
+            "ほしいです"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "子供に走らないでほしいです。",
+          "japanese_with_blank": "子供に走らないで[___]。",
+          "english": "I don't want the kid to run.",
+          "target_answer": "ほしいです",
+          "hint": "don't want to",
+          "scramble_blocks": [
+            "子供",
+            "に",
+            "走らないで",
+            "ほしいです"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達に遅く来ないでほしいです。",
+          "japanese_with_blank": "友達に遅く来ない[___]です。",
+          "english": "I don't want my friend to come late.",
+          "target_answer": "でほしい",
+          "alternative_answers": [],
+          "hint": "want not to",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "遅く",
+            "来ないで",
+            "ほしい",
+            "です"
+          ],
+          "audio_text": "友達に遅く来ないでほしいです。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "友達に一人で行かないでほしいです。",
+          "japanese_with_blank": "友達に一人で行かない[___]です。",
+          "english": "I don't want my friend to go alone.",
+          "target_answer": "でほしい",
+          "alternative_answers": [],
+          "hint": "want not to",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "一人",
+            "で",
+            "行かないで",
+            "ほしい",
+            "です"
+          ],
+          "audio_text": "友達に一人で行かないでほしいです。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "猫にテーブルに乗らないでほしいです。",
+          "japanese_with_blank": "猫にテーブルに乗らないで[___]。",
+          "english": "I don't want the cat on the table.",
+          "target_answer": "ほしいです",
+          "hint": "don't want to",
+          "scramble_blocks": [
+            "猫",
+            "に",
+            "テーブル",
+            "に",
+            "乗らないで",
+            "ほしいです"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "先生に早く話さないでほしいです。",
+          "japanese_with_blank": "先生に早く話さない[___]です。",
+          "english": "I don't want the teacher to speak quickly.",
+          "target_answer": "でほしい",
+          "alternative_answers": [],
+          "hint": "want not to",
+          "scramble_blocks": [
+            "先生",
+            "に",
+            "早く",
+            "話さないで",
+            "ほしい",
+            "です"
+          ],
+          "audio_text": "先生に早く話さないでほしいです。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

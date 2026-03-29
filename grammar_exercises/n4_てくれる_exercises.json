@@ -94,6 +94,93 @@
           "audio_text": "姉が教えてくれます。",
           "notes": "起こす → 起こしてくれる.",
           "position": 5
+        },
+        {
+          "japanese": "友達が手伝ってくれました。",
+          "japanese_with_blank": "友達が手伝って[___]。",
+          "english": "My friend helped me.",
+          "target_answer": "くれました",
+          "hint": "did for me",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "手伝って",
+            "くれました"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "先生が教えてくれました。",
+          "japanese_with_blank": "先生が教えて[___]。",
+          "english": "The teacher taught me.",
+          "target_answer": "くれました",
+          "hint": "did for me",
+          "scramble_blocks": [
+            "先生",
+            "が",
+            "教えて",
+            "くれました"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "姉が料理を作ってくれました。",
+          "japanese_with_blank": "姉が料理を作って[___]。",
+          "english": "My sister cooked for me.",
+          "target_answer": "くれました",
+          "hint": "did for me",
+          "scramble_blocks": [
+            "姉",
+            "が",
+            "料理",
+            "を",
+            "作って",
+            "くれました"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達が本を貸してくれました。",
+          "japanese_with_blank": "友達が本を貸して[___]。",
+          "english": "My friend lent me a book.",
+          "target_answer": "くれました",
+          "hint": "did for me",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "本",
+            "を",
+            "貸して",
+            "くれました"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "お母さんが朝ご飯を作ってくれました。",
+          "japanese_with_blank": "お母さんが朝ご飯を作っ[___]。",
+          "english": "My mother made breakfast for me.",
+          "target_answer": "てくれました",
+          "alternative_answers": [],
+          "hint": "did for me",
+          "scramble_blocks": [
+            "お母さん",
+            "が",
+            "朝ご飯",
+            "を",
+            "作っ",
+            "てくれました"
+          ],
+          "audio_text": "お母さんが朝ご飯を作ってくれました。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

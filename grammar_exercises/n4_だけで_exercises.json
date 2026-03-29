@@ -71,6 +71,98 @@
           "audio_text": "一回読むだけで分かりました。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "見るだけで楽しいです。",
+          "japanese_with_blank": "見る[___]楽しいです。",
+          "english": "Just looking is fun.",
+          "target_answer": "だけで",
+          "hint": "just by",
+          "scramble_blocks": [
+            "見る",
+            "だけで",
+            "楽しいです"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "聞くだけで分かりました。",
+          "japanese_with_blank": "聞く[___]分かりました。",
+          "english": "I understood just by listening.",
+          "target_answer": "だけで",
+          "hint": "just by",
+          "scramble_blocks": [
+            "聞く",
+            "だけで",
+            "分かりました"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "名前だけで選びました。",
+          "japanese_with_blank": "名前[___]選びました。",
+          "english": "I chose just by name.",
+          "target_answer": "だけで",
+          "hint": "just by",
+          "scramble_blocks": [
+            "名前",
+            "だけで",
+            "選びました"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "写真を見るだけでお腹がすきます。",
+          "japanese_with_blank": "写真を見る[___]お腹がすきます。",
+          "english": "Just looking at photos makes me hungry.",
+          "target_answer": "だけで",
+          "hint": "just by",
+          "scramble_blocks": [
+            "写真",
+            "を",
+            "見る",
+            "だけで",
+            "お腹がすきます"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "読むだけで勉強になります。",
+          "japanese_with_blank": "読む[___]勉強になります。",
+          "english": "Just reading is educational.",
+          "target_answer": "だけで",
+          "hint": "just by",
+          "scramble_blocks": [
+            "読む",
+            "だけで",
+            "勉強になります"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "一回だけで覚えました。",
+          "japanese_with_blank": "一回[___]覚えました。",
+          "english": "I remembered in just one try.",
+          "target_answer": "だけで",
+          "hint": "just by",
+          "scramble_blocks": [
+            "一回",
+            "だけで",
+            "覚えました"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

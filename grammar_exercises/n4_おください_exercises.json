@@ -61,6 +61,90 @@
           "audio_text": "お気をつけてください。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "お使いください。",
+          "japanese_with_blank": "[___]。",
+          "english": "Please use it.",
+          "target_answer": "お使いください",
+          "alternative_answers": [],
+          "hint": "please (honorific)",
+          "scramble_blocks": [
+            "お使いください"
+          ],
+          "audio_text": "お使いください。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "お読みください。",
+          "japanese_with_blank": "[___]。",
+          "english": "Please read it.",
+          "target_answer": "お読みください",
+          "alternative_answers": [],
+          "hint": "please (honorific)",
+          "scramble_blocks": [
+            "お読みください"
+          ],
+          "audio_text": "お読みください。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "お書きください。",
+          "japanese_with_blank": "[___]。",
+          "english": "Please write it.",
+          "target_answer": "お書きください",
+          "alternative_answers": [],
+          "hint": "please (honorific)",
+          "scramble_blocks": [
+            "お書きください"
+          ],
+          "audio_text": "お書きください。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "お召し上がりください。",
+          "japanese_with_blank": "[___]。",
+          "english": "Please eat. (honorific)",
+          "target_answer": "お召し上がりください",
+          "alternative_answers": [],
+          "hint": "please (honorific)",
+          "scramble_blocks": [
+            "お召し上がりください"
+          ],
+          "audio_text": "お召し上がりください。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "お休みください。",
+          "japanese_with_blank": "[___]。",
+          "english": "Please rest.",
+          "target_answer": "お休みください",
+          "alternative_answers": [],
+          "hint": "please (honorific)",
+          "scramble_blocks": [
+            "お休みください"
+          ],
+          "audio_text": "お休みください。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "お飲みください。",
+          "japanese_with_blank": "[___]。",
+          "english": "Please drink.",
+          "target_answer": "お飲みください",
+          "alternative_answers": [],
+          "hint": "please (honorific)",
+          "scramble_blocks": [
+            "お飲みください"
+          ],
+          "audio_text": "お飲みください。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

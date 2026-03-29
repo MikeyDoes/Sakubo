@@ -98,6 +98,89 @@
           "audio_text": "あなたが行くなら私も行きます。",
           "notes": "",
           "position": 5
+        },
+        {
+          "japanese": "日本語なら先生に聞いてください。",
+          "japanese_with_blank": "日本語[___]先生に聞いてください。",
+          "english": "If it's Japanese, please ask the teacher.",
+          "target_answer": "なら",
+          "alternative_answers": [],
+          "hint": "if it is",
+          "scramble_blocks": [
+            "日本語",
+            "なら",
+            "先生",
+            "に",
+            "聞いてください"
+          ],
+          "audio_text": "日本語なら先生に聞いてください。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "安いならこの店がいいですよ。",
+          "japanese_with_blank": "安い[___]この店がいいですよ。",
+          "english": "If cheap, this shop is good.",
+          "target_answer": "なら",
+          "hint": "if (topic)",
+          "scramble_blocks": [
+            "安い",
+            "なら",
+            "この",
+            "店",
+            "が",
+            "いいですよ"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "映画なら何がいいですか。",
+          "japanese_with_blank": "映画[___]何がいいですか。",
+          "english": "If movies, which do you like?",
+          "target_answer": "なら",
+          "hint": "if (topic)",
+          "scramble_blocks": [
+            "映画",
+            "なら",
+            "何",
+            "が",
+            "いいですか"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "暇なら遊びに来てください。",
+          "japanese_with_blank": "暇[___]遊びに来てください。",
+          "english": "If free, come hang out.",
+          "target_answer": "なら",
+          "hint": "if (topic)",
+          "scramble_blocks": [
+            "暇",
+            "なら",
+            "遊びに来てください"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "電車なら早いですよ。",
+          "japanese_with_blank": "電車[___]早いですよ。",
+          "english": "If by train, it's fast.",
+          "target_answer": "なら",
+          "hint": "if (topic)",
+          "scramble_blocks": [
+            "電車",
+            "なら",
+            "早いですよ"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

@@ -79,6 +79,114 @@
           "audio_text": "おばあさんに道を教えてあげました。",
           "notes": "Helping a stranger.",
           "position": 4
+        },
+        {
+          "japanese": "友達に本を読んであげました。",
+          "japanese_with_blank": "友達に本を読んで[___]。",
+          "english": "I read a book for my friend.",
+          "target_answer": "あげました",
+          "hint": "did for someone",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "本",
+            "を",
+            "読んで",
+            "あげました"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "弟に料理を作ってあげました。",
+          "japanese_with_blank": "弟に料理を作って[___]。",
+          "english": "I cooked for my brother.",
+          "target_answer": "あげました",
+          "hint": "did for someone",
+          "scramble_blocks": [
+            "弟",
+            "に",
+            "料理",
+            "を",
+            "作って",
+            "あげました"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "子供に歌を歌ってあげました。",
+          "japanese_with_blank": "子供に歌を歌って[___]。",
+          "english": "I sang for the child.",
+          "target_answer": "あげました",
+          "hint": "did for someone",
+          "scramble_blocks": [
+            "子供",
+            "に",
+            "歌",
+            "を",
+            "歌って",
+            "あげました"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達を駅まで送ってあげました。",
+          "japanese_with_blank": "友達を駅まで送って[___]。",
+          "english": "I walked my friend to the station.",
+          "target_answer": "あげました",
+          "hint": "did for someone",
+          "scramble_blocks": [
+            "友達",
+            "を",
+            "駅",
+            "まで",
+            "送って",
+            "あげました"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "姉に写真を撮ってあげました。",
+          "japanese_with_blank": "姉に写真を撮って[___]。",
+          "english": "I took a photo for my sister.",
+          "target_answer": "あげました",
+          "hint": "did for someone",
+          "scramble_blocks": [
+            "姉",
+            "に",
+            "写真",
+            "を",
+            "撮って",
+            "あげました"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達に日本語を教えてあげました。",
+          "japanese_with_blank": "友達に日本語を教えて[___]。",
+          "english": "I taught my friend Japanese.",
+          "target_answer": "あげました",
+          "hint": "did for someone",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "日本語",
+            "を",
+            "教えて",
+            "あげました"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

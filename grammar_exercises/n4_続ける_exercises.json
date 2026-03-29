@@ -70,6 +70,106 @@
           "audio_text": "本を読み続けました。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "仕事を続けています。",
+          "japanese_with_blank": "仕事を[___]。",
+          "english": "I'm continuing to work.",
+          "target_answer": "続けています",
+          "alternative_answers": [],
+          "hint": "continue",
+          "scramble_blocks": [
+            "仕事",
+            "を",
+            "続けています"
+          ],
+          "audio_text": "仕事を続けています。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "食べ続けてはいけません。",
+          "japanese_with_blank": "食べ[___]はいけません。",
+          "english": "You must not keep eating.",
+          "target_answer": "続けて",
+          "alternative_answers": [],
+          "hint": "keep doing",
+          "scramble_blocks": [
+            "食べ",
+            "続けて",
+            "は",
+            "いけません"
+          ],
+          "audio_text": "食べ続けてはいけません。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "友達と話し続けました。",
+          "japanese_with_blank": "友達と話し[___]。",
+          "english": "I kept talking with my friend.",
+          "target_answer": "続けました",
+          "alternative_answers": [],
+          "hint": "continued",
+          "scramble_blocks": [
+            "友達",
+            "と",
+            "話し",
+            "続けました"
+          ],
+          "audio_text": "友達と話し続けました。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "雨が降り続けています。",
+          "japanese_with_blank": "雨が降り[___]。",
+          "english": "The rain keeps falling.",
+          "target_answer": "続けています",
+          "alternative_answers": [],
+          "hint": "continues",
+          "scramble_blocks": [
+            "雨",
+            "が",
+            "降り",
+            "続けています"
+          ],
+          "audio_text": "雨が降り続けています。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "書き続けてください。",
+          "japanese_with_blank": "書き[___]。",
+          "english": "Please keep writing.",
+          "target_answer": "続けてください",
+          "alternative_answers": [],
+          "hint": "please continue",
+          "scramble_blocks": [
+            "書き",
+            "続けてください"
+          ],
+          "audio_text": "書き続けてください。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "歩き続けるのは大変です。",
+          "japanese_with_blank": "歩き[___]のは大変です。",
+          "english": "Continuing to walk is hard.",
+          "target_answer": "続ける",
+          "alternative_answers": [],
+          "hint": "continue",
+          "scramble_blocks": [
+            "歩き",
+            "続ける",
+            "のは",
+            "大変",
+            "です"
+          ],
+          "audio_text": "歩き続けるのは大変です。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

@@ -79,6 +79,115 @@
           "audio_text": "弟に本を買ってやる。",
           "notes": "Casual favors.",
           "position": 4
+        },
+        {
+          "japanese": "弟に本を読んでやりました。",
+          "japanese_with_blank": "弟に本を読んで[___]。",
+          "english": "I read a book for my brother.",
+          "target_answer": "やりました",
+          "hint": "did for (informal)",
+          "scramble_blocks": [
+            "弟",
+            "に",
+            "本",
+            "を",
+            "読んで",
+            "やりました"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "犬にご飯を作ってやりました。",
+          "japanese_with_blank": "犬にご飯を作って[___]。",
+          "english": "I made food for the dog.",
+          "target_answer": "やりました",
+          "hint": "did for (informal)",
+          "scramble_blocks": [
+            "犬",
+            "に",
+            "ご飯",
+            "を",
+            "作って",
+            "やりました"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "子供に歌を歌ってやりました。",
+          "japanese_with_blank": "子供に歌を歌って[___]。",
+          "english": "I sang for the kid.",
+          "target_answer": "やりました",
+          "hint": "did for (informal)",
+          "scramble_blocks": [
+            "子供",
+            "に",
+            "歌",
+            "を",
+            "歌って",
+            "やりました"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "猫に魚を買ってやりました。",
+          "japanese_with_blank": "猫に魚を買っ[___]。",
+          "english": "I bought fish for the cat.",
+          "target_answer": "てやりました",
+          "alternative_answers": [],
+          "hint": "did for",
+          "scramble_blocks": [
+            "猫",
+            "に",
+            "魚",
+            "を",
+            "買っ",
+            "てやりました"
+          ],
+          "audio_text": "猫に魚を買ってやりました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "弟を学校まで送ってやりました。",
+          "japanese_with_blank": "弟を学校まで送って[___]。",
+          "english": "I took my brother to school.",
+          "target_answer": "やりました",
+          "hint": "did for (informal)",
+          "scramble_blocks": [
+            "弟",
+            "を",
+            "学校",
+            "まで",
+            "送って",
+            "やりました"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "子供に写真を撮ってやりました。",
+          "japanese_with_blank": "子供に写真を撮って[___]。",
+          "english": "I took a photo for the kid.",
+          "target_answer": "やりました",
+          "hint": "did for (informal)",
+          "scramble_blocks": [
+            "子供",
+            "に",
+            "写真",
+            "を",
+            "撮って",
+            "やりました"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

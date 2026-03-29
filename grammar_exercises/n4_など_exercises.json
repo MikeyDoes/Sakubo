@@ -82,6 +82,117 @@
           "audio_text": "本やペンなどを持ってきてください。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "本やペンなどを買いました。",
+          "japanese_with_blank": "本やペン[___]を買いました。",
+          "english": "I bought books, pens, etc.",
+          "target_answer": "など",
+          "hint": "etc.",
+          "scramble_blocks": [
+            "本",
+            "や",
+            "ペン",
+            "など",
+            "を",
+            "買いました"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "卵やパンなどを買いました。",
+          "japanese_with_blank": "卵やパン[___]を買いました。",
+          "english": "I bought things like eggs and bread.",
+          "target_answer": "など",
+          "alternative_answers": [],
+          "hint": "such as",
+          "scramble_blocks": [
+            "卵",
+            "や",
+            "パン",
+            "など",
+            "を",
+            "買いました"
+          ],
+          "audio_text": "卵やパンなどを買いました。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "学校や公園などに行きます。",
+          "japanese_with_blank": "学校や公園[___]に行きます。",
+          "english": "I go to places like school and the park.",
+          "target_answer": "など",
+          "alternative_answers": [],
+          "hint": "such as",
+          "scramble_blocks": [
+            "学校",
+            "や",
+            "公園",
+            "など",
+            "に",
+            "行きます"
+          ],
+          "audio_text": "学校や公園などに行きます。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "映画や音楽などを楽しみます。",
+          "japanese_with_blank": "映画や音楽[___]を楽しみます。",
+          "english": "I enjoy movies, music, etc.",
+          "target_answer": "など",
+          "hint": "etc.",
+          "scramble_blocks": [
+            "映画",
+            "や",
+            "音楽",
+            "など",
+            "を",
+            "楽しみます"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "日本語や英語などを勉強しています。",
+          "japanese_with_blank": "日本語や英語[___]を勉強しています。",
+          "english": "I study Japanese, English, etc.",
+          "target_answer": "など",
+          "hint": "etc.",
+          "scramble_blocks": [
+            "日本語",
+            "や",
+            "英語",
+            "など",
+            "を",
+            "勉強しています"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "散歩や買い物などをしています。",
+          "japanese_with_blank": "散歩や買い物[___]をしています。",
+          "english": "I'm doing things like walking and shopping.",
+          "target_answer": "など",
+          "alternative_answers": [],
+          "hint": "such as",
+          "scramble_blocks": [
+            "散歩",
+            "や",
+            "買い物",
+            "など",
+            "を",
+            "しています"
+          ],
+          "audio_text": "散歩や買い物などをしています。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

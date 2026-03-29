@@ -96,6 +96,99 @@
           "audio_text": "電車で足を踏まれました。",
           "notes": "",
           "position": 5
+        },
+        {
+          "japanese": "先生に名前を呼ばれました。",
+          "japanese_with_blank": "先生に名前を呼ば[___]。",
+          "english": "I was called by name by the teacher.",
+          "target_answer": "れました",
+          "alternative_answers": [],
+          "hint": "passive",
+          "scramble_blocks": [
+            "先生",
+            "に",
+            "名前",
+            "を",
+            "呼ば",
+            "れました"
+          ],
+          "audio_text": "先生に名前を呼ばれました。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "友達に本を読まれました。",
+          "japanese_with_blank": "友達に本を読ま[___]。",
+          "english": "My book was read by a friend.",
+          "target_answer": "れました",
+          "alternative_answers": [],
+          "hint": "passive",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "本",
+            "を",
+            "読ま",
+            "れました"
+          ],
+          "audio_text": "友達に本を読まれました。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "先生に質問されました。",
+          "japanese_with_blank": "先生に質問[___]。",
+          "english": "I was asked a question by the teacher.",
+          "target_answer": "されました",
+          "alternative_answers": [],
+          "hint": "passive",
+          "scramble_blocks": [
+            "先生",
+            "に",
+            "質問",
+            "されました"
+          ],
+          "audio_text": "先生に質問されました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "先生に名前を聞かれました。",
+          "japanese_with_blank": "先生に名前を聞か[___]。",
+          "english": "I was asked my name by the teacher.",
+          "target_answer": "れました",
+          "alternative_answers": [],
+          "hint": "passive",
+          "scramble_blocks": [
+            "先生",
+            "に",
+            "名前",
+            "を",
+            "聞か",
+            "れました"
+          ],
+          "audio_text": "先生に名前を聞かれました。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "弟にパンを食べられました。",
+          "japanese_with_blank": "弟にパンを食べ[___]。",
+          "english": "My bread was eaten by my brother.",
+          "target_answer": "られました",
+          "alternative_answers": [],
+          "hint": "passive",
+          "scramble_blocks": [
+            "弟",
+            "に",
+            "パン",
+            "を",
+            "食べ",
+            "られました"
+          ],
+          "audio_text": "弟にパンを食べられました。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

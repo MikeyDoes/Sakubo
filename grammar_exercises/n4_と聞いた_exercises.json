@@ -75,6 +75,105 @@
           "audio_text": "テストは難しいと聞きました。",
           "notes": "い-adj + と聞いた.",
           "position": 4
+        },
+        {
+          "japanese": "明日は雨だと聞きました。",
+          "japanese_with_blank": "明日は雨だ[___]。",
+          "english": "I heard it will rain tomorrow.",
+          "target_answer": "と聞きました",
+          "hint": "I heard",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "雨だ",
+            "と聞きました"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "あの店はおいしいと聞きました。",
+          "japanese_with_blank": "あの店はおいしい[___]。",
+          "english": "I heard that shop is good.",
+          "target_answer": "と聞きました",
+          "hint": "I heard",
+          "scramble_blocks": [
+            "あの",
+            "店",
+            "は",
+            "おいしい",
+            "と聞きました"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "先生が来ないと聞きました。",
+          "japanese_with_blank": "先生が来ない[___]。",
+          "english": "I heard teacher isn't coming.",
+          "target_answer": "と聞きました",
+          "hint": "I heard",
+          "scramble_blocks": [
+            "先生",
+            "が",
+            "来ない",
+            "と聞きました"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "あのテストは難しいと聞きました。",
+          "japanese_with_blank": "あのテストは難しい[___]。",
+          "english": "I heard that test was difficult.",
+          "target_answer": "と聞きました",
+          "alternative_answers": [],
+          "hint": "I heard",
+          "scramble_blocks": [
+            "あの",
+            "テスト",
+            "は",
+            "難しい",
+            "と聞きました"
+          ],
+          "audio_text": "あのテストは難しいと聞きました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "来月引っ越すと聞きました。",
+          "japanese_with_blank": "来月引っ越す[___]。",
+          "english": "I heard they're moving.",
+          "target_answer": "と聞きました",
+          "hint": "I heard",
+          "scramble_blocks": [
+            "来月",
+            "引っ越す",
+            "と聞きました"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この本は面白いと聞きました。",
+          "japanese_with_blank": "この本は面白い[___]。",
+          "english": "I heard this book is good.",
+          "target_answer": "と聞きました",
+          "hint": "I heard",
+          "scramble_blocks": [
+            "この",
+            "本",
+            "は",
+            "面白い",
+            "と聞きました"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

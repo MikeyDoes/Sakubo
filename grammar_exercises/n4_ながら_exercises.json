@@ -93,6 +93,89 @@
           "audio_text": "走りながら考えました。",
           "notes": "",
           "position": 5
+        },
+        {
+          "japanese": "音楽を聞きながら勉強します。",
+          "japanese_with_blank": "音楽を聞き[___]勉強します。",
+          "english": "I study while listening to music.",
+          "target_answer": "ながら",
+          "hint": "while",
+          "scramble_blocks": [
+            "音楽",
+            "を",
+            "聞き",
+            "ながら",
+            "勉強します"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "テレビを見ながらご飯を食べます。",
+          "japanese_with_blank": "テレビを見[___]ご飯を食べます。",
+          "english": "I eat while watching TV.",
+          "target_answer": "ながら",
+          "hint": "while",
+          "scramble_blocks": [
+            "テレビ",
+            "を",
+            "見",
+            "ながら",
+            "ご飯",
+            "を",
+            "食べます"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "歩きながら話しましょう。",
+          "japanese_with_blank": "歩き[___]話しましょう。",
+          "english": "Let's talk while walking.",
+          "target_answer": "ながら",
+          "hint": "while",
+          "scramble_blocks": [
+            "歩き",
+            "ながら",
+            "話しましょう"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "お茶を飲みながら話しました。",
+          "japanese_with_blank": "お茶を飲み[___]話しました。",
+          "english": "We talked over tea.",
+          "target_answer": "ながら",
+          "hint": "while",
+          "scramble_blocks": [
+            "お茶",
+            "を",
+            "飲み",
+            "ながら",
+            "話しました"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "笑いながら話しています。",
+          "japanese_with_blank": "笑い[___]話しています。",
+          "english": "Talking while laughing.",
+          "target_answer": "ながら",
+          "hint": "while",
+          "scramble_blocks": [
+            "笑い",
+            "ながら",
+            "話しています"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

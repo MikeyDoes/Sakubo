@@ -72,6 +72,106 @@
           "audio_text": "もう遅いじゃないですか。",
           "notes": "Seeking agreement.",
           "position": 4
+        },
+        {
+          "japanese": "明日は日曜日じゃないか。",
+          "japanese_with_blank": "明日は日曜日[___]。",
+          "english": "Tomorrow is Sunday, isn't it?",
+          "target_answer": "じゃないか",
+          "hint": "isn't it?",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "日曜日",
+            "じゃないか"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "あれはあなたの本じゃないか。",
+          "japanese_with_blank": "あれはあなたの本[___]。",
+          "english": "Isn't that your book?",
+          "target_answer": "じゃないか",
+          "alternative_answers": [],
+          "hint": "isn't it?",
+          "scramble_blocks": [
+            "あれ",
+            "は",
+            "あなた",
+            "の",
+            "本",
+            "じゃないか"
+          ],
+          "audio_text": "あれはあなたの本じゃないか。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "あの映画は面白いじゃないか。",
+          "japanese_with_blank": "あの映画は面白い[___]。",
+          "english": "Isn't that movie interesting?",
+          "target_answer": "じゃないか",
+          "alternative_answers": [],
+          "hint": "isn't it?",
+          "scramble_blocks": [
+            "あの",
+            "映画",
+            "は",
+            "面白い",
+            "じゃないか"
+          ],
+          "audio_text": "あの映画は面白いじゃないか。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "もう遅いじゃないか。",
+          "japanese_with_blank": "もう遅い[___]。",
+          "english": "It's late, isn't it?",
+          "target_answer": "じゃないか",
+          "hint": "isn't it?",
+          "scramble_blocks": [
+            "もう",
+            "遅い",
+            "じゃないか"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "けっこうおいしいじゃないか。",
+          "japanese_with_blank": "けっこうおいしい[___]。",
+          "english": "Pretty good, isn't it?",
+          "target_answer": "じゃないか",
+          "hint": "isn't it?",
+          "scramble_blocks": [
+            "けっこう",
+            "おいしい",
+            "じゃないか"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この映画は面白いじゃないか。",
+          "japanese_with_blank": "この映画は面白い[___]。",
+          "english": "This movie is interesting, isn't it?",
+          "target_answer": "じゃないか",
+          "hint": "isn't it?",
+          "scramble_blocks": [
+            "この",
+            "映画",
+            "は",
+            "面白い",
+            "じゃないか"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

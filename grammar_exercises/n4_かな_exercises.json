@@ -72,6 +72,110 @@
           "audio_text": "もう寝ようかな。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "明日は天気がいいかな。",
+          "japanese_with_blank": "明日は天気がいい[___]。",
+          "english": "I wonder if the weather will be nice tomorrow.",
+          "target_answer": "かな",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "天気",
+            "が",
+            "いい",
+            "かな"
+          ],
+          "audio_text": "明日は天気がいいかな。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "この本は面白いかな。",
+          "japanese_with_blank": "この本は面白い[___]。",
+          "english": "I wonder if this book is interesting.",
+          "target_answer": "かな",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "この",
+            "本",
+            "は",
+            "面白い",
+            "かな"
+          ],
+          "audio_text": "この本は面白いかな。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "友達は元気かな。",
+          "japanese_with_blank": "友達は元気[___]。",
+          "english": "I wonder if my friend is well.",
+          "target_answer": "かな",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "元気",
+            "かな"
+          ],
+          "audio_text": "友達は元気かな。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "何を食べようかな。",
+          "japanese_with_blank": "何を食べよう[___]。",
+          "english": "I wonder what I should eat.",
+          "target_answer": "かな",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "何",
+            "を",
+            "食べよう",
+            "かな"
+          ],
+          "audio_text": "何を食べようかな。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "どこに行こうかな。",
+          "japanese_with_blank": "どこに行こう[___]。",
+          "english": "I wonder where I should go.",
+          "target_answer": "かな",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "どこ",
+            "に",
+            "行こう",
+            "かな"
+          ],
+          "audio_text": "どこに行こうかな。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "まだ間に合うかな。",
+          "japanese_with_blank": "まだ間に合う[___]。",
+          "english": "I wonder if we can still make it.",
+          "target_answer": "かな",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "まだ",
+            "間に合う",
+            "かな"
+          ],
+          "audio_text": "まだ間に合うかな。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

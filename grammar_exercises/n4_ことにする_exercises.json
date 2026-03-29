@@ -72,6 +72,110 @@
           "audio_text": "甘い食べ物を食べないことにしました。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "今日は早く寝ることにしました。",
+          "japanese_with_blank": "今日は早く寝る[___]。",
+          "english": "I decided to go to bed early today.",
+          "target_answer": "ことにしました",
+          "alternative_answers": [],
+          "hint": "decided to",
+          "scramble_blocks": [
+            "今日",
+            "は",
+            "早く",
+            "寝る",
+            "ことにしました"
+          ],
+          "audio_text": "今日は早く寝ることにしました。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "新しい仕事を探すことにしました。",
+          "japanese_with_blank": "新しい仕事を探す[___]。",
+          "english": "I decided to look for a new job.",
+          "target_answer": "ことにしました",
+          "alternative_answers": [],
+          "hint": "decided to",
+          "scramble_blocks": [
+            "新しい",
+            "仕事",
+            "を",
+            "探す",
+            "ことにしました"
+          ],
+          "audio_text": "新しい仕事を探すことにしました。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "お酒を飲まないことにしました。",
+          "japanese_with_blank": "お酒を飲まない[___]。",
+          "english": "I decided not to drink alcohol.",
+          "target_answer": "ことにしました",
+          "alternative_answers": [],
+          "hint": "decided to",
+          "scramble_blocks": [
+            "お酒",
+            "を",
+            "飲まない",
+            "ことにしました"
+          ],
+          "audio_text": "お酒を飲まないことにしました。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "毎朝走ることにしました。",
+          "japanese_with_blank": "毎朝走る[___]。",
+          "english": "I decided to run every morning.",
+          "target_answer": "ことにしました",
+          "alternative_answers": [],
+          "hint": "decided to",
+          "scramble_blocks": [
+            "毎朝",
+            "走る",
+            "ことにしました"
+          ],
+          "audio_text": "毎朝走ることにしました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "日本語を勉強することにしました。",
+          "japanese_with_blank": "日本語を勉強する[___]。",
+          "english": "I decided to study Japanese.",
+          "target_answer": "ことにしました",
+          "alternative_answers": [],
+          "hint": "decided to",
+          "scramble_blocks": [
+            "日本語",
+            "を",
+            "勉強する",
+            "ことにしました"
+          ],
+          "audio_text": "日本語を勉強することにしました。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "来月旅行に行くことにしました。",
+          "japanese_with_blank": "来月旅行に行く[___]。",
+          "english": "I decided to go on a trip next month.",
+          "target_answer": "ことにしました",
+          "alternative_answers": [],
+          "hint": "decided to",
+          "scramble_blocks": [
+            "来月",
+            "旅行",
+            "に",
+            "行く",
+            "ことにしました"
+          ],
+          "audio_text": "来月旅行に行くことにしました。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

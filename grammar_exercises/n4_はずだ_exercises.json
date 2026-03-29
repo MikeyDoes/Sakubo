@@ -77,6 +77,107 @@
           "audio_text": "鍵はかばんの中にあるはずです。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "友達はもう来るはずです。",
+          "japanese_with_blank": "友達はもう来る[___]。",
+          "english": "My friend should come soon.",
+          "target_answer": "はずです",
+          "hint": "should/expected",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "もう",
+            "来る",
+            "はずです"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "明日は暖かいはずです。",
+          "japanese_with_blank": "明日は暖かい[___]。",
+          "english": "It should be warm tomorrow.",
+          "target_answer": "はずです",
+          "hint": "should/expected",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "暖かい",
+            "はずです"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "テストは簡単なはずです。",
+          "japanese_with_blank": "テストは簡単な[___]。",
+          "english": "The test should be easy.",
+          "target_answer": "はずです",
+          "alternative_answers": [],
+          "hint": "should be",
+          "scramble_blocks": [
+            "テスト",
+            "は",
+            "簡単な",
+            "はずです"
+          ],
+          "audio_text": "テストは簡単なはずです。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "お金はまだあるはずです。",
+          "japanese_with_blank": "お金はまだある[___]。",
+          "english": "I should still have money.",
+          "target_answer": "はずです",
+          "alternative_answers": [],
+          "hint": "should be",
+          "scramble_blocks": [
+            "お金",
+            "は",
+            "まだ",
+            "ある",
+            "はずです"
+          ],
+          "audio_text": "お金はまだあるはずです。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "彼は知っているはずです。",
+          "japanese_with_blank": "彼は知っている[___]。",
+          "english": "He should know.",
+          "target_answer": "はずです",
+          "hint": "should/expected",
+          "scramble_blocks": [
+            "彼",
+            "は",
+            "知っている",
+            "はずです"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この道は正しいはずです。",
+          "japanese_with_blank": "この道は正しい[___]。",
+          "english": "This road should be right.",
+          "target_answer": "はずです",
+          "hint": "should/expected",
+          "scramble_blocks": [
+            "この",
+            "道",
+            "は",
+            "正しい",
+            "はずです"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

@@ -73,6 +73,97 @@
           "audio_text": "疲れました。それでも続けます。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "雨が降っていました。それでも出かけました。",
+          "japanese_with_blank": "雨が降っていました。[___]出かけました。",
+          "english": "It was raining. Even so, I went out.",
+          "target_answer": "それでも",
+          "hint": "even so",
+          "scramble_blocks": [
+            "雨が降っていました",
+            "それでも",
+            "出かけました"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "難しいです。それでも勉強します。",
+          "japanese_with_blank": "難しいです。[___]勉強します。",
+          "english": "It's hard. Even so, I'll study.",
+          "target_answer": "それでも",
+          "hint": "even so",
+          "scramble_blocks": [
+            "難しいです",
+            "それでも",
+            "勉強します"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "高いです。それでも買いたいです。",
+          "japanese_with_blank": "高いです。[___]買いたいです。",
+          "english": "It's expensive. Even so, I want it.",
+          "target_answer": "それでも",
+          "hint": "even so",
+          "scramble_blocks": [
+            "高いです",
+            "それでも",
+            "買いたいです"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "寒かったです。それでも泳ぎました。",
+          "japanese_with_blank": "寒かったです。[___]泳ぎました。",
+          "english": "It was cold. Even so, I swam.",
+          "target_answer": "それでも",
+          "hint": "even so",
+          "scramble_blocks": [
+            "寒かったです",
+            "それでも",
+            "泳ぎました"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "遅くなりました。それでも行きます。",
+          "japanese_with_blank": "遅くなりました。[___]行きます。",
+          "english": "It's late. Even so, I'll go.",
+          "target_answer": "それでも",
+          "hint": "even so",
+          "scramble_blocks": [
+            "遅くなりました",
+            "それでも",
+            "行きます"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "疲れています。それでも勉強します。",
+          "japanese_with_blank": "疲れています。[___]勉強します。",
+          "english": "I'm tired. Even so, I'll study.",
+          "target_answer": "それでも",
+          "alternative_answers": [],
+          "hint": "even so",
+          "scramble_blocks": [
+            "疲れています",
+            "それでも",
+            "勉強します"
+          ],
+          "audio_text": "疲れています。それでも勉強します。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

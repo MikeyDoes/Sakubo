@@ -76,6 +76,106 @@
           "audio_text": "先生がそうおっしゃいました。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "何をなさいますか。",
+          "japanese_with_blank": "何を[___]か。",
+          "english": "What will you do? (polite)",
+          "target_answer": "なさいます",
+          "hint": "do (honorific)",
+          "scramble_blocks": [
+            "何",
+            "を",
+            "なさいます",
+            "か"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "どちらになさいますか。",
+          "japanese_with_blank": "どちらに[___]か。",
+          "english": "Which will you choose? (polite)",
+          "target_answer": "なさいます",
+          "hint": "do (honorific)",
+          "scramble_blocks": [
+            "どちら",
+            "に",
+            "なさいます",
+            "か"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "先生はお茶になさいました。",
+          "japanese_with_blank": "先生はお茶に[___]。",
+          "english": "The teacher chose tea.",
+          "target_answer": "なさいました",
+          "hint": "did (honorific)",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "お茶",
+            "に",
+            "なさいました"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "先生は何をなさいますか。",
+          "japanese_with_blank": "先生は何を[___]。",
+          "english": "What will the teacher do? (honorific)",
+          "target_answer": "なさいますか",
+          "alternative_answers": [],
+          "hint": "honorific do",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "何",
+            "を",
+            "なさいますか"
+          ],
+          "audio_text": "先生は何をなさいますか。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "お飲み物はどうなさいますか。",
+          "japanese_with_blank": "お飲み物はどう[___]。",
+          "english": "What would you like to drink? (honorific)",
+          "target_answer": "なさいますか",
+          "alternative_answers": [],
+          "hint": "honorific do",
+          "scramble_blocks": [
+            "お飲み物",
+            "は",
+            "どう",
+            "なさいますか"
+          ],
+          "audio_text": "お飲み物はどうなさいますか。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "社長がそうなさいました。",
+          "japanese_with_blank": "社長がそう[___]。",
+          "english": "The president did so.",
+          "target_answer": "なさいました",
+          "hint": "did (honorific)",
+          "scramble_blocks": [
+            "社長",
+            "が",
+            "そう",
+            "なさいました"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

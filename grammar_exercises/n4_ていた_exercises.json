@@ -92,6 +92,89 @@
           "audio_text": "子供の時泳いでいました。",
           "notes": "泳ぐ → 泳いでいた (voiced).",
           "position": 5
+        },
+        {
+          "japanese": "昨日の夜、勉強していました。",
+          "japanese_with_blank": "昨日の夜、勉強して[___]。",
+          "english": "I was studying last night.",
+          "target_answer": "いました",
+          "hint": "was doing",
+          "scramble_blocks": [
+            "昨日の夜",
+            "勉強して",
+            "いました"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達が電話で話していました。",
+          "japanese_with_blank": "友達が電話で話して[___]。",
+          "english": "My friend was on the phone.",
+          "target_answer": "いました",
+          "hint": "was doing",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "電話で",
+            "話して",
+            "いました"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "朝から雨が降っていました。",
+          "japanese_with_blank": "朝から雨が降って[___]。",
+          "english": "It was raining since morning.",
+          "target_answer": "いました",
+          "hint": "was doing",
+          "scramble_blocks": [
+            "朝から",
+            "雨",
+            "が",
+            "降って",
+            "いました"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "お母さんが料理を作っていました。",
+          "japanese_with_blank": "お母さんが料理を作って[___]。",
+          "english": "Mom was cooking.",
+          "target_answer": "いました",
+          "hint": "was doing",
+          "scramble_blocks": [
+            "お母さん",
+            "が",
+            "料理を",
+            "作って",
+            "いました"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "子供が公園で遊んでいました。",
+          "japanese_with_blank": "子供が公園で遊んで[___]。",
+          "english": "Kids were playing in the park.",
+          "target_answer": "いました",
+          "hint": "was doing",
+          "scramble_blocks": [
+            "子供",
+            "が",
+            "公園で",
+            "遊んで",
+            "いました"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

@@ -79,6 +79,114 @@
           "audio_text": "分かりにくい本でした。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "この本は読みにくいです。",
+          "japanese_with_blank": "この本は読み[___]です。",
+          "english": "This book is hard to read.",
+          "target_answer": "にくい",
+          "hint": "hard to",
+          "scramble_blocks": [
+            "この",
+            "本",
+            "は",
+            "読み",
+            "にくい",
+            "です"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この漢字は覚えにくいです。",
+          "japanese_with_blank": "この漢字は覚え[___]です。",
+          "english": "This kanji is hard to memorize.",
+          "target_answer": "にくい",
+          "hint": "hard to",
+          "scramble_blocks": [
+            "この",
+            "漢字",
+            "は",
+            "覚え",
+            "にくい",
+            "です"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この道は歩きにくいです。",
+          "japanese_with_blank": "この道は歩き[___]です。",
+          "english": "This road is hard to walk.",
+          "target_answer": "にくい",
+          "hint": "hard to",
+          "scramble_blocks": [
+            "この",
+            "道",
+            "は",
+            "歩き",
+            "にくい",
+            "です"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この字は見にくいです。",
+          "japanese_with_blank": "この字は見[___]です。",
+          "english": "This text is hard to see.",
+          "target_answer": "にくい",
+          "hint": "hard to",
+          "scramble_blocks": [
+            "この",
+            "字",
+            "は",
+            "見",
+            "にくい",
+            "です"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この問題は答えにくいです。",
+          "japanese_with_blank": "この問題は答え[___]です。",
+          "english": "This is hard to answer.",
+          "target_answer": "にくい",
+          "hint": "hard to",
+          "scramble_blocks": [
+            "この",
+            "問題",
+            "は",
+            "答え",
+            "にくい",
+            "です"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この薬は飲みにくいです。",
+          "japanese_with_blank": "この薬は飲み[___]です。",
+          "english": "This medicine is hard to take.",
+          "target_answer": "にくい",
+          "hint": "hard to",
+          "scramble_blocks": [
+            "この",
+            "薬",
+            "は",
+            "飲み",
+            "にくい",
+            "です"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

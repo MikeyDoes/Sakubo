@@ -77,6 +77,119 @@
           "audio_text": "日本語の本を読もうと思っています。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "今日は長く歩こうと思います。",
+          "japanese_with_blank": "今日は長く歩こう[___]。",
+          "english": "I'm thinking of walking a long way today.",
+          "target_answer": "と思います",
+          "alternative_answers": [],
+          "hint": "thinking of",
+          "scramble_blocks": [
+            "今日",
+            "は",
+            "長く",
+            "歩こう",
+            "と思います"
+          ],
+          "audio_text": "今日は長く歩こうと思います。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "今日は早く寝ようと思います。",
+          "japanese_with_blank": "今日は早く寝よう[___]。",
+          "english": "I'm thinking of going to bed early today.",
+          "target_answer": "と思います",
+          "alternative_answers": [],
+          "hint": "thinking of",
+          "scramble_blocks": [
+            "今日",
+            "は",
+            "早く",
+            "寝よう",
+            "と思います"
+          ],
+          "audio_text": "今日は早く寝ようと思います。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "来月車を買おうと思っています。",
+          "japanese_with_blank": "来月車を買おう[___]。",
+          "english": "I'm thinking of buying a car next month.",
+          "target_answer": "と思っています",
+          "alternative_answers": [],
+          "hint": "thinking of",
+          "scramble_blocks": [
+            "来月",
+            "車",
+            "を",
+            "買おう",
+            "と思っています"
+          ],
+          "audio_text": "来月車を買おうと思っています。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "今年は日本語の本を読もうと思います。",
+          "japanese_with_blank": "今年は日本語の本を読もう[___]。",
+          "english": "I'm thinking of reading a Japanese book this year.",
+          "target_answer": "と思います",
+          "alternative_answers": [],
+          "hint": "thinking of",
+          "scramble_blocks": [
+            "今年",
+            "は",
+            "日本語",
+            "の",
+            "本",
+            "を",
+            "読もう",
+            "と思います"
+          ],
+          "audio_text": "今年は日本語の本を読もうと思います。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "友達に手紙を書こうと思います。",
+          "japanese_with_blank": "友達に手紙を書こう[___]。",
+          "english": "I'm thinking of writing a letter to a friend.",
+          "target_answer": "と思います",
+          "alternative_answers": [],
+          "hint": "thinking of",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "手紙",
+            "を",
+            "書こう",
+            "と思います"
+          ],
+          "audio_text": "友達に手紙を書こうと思います。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "夏に旅行に行こうと思っています。",
+          "japanese_with_blank": "夏に旅行に行こう[___]。",
+          "english": "I'm thinking of going on a trip in summer.",
+          "target_answer": "と思っています",
+          "alternative_answers": [],
+          "hint": "thinking of",
+          "scramble_blocks": [
+            "夏",
+            "に",
+            "旅行",
+            "に",
+            "行こう",
+            "と思っています"
+          ],
+          "audio_text": "夏に旅行に行こうと思っています。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

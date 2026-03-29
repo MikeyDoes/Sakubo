@@ -92,6 +92,95 @@
           "audio_text": "日本の食べ物が好きになるようになりました。",
           "notes": "",
           "position": 5
+        },
+        {
+          "japanese": "一人で料理を作れるようになりました。",
+          "japanese_with_blank": "一人で料理を作れる[___]。",
+          "english": "I've come to be able to cook alone.",
+          "target_answer": "ようになりました",
+          "alternative_answers": [],
+          "hint": "came to",
+          "scramble_blocks": [
+            "一人",
+            "で",
+            "料理",
+            "を",
+            "作れる",
+            "ようになりました"
+          ],
+          "audio_text": "一人で料理を作れるようになりました。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "毎日走るようになりました。",
+          "japanese_with_blank": "毎日走る[___]。",
+          "english": "I've started running every day.",
+          "target_answer": "ようになりました",
+          "alternative_answers": [],
+          "hint": "came to",
+          "scramble_blocks": [
+            "毎日",
+            "走る",
+            "ようになりました"
+          ],
+          "audio_text": "毎日走るようになりました。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "野菜が食べられるようになりました。",
+          "japanese_with_blank": "野菜が食べられる[___]。",
+          "english": "I've come to be able to eat vegetables.",
+          "target_answer": "ようになりました",
+          "alternative_answers": [],
+          "hint": "came to",
+          "scramble_blocks": [
+            "野菜",
+            "が",
+            "食べられる",
+            "ようになりました"
+          ],
+          "audio_text": "野菜が食べられるようになりました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "自転車に乗れるようになりたいです。",
+          "japanese_with_blank": "自転車に乗れる[___]です。",
+          "english": "I want to become able to ride a bicycle.",
+          "target_answer": "ようになりたい",
+          "alternative_answers": [],
+          "hint": "want to become",
+          "scramble_blocks": [
+            "自転車",
+            "に",
+            "乗れる",
+            "ようになりたい",
+            "です"
+          ],
+          "audio_text": "自転車に乗れるようになりたいです。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "日本の食べ物が食べられるようになりました。",
+          "japanese_with_blank": "日本の食べ物が食べられる[___]。",
+          "english": "I've come to be able to eat Japanese food.",
+          "target_answer": "ようになりました",
+          "alternative_answers": [],
+          "hint": "came to",
+          "scramble_blocks": [
+            "日本",
+            "の",
+            "食べ物",
+            "が",
+            "食べられる",
+            "ようになりました"
+          ],
+          "audio_text": "日本の食べ物が食べられるようになりました。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

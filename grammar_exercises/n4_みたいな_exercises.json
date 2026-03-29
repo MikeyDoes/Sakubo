@@ -77,6 +77,110 @@
           "audio_text": "映画みたいな写真ですね。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "子供みたいな人ですね。",
+          "japanese_with_blank": "子供[___]人ですね。",
+          "english": "A childlike person.",
+          "target_answer": "みたいな",
+          "hint": "like (adj)",
+          "scramble_blocks": [
+            "子供",
+            "みたいな",
+            "人",
+            "です",
+            "ね"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "映画みたいな話ですね。",
+          "japanese_with_blank": "映画[___]話ですね。",
+          "english": "A movie-like story.",
+          "target_answer": "みたいな",
+          "hint": "like (adj)",
+          "scramble_blocks": [
+            "映画",
+            "みたいな",
+            "話",
+            "です",
+            "ね"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "先生みたいな人になりたいです。",
+          "japanese_with_blank": "先生[___]人になりたいです。",
+          "english": "I want to become a person like the teacher.",
+          "target_answer": "みたいな",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "先生",
+            "みたいな",
+            "人",
+            "に",
+            "なりたい",
+            "です"
+          ],
+          "audio_text": "先生みたいな人になりたいです。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "先生みたいな人になりたいです。",
+          "japanese_with_blank": "先生[___]人になりたいです。",
+          "english": "I want to be like my teacher.",
+          "target_answer": "みたいな",
+          "hint": "like (adj)",
+          "scramble_blocks": [
+            "先生",
+            "みたいな",
+            "人",
+            "に",
+            "なりたいです"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "春みたいな天気ですね。",
+          "japanese_with_blank": "春[___]天気ですね。",
+          "english": "Spring-like weather.",
+          "target_answer": "みたいな",
+          "hint": "like (adj)",
+          "scramble_blocks": [
+            "春",
+            "みたいな",
+            "天気",
+            "です",
+            "ね"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "猫みたいな目ですね。",
+          "japanese_with_blank": "猫[___]目ですね。",
+          "english": "Cat-like eyes.",
+          "target_answer": "みたいな",
+          "hint": "like (adj)",
+          "scramble_blocks": [
+            "猫",
+            "みたいな",
+            "目",
+            "です",
+            "ね"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

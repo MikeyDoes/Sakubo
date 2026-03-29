@@ -72,6 +72,103 @@
           "audio_text": "自分で決めなければなりません。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "手紙を書かなければなりません。",
+          "japanese_with_blank": "手紙を書か[___]。",
+          "english": "I have to write a letter.",
+          "target_answer": "なければなりません",
+          "alternative_answers": [],
+          "hint": "must",
+          "scramble_blocks": [
+            "手紙",
+            "を",
+            "書か",
+            "なければなりません"
+          ],
+          "audio_text": "手紙を書かなければなりません。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "時間を大切にしなければなりません。",
+          "japanese_with_blank": "時間を大切にし[___]。",
+          "english": "You must value time.",
+          "target_answer": "なければなりません",
+          "alternative_answers": [],
+          "hint": "must",
+          "scramble_blocks": [
+            "時間",
+            "を",
+            "大切にし",
+            "なければなりません"
+          ],
+          "audio_text": "時間を大切にしなければなりません。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "毎日練習しなければなりません。",
+          "japanese_with_blank": "毎日練習し[___]。",
+          "english": "We must practice every day.",
+          "target_answer": "なければなりません",
+          "hint": "must (formal)",
+          "scramble_blocks": [
+            "毎日",
+            "練習し",
+            "なければなりません"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "毎日練習しなければなりません。",
+          "japanese_with_blank": "毎日練習し[___]。",
+          "english": "I have to practice every day.",
+          "target_answer": "なければなりません",
+          "alternative_answers": [],
+          "hint": "must",
+          "scramble_blocks": [
+            "毎日",
+            "練習し",
+            "なければなりません"
+          ],
+          "audio_text": "毎日練習しなければなりません。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "会議に出なければなりません。",
+          "japanese_with_blank": "会議に出[___]。",
+          "english": "I must attend the meeting.",
+          "target_answer": "なければなりません",
+          "hint": "must (formal)",
+          "scramble_blocks": [
+            "会議",
+            "に",
+            "出",
+            "なければなりません"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "申し込みをしなければなりません。",
+          "japanese_with_blank": "申し込みをし[___]。",
+          "english": "We must apply.",
+          "target_answer": "なければなりません",
+          "hint": "must (formal)",
+          "scramble_blocks": [
+            "申し込み",
+            "を",
+            "し",
+            "なければなりません"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

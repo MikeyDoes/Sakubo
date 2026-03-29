@@ -95,6 +95,90 @@
           "audio_text": "暑かったら窓を開けてください。",
           "notes": "",
           "position": 5
+        },
+        {
+          "japanese": "暇なら散歩しましょう。",
+          "japanese_with_blank": "暇なら散歩しましょう。",
+          "english": "If you're free, let's take a walk.",
+          "target_answer": "たら",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "暇",
+            "なら",
+            "散歩しましょう"
+          ],
+          "audio_text": "暇なら散歩しましょう。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "安かったら買います。",
+          "japanese_with_blank": "安かっ[___]買います。",
+          "english": "If it's cheap, I'll buy it.",
+          "target_answer": "たら",
+          "hint": "if",
+          "scramble_blocks": [
+            "安かっ",
+            "たら",
+            "買います"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "時間があったら映画を見ます。",
+          "japanese_with_blank": "時間があっ[___]映画を見ます。",
+          "english": "If I have time, I'll watch a movie.",
+          "target_answer": "たら",
+          "hint": "if",
+          "scramble_blocks": [
+            "時間",
+            "が",
+            "あっ",
+            "たら",
+            "映画",
+            "を",
+            "見ます"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "宿題をしたら遊びましょう。",
+          "japanese_with_blank": "宿題をし[___]遊びましょう。",
+          "english": "If you do your homework, let's play.",
+          "target_answer": "たら",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "宿題",
+            "を",
+            "したら",
+            "遊びましょう"
+          ],
+          "audio_text": "宿題をしたら遊びましょう。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "暑かったらエアコンをつけます。",
+          "japanese_with_blank": "暑かっ[___]エアコンをつけます。",
+          "english": "If it's hot, I'll turn on the AC.",
+          "target_answer": "たら",
+          "hint": "if",
+          "scramble_blocks": [
+            "暑かっ",
+            "たら",
+            "エアコン",
+            "を",
+            "つけます"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

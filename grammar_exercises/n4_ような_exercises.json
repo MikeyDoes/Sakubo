@@ -79,6 +79,122 @@
           "audio_text": "花のような色ですね。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "先生のような人になりたいです。",
+          "japanese_with_blank": "先生の[___]人になりたいです。",
+          "english": "I want to become a person like my teacher.",
+          "target_answer": "ような",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "先生",
+            "の",
+            "ような",
+            "人",
+            "に",
+            "なりたい",
+            "です"
+          ],
+          "audio_text": "先生のような人になりたいです。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "日本のような国に行きたいです。",
+          "japanese_with_blank": "日本の[___]国に行きたいです。",
+          "english": "I want to go to a country like Japan.",
+          "target_answer": "ような",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "日本",
+            "の",
+            "ような",
+            "国",
+            "に",
+            "行きたい",
+            "です"
+          ],
+          "audio_text": "日本のような国に行きたいです。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "夏のような天気ですね。",
+          "japanese_with_blank": "夏の[___]天気ですね。",
+          "english": "It's summer-like weather, isn't it.",
+          "target_answer": "ような",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "夏",
+            "の",
+            "ような",
+            "天気",
+            "です",
+            "ね"
+          ],
+          "audio_text": "夏のような天気ですね。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "山のような荷物を持っています。",
+          "japanese_with_blank": "山の[___]荷物を持っています。",
+          "english": "They're carrying a mountain of luggage.",
+          "target_answer": "ような",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "山",
+            "の",
+            "ような",
+            "荷物",
+            "を",
+            "持っています"
+          ],
+          "audio_text": "山のような荷物を持っています。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "お母さんのような人が好きです。",
+          "japanese_with_blank": "お母さんの[___]人が好きです。",
+          "english": "I like people like my mother.",
+          "target_answer": "ような",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "お母さん",
+            "の",
+            "ような",
+            "人",
+            "が",
+            "好き",
+            "です"
+          ],
+          "audio_text": "お母さんのような人が好きです。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "このような本を探しています。",
+          "japanese_with_blank": "この[___]本を探しています。",
+          "english": "I'm looking for a book like this.",
+          "target_answer": "ような",
+          "alternative_answers": [],
+          "hint": "like this",
+          "scramble_blocks": [
+            "この",
+            "ような",
+            "本",
+            "を",
+            "探しています"
+          ],
+          "audio_text": "このような本を探しています。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

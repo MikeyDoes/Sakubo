@@ -72,6 +72,101 @@
           "audio_text": "もう帰らなければいけません。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "宿題をしなければいけません。",
+          "japanese_with_blank": "宿題をし[___]。",
+          "english": "I must do homework.",
+          "target_answer": "なければいけません",
+          "hint": "must",
+          "scramble_blocks": [
+            "宿題",
+            "を",
+            "し",
+            "なければいけません"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "毎日勉強しなければいけません。",
+          "japanese_with_blank": "毎日勉強し[___]。",
+          "english": "I must study every day.",
+          "target_answer": "なければいけません",
+          "hint": "must",
+          "scramble_blocks": [
+            "毎日",
+            "勉強し",
+            "なければいけません"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "早く起きなければいけません。",
+          "japanese_with_blank": "早く起き[___]。",
+          "english": "I must wake up early.",
+          "target_answer": "なければいけません",
+          "hint": "must",
+          "scramble_blocks": [
+            "早く",
+            "起き",
+            "なければいけません"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "薬を飲まなければいけません。",
+          "japanese_with_blank": "薬を飲ま[___]。",
+          "english": "I must take medicine.",
+          "target_answer": "なければいけません",
+          "hint": "must",
+          "scramble_blocks": [
+            "薬",
+            "を",
+            "飲ま",
+            "なければいけません"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "明日までに出さなければいけません。",
+          "japanese_with_blank": "明日までに出さ[___]。",
+          "english": "I must submit by tomorrow.",
+          "target_answer": "なければいけません",
+          "hint": "must",
+          "scramble_blocks": [
+            "明日",
+            "まで",
+            "に",
+            "出さ",
+            "なければいけません"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "電車に乗らなければいけません。",
+          "japanese_with_blank": "電車に乗ら[___]。",
+          "english": "I must take the train.",
+          "target_answer": "なければいけません",
+          "hint": "must",
+          "scramble_blocks": [
+            "電車",
+            "に",
+            "乗ら",
+            "なければいけません"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

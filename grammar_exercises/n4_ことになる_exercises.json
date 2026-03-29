@@ -77,6 +77,108 @@
           "audio_text": "来週から授業は月曜日になることになりました。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "来月から新しい学校に行くことになりました。",
+          "japanese_with_blank": "来月から新しい学校に行く[___]。",
+          "english": "It's been decided that I'll go to a new school.",
+          "target_answer": "ことになりました",
+          "alternative_answers": [],
+          "hint": "it was decided",
+          "scramble_blocks": [
+            "来月から",
+            "新しい",
+            "学校",
+            "に",
+            "行く",
+            "ことになりました"
+          ],
+          "audio_text": "来月から新しい学校に行くことになりました。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "来年日本で働くことになりました。",
+          "japanese_with_blank": "来年日本で働く[___]。",
+          "english": "It's been decided I'll work in Japan next year.",
+          "target_answer": "ことになりました",
+          "alternative_answers": [],
+          "hint": "it was decided",
+          "scramble_blocks": [
+            "来年",
+            "日本",
+            "で",
+            "働く",
+            "ことになりました"
+          ],
+          "audio_text": "来年日本で働くことになりました。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "毎日練習することになりました。",
+          "japanese_with_blank": "毎日練習する[___]。",
+          "english": "It's been decided we practice every day.",
+          "target_answer": "ことになりました",
+          "alternative_answers": [],
+          "hint": "it was decided",
+          "scramble_blocks": [
+            "毎日",
+            "練習する",
+            "ことになりました"
+          ],
+          "audio_text": "毎日練習することになりました。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "明日会うことになりました。",
+          "japanese_with_blank": "明日会う[___]。",
+          "english": "It's been decided we'll meet tomorrow.",
+          "target_answer": "ことになりました",
+          "alternative_answers": [],
+          "hint": "it was decided",
+          "scramble_blocks": [
+            "明日",
+            "会う",
+            "ことになりました"
+          ],
+          "audio_text": "明日会うことになりました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "引っ越すことになりました。",
+          "japanese_with_blank": "引っ越す[___]。",
+          "english": "It's been decided I'll move.",
+          "target_answer": "ことになりました",
+          "alternative_answers": [],
+          "hint": "it was decided",
+          "scramble_blocks": [
+            "引っ越す",
+            "ことになりました"
+          ],
+          "audio_text": "引っ越すことになりました。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "新しい先生が来ることになりました。",
+          "japanese_with_blank": "新しい先生が来る[___]。",
+          "english": "It's been decided a new teacher will come.",
+          "target_answer": "ことになりました",
+          "alternative_answers": [],
+          "hint": "it was decided",
+          "scramble_blocks": [
+            "新しい",
+            "先生",
+            "が",
+            "来る",
+            "ことになりました"
+          ],
+          "audio_text": "新しい先生が来ることになりました。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

@@ -97,6 +97,89 @@
           "audio_text": "薬を飲んでも元気になりません。",
           "notes": "飲む → 飲んでも (voiced).",
           "position": 5
+        },
+        {
+          "japanese": "雨が降っても出かけます。",
+          "japanese_with_blank": "雨が降っ[___]出かけます。",
+          "english": "Even if it rains, I'll go.",
+          "target_answer": "ても",
+          "hint": "even if",
+          "scramble_blocks": [
+            "雨",
+            "が",
+            "降っ",
+            "ても",
+            "出かけます"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "遅くなっても大丈夫です。",
+          "japanese_with_blank": "遅くなっ[___]大丈夫です。",
+          "english": "It's fine even if late.",
+          "target_answer": "ても",
+          "hint": "even if",
+          "scramble_blocks": [
+            "遅くなっ",
+            "ても",
+            "大丈夫です"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "何を食べてもおいしくないです。",
+          "japanese_with_blank": "何を食べ[___]おいしくないです。",
+          "english": "No matter what I eat, it doesn't taste good.",
+          "target_answer": "ても",
+          "alternative_answers": [],
+          "hint": "even if",
+          "scramble_blocks": [
+            "何",
+            "を",
+            "食べ",
+            "ても",
+            "おいしくないです"
+          ],
+          "audio_text": "何を食べてもおいしくないです。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "走ってもバスに乗れませんでした。",
+          "japanese_with_blank": "走っ[___]バスに乗れませんでした。",
+          "english": "Even though I ran, I couldn't get on the bus.",
+          "target_answer": "ても",
+          "alternative_answers": [],
+          "hint": "even if",
+          "scramble_blocks": [
+            "走っ",
+            "ても",
+            "バス",
+            "に",
+            "乗れませんでした"
+          ],
+          "audio_text": "走ってもバスに乗れませんでした。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "勉強しても分かりません。",
+          "japanese_with_blank": "勉強し[___]分かりません。",
+          "english": "Even studying, I don't get it.",
+          "target_answer": "ても",
+          "hint": "even if",
+          "scramble_blocks": [
+            "勉強し",
+            "ても",
+            "分かりません"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     },
@@ -183,6 +266,81 @@
           "audio_text": "静かでも寝られません。",
           "notes": "な-adj concession.",
           "position": 5
+        },
+        {
+          "japanese": "高くても買います。",
+          "japanese_with_blank": "高く[___]買います。",
+          "english": "Even if expensive, I'll buy it.",
+          "target_answer": "ても",
+          "hint": "even if",
+          "scramble_blocks": [
+            "高く",
+            "ても",
+            "買います"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "寒くても泳ぎます。",
+          "japanese_with_blank": "寒く[___]泳ぎます。",
+          "english": "Even if cold, I'll swim.",
+          "target_answer": "ても",
+          "hint": "even if",
+          "scramble_blocks": [
+            "寒く",
+            "ても",
+            "泳ぎます"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "難しくてもやります。",
+          "japanese_with_blank": "難しく[___]やります。",
+          "english": "Even if hard, I'll do it.",
+          "target_answer": "ても",
+          "hint": "even if",
+          "scramble_blocks": [
+            "難しく",
+            "ても",
+            "やります"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "遠くても歩きます。",
+          "japanese_with_blank": "遠く[___]歩きます。",
+          "english": "Even if far, I'll walk.",
+          "target_answer": "ても",
+          "hint": "even if",
+          "scramble_blocks": [
+            "遠く",
+            "ても",
+            "歩きます"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "忙しくても友達に会います。",
+          "japanese_with_blank": "忙しく[___]友達に会います。",
+          "english": "Even if busy, I'll see friends.",
+          "target_answer": "ても",
+          "hint": "even if",
+          "scramble_blocks": [
+            "忙しく",
+            "ても",
+            "友達に会います"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

@@ -66,6 +66,98 @@
           "audio_text": "もっと時間が必要です。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "水が必要です。",
+          "japanese_with_blank": "水[___]。",
+          "english": "Water is necessary.",
+          "target_answer": "が必要です",
+          "alternative_answers": [],
+          "hint": "necessary",
+          "scramble_blocks": [
+            "水",
+            "が必要です"
+          ],
+          "audio_text": "水が必要です。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "勉強が必要です。",
+          "japanese_with_blank": "勉強[___]。",
+          "english": "Studying is necessary.",
+          "target_answer": "が必要です",
+          "alternative_answers": [],
+          "hint": "necessary",
+          "scramble_blocks": [
+            "勉強",
+            "が必要です"
+          ],
+          "audio_text": "勉強が必要です。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "もっと練習が必要です。",
+          "japanese_with_blank": "もっと練習[___]。",
+          "english": "More practice is necessary.",
+          "target_answer": "が必要です",
+          "alternative_answers": [],
+          "hint": "necessary",
+          "scramble_blocks": [
+            "もっと",
+            "練習",
+            "が必要です"
+          ],
+          "audio_text": "もっと練習が必要です。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "新しい靴が必要です。",
+          "japanese_with_blank": "新しい靴[___]。",
+          "english": "New shoes are necessary.",
+          "target_answer": "が必要です",
+          "alternative_answers": [],
+          "hint": "necessary",
+          "scramble_blocks": [
+            "新しい",
+            "靴",
+            "が必要です"
+          ],
+          "audio_text": "新しい靴が必要です。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "薬が必要です。",
+          "japanese_with_blank": "薬[___]。",
+          "english": "Medicine is necessary.",
+          "target_answer": "が必要です",
+          "alternative_answers": [],
+          "hint": "necessary",
+          "scramble_blocks": [
+            "薬",
+            "が必要です"
+          ],
+          "audio_text": "薬が必要です。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "地図が必要です。",
+          "japanese_with_blank": "地図[___]。",
+          "english": "A map is necessary.",
+          "target_answer": "が必要です",
+          "alternative_answers": [],
+          "hint": "necessary",
+          "scramble_blocks": [
+            "地図",
+            "が必要です"
+          ],
+          "audio_text": "地図が必要です。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

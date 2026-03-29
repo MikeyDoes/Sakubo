@@ -86,6 +86,83 @@
           "audio_text": "野菜を食べなさい。",
           "notes": "",
           "position": 5
+        },
+        {
+          "japanese": "早く起きなさい。",
+          "japanese_with_blank": "早く起き[___]。",
+          "english": "Wake up early!",
+          "target_answer": "なさい",
+          "hint": "command",
+          "scramble_blocks": [
+            "早く",
+            "起き",
+            "なさい"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "宿題をしなさい。",
+          "japanese_with_blank": "宿題をし[___]。",
+          "english": "Do your homework!",
+          "target_answer": "なさい",
+          "hint": "command",
+          "scramble_blocks": [
+            "宿題",
+            "を",
+            "し",
+            "なさい"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "野菜を食べなさい。",
+          "japanese_with_blank": "野菜を食べ[___]。",
+          "english": "Eat your vegetables!",
+          "target_answer": "なさい",
+          "hint": "command",
+          "scramble_blocks": [
+            "野菜",
+            "を",
+            "食べ",
+            "なさい"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "静かにしなさい。",
+          "japanese_with_blank": "静かにし[___]。",
+          "english": "Be quiet!",
+          "target_answer": "なさい",
+          "hint": "command",
+          "scramble_blocks": [
+            "静かにし",
+            "なさい"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "本を読みなさい。",
+          "japanese_with_blank": "本を読み[___]。",
+          "english": "Read a book!",
+          "target_answer": "なさい",
+          "hint": "command",
+          "scramble_blocks": [
+            "本",
+            "を",
+            "読み",
+            "なさい"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

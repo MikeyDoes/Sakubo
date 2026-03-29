@@ -71,6 +71,105 @@
           "audio_text": "先生はお帰りになりました。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "先生はお書きになりました。",
+          "japanese_with_blank": "先生は[___]。",
+          "english": "The teacher wrote it. (honorific)",
+          "target_answer": "お書きになりました",
+          "alternative_answers": [],
+          "hint": "honorific verb",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "お書きになりました"
+          ],
+          "audio_text": "先生はお書きになりました。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "先生はお使いになりますか。",
+          "japanese_with_blank": "先生は[___]。",
+          "english": "Will the teacher use it?",
+          "target_answer": "お使いになりますか",
+          "alternative_answers": [],
+          "hint": "honorific verb",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "お使いになりますか"
+          ],
+          "audio_text": "先生はお使いになりますか。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "先生がお待ちになっています。",
+          "japanese_with_blank": "先生が[___]。",
+          "english": "The teacher is waiting. (honorific)",
+          "target_answer": "お待ちになっています",
+          "alternative_answers": [],
+          "hint": "honorific verb",
+          "scramble_blocks": [
+            "先生",
+            "が",
+            "お待ちになっています"
+          ],
+          "audio_text": "先生がお待ちになっています。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "先生はもうお読みになりました。",
+          "japanese_with_blank": "先生はもう[___]。",
+          "english": "The teacher already read it.",
+          "target_answer": "お読みになりました",
+          "alternative_answers": [],
+          "hint": "honorific verb",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "もう",
+            "お読みになりました"
+          ],
+          "audio_text": "先生はもうお読みになりました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "先生はお飲みになりますか。",
+          "japanese_with_blank": "先生は[___]。",
+          "english": "Would the teacher like to drink?",
+          "target_answer": "お飲みになりますか",
+          "alternative_answers": [],
+          "hint": "honorific verb",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "お飲みになりますか"
+          ],
+          "audio_text": "先生はお飲みになりますか。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "先生がお作りになった料理です。",
+          "japanese_with_blank": "先生が[___]料理です。",
+          "english": "It's a dish the teacher made.",
+          "target_answer": "お作りになった",
+          "alternative_answers": [],
+          "hint": "honorific verb",
+          "scramble_blocks": [
+            "先生",
+            "が",
+            "お作りになった",
+            "料理",
+            "です"
+          ],
+          "audio_text": "先生がお作りになった料理です。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

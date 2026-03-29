@@ -81,6 +81,115 @@
           "audio_text": "この料理はおいしいといってもいいです。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "この店は一番おいしいと言ってもいいです。",
+          "japanese_with_blank": "この店は一番おいしい[___]です。",
+          "english": "You could say this shop is best.",
+          "target_answer": "と言ってもいい",
+          "hint": "could say",
+          "scramble_blocks": [
+            "この",
+            "店",
+            "は",
+            "一番",
+            "おいしい",
+            "と言ってもいい",
+            "です"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この映画はとても面白いと言ってもいいです。",
+          "japanese_with_blank": "この映画はとても面白い[___]です。",
+          "english": "You could say this movie is very interesting.",
+          "target_answer": "と言ってもいい",
+          "alternative_answers": [],
+          "hint": "you could say",
+          "scramble_blocks": [
+            "この",
+            "映画",
+            "は",
+            "とても",
+            "面白い",
+            "と言ってもいい",
+            "です"
+          ],
+          "audio_text": "この映画はとても面白いと言ってもいいです。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "あの店はとてもおいしいと言ってもいいです。",
+          "japanese_with_blank": "あの店はとてもおいしい[___]です。",
+          "english": "You could say that shop is very delicious.",
+          "target_answer": "と言ってもいい",
+          "alternative_answers": [],
+          "hint": "you could say",
+          "scramble_blocks": [
+            "あの",
+            "店",
+            "は",
+            "とても",
+            "おいしい",
+            "と言ってもいい",
+            "です"
+          ],
+          "audio_text": "あの店はとてもおいしいと言ってもいいです。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "日本語は難しいと言ってもいいです。",
+          "japanese_with_blank": "日本語は難しい[___]です。",
+          "english": "You could say Japanese is hard.",
+          "target_answer": "と言ってもいい",
+          "hint": "could say",
+          "scramble_blocks": [
+            "日本語",
+            "は",
+            "難しい",
+            "と言ってもいい",
+            "です"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "もう夏だと言ってもいいです。",
+          "japanese_with_blank": "もう夏だ[___]です。",
+          "english": "You could say summer is here.",
+          "target_answer": "と言ってもいい",
+          "hint": "could say",
+          "scramble_blocks": [
+            "もう",
+            "夏だ",
+            "と言ってもいい",
+            "です"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "みんな来たと言ってもいいです。",
+          "japanese_with_blank": "みんな来た[___]です。",
+          "english": "You could say everyone came.",
+          "target_answer": "と言ってもいい",
+          "alternative_answers": [],
+          "hint": "you could say",
+          "scramble_blocks": [
+            "みんな",
+            "来た",
+            "と言ってもいい",
+            "です"
+          ],
+          "audio_text": "みんな来たと言ってもいいです。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

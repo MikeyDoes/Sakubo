@@ -90,6 +90,87 @@
           "audio_text": "雨が降り始めました。",
           "notes": "",
           "position": 5
+        },
+        {
+          "japanese": "友達が歌い始めました。",
+          "japanese_with_blank": "友達が歌い[___]。",
+          "english": "My friend started singing.",
+          "target_answer": "始めました",
+          "alternative_answers": [],
+          "hint": "started",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "歌い",
+            "始めました"
+          ],
+          "audio_text": "友達が歌い始めました。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "食べ始めましょう。",
+          "japanese_with_blank": "食べ[___]。",
+          "english": "Let's start eating.",
+          "target_answer": "始めましょう",
+          "alternative_answers": [],
+          "hint": "let's start",
+          "scramble_blocks": [
+            "食べ",
+            "始めましょう"
+          ],
+          "audio_text": "食べ始めましょう。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "走り始めました。",
+          "japanese_with_blank": "走り[___]。",
+          "english": "I started running.",
+          "target_answer": "始めました",
+          "alternative_answers": [],
+          "hint": "started",
+          "scramble_blocks": [
+            "走り",
+            "始めました"
+          ],
+          "audio_text": "走り始めました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "友達と話し始めました。",
+          "japanese_with_blank": "友達と話し[___]。",
+          "english": "I started talking with a friend.",
+          "target_answer": "始めました",
+          "alternative_answers": [],
+          "hint": "started",
+          "scramble_blocks": [
+            "友達",
+            "と",
+            "話し",
+            "始めました"
+          ],
+          "audio_text": "友達と話し始めました。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "映画を見始めましょう。",
+          "japanese_with_blank": "映画を見[___]。",
+          "english": "Let's start watching the movie.",
+          "target_answer": "始めましょう",
+          "alternative_answers": [],
+          "hint": "let's start",
+          "scramble_blocks": [
+            "映画",
+            "を",
+            "見",
+            "始めましょう"
+          ],
+          "audio_text": "映画を見始めましょう。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

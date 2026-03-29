@@ -93,6 +93,95 @@
           "audio_text": "赤ちゃんが泣きそうです。",
           "notes": "",
           "position": 5
+        },
+        {
+          "japanese": "雨が降りそうです。",
+          "japanese_with_blank": "雨が降り[___]です。",
+          "english": "It looks like rain.",
+          "target_answer": "そう",
+          "hint": "looks like",
+          "scramble_blocks": [
+            "雨",
+            "が",
+            "降り",
+            "そう",
+            "です"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "このケーキはおいしそうです。",
+          "japanese_with_blank": "このケーキはおいし[___]です。",
+          "english": "This cake looks delicious.",
+          "target_answer": "そう",
+          "hint": "looks like",
+          "scramble_blocks": [
+            "この",
+            "ケーキ",
+            "は",
+            "おいし",
+            "そう",
+            "です"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "あの人は泣きそうです。",
+          "japanese_with_blank": "あの人は泣き[___]。",
+          "english": "That person looks like they will cry.",
+          "target_answer": "そうです",
+          "alternative_answers": [],
+          "hint": "looks like",
+          "scramble_blocks": [
+            "あの",
+            "人",
+            "は",
+            "泣き",
+            "そうです"
+          ],
+          "audio_text": "あの人は泣きそうです。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "荷物が重そうですね。",
+          "japanese_with_blank": "荷物が重[___]ですね。",
+          "english": "The luggage looks heavy.",
+          "target_answer": "そう",
+          "hint": "looks like",
+          "scramble_blocks": [
+            "荷物",
+            "が",
+            "重",
+            "そう",
+            "です",
+            "ね"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この本は難しそうです。",
+          "japanese_with_blank": "この本は難し[___]です。",
+          "english": "This book looks difficult.",
+          "target_answer": "そう",
+          "hint": "looks like",
+          "scramble_blocks": [
+            "この",
+            "本",
+            "は",
+            "難し",
+            "そう",
+            "です"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     },
@@ -170,6 +259,114 @@
           "audio_text": "来週テストがあるそうです。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "明日は雨だそうです。",
+          "japanese_with_blank": "明日は雨だ[___]です。",
+          "english": "I heard it will rain tomorrow.",
+          "target_answer": "そう",
+          "hint": "I heard",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "雨",
+            "だ",
+            "そう",
+            "です"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "あの映画は面白いそうです。",
+          "japanese_with_blank": "あの映画は面白い[___]です。",
+          "english": "I heard that movie is interesting.",
+          "target_answer": "そう",
+          "hint": "I heard",
+          "scramble_blocks": [
+            "あの",
+            "映画",
+            "は",
+            "面白い",
+            "そう",
+            "です"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "先生は来ないそうです。",
+          "japanese_with_blank": "先生は来ない[___]です。",
+          "english": "I heard the teacher isn't coming.",
+          "target_answer": "そう",
+          "hint": "I heard",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "来ない",
+            "そう",
+            "です"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この店は安いそうです。",
+          "japanese_with_blank": "この店は安い[___]です。",
+          "english": "I heard this shop is cheap.",
+          "target_answer": "そう",
+          "hint": "I heard",
+          "scramble_blocks": [
+            "この",
+            "店",
+            "は",
+            "安い",
+            "そう",
+            "です"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達は来月結婚するそうです。",
+          "japanese_with_blank": "友達は来月結婚する[___]です。",
+          "english": "I heard my friend is getting married.",
+          "target_answer": "そう",
+          "hint": "I heard",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "来月",
+            "結婚する",
+            "そう",
+            "です"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "日本語のテストは難しかったそうです。",
+          "japanese_with_blank": "日本語のテストは難しかった[___]。",
+          "english": "I heard the Japanese test was difficult.",
+          "target_answer": "そうです",
+          "alternative_answers": [],
+          "hint": "I heard",
+          "scramble_blocks": [
+            "日本語",
+            "の",
+            "テスト",
+            "は",
+            "難しかった",
+            "そうです"
+          ],
+          "audio_text": "日本語のテストは難しかったそうです。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

@@ -85,6 +85,84 @@
           "audio_text": "昼ご飯を食べよう。",
           "notes": "",
           "position": 5
+        },
+        {
+          "japanese": "散歩しよう。",
+          "japanese_with_blank": "散歩[___]。",
+          "english": "Let's take a walk.",
+          "target_answer": "しよう",
+          "alternative_answers": [],
+          "hint": "let's",
+          "scramble_blocks": [
+            "散歩",
+            "しよう"
+          ],
+          "audio_text": "散歩しよう。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "何か食べよう。",
+          "japanese_with_blank": "何か[___]。",
+          "english": "Let's eat something.",
+          "target_answer": "食べよう",
+          "alternative_answers": [],
+          "hint": "let's",
+          "scramble_blocks": [
+            "何か",
+            "食べよう"
+          ],
+          "audio_text": "何か食べよう。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "日本語を勉強しよう。",
+          "japanese_with_blank": "日本語を勉強[___]。",
+          "english": "Let's study Japanese.",
+          "target_answer": "しよう",
+          "alternative_answers": [],
+          "hint": "let's",
+          "scramble_blocks": [
+            "日本語",
+            "を",
+            "勉強",
+            "しよう"
+          ],
+          "audio_text": "日本語を勉強しよう。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "公園に行こう。",
+          "japanese_with_blank": "公園に[___]。",
+          "english": "Let's go to the park.",
+          "target_answer": "行こう",
+          "alternative_answers": [],
+          "hint": "let's go",
+          "scramble_blocks": [
+            "公園",
+            "に",
+            "行こう"
+          ],
+          "audio_text": "公園に行こう。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "明日会おう。",
+          "japanese_with_blank": "明日[___]。",
+          "english": "Let's meet tomorrow.",
+          "target_answer": "会おう",
+          "alternative_answers": [],
+          "hint": "let's",
+          "scramble_blocks": [
+            "明日",
+            "会おう"
+          ],
+          "audio_text": "明日会おう。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

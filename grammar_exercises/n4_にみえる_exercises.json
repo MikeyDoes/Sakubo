@@ -74,6 +74,105 @@
           "audio_text": "あの人は学生に見えます。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "彼は若く見えます。",
+          "japanese_with_blank": "彼は若く[___]。",
+          "english": "He looks young.",
+          "target_answer": "見えます",
+          "hint": "looks",
+          "scramble_blocks": [
+            "彼",
+            "は",
+            "若く",
+            "見えます"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この料理はおいしそうに見えます。",
+          "japanese_with_blank": "この料理はおいしそうに[___]。",
+          "english": "This food looks delicious.",
+          "target_answer": "見えます",
+          "hint": "looks",
+          "scramble_blocks": [
+            "この",
+            "料理",
+            "は",
+            "おいしそうに",
+            "見えます"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "子供に見えますが、大人です。",
+          "japanese_with_blank": "子供に[___]が、大人です。",
+          "english": "Looks like a child, but is adult.",
+          "target_answer": "見えます",
+          "hint": "looks like",
+          "scramble_blocks": [
+            "子供",
+            "に",
+            "見えます",
+            "が",
+            "大人です"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この花はきれいに見えます。",
+          "japanese_with_blank": "この花はきれいに[___]。",
+          "english": "This flower looks beautiful.",
+          "target_answer": "見えます",
+          "hint": "looks",
+          "scramble_blocks": [
+            "この",
+            "花",
+            "は",
+            "きれいに",
+            "見えます"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "元気に見えますね。",
+          "japanese_with_blank": "元気に[___]ね。",
+          "english": "You look well.",
+          "target_answer": "見えます",
+          "hint": "looks",
+          "scramble_blocks": [
+            "元気に",
+            "見えます",
+            "ね"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "彼女は学生に見えます。",
+          "japanese_with_blank": "彼女は学生に[___]。",
+          "english": "She looks like a student.",
+          "target_answer": "見えます",
+          "hint": "looks like",
+          "scramble_blocks": [
+            "彼女",
+            "は",
+            "学生",
+            "に",
+            "見えます"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

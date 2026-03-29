@@ -91,6 +91,118 @@
           "audio_text": "季節の中で春が一番好きです。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "食べ物の中で魚が一番好きです。",
+          "japanese_with_blank": "食べ物[___]魚が一番好きです。",
+          "english": "Of all foods, I like fish the best.",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "among",
+          "scramble_blocks": [
+            "食べ物",
+            "の中で",
+            "魚",
+            "が",
+            "一番",
+            "好きです"
+          ],
+          "audio_text": "食べ物の中で魚が一番好きです。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "スポーツの中で何が一番好きですか。",
+          "japanese_with_blank": "スポーツ[___]何が一番好きですか。",
+          "english": "What sport do you like the most?",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "among",
+          "scramble_blocks": [
+            "スポーツ",
+            "の中で",
+            "何",
+            "が",
+            "一番",
+            "好きですか"
+          ],
+          "audio_text": "スポーツの中で何が一番好きですか。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "季節の中で春が一番好きです。",
+          "japanese_with_blank": "季節[___]春が一番好きです。",
+          "english": "Among seasons, spring is best.",
+          "target_answer": "の中で",
+          "hint": "among",
+          "scramble_blocks": [
+            "季節",
+            "の中で",
+            "春",
+            "が",
+            "一番",
+            "好きです"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "クラスの中で一番上手です。",
+          "japanese_with_blank": "クラス[___]一番上手です。",
+          "english": "They are the best in the class.",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "among",
+          "scramble_blocks": [
+            "クラス",
+            "の中で",
+            "一番",
+            "上手です"
+          ],
+          "audio_text": "クラスの中で一番上手です。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "飲み物の中でお茶が一番好きです。",
+          "japanese_with_blank": "飲み物[___]お茶が一番好きです。",
+          "english": "Among drinks, I like tea most.",
+          "target_answer": "の中で",
+          "hint": "among",
+          "scramble_blocks": [
+            "飲み物",
+            "の中で",
+            "お茶",
+            "が",
+            "一番",
+            "好きです"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "家族の中で姉が一番歌が上手です。",
+          "japanese_with_blank": "家族[___]姉が一番歌が上手です。",
+          "english": "In my family, my sister is the best singer.",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "among",
+          "scramble_blocks": [
+            "家族",
+            "の中で",
+            "姉",
+            "が",
+            "一番",
+            "歌",
+            "が",
+            "上手です"
+          ],
+          "audio_text": "家族の中で姉が一番歌が上手です。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

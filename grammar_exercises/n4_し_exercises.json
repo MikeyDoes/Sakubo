@@ -87,6 +87,125 @@
           "audio_text": "時間もあるし、散歩しましょう。",
           "notes": "Verb + し.",
           "position": 4
+        },
+        {
+          "japanese": "安いし、近いし、あの店がいいです。",
+          "japanese_with_blank": "安い[___]、近いし、あの店がいいです。",
+          "english": "It's cheap, close, and that shop is good.",
+          "target_answer": "し",
+          "alternative_answers": [],
+          "hint": "and also",
+          "scramble_blocks": [
+            "安い",
+            "し",
+            "近い",
+            "し",
+            "あの",
+            "店",
+            "が",
+            "いい",
+            "です"
+          ],
+          "audio_text": "安いし、近いし、あの店がいいです。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "日本語は楽しいし、大切です。",
+          "japanese_with_blank": "日本語は楽[___]いし、大切です。",
+          "english": "Japanese is fun, and important.",
+          "target_answer": "し",
+          "alternative_answers": [],
+          "hint": "and also",
+          "scramble_blocks": [
+            "日本語",
+            "は",
+            "楽しい",
+            "し",
+            "大切",
+            "です"
+          ],
+          "audio_text": "日本語は楽しいし、大切です。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "雨だし、寒いし、家にいましょう。",
+          "japanese_with_blank": "雨だ[___]、寒いし、家にいましょう。",
+          "english": "It's raining, it's cold, let's stay home.",
+          "target_answer": "し",
+          "alternative_answers": [],
+          "hint": "and also",
+          "scramble_blocks": [
+            "雨",
+            "だ",
+            "し",
+            "寒い",
+            "し",
+            "家",
+            "に",
+            "いましょう"
+          ],
+          "audio_text": "雨だし、寒いし、家にいましょう。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "お金もないし、買いません。",
+          "japanese_with_blank": "お金もない[___]、買いません。",
+          "english": "I don't have money, so I won't buy it.",
+          "target_answer": "し",
+          "alternative_answers": [],
+          "hint": "and also",
+          "scramble_blocks": [
+            "お金",
+            "も",
+            "ない",
+            "し",
+            "買いません"
+          ],
+          "audio_text": "お金もないし、買いません。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "この本は面白いし、短いです。",
+          "japanese_with_blank": "この本は面白い[___]、短いです。",
+          "english": "This book is interesting, and short.",
+          "target_answer": "し",
+          "alternative_answers": [],
+          "hint": "and also",
+          "scramble_blocks": [
+            "この",
+            "本",
+            "は",
+            "面白い",
+            "し",
+            "短い",
+            "です"
+          ],
+          "audio_text": "この本は面白いし、短いです。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "友達も来るし、楽しみです。",
+          "japanese_with_blank": "友達も来る[___]、楽しみです。",
+          "english": "My friend is coming too, so I'm looking forward to it.",
+          "target_answer": "し",
+          "alternative_answers": [],
+          "hint": "and also",
+          "scramble_blocks": [
+            "友達",
+            "も",
+            "来る",
+            "し",
+            "楽しみ",
+            "です"
+          ],
+          "audio_text": "友達も来るし、楽しみです。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

@@ -79,6 +79,114 @@
           "audio_text": "分かりやすい本でした。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "この本は読みやすいです。",
+          "japanese_with_blank": "この本は読み[___]です。",
+          "english": "This book is easy to read.",
+          "target_answer": "やすい",
+          "hint": "easy to",
+          "scramble_blocks": [
+            "この",
+            "本",
+            "は",
+            "読み",
+            "やすい",
+            "です"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "このペンは書きやすいです。",
+          "japanese_with_blank": "このペンは書き[___]です。",
+          "english": "This pen is easy to write with.",
+          "target_answer": "やすい",
+          "hint": "easy to",
+          "scramble_blocks": [
+            "この",
+            "ペン",
+            "は",
+            "書き",
+            "やすい",
+            "です"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この靴は歩きやすいです。",
+          "japanese_with_blank": "この靴は歩き[___]です。",
+          "english": "These shoes are easy to walk in.",
+          "target_answer": "やすい",
+          "hint": "easy to",
+          "scramble_blocks": [
+            "この",
+            "靴",
+            "は",
+            "歩き",
+            "やすい",
+            "です"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この漢字は覚えやすいです。",
+          "japanese_with_blank": "この漢字は覚え[___]です。",
+          "english": "This kanji is easy to memorize.",
+          "target_answer": "やすい",
+          "hint": "easy to",
+          "scramble_blocks": [
+            "この",
+            "漢字",
+            "は",
+            "覚え",
+            "やすい",
+            "です"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この薬は飲みやすいです。",
+          "japanese_with_blank": "この薬は飲み[___]です。",
+          "english": "This medicine is easy to take.",
+          "target_answer": "やすい",
+          "hint": "easy to",
+          "scramble_blocks": [
+            "この",
+            "薬",
+            "は",
+            "飲み",
+            "やすい",
+            "です"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この道は分かりやすいです。",
+          "japanese_with_blank": "この道は分かり[___]です。",
+          "english": "This path is easy to find.",
+          "target_answer": "やすい",
+          "hint": "easy to",
+          "scramble_blocks": [
+            "この",
+            "道",
+            "は",
+            "分かり",
+            "やすい",
+            "です"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     },
@@ -105,6 +213,172 @@
           "audio_text": "冬は風邪をひきやすいです。",
           "notes": "",
           "position": 1
+        },
+        {
+          "japanese": "この料理は作りやすいです。",
+          "japanese_with_blank": "この料理は作り[___]です。",
+          "english": "This dish is easy to make.",
+          "target_answer": "やすい",
+          "alternative_answers": [],
+          "hint": "easy to",
+          "scramble_blocks": [
+            "この",
+            "料理",
+            "は",
+            "作り",
+            "やすい",
+            "です"
+          ],
+          "audio_text": "この料理は作りやすいです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "この靴は歩きやすいです。",
+          "japanese_with_blank": "この靴は歩き[___]です。",
+          "english": "These shoes are easy to walk in.",
+          "target_answer": "やすい",
+          "alternative_answers": [],
+          "hint": "easy to",
+          "scramble_blocks": [
+            "この",
+            "靴",
+            "は",
+            "歩き",
+            "やすい",
+            "です"
+          ],
+          "audio_text": "この靴は歩きやすいです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "冬は風邪を引きやすいです。",
+          "japanese_with_blank": "冬は風邪を引き[___]です。",
+          "english": "Easy to catch colds in winter.",
+          "target_answer": "やすい",
+          "hint": "tend to",
+          "scramble_blocks": [
+            "冬",
+            "は",
+            "風邪",
+            "を",
+            "引き",
+            "やすい",
+            "です"
+          ],
+          "notes": "",
+          "position": 4,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "白い服は汚れやすいです。",
+          "japanese_with_blank": "白い服は汚れ[___]です。",
+          "english": "White clothes get dirty easily.",
+          "target_answer": "やすい",
+          "hint": "tend to",
+          "scramble_blocks": [
+            "白い",
+            "服",
+            "は",
+            "汚れ",
+            "やすい",
+            "です"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "子供は泣きやすいです。",
+          "japanese_with_blank": "子供は泣き[___]です。",
+          "english": "Children tend to cry easily.",
+          "target_answer": "やすい",
+          "hint": "tend to",
+          "scramble_blocks": [
+            "子供",
+            "は",
+            "泣き",
+            "やすい",
+            "です"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "古い橋は壊れやすいです。",
+          "japanese_with_blank": "古い橋は壊れ[___]です。",
+          "english": "Old bridges tend to break.",
+          "target_answer": "やすい",
+          "hint": "tend to",
+          "scramble_blocks": [
+            "古い",
+            "橋",
+            "は",
+            "壊れ",
+            "やすい",
+            "です"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この水は飲みやすいです。",
+          "japanese_with_blank": "この水は飲み[___]です。",
+          "english": "This water is easy to drink.",
+          "target_answer": "やすい",
+          "alternative_answers": [],
+          "hint": "easy to",
+          "scramble_blocks": [
+            "この",
+            "水",
+            "は",
+            "飲み",
+            "やすい",
+            "です"
+          ],
+          "audio_text": "この水は飲みやすいです。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "夏は食べ物が悪くなりやすいです。",
+          "japanese_with_blank": "夏は食べ物が悪くなり[___]です。",
+          "english": "Food spoils easily in summer.",
+          "target_answer": "やすい",
+          "hint": "tend to",
+          "scramble_blocks": [
+            "夏",
+            "は",
+            "食べ物",
+            "が",
+            "悪くなり",
+            "やすい",
+            "です"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この川は増えやすいです。",
+          "japanese_with_blank": "この川は増え[___]です。",
+          "english": "This river tends to flood.",
+          "target_answer": "やすい",
+          "hint": "tend to",
+          "scramble_blocks": [
+            "この",
+            "川",
+            "は",
+            "増え",
+            "やすい",
+            "です"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

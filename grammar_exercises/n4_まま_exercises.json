@@ -75,6 +75,106 @@
           "audio_text": "そのまま待ってください。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "窓を開けたまま寝ました。",
+          "japanese_with_blank": "窓を開けた[___]寝ました。",
+          "english": "I slept with the window open.",
+          "target_answer": "まま",
+          "hint": "as is",
+          "scramble_blocks": [
+            "窓",
+            "を",
+            "開けた",
+            "まま",
+            "寝ました"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "立ったまま食べました。",
+          "japanese_with_blank": "立った[___]食べました。",
+          "english": "I ate while standing.",
+          "target_answer": "まま",
+          "alternative_answers": [],
+          "hint": "as is",
+          "scramble_blocks": [
+            "立った",
+            "まま",
+            "食べました"
+          ],
+          "audio_text": "立ったまま食べました。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "電気をつけたまま出かけました。",
+          "japanese_with_blank": "電気をつけた[___]出かけました。",
+          "english": "I went out with lights on.",
+          "target_answer": "まま",
+          "hint": "as is",
+          "scramble_blocks": [
+            "電気",
+            "を",
+            "つけた",
+            "まま",
+            "出かけました"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "立ったまま食べました。",
+          "japanese_with_blank": "立った[___]食べました。",
+          "english": "I ate standing up.",
+          "target_answer": "まま",
+          "hint": "as is",
+          "scramble_blocks": [
+            "立った",
+            "まま",
+            "食べました"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "電気をつけたまま寝ました。",
+          "japanese_with_blank": "電気をつけた[___]寝ました。",
+          "english": "I slept with the lights on.",
+          "target_answer": "まま",
+          "alternative_answers": [],
+          "hint": "as is",
+          "scramble_blocks": [
+            "電気",
+            "を",
+            "つけた",
+            "まま",
+            "寝ました"
+          ],
+          "audio_text": "電気をつけたまま寝ました。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "テレビをつけたまま寝てしまいました。",
+          "japanese_with_blank": "テレビをつけた[___]寝てしまいました。",
+          "english": "I fell asleep with TV on.",
+          "target_answer": "まま",
+          "hint": "as is",
+          "scramble_blocks": [
+            "テレビ",
+            "を",
+            "つけた",
+            "まま",
+            "寝てしまいました"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

@@ -91,6 +91,116 @@
           "audio_text": "日本は大きいですが、この町は小さいです。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "兄は背が高いですが、弟は低いです。",
+          "japanese_with_blank": "兄[___]背が高いですが、弟[___]低いです。",
+          "english": "Brother is tall, but younger is short.",
+          "target_answer": "は",
+          "hint": "contrast は",
+          "scramble_blocks": [
+            "兄",
+            "は",
+            "背",
+            "が",
+            "高いですが",
+            "弟",
+            "は",
+            "低いです"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "肉は好きですが、魚は食べません。",
+          "japanese_with_blank": "肉[___]好きですが、魚[___]食べません。",
+          "english": "I like meat but don't eat fish.",
+          "target_answer": "は",
+          "hint": "contrast は",
+          "scramble_blocks": [
+            "肉",
+            "は",
+            "好きですが",
+            "魚",
+            "は",
+            "食べません"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "日本語は話せますが、書くのは難しいです。",
+          "japanese_with_blank": "日本語[___]話せますが、書くの[___]難しいです。",
+          "english": "I can speak JP, but writing is hard.",
+          "target_answer": "は",
+          "hint": "contrast は",
+          "scramble_blocks": [
+            "日本語",
+            "は",
+            "話せますが",
+            "書くの",
+            "は",
+            "難しいです"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "春は暖かいですが、冬は寒いです。",
+          "japanese_with_blank": "春[___]暖かいですが、冬[___]寒いです。",
+          "english": "Spring is warm but winter is cold.",
+          "target_answer": "は",
+          "hint": "contrast は",
+          "scramble_blocks": [
+            "春",
+            "は",
+            "暖かいですが",
+            "冬",
+            "は",
+            "寒いです"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "映画は好きですが、テレビはあまり見ません。",
+          "japanese_with_blank": "映画[___]好きですが、テレビ[___]あまり見ません。",
+          "english": "I like movies but rarely watch TV.",
+          "target_answer": "は",
+          "hint": "contrast は",
+          "scramble_blocks": [
+            "映画",
+            "は",
+            "好きですが",
+            "テレビ",
+            "は",
+            "あまり見ません"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "朝は忙しいですが、夜は暇です。",
+          "japanese_with_blank": "朝[___]忙しいですが、夜[___]暇です。",
+          "english": "Morning is busy but evening free.",
+          "target_answer": "は",
+          "hint": "contrast は",
+          "scramble_blocks": [
+            "朝",
+            "は",
+            "忙しいですが",
+            "夜",
+            "は",
+            "暇です"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

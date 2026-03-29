@@ -81,6 +81,118 @@
           "audio_text": "毎日散歩することが大切です。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "歩くことが好きです。",
+          "japanese_with_blank": "歩く[___]が好きです。",
+          "english": "I like walking.",
+          "target_answer": "こと",
+          "alternative_answers": [],
+          "hint": "nominalizer",
+          "scramble_blocks": [
+            "歩く",
+            "こと",
+            "が",
+            "好き",
+            "です"
+          ],
+          "audio_text": "歩くことが好きです。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "早く起きることは大変です。",
+          "japanese_with_blank": "早く起きる[___]は大変です。",
+          "english": "Waking up early is hard.",
+          "target_answer": "こと",
+          "alternative_answers": [],
+          "hint": "nominalizer",
+          "scramble_blocks": [
+            "早く",
+            "起きる",
+            "こと",
+            "は",
+            "大変",
+            "です"
+          ],
+          "audio_text": "早く起きることは大変です。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "料理を作ることが上手です。",
+          "japanese_with_blank": "料理を作る[___]が上手です。",
+          "english": "They are good at cooking.",
+          "target_answer": "こと",
+          "alternative_answers": [],
+          "hint": "nominalizer",
+          "scramble_blocks": [
+            "料理",
+            "を",
+            "作る",
+            "こと",
+            "が",
+            "上手",
+            "です"
+          ],
+          "audio_text": "料理を作ることが上手です。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "友達と話すことは楽しいです。",
+          "japanese_with_blank": "友達と話す[___]は楽しいです。",
+          "english": "Talking with friends is fun.",
+          "target_answer": "こと",
+          "alternative_answers": [],
+          "hint": "nominalizer",
+          "scramble_blocks": [
+            "友達",
+            "と",
+            "話す",
+            "こと",
+            "は",
+            "楽しい",
+            "です"
+          ],
+          "audio_text": "友達と話すことは楽しいです。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "新しいことを勉強したいです。",
+          "japanese_with_blank": "新しい[___]を勉強したいです。",
+          "english": "I want to study new things.",
+          "target_answer": "こと",
+          "alternative_answers": [],
+          "hint": "nominalizer",
+          "scramble_blocks": [
+            "新しい",
+            "こと",
+            "を",
+            "勉強したい",
+            "です"
+          ],
+          "audio_text": "新しいことを勉強したいです。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "泳ぐことができます。",
+          "japanese_with_blank": "泳ぐ[___]ができます。",
+          "english": "I can swim.",
+          "target_answer": "こと",
+          "alternative_answers": [],
+          "hint": "nominalizer",
+          "scramble_blocks": [
+            "泳ぐ",
+            "こと",
+            "が",
+            "できます"
+          ],
+          "audio_text": "泳ぐことができます。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

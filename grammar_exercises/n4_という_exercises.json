@@ -80,6 +80,110 @@
           "audio_text": "「すみません」という言葉を知っていますか。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "「さくら」という花を知っていますか。",
+          "japanese_with_blank": "「さくら」[___]花を知っていますか。",
+          "english": "Do you know the flower called \"sakura\"?",
+          "target_answer": "という",
+          "alternative_answers": [],
+          "hint": "called",
+          "scramble_blocks": [
+            "さくら",
+            "という",
+            "花",
+            "を",
+            "知っていますか"
+          ],
+          "audio_text": "「さくら」という花を知っていますか。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "さくらという人が来ました。",
+          "japanese_with_blank": "さくら[___]人が来ました。",
+          "english": "A person called Sakura came.",
+          "target_answer": "という",
+          "alternative_answers": [],
+          "hint": "called",
+          "scramble_blocks": [
+            "さくら",
+            "という",
+            "人",
+            "が",
+            "来ました"
+          ],
+          "audio_text": "さくらという人が来ました。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "「きれい」という言葉を覚えました。",
+          "japanese_with_blank": "「きれい」[___]言葉を覚えました。",
+          "english": "I learned the word \"kirei\".",
+          "target_answer": "という",
+          "hint": "called",
+          "scramble_blocks": [
+            "きれい",
+            "という",
+            "言葉",
+            "を",
+            "覚えました"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "「花見」というイベントがあります。",
+          "japanese_with_blank": "「花見」[___]イベントがあります。",
+          "english": "There is an event called hanami.",
+          "target_answer": "という",
+          "hint": "called",
+          "scramble_blocks": [
+            "花見",
+            "という",
+            "イベント",
+            "が",
+            "あります"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "「さくら」という名前の店です。",
+          "japanese_with_blank": "「さくら」[___]名前の店です。",
+          "english": "A shop called Sakura.",
+          "target_answer": "という",
+          "hint": "called",
+          "scramble_blocks": [
+            "さくら",
+            "という",
+            "名前",
+            "の",
+            "店",
+            "です"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "「ありがとう」という意味です。",
+          "japanese_with_blank": "「ありがとう」[___]意味です。",
+          "english": "It means \"arigatou\".",
+          "target_answer": "という",
+          "hint": "called",
+          "scramble_blocks": [
+            "ありがとう",
+            "という",
+            "意味",
+            "です"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     },
@@ -127,6 +231,148 @@
           "audio_text": "明日テストがあるということを忘れていました。",
           "notes": "",
           "position": 2
+        },
+        {
+          "japanese": "明日テストがあるということを聞きました。",
+          "japanese_with_blank": "明日テストがある[___]を聞きました。",
+          "english": "I heard there is a test tomorrow.",
+          "target_answer": "ということ",
+          "hint": "that (clause)",
+          "scramble_blocks": [
+            "明日",
+            "テスト",
+            "が",
+            "ある",
+            "ということ",
+            "を",
+            "聞きました"
+          ],
+          "notes": "",
+          "position": 3,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達が来ないということです。",
+          "japanese_with_blank": "友達が来ない[___]。",
+          "english": "It means my friend is not coming.",
+          "target_answer": "ということです",
+          "alternative_answers": [],
+          "hint": "it means that",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "来ない",
+            "ということです"
+          ],
+          "audio_text": "友達が来ないということです。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "日本語は難しいということが分かりました。",
+          "japanese_with_blank": "日本語は難しい[___]が分かりました。",
+          "english": "I learned that Japanese is hard.",
+          "target_answer": "ということ",
+          "hint": "that (clause)",
+          "scramble_blocks": [
+            "日本語",
+            "は",
+            "難しい",
+            "ということ",
+            "が",
+            "分かりました"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "駅が近いということを知りませんでした。",
+          "japanese_with_blank": "駅が近い[___]を知りませんでした。",
+          "english": "I didn't know the station was near.",
+          "target_answer": "ということ",
+          "hint": "that (clause)",
+          "scramble_blocks": [
+            "駅",
+            "が",
+            "近い",
+            "ということ",
+            "を",
+            "知りませんでした"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達が結婚したということを聞きました。",
+          "japanese_with_blank": "友達が結婚した[___]を聞きました。",
+          "english": "I heard my friend got married.",
+          "target_answer": "ということ",
+          "hint": "that (clause)",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "結婚した",
+            "ということ",
+            "を",
+            "聞きました"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "お店が休みだということです。",
+          "japanese_with_blank": "お店が休みだ[___]です。",
+          "english": "It means the shop is closed.",
+          "target_answer": "ということ",
+          "hint": "that (meaning)",
+          "scramble_blocks": [
+            "お店",
+            "が",
+            "休みだ",
+            "ということ",
+            "です"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "電車が止まっているということを聞きました。",
+          "japanese_with_blank": "電車が止まっている[___]を聞きました。",
+          "english": "I heard trains are stopped.",
+          "target_answer": "ということ",
+          "hint": "that (clause)",
+          "scramble_blocks": [
+            "電車",
+            "が",
+            "止まっている",
+            "ということ",
+            "を",
+            "聞きました"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "明日は雨だということです。",
+          "japanese_with_blank": "明日は雨だ[___]です。",
+          "english": "It means tomorrow it'll rain.",
+          "target_answer": "ということ",
+          "hint": "that (meaning)",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "雨だ",
+            "ということ",
+            "です"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

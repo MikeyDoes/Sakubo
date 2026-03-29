@@ -73,6 +73,105 @@
           "audio_text": "もう帰ったみたいです。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "雨が降るみたいです。",
+          "japanese_with_blank": "雨が降る[___]。",
+          "english": "It seems like rain.",
+          "target_answer": "みたいです",
+          "hint": "seems like",
+          "scramble_blocks": [
+            "雨",
+            "が",
+            "降る",
+            "みたいです"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "彼は忙しいみたいです。",
+          "japanese_with_blank": "彼は忙しい[___]。",
+          "english": "He seems busy.",
+          "target_answer": "みたいです",
+          "hint": "seems like",
+          "scramble_blocks": [
+            "彼",
+            "は",
+            "忙しい",
+            "みたいです"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "明日は寒いみたいです。",
+          "japanese_with_blank": "明日は寒い[___]。",
+          "english": "Seems cold tomorrow.",
+          "target_answer": "みたいです",
+          "hint": "seems like",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "寒い",
+            "みたいです"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達は元気みたいです。",
+          "japanese_with_blank": "友達は元気[___]。",
+          "english": "My friend seems well.",
+          "target_answer": "みたいです",
+          "hint": "seems like",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "元気",
+            "みたいです"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "先生はもう帰ったみたいです。",
+          "japanese_with_blank": "先生はもう帰った[___]。",
+          "english": "Teacher seems to have left.",
+          "target_answer": "みたいです",
+          "hint": "seems like",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "もう",
+            "帰った",
+            "みたいです"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "この料理はおいしいみたいです。",
+          "japanese_with_blank": "この料理はおいしい[___]。",
+          "english": "This food seems delicious.",
+          "target_answer": "みたいです",
+          "alternative_answers": [],
+          "hint": "seems like",
+          "scramble_blocks": [
+            "この",
+            "料理",
+            "は",
+            "おいしい",
+            "みたいです"
+          ],
+          "audio_text": "この料理はおいしいみたいです。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

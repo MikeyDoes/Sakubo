@@ -69,6 +69,105 @@
           "audio_text": "テレビばかり見ないでください。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "毎日テレビばかり見ています。",
+          "japanese_with_blank": "毎日テレビ[___]見ています。",
+          "english": "I'm watching nothing but TV every day.",
+          "target_answer": "ばかり",
+          "alternative_answers": [],
+          "hint": "nothing but",
+          "scramble_blocks": [
+            "毎日",
+            "テレビ",
+            "ばかり",
+            "見ています"
+          ],
+          "audio_text": "毎日テレビばかり見ています。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "お菓子ばかり食べています。",
+          "japanese_with_blank": "お菓子[___]食べています。",
+          "english": "I eat nothing but sweets.",
+          "target_answer": "ばかり",
+          "hint": "nothing but",
+          "scramble_blocks": [
+            "お菓子",
+            "ばかり",
+            "食べています"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "テレビばかり見ています。",
+          "japanese_with_blank": "テレビ[___]見ています。",
+          "english": "I watch nothing but TV.",
+          "target_answer": "ばかり",
+          "hint": "nothing but",
+          "scramble_blocks": [
+            "テレビ",
+            "ばかり",
+            "見ています"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達は漫画ばかり読んでいます。",
+          "japanese_with_blank": "友達は漫画[___]読んでいます。",
+          "english": "My friend reads only manga.",
+          "target_answer": "ばかり",
+          "hint": "nothing but",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "漫画",
+            "ばかり",
+            "読んでいます"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "弟は遊んでばかりいます。",
+          "japanese_with_blank": "弟は遊んで[___]います。",
+          "english": "My brother does nothing but play.",
+          "target_answer": "ばかり",
+          "hint": "nothing but",
+          "scramble_blocks": [
+            "弟",
+            "は",
+            "遊んで",
+            "ばかり",
+            "います"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "雨ばかりの日が続きます。",
+          "japanese_with_blank": "雨[___]の日が続きます。",
+          "english": "Nothing but rainy days.",
+          "target_answer": "ばかり",
+          "hint": "nothing but",
+          "scramble_blocks": [
+            "雨",
+            "ばかり",
+            "の",
+            "日",
+            "が",
+            "続きます"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

@@ -86,6 +86,91 @@
           "audio_text": "忘れないようにしましょう。",
           "notes": "",
           "position": 5
+        },
+        {
+          "japanese": "毎日水をたくさん飲むようにしています。",
+          "japanese_with_blank": "毎日水をたくさん飲む[___]。",
+          "english": "I'm trying to drink lots of water every day.",
+          "target_answer": "ようにしています",
+          "alternative_answers": [],
+          "hint": "try to",
+          "scramble_blocks": [
+            "毎日",
+            "水",
+            "を",
+            "たくさん",
+            "飲む",
+            "ようにしています"
+          ],
+          "audio_text": "毎日水をたくさん飲むようにしています。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "遅くならないようにしましょう。",
+          "japanese_with_blank": "遅くならない[___]。",
+          "english": "Let's try not to be late.",
+          "target_answer": "ようにしましょう",
+          "alternative_answers": [],
+          "hint": "let's try",
+          "scramble_blocks": [
+            "遅くならない",
+            "ようにしましょう"
+          ],
+          "audio_text": "遅くならないようにしましょう。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "毎日本を読むようにしています。",
+          "japanese_with_blank": "毎日本を読む[___]。",
+          "english": "I'm trying to read books every day.",
+          "target_answer": "ようにしています",
+          "alternative_answers": [],
+          "hint": "try to",
+          "scramble_blocks": [
+            "毎日",
+            "本",
+            "を",
+            "読む",
+            "ようにしています"
+          ],
+          "audio_text": "毎日本を読むようにしています。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "お菓子を食べないようにしています。",
+          "japanese_with_blank": "お菓子を食べない[___]。",
+          "english": "I'm trying not to eat sweets.",
+          "target_answer": "ようにしています",
+          "alternative_answers": [],
+          "hint": "try not to",
+          "scramble_blocks": [
+            "お菓子",
+            "を",
+            "食べない",
+            "ようにしています"
+          ],
+          "audio_text": "お菓子を食べないようにしています。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "早く起きるようにしています。",
+          "japanese_with_blank": "早く起きる[___]。",
+          "english": "I'm trying to wake up early.",
+          "target_answer": "ようにしています",
+          "alternative_answers": [],
+          "hint": "try to",
+          "scramble_blocks": [
+            "早く",
+            "起きる",
+            "ようにしています"
+          ],
+          "audio_text": "早く起きるようにしています。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

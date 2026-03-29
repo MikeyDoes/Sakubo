@@ -77,6 +77,114 @@
           "audio_text": "来週の月曜日頃友達が来ます。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "七時頃に帰ります。",
+          "japanese_with_blank": "七時[___]に帰ります。",
+          "english": "I'll go home around 7 o'clock.",
+          "target_answer": "頃",
+          "alternative_answers": [],
+          "hint": "around",
+          "scramble_blocks": [
+            "七時",
+            "頃",
+            "に",
+            "帰ります"
+          ],
+          "audio_text": "七時頃に帰ります。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "十二時頃に昼ご飯を食べます。",
+          "japanese_with_blank": "十二時[___]に昼ご飯を食べます。",
+          "english": "I eat lunch around noon.",
+          "target_answer": "頃",
+          "alternative_answers": [],
+          "hint": "around",
+          "scramble_blocks": [
+            "十二時",
+            "頃",
+            "に",
+            "昼ご飯",
+            "を",
+            "食べます"
+          ],
+          "audio_text": "十二時頃に昼ご飯を食べます。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "五時頃に買い物に行きましょう。",
+          "japanese_with_blank": "五時[___]に買い物に行きましょう。",
+          "english": "Let's go shopping around 5 o'clock.",
+          "target_answer": "頃",
+          "alternative_answers": [],
+          "hint": "around",
+          "scramble_blocks": [
+            "五時",
+            "頃",
+            "に",
+            "買い物",
+            "に",
+            "行きましょう"
+          ],
+          "audio_text": "五時頃に買い物に行きましょう。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "この頃忙しいです。",
+          "japanese_with_blank": "この[___]忙しいです。",
+          "english": "I've been busy lately.",
+          "target_answer": "頃",
+          "alternative_answers": [],
+          "hint": "lately/around",
+          "scramble_blocks": [
+            "この",
+            "頃",
+            "忙しい",
+            "です"
+          ],
+          "audio_text": "この頃忙しいです。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "お昼頃に友達が来ます。",
+          "japanese_with_blank": "お昼[___]に友達が来ます。",
+          "english": "A friend is coming around noon.",
+          "target_answer": "頃",
+          "alternative_answers": [],
+          "hint": "around",
+          "scramble_blocks": [
+            "お昼",
+            "頃",
+            "に",
+            "友達",
+            "が",
+            "来ます"
+          ],
+          "audio_text": "お昼頃に友達が来ます。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "八時頃に出かけます。",
+          "japanese_with_blank": "八時[___]に出かけます。",
+          "english": "I'll go out around 8 o'clock.",
+          "target_answer": "頃",
+          "alternative_answers": [],
+          "hint": "around",
+          "scramble_blocks": [
+            "八時",
+            "頃",
+            "に",
+            "出かけます"
+          ],
+          "audio_text": "八時頃に出かけます。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

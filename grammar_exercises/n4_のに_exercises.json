@@ -94,6 +94,84 @@
           "audio_text": "天気がいいのに家にいます。",
           "notes": "",
           "position": 5
+        },
+        {
+          "japanese": "勉強したのに分かりませんでした。",
+          "japanese_with_blank": "勉強した[___]分かりませんでした。",
+          "english": "I studied, yet didn't understand.",
+          "target_answer": "のに",
+          "hint": "although",
+          "scramble_blocks": [
+            "勉強した",
+            "のに",
+            "分かりませんでした"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "早く起きたのに遅くなりました。",
+          "japanese_with_blank": "早く起きた[___]遅くなりました。",
+          "english": "Even though I woke up early, I was late.",
+          "target_answer": "のに",
+          "alternative_answers": [],
+          "hint": "even though",
+          "scramble_blocks": [
+            "早く",
+            "起きた",
+            "のに",
+            "遅くなりました"
+          ],
+          "audio_text": "早く起きたのに遅くなりました。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "高いのにおいしくないです。",
+          "japanese_with_blank": "高い[___]おいしくないです。",
+          "english": "Expensive, yet not tasty.",
+          "target_answer": "のに",
+          "hint": "although",
+          "scramble_blocks": [
+            "高い",
+            "のに",
+            "おいしくないです"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "電話したのに出ませんでした。",
+          "japanese_with_blank": "電話した[___]出ませんでした。",
+          "english": "Even though I called, they didn't answer.",
+          "target_answer": "のに",
+          "alternative_answers": [],
+          "hint": "even though",
+          "scramble_blocks": [
+            "電話した",
+            "のに",
+            "出ませんでした"
+          ],
+          "audio_text": "電話したのに出ませんでした。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "暖かいのに風邪を引きました。",
+          "japanese_with_blank": "暖かい[___]風邪を引きました。",
+          "english": "It's warm, yet I caught a cold.",
+          "target_answer": "のに",
+          "hint": "although",
+          "scramble_blocks": [
+            "暖かい",
+            "のに",
+            "風邪を引きました"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

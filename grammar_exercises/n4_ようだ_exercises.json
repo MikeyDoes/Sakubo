@@ -72,6 +72,112 @@
           "audio_text": "友達は来ないようです。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "先生は疲れているようです。",
+          "japanese_with_blank": "先生は疲れている[___]。",
+          "english": "The teacher seems tired.",
+          "target_answer": "ようです",
+          "alternative_answers": [],
+          "hint": "seems",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "疲れている",
+            "ようです"
+          ],
+          "audio_text": "先生は疲れているようです。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "この料理はおいしいようです。",
+          "japanese_with_blank": "この料理はおいしい[___]。",
+          "english": "This food seems delicious.",
+          "target_answer": "ようです",
+          "alternative_answers": [],
+          "hint": "seems",
+          "scramble_blocks": [
+            "この",
+            "料理",
+            "は",
+            "おいしい",
+            "ようです"
+          ],
+          "audio_text": "この料理はおいしいようです。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "外は寒いようです。",
+          "japanese_with_blank": "外は寒い[___]。",
+          "english": "It seems cold outside.",
+          "target_answer": "ようです",
+          "alternative_answers": [],
+          "hint": "seems",
+          "scramble_blocks": [
+            "外",
+            "は",
+            "寒い",
+            "ようです"
+          ],
+          "audio_text": "外は寒いようです。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "友達はもう寝たようです。",
+          "japanese_with_blank": "友達はもう寝た[___]。",
+          "english": "My friend seems to have already gone to sleep.",
+          "target_answer": "ようです",
+          "alternative_answers": [],
+          "hint": "seems",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "もう",
+            "寝た",
+            "ようです"
+          ],
+          "audio_text": "友達はもう寝たようです。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "電車が来たようです。",
+          "japanese_with_blank": "電車が来た[___]。",
+          "english": "The train seems to have arrived.",
+          "target_answer": "ようです",
+          "alternative_answers": [],
+          "hint": "seems",
+          "scramble_blocks": [
+            "電車",
+            "が",
+            "来た",
+            "ようです"
+          ],
+          "audio_text": "電車が来たようです。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "あの人は日本人のようです。",
+          "japanese_with_blank": "あの人は日本人の[___]。",
+          "english": "That person seems to be Japanese.",
+          "target_answer": "ようです",
+          "alternative_answers": [],
+          "hint": "seems",
+          "scramble_blocks": [
+            "あの",
+            "人",
+            "は",
+            "日本人",
+            "の",
+            "ようです"
+          ],
+          "audio_text": "あの人は日本人のようです。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

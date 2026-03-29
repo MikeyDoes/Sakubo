@@ -97,6 +97,89 @@
           "audio_text": "友達が来るから料理を作っておいた。",
           "notes": "ておいた + 方がいい.",
           "position": 5
+        },
+        {
+          "japanese": "お茶を買っておきます。",
+          "japanese_with_blank": "お茶を買っ[___]。",
+          "english": "I'll buy tea in advance.",
+          "target_answer": "ておきます",
+          "alternative_answers": [],
+          "hint": "in advance",
+          "scramble_blocks": [
+            "お茶",
+            "を",
+            "買っ",
+            "ておきます"
+          ],
+          "audio_text": "お茶を買っておきます。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "窓を開けておきましょう。",
+          "japanese_with_blank": "窓を開けて[___]。",
+          "english": "Let's leave the window open.",
+          "target_answer": "おきましょう",
+          "hint": "in advance",
+          "scramble_blocks": [
+            "窓",
+            "を",
+            "開けて",
+            "おきましょう"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "電話をかけておきました。",
+          "japanese_with_blank": "電話をかけ[___]。",
+          "english": "I made the phone call in advance.",
+          "target_answer": "ておきました",
+          "alternative_answers": [],
+          "hint": "in advance",
+          "scramble_blocks": [
+            "電話",
+            "を",
+            "かけ",
+            "ておきました"
+          ],
+          "audio_text": "電話をかけておきました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "電気をつけておいてください。",
+          "japanese_with_blank": "電気をつけて[___]ください。",
+          "english": "Please leave the light on.",
+          "target_answer": "おいて",
+          "hint": "keep as is",
+          "scramble_blocks": [
+            "電気",
+            "を",
+            "つけて",
+            "おいて",
+            "ください"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "お茶を作っておきます。",
+          "japanese_with_blank": "お茶を作って[___]。",
+          "english": "I'll prepare tea.",
+          "target_answer": "おきます",
+          "hint": "in advance",
+          "scramble_blocks": [
+            "お茶",
+            "を",
+            "作って",
+            "おきます"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     },
@@ -174,6 +257,108 @@
           "audio_text": "本を読んでおきました。",
           "notes": "読む → 読んでおく (voiced).",
           "position": 4
+        },
+        {
+          "japanese": "テストの前に勉強しておきます。",
+          "japanese_with_blank": "テストの前に勉強して[___]。",
+          "english": "I'll study before the test.",
+          "target_answer": "おきます",
+          "hint": "in advance",
+          "scramble_blocks": [
+            "テストの前に",
+            "勉強して",
+            "おきます"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "本を読んでおいてください。",
+          "japanese_with_blank": "本を読んでおいてください。",
+          "english": "Please read the book in advance.",
+          "target_answer": "ておいて",
+          "alternative_answers": [],
+          "hint": "in advance",
+          "scramble_blocks": [
+            "本",
+            "を",
+            "読ん",
+            "でおいて",
+            "ください"
+          ],
+          "audio_text": "本を読んでおいてください。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "道を覚えておきましょう。",
+          "japanese_with_blank": "道を覚え[___]。",
+          "english": "Let's remember the way.",
+          "target_answer": "ておきましょう",
+          "alternative_answers": [],
+          "hint": "in advance",
+          "scramble_blocks": [
+            "道",
+            "を",
+            "覚え",
+            "ておきましょう"
+          ],
+          "audio_text": "道を覚えておきましょう。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "朝ご飯を作っておきました。",
+          "japanese_with_blank": "朝ご飯を作っ[___]。",
+          "english": "I made breakfast in advance.",
+          "target_answer": "ておきました",
+          "alternative_answers": [],
+          "hint": "in advance",
+          "scramble_blocks": [
+            "朝ご飯",
+            "を",
+            "作っ",
+            "ておきました"
+          ],
+          "audio_text": "朝ご飯を作っておきました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "出かける前に地図を見ておきます。",
+          "japanese_with_blank": "出かける前に地図を見[___]。",
+          "english": "I'll look at the map before going out.",
+          "target_answer": "ておきます",
+          "alternative_answers": [],
+          "hint": "in advance",
+          "scramble_blocks": [
+            "出かける",
+            "前に",
+            "地図",
+            "を",
+            "見",
+            "ておきます"
+          ],
+          "audio_text": "出かける前に地図を見ておきます。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "先に食べておきましょう。",
+          "japanese_with_blank": "先に食べ[___]。",
+          "english": "Let's eat first.",
+          "target_answer": "ておきましょう",
+          "alternative_answers": [],
+          "hint": "in advance",
+          "scramble_blocks": [
+            "先に",
+            "食べ",
+            "ておきましょう"
+          ],
+          "audio_text": "先に食べておきましょう。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

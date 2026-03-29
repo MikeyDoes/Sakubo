@@ -69,6 +69,92 @@
           "audio_text": "そんなに急がなくてもいいです。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "そんなに高くないですよ。",
+          "japanese_with_blank": "[___]高くないですよ。",
+          "english": "It's not that expensive.",
+          "target_answer": "そんなに",
+          "hint": "that much",
+          "scramble_blocks": [
+            "そんなに",
+            "高くないです",
+            "よ"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "そんなに難しくないです。",
+          "japanese_with_blank": "[___]難しくないです。",
+          "english": "It's not that difficult.",
+          "target_answer": "そんなに",
+          "hint": "that much",
+          "scramble_blocks": [
+            "そんなに",
+            "難しくないです"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "そんなに食べないでください。",
+          "japanese_with_blank": "[___]食べないでください。",
+          "english": "Don't eat that much.",
+          "target_answer": "そんなに",
+          "hint": "that much",
+          "scramble_blocks": [
+            "そんなに",
+            "食べないでください"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "そんなに遠くないです。",
+          "japanese_with_blank": "[___]遠くないです。",
+          "english": "It's not that far.",
+          "target_answer": "そんなに",
+          "hint": "that much",
+          "scramble_blocks": [
+            "そんなに",
+            "遠くないです"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "そんなに寒くないですよ。",
+          "japanese_with_blank": "[___]寒くないですよ。",
+          "english": "It's not that cold.",
+          "target_answer": "そんなに",
+          "hint": "that much",
+          "scramble_blocks": [
+            "そんなに",
+            "寒くないです",
+            "よ"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "そんなに急がなくてもいいです。",
+          "japanese_with_blank": "[___]急がなくてもいいです。",
+          "english": "You don't have to rush.",
+          "target_answer": "そんなに",
+          "hint": "that much",
+          "scramble_blocks": [
+            "そんなに",
+            "急がなくてもいいです"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

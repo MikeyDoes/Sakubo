@@ -73,6 +73,106 @@
           "audio_text": "先生が知らないはずがありません。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "そんなはずがないです。",
+          "japanese_with_blank": "そんな[___]ないです。",
+          "english": "That can't be.",
+          "target_answer": "はずが",
+          "hint": "impossibility",
+          "scramble_blocks": [
+            "そんな",
+            "はずが",
+            "ないです"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "彼が知らないはずがないです。",
+          "japanese_with_blank": "彼が知らない[___]ないです。",
+          "english": "There's no way he doesn't know.",
+          "target_answer": "はずが",
+          "hint": "impossibility",
+          "scramble_blocks": [
+            "彼",
+            "が",
+            "知らない",
+            "はずが",
+            "ないです"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "あの店が高いはずがないです。",
+          "japanese_with_blank": "あの店が高い[___]ないです。",
+          "english": "That shop can't be expensive.",
+          "target_answer": "はずが",
+          "hint": "impossibility",
+          "scramble_blocks": [
+            "あの",
+            "店",
+            "が",
+            "高い",
+            "はずが",
+            "ないです"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "先生が間違えるはずがないです。",
+          "japanese_with_blank": "先生が間違える[___]ないです。",
+          "english": "No way the teacher is wrong.",
+          "target_answer": "はずが",
+          "hint": "impossibility",
+          "scramble_blocks": [
+            "先生",
+            "が",
+            "間違える",
+            "はずが",
+            "ないです"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "こんなに簡単なはずがないです。",
+          "japanese_with_blank": "こんなに簡単な[___]ないです。",
+          "english": "It can't be this easy.",
+          "target_answer": "はずが",
+          "hint": "impossibility",
+          "scramble_blocks": [
+            "こんなに",
+            "簡単な",
+            "はずが",
+            "ないです"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "彼が忘れるはずがないです。",
+          "japanese_with_blank": "彼が忘れる[___]ないです。",
+          "english": "No way he forgot.",
+          "target_answer": "はずが",
+          "hint": "impossibility",
+          "scramble_blocks": [
+            "彼",
+            "が",
+            "忘れる",
+            "はずが",
+            "ないです"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

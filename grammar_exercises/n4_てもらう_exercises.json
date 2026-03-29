@@ -75,6 +75,110 @@
           "audio_text": "兄に送ってもらいました。",
           "notes": "送る → 送ってもらう.",
           "position": 4
+        },
+        {
+          "japanese": "友達に手伝ってもらいました。",
+          "japanese_with_blank": "友達に手伝って[___]。",
+          "english": "I had my friend help me.",
+          "target_answer": "もらいました",
+          "hint": "received help",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "手伝って",
+            "もらいました"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "先生に教えてもらいました。",
+          "japanese_with_blank": "先生に教えて[___]。",
+          "english": "The teacher taught me.",
+          "target_answer": "もらいました",
+          "hint": "received help",
+          "scramble_blocks": [
+            "先生",
+            "に",
+            "教えて",
+            "もらいました"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "姉に料理を作ってもらいました。",
+          "japanese_with_blank": "姉に料理を作って[___]。",
+          "english": "My sister cooked for me.",
+          "target_answer": "もらいました",
+          "hint": "received help",
+          "scramble_blocks": [
+            "姉",
+            "に",
+            "料理",
+            "を",
+            "作って",
+            "もらいました"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達に写真を撮ってもらいました。",
+          "japanese_with_blank": "友達に写真を撮って[___]。",
+          "english": "I had my friend take a photo.",
+          "target_answer": "もらいました",
+          "hint": "received help",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "写真",
+            "を",
+            "撮って",
+            "もらいました"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "弟に荷物を持ってもらいました。",
+          "japanese_with_blank": "弟に荷物を持って[___]。",
+          "english": "I had my brother carry bags.",
+          "target_answer": "もらいました",
+          "hint": "received help",
+          "scramble_blocks": [
+            "弟",
+            "に",
+            "荷物",
+            "を",
+            "持って",
+            "もらいました"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達に駅まで送ってもらいました。",
+          "japanese_with_blank": "友達に駅まで送って[___]。",
+          "english": "My friend drove me to station.",
+          "target_answer": "もらいました",
+          "hint": "received help",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "駅",
+            "まで",
+            "送って",
+            "もらいました"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

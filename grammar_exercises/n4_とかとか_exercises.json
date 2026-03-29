@@ -87,6 +87,118 @@
           "audio_text": "朝はパンとかご飯とかを食べます。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "卵とかパンとかを買いました。",
+          "japanese_with_blank": "卵[___]パンとかを買いました。",
+          "english": "I bought things like eggs and bread.",
+          "target_answer": "とか",
+          "alternative_answers": [],
+          "hint": "things like",
+          "scramble_blocks": [
+            "卵",
+            "とか",
+            "パン",
+            "とか",
+            "を",
+            "買いました"
+          ],
+          "audio_text": "卵とかパンとかを買いました。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "音楽とか映画とかが好きです。",
+          "japanese_with_blank": "音楽[___]映画とかが好きです。",
+          "english": "I like things like music and movies.",
+          "target_answer": "とか",
+          "alternative_answers": [],
+          "hint": "things like",
+          "scramble_blocks": [
+            "音楽",
+            "とか",
+            "映画",
+            "とか",
+            "が",
+            "好きです"
+          ],
+          "audio_text": "音楽とか映画とかが好きです。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "映画とか音楽とかが好きです。",
+          "japanese_with_blank": "映画[___]音楽[___]が好きです。",
+          "english": "I like movies and music etc.",
+          "target_answer": "とか",
+          "hint": "such as",
+          "scramble_blocks": [
+            "映画",
+            "とか",
+            "音楽",
+            "とか",
+            "が",
+            "好きです"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "本とか雑誌とかを読みます。",
+          "japanese_with_blank": "本[___]雑誌[___]を読みます。",
+          "english": "I read books and magazines etc.",
+          "target_answer": "とか",
+          "hint": "such as",
+          "scramble_blocks": [
+            "本",
+            "とか",
+            "雑誌",
+            "とか",
+            "を",
+            "読みます"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "散歩とか買い物とかをします。",
+          "japanese_with_blank": "散歩[___]買い物とかをします。",
+          "english": "I do things like walking and shopping.",
+          "target_answer": "とか",
+          "alternative_answers": [],
+          "hint": "things like",
+          "scramble_blocks": [
+            "散歩",
+            "とか",
+            "買い物",
+            "とか",
+            "を",
+            "します"
+          ],
+          "audio_text": "散歩とか買い物とかをします。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "公園とか駅とかに行きました。",
+          "japanese_with_blank": "公園[___]駅とかに行きました。",
+          "english": "I went to places like the park and station.",
+          "target_answer": "とか",
+          "alternative_answers": [],
+          "hint": "things like",
+          "scramble_blocks": [
+            "公園",
+            "とか",
+            "駅",
+            "とか",
+            "に",
+            "行きました"
+          ],
+          "audio_text": "公園とか駅とかに行きました。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

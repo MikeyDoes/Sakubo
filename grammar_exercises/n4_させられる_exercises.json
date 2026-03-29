@@ -73,6 +73,110 @@
           "audio_text": "嫌いな食べ物を食べさせられました。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "先生に立たせられました。",
+          "japanese_with_blank": "先生に立たせられました。",
+          "english": "I was made to stand by the teacher.",
+          "target_answer": "させられました",
+          "alternative_answers": [],
+          "hint": "was made to",
+          "scramble_blocks": [
+            "先生",
+            "に",
+            "立た",
+            "させられました"
+          ],
+          "audio_text": "先生に立たせられました。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "友達に荷物を持たせられました。",
+          "japanese_with_blank": "友達に荷物を持たせられました。",
+          "english": "I was made to carry luggage by a friend.",
+          "target_answer": "させられました",
+          "alternative_answers": [],
+          "hint": "was made to",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "荷物",
+            "を",
+            "持た",
+            "させられました"
+          ],
+          "audio_text": "友達に荷物を持たせられました。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "毎日掃除させられました。",
+          "japanese_with_blank": "毎日掃除[___]。",
+          "english": "I was made to clean every day.",
+          "target_answer": "させられました",
+          "alternative_answers": [],
+          "hint": "was made to",
+          "scramble_blocks": [
+            "毎日",
+            "掃除",
+            "させられました"
+          ],
+          "audio_text": "毎日掃除させられました。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "一時間歩かせられました。",
+          "japanese_with_blank": "一時間歩かせられました。",
+          "english": "I was made to walk for an hour.",
+          "target_answer": "させられました",
+          "alternative_answers": [],
+          "hint": "was made to",
+          "scramble_blocks": [
+            "一時間",
+            "歩か",
+            "させられました"
+          ],
+          "audio_text": "一時間歩かせられました。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "子供の時たくさん勉強させられました。",
+          "japanese_with_blank": "子供の時たくさん勉強[___]。",
+          "english": "I was made to study a lot as a child.",
+          "target_answer": "させられました",
+          "alternative_answers": [],
+          "hint": "was made to",
+          "scramble_blocks": [
+            "子供",
+            "の",
+            "時",
+            "たくさん",
+            "勉強",
+            "させられました"
+          ],
+          "audio_text": "子供の時たくさん勉強させられました。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "朝早く起きさせられました。",
+          "japanese_with_blank": "朝早く起き[___]。",
+          "english": "I was made to wake up early.",
+          "target_answer": "させられました",
+          "alternative_answers": [],
+          "hint": "was made to",
+          "scramble_blocks": [
+            "朝",
+            "早く",
+            "起き",
+            "させられました"
+          ],
+          "audio_text": "朝早く起きさせられました。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

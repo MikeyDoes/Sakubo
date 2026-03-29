@@ -75,6 +75,115 @@
           "audio_text": "来月日本に行く予定です。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "来週旅行に行く予定です。",
+          "japanese_with_blank": "来週旅行に行く[___]。",
+          "english": "I'm planning to go on a trip next week.",
+          "target_answer": "予定です",
+          "alternative_answers": [],
+          "hint": "plan",
+          "scramble_blocks": [
+            "来週",
+            "旅行",
+            "に",
+            "行く",
+            "予定です"
+          ],
+          "audio_text": "来週旅行に行く予定です。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "今日は三時に帰る予定です。",
+          "japanese_with_blank": "今日は三時に帰る[___]。",
+          "english": "I'm planning to go home at 3 o'clock today.",
+          "target_answer": "予定です",
+          "alternative_answers": [],
+          "hint": "plan",
+          "scramble_blocks": [
+            "今日",
+            "は",
+            "三時",
+            "に",
+            "帰る",
+            "予定です"
+          ],
+          "audio_text": "今日は三時に帰る予定です。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "日曜日に友達と会う予定です。",
+          "japanese_with_blank": "日曜日に友達と会う[___]。",
+          "english": "I'm planning to meet a friend on Sunday.",
+          "target_answer": "予定です",
+          "alternative_answers": [],
+          "hint": "plan",
+          "scramble_blocks": [
+            "日曜日",
+            "に",
+            "友達",
+            "と",
+            "会う",
+            "予定です"
+          ],
+          "audio_text": "日曜日に友達と会う予定です。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "夏休みに日本に行く予定です。",
+          "japanese_with_blank": "夏休みに日本に行く[___]。",
+          "english": "I'm planning to go to Japan during summer vacation.",
+          "target_answer": "予定です",
+          "alternative_answers": [],
+          "hint": "plan",
+          "scramble_blocks": [
+            "夏休み",
+            "に",
+            "日本",
+            "に",
+            "行く",
+            "予定です"
+          ],
+          "audio_text": "夏休みに日本に行く予定です。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "来年引っ越す予定です。",
+          "japanese_with_blank": "来年引っ越す[___]。",
+          "english": "I'm planning to move next year.",
+          "target_answer": "予定です",
+          "alternative_answers": [],
+          "hint": "plan",
+          "scramble_blocks": [
+            "来年",
+            "引っ越す",
+            "予定です"
+          ],
+          "audio_text": "来年引っ越す予定です。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "明日テストがある予定です。",
+          "japanese_with_blank": "明日テストがある[___]。",
+          "english": "There's supposed to be a test tomorrow.",
+          "target_answer": "予定です",
+          "alternative_answers": [],
+          "hint": "plan",
+          "scramble_blocks": [
+            "明日",
+            "テスト",
+            "が",
+            "ある",
+            "予定です"
+          ],
+          "audio_text": "明日テストがある予定です。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

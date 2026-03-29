@@ -71,6 +71,112 @@
           "audio_text": "寒そうに歩いています。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "子供が楽しそうに遊んでいます。",
+          "japanese_with_blank": "子供が楽し[___]遊んでいます。",
+          "english": "The kids play looking happy.",
+          "target_answer": "そうに",
+          "hint": "looking like",
+          "scramble_blocks": [
+            "子供",
+            "が",
+            "楽し",
+            "そうに",
+            "遊んでいます"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "友達がおいしそうにご飯を食べています。",
+          "japanese_with_blank": "友達がおいし[___]ご飯を食べています。",
+          "english": "My friend eats looking satisfied.",
+          "target_answer": "そうに",
+          "hint": "looking like",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "おいし",
+            "そうに",
+            "ご飯",
+            "を",
+            "食べています"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "姉がうれしそうに笑っています。",
+          "japanese_with_blank": "姉がうれし[___]笑っています。",
+          "english": "My sister smiles happily.",
+          "target_answer": "そうに",
+          "hint": "looking like",
+          "scramble_blocks": [
+            "姉",
+            "が",
+            "うれし",
+            "そうに",
+            "笑っています"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "弟が眠そうに歩いています。",
+          "japanese_with_blank": "弟が眠[___]歩いています。",
+          "english": "My brother walks looking sleepy.",
+          "target_answer": "そうに",
+          "hint": "looking like",
+          "scramble_blocks": [
+            "弟",
+            "が",
+            "眠",
+            "そうに",
+            "歩いています"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "猫が寒そうに丸くなっています。",
+          "japanese_with_blank": "猫が寒[___]丸くなっています。",
+          "english": "The cat curls up looking cold.",
+          "target_answer": "そうに",
+          "hint": "looking like",
+          "scramble_blocks": [
+            "猫",
+            "が",
+            "寒",
+            "そうに",
+            "丸くなっています"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "学生が難しそうに問題を読んでいます。",
+          "japanese_with_blank": "学生が難し[___]問題を読んでいます。",
+          "english": "The student reads looking puzzled.",
+          "target_answer": "そうに",
+          "hint": "looking like",
+          "scramble_blocks": [
+            "学生",
+            "が",
+            "難し",
+            "そうに",
+            "問題",
+            "を",
+            "読んでいます"
+          ],
+          "notes": "",
+          "position": 10,
+          "alternative_answers": []
         }
       ]
     }

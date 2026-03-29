@@ -76,6 +76,110 @@
           "audio_text": "お金がない場合は買いません。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "病気の場合は休んでください。",
+          "japanese_with_blank": "病気の[___]休んでください。",
+          "english": "In the case of illness, please rest.",
+          "target_answer": "場合は",
+          "alternative_answers": [],
+          "hint": "in the case of",
+          "scramble_blocks": [
+            "病気",
+            "の",
+            "場合は",
+            "休んでください"
+          ],
+          "audio_text": "病気の場合は休んでください。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "時間がない場合は電話してください。",
+          "japanese_with_blank": "時間がない[___]電話してください。",
+          "english": "If you don't have time, please call.",
+          "target_answer": "場合は",
+          "alternative_answers": [],
+          "hint": "in the case of",
+          "scramble_blocks": [
+            "時間",
+            "が",
+            "ない",
+            "場合は",
+            "電話してください"
+          ],
+          "audio_text": "時間がない場合は電話してください。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "質問がある場合は聞いてください。",
+          "japanese_with_blank": "質問がある[___]聞いてください。",
+          "english": "If you have questions, please ask.",
+          "target_answer": "場合は",
+          "alternative_answers": [],
+          "hint": "in the case of",
+          "scramble_blocks": [
+            "質問",
+            "が",
+            "ある",
+            "場合は",
+            "聞いてください"
+          ],
+          "audio_text": "質問がある場合は聞いてください。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "寒い場合は窓を閉めてください。",
+          "japanese_with_blank": "寒い[___]窓を閉めてください。",
+          "english": "If it gets cold, please close the window.",
+          "target_answer": "場合は",
+          "alternative_answers": [],
+          "hint": "in the case of",
+          "scramble_blocks": [
+            "寒い",
+            "場合は",
+            "窓",
+            "を",
+            "閉めてください"
+          ],
+          "audio_text": "寒い場合は窓を閉めてください。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "分からない場合はもう一度言ってください。",
+          "japanese_with_blank": "分からない[___]もう一度言ってください。",
+          "english": "If you don't understand, please say it again.",
+          "target_answer": "場合は",
+          "alternative_answers": [],
+          "hint": "in the case of",
+          "scramble_blocks": [
+            "分からない",
+            "場合は",
+            "もう一度",
+            "言ってください"
+          ],
+          "audio_text": "分からない場合はもう一度言ってください。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "忘れた場合は買いましょう。",
+          "japanese_with_blank": "忘れた[___]買いましょう。",
+          "english": "In case you forgot, let's buy it.",
+          "target_answer": "場合は",
+          "alternative_answers": [],
+          "hint": "in the case of",
+          "scramble_blocks": [
+            "忘れた",
+            "場合は",
+            "買いましょう"
+          ],
+          "audio_text": "忘れた場合は買いましょう。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

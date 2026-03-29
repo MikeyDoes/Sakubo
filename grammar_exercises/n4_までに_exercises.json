@@ -71,6 +71,99 @@
           "audio_text": "明日までに電話してください。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "五時までに帰ります。",
+          "japanese_with_blank": "五時[___]帰ります。",
+          "english": "I'll be back by 5.",
+          "target_answer": "までに",
+          "hint": "by (deadline)",
+          "scramble_blocks": [
+            "五時",
+            "までに",
+            "帰ります"
+          ],
+          "notes": "",
+          "position": 5,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "明日までに宿題を出してください。",
+          "japanese_with_blank": "明日[___]宿題を出してください。",
+          "english": "Please submit homework by tomorrow.",
+          "target_answer": "までに",
+          "hint": "by (deadline)",
+          "scramble_blocks": [
+            "明日",
+            "までに",
+            "宿題",
+            "を",
+            "出してください"
+          ],
+          "notes": "",
+          "position": 6,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "来週までに決めます。",
+          "japanese_with_blank": "来週[___]決めます。",
+          "english": "I'll decide by next week.",
+          "target_answer": "までに",
+          "hint": "by (deadline)",
+          "scramble_blocks": [
+            "来週",
+            "までに",
+            "決めます"
+          ],
+          "notes": "",
+          "position": 7,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "三月までに引っ越します。",
+          "japanese_with_blank": "三月[___]引っ越します。",
+          "english": "I'll move by March.",
+          "target_answer": "までに",
+          "hint": "by (deadline)",
+          "scramble_blocks": [
+            "三月",
+            "までに",
+            "引っ越します"
+          ],
+          "notes": "",
+          "position": 8,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "十時までに寝なければいけません。",
+          "japanese_with_blank": "十時[___]寝なければいけません。",
+          "english": "I must sleep by 10.",
+          "target_answer": "までに",
+          "hint": "by (deadline)",
+          "scramble_blocks": [
+            "十時",
+            "までに",
+            "寝なければいけません"
+          ],
+          "notes": "",
+          "position": 9,
+          "alternative_answers": []
+        },
+        {
+          "japanese": "今月までに読みます。",
+          "japanese_with_blank": "今月[___]読みます。",
+          "english": "I'll read it by this month.",
+          "target_answer": "までに",
+          "alternative_answers": [],
+          "hint": "by",
+          "scramble_blocks": [
+            "今月",
+            "までに",
+            "読みます"
+          ],
+          "audio_text": "今月までに読みます。",
+          "notes": "",
+          "position": 10
         }
       ]
     }

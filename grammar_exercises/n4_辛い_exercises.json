@@ -79,6 +79,120 @@
           "audio_text": "先生に話しづらいです。",
           "notes": "",
           "position": 4
+        },
+        {
+          "japanese": "この字は読みづらいです。",
+          "japanese_with_blank": "この字は読み[___]です。",
+          "english": "This character is hard to read.",
+          "target_answer": "づらい",
+          "alternative_answers": [],
+          "hint": "hard to",
+          "scramble_blocks": [
+            "この",
+            "字",
+            "は",
+            "読み",
+            "づらい",
+            "です"
+          ],
+          "audio_text": "この字は読みづらいです。",
+          "notes": "",
+          "position": 5
+        },
+        {
+          "japanese": "この道は歩きづらいです。",
+          "japanese_with_blank": "この道は歩き[___]です。",
+          "english": "This road is hard to walk on.",
+          "target_answer": "づらい",
+          "alternative_answers": [],
+          "hint": "hard to",
+          "scramble_blocks": [
+            "この",
+            "道",
+            "は",
+            "歩き",
+            "づらい",
+            "です"
+          ],
+          "audio_text": "この道は歩きづらいです。",
+          "notes": "",
+          "position": 6
+        },
+        {
+          "japanese": "この本は分かりづらいです。",
+          "japanese_with_blank": "この本は分かり[___]です。",
+          "english": "This book is hard to understand.",
+          "target_answer": "づらい",
+          "alternative_answers": [],
+          "hint": "hard to",
+          "scramble_blocks": [
+            "この",
+            "本",
+            "は",
+            "分かり",
+            "づらい",
+            "です"
+          ],
+          "audio_text": "この本は分かりづらいです。",
+          "notes": "",
+          "position": 7
+        },
+        {
+          "japanese": "友達にお金のことは聞きづらいです。",
+          "japanese_with_blank": "友達にお金のことは聞き[___]です。",
+          "english": "It's hard to ask a friend about money.",
+          "target_answer": "づらい",
+          "alternative_answers": [],
+          "hint": "hard to",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "お金",
+            "の",
+            "ことは",
+            "聞き",
+            "づらい",
+            "です"
+          ],
+          "audio_text": "友達にお金のことは聞きづらいです。",
+          "notes": "",
+          "position": 8
+        },
+        {
+          "japanese": "もう食べづらいです。",
+          "japanese_with_blank": "もう食べ[___]です。",
+          "english": "It's hard to eat anymore.",
+          "target_answer": "づらい",
+          "alternative_answers": [],
+          "hint": "hard to",
+          "scramble_blocks": [
+            "もう",
+            "食べ",
+            "づらい",
+            "です"
+          ],
+          "audio_text": "もう食べづらいです。",
+          "notes": "",
+          "position": 9
+        },
+        {
+          "japanese": "この箸は使いづらいです。",
+          "japanese_with_blank": "この箸は使い[___]です。",
+          "english": "These chopsticks are hard to use.",
+          "target_answer": "づらい",
+          "alternative_answers": [],
+          "hint": "hard to",
+          "scramble_blocks": [
+            "この",
+            "箸",
+            "は",
+            "使い",
+            "づらい",
+            "です"
+          ],
+          "audio_text": "この箸は使いづらいです。",
+          "notes": "",
+          "position": 10
         }
       ]
     }
