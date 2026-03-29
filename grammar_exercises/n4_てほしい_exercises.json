@@ -25,20 +25,20 @@
           "position": 1
         },
         {
-          "japanese": "母に分かってほしいです。",
-          "japanese_with_blank": "母に分かっ[___]です。",
-          "english": "I want my mother to understand.",
+          "japanese": "友達に分かってほしいです。",
+          "japanese_with_blank": "友達に分かっ[___]です。",
+          "english": "I want my friend to understand.",
           "target_answer": "てほしい",
           "alternative_answers": [],
           "hint": "want someone to",
           "scramble_blocks": [
-            "母",
+            "友達",
             "に",
             "分かっ",
             "てほしい",
             "です"
           ],
-          "audio_text": "母に分かってほしいです。",
+          "audio_text": "友達に分かってほしいです。",
           "notes": "分かる → 分かってほしい.",
           "position": 2
         },
@@ -119,34 +119,38 @@
           "position": 1
         },
         {
-          "japanese": "心配しないでほしいです。",
-          "japanese_with_blank": "心配し[___]です。",
-          "english": "I don't want you to worry.",
+          "japanese": "友達に走らないでほしいです。",
+          "japanese_with_blank": "友達に走ら[___]です。",
+          "english": "I want my friend not to run.",
           "target_answer": "ないでほしい",
           "alternative_answers": [],
           "hint": "want someone not to",
           "scramble_blocks": [
-            "心配し",
+            "友達",
+            "に",
+            "走ら",
             "ないでほしい",
             "です"
           ],
-          "audio_text": "心配しないでほしいです。",
+          "audio_text": "友達に走らないでほしいです。",
           "notes": "する → しないでほしい.",
           "position": 2
         },
         {
-          "japanese": "遅れないでほしいです。",
-          "japanese_with_blank": "遅れ[___]です。",
-          "english": "I don't want you to be late.",
+          "japanese": "一人で行かないでほしいです。",
+          "japanese_with_blank": "一人で行か[___]です。",
+          "english": "I don't want you to go alone.",
           "target_answer": "ないでほしい",
           "alternative_answers": [],
           "hint": "want someone not to",
           "scramble_blocks": [
-            "遅れ",
+            "一人",
+            "で",
+            "行か",
             "ないでほしい",
             "です"
           ],
-          "audio_text": "遅れないでほしいです。",
+          "audio_text": "一人で行かないでほしいです。",
           "notes": "遅れる → 遅れないでほしい.",
           "position": 3
         }

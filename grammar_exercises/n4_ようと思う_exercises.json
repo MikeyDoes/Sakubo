@@ -43,19 +43,19 @@
           "position": 2
         },
         {
-          "japanese": "明日から運動しようと思います。",
-          "japanese_with_blank": "明日から運動しよう[___]。",
-          "english": "I'm thinking of exercising starting tomorrow.",
+          "japanese": "明日から散歩しようと思います。",
+          "japanese_with_blank": "明日から散歩しよう[___]。",
+          "english": "I'm thinking of taking walks starting tomorrow.",
           "target_answer": "と思います",
           "alternative_answers": [],
           "hint": "thinking of",
           "scramble_blocks": [
             "明日",
             "から",
-            "運動しよう",
+            "散歩しよう",
             "と思います"
           ],
-          "audio_text": "明日から運動しようと思います。",
+          "audio_text": "明日から散歩しようと思います。",
           "notes": "",
           "position": 3
         },

@@ -42,9 +42,9 @@
           "position": 2
         },
         {
-          "japanese": "あの人は優しそうです。",
-          "japanese_with_blank": "あの人は優し[___]。",
-          "english": "That person looks kind.",
+          "japanese": "あの人は上手そうです。",
+          "japanese_with_blank": "あの人は上手[___]。",
+          "english": "That person seems skilled.",
           "target_answer": "そうです",
           "alternative_answers": [],
           "hint": "seems",
@@ -52,10 +52,10 @@
             "あの",
             "人",
             "は",
-            "優し",
+            "上手",
             "そうです"
           ],
-          "audio_text": "あの人は優しそうです。",
+          "audio_text": "あの人は上手そうです。",
           "notes": "",
           "position": 3
         },
@@ -136,20 +136,20 @@
           "position": 2
         },
         {
-          "japanese": "田中さんは元気だそうです。",
-          "japanese_with_blank": "田中さんは元気だ[___]。",
-          "english": "I heard Tanaka-san is well.",
+          "japanese": "友達は元気だそうです。",
+          "japanese_with_blank": "友達は元気だ[___]。",
+          "english": "I heard my friend is well.",
           "target_answer": "そうです",
           "alternative_answers": [],
           "hint": "I heard",
           "scramble_blocks": [
-            "田中さん",
+            "友達",
             "は",
             "元気",
             "だ",
             "そうです"
           ],
-          "audio_text": "田中さんは元気だそうです。",
+          "audio_text": "友達は元気だそうです。",
           "notes": "",
           "position": 3
         },

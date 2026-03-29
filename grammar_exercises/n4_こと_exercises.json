@@ -64,21 +64,21 @@
           "position": 3
         },
         {
-          "japanese": "毎日運動することが大切です。",
-          "japanese_with_blank": "毎日運動する[___]が大切です。",
-          "english": "Exercising every day is important.",
+          "japanese": "毎日散歩することが大切です。",
+          "japanese_with_blank": "毎日散歩する[___]が大切です。",
+          "english": "Taking walks every day is important.",
           "target_answer": "こと",
           "alternative_answers": [],
           "hint": "nominalizer",
           "scramble_blocks": [
             "毎日",
-            "運動する",
+            "散歩する",
             "こと",
             "が",
             "大切",
             "です"
           ],
-          "audio_text": "毎日運動することが大切です。",
+          "audio_text": "毎日散歩することが大切です。",
           "notes": "",
           "position": 4
         }

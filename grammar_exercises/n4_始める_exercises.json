@@ -75,19 +75,19 @@
           "position": 4
         },
         {
-          "japanese": "桜が咲き始めました。",
-          "japanese_with_blank": "桜が咲き[___]。",
-          "english": "The cherry blossoms started blooming.",
+          "japanese": "雨が降り始めました。",
+          "japanese_with_blank": "雨が降り[___]。",
+          "english": "It started raining.",
           "target_answer": "始めました",
           "alternative_answers": [],
           "hint": "started",
           "scramble_blocks": [
-            "桜",
+            "雨",
             "が",
-            "咲き",
+            "降り",
             "始めました"
           ],
-          "audio_text": "桜が咲き始めました。",
+          "audio_text": "雨が降り始めました。",
           "notes": "",
           "position": 5
         }

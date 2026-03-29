@@ -24,19 +24,20 @@
           "position": 1
         },
         {
-          "japanese": "人が減っていきます。",
-          "japanese_with_blank": "人が減っ[___]。",
-          "english": "The number of people will decrease.",
+          "japanese": "天気がよくなっていきます。",
+          "japanese_with_blank": "天気がよくなっ[___]。",
+          "english": "The weather will keep getting better.",
           "target_answer": "ていきます",
           "alternative_answers": [],
           "hint": "gradually (away)",
           "scramble_blocks": [
-            "人",
+            "天気",
             "が",
-            "減っ",
+            "よく",
+            "なっ",
             "ていきます"
           ],
-          "audio_text": "人が減っていきます。",
+          "audio_text": "天気がよくなっていきます。",
           "notes": "Gradual decrease.",
           "position": 2
         },

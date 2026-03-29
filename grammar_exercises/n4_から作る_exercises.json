@@ -7,36 +7,37 @@
       "label": "Made From / Made With",
       "sentences": [
         {
-          "japanese": "ワインはぶどうから作ります。",
-          "japanese_with_blank": "ワインはぶどう[___]。",
-          "english": "Wine is made from grapes.",
+          "japanese": "この料理は魚から作ります。",
+          "japanese_with_blank": "この料理は魚[___]。",
+          "english": "This dish is made from fish.",
           "target_answer": "から作ります",
           "alternative_answers": [],
           "hint": "made from",
           "scramble_blocks": [
-            "ワイン",
+            "この",
+            "料理",
             "は",
-            "ぶどう",
+            "魚",
             "から作ります"
           ],
-          "audio_text": "ワインはぶどうから作ります。",
+          "audio_text": "この料理は魚から作ります。",
           "notes": "",
           "position": 1
         },
         {
-          "japanese": "豆腐は大豆から作られます。",
-          "japanese_with_blank": "豆腐は大豆[___]。",
-          "english": "Tofu is made from soybeans.",
+          "japanese": "紙は木から作られます。",
+          "japanese_with_blank": "紙は木[___]。",
+          "english": "Paper is made from wood.",
           "target_answer": "から作られます",
           "alternative_answers": [],
           "hint": "made from",
           "scramble_blocks": [
-            "豆腐",
+            "紙",
             "は",
-            "大豆",
+            "木",
             "から作られます"
           ],
-          "audio_text": "豆腐は大豆から作られます。",
+          "audio_text": "紙は木から作られます。",
           "notes": "",
           "position": 2
         },
@@ -58,19 +59,20 @@
           "position": 3
         },
         {
-          "japanese": "チーズは牛乳から作られます。",
-          "japanese_with_blank": "チーズは牛乳[___]。",
-          "english": "Cheese is made from milk.",
+          "japanese": "このお茶は花から作られます。",
+          "japanese_with_blank": "このお茶は花[___]。",
+          "english": "This tea is made from flowers.",
           "target_answer": "から作られます",
           "alternative_answers": [],
           "hint": "made from",
           "scramble_blocks": [
-            "チーズ",
+            "この",
+            "お茶",
             "は",
-            "牛乳",
+            "花",
             "から作られます"
           ],
-          "audio_text": "チーズは牛乳から作られます。",
+          "audio_text": "このお茶は花から作られます。",
           "notes": "",
           "position": 4
         }

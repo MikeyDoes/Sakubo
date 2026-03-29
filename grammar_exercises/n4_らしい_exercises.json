@@ -44,20 +44,20 @@
           "position": 2
         },
         {
-          "japanese": "田中さんは引っ越したらしいです。",
-          "japanese_with_blank": "田中さんは引っ越した[___]です。",
-          "english": "Apparently Tanaka-san moved.",
+          "japanese": "友達は引っ越したらしいです。",
+          "japanese_with_blank": "友達は引っ越した[___]です。",
+          "english": "Apparently my friend moved.",
           "target_answer": "らしい",
           "alternative_answers": [],
           "hint": "apparently",
           "scramble_blocks": [
-            "田中さん",
+            "友達",
             "は",
             "引っ越した",
             "らしい",
             "です"
           ],
-          "audio_text": "田中さんは引っ越したらしいです。",
+          "audio_text": "友達は引っ越したらしいです。",
           "notes": "",
           "position": 3
         },

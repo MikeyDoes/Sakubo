@@ -24,18 +24,18 @@
           "position": 1
         },
         {
-          "japanese": "もう届いたはずです。",
-          "japanese_with_blank": "もう届いた[___]。",
-          "english": "It should have already arrived.",
+          "japanese": "もう帰ったはずです。",
+          "japanese_with_blank": "もう帰った[___]。",
+          "english": "They should have already gone home.",
           "target_answer": "はずです",
           "alternative_answers": [],
           "hint": "should have",
           "scramble_blocks": [
             "もう",
-            "届いた",
+            "帰った",
             "はずです"
           ],
-          "audio_text": "もう届いたはずです。",
+          "audio_text": "もう帰ったはずです。",
           "notes": "",
           "position": 2
         },

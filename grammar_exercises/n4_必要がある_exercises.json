@@ -56,18 +56,18 @@
           "position": 3
         },
         {
-          "japanese": "もう一度確認する必要があります。",
-          "japanese_with_blank": "もう一度確認する[___]。",
-          "english": "There is a need to confirm once more.",
+          "japanese": "もう一度練習する必要があります。",
+          "japanese_with_blank": "もう一度練習する[___]。",
+          "english": "There is a need to practice once more.",
           "target_answer": "必要があります",
           "alternative_answers": [],
           "hint": "need to",
           "scramble_blocks": [
             "もう一度",
-            "確認する",
+            "練習する",
             "必要があります"
           ],
-          "audio_text": "もう一度確認する必要があります。",
+          "audio_text": "もう一度練習する必要があります。",
           "notes": "",
           "position": 4
         }

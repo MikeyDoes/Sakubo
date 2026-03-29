@@ -41,21 +41,21 @@
           "position": 2
         },
         {
-          "japanese": "母に作ってもらった料理です。",
-          "japanese_with_blank": "母に作っ[___]料理です。",
-          "english": "It's a dish I had my mother make.",
+          "japanese": "友達に作ってもらった料理です。",
+          "japanese_with_blank": "友達に作っ[___]料理です。",
+          "english": "It's a dish I had my friend make.",
           "target_answer": "てもらった",
           "alternative_answers": [],
           "hint": "had someone do (plain)",
           "scramble_blocks": [
-            "母",
+            "友達",
             "に",
             "作っ",
             "てもらった",
             "料理",
             "です"
           ],
-          "audio_text": "母に作ってもらった料理です。",
+          "audio_text": "友達に作ってもらった料理です。",
           "notes": "てもらった modifying a noun.",
           "position": 3
         },

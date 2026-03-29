@@ -41,19 +41,19 @@
           "position": 2
         },
         {
-          "japanese": "何時に終わるかな。",
-          "japanese_with_blank": "何時に終わる[___]。",
-          "english": "I wonder what time it'll finish.",
+          "japanese": "何時に帰るかな。",
+          "japanese_with_blank": "何時に帰る[___]。",
+          "english": "I wonder what time they'll come back.",
           "target_answer": "かな",
           "alternative_answers": [],
           "hint": "I wonder",
           "scramble_blocks": [
             "何時",
             "に",
-            "終わる",
+            "帰る",
             "かな"
           ],
-          "audio_text": "何時に終わるかな。",
+          "audio_text": "何時に帰るかな。",
           "notes": "",
           "position": 3
         },

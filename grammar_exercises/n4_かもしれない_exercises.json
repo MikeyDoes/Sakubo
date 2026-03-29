@@ -74,18 +74,18 @@
           "position": 4
         },
         {
-          "japanese": "もう終わったかもしれません。",
-          "japanese_with_blank": "もう終わった[___]。",
-          "english": "It might already be over.",
+          "japanese": "もう帰ったかもしれません。",
+          "japanese_with_blank": "もう帰った[___]。",
+          "english": "They might have already gone home.",
           "target_answer": "かもしれません",
           "alternative_answers": [],
           "hint": "might",
           "scramble_blocks": [
             "もう",
-            "終わった",
+            "帰った",
             "かもしれません"
           ],
-          "audio_text": "もう終わったかもしれません。",
+          "audio_text": "もう帰ったかもしれません。",
           "notes": "",
           "position": 5
         }

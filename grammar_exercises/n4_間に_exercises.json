@@ -25,20 +25,20 @@
           "position": 1
         },
         {
-          "japanese": "旅行している間に荷物が届きました。",
-          "japanese_with_blank": "旅行している[___]荷物が届きました。",
-          "english": "A package arrived while I was traveling.",
+          "japanese": "旅行している間に友達が来ました。",
+          "japanese_with_blank": "旅行している[___]友達が来ました。",
+          "english": "A friend came while I was traveling.",
           "target_answer": "間に",
           "alternative_answers": [],
           "hint": "while",
           "scramble_blocks": [
             "旅行している",
             "間に",
-            "荷物",
+            "友達",
             "が",
-            "届きました"
+            "来ました"
           ],
-          "audio_text": "旅行している間に荷物が届きました。",
+          "audio_text": "旅行している間に友達が来ました。",
           "notes": "",
           "position": 2
         },

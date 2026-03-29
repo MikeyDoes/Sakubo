@@ -81,37 +81,37 @@
           "position": 1
         },
         {
-          "japanese": "電車に遅れてしまいました。",
-          "japanese_with_blank": "電車に遅れ[___]。",
-          "english": "I unfortunately missed the train.",
+          "japanese": "宿題を忘れてしまいました。",
+          "japanese_with_blank": "宿題を忘れ[___]。",
+          "english": "I accidentally forgot my homework.",
           "target_answer": "てしまいました",
           "alternative_answers": [],
           "hint": "unfortunately did",
           "scramble_blocks": [
-            "電車",
-            "に",
-            "遅れ",
+            "宿題",
+            "を",
+            "忘れ",
             "てしまいました"
           ],
-          "audio_text": "電車に遅れてしまいました。",
+          "audio_text": "宿題を忘れてしまいました。",
           "notes": "Regret for being late.",
           "position": 2
         },
         {
-          "japanese": "大事な物を無くしてしまいました。",
-          "japanese_with_blank": "大事な物を無くし[___]。",
-          "english": "I accidentally lost something important.",
+          "japanese": "大切な本を無くしてしまいました。",
+          "japanese_with_blank": "大切な本を無くし[___]。",
+          "english": "I accidentally lost an important book.",
           "target_answer": "てしまいました",
           "alternative_answers": [],
           "hint": "unfortunately did",
           "scramble_blocks": [
-            "大事な",
-            "物",
+            "大切な",
+            "本",
             "を",
             "無くし",
             "てしまいました"
           ],
-          "audio_text": "大事な物を無くしてしまいました。",
+          "audio_text": "大切な本を無くしてしまいました。",
           "notes": "Regrettable loss.",
           "position": 3
         }

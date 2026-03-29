@@ -70,14 +70,14 @@
           "position": 3
         },
         {
-          "japanese": "東京は大きいですが、この町は小さいです。",
-          "japanese_with_blank": "東京は大きいです[___]この町は小さいです。",
-          "english": "Tokyo is big, but this town is small.",
+          "japanese": "日本は大きいですが、この町は小さいです。",
+          "japanese_with_blank": "日本は大きいです[___]この町は小さいです。",
+          "english": "Japan is big, but this town is small.",
           "target_answer": "が、",
           "alternative_answers": [],
           "hint": "but",
           "scramble_blocks": [
-            "東京",
+            "日本",
             "は",
             "大きい",
             "です",
@@ -88,7 +88,7 @@
             "小さい",
             "です"
           ],
-          "audio_text": "東京は大きいですが、この町は小さいです。",
+          "audio_text": "日本は大きいですが、この町は小さいです。",
           "notes": "",
           "position": 4
         }

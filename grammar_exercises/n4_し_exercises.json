@@ -48,9 +48,9 @@
           "position": 2
         },
         {
-          "japanese": "あの人は優しいし、面白いです。",
-          "japanese_with_blank": "あの人は優しい[___]面白いです。",
-          "english": "That person is kind, and funny.",
+          "japanese": "あの店は安いし、おいしいです。",
+          "japanese_with_blank": "あの店は安い[___]おいしいです。",
+          "english": "That restaurant is cheap, and delicious.",
           "target_answer": "し、",
           "alternative_answers": [
             "し"
@@ -58,13 +58,13 @@
           "hint": "and moreover",
           "scramble_blocks": [
             "あの",
-            "人",
+            "店",
             "は",
-            "優しい",
+            "安い",
             "し",
-            "面白いです"
+            "おいしいです"
           ],
-          "audio_text": "あの人は優しいし、面白いです。",
+          "audio_text": "あの店は安いし、おいしいです。",
           "notes": "い-adj + し + い-adj.",
           "position": 3
         },

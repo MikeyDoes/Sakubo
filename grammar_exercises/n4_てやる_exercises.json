@@ -62,21 +62,21 @@
           "position": 3
         },
         {
-          "japanese": "犬を散歩に連れて行ってやる。",
-          "japanese_with_blank": "犬を散歩に連れて行っ[___]。",
-          "english": "I'll take the dog for a walk.",
+          "japanese": "弟に本を買ってやる。",
+          "japanese_with_blank": "弟に本を買っ[___]。",
+          "english": "I'll buy a book for my younger brother.",
           "target_answer": "てやる",
           "alternative_answers": [],
           "hint": "do for (casual)",
           "scramble_blocks": [
-            "犬",
-            "を",
-            "散歩",
+            "弟",
             "に",
-            "連れて行っ",
+            "本",
+            "を",
+            "買っ",
             "てやる"
           ],
-          "audio_text": "犬を散歩に連れて行ってやる。",
+          "audio_text": "弟に本を買ってやる。",
           "notes": "Casual favors.",
           "position": 4
         }

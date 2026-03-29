@@ -43,38 +43,38 @@
           "position": 2
         },
         {
-          "japanese": "東京で働くことになりました。",
-          "japanese_with_blank": "東京で働く[___]。",
-          "english": "It has been decided that I'll work in Tokyo.",
+          "japanese": "日本で働くことになりました。",
+          "japanese_with_blank": "日本で働く[___]。",
+          "english": "It has been decided that I'll work in Japan.",
           "target_answer": "ことになりました",
           "alternative_answers": [],
           "hint": "it was decided",
           "scramble_blocks": [
-            "東京",
+            "日本",
             "で",
             "働く",
             "ことになりました"
           ],
-          "audio_text": "東京で働くことになりました。",
+          "audio_text": "日本で働くことになりました。",
           "notes": "",
           "position": 3
         },
         {
-          "japanese": "来週から会議は月曜日になることになりました。",
-          "japanese_with_blank": "来週から会議は月曜日になる[___]。",
-          "english": "It has been decided that meetings will be on Mondays starting next week.",
+          "japanese": "来週から授業は月曜日になることになりました。",
+          "japanese_with_blank": "来週から授業は月曜日になる[___]。",
+          "english": "It has been decided that classes will be on Mondays starting next week.",
           "target_answer": "ことになりました",
           "alternative_answers": [],
           "hint": "it was decided",
           "scramble_blocks": [
             "来週から",
-            "会議",
+            "授業",
             "は",
             "月曜日",
             "になる",
             "ことになりました"
           ],
-          "audio_text": "来週から会議は月曜日になることになりました。",
+          "audio_text": "来週から授業は月曜日になることになりました。",
           "notes": "",
           "position": 4
         }

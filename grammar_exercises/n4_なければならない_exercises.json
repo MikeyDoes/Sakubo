@@ -23,19 +23,18 @@
           "position": 1
         },
         {
-          "japanese": "ルールを守らなければなりません。",
-          "japanese_with_blank": "ルールを守ら[___]。",
-          "english": "You must follow the rules.",
+          "japanese": "毎日勉強しなければなりません。",
+          "japanese_with_blank": "毎日勉強し[___]。",
+          "english": "I must study every day.",
           "target_answer": "なければなりません",
           "alternative_answers": [],
           "hint": "must",
           "scramble_blocks": [
-            "ルール",
-            "を",
-            "守ら",
+            "毎日",
+            "勉強し",
             "なければなりません"
           ],
-          "audio_text": "ルールを守らなければなりません。",
+          "audio_text": "毎日勉強しなければなりません。",
           "notes": "",
           "position": 2
         },

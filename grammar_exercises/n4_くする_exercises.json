@@ -25,20 +25,19 @@
           "position": 1
         },
         {
-          "japanese": "音を小さくしてください。",
-          "japanese_with_blank": "音を小さ[___]ください。",
-          "english": "Please make the sound quieter.",
+          "japanese": "もっと安くしてください。",
+          "japanese_with_blank": "もっと安[___]ください。",
+          "english": "Please make it cheaper.",
           "target_answer": "くして",
           "alternative_answers": [],
           "hint": "make ~",
           "scramble_blocks": [
-            "音",
-            "を",
-            "小さ",
+            "もっと",
+            "安",
             "くして",
             "ください"
           ],
-          "audio_text": "音を小さくしてください。",
+          "audio_text": "もっと安くしてください。",
           "notes": "",
           "position": 2
         },

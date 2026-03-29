@@ -57,18 +57,18 @@
           "position": 3
         },
         {
-          "japanese": "お客様はお待ちになっています。",
-          "japanese_with_blank": "お客様は[___]。",
-          "english": "The customer is waiting. (honorific)",
-          "target_answer": "お待ちになっています",
+          "japanese": "先生はお帰りになりました。",
+          "japanese_with_blank": "先生は[___]。",
+          "english": "The teacher has returned. (honorific)",
+          "target_answer": "お帰りになりました",
           "alternative_answers": [],
           "hint": "is doing (hon.)",
           "scramble_blocks": [
-            "お客様",
+            "先生",
             "は",
-            "お待ちになっています"
+            "お帰りになりました"
           ],
-          "audio_text": "お客様はお待ちになっています。",
+          "audio_text": "先生はお帰りになりました。",
           "notes": "",
           "position": 4
         }

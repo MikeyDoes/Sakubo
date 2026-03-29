@@ -64,19 +64,19 @@
           "position": 3
         },
         {
-          "japanese": "分かりにくい説明でした。",
-          "japanese_with_blank": "分かり[___]説明でした。",
-          "english": "It was a hard-to-understand explanation.",
+          "japanese": "分かりにくい本でした。",
+          "japanese_with_blank": "分かり[___]本でした。",
+          "english": "It was a hard-to-understand book.",
           "target_answer": "にくい",
           "alternative_answers": [],
           "hint": "hard to",
           "scramble_blocks": [
             "分かり",
             "にくい",
-            "説明",
+            "本",
             "でした"
           ],
-          "audio_text": "分かりにくい説明でした。",
+          "audio_text": "分かりにくい本でした。",
           "notes": "",
           "position": 4
         }

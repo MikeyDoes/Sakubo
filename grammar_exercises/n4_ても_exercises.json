@@ -43,18 +43,22 @@
           "position": 2
         },
         {
-          "japanese": "走っても間に合いません。",
-          "japanese_with_blank": "走っ[___]間に合いません。",
-          "english": "Even if I run, I won't make it in time.",
+          "japanese": "雨が降っても外に行きます。",
+          "japanese_with_blank": "雨が降っ[___]外に行きます。",
+          "english": "Even if it rains, I'll go outside.",
           "target_answer": "ても",
           "alternative_answers": [],
           "hint": "even if",
           "scramble_blocks": [
-            "走っ",
+            "雨",
+            "が",
+            "降っ",
             "ても",
-            "間に合いません"
+            "外",
+            "に",
+            "行きます"
           ],
-          "audio_text": "走っても間に合いません。",
+          "audio_text": "雨が降っても外に行きます。",
           "notes": "Verb て-form + も.",
           "position": 3
         },
@@ -75,9 +79,9 @@
           "position": 4
         },
         {
-          "japanese": "薬を飲んでも治りません。",
-          "japanese_with_blank": "薬を飲ん[___]治りません。",
-          "english": "Even if I take medicine, it won't get better.",
+          "japanese": "薬を飲んでも元気になりません。",
+          "japanese_with_blank": "薬を飲ん[___]元気になりません。",
+          "english": "Even if I take medicine, I won't feel better.",
           "target_answer": "でも",
           "alternative_answers": [],
           "hint": "even if (voiced)",
@@ -86,9 +90,11 @@
             "を",
             "飲ん",
             "でも",
-            "治りません"
+            "元気",
+            "に",
+            "なりません"
           ],
-          "audio_text": "薬を飲んでも治りません。",
+          "audio_text": "薬を飲んでも元気になりません。",
           "notes": "飲む → 飲んでも (voiced).",
           "position": 5
         }

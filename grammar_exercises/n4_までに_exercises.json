@@ -7,20 +7,20 @@
       "label": "By (Time Limit)",
       "sentences": [
         {
-          "japanese": "金曜日までにレポートを出してください。",
-          "japanese_with_blank": "金曜日[___]レポートを出してください。",
-          "english": "Please submit the report by Friday.",
+          "japanese": "金曜日までに宿題を出してください。",
+          "japanese_with_blank": "金曜日[___]宿題を出してください。",
+          "english": "Please submit the homework by Friday.",
           "target_answer": "までに",
           "alternative_answers": [],
           "hint": "by",
           "scramble_blocks": [
             "金曜日",
             "までに",
-            "レポート",
+            "宿題",
             "を",
             "出してください"
           ],
-          "audio_text": "金曜日までにレポートを出してください。",
+          "audio_text": "金曜日までに宿題を出してください。",
           "notes": "",
           "position": 1
         },
@@ -41,34 +41,34 @@
           "position": 2
         },
         {
-          "japanese": "来週までに終わらせます。",
-          "japanese_with_blank": "来週[___]終わらせます。",
-          "english": "I'll finish it by next week.",
+          "japanese": "来週までに勉強します。",
+          "japanese_with_blank": "来週[___]勉強します。",
+          "english": "I'll study by next week.",
           "target_answer": "までに",
           "alternative_answers": [],
           "hint": "by",
           "scramble_blocks": [
             "来週",
             "までに",
-            "終わらせます"
+            "勉強します"
           ],
-          "audio_text": "来週までに終わらせます。",
+          "audio_text": "来週までに勉強します。",
           "notes": "",
           "position": 3
         },
         {
-          "japanese": "明日までに連絡してください。",
-          "japanese_with_blank": "明日[___]連絡してください。",
-          "english": "Please contact us by tomorrow.",
+          "japanese": "明日までに電話してください。",
+          "japanese_with_blank": "明日[___]電話してください。",
+          "english": "Please call by tomorrow.",
           "target_answer": "までに",
           "alternative_answers": [],
           "hint": "by",
           "scramble_blocks": [
             "明日",
             "までに",
-            "連絡してください"
+            "電話してください"
           ],
-          "audio_text": "明日までに連絡してください。",
+          "audio_text": "明日までに電話してください。",
           "notes": "",
           "position": 4
         }

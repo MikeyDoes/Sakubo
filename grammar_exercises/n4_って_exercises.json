@@ -7,19 +7,19 @@
       "label": "Casual Quoting",
       "sentences": [
         {
-          "japanese": "田中さんは来ないって。",
-          "japanese_with_blank": "田中さんは来ない[___]。",
-          "english": "Tanaka-san said they won't come.",
+          "japanese": "友達は来ないって。",
+          "japanese_with_blank": "友達は来ない[___]。",
+          "english": "My friend said they won't come.",
           "target_answer": "って",
           "alternative_answers": [],
           "hint": "said that",
           "scramble_blocks": [
-            "田中さん",
+            "友達",
             "は",
             "来ない",
             "って"
           ],
-          "audio_text": "田中さんは来ないって。",
+          "audio_text": "友達は来ないって。",
           "notes": "",
           "position": 1
         },

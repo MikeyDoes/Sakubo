@@ -59,9 +59,9 @@
           "position": 3
         },
         {
-          "japanese": "来週の月曜日頃届く予定です。",
-          "japanese_with_blank": "来週の月曜日[___]届く予定です。",
-          "english": "It's expected to arrive around next Monday.",
+          "japanese": "来週の月曜日頃友達が来ます。",
+          "japanese_with_blank": "来週の月曜日[___]友達が来ます。",
+          "english": "A friend is coming around next Monday.",
           "target_answer": "頃",
           "alternative_answers": [],
           "hint": "around",
@@ -70,11 +70,11 @@
             "の",
             "月曜日",
             "頃",
-            "届く",
-            "予定",
-            "です"
+            "友達",
+            "が",
+            "来ます"
           ],
-          "audio_text": "来週の月曜日頃届く予定です。",
+          "audio_text": "来週の月曜日頃友達が来ます。",
           "notes": "",
           "position": 4
         }

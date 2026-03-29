@@ -41,21 +41,21 @@
           "position": 2
         },
         {
-          "japanese": "母が作ってくれた料理です。",
-          "japanese_with_blank": "母が作っ[___]料理です。",
-          "english": "It's a dish my mother made for me.",
+          "japanese": "友達が作ってくれた料理です。",
+          "japanese_with_blank": "友達が作っ[___]料理です。",
+          "english": "It's a dish my friend made for me.",
           "target_answer": "てくれた",
           "alternative_answers": [],
           "hint": "did for me (plain past)",
           "scramble_blocks": [
-            "母",
+            "友達",
             "が",
             "作っ",
             "てくれた",
             "料理",
             "です"
           ],
-          "audio_text": "母が作ってくれた料理です。",
+          "audio_text": "友達が作ってくれた料理です。",
           "notes": "てくれた modifying a noun.",
           "position": 3
         },
@@ -79,19 +79,19 @@
           "position": 4
         },
         {
-          "japanese": "姉が起こしてくれます。",
-          "japanese_with_blank": "姉が起こし[___]。",
-          "english": "My older sister wakes me up.",
+          "japanese": "姉が教えてくれます。",
+          "japanese_with_blank": "姉が教え[___]。",
+          "english": "My older sister teaches me.",
           "target_answer": "てくれます",
           "alternative_answers": [],
           "hint": "does for me",
           "scramble_blocks": [
             "姉",
             "が",
-            "起こし",
+            "教え",
             "てくれます"
           ],
-          "audio_text": "姉が起こしてくれます。",
+          "audio_text": "姉が教えてくれます。",
           "notes": "起こす → 起こしてくれる.",
           "position": 5
         }

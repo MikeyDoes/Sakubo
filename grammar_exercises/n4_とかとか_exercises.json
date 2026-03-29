@@ -7,21 +7,21 @@
       "label": "Listing Examples",
       "sentences": [
         {
-          "japanese": "りんごとかみかんとかを買いました。",
-          "japanese_with_blank": "りんご[___]みかんとかを買いました。",
-          "english": "I bought things like apples and oranges.",
+          "japanese": "卵とか肉とかを買いました。",
+          "japanese_with_blank": "卵[___]肉とかを買いました。",
+          "english": "I bought things like eggs and meat.",
           "target_answer": "とか",
           "alternative_answers": [],
           "hint": "such as",
           "scramble_blocks": [
-            "りんご",
+            "卵",
             "とか",
-            "みかん",
+            "肉",
             "とか",
             "を",
             "買いました"
           ],
-          "audio_text": "りんごとかみかんとかを買いました。",
+          "audio_text": "卵とか肉とかを買いました。",
           "notes": "",
           "position": 1
         },
@@ -48,14 +48,14 @@
           "position": 2
         },
         {
-          "japanese": "テニスとかサッカーとかが好きです。",
-          "japanese_with_blank": "テニス[___]サッカーとかが好きです。",
-          "english": "I like things like tennis and soccer.",
+          "japanese": "映画とかサッカーとかが好きです。",
+          "japanese_with_blank": "映画[___]サッカーとかが好きです。",
+          "english": "I like things like movies and soccer.",
           "target_answer": "とか",
           "alternative_answers": [],
           "hint": "such as",
           "scramble_blocks": [
-            "テニス",
+            "映画",
             "とか",
             "サッカー",
             "とか",
@@ -63,7 +63,7 @@
             "好き",
             "です"
           ],
-          "audio_text": "テニスとかサッカーとかが好きです。",
+          "audio_text": "映画とかサッカーとかが好きです。",
           "notes": "",
           "position": 3
         },

@@ -78,20 +78,23 @@
           "position": 4
         },
         {
-          "japanese": "薬を買っておいた方がいいです。",
-          "japanese_with_blank": "薬を買っ[___]方がいいです。",
-          "english": "You should buy medicine in advance.",
+          "japanese": "友達が来るから料理を作っておいた。",
+          "japanese_with_blank": "友達が来るから料理を作っ[___]。",
+          "english": "I prepared food because a friend is coming.",
           "target_answer": "ておいた",
           "alternative_answers": [],
           "hint": "in advance + advice",
           "scramble_blocks": [
-            "薬",
+            "友達",
+            "が",
+            "来る",
+            "から",
+            "料理",
             "を",
-            "買っ",
-            "ておいた",
-            "方がいいです"
+            "作っ",
+            "ておいた"
           ],
-          "audio_text": "薬を買っておいた方がいいです。",
+          "audio_text": "友達が来るから料理を作っておいた。",
           "notes": "ておいた + 方がいい.",
           "position": 5
         }

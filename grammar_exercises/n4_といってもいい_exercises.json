@@ -64,22 +64,21 @@
           "position": 3
         },
         {
-          "japanese": "この映画は最高だといってもいいです。",
-          "japanese_with_blank": "この映画は最高だ[___]です。",
-          "english": "It's fair to say this movie is the best.",
+          "japanese": "この料理はおいしいといってもいいです。",
+          "japanese_with_blank": "この料理はおいしい[___]です。",
+          "english": "It's fair to say this dish is delicious.",
           "target_answer": "といってもいい",
           "alternative_answers": [],
           "hint": "it's okay to say",
           "scramble_blocks": [
             "この",
-            "映画",
+            "料理",
             "は",
-            "最高",
-            "だ",
+            "おいしい",
             "といってもいい",
             "です"
           ],
-          "audio_text": "この映画は最高だといってもいいです。",
+          "audio_text": "この料理はおいしいといってもいいです。",
           "notes": "",
           "position": 4
         }

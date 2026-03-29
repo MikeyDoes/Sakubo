@@ -26,14 +26,14 @@
           "position": 1
         },
         {
-          "japanese": "彼は日本に行きたがっています。",
-          "japanese_with_blank": "彼は日本に行き[___]います。",
-          "english": "He wants to go to Japan.",
+          "japanese": "友達は日本に行きたがっています。",
+          "japanese_with_blank": "友達は日本に行き[___]います。",
+          "english": "My friend wants to go to Japan.",
           "target_answer": "たがって",
           "alternative_answers": [],
           "hint": "wanting to (3rd person)",
           "scramble_blocks": [
-            "彼",
+            "友達",
             "は",
             "日本",
             "に",
@@ -41,7 +41,7 @@
             "たがって",
             "います"
           ],
-          "audio_text": "彼は日本に行きたがっています。",
+          "audio_text": "友達は日本に行きたがっています。",
           "notes": "行く → 行きたがる.",
           "position": 2
         },

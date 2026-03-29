@@ -59,19 +59,20 @@
           "position": 3
         },
         {
-          "japanese": "今週中に終わる予定です。",
-          "japanese_with_blank": "今週中に終わる[___]。",
-          "english": "It's planned to finish within this week.",
+          "japanese": "来月日本に行く予定です。",
+          "japanese_with_blank": "来月日本に行く[___]。",
+          "english": "I plan to go to Japan next month.",
           "target_answer": "予定です",
           "alternative_answers": [],
           "hint": "plan to",
           "scramble_blocks": [
-            "今週中",
+            "来月",
+            "日本",
             "に",
-            "終わる",
+            "行く",
             "予定です"
           ],
-          "audio_text": "今週中に終わる予定です。",
+          "audio_text": "来月日本に行く予定です。",
           "notes": "",
           "position": 4
         }

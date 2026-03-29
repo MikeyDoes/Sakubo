@@ -7,19 +7,19 @@
       "label": "Seems Like (Casual)",
       "sentences": [
         {
-          "japanese": "田中さんは忙しいみたいです。",
-          "japanese_with_blank": "田中さんは忙しい[___]。",
-          "english": "Tanaka-san seems busy.",
+          "japanese": "友達は忙しいみたいです。",
+          "japanese_with_blank": "友達は忙しい[___]。",
+          "english": "My friend seems busy.",
           "target_answer": "みたいです",
           "alternative_answers": [],
           "hint": "seems like",
           "scramble_blocks": [
-            "田中さん",
+            "友達",
             "は",
             "忙しい",
             "みたいです"
           ],
-          "audio_text": "田中さんは忙しいみたいです。",
+          "audio_text": "友達は忙しいみたいです。",
           "notes": "",
           "position": 1
         },
@@ -59,18 +59,18 @@
           "position": 3
         },
         {
-          "japanese": "もう終わったみたいです。",
-          "japanese_with_blank": "もう終わった[___]。",
-          "english": "It seems like it's already over.",
+          "japanese": "もう帰ったみたいです。",
+          "japanese_with_blank": "もう帰った[___]。",
+          "english": "It seems like they already went home.",
           "target_answer": "みたいです",
           "alternative_answers": [],
           "hint": "seems like",
           "scramble_blocks": [
             "もう",
-            "終わった",
+            "帰った",
             "みたいです"
           ],
-          "audio_text": "もう終わったみたいです。",
+          "audio_text": "もう帰ったみたいです。",
           "notes": "",
           "position": 4
         }

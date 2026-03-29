@@ -55,32 +55,33 @@
           "position": 3
         },
         {
-          "japanese": "自己紹介させてください。",
-          "japanese_with_blank": "自己紹介[___]。",
-          "english": "Please let me introduce myself.",
+          "japanese": "もう少し食べさせてください。",
+          "japanese_with_blank": "もう少し食べ[___]。",
+          "english": "Please let me eat a little more.",
           "target_answer": "させてください",
           "alternative_answers": [],
           "hint": "please let me",
           "scramble_blocks": [
-            "自己紹介",
+            "もう少し",
+            "食べ",
             "させてください"
           ],
-          "audio_text": "自己紹介させてください。",
+          "audio_text": "もう少し食べさせてください。",
           "notes": "",
           "position": 4
         },
         {
-          "japanese": "説明させてください。",
-          "japanese_with_blank": "説明[___]。",
-          "english": "Please let me explain.",
+          "japanese": "勉強させてください。",
+          "japanese_with_blank": "勉強[___]。",
+          "english": "Please let me study.",
           "target_answer": "させてください",
           "alternative_answers": [],
           "hint": "please let me",
           "scramble_blocks": [
-            "説明",
+            "勉強",
             "させてください"
           ],
-          "audio_text": "説明させてください。",
+          "audio_text": "勉強させてください。",
           "notes": "",
           "position": 5
         }

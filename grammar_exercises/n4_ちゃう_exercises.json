@@ -53,17 +53,17 @@
           "position": 3
         },
         {
-          "japanese": "壊れちゃった。",
-          "japanese_with_blank": "壊れ[___]。",
-          "english": "It broke (unfortunately).",
+          "japanese": "忘れちゃった。",
+          "japanese_with_blank": "忘れ[___]。",
+          "english": "I forgot (oops).",
           "target_answer": "ちゃった",
           "alternative_answers": [],
           "hint": "unfortunately (casual)",
           "scramble_blocks": [
-            "壊れ",
+            "忘れ",
             "ちゃった"
           ],
-          "audio_text": "壊れちゃった。",
+          "audio_text": "忘れちゃった。",
           "notes": "壊れる → 壊れちゃう.",
           "position": 4
         },

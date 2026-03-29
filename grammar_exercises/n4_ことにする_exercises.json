@@ -24,18 +24,18 @@
           "position": 1
         },
         {
-          "japanese": "毎日運動することにしました。",
-          "japanese_with_blank": "毎日運動する[___]。",
-          "english": "I decided to exercise every day.",
+          "japanese": "毎日散歩することにしました。",
+          "japanese_with_blank": "毎日散歩する[___]。",
+          "english": "I decided to take walks every day.",
           "target_answer": "ことにしました",
           "alternative_answers": [],
           "hint": "decided to",
           "scramble_blocks": [
             "毎日",
-            "運動する",
+            "散歩する",
             "ことにしました"
           ],
-          "audio_text": "毎日運動することにしました。",
+          "audio_text": "毎日散歩することにしました。",
           "notes": "",
           "position": 2
         },
@@ -56,20 +56,20 @@
           "position": 3
         },
         {
-          "japanese": "甘い物を食べないことにしました。",
-          "japanese_with_blank": "甘い物を食べない[___]。",
-          "english": "I decided not to eat sweets.",
+          "japanese": "甘い食べ物を食べないことにしました。",
+          "japanese_with_blank": "甘い食べ物を食べない[___]。",
+          "english": "I decided not to eat sweet foods.",
           "target_answer": "ことにしました",
           "alternative_answers": [],
           "hint": "decided to",
           "scramble_blocks": [
             "甘い",
-            "物",
+            "食べ物",
             "を",
             "食べない",
             "ことにしました"
           ],
-          "audio_text": "甘い物を食べないことにしました。",
+          "audio_text": "甘い食べ物を食べないことにしました。",
           "notes": "",
           "position": 4
         }

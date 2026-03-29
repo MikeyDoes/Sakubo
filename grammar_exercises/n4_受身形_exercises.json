@@ -25,16 +25,16 @@
         },
         {
           "japanese": "雨に降られました。",
-          "japanese_with_blank": "雨に降[___]。",
+          "japanese_with_blank": "雨に降ら[___]。",
           "english": "I got rained on.",
-          "target_answer": "られました",
+          "target_answer": "れました",
           "alternative_answers": [],
           "hint": "was (passive)",
           "scramble_blocks": [
             "雨",
             "に",
-            "降",
-            "られました"
+            "降ら",
+            "れました"
           ],
           "audio_text": "雨に降られました。",
           "notes": "",
@@ -60,19 +60,21 @@
           "position": 3
         },
         {
-          "japanese": "母に起こされました。",
-          "japanese_with_blank": "母に起こさ[___]。",
-          "english": "I was woken up by my mother.",
+          "japanese": "友達にお金を使われました。",
+          "japanese_with_blank": "友達にお金を使わ[___]。",
+          "english": "My money was used by a friend.",
           "target_answer": "れました",
           "alternative_answers": [],
           "hint": "was (passive)",
           "scramble_blocks": [
-            "母",
+            "友達",
             "に",
-            "起こさ",
+            "お金",
+            "を",
+            "使わ",
             "れました"
           ],
-          "audio_text": "母に起こされました。",
+          "audio_text": "友達にお金を使われました。",
           "notes": "",
           "position": 4
         },

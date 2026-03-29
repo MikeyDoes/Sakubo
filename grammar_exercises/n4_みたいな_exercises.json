@@ -25,19 +25,19 @@
           "position": 1
         },
         {
-          "japanese": "夢みたいな話です。",
-          "japanese_with_blank": "夢[___]話です。",
-          "english": "It's a dream-like story.",
+          "japanese": "映画みたいな話です。",
+          "japanese_with_blank": "映画[___]話です。",
+          "english": "It's a movie-like story.",
           "target_answer": "みたいな",
           "alternative_answers": [],
           "hint": "like",
           "scramble_blocks": [
-            "夢",
+            "映画",
             "みたいな",
             "話",
             "です"
           ],
-          "audio_text": "夢みたいな話です。",
+          "audio_text": "映画みたいな話です。",
           "notes": "",
           "position": 2
         },
@@ -61,20 +61,20 @@
           "position": 3
         },
         {
-          "japanese": "映画みたいな景色ですね。",
-          "japanese_with_blank": "映画[___]景色ですね。",
-          "english": "It's a movie-like scenery.",
+          "japanese": "映画みたいな写真ですね。",
+          "japanese_with_blank": "映画[___]写真ですね。",
+          "english": "It's a movie-like photo.",
           "target_answer": "みたいな",
           "alternative_answers": [],
           "hint": "like",
           "scramble_blocks": [
             "映画",
             "みたいな",
-            "景色",
+            "写真",
             "です",
             "ね"
           ],
-          "audio_text": "映画みたいな景色ですね。",
+          "audio_text": "映画みたいな写真ですね。",
           "notes": "",
           "position": 4
         }

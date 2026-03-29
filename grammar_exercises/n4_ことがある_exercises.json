@@ -24,37 +24,39 @@
           "position": 1
         },
         {
-          "japanese": "寿司を食べたことがありますか。",
-          "japanese_with_blank": "寿司を食べた[___]か。",
-          "english": "Have you ever eaten sushi?",
+          "japanese": "日本の料理を食べたことがありますか。",
+          "japanese_with_blank": "日本の料理を食べた[___]か。",
+          "english": "Have you ever eaten Japanese food?",
           "target_answer": "ことがあります",
           "alternative_answers": [],
           "hint": "have experienced",
           "scramble_blocks": [
-            "寿司",
+            "日本",
+            "の",
+            "料理",
             "を",
             "食べた",
             "ことがあります",
             "か"
           ],
-          "audio_text": "寿司を食べたことがありますか。",
+          "audio_text": "日本の料理を食べたことがありますか。",
           "notes": "",
           "position": 2
         },
         {
-          "japanese": "富士山を見たことがあります。",
-          "japanese_with_blank": "富士山を見た[___]。",
-          "english": "I have seen Mt. Fuji.",
+          "japanese": "外国に行ったことがあります。",
+          "japanese_with_blank": "外国に行った[___]。",
+          "english": "I have been to a foreign country.",
           "target_answer": "ことがあります",
           "alternative_answers": [],
           "hint": "have experienced",
           "scramble_blocks": [
-            "富士山",
-            "を",
-            "見た",
+            "外国",
+            "に",
+            "行った",
             "ことがあります"
           ],
-          "audio_text": "富士山を見たことがあります。",
+          "audio_text": "外国に行ったことがあります。",
           "notes": "",
           "position": 3
         },

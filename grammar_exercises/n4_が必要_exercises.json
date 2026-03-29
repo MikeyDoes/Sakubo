@@ -7,17 +7,17 @@
       "label": "Need; Necessary",
       "sentences": [
         {
-          "japanese": "パスポートが必要です。",
-          "japanese_with_blank": "パスポート[___]。",
-          "english": "A passport is necessary.",
+          "japanese": "お金が必要です。",
+          "japanese_with_blank": "お金[___]。",
+          "english": "Money is necessary.",
           "target_answer": "が必要です",
           "alternative_answers": [],
           "hint": "is necessary",
           "scramble_blocks": [
-            "パスポート",
+            "お金",
             "が必要です"
           ],
-          "audio_text": "パスポートが必要です。",
+          "audio_text": "お金が必要です。",
           "notes": "",
           "position": 1
         },

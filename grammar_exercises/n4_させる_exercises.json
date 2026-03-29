@@ -7,14 +7,14 @@
       "label": "Make/Let Someone Do",
       "sentences": [
         {
-          "japanese": "母は私に野菜を食べさせました。",
-          "japanese_with_blank": "母は私に野菜を食べ[___]。",
-          "english": "My mother made me eat vegetables.",
+          "japanese": "先生は私に野菜を食べさせました。",
+          "japanese_with_blank": "先生は私に野菜を食べ[___]。",
+          "english": "The teacher made me eat vegetables.",
           "target_answer": "させました",
           "alternative_answers": [],
           "hint": "made (do)",
           "scramble_blocks": [
-            "母",
+            "先生",
             "は",
             "私",
             "に",
@@ -23,15 +23,15 @@
             "食べ",
             "させました"
           ],
-          "audio_text": "母は私に野菜を食べさせました。",
+          "audio_text": "先生は私に野菜を食べさせました。",
           "notes": "",
           "position": 1
         },
         {
-          "japanese": "先生は学生に本を読ませました。",
-          "japanese_with_blank": "先生は学生に本を読[___]。",
-          "english": "The teacher made the students read the book.",
-          "target_answer": "ませました",
+          "japanese": "先生は学生に本を書かせました。",
+          "japanese_with_blank": "先生は学生に本を書か[___]。",
+          "english": "The teacher made the students write.",
+          "target_answer": "せました",
           "alternative_answers": [],
           "hint": "made (do)",
           "scramble_blocks": [
@@ -41,10 +41,10 @@
             "に",
             "本",
             "を",
-            "読",
-            "ませました"
+            "書か",
+            "せました"
           ],
-          "audio_text": "先生は学生に本を読ませました。",
+          "audio_text": "先生は学生に本を書かせました。",
           "notes": "",
           "position": 2
         },

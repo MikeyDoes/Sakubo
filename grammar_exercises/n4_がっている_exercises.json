@@ -7,9 +7,9 @@
       "label": "Ongoing Display of Emotion",
       "sentences": [
         {
-          "japanese": "弟が新しいゲームを欲しがっている。",
-          "japanese_with_blank": "弟が新しいゲームを欲し[___]。",
-          "english": "My brother is wanting a new game.",
+          "japanese": "弟が新しい本を欲しがっている。",
+          "japanese_with_blank": "弟が新しい本を欲し[___]。",
+          "english": "My younger brother is wanting a new book.",
           "target_answer": "がっている",
           "alternative_answers": [],
           "hint": "showing want",
@@ -17,12 +17,12 @@
             "弟",
             "が",
             "新しい",
-            "ゲーム",
+            "本",
             "を",
             "欲し",
             "がっている"
           ],
-          "audio_text": "弟が新しいゲームを欲しがっている。",
+          "audio_text": "弟が新しい本を欲しがっている。",
           "notes": "ほしい → ほしがっている (3rd person).",
           "position": 1
         },

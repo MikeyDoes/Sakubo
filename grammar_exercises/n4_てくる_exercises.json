@@ -80,19 +80,19 @@
       "label": "Bringing / Coming Back",
       "sentences": [
         {
-          "japanese": "お土産を買ってきました。",
-          "japanese_with_blank": "お土産を買っ[___]。",
-          "english": "I went and bought souvenirs.",
+          "japanese": "パンを買ってきました。",
+          "japanese_with_blank": "パンを買っ[___]。",
+          "english": "I went and bought bread.",
           "target_answer": "てきました",
           "alternative_answers": [],
           "hint": "went and did",
           "scramble_blocks": [
-            "お土産",
+            "パン",
             "を",
             "買っ",
             "てきました"
           ],
-          "audio_text": "お土産を買ってきました。",
+          "audio_text": "パンを買ってきました。",
           "notes": "Go + do + come back.",
           "position": 1
         },

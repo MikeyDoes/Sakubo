@@ -7,9 +7,9 @@
       "label": "In; Among",
       "sentences": [
         {
-          "japanese": "日本の食べ物の中で寿司が一番好きです。",
-          "japanese_with_blank": "日本の食べ物[___]寿司が一番好きです。",
-          "english": "Among Japanese foods, I like sushi the most.",
+          "japanese": "日本の食べ物の中で魚が一番好きです。",
+          "japanese_with_blank": "日本の食べ物[___]魚が一番好きです。",
+          "english": "Among Japanese foods, I like fish the most.",
           "target_answer": "の中で",
           "alternative_answers": [],
           "hint": "among",
@@ -18,13 +18,13 @@
             "の",
             "食べ物",
             "の中で",
-            "寿司",
+            "魚",
             "が",
             "一番",
             "好き",
             "です"
           ],
-          "audio_text": "日本の食べ物の中で寿司が一番好きです。",
+          "audio_text": "日本の食べ物の中で魚が一番好きです。",
           "notes": "",
           "position": 1
         },

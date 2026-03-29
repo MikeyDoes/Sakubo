@@ -42,17 +42,16 @@
         },
         {
           "japanese": "この漢字が読めますか。",
-          "japanese_with_blank": "この漢字が読[___]か。",
+          "japanese_with_blank": "この漢字が[___]か。",
           "english": "Can you read this kanji?",
-          "target_answer": "めます",
+          "target_answer": "読めます",
           "alternative_answers": [],
           "hint": "can",
           "scramble_blocks": [
             "この",
             "漢字",
             "が",
-            "読",
-            "めます",
+            "読めます",
             "か"
           ],
           "audio_text": "この漢字が読めますか。",

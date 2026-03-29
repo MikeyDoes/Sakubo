@@ -57,20 +57,20 @@
           "position": 3
         },
         {
-          "japanese": "嫌いな物を食べさせられました。",
-          "japanese_with_blank": "嫌いな物を食べ[___]。",
+          "japanese": "嫌いな食べ物を食べさせられました。",
+          "japanese_with_blank": "嫌いな食べ物を食べ[___]。",
           "english": "I was made to eat food I don't like.",
           "target_answer": "させられました",
           "alternative_answers": [],
           "hint": "was made to",
           "scramble_blocks": [
             "嫌いな",
-            "物",
+            "食べ物",
             "を",
             "食べ",
             "させられました"
           ],
-          "audio_text": "嫌いな物を食べさせられました。",
+          "audio_text": "嫌いな食べ物を食べさせられました。",
           "notes": "",
           "position": 4
         }

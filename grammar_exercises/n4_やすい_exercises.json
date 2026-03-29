@@ -64,19 +64,19 @@
           "position": 3
         },
         {
-          "japanese": "分かりやすい説明でした。",
-          "japanese_with_blank": "分かり[___]説明でした。",
-          "english": "It was an easy-to-understand explanation.",
+          "japanese": "分かりやすい本でした。",
+          "japanese_with_blank": "分かり[___]本でした。",
+          "english": "It was an easy-to-understand book.",
           "target_answer": "やすい",
           "alternative_answers": [],
           "hint": "easy to",
           "scramble_blocks": [
             "分かり",
             "やすい",
-            "説明",
+            "本",
             "でした"
           ],
-          "audio_text": "分かりやすい説明でした。",
+          "audio_text": "分かりやすい本でした。",
           "notes": "",
           "position": 4
         }

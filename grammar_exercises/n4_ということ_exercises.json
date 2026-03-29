@@ -46,21 +46,21 @@
           "position": 2
         },
         {
-          "japanese": "彼が来ないということを聞きました。",
-          "japanese_with_blank": "彼が来ない[___]を聞きました。",
-          "english": "I heard that he won't come.",
+          "japanese": "友達が来ないということを聞きました。",
+          "japanese_with_blank": "友達が来ない[___]を聞きました。",
+          "english": "I heard that my friend won't come.",
           "target_answer": "ということ",
           "alternative_answers": [],
           "hint": "that (fact)",
           "scramble_blocks": [
-            "彼",
+            "友達",
             "が",
             "来ない",
             "ということ",
             "を",
             "聞きました"
           ],
-          "audio_text": "彼が来ないということを聞きました。",
+          "audio_text": "友達が来ないということを聞きました。",
           "notes": "",
           "position": 3
         },

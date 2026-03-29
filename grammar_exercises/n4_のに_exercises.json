@@ -25,18 +25,18 @@
           "position": 1
         },
         {
-          "japanese": "約束したのに来ませんでした。",
-          "japanese_with_blank": "約束した[___]来ませんでした。",
-          "english": "Even though they promised, they didn't come.",
+          "japanese": "勉強したのに分かりませんでした。",
+          "japanese_with_blank": "勉強した[___]分かりませんでした。",
+          "english": "Even though I studied, I didn't understand.",
           "target_answer": "のに",
           "alternative_answers": [],
           "hint": "although",
           "scramble_blocks": [
-            "約束した",
+            "勉強した",
             "のに",
-            "来ませんでした"
+            "分かりませんでした"
           ],
-          "audio_text": "約束したのに来ませんでした。",
+          "audio_text": "勉強したのに分かりませんでした。",
           "notes": "",
           "position": 2
         },

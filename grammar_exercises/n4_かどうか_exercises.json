@@ -39,20 +39,20 @@
           "position": 2
         },
         {
-          "japanese": "彼が来るかどうか聞いてください。",
-          "japanese_with_blank": "彼が来る[___]聞いてください。",
-          "english": "Please ask whether he's coming or not.",
+          "japanese": "友達が来るかどうか聞いてください。",
+          "japanese_with_blank": "友達が来る[___]聞いてください。",
+          "english": "Please ask whether my friend is coming or not.",
           "target_answer": "かどうか",
           "alternative_answers": [],
           "hint": "whether or not",
           "scramble_blocks": [
-            "彼",
+            "友達",
             "が",
             "来る",
             "かどうか",
             "聞いてください"
           ],
-          "audio_text": "彼が来るかどうか聞いてください。",
+          "audio_text": "友達が来るかどうか聞いてください。",
           "notes": "",
           "position": 3
         },

@@ -55,18 +55,18 @@
           "position": 3
         },
         {
-          "japanese": "文句ばかり言わないでください。",
-          "japanese_with_blank": "文句[___]言わないでください。",
-          "english": "Please don't do nothing but complain.",
+          "japanese": "テレビばかり見ないでください。",
+          "japanese_with_blank": "テレビ[___]見ないでください。",
+          "english": "Please don't just watch TV.",
           "target_answer": "ばかり",
           "alternative_answers": [],
           "hint": "nothing but",
           "scramble_blocks": [
-            "文句",
+            "テレビ",
             "ばかり",
-            "言わないでください"
+            "見ないでください"
           ],
-          "audio_text": "文句ばかり言わないでください。",
+          "audio_text": "テレビばかり見ないでください。",
           "notes": "",
           "position": 4
         }

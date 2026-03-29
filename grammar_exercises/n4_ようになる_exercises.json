@@ -24,18 +24,18 @@
           "position": 1
         },
         {
-          "japanese": "毎日運動するようになりました。",
-          "japanese_with_blank": "毎日運動する[___]。",
-          "english": "I've started exercising every day.",
+          "japanese": "毎日散歩するようになりました。",
+          "japanese_with_blank": "毎日散歩する[___]。",
+          "english": "I've started taking walks every day.",
           "target_answer": "ようになりました",
           "alternative_answers": [],
           "hint": "came to be",
           "scramble_blocks": [
             "毎日",
-            "運動する",
+            "散歩する",
             "ようになりました"
           ],
-          "audio_text": "毎日運動するようになりました。",
+          "audio_text": "毎日散歩するようになりました。",
           "notes": "",
           "position": 2
         },

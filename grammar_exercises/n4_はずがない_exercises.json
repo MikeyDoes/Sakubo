@@ -58,19 +58,19 @@
           "position": 3
         },
         {
-          "japanese": "田中さんが知らないはずがありません。",
-          "japanese_with_blank": "田中さんが知らない[___]。",
-          "english": "There's no way Tanaka-san doesn't know.",
+          "japanese": "先生が知らないはずがありません。",
+          "japanese_with_blank": "先生が知らない[___]。",
+          "english": "There's no way the teacher doesn't know.",
           "target_answer": "はずがありません",
           "alternative_answers": [],
           "hint": "can't be",
           "scramble_blocks": [
-            "田中さん",
+            "先生",
             "が",
             "知らない",
             "はずがありません"
           ],
-          "audio_text": "田中さんが知らないはずがありません。",
+          "audio_text": "先生が知らないはずがありません。",
           "notes": "",
           "position": 4
         }

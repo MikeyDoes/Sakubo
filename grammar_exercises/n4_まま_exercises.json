@@ -25,22 +25,20 @@
           "position": 1
         },
         {
-          "japanese": "靴を履いたまま家に入りました。",
-          "japanese_with_blank": "靴を履いた[___]家に入りました。",
-          "english": "I entered the house with shoes on.",
+          "japanese": "本を持ったまま歩きました。",
+          "japanese_with_blank": "本を持った[___]歩きました。",
+          "english": "I walked while holding a book.",
           "target_answer": "まま",
           "alternative_answers": [],
           "hint": "as is",
           "scramble_blocks": [
-            "靴",
+            "本",
             "を",
-            "履いた",
+            "持った",
             "まま",
-            "家",
-            "に",
-            "入りました"
+            "歩きました"
           ],
-          "audio_text": "靴を履いたまま家に入りました。",
+          "audio_text": "本を持ったまま歩きました。",
           "notes": "",
           "position": 2
         },

@@ -7,21 +7,22 @@
       "label": "Called / Named",
       "sentences": [
         {
-          "japanese": "これは寿司という食べ物です。",
-          "japanese_with_blank": "これは寿司[___]食べ物です。",
-          "english": "This is a food called sushi.",
+          "japanese": "これは何という食べ物ですか。",
+          "japanese_with_blank": "これは何[___]食べ物ですか。",
+          "english": "What is this food called?",
           "target_answer": "という",
           "alternative_answers": [],
           "hint": "called",
           "scramble_blocks": [
             "これ",
             "は",
-            "寿司",
+            "何",
             "という",
             "食べ物",
-            "です"
+            "です",
+            "か"
           ],
-          "audio_text": "これは寿司という食べ物です。",
+          "audio_text": "これは何という食べ物ですか。",
           "notes": "",
           "position": 1
         },
@@ -45,38 +46,38 @@
           "position": 2
         },
         {
-          "japanese": "東京という町に住んでいます。",
-          "japanese_with_blank": "東京[___]町に住んでいます。",
-          "english": "I live in a city called Tokyo.",
+          "japanese": "日本という国に住んでいます。",
+          "japanese_with_blank": "日本[___]国に住んでいます。",
+          "english": "I live in a country called Japan.",
           "target_answer": "という",
           "alternative_answers": [],
           "hint": "called",
           "scramble_blocks": [
-            "東京",
+            "日本",
             "という",
-            "町",
+            "国",
             "に",
             "住んでいます"
           ],
-          "audio_text": "東京という町に住んでいます。",
+          "audio_text": "日本という国に住んでいます。",
           "notes": "",
           "position": 3
         },
         {
-          "japanese": "田中という人を知っていますか。",
-          "japanese_with_blank": "田中[___]人を知っていますか。",
-          "english": "Do you know a person called Tanaka?",
+          "japanese": "「すみません」という言葉を知っていますか。",
+          "japanese_with_blank": "すみません[___]言葉を知っていますか。",
+          "english": "Do you know the word \"sumimasen\"?",
           "target_answer": "という",
           "alternative_answers": [],
           "hint": "called",
           "scramble_blocks": [
-            "田中",
+            "すみません",
             "という",
-            "人",
+            "言葉",
             "を",
             "知っていますか"
           ],
-          "audio_text": "田中という人を知っていますか。",
+          "audio_text": "「すみません」という言葉を知っていますか。",
           "notes": "",
           "position": 4
         }

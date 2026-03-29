@@ -24,21 +24,21 @@
           "position": 1
         },
         {
-          "japanese": "母の荷物を持ってあげます。",
-          "japanese_with_blank": "母の荷物を持っ[___]。",
-          "english": "I'll carry my mother's luggage.",
+          "japanese": "友達の荷物を持ってあげます。",
+          "japanese_with_blank": "友達の荷物を持っ[___]。",
+          "english": "I'll carry my friend's luggage.",
           "target_answer": "てあげます",
           "alternative_answers": [],
           "hint": "do for someone",
           "scramble_blocks": [
-            "母",
+            "友達",
             "の",
             "荷物",
             "を",
             "持っ",
             "てあげます"
           ],
-          "audio_text": "母の荷物を持ってあげます。",
+          "audio_text": "友達の荷物を持ってあげます。",
           "notes": "Polite giving of help.",
           "position": 2
         },

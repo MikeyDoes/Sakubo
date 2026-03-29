@@ -7,20 +7,20 @@
       "label": "Like; Similar To",
       "sentences": [
         {
-          "japanese": "夢のような話です。",
-          "japanese_with_blank": "夢の[___]話です。",
-          "english": "It's a dream-like story.",
+          "japanese": "映画のような話です。",
+          "japanese_with_blank": "映画の[___]話です。",
+          "english": "It's a movie-like story.",
           "target_answer": "ような",
           "alternative_answers": [],
           "hint": "like",
           "scramble_blocks": [
-            "夢",
+            "映画",
             "の",
             "ような",
             "話",
             "です"
           ],
-          "audio_text": "夢のような話です。",
+          "audio_text": "映画のような話です。",
           "notes": "",
           "position": 1
         },
