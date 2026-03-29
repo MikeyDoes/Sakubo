@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 135: 家族, 俸, 報...",
+  "lesson_number": 135,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 63371,
+      "kanji": "家族",
+      "kana": "かぞく",
+      "gloss": "family; members of a family",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106168,
+      "kanji": "俸",
+      "kana": "ほう",
+      "gloss": "salary",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106223,
+      "kanji": "報",
+      "kana": "ほう",
+      "gloss": "information; news; report; reward; retribution",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106386,
+      "kanji": "方",
+      "kana": "ほう",
+      "gloss": "direction; way; side; area (in a particular direction); side (of an argument, etc.); one's part; type; category; field (of study, etc.); indicates one side of a comparison; method; manner; means; length (of each side of a square)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106409,
+      "kanji": "法",
+      "kana": "ほう",
+      "gloss": "law; act; principle; method; mood; dharma",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106457,
+      "kanji": "砲",
+      "kana": "ほう",
+      "gloss": "gun; cannon; artillery; ordnance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106585,
+      "kanji": "鳳",
+      "kana": "ほう",
+      "gloss": "feng (male Chinese firebird)",
+      "card_type": "vocab"
+    }
+  ]
+}

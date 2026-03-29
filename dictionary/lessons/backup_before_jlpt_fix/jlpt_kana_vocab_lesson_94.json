@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 94: ヒント, ビールス, ビジネス...",
+  "lesson_number": 1400,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 51335,
+      "kana": "ヒント",
+      "gloss": "hint",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 308201,
+      "kana": "ビールス",
+      "gloss": "virus",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 51403,
+      "kana": "ビジネス",
+      "gloss": "business",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 51873,
+      "kana": "ファイト",
+      "gloss": "fight; fighting spirit; fight!; do your best; go for it; keep at it",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 51886,
+      "kana": "ファイル",
+      "gloss": "file",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 51993,
+      "kana": "ファン",
+      "gloss": "fan; enthusiast; lover (of); fan (e.g. electric)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 308458,
+      "kana": "ファン",
+      "gloss": "fun",
+      "card_type": "vocab"
+    }
+  ]
+}

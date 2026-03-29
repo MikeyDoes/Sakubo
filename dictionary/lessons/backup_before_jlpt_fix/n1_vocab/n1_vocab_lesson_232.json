@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1092: 世帯, 世代, 切開...",
+  "lesson_number": 1092,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 87434,
+      "kanji": "世帯",
+      "kana": "せたい",
+      "gloss": "household; home; family; housekeeping",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87439,
+      "kanji": "世代",
+      "kana": "せだい",
+      "gloss": "generation; the world; the age",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88921,
+      "kanji": "切開",
+      "kana": "せっかい",
+      "gloss": "incision; operation; section",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88975,
+      "kanji": "接触",
+      "kana": "せっしょく",
+      "gloss": "touch; contact",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89057,
+      "kanji": "設置",
+      "kana": "せっち",
+      "gloss": "establishment; institution; installation (of a machine or equipment)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89047,
+      "kanji": "折衷",
+      "kana": "せっちゅう",
+      "gloss": "compromise; cross; blending; eclecticism",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89058,
+      "kanji": "設定",
+      "kana": "せってい",
+      "gloss": "establishment; creation; posing (a problem); setting (movie, novel, etc.); scene; options setting; preference settings; configuration; setup",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 142: 切符, 昨日, 九...",
+  "lesson_number": 142,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 88944,
+      "kanji": "切符",
+      "kana": "きっぷ",
+      "gloss": "ticket",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115853,
+      "kanji": "昨日",
+      "kana": "きのう",
+      "gloss": "yesterday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115532,
+      "kanji": "九",
+      "kana": "きゅう",
+      "gloss": "nine",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 272017,
+      "kanji": "九",
+      "kana": "チュー",
+      "gloss": "nine",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68635,
+      "kanji": "牛肉",
+      "kana": "ぎゅうにく",
+      "gloss": "beef",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68636,
+      "kanji": "牛乳",
+      "kana": "ぎゅうにゅう",
+      "gloss": "(cow's) milk",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115814,
+      "kanji": "今日",
+      "kana": "きょう",
+      "gloss": "today; this day; these days; recently; nowadays",
+      "card_type": "vocab"
+    }
+  ]
+}

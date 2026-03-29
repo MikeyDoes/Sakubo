@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1202: 発, 発育, 発芽...",
+  "lesson_number": 1202,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 293557,
+      "kanji": "発",
+      "kana": "ハツ",
+      "gloss": "green dragon tile; winning hand with a pung (or kong) of green dragon tiles",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101251,
+      "kanji": "発育",
+      "kana": "はついく",
+      "gloss": "(physical) growth; development",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101256,
+      "kanji": "発芽",
+      "kana": "はつが",
+      "gloss": "germination; sprouting; budding",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101276,
+      "kanji": "発言",
+      "kana": "はつげん",
+      "gloss": "statement; remark; observation; utterance; speech; proposal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101338,
+      "kanji": "発病",
+      "kana": "はつびょう",
+      "gloss": "attack (disease)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83183,
+      "kanji": "初耳",
+      "kana": "はつみみ",
+      "gloss": "something heard for the first time; hearing something for the first time",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63474,
+      "kanji": "果て",
+      "kana": "はて",
+      "gloss": "the end; the extremity; the limit; the limits; the result",
+      "card_type": "vocab"
+    }
+  ]
+}

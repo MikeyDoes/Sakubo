@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 313: 釣る, 連れる, 丁寧...",
+  "lesson_number": 313,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 95498,
+      "kanji": "釣る",
+      "kana": "つる",
+      "gloss": "to fish; to angle; to catch; to lure in; to tempt; to attract; to entice; to allure",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111899,
+      "kanji": "連れる",
+      "kana": "つれる",
+      "gloss": "to take (someone) with one; to bring along; to go with; to be accompanied by",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94550,
+      "kanji": "丁寧",
+      "kana": "ていねい",
+      "gloss": "polite; courteous; civil; careful; close; thorough; conscientious",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95914,
+      "kanji": "適当",
+      "kana": "てきとう",
+      "gloss": "suitable; proper; appropriate; adequate; fit; fair; perfunctory; half-minded; sloppy; lazy; careless; noncommittal; unreliable; irresponsible",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82877,
+      "kanji": "出来るだけ",
+      "kana": "できるだけ",
+      "gloss": "as much as one can; as much as possible; if at all possible",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81286,
+      "kanji": "手伝う",
+      "kana": "てつだう",
+      "gloss": "to help; to assist; to aid; to contribute to; to be a factor in",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81268,
+      "kanji": "手袋",
+      "kana": "てぶくろ",
+      "gloss": "glove; mitten; mitt",
+      "card_type": "vocab"
+    }
+  ]
+}

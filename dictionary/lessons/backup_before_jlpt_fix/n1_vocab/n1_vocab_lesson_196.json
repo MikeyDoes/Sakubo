@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1056: 諸, 諸, 症...",
+  "lesson_number": 1056,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 123505,
+      "kanji": "諸",
+      "kana": "もろもろ",
+      "gloss": "all kinds of things; various things; large number of people",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 265360,
+      "kanji": "諸",
+      "kana": "もろ",
+      "gloss": "both; many; various; all; together",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84302,
+      "kanji": "症",
+      "kana": "しょう",
+      "gloss": "illness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83706,
+      "kanji": "商",
+      "kana": "しょう",
+      "gloss": "quotient; dealing; dealer; store; second degree (of the Japanese and Chinese pentatonic scale); Shang dynasty (China, approx. 1600-1046 BCE); Yin dynasty",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84170,
+      "kanji": "消去",
+      "kana": "しょうきょ",
+      "gloss": "elimination; erasure; clearing; dissipating; melting away; elimination (of variables)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84374,
+      "kanji": "衝撃",
+      "kana": "しょうげき",
+      "gloss": "shock; impact; crash",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84392,
+      "kanji": "証言",
+      "kana": "しょうげん",
+      "gloss": "testimony; (verbal) evidence",
+      "card_type": "vocab"
+    }
+  ]
+}

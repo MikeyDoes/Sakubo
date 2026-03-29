@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 901: 円滑, 縁側, 沿岸...",
+  "lesson_number": 901,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 115021,
+      "kanji": "円滑",
+      "kana": "えんかつ",
+      "gloss": "smooth; undisturbed; uninterrupted; harmonious",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61518,
+      "kanji": "縁側",
+      "kana": "えんがわ",
+      "gloss": "veranda; porch; balcony; open corridor; bone at the base of a fin; meat at the base of a fin (esp. of a flatfish)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61386,
+      "kanji": "沿岸",
+      "kana": "えんがん",
+      "gloss": "coast; shore; littoral",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112874,
+      "kanji": "婉曲",
+      "kana": "えんきょく",
+      "gloss": "euphemistic; circumlocutory; roundabout; indirect",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61405,
+      "kanji": "演習",
+      "kana": "えんしゅう",
+      "gloss": "practice; practising; exercises; manoeuvres; maneuvers; seminar (student debates, presentations, etc.); practicum",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61407,
+      "kanji": "演出",
+      "kana": "えんしゅつ",
+      "gloss": "production (e.g. play); direction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61390,
+      "kanji": "演じる",
+      "kana": "えんじる",
+      "gloss": "to perform (a play); to play (a part); to act (a part); to commit (a blunder)",
+      "card_type": "vocab"
+    }
+  ]
+}

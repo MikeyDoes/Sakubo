@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 452: 参加, 参考, 賛成...",
+  "lesson_number": 452,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 77762,
+      "kanji": "参加",
+      "kana": "さんか",
+      "gloss": "participation; joining; entry; adherence",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77782,
+      "kanji": "参考",
+      "kana": "さんこう",
+      "gloss": "reference; consultation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78062,
+      "kanji": "賛成",
+      "kana": "さんせい",
+      "gloss": "approval; agreement; support; favour; favor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78078,
+      "kanji": "酸素",
+      "kana": "さんそ",
+      "gloss": "oxygen (O)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79002,
+      "kanji": "氏",
+      "kana": "うじ",
+      "gloss": "family name; lineage; birth; clan",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 184692,
+      "kanji": "氏",
+      "kana": "し",
+      "gloss": "Mr; Mrs; Ms; Miss; clan; he; him; counter for people",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63515,
+      "kanji": "詩",
+      "kana": "うた",
+      "gloss": "song; classical Japanese poetry (esp. tanka); modern poetry",
+      "card_type": "vocab"
+    }
+  ]
+}

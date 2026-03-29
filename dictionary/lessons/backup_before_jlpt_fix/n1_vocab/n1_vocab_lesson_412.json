@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1272: 雌, 雌, 目付き...",
+  "lesson_number": 1272,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 79247,
+      "kanji": "雌",
+      "kana": "めす",
+      "gloss": "female (animal, plant)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 271282,
+      "kanji": "雌",
+      "kana": "め",
+      "gloss": "female; smaller (of the two); weaker; woman; wife",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108815,
+      "kanji": "目付き",
+      "kana": "めつき",
+      "gloss": "look (in someone's eyes); expression (of the eyes); eyes",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108389,
+      "kanji": "滅亡",
+      "kana": "めつぼう",
+      "gloss": "downfall; ruin; collapse; destruction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 113516,
+      "kanji": "目眩",
+      "kana": "げんうん",
+      "gloss": "dizziness; giddiness; vertigo",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123414,
+      "kanji": "目盛",
+      "kana": "めもり",
+      "gloss": "gradations (on a ruler, thermometer, etc.); division; scale",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108435,
+      "kanji": "面会",
+      "kana": "めんかい",
+      "gloss": "meeting (face-to-face); seeing; visit; interview",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1008: 事柄, 悉く, 言伝...",
+  "lesson_number": 1008,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 79435,
+      "kanji": "事柄",
+      "kana": "ことがら",
+      "gloss": "matter; thing; affair; circumstance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37087,
+      "kanji": "悉く",
+      "kana": "ことごとく",
+      "gloss": "altogether; entirely",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72881,
+      "kanji": "言伝",
+      "kana": "ことづて",
+      "gloss": "(oral) message; declaration; hearsay; rumour; rumor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81376,
+      "kanji": "殊に",
+      "kana": "ことに",
+      "gloss": "especially; particularly; unusually; above all; additionally",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 275575,
+      "kanji": "事によると",
+      "kana": "ことによると",
+      "gloss": "possibly; maybe; perhaps",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73200,
+      "kanji": "孤独",
+      "kana": "こどく",
+      "gloss": "solitude; loneliness; isolation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119925,
+      "kanji": "粉々",
+      "kana": "こなごな",
+      "gloss": "in very small pieces",
+      "card_type": "vocab"
+    }
+  ]
+}

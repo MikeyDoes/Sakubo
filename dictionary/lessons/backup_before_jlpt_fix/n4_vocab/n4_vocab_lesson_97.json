@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 325: 運ぶ, 始める, 場所...",
+  "lesson_number": 325,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 60936,
+      "kanji": "運ぶ",
+      "kana": "はこぶ",
+      "gloss": "to carry; to transport; to move; to convey; to come; to go; to wield (a tool, etc.); to use; to go (well, etc.); to proceed; to progress",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78537,
+      "kanji": "始める",
+      "kana": "はじめる",
+      "gloss": "to start; to begin; to commence; to initiate; to originate; to start up (a business, society, etc.); to open (e.g. a store); to establish; to start ...; to begin to ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84962,
+      "kanji": "場所",
+      "kana": "ばしょ",
+      "gloss": "place; location; spot; position; room; space; basho; wrestling tournament",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101133,
+      "kanji": "筈",
+      "kana": "はず",
+      "gloss": "should (be); bound (to be); expected (to be); must (be); nock (of a bow); nock (of an arrow); nock-shaped grip (between thumb and forefinger); wooden frame on the tip of the mast of a Japanese ship that prevents the hawser from falling out",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 233206,
+      "kanji": "巴豆",
+      "kana": "はず",
+      "gloss": "purging croton (Croton tiglium)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93838,
+      "kanji": "恥ずかしい",
+      "kana": "はずかしい",
+      "gloss": "embarrassing; embarrassed; ashamed; humiliated; shy; disgraceful; shameful",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101254,
+      "kanji": "発音",
+      "kana": "はつおん",
+      "gloss": "pronunciation; production of sound",
+      "card_type": "vocab"
+    }
+  ]
+}

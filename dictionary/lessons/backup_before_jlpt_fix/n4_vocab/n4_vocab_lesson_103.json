@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 331: 武道, 葡萄, 無道...",
+  "lesson_number": 331,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 104050,
+      "kanji": "武道",
+      "kana": "ぶどう",
+      "gloss": "martial arts; military arts; Bushido",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104097,
+      "kanji": "葡萄",
+      "kana": "ぶどう",
+      "gloss": "grape; grapevine",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 133124,
+      "kanji": "無道",
+      "kana": "ぶどう",
+      "gloss": "inhuman; immoral; unreasonable; outrageous; wicked",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 198070,
+      "kanji": "不道",
+      "kana": "ぶどう",
+      "gloss": "inhuman; immoral; unreasonable; outrageous; wicked; barbarity (one of the eight unpardonable crimes, incl. killing three people in one family, or dismembering a corpse)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92031,
+      "kanji": "太る",
+      "kana": "ふとる",
+      "gloss": "to put on weight; to gain weight; to grow fat; to get stout",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103776,
+      "kanji": "布団",
+      "kana": "ふとん",
+      "gloss": "futon; Japanese bedding consisting of a mattress and a duvet; round cushion used for Zen meditation (traditionally made of woven bulrush leaves)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122716,
+      "kanji": "舟",
+      "kana": "ふね",
+      "gloss": "ship; boat; watercraft; vessel; seaplane; tank; tub; vat; trough; counter for boat-shaped containers (e.g. of sashimi)",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 700: 差し引き, 刺身, 刺す...",
+  "lesson_number": 700,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 76304,
+      "kanji": "差し引き",
+      "kana": "さしひき",
+      "gloss": "deduction; subtraction; balance; ebb and flow; rise and fall",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78409,
+      "kanji": "刺身",
+      "kana": "さしみ",
+      "gloss": "sashimi (raw sliced fish, shellfish or crustaceans)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78395,
+      "kanji": "刺す",
+      "kana": "さす",
+      "gloss": "to pierce; to stab; to prick; to stick; to thrust; to sting; to bite; to sew; to stitch; to embroider; to pole (a boat); to catch (with a limed pole); to put (a runner) out; to pick off",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90925,
+      "kanji": "挿す",
+      "kana": "さす",
+      "gloss": "to insert; to put in; to plant (a cutting); to strike; to arrange (flowers); to wear (a sword) in one's belt; to shut; to close; to lock; to fasten",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124480,
+      "kanji": "注す",
+      "kana": "さす",
+      "gloss": "to pour; to add (liquid); to serve (drinks); to put on (lipstick, etc.); to apply; to colour; to dye; to light (a fire); to burn",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80430,
+      "kanji": "射す",
+      "kana": "さす",
+      "gloss": "to shine",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111042,
+      "kanji": "流石",
+      "kana": "さすが",
+      "gloss": "as one would expect; just as you'd expect (from); just like (someone); still; all the same; after all; even ... (e.g. \"even a genius\")",
+      "card_type": "vocab"
+    }
+  ]
+}

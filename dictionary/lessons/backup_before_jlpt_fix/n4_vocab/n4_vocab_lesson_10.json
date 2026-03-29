@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 238: 受付, 受ける, 動く...",
+  "lesson_number": 238,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 118426,
+      "kanji": "受付",
+      "kana": "うけつけ",
+      "gloss": "reception (desk); information desk; receipt; acceptance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81523,
+      "kanji": "受ける",
+      "kana": "うける",
+      "gloss": "to receive; to get; to catch (e.g. a ball); to be struck by (wind, waves, sunlight, etc.); to sustain (damage); to incur (a loss); to suffer (an injury); to feel (influence); to undergo (e.g. surgery); to take (a test); to accept (a challenge); to be given (e.g. life, talent); to find funny; to find humorous; to be amused (by); to follow; to succeed; to be descended from; to face (south, etc.); to be modified by; to obtain (a pawned item, etc.) by paying a fee; to be well-received; to become popular; to go down well",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97760,
+      "kanji": "動く",
+      "kana": "うごく",
+      "gloss": "to move; to stir; to shift; to shake; to swing; to operate; to run; to go; to work; to make a move; to take action; to act; to go into action; to be touched; to be influenced; to change; to vary; to fluctuate; to waver; to be transferred",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60856,
+      "kanji": "嘘",
+      "kana": "うそ",
+      "gloss": "lie; fib; falsehood; untruth; mistake; error; unwise move; bad decision; no way!; unbelievable!; really?!",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89609,
+      "kanji": "川獺",
+      "kana": "うそ",
+      "gloss": "otter (Lutra lutra); Japanese river otter (Lutra lutra whiteleyi)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 175791,
+      "kanji": "鷽",
+      "kana": "うそ",
+      "gloss": "Eurasian bullfinch (Pyrrhula pyrrhula); Japanese bullfinch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98632,
+      "kanji": "内",
+      "kana": "うち",
+      "gloss": "inside; within; while (e.g. one is young); during; within (e.g. a day); in the course of; among; amongst; (out) of; between; in (secret, chaos, poverty, etc.); amidst; with (e.g. success); within oneself; one's feelings; inner thoughts; we; our company; our organization; one's home; one's family; my spouse; my husband; my wife; signed on behalf of (husband's name) by his wife; I; me; imperial palace grounds; emperor",
+      "card_type": "vocab"
+    }
+  ]
+}

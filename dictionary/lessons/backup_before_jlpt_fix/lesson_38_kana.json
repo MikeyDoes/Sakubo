@@ -1,0 +1,38 @@
+{
+  "title": "Lesson 38 (Kana) - サ・シ・ス・セ・ソ",
+  "lesson_number": 38,
+  "description": "The Slant Rule: シ (shi) is written from the bottom-up. Its \"eyes\" are slanted vertically.",
+  "source_file": "Spoonfed Kana Vocab Lessons.ods",
+  "items": [
+    {
+      "entry_id": 325289,
+      "kana": "サ",
+      "kanji": null,
+      "gloss": "sa"
+    },
+    {
+      "entry_id": 325403,
+      "kana": "シ",
+      "kanji": null,
+      "gloss": "shi"
+    },
+    {
+      "entry_id": 325290,
+      "kana": "ス",
+      "kanji": null,
+      "gloss": "su"
+    },
+    {
+      "entry_id": 325404,
+      "kana": "セ",
+      "kanji": null,
+      "gloss": "se"
+    },
+    {
+      "entry_id": 325405,
+      "kana": "ソ",
+      "kanji": null,
+      "gloss": "so"
+    }
+  ]
+}

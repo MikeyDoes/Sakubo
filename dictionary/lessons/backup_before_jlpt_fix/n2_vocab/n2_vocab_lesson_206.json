@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 822: 便所, 便所, 望遠鏡...",
+  "lesson_number": 822,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 105792,
+      "kanji": "便所",
+      "kana": "べんじょ",
+      "gloss": "toilet; lavatory; water closet; restroom; bathroom",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 277117,
+      "kanji": "便所",
+      "kana": "びんしょ",
+      "gloss": "hairdresser's room in the residence of the shogun or a noble",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106729,
+      "kanji": "望遠鏡",
+      "kana": "ぼうえんきょう",
+      "gloss": "telescope",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106388,
+      "kanji": "方角",
+      "kana": "ほうがく",
+      "gloss": "direction; way; point of the compass; cardinal direction; bearing; method; means; approach",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112954,
+      "kanji": "箒",
+      "kana": "ほうき",
+      "gloss": "broom",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106391,
+      "kanji": "方言",
+      "kana": "ほうげん",
+      "gloss": "dialect; provincialism",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106656,
+      "kanji": "坊さん",
+      "kana": "ぼうさん",
+      "gloss": "Buddhist priest; monk; boy",
+      "card_type": "vocab"
+    }
+  ]
+}

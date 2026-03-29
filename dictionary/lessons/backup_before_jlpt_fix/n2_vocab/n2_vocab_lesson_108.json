@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 724: 初級, 助教授, 食塩...",
+  "lesson_number": 724,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 83175,
+      "kanji": "初級",
+      "kana": "しょきゅう",
+      "gloss": "elementary level; beginner level",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83436,
+      "kanji": "助教授",
+      "kana": "じょきょうじゅ",
+      "gloss": "assistant professor; associate professor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85313,
+      "kanji": "食塩",
+      "kana": "しょくえん",
+      "gloss": "table salt",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85170,
+      "kanji": "職人",
+      "kana": "しょくにん",
+      "gloss": "craftsman; artisan; tradesman; worker; workman",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83191,
+      "kanji": "初旬",
+      "kana": "しょじゅん",
+      "gloss": "first 10 days of the month",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83373,
+      "kanji": "書籍",
+      "kana": "しょせき",
+      "gloss": "book; publication",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85315,
+      "kanji": "食器",
+      "kana": "しょっき",
+      "gloss": "tableware",
+      "card_type": "vocab"
+    }
+  ]
+}

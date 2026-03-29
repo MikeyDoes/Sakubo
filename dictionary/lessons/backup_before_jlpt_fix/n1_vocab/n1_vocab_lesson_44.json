@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 904: 黄金, 黄金, 応募...",
+  "lesson_number": 904,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 62106,
+      "kanji": "黄金",
+      "kana": "おうごん",
+      "gloss": "gold (Au); golden; prosperous; excellent; superb; money (esp. ōban coin); cash",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 301840,
+      "kanji": "黄金",
+      "kana": "こがね",
+      "gloss": "gold; gold coin; gold colour (color)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61826,
+      "kanji": "応募",
+      "kana": "おうぼ",
+      "gloss": "application; subscription; entry (competition, raffle, etc.); enlistment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104386,
+      "kanji": "覆い",
+      "kana": "おおい",
+      "gloss": "cover; mantle; shroud; hood",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 133237,
+      "kanji": "馬肥やし",
+      "kana": "おおい",
+      "gloss": "toothed medick (Medicago polymorpha); hairy medick; bur clover; white clover (Trifolium repens)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 228617,
+      "kanji": "大い",
+      "kana": "おおい",
+      "gloss": "greater (of equal court ranks); upper; senior; a great deal; very much",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92950,
+      "kanji": "大方",
+      "kana": "おおかた",
+      "gloss": "large part; greater part; majority; people in general; general public; public at large; mostly; for the most part; almost; nearly; probably; maybe; perhaps",
+      "card_type": "vocab"
+    }
+  ]
+}

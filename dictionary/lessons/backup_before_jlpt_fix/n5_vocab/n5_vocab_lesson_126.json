@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 226: 私, 私, 私...",
+  "lesson_number": 226,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 83808,
+      "kanji": "私",
+      "kana": "わらわ",
+      "gloss": "I; me",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 173107,
+      "kanji": "私",
+      "kana": "わし",
+      "gloss": "I; me",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 181726,
+      "kanji": "私",
+      "kana": "あっし",
+      "gloss": "I; me",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 201590,
+      "kanji": "私",
+      "kana": "わい",
+      "gloss": "I; me; you",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 201592,
+      "kanji": "私",
+      "kana": "わたい",
+      "gloss": "I; me",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 269201,
+      "kanji": "私",
+      "kana": "し",
+      "gloss": "private affairs; personal matter",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 306177,
+      "kanji": "私",
+      "kana": "わたくし",
+      "gloss": "I; me; personal (affairs, etc.); private; selfishness; partiality; secrecy; confidentiality",
+      "card_type": "vocab"
+    }
+  ]
+}

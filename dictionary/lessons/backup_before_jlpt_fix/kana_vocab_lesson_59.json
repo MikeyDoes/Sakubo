@@ -1,0 +1,37 @@
+{
+  "lesson_number": 59,
+  "title": "Lesson 59 (Vocab) - ラジオ, ラーメン, リレー...",
+  "description": "ラジオ (Radio) and ルール (Rule). ラーメン is one of the most famous Katakana words in the world!",
+  "items": [
+    {
+      "entry_id": 56239,
+      "kanji": null,
+      "kana": "ラジオ",
+      "gloss": "radio"
+    },
+    {
+      "entry_id": 200056,
+      "kanji": null,
+      "kana": "ラーメン",
+      "gloss": "rigid frame"
+    },
+    {
+      "entry_id": 56837,
+      "kanji": null,
+      "kana": "リレー",
+      "gloss": "relay"
+    },
+    {
+      "entry_id": 56916,
+      "kanji": null,
+      "kana": "ルール",
+      "gloss": "rule"
+    },
+    {
+      "entry_id": 56943,
+      "kanji": null,
+      "kana": "ルビー",
+      "gloss": "ruby; ruby character; small hiragana or katakana readings of kanji usually above or to the side of the kanji (esp. used by printers and in ref. to printed material); Ruby (programming language)"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "lesson_number": 35,
+  "title": "Lesson 35 (Vocab) - ケーキ, ココア, カカオ...",
+  "description": "ケーキ (Cake) and キー (Key). See how the dash (ー) replaces the double vowels we used in Hiragana?",
+  "items": [
+    {
+      "entry_id": 43545,
+      "kanji": null,
+      "kana": "ケーキ",
+      "gloss": "cake"
+    },
+    {
+      "entry_id": 43868,
+      "kanji": null,
+      "kana": "ココア",
+      "gloss": "cocoa (beverage, cocoa solids); hot chocolate"
+    },
+    {
+      "entry_id": 326343,
+      "kanji": null,
+      "kana": "カカオ",
+      "gloss": "cacao; cocoa"
+    },
+    {
+      "entry_id": 42525,
+      "kanji": null,
+      "kana": "キー",
+      "gloss": "key (lock, keyboard, piano, clue, island, cay, etc.)"
+    },
+    {
+      "entry_id": 43571,
+      "kanji": null,
+      "kana": "ケア",
+      "gloss": "care; kea (Nestor notabilis)"
+    }
+  ]
+}

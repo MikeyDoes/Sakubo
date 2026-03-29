@@ -1,0 +1,35 @@
+{
+  "title": "Lesson 616: 割る, 悪口, 我々...",
+  "lesson_number": 616,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 65506,
+      "kanji": "割る",
+      "kana": "わる",
+      "gloss": "to divide; to cut; to halve; to separate; to split; to rip; to break; to crack; to smash; to dilute; to fall below; to discount; to step over (a line, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114753,
+      "kanji": "悪口",
+      "kana": "わるぐち",
+      "gloss": "slander; bad-mouthing; abuse; insult; speaking ill (of)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123992,
+      "kanji": "我々",
+      "kana": "われわれ",
+      "gloss": "we",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112417,
+      "kanji": "湾",
+      "kana": "わん",
+      "gloss": "bay; gulf; inlet",
+      "card_type": "vocab"
+    }
+  ]
+}

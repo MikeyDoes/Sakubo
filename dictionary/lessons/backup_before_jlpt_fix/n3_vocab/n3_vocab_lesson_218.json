@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 567: 広がる, 瓶, 瓶...",
+  "lesson_number": 567,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 122611,
+      "kanji": "広がる",
+      "kana": "ひろがる",
+      "gloss": "to spread (out); to extend; to stretch; to reach to; to get around; to fill (e.g. a space)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103046,
+      "kanji": "瓶",
+      "kana": "かめ",
+      "gloss": "earthenware pot",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103048,
+      "kanji": "瓶",
+      "kana": "びん",
+      "gloss": "bottle; jar; decanter; flagon; phial; vial",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 310593,
+      "kanji": "瓶",
+      "kana": "へい",
+      "gloss": "jar or vase with a long narrow neck",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105775,
+      "kanji": "便",
+      "kana": "びん",
+      "gloss": "flight (e.g. airline flight); trip (e.g. train trip); service; mail; post; letter; opportunity; chance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105776,
+      "kanji": "便",
+      "kana": "べん",
+      "gloss": "convenience; service; facility; accommodation; excreta (esp. faeces); excrement; stool",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 162127,
+      "kanji": "便",
+      "kana": "よすが",
+      "gloss": "something to rely on; aid; clue; way; means; someone to rely on; relative; reminder; memento",
+      "card_type": "vocab"
+    }
+  ]
+}

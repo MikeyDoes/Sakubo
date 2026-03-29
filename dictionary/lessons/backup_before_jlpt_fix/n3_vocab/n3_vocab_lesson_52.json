@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 401: 彼等, 彼等, 河...",
+  "lesson_number": 401,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 101985,
+      "kanji": "彼等",
+      "kana": "かれら",
+      "gloss": "they; them",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 224601,
+      "kanji": "彼等",
+      "kana": "あれら",
+      "gloss": "those (indicating something distant from both speaker and listener, or something understood without naming it directly); they (of people)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89584,
+      "kanji": "河",
+      "kana": "かわ",
+      "gloss": "river; stream; River; the ... river",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 272925,
+      "kanji": "河",
+      "kana": "ホー",
+      "gloss": "discarded tiles; discards",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102075,
+      "kanji": "皮",
+      "kana": "かわ",
+      "gloss": "skin; hide; pelt; fur; rind; peel; husk; bark; shell; sheath; wrapping; mask (hiding one's true nature); seeming",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102076,
+      "kanji": "革",
+      "kana": "かわ",
+      "gloss": "leather",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 196187,
+      "kanji": "革",
+      "kana": "つくりかわ",
+      "gloss": "leather; tanned animal hide; kanji \"leather\" radical (radical 177)",
+      "card_type": "vocab"
+    }
+  ]
+}

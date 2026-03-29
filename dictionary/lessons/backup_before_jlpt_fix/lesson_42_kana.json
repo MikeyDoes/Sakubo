@@ -1,0 +1,38 @@
+{
+  "title": "Lesson 42 (Kana) - タ・チ・ツ・テ・ト",
+  "lesson_number": 42,
+  "description": "The Twin: ツ (tsu) looks like シ. But ツ is written from the top-down. Its \"eyes\" are horizontal.",
+  "source_file": "Spoonfed Kana Vocab Lessons.ods",
+  "items": [
+    {
+      "entry_id": 325294,
+      "kana": "タ",
+      "kanji": null,
+      "gloss": "ta"
+    },
+    {
+      "entry_id": 325295,
+      "kana": "チ",
+      "kanji": null,
+      "gloss": "chi"
+    },
+    {
+      "entry_id": 325296,
+      "kana": "ツ",
+      "kanji": null,
+      "gloss": "tsu"
+    },
+    {
+      "entry_id": 325297,
+      "kana": "テ",
+      "kanji": null,
+      "gloss": "te"
+    },
+    {
+      "entry_id": 325408,
+      "kana": "ト",
+      "kanji": null,
+      "gloss": "to"
+    }
+  ]
+}

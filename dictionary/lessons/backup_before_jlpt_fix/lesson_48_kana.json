@@ -1,0 +1,38 @@
+{
+  "title": "Lesson 48 (Kana) - ハ・ヒ・フ・ヘ・ホ",
+  "lesson_number": 48,
+  "description": "The H-Line: Watch out for ハ (ha). It looks like the bottom of the Hiragana は.",
+  "source_file": "Spoonfed Kana Vocab Lessons.ods",
+  "items": [
+    {
+      "entry_id": 325411,
+      "kana": "ハ",
+      "kanji": null,
+      "gloss": "ha"
+    },
+    {
+      "entry_id": 325306,
+      "kana": "ヒ",
+      "kanji": null,
+      "gloss": "hi"
+    },
+    {
+      "entry_id": 325307,
+      "kana": "フ",
+      "kanji": null,
+      "gloss": "fu"
+    },
+    {
+      "entry_id": 325412,
+      "kana": "ヘ",
+      "kanji": null,
+      "gloss": "he"
+    },
+    {
+      "entry_id": 325413,
+      "kana": "ホ",
+      "kanji": null,
+      "gloss": "ho"
+    }
+  ]
+}

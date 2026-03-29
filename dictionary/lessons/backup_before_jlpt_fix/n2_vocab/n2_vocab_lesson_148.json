@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 764: 通帳, 通訳, 通用...",
+  "lesson_number": 764,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 95365,
+      "kanji": "通帳",
+      "kana": "つうちょう",
+      "gloss": "passbook; bankbook",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95373,
+      "kanji": "通訳",
+      "kana": "つうやく",
+      "gloss": "interpretation (i.e. oral translation); interpreter",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95374,
+      "kanji": "通用",
+      "kana": "つうよう",
+      "gloss": "popular use; circulation; to pass as; to pass for",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95377,
+      "kanji": "通路",
+      "kana": "つうろ",
+      "gloss": "passage; pathway; roadway; avenue; aisle",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121255,
+      "kanji": "付合う",
+      "kana": "つきあう",
+      "gloss": "to associate with; to keep company with; to go out with; to go steady with; to get on with; to go along with; to follow someone's lead; to accompany someone; to compromise",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98444,
+      "kanji": "突き当たり",
+      "kana": "つきあたり",
+      "gloss": "end (of a street, hallway, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98450,
+      "kanji": "突き当たる",
+      "kana": "つきあたる",
+      "gloss": "to run into; to collide with; to crash into; to bump against; to come to the end of (a street); to run into (difficulties, problems, etc.); to run up against",
+      "card_type": "vocab"
+    }
+  ]
+}

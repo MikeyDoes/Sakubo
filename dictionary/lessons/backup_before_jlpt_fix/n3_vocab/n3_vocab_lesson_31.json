@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 380: 丘, 沖, 奥...",
+  "lesson_number": 380,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 206652,
+      "kanji": "丘",
+      "kana": "つかさ",
+      "gloss": "mound; hill",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62190,
+      "kanji": "沖",
+      "kana": "おき",
+      "gloss": "open sea; Okinawa",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61737,
+      "kanji": "奥",
+      "kana": "おく",
+      "gloss": "inner part; inside; interior; depths (e.g. of a forest); back (of a house, drawer, etc.); bottom (e.g. of one's heart); recesses; heart",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91468,
+      "kanji": "贈る",
+      "kana": "おくる",
+      "gloss": "to give (as a gift); to present; to confer; to bestow; to award",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67597,
+      "kanji": "起こる",
+      "kana": "おこる",
+      "gloss": "to occur; to happen",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110036,
+      "kanji": "幼い",
+      "kana": "おさない",
+      "gloss": "very young; little; childish; immature",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118723,
+      "kanji": "収める",
+      "kana": "おさめる",
+      "gloss": "to dedicate; to make an offering; to pay (fees); to supply; to store; to finish; to bring to a close; to restore (something to its place); to achieve (e.g. a result)",
+      "card_type": "vocab"
+    }
+  ]
+}

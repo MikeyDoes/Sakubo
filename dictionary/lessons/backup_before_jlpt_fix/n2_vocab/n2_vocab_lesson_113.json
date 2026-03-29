@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 729: 水蒸気, 水素, 垂直...",
+  "lesson_number": 729,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 87082,
+      "kanji": "水蒸気",
+      "kana": "すいじょうき",
+      "gloss": "water vapour; water vapor; steam",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87103,
+      "kanji": "水素",
+      "kana": "すいそ",
+      "gloss": "hydrogen (H)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86968,
+      "kanji": "垂直",
+      "kana": "すいちょく",
+      "gloss": "vertical; perpendicular",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87012,
+      "kanji": "推定",
+      "kana": "すいてい",
+      "gloss": "presumption; assumption; estimation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87115,
+      "kanji": "水滴",
+      "kana": "すいてき",
+      "gloss": "drop of water; vessel for replenishing inkstone water",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87118,
+      "kanji": "水筒",
+      "kana": "すいとう",
+      "gloss": "canteen; flask; water bottle; thermos",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87238,
+      "kanji": "随筆",
+      "kana": "ずいひつ",
+      "gloss": "essays; miscellaneous writings; literary jottings",
+      "card_type": "vocab"
+    }
+  ]
+}

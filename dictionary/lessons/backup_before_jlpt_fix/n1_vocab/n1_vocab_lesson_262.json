@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1122: 大胆, 台無し, 大便...",
+  "lesson_number": 1122,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 92893,
+      "kanji": "大胆",
+      "kana": "だいたん",
+      "gloss": "bold; daring; audacious",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92675,
+      "kanji": "台無し",
+      "kana": "だいなし",
+      "gloss": "mess; spoiled; spoilt; (come to) nothing; ruin",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92949,
+      "kanji": "大便",
+      "kana": "だいべん",
+      "gloss": "feces; excrement; shit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92612,
+      "kanji": "代弁",
+      "kana": "だいべん",
+      "gloss": "speaking by proxy; speaking for (someone else); acting as spokesman (for); representing (the views, feelings, etc. of); payment by proxy; compensation by proxy; paying on behalf (of); acting for (someone else); carrying out (on someone's behalf)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92674,
+      "kanji": "台本",
+      "kana": "だいほん",
+      "gloss": "script; libretto; scenario",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92621,
+      "kanji": "代用",
+      "kana": "だいよう",
+      "gloss": "substitution",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92168,
+      "kanji": "打開",
+      "kana": "だかい",
+      "gloss": "break in the deadlock",
+      "card_type": "vocab"
+    }
+  ]
+}

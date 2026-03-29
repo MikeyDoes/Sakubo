@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 206: 下手, 下手, 下手...",
+  "lesson_number": 206,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 62524,
+      "kanji": "下手",
+      "kana": "したて",
+      "gloss": "humble position; inferior; underarm grip on opponent's belt",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62526,
+      "kanji": "下手",
+      "kana": "しもて",
+      "gloss": "lower part; foot; lower direction; left part of the stage (audience's or camera's POV); stage right (actor's POV)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62528,
+      "kanji": "下手",
+      "kana": "へた",
+      "gloss": "unskillful; poor; awkward; imprudent; untactful",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 197264,
+      "kanji": "ＰＥＴ",
+      "kana": "ペット",
+      "gloss": "polyethylene terephthalate; PET; positron emission tomography",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104129,
+      "kanji": "部屋",
+      "kana": "へや",
+      "gloss": "room; chamber; apartment; flat; pad; stable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105742,
+      "kanji": "辺",
+      "kana": "へん",
+      "gloss": "area; vicinity; region; side; edge; circumstances",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 207248,
+      "kanji": "辺",
+      "kana": "へ",
+      "gloss": "surrounding area; shore (of the sea); suffix used as a rough indicator of location, direction, time, etc.",
+      "card_type": "vocab"
+    }
+  ]
+}

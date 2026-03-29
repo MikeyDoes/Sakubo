@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 155: 三, 散歩, 四...",
+  "lesson_number": 155,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 272011,
+      "kanji": "三",
+      "kana": "サン",
+      "gloss": "three",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77977,
+      "kanji": "散歩",
+      "kana": "さんぽ",
+      "gloss": "walk; stroll",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115918,
+      "kanji": "四",
+      "kana": "し",
+      "gloss": "four",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 272012,
+      "kanji": "四",
+      "kana": "スー",
+      "gloss": "four",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115042,
+      "kanji": "塩",
+      "kana": "しお",
+      "gloss": "salt; common salt; table salt; sodium chloride; hardship; toil; trouble; saltiness; cold; unwelcoming; indifferent",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 313412,
+      "kanji": "塩",
+      "kana": "えん",
+      "gloss": "salt (e.g. sodium chloride, calcium sulfate, etc.); chloride",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105010,
+      "kanji": "然し",
+      "kana": "しかし",
+      "gloss": "however; but",
+      "card_type": "vocab"
+    }
+  ]
+}

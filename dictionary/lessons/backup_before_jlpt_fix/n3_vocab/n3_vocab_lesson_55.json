@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 404: 感謝, 患者, 勘定...",
+  "lesson_number": 404,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 66100,
+      "kanji": "感謝",
+      "kana": "かんしゃ",
+      "gloss": "thanks; gratitude",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66083,
+      "kanji": "患者",
+      "kana": "かんじゃ",
+      "gloss": "patient",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65910,
+      "kanji": "勘定",
+      "kana": "かんじょう",
+      "gloss": "calculation; computation; counting; reckoning; count; bill; check; account; payment (of a bill); settlement (of an account); consideration; allowance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66103,
+      "kanji": "感情",
+      "kana": "かんじょう",
+      "gloss": "emotion; feeling; feelings; sentiment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66087,
+      "kanji": "感じる",
+      "kana": "かんじる",
+      "gloss": "to feel; to sense; to experience",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66107,
+      "kanji": "感心",
+      "kana": "かんしん",
+      "gloss": "admiration; being impressed; admirable; praiseworthy; astonishment; being appalled",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66516,
+      "kanji": "関心",
+      "kana": "かんしん",
+      "gloss": "concern; interest",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Kana Vocab 103: レンジ, レンタカー, レントゲン...",
+  "lesson_number": 1409,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 57225,
+      "kana": "レンジ",
+      "gloss": "range; stove; cooker; microwave oven",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 57234,
+      "kana": "レンタカー",
+      "gloss": "rental car; rent-a-car; hired auto; car rental agency; car hire agency; hire car agency",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 57244,
+      "kana": "レントゲン",
+      "gloss": "X-ray; roentgen (unit of ionizing radiation)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 57318,
+      "kana": "ロープ",
+      "gloss": "rope",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 57490,
+      "kana": "ロマンチック",
+      "gloss": "romantic",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 57618,
+      "kana": "ワット",
+      "gloss": "watt",
+      "card_type": "vocab"
+    }
+  ]
+}

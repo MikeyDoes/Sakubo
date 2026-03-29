@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 334: 僕, 僕, 僕...",
+  "lesson_number": 334,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 106942,
+      "kanji": "僕",
+      "kana": "しもべ",
+      "gloss": "servant; manservant; menial",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106945,
+      "kanji": "僕",
+      "kana": "ぼく",
+      "gloss": "I; me; you; manservant",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 178099,
+      "kanji": "僕",
+      "kana": "やつがれ",
+      "gloss": "I; me",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 203251,
+      "kanji": "僕",
+      "kana": "やつこ",
+      "gloss": "slave; retainer; servant; captive; varlet; I; me",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87708,
+      "kanji": "星",
+      "kana": "ほし",
+      "gloss": "star (usu. not including the Sun); planet (usu. not including Earth); heavenly body; star (glyph, symbol, shape); star (actor, player, etc.); small dot; spot; fleck; star point (in go); hoshi; intersection marked with a dot; perp; perpetrator; mark; offender; suspect; bullseye; one's star (that determines one's fate); one's fortune; point; score",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 184678,
+      "kanji": "星",
+      "kana": "せい",
+      "gloss": "Chinese \"star\" constellation (one of the 28 mansions); Singapore",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95776,
+      "kanji": "程",
+      "kana": "ほど",
+      "gloss": "extent; degree; measure; limit; bounds; (span of) time; (a) distance; the state of; the status of; the condition of; about; around; approximately; or so; as much as ...; to the extent of ...; like ...; the more ... the more ...",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1063: 新, 進化, 殿...",
+  "lesson_number": 1063,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 85722,
+      "kanji": "新",
+      "kana": "しん",
+      "gloss": "new; neo-; newness; novelty; Gregorian calendar; Xin dynasty (China, 9-23 CE); Hsin dynasty",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86351,
+      "kanji": "進化",
+      "kana": "しんか",
+      "gloss": "evolution; progress",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96515,
+      "kanji": "殿",
+      "kana": "しんがり",
+      "gloss": "rear; rear unit guard; anchor (man)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96516,
+      "kanji": "殿",
+      "kana": "との",
+      "gloss": "feudal lord; mansion; palace",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85540,
+      "kanji": "審議",
+      "kana": "しんぎ",
+      "gloss": "deliberation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86357,
+      "kanji": "進行",
+      "kana": "しんこう",
+      "gloss": "moving forward (e.g. vehicle); onward movement; advance (work, procedure, etc.); advancement; progress; progress (of a disease); disease progression; progression (harmonic, melodic)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85749,
+      "kanji": "新興",
+      "kana": "しんこう",
+      "gloss": "rising; developing; emergent; burgeoning; new",
+      "card_type": "vocab"
+    }
+  ]
+}

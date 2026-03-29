@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 924: 顔付き, 掲げる, 踵...",
+  "lesson_number": 924,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 66817,
+      "kanji": "顔付き",
+      "kana": "かおつき",
+      "gloss": "(outward) looks; features; face; countenance; expression",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71028,
+      "kanji": "掲げる",
+      "kana": "かかげる",
+      "gloss": "to put up (a notice, sign, etc.); to hang out (e.g. a banner); to fly (e.g. a flag); to hoist; to raise; to display; to hold up high; to raise overhead; to tout (a principle, plan, etc.); to herald; to hold up (an ideal); to parade (e.g. a slogan); to publish; to print; to carry (e.g. an article); to tuck up (e.g. sleeves); to roll up; to stoke (a fire); to fan (a flame)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114275,
+      "kanji": "踵",
+      "kana": "かかと",
+      "gloss": "heel (of foot, shoe, stocking, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118938,
+      "kanji": "係り",
+      "kana": "かかり",
+      "gloss": "charge; duty; person in charge; official; clerk; connection; linking",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63888,
+      "kanji": "課外",
+      "kana": "かがい",
+      "gloss": "extracurricular",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118975,
+      "kanji": "書き取り",
+      "kana": "かきとり",
+      "gloss": "writing down from other written material; writing kanji text from hiragana; transcription (of spoken material); dictation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83318,
+      "kanji": "書き取る",
+      "kana": "かきとる",
+      "gloss": "to write down (what someone says); to take down dictation; to take notes (e.g. of a lecture); to copy out (a text)",
+      "card_type": "vocab"
+    }
+  ]
+}

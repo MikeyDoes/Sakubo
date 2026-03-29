@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 298: 姓, 僧, 双...",
+  "lesson_number": 298,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 87572,
+      "kanji": "姓",
+      "kana": "そう",
+      "gloss": "surname; family name; hereditary title (used in ancient Japan to denote rank and political standing)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90700,
+      "kanji": "僧",
+      "kana": "そう",
+      "gloss": "monk; priest; sangha (the Buddhist community)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90762,
+      "kanji": "双",
+      "kana": "そう",
+      "gloss": "pair",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90852,
+      "kanji": "喪",
+      "kana": "そう",
+      "gloss": "mourning; calamity; misfortune",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90881,
+      "kanji": "層",
+      "kana": "そう",
+      "gloss": "layer; stratum; seam; bed; class; bracket; group; sheaf; counter for stories (of a building)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90886,
+      "kanji": "想",
+      "kana": "そう",
+      "gloss": "conception; idea; thought; samjna (perception)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90979,
+      "kanji": "操",
+      "kana": "そう",
+      "gloss": "fidelity; honour; honor; constancy; chastity (of a woman); faithfulness (e.g. to one's husband)",
+      "card_type": "vocab"
+    }
+  ]
+}

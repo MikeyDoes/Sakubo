@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 194: 灰皿, 入る, 葉書...",
+  "lesson_number": 194,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 64706,
+      "kanji": "灰皿",
+      "kana": "はいざら",
+      "gloss": "ashtray",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99652,
+      "kanji": "入る",
+      "kana": "はいる",
+      "gloss": "to enter; to go into; to break into; to join; to enroll; to contain; to hold; to accommodate; to have (an income of); to get turned on; to start functioning; to start working; to get; to obtain; to receive; to score",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110282,
+      "kanji": "葉書",
+      "kana": "はがき",
+      "gloss": "postcard; memo; note; card",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90913,
+      "kanji": "掃く",
+      "kana": "はく",
+      "gloss": "to sweep; to brush; to clean; to gather silkworms",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100833,
+      "kanji": "伯",
+      "kana": "はく",
+      "gloss": "count; earl; chief official of the Department of Worship; eldest brother; Brazil; Brazilian",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102645,
+      "kanji": "１００",
+      "kana": "はく",
+      "gloss": "100; hundred",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116962,
+      "kanji": "博",
+      "kana": "はく",
+      "gloss": "doctor; PhD; exposition; fair; exhibition",
+      "card_type": "vocab"
+    }
+  ]
+}

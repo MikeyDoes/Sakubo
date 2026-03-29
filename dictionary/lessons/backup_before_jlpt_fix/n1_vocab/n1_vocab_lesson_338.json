@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1198: 励ます, 励む, 剥げる...",
+  "lesson_number": 1198,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 111654,
+      "kanji": "励ます",
+      "kana": "はげます",
+      "gloss": "to encourage; to cheer; to raise (the voice)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111658,
+      "kanji": "励む",
+      "kana": "はげむ",
+      "gloss": "to strive; to endeavour; to endeavor; to make an effort; to be zealous",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100855,
+      "kanji": "剥げる",
+      "kana": "はげる",
+      "gloss": "to come off; to be worn off; to fade; to discolor; to discolour",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 269897,
+      "kanji": "剥げる",
+      "kana": "へげる",
+      "gloss": "to peel off",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 172388,
+      "kanji": "鋏",
+      "kana": "やっとこ",
+      "gloss": "pincers; nippers; pliers",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94442,
+      "kanji": "柱",
+      "kana": "はしら",
+      "gloss": "pillar; post; support; prop; mainstay; counter for buddhas, gods, nobles, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 228108,
+      "kanji": "柱",
+      "kana": "ちゅう",
+      "gloss": "bridge (of a koto, etc.); cylinder; prism",
+      "card_type": "vocab"
+    }
+  ]
+}

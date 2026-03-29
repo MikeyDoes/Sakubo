@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 635: 演劇, 円周, 遠足...",
+  "lesson_number": 635,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 61399,
+      "kanji": "演劇",
+      "kana": "えんげき",
+      "gloss": "drama; theatre; theater; play",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61287,
+      "kanji": "円周",
+      "kana": "えんしゅう",
+      "gloss": "circumference",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61591,
+      "kanji": "遠足",
+      "kana": "えんそく",
+      "gloss": "excursion; outing; trip",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61364,
+      "kanji": "延長",
+      "kana": "えんちょう",
+      "gloss": "extension; elongation; prolongation; lengthening; Enchō era (923.4.11-931.4.26)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61467,
+      "kanji": "煙突",
+      "kana": "えんとつ",
+      "gloss": "chimney; smokestack; funnel (of a ship); stovepipe; carrying a passenger without turning on the taximeter",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124264,
+      "kanji": "追い掛ける",
+      "kana": "おいかける",
+      "gloss": "to chase; to run after; to pursue",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95193,
+      "kanji": "追い越す",
+      "kana": "おいこす",
+      "gloss": "to pass (e.g. car); to overtake; to surpass; to outstrip; to get ahead of; to outdistance",
+      "card_type": "vocab"
+    }
+  ]
+}

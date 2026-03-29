@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 150: 個々, 戸戸, 呱呱...",
+  "lesson_number": 150,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 119884,
+      "kanji": "個々",
+      "kana": "ここ",
+      "gloss": "individual; one by one; separate; each",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 128589,
+      "kanji": "戸戸",
+      "kana": "ここ",
+      "gloss": "each house; every house",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 165793,
+      "kanji": "呱呱",
+      "kana": "ここ",
+      "gloss": "cry of a baby at its birth",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73493,
+      "kanji": "午後",
+      "kana": "ごご",
+      "gloss": "afternoon; p.m.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70135,
+      "kanji": "九日",
+      "kana": "ここのか",
+      "gloss": "ninth day of the month; nine days",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70107,
+      "kanji": "九つ",
+      "kana": "ここのつ",
+      "gloss": "nine; nine years of age; twelve o'clock (old time system)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73500,
+      "kanji": "午前",
+      "kana": "ごぜん",
+      "gloss": "morning; a.m.",
+      "card_type": "vocab"
+    }
+  ]
+}

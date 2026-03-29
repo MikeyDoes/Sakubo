@@ -1,0 +1,44 @@
+{
+  "title": "Lesson 15: (Kana) - Lesson 15: (Hiragana) \"ぱ, ぴ, ぷ, ぺ, ぽ\"",
+  "lesson_type": "kana",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Handakuten (゜)",
+      "body": "The small circle (゜) is called handakuten (or 'maru'). It changes the は row sounds to 'p':\n\nは → ぱ (ha → pa)\nひ → ぴ (hi → pi)\nふ → ぷ (fu → pu)\nへ → ぺ (he → pe)\nほ → ぽ (ho → po)\n\nHandakuten only applies to the は row — no other characters use it."
+    }
+  ],
+  "items": [
+    {
+      "entry_id": 325249,
+      "kana": "ぱ",
+      "gloss": "pa",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325250,
+      "kana": "ぴ",
+      "gloss": "pi",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325251,
+      "kana": "ぷ",
+      "gloss": "pu",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325252,
+      "kana": "ぺ",
+      "gloss": "pe",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325253,
+      "kana": "ぽ",
+      "gloss": "po",
+      "card_type": "kana"
+    }
+  ],
+  "lesson_number": 15
+}

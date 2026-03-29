@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 352: 悪魔, 明ける, 晨...",
+  "lesson_number": 352,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 58066,
+      "kanji": "悪魔",
+      "kana": "あくま",
+      "gloss": "devil; demon; fiend; Satan; the Devil; Māra; evil spirits or forces that hinder one's path to enlightenment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64788,
+      "kanji": "明ける",
+      "kana": "あける",
+      "gloss": "to open (a door, etc.); to unwrap (e.g. parcel, package); to unlock; to open (for business, etc.); to empty; to remove; to make space; to make room; to move out; to clear out; to be away from (e.g. one's house); to leave (temporarily); to dawn; to grow light; to end (of a period, season); to begin (of the New Year); to leave (one's schedule) open; to make time (for); to make (a hole); to open up (a hole)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94677,
+      "kanji": "晨",
+      "kana": "あした",
+      "gloss": "morning; breakfast; next morning",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110025,
+      "kanji": "預ける",
+      "kana": "あずける",
+      "gloss": "to leave (in someone's keeping); to put (in someone's care); to place (in someone's custody); to entrust (someone) with; to deposit; to put (someone) in charge of; to leave (a matter) in someone's hands; to let (someone) decide; to lean on; to put one's weight on",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66183,
+      "kanji": "汗",
+      "kana": "あせ",
+      "gloss": "sweat; perspiration; moisture; condensation; gulp; oops",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 207665,
+      "kanji": "汗",
+      "kana": "かん",
+      "gloss": "khan (medieval ruler of a Tatary tribe)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109993,
+      "kanji": "与える",
+      "kana": "あたえる",
+      "gloss": "to give (esp. to someone of lower status); to bestow; to grant; to confer; to present; to award; to provide; to afford; to offer; to supply; to assign; to cause; to pass (a variable to a function)",
+      "card_type": "vocab"
+    }
+  ]
+}

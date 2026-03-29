@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 327: 日, 火, 火...",
+  "lesson_number": 327,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 182278,
+      "kanji": "日",
+      "kana": "か",
+      "gloss": "day of month; counter for days",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63603,
+      "kanji": "火",
+      "kana": "ひ",
+      "gloss": "fire; flame; blaze",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 206283,
+      "kanji": "火",
+      "kana": "か",
+      "gloss": "Tuesday; fire (second of the five elements)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111571,
+      "kanji": "冷える",
+      "kana": "ひえる",
+      "gloss": "to grow cold (from room temperature, e.g. in refrigerator); to get chilly; to cool down",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74040,
+      "kanji": "光",
+      "kana": "ひかり",
+      "gloss": "light; illumination; ray; beam; gleam; glow; happiness; hope; influence; power; vision; eyesight",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74046,
+      "kanji": "光る",
+      "kana": "ひかる",
+      "gloss": "to shine; to glitter; to be bright",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122381,
+      "kanji": "引き出し",
+      "kana": "ひきだし",
+      "gloss": "drawer; withdrawal (of money from an account); variety of knowledge and experience useful for handling things impromptu",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1213: 引きずる, 引き取る, 引き分け...",
+  "lesson_number": 1213,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 60291,
+      "kanji": "引きずる",
+      "kana": "ひきずる",
+      "gloss": "to drag along; to pull; to force someone along; to prolong; to drag out; to influence strongly; to seduce",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60281,
+      "kanji": "引き取る",
+      "kana": "ひきとる",
+      "gloss": "to take into one's possession; to receive; to accept; to collect; to claim; to take into one's care (e.g. person, pet); to take custody of; to adopt; to leave; to go away; to withdraw; to get out",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60320,
+      "kanji": "引き分け",
+      "kana": "ひきわけ",
+      "gloss": "draw (in competition); tie game",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101974,
+      "kanji": "否決",
+      "kana": "ひけつ",
+      "gloss": "rejection; negation; voting down",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102214,
+      "kanji": "非行",
+      "kana": "ひこう",
+      "gloss": "delinquency; misconduct",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99464,
+      "kanji": "日頃",
+      "kana": "ひごろ",
+      "gloss": "normally; habitually",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68101,
+      "kanji": "久しい",
+      "kana": "ひさしい",
+      "gloss": "long (time that has passed); old (story)",
+      "card_type": "vocab"
+    }
+  ]
+}

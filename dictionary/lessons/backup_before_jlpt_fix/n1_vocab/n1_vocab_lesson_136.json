@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 996: 行進, 香辛料, 口述...",
+  "lesson_number": 996,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 75154,
+      "kanji": "行進",
+      "kana": "こうしん",
+      "gloss": "march; parade",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75284,
+      "kanji": "香辛料",
+      "kana": "こうしんりょう",
+      "gloss": "spice; spices; condiment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74425,
+      "kanji": "口述",
+      "kana": "こうじゅつ",
+      "gloss": "dictation; verbal statement",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74786,
+      "kanji": "控除",
+      "kana": "こうじょ",
+      "gloss": "subtraction; deduction (e.g. tax); subsidy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74555,
+      "kanji": "向上",
+      "kana": "こうじょう",
+      "gloss": "elevation; rise; improvement; advancement; progress",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75267,
+      "kanji": "降水",
+      "kana": "こうすい",
+      "gloss": "rainfall; precipitation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74886,
+      "kanji": "洪水",
+      "kana": "こうずい",
+      "gloss": "flood; flooding",
+      "card_type": "vocab"
+    }
+  ]
+}

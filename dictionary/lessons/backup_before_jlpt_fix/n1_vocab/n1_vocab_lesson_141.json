@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1001: 小柄, 小切手, 国産...",
+  "lesson_number": 1001,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 179075,
+      "kanji": "小柄",
+      "kana": "しょうへい",
+      "gloss": "sterigma",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83931,
+      "kanji": "小切手",
+      "kana": "こぎって",
+      "gloss": "cheque; check",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75697,
+      "kanji": "国産",
+      "kana": "こくさん",
+      "gloss": "domestic; domestically-produced; produced within a country",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75729,
+      "kanji": "国定",
+      "kana": "こくてい",
+      "gloss": "state-sponsored; national",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75732,
+      "kanji": "国土",
+      "kana": "こくど",
+      "gloss": "country; territory; domain; realm",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75639,
+      "kanji": "告白",
+      "kana": "こくはく",
+      "gloss": "confession; acknowledgement; acknowledgment; confession of love; professing one's feelings; confession of sins (e.g. the confessional)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75748,
+      "kanji": "国防",
+      "kana": "こくぼう",
+      "gloss": "national defence; national defense",
+      "card_type": "vocab"
+    }
+  ]
+}

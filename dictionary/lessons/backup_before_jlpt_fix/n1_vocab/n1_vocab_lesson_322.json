@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1182: 何となく, 何なり, 荷...",
+  "lesson_number": 1182,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 121815,
+      "kanji": "何となく",
+      "kana": "なにとなく",
+      "gloss": "somehow or other; for some reason or another; without knowing why",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62917,
+      "kanji": "何なり",
+      "kana": "なんなり",
+      "gloss": "anything; whatever",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63831,
+      "kanji": "荷",
+      "kana": "に",
+      "gloss": "load; baggage; cargo; freight; goods; burden; responsibility",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 227985,
+      "kanji": "荷",
+      "kana": "か",
+      "gloss": "counter for loads (that can be carried on one's shoulders)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79495,
+      "kanji": "似通う",
+      "kana": "にかよう",
+      "gloss": "to resemble closely",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108461,
+      "kanji": "面皰",
+      "kana": "にきび",
+      "gloss": "pimple; acne",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99386,
+      "kanji": "賑わう",
+      "kana": "にぎわう",
+      "gloss": "to be crowded with people; to be bustling with; to prosper; to flourish; to do thriving business",
+      "card_type": "vocab"
+    }
+  ]
+}

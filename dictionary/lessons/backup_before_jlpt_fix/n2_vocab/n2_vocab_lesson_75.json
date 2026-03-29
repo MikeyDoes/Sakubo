@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 691: 腰掛ける, 五十音, 胡椒...",
+  "lesson_number": 691,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 75926,
+      "kanji": "腰掛ける",
+      "kana": "こしかける",
+      "gloss": "to sit (down)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73416,
+      "kanji": "五十音",
+      "kana": "ごじゅうおん",
+      "gloss": "the Japanese syllabary",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73318,
+      "kanji": "胡椒",
+      "kana": "こしょう",
+      "gloss": "pepper",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 113080,
+      "kanji": "拵える",
+      "kana": "こしらえる",
+      "gloss": "to make; to manufacture",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61229,
+      "kanji": "超す",
+      "kana": "こす",
+      "gloss": "to cross over (e.g. mountain); to go across; to get over (e.g. hardship); to pass time (e.g. a winter); to surpass; to be better than; to exceed; to move house; to go; to come",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77327,
+      "kanji": "擦る",
+      "kana": "こする",
+      "gloss": "to rub; to scrub; to scrape",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107229,
+      "kanji": "擦る",
+      "kana": "さする",
+      "gloss": "to rub; to pat; to stroke; to massage",
+      "card_type": "vocab"
+    }
+  ]
+}

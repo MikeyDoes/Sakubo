@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 4: じゃ, シャツ, シャワー...",
+  "lesson_number": 1310,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 37320,
+      "kana": "じゃ",
+      "gloss": "then; well; so; well then; be; is",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 45486,
+      "kana": "シャツ",
+      "gloss": "shirt (underwear); undershirt; singlet; shirt (outerwear, esp. dress shirt)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 45526,
+      "kana": "シャワー",
+      "gloss": "shower",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 46300,
+      "kana": "スカート",
+      "gloss": "skirt",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 46770,
+      "kana": "ストーブ",
+      "gloss": "(room) heater; stove",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47022,
+      "kana": "スプーン",
+      "gloss": "spoon",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47098,
+      "kana": "スポーツ",
+      "gloss": "sport; sports",
+      "card_type": "vocab"
+    }
+  ]
+}

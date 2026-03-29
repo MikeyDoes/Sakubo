@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 182: 時計, 何処, 所...",
+  "lesson_number": 182,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 79699,
+      "kanji": "時計",
+      "kana": "とけい",
+      "gloss": "clock; watch; timepiece",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115159,
+      "kanji": "何処",
+      "kana": "どこ",
+      "gloss": "where; what place; how much (long, far); what extent",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83223,
+      "kanji": "所",
+      "kana": "ところ",
+      "gloss": "place; spot; scene; site; address; district; area; locality; one's house; point; aspect; side; facet; passage (in text); part; space; room; thing; matter; whereupon; as a result; about to; on the verge of; was just doing; was in the process of doing; have just done; just finished doing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 208838,
+      "kanji": "野老",
+      "kana": "ところ",
+      "gloss": "Dioscorea tokoro (species of wild yam); old man living in the countryside",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99949,
+      "kanji": "年",
+      "kana": "とし",
+      "gloss": "year; age; years; past one's prime; old age",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 182537,
+      "kanji": "年",
+      "kana": "ねん",
+      "gloss": "year; counter for years (e.g. of an era), grades (e.g. school); period of an apprentice's contract (usu. ten years)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 202030,
+      "kanji": "年",
+      "kana": "とせ",
+      "gloss": "counter for years (following a number in the hito-futa-mi counting system)",
+      "card_type": "vocab"
+    }
+  ]
+}

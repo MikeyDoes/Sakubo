@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 390: 係, 限る, 家具...",
+  "lesson_number": 390,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 259484,
+      "kanji": "係",
+      "kana": "がかり",
+      "gloss": "charge; duty; person in charge; official; clerk",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72907,
+      "kanji": "限る",
+      "kana": "かぎる",
+      "gloss": "to restrict; to limit; to confine; to be restricted to; to be limited to; to be confined to; to be best (for); to be the best plan; to be the only way (to)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63341,
+      "kanji": "家具",
+      "kana": "かぐ",
+      "gloss": "furniture",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 165881,
+      "kanji": "学",
+      "kana": "がく",
+      "gloss": "learning; scholarship; study; erudition; knowledge; education; study of ...; -ology; -ics",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65383,
+      "kanji": "額",
+      "kana": "がく",
+      "gloss": "(picture) frame; framed picture; amount (esp. of money); sum",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65384,
+      "kanji": "額",
+      "kana": "ひたい",
+      "gloss": "forehead; brow",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65222,
+      "kanji": "覚悟",
+      "kana": "かくご",
+      "gloss": "readiness; preparedness; resolution; resignation",
+      "card_type": "vocab"
+    }
+  ]
+}

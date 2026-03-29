@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 607: 曜日, 欧羅巴, 予期...",
+  "lesson_number": 607,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 110133,
+      "kanji": "曜日",
+      "kana": "ようび",
+      "gloss": "day of the week",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 56070,
+      "kanji": "欧羅巴",
+      "kana": "ヨーロッパ",
+      "gloss": "Europe",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109786,
+      "kanji": "予期",
+      "kana": "よき",
+      "gloss": "expectation; assume will happen; forecast",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61979,
+      "kanji": "横切る",
+      "kana": "よこぎる",
+      "gloss": "to cross (e.g. road); to traverse",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109795,
+      "kanji": "予算",
+      "kana": "よさん",
+      "gloss": "estimate; budget",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78945,
+      "kanji": "止す",
+      "kana": "よす",
+      "gloss": "to cease; to desist; to cut it out; to lay off (an activity); to drop (a subject) to abolish; to resign; to give up",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 203683,
+      "kanji": "止す",
+      "kana": "さす",
+      "gloss": "to stop in the midst of; to leave undone",
+      "card_type": "vocab"
+    }
+  ]
+}

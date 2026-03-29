@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 857: 例外, 零点, 冷凍...",
+  "lesson_number": 857,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 111547,
+      "kanji": "例外",
+      "kana": "れいがい",
+      "gloss": "exception",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111705,
+      "kanji": "零点",
+      "kana": "れいてん",
+      "gloss": "zero (points, marks); no marks; zero (of a function); root; zero degrees (Celsius); freezing point",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111637,
+      "kanji": "冷凍",
+      "kana": "れいとう",
+      "gloss": "freezing; cold storage; refrigeration",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111775,
+      "kanji": "列島",
+      "kana": "れっとう",
+      "gloss": "archipelago; chain of islands",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111851,
+      "kanji": "煉瓦",
+      "kana": "れんが",
+      "gloss": "brick",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111922,
+      "kanji": "連合",
+      "kana": "れんごう",
+      "gloss": "union; alliance; combination; RENGO (Japanese Trade Union Confederation)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112189,
+      "kanji": "蝋燭",
+      "kana": "ろうそく",
+      "gloss": "candle",
+      "card_type": "vocab"
+    }
+  ]
+}

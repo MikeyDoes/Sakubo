@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 338: 湖, 湖, 味噌...",
+  "lesson_number": 338,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 73249,
+      "kanji": "湖",
+      "kana": "みずうみ",
+      "gloss": "lake",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 183024,
+      "kanji": "湖",
+      "kana": "こ",
+      "gloss": "lake (in place names)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107654,
+      "kanji": "味噌",
+      "kana": "みそ",
+      "gloss": "miso; fermented condiment usu. made from soybeans; innards (from crabs, shrimps, etc.) resembling miso; key (main) point; good part (of something); weakling; weak person; try",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123270,
+      "kanji": "見つかる",
+      "kana": "みつかる",
+      "gloss": "to be found; to be discovered",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123274,
+      "kanji": "見つける",
+      "kana": "みつける",
+      "gloss": "to discover; to find (e.g. an error in a book); to come across; to detect; to spot; to locate; to find (e.g. something missing); to find fault; to be used to seeing; to be familiar with",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64735,
+      "kanji": "皆",
+      "kana": "みな",
+      "gloss": "everyone; everybody; all; everything",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74892,
+      "kanji": "港",
+      "kana": "みなと",
+      "gloss": "harbour; harbor; port",
+      "card_type": "vocab"
+    }
+  ]
+}

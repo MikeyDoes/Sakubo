@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 575: 船, 部分, 不平...",
+  "lesson_number": 575,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 122715,
+      "kanji": "船",
+      "kana": "ふね",
+      "gloss": "ship; boat; watercraft; vessel; seaplane; tank; tub; vat; trough; counter for boat-shaped containers (e.g. of sashimi)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104146,
+      "kanji": "部分",
+      "kana": "ぶぶん",
+      "gloss": "portion; section; part",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103449,
+      "kanji": "不平",
+      "kana": "ふへい",
+      "gloss": "discontent; dissatisfaction; complaint; grievance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103467,
+      "kanji": "不満",
+      "kana": "ふまん",
+      "gloss": "dissatisfaction; discontent; displeasure; complaint; unhappiness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103494,
+      "kanji": "不利",
+      "kana": "ふり",
+      "gloss": "disadvantage; handicap; unfavorable position",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85694,
+      "kanji": "振る",
+      "kana": "ふる",
+      "gloss": "to wave; to shake; to swing; to sprinkle; to throw (dice); to cast (actor); to allocate (work); to turn down (somebody); to reject; to jilt; to dump; to abandon; to give up; to ruin; to add kana indicating a reading of a word; to slightly change headings; to change directions; to extract by broiling; to prepare an infusion of; to decoct; to carry with great vigor (e.g. a portable shrine); to bring up a topic; to lead to a topic; to replace; to substitute; to set up a joke for somebody else",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 176093,
+      "kanji": "振る",
+      "kana": "ぶる",
+      "gloss": "to assume the air of ...; to behave like ...; to put on airs; to be self-important",
+      "card_type": "vocab"
+    }
+  ]
+}

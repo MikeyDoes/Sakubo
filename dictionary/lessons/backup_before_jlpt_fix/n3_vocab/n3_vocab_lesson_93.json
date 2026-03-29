@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 442: 塵, 小麦, 御免なさい...",
+  "lesson_number": 442,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 206276,
+      "kanji": "塵",
+      "kana": "じん",
+      "gloss": "defilement; impurity; affliction; object (perceived with the mind or the senses); one billionth",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83955,
+      "kanji": "小麦",
+      "kana": "こむぎ",
+      "gloss": "wheat",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73754,
+      "kanji": "御免なさい",
+      "kana": "ごめんなさい",
+      "gloss": "I'm sorry; my apologies; excuse me; pardon me",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83840,
+      "kanji": "小屋",
+      "kana": "こや",
+      "gloss": "hut; cabin; shed; (animal) pen; small theatre (theater); temporary playhouse; circus tent; booth; one's own house",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37129,
+      "kanji": "これ等",
+      "kana": "これら",
+      "gloss": "these",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115806,
+      "kanji": "頃",
+      "kana": "ころ",
+      "gloss": "(approximate) time; around; about; toward; suitable time (or condition); time of year; season",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 200567,
+      "kanji": "頃",
+      "kana": "けい",
+      "gloss": "qing (Chinese unit of land area equal to 100 mu)",
+      "card_type": "vocab"
+    }
+  ]
+}

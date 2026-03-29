@@ -1,0 +1,37 @@
+{
+  "title": "Lesson 17: (Vocab) - もう, まだ, いつも...",
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 38449,
+      "kana": "もう",
+      "gloss": "already; yet; soon; now",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326738,
+      "kana": "まだ",
+      "gloss": "still; not yet; only",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326633,
+      "kana": "いつも",
+      "gloss": "always; all the time; usually",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326724,
+      "kana": "ひとつ",
+      "gloss": "one; for one thing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326741,
+      "kana": "みっつ",
+      "gloss": "three; three years of age",
+      "card_type": "vocab"
+    }
+  ],
+  "lesson_number": 17
+}

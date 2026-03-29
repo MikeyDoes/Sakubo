@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 303: 其れで, 其れに, それ程...",
+  "lesson_number": 303,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 37514,
+      "kanji": "其れで",
+      "kana": "それで",
+      "gloss": "and; thereupon; because of that",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37522,
+      "kanji": "其れに",
+      "kana": "それに",
+      "gloss": "besides; in addition; also; moreover",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37524,
+      "kanji": "それ程",
+      "kana": "それほど",
+      "gloss": "to that degree; to that extent; that much",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92501,
+      "kanji": "退院",
+      "kana": "たいいん",
+      "gloss": "leaving hospital; discharge from hospital",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92745,
+      "kanji": "大学生",
+      "kana": "だいがくせい",
+      "gloss": "university student; college student",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92890,
+      "kanji": "大体",
+      "kana": "だいたい",
+      "gloss": "outline; main points; gist; substance; essence; generally; on the whole; mostly; almost; nearly; approximately; roughly; about; general; rough; in the first place; first and foremost; from the start; to begin with",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92821,
+      "kanji": "大事",
+      "kana": "だいじ",
+      "gloss": "important; serious; crucial; valuable; precious; serious matter; major incident; matter of grave concern; crisis; great undertaking; great enterprise; great thing; safe; OK",
+      "card_type": "vocab"
+    }
+  ]
+}

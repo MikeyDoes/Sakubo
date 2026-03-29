@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 893: 写し, 空ろ, 器...",
+  "lesson_number": 893,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 80388,
+      "kanji": "写し",
+      "kana": "うつし",
+      "gloss": "copy; duplicate; facsimile; transcript",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118514,
+      "kanji": "空ろ",
+      "kana": "うつろ",
+      "gloss": "cavity; hollow; void; hollow (voice, smile, etc.); blank (eyes, look, etc.); vacant (expression, stare, etc.); empty (words, heart, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66939,
+      "kanji": "器",
+      "kana": "うつわ",
+      "gloss": "bowl; vessel; container; ability; capacity; calibre; caliber",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 185790,
+      "kanji": "器",
+      "kana": "き",
+      "gloss": "device; instrument; vessel; container; ability; capacity; calibre; caliber",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60799,
+      "kanji": "雨天",
+      "kana": "うてん",
+      "gloss": "rainy weather",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112430,
+      "kanji": "腕前",
+      "kana": "うでまえ",
+      "gloss": "ability; skill; facility",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61002,
+      "kanji": "饂飩",
+      "kana": "ワンタン",
+      "gloss": "wonton (Chinese dumpling); won ton; wantan; wanton; wuntun",
+      "card_type": "vocab"
+    }
+  ]
+}

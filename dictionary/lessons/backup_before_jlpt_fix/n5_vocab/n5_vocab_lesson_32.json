@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 132: 返す, 帰る, 架かる...",
+  "lesson_number": 132,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 105749,
+      "kanji": "返す",
+      "kana": "かえす",
+      "gloss": "to return (something); to restore; to put back; to turn over; to turn upside down; to overturn; to pay back; to retaliate; to reciprocate; to respond (with); to retort; to reply; to say back; to do ... back (e.g. speak back, throw back); to do again; to do repeatedly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67260,
+      "kanji": "帰る",
+      "kana": "かえる",
+      "gloss": "to return; to come home; to go home; to go back; to leave; to get home; to get to home plate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63505,
+      "kanji": "架かる",
+      "kana": "かかる",
+      "gloss": "to span; to bridge; to cross; to straddle",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65409,
+      "kanji": "掛かる",
+      "kana": "かかる",
+      "gloss": "to take (a resource, e.g. time or money); to hang; to come into view; to arrive; to come under (a contract, a tax); to start (engines, motors); to attend; to deal with; to handle; to have started to; to be on the verge of; to overlap (e.g. information in a manual); to cover; to (come) at; to be fastened; to be covered (e.g. with dust, a table-cloth, etc.); to be caught in; to get a call; to depend on",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70852,
+      "kanji": "係る",
+      "kana": "かかる",
+      "gloss": "to be the work of; to be the result of; to be done by; to concern; to affect; to involve; to relate to",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124428,
+      "kanji": "罹る",
+      "kana": "かかる",
+      "gloss": "to contract (a disease); to suffer from",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 181300,
+      "kanji": "斯かる",
+      "kana": "かかる",
+      "gloss": "such; like this",
+      "card_type": "vocab"
+    }
+  ]
+}

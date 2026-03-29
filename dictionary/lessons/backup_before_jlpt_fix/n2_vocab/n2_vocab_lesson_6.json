@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 622: 編む, 危うい, 怪しい...",
+  "lesson_number": 622,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 105729,
+      "kanji": "編む",
+      "kana": "あむ",
+      "gloss": "to knit; to plait; to braid; to compile (anthology, dictionary, etc.); to edit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66878,
+      "kanji": "危うい",
+      "kana": "あやうい",
+      "gloss": "dangerous; in danger; facing imminent danger; precarious (situation); perilous (state, balance, etc.); in doubt; in jeopardy; uncertain; insecure; concerning; worrying",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118010,
+      "kanji": "怪しい",
+      "kana": "あやしい",
+      "gloss": "suspicious; dubious; questionable; dodgy; shady; fishy; doubtful; unsure; uncertain; unlikely; implausible; untrustworthy; unreliable; clumsy; awkward; shaky; poor; strange; weird; eerie; spooky; uncanny; ominous (e.g. weather); threatening; dangerous (e.g. financial situation); suspicious (of a potential amorous relation); mysterious; bewitching; alluring; enticing; enchanting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75080,
+      "kanji": "荒い",
+      "kana": "あらい",
+      "gloss": "rough; wild; violent; rude; coarse; harsh; fierce; heavy (e.g. breathing); immoderate; extravagant; reckless",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90463,
+      "kanji": "粗い",
+      "kana": "あらい",
+      "gloss": "coarse; rough",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90466,
+      "kanji": "粗筋",
+      "kana": "あらすじ",
+      "gloss": "outline; summary; argument",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91070,
+      "kanji": "争う",
+      "kana": "あらそう",
+      "gloss": "to compete; to contest; to contend; to quarrel; to argue; to dispute; to be at variance; to oppose; to deny (e.g. evidence)",
+      "card_type": "vocab"
+    }
+  ]
+}

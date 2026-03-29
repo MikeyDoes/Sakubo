@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 560: 針, 張る, 張る...",
+  "lesson_number": 560,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 86374,
+      "kanji": "針",
+      "kana": "はり",
+      "gloss": "needle; pin; hook; stinger; thorn; hand (e.g. clock, etc.); pointer; staple (for a stapler); needlework; sewing; malice; counter for stitches",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94625,
+      "kanji": "張る",
+      "kana": "はる",
+      "gloss": "to stick; to paste; to affix; to stretch; to spread; to strain; to tighten; to put up (tent); to form (e.g. ice on a pond); to fill; to swell; to stick out; to put; to slap; to post (a link, etc. online); to be expensive; to keep a watch on; to be on the lookout; to become one tile away from completion; to span; to generate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 206543,
+      "kanji": "張る",
+      "kana": "ばる",
+      "gloss": "to be prominently ...; to be persistently ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 174083,
+      "kanji": "番",
+      "kana": "ばん",
+      "gloss": "number (in a series); (one's) turn; watch; guard; lookout; rank; standing; position; bout; match; pieces (in a collection)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 198975,
+      "kanji": "番",
+      "kana": "つがい",
+      "gloss": "pair (esp. of mated animals); brace; couple; (anatomical) joint",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 192477,
+      "kanji": "ＶＡＮ",
+      "kana": "バン",
+      "gloss": "value-added network; VAN",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101829,
+      "kanji": "範囲",
+      "kana": "はんい",
+      "gloss": "extent; scope; sphere; range; span",
+      "card_type": "vocab"
+    }
+  ]
+}

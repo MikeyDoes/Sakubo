@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1098: 膳, 禅, 全快...",
+  "lesson_number": 1098,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 90406,
+      "kanji": "膳",
+      "kana": "ぜん",
+      "gloss": "small dining table (usu. for a single person); serving tray (with legs); meal; food; serving; counter for bowlfuls of rice; counter for pairs of chopsticks",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90398,
+      "kanji": "禅",
+      "kana": "ぜん",
+      "gloss": "dhyana (profound meditation); Zen (Buddhism)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90251,
+      "kanji": "全快",
+      "kana": "ぜんかい",
+      "gloss": "complete recovery of health",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90313,
+      "kanji": "全盛",
+      "kana": "ぜんせい",
+      "gloss": "height of prosperity",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90089,
+      "kanji": "前提",
+      "kana": "ぜんてい",
+      "gloss": "condition; assumption; prerequisite; hypothesis; intention; intent; aim; goal; premise (in logic)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90096,
+      "kanji": "前途",
+      "kana": "ぜんと",
+      "gloss": "future; prospects; outlook; journey ahead; distance yet to cover",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90380,
+      "kanji": "全滅",
+      "kana": "ぜんめつ",
+      "gloss": "annihilation; total destruction; complete destruction; crushing defeat",
+      "card_type": "vocab"
+    }
+  ]
+}

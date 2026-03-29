@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1268: 結び付ける, 無線, 無駄遣い...",
+  "lesson_number": 1268,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 71580,
+      "kanji": "結び付ける",
+      "kana": "むすびつける",
+      "gloss": "to combine; to join; to tie on; to attach with a knot; to bind (e.g. an address)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108042,
+      "kanji": "無線",
+      "kana": "むせん",
+      "gloss": "radio (communication); wireless; not using wires",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108060,
+      "kanji": "無駄遣い",
+      "kana": "むだづかい",
+      "gloss": "waste (of money, time, etc.); squandering; frittering away",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108080,
+      "kanji": "無断",
+      "kana": "むだん",
+      "gloss": "without permission; without notice",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108083,
+      "kanji": "無知",
+      "kana": "むち",
+      "gloss": "ignorance; innocence; stupidity",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108088,
+      "kanji": "無茶",
+      "kana": "むちゃ",
+      "gloss": "absurd; unreasonable; excessive; rash; very; extremely; excessively",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108091,
+      "kanji": "無茶苦茶",
+      "kana": "むちゃくちゃ",
+      "gloss": "nonsensical; unreasonable; absurd; unrealistic; awfully; extremely; to excess; senseless; reckless; disorder; confusion; being jumbled; being mixed up; very; excessively",
+      "card_type": "vocab"
+    }
+  ]
+}

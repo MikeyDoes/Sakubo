@@ -1,0 +1,37 @@
+{
+  "title": "Lesson 36: (Vocab) - ナイフ, ノート, ネクタイ...",
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 49330,
+      "kana": "ナイフ",
+      "gloss": "knife",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 49855,
+      "kana": "ノート",
+      "gloss": "notebook; exercise book; note",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 49768,
+      "kana": "ネクタイ",
+      "gloss": "tie; necktie",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 43703,
+      "kana": "コート",
+      "gloss": "coat",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47237,
+      "kana": "セーター",
+      "gloss": "sweater; jumper",
+      "card_type": "vocab"
+    }
+  ],
+  "lesson_number": 36
+}

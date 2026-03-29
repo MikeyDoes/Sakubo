@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 529: 伝統, 天然, 問い...",
+  "lesson_number": 529,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 96490,
+      "kanji": "伝統",
+      "kana": "でんとう",
+      "gloss": "tradition; convention",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96168,
+      "kanji": "天然",
+      "kana": "てんねん",
+      "gloss": "nature; spontaneity; natural airhead",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108862,
+      "kanji": "問い",
+      "kana": "とい",
+      "gloss": "question; query",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97076,
+      "kanji": "党",
+      "kana": "とう",
+      "gloss": "party (political); person who is fond of; fan of",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98549,
+      "kanji": "党",
+      "kana": "たむろ",
+      "gloss": "gathering; place where people gather; police station; camp; barracks",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97172,
+      "kanji": "塔",
+      "kana": "とう",
+      "gloss": "tower; steeple; spire; stupa; pagoda; dagoba",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97527,
+      "kanji": "答案",
+      "kana": "とうあん",
+      "gloss": "examination paper; examination script; answer sheet; answer (to an exam question)",
+      "card_type": "vocab"
+    }
+  ]
+}

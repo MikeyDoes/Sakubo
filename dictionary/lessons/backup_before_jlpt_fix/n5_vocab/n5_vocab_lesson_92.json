@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 192: 歯, 歯, 灰...",
+  "lesson_number": 192,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 111730,
+      "kanji": "歯",
+      "kana": "よわい",
+      "gloss": "(one's) age",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 306974,
+      "kanji": "歯",
+      "kana": "し",
+      "gloss": "tooth; age; years",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64699,
+      "kanji": "灰",
+      "kana": "はい",
+      "gloss": "ash; ashes",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100641,
+      "kanji": "肺",
+      "kana": "はい",
+      "gloss": "lung",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112485,
+      "kanji": "佩",
+      "kana": "はい",
+      "gloss": "ancient oriental belt decoration; counter for swords",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117767,
+      "kanji": "鮠",
+      "kana": "はい",
+      "gloss": "minnow; shinner",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 127722,
+      "kanji": "拝",
+      "kana": "はい",
+      "gloss": "bowing one's head (in respect or worship); worship; respectfully yours",
+      "card_type": "vocab"
+    }
+  ]
+}

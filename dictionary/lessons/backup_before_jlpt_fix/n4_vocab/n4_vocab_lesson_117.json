@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 345: 夢, 揺れる, 用...",
+  "lesson_number": 345,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 107918,
+      "kanji": "夢",
+      "kana": "ゆめ",
+      "gloss": "dream",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110126,
+      "kanji": "揺れる",
+      "kana": "ゆれる",
+      "gloss": "to shake; to sway; to waver",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110233,
+      "kanji": "用",
+      "kana": "よう",
+      "gloss": "business; task; errand; engagement; use; purpose; for the use of ...; used for ...; made for ...; call of nature; excretion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110235,
+      "kanji": "用意",
+      "kana": "ようい",
+      "gloss": "preparation; arrangements; provision; getting ready; laying out (e.g. a meal)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110243,
+      "kanji": "用事",
+      "kana": "ようじ",
+      "gloss": "tasks; things to do; errand; business (to take care of); affairs; engagement",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61699,
+      "kanji": "汚れる",
+      "kana": "けがれる",
+      "gloss": "to be violated; to be corrupted; to be polluted; to be stained",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61701,
+      "kanji": "汚れる",
+      "kana": "よごれる",
+      "gloss": "to get dirty; to become dirty; to become sullied; to become corrupted; to lose one's chastity",
+      "card_type": "vocab"
+    }
+  ]
+}

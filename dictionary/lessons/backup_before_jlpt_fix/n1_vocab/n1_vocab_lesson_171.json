@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1031: 山脈, 財, 財...",
+  "lesson_number": 1031,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 77907,
+      "kanji": "山脈",
+      "kana": "さんみゃく",
+      "gloss": "mountain range; mountain belt",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77005,
+      "kanji": "財",
+      "kana": "ざい",
+      "gloss": "fortune; riches; goods; incorporated foundation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106279,
+      "kanji": "財",
+      "kana": "たから",
+      "gloss": "treasure",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77009,
+      "kanji": "財源",
+      "kana": "ざいげん",
+      "gloss": "source of funds; resources; finances",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76975,
+      "kanji": "在庫",
+      "kana": "ざいこ",
+      "gloss": "inventory; stock; stockpile",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77011,
+      "kanji": "財政",
+      "kana": "ざいせい",
+      "gloss": "public finance; financial affairs; financial situation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76453,
+      "kanji": "座談会",
+      "kana": "ざだんかい",
+      "gloss": "symposium; round-table discussion",
+      "card_type": "vocab"
+    }
+  ]
+}

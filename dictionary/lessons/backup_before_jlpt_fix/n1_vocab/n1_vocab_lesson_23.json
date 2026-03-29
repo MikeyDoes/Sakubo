@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 883: 著しい, 一同, 一部...",
+  "lesson_number": 883,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 94517,
+      "kanji": "著しい",
+      "kana": "いちじるしい",
+      "gloss": "striking; remarkable; considerable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59755,
+      "kanji": "一同",
+      "kana": "いちどう",
+      "gloss": "all present; all concerned; all of us",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59874,
+      "kanji": "一部",
+      "kana": "いちぶ",
+      "gloss": "one part; one portion; one section; some; one copy (e.g. of a document)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59876,
+      "kanji": "一部分",
+      "kana": "いちぶぶん",
+      "gloss": "one part; one portion; one section",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59901,
+      "kanji": "一別",
+      "kana": "いちべつ",
+      "gloss": "parting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59963,
+      "kanji": "一面",
+      "kana": "いちめん",
+      "gloss": "one face; one surface; the whole surface; one aspect; one side; (on) the other hand; one broad, flat object; front page (e.g. newspaper)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59971,
+      "kanji": "一目",
+      "kana": "ひとめ",
+      "gloss": "glance; look; glimpse; complete view; bird's-eye view",
+      "card_type": "vocab"
+    }
+  ]
+}

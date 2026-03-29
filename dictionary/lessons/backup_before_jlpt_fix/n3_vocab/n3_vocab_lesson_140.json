@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 489: 請求, 税金, 清潔...",
+  "lesson_number": 489,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 88330,
+      "kanji": "請求",
+      "kana": "せいきゅう",
+      "gloss": "claim; demand; charge; application; request; billing (for a service)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88441,
+      "kanji": "税金",
+      "kana": "ぜいきん",
+      "gloss": "tax; duty",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87916,
+      "kanji": "清潔",
+      "kana": "せいけつ",
+      "gloss": "clean; hygienic; sanitary; pure; virtuous; immaculate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87508,
+      "kanji": "制限",
+      "kana": "せいげん",
+      "gloss": "restriction; restraint; limitation; limit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87640,
+      "kanji": "成功",
+      "kana": "せいこう",
+      "gloss": "success; hit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87819,
+      "kanji": "正式",
+      "kana": "せいしき",
+      "gloss": "due form; official; formality",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88173,
+      "kanji": "精神",
+      "kana": "せいしん",
+      "gloss": "mind; spirit; soul; heart; ethos; attitude; mentality; will; intention; spirit (of a matter); essence; fundamental significance",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 805: 引分け, 陽射, 肘...",
+  "lesson_number": 805,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 60321,
+      "kanji": "引分け",
+      "kana": "ひきわけ",
+      "gloss": "draw (in competition); tie game",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122449,
+      "kanji": "陽射",
+      "kana": "ひざし",
+      "gloss": "sunlight; rays of the Sun",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102555,
+      "kanji": "肘",
+      "kana": "ひじ",
+      "gloss": "elbow",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60385,
+      "kanji": "引っ掛かる",
+      "kana": "ひっかかる",
+      "gloss": "to be caught in; to be stuck in; to stop by; to drop in for a short visit; to be delayed; to take time; to get mixed up in (trouble); to get entangled in (a problem); to be involved with; to fall for (a trick); to be deceived; to be cheated; to be on one's mind; to worry one; to be bothered by; to feel uneasy; to be obstructed; to be hindered; to splash",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102603,
+      "kanji": "筆記",
+      "kana": "ひっき",
+      "gloss": "(taking) notes; copying",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122464,
+      "kanji": "引っ繰り返す",
+      "kana": "ひっくりかえす",
+      "gloss": "to turn over; to turn upside down; to turn up; to turn inside out; to turn out; to knock over; to tip over; to overturn (e.g. a decision); to upset; to reverse",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60374,
+      "kanji": "引っ繰り返る",
+      "kana": "ひっくりかえる",
+      "gloss": "to be overturned; to be reversed; to turn over; to capsize; to fall down; to tumble down; to topple over; to lie on one's back",
+      "card_type": "vocab"
+    }
+  ]
+}

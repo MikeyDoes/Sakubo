@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1191: 農場, 農地, 納入...",
+  "lesson_number": 1191,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 100282,
+      "kanji": "農場",
+      "kana": "のうじょう",
+      "gloss": "farm (agriculture)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100284,
+      "kanji": "農地",
+      "kana": "のうち",
+      "gloss": "agricultural land; farmland",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100208,
+      "kanji": "納入",
+      "kana": "のうにゅう",
+      "gloss": "payment (taxes, fees, etc.); supply (of goods); delivery",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97656,
+      "kanji": "逃す",
+      "kana": "のがす",
+      "gloss": "to miss (e.g. a chance); to lose; to let get away; to set free; to let go; to fail to ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97658,
+      "kanji": "逃れる",
+      "kana": "のがれる",
+      "gloss": "to escape",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72320,
+      "kanji": "軒並み",
+      "kana": "のきなみ",
+      "gloss": "row of houses; every house; each house; every door; all; totally; altogether; across the board",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106725,
+      "kanji": "望ましい",
+      "kana": "のぞましい",
+      "gloss": "desirable; hoped for; preferable; advisable",
+      "card_type": "vocab"
+    }
+  ]
+}

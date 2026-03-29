@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 202: 人, 人, 人...",
+  "lesson_number": 202,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 86400,
+      "kanji": "人",
+      "kana": "と",
+      "gloss": "person",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116288,
+      "kanji": "人",
+      "kana": "ひと",
+      "gloss": "man; person; human being; mankind; people; human (Homo sapiens); humans as a species; character; personality; man of talent; true man; another person; other people; others; adult",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 191512,
+      "kanji": "人",
+      "kana": "にん",
+      "gloss": "counter for people",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59330,
+      "kanji": "一月",
+      "kana": "いちがつ",
+      "gloss": "January; first month of the lunar calendar",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59331,
+      "kanji": "一月",
+      "kana": "ひとつき",
+      "gloss": "one month",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114874,
+      "kanji": "一人",
+      "kana": "ひとり",
+      "gloss": "one person; being alone; being by oneself; being single; being unmarried; by oneself; alone; just; only; simply",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115217,
+      "kanji": "暇",
+      "kana": "ひま",
+      "gloss": "spare time; free time; leisure; time (e.g. time it takes to do something); time off; day off; vacation; holiday; leave; quitting (one's job); firing someone; divorcing (one's spouse); (being) inactive; (of one's business) slow; leaving; departing",
+      "card_type": "vocab"
+    }
+  ]
+}

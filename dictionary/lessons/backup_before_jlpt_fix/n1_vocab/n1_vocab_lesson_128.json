@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 988: 月謝, 月賦, 下痢...",
+  "lesson_number": 988,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 71710,
+      "kanji": "月謝",
+      "kana": "げっしゃ",
+      "gloss": "monthly tuition fee",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71723,
+      "kanji": "月賦",
+      "kana": "げっぷ",
+      "gloss": "monthly installment (instalment); monthly payment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62681,
+      "kanji": "下痢",
+      "kana": "げり",
+      "gloss": "diarrhea; diarrhoea",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72456,
+      "kanji": "原形",
+      "kana": "げんけい",
+      "gloss": "original form; base form",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72716,
+      "kanji": "現行",
+      "kana": "げんこう",
+      "gloss": "present; current; in operation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72470,
+      "kanji": "原作",
+      "kana": "げんさく",
+      "gloss": "original work",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72482,
+      "kanji": "原子",
+      "kana": "げんし",
+      "gloss": "atom",
+      "card_type": "vocab"
+    }
+  ]
+}

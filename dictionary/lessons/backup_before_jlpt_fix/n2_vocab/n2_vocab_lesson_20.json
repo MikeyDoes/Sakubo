@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 636: 応援, 王女, 応ずる...",
+  "lesson_number": 636,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 61806,
+      "kanji": "応援",
+      "kana": "おうえん",
+      "gloss": "aid; assistance; help; support; reinforcement; cheering; rooting (for)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62064,
+      "kanji": "王女",
+      "kana": "おうじょ",
+      "gloss": "princess",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124411,
+      "kanji": "応ずる",
+      "kana": "おうずる",
+      "gloss": "to answer; to respond; to meet; to satisfy; to accept",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61815,
+      "kanji": "応接",
+      "kana": "おうせつ",
+      "gloss": "reception (e.g. of visitors); dealing with",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61820,
+      "kanji": "応対",
+      "kana": "おうたい",
+      "gloss": "dealing with (people, customers, complaints, etc.); receiving (callers, visitors, etc.); attending to; handling; serving",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61796,
+      "kanji": "往復",
+      "kana": "おうふく",
+      "gloss": "making a round trip; going and returning; coming and going; round-trip ticket; return ticket; correspondence; exchanging (letters); socializing; visiting one another",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124412,
+      "kanji": "欧米",
+      "kana": "おうべい",
+      "gloss": "Europe and America; the West",
+      "card_type": "vocab"
+    }
+  ]
+}

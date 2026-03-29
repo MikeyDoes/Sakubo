@@ -4810,6 +4810,363 @@
       "kana": "ラッシュ",
       "gloss": "rush",
       "study_order": 687
+    },
+    {
+      "entry_id": 37241,
+      "kanji": null,
+      "kana": "さん",
+      "gloss": "Mr.",
+      "study_order": 688
+    },
+    {
+      "entry_id": 38673,
+      "kanji": null,
+      "kana": "アイス",
+      "gloss": "ice",
+      "study_order": 689
+    },
+    {
+      "entry_id": 39096,
+      "kanji": null,
+      "kana": "アップロード",
+      "gloss": "upload",
+      "study_order": 690
+    },
+    {
+      "entry_id": 39208,
+      "kanji": null,
+      "kana": "アニメ",
+      "gloss": "animation",
+      "study_order": 691
+    },
+    {
+      "entry_id": 39287,
+      "kanji": null,
+      "kana": "アプリ",
+      "gloss": "app",
+      "study_order": 692
+    },
+    {
+      "entry_id": 40373,
+      "kanji": null,
+      "kana": "ウェブ",
+      "gloss": "web",
+      "study_order": 693
+    },
+    {
+      "entry_id": 40999,
+      "kanji": null,
+      "kana": "エピソード",
+      "gloss": "episode",
+      "study_order": 694
+    },
+    {
+      "entry_id": 42265,
+      "kanji": null,
+      "kana": "カラオケ",
+      "gloss": "karaoke",
+      "study_order": 695
+    },
+    {
+      "entry_id": 42554,
+      "kanji": null,
+      "kana": "キーボード",
+      "gloss": "keyboard",
+      "study_order": 696
+    },
+    {
+      "entry_id": 42965,
+      "kanji": null,
+      "kana": "クッキー",
+      "gloss": "cookie",
+      "study_order": 697
+    },
+    {
+      "entry_id": 42972,
+      "kanji": null,
+      "kana": "クッション",
+      "gloss": "cushion",
+      "study_order": 698
+    },
+    {
+      "entry_id": 43575,
+      "kanji": null,
+      "kana": "ケチャップ",
+      "gloss": "ketchup",
+      "study_order": 699
+    },
+    {
+      "entry_id": 43868,
+      "kanji": null,
+      "kana": "ココア",
+      "gloss": "cocoa (beverage, cocoa solids)",
+      "study_order": 700
+    },
+    {
+      "entry_id": 44519,
+      "kanji": null,
+      "kana": "ゴルフ",
+      "gloss": "golf",
+      "study_order": 701
+    },
+    {
+      "entry_id": 44587,
+      "kanji": null,
+      "kana": "サーフィン",
+      "gloss": "surfing",
+      "study_order": 702
+    },
+    {
+      "entry_id": 44641,
+      "kanji": null,
+      "kana": "サイクリング",
+      "gloss": "cycling",
+      "study_order": 703
+    },
+    {
+      "entry_id": 44676,
+      "kanji": null,
+      "kana": "サイト",
+      "gloss": "site (usu. website)",
+      "study_order": 704
+    },
+    {
+      "entry_id": 44806,
+      "kanji": null,
+      "kana": "サッカー",
+      "gloss": "soccer",
+      "study_order": 705
+    },
+    {
+      "entry_id": 45224,
+      "kanji": null,
+      "kana": "シーン",
+      "gloss": "scene",
+      "study_order": 706
+    },
+    {
+      "entry_id": 45540,
+      "kanji": null,
+      "kana": "シャンプー",
+      "gloss": "shampoo",
+      "study_order": 707
+    },
+    {
+      "entry_id": 46144,
+      "kanji": null,
+      "kana": "ジョギング",
+      "gloss": "jogging",
+      "study_order": 708
+    },
+    {
+      "entry_id": 46191,
+      "kanji": null,
+      "kana": "スーパー",
+      "gloss": "supermarket",
+      "study_order": 709
+    },
+    {
+      "entry_id": 47370,
+      "kanji": null,
+      "kana": "ソーセージ",
+      "gloss": "sausage",
+      "study_order": 710
+    },
+    {
+      "entry_id": 47580,
+      "kanji": null,
+      "kana": "ダウンロード",
+      "gloss": "download",
+      "study_order": 711
+    },
+    {
+      "entry_id": 47760,
+      "kanji": null,
+      "kana": "チョコ",
+      "gloss": "chocolate",
+      "study_order": 712
+    },
+    {
+      "entry_id": 47875,
+      "kanji": null,
+      "kana": "ティッシュ",
+      "gloss": "tissue",
+      "study_order": 713
+    },
+    {
+      "entry_id": 48652,
+      "kanji": null,
+      "kana": "トイレットペーパー",
+      "gloss": "toilet paper",
+      "study_order": 714
+    },
+    {
+      "entry_id": 49023,
+      "kanji": null,
+      "kana": "ドーナツ",
+      "gloss": "doughnut",
+      "study_order": 715
+    },
+    {
+      "entry_id": 49194,
+      "kanji": null,
+      "kana": "ドラム",
+      "gloss": "drum",
+      "study_order": 716
+    },
+    {
+      "entry_id": 49789,
+      "kanji": null,
+      "kana": "ネット",
+      "gloss": "network",
+      "study_order": 717
+    },
+    {
+      "entry_id": 50205,
+      "kanji": null,
+      "kana": "ハム",
+      "gloss": "ham (cured pig meat)",
+      "study_order": 718
+    },
+    {
+      "entry_id": 50952,
+      "kanji": null,
+      "kana": "パスタ",
+      "gloss": "pasta",
+      "study_order": 719
+    },
+    {
+      "entry_id": 50960,
+      "kanji": null,
+      "kana": "パスワード",
+      "gloss": "password",
+      "study_order": 720
+    },
+    {
+      "entry_id": 53107,
+      "kanji": null,
+      "kana": "プリン",
+      "gloss": "pudding (esp. custard)",
+      "study_order": 721
+    },
+    {
+      "entry_id": 53116,
+      "kanji": null,
+      "kana": "プリンター",
+      "gloss": "printer",
+      "study_order": 722
+    },
+    {
+      "entry_id": 54154,
+      "kanji": null,
+      "kana": "ボウリング",
+      "gloss": "bowling (esp. tenpin)",
+      "study_order": 723
+    },
+    {
+      "entry_id": 54669,
+      "kanji": null,
+      "kana": "マウス",
+      "gloss": "mouse (esp. laboratory)",
+      "study_order": 724
+    },
+    {
+      "entry_id": 54856,
+      "kanji": null,
+      "kana": "マット",
+      "gloss": "mat",
+      "study_order": 725
+    },
+    {
+      "entry_id": 54958,
+      "kanji": null,
+      "kana": "マヨネーズ",
+      "gloss": "mayonnaise",
+      "study_order": 726
+    },
+    {
+      "entry_id": 55639,
+      "kanji": null,
+      "kana": "メロン",
+      "gloss": "melon (esp. a muskmelon, Cucumis melo)",
+      "study_order": 727
+    },
+    {
+      "entry_id": 56058,
+      "kanji": null,
+      "kana": "ヨガ",
+      "gloss": "yoga",
+      "study_order": 728
+    },
+    {
+      "entry_id": 56063,
+      "kanji": null,
+      "kana": "ヨーグルト",
+      "gloss": "yogurt",
+      "study_order": 729
+    },
+    {
+      "entry_id": 56162,
+      "kanji": null,
+      "kana": "ライブ",
+      "gloss": "live (esp. concert, show, etc.)",
+      "study_order": 730
+    },
+    {
+      "entry_id": 56808,
+      "kanji": null,
+      "kana": "リモコン",
+      "gloss": "remote control",
+      "study_order": 731
+    },
+    {
+      "entry_id": 57212,
+      "kanji": null,
+      "kana": "レモン",
+      "gloss": "lemon",
+      "study_order": 732
+    },
+    {
+      "entry_id": 57377,
+      "kanji": null,
+      "kana": "ログイン",
+      "gloss": "login",
+      "study_order": 733
+    },
+    {
+      "entry_id": 107638,
+      "kanji": null,
+      "kana": "マンガ",
+      "gloss": "cartoon",
+      "study_order": 734
+    },
+    {
+      "entry_id": 111421,
+      "kanji": null,
+      "kana": "リンゴ",
+      "gloss": "apple (fruit)",
+      "study_order": 735
+    },
+    {
+      "entry_id": 113822,
+      "kanji": null,
+      "kana": "イチゴ",
+      "gloss": "strawberry (esp. the garden strawberry, Fragaria x ananassa)",
+      "study_order": 736
+    },
+    {
+      "entry_id": 176008,
+      "kanji": null,
+      "kana": "ブログ",
+      "gloss": "blog",
+      "study_order": 737
+    },
+    {
+      "entry_id": 257730,
+      "kanji": null,
+      "kana": "スマホ",
+      "gloss": "smartphone",
+      "study_order": 738
     }
   ],
   "grammar": [

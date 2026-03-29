@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 225: 六, Ｙシャツ, 若い...",
+  "lesson_number": 225,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 272014,
+      "kanji": "六",
+      "kana": "リュー",
+      "gloss": "six",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 57563,
+      "kanji": "Ｙシャツ",
+      "kana": "ワイシャツ",
+      "gloss": "shirt; business shirt; dress shirt",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80715,
+      "kanji": "若い",
+      "kana": "わかい",
+      "gloss": "young; youthful; immature; green; low (number); small",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123843,
+      "kanji": "分かる",
+      "kana": "わかる",
+      "gloss": "to understand; to comprehend; to grasp; to see; to get; to follow; to become clear; to be known; to be discovered; to be realized; to be realised; to be found out; I know!; I think so too!",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106675,
+      "kanji": "忘れる",
+      "kana": "わすれる",
+      "gloss": "to forget; to leave carelessly; to be forgetful of; to forget about; to forget (an article)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79017,
+      "kanji": "私",
+      "kana": "わたし",
+      "gloss": "I; me",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79018,
+      "kanji": "私",
+      "kana": "あたし",
+      "gloss": "I; me",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1043: 下調べ, 下地, 仕立てる...",
+  "lesson_number": 1043,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 62616,
+      "kanji": "下調べ",
+      "kana": "したしらべ",
+      "gloss": "preliminary investigation; preparation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62609,
+      "kanji": "下地",
+      "kana": "したじ",
+      "gloss": "groundwork; foundation; inclination; aptitude; elementary knowledge (of); grounding (in); undercoat; first coat; soy sauce",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78269,
+      "kanji": "仕立てる",
+      "kana": "したてる",
+      "gloss": "to tailor; to make (clothing); to train; to bring up; to make it seem like; to pass off; to turn into a play or movie; to prepare; to send; to despatch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62523,
+      "kanji": "下取り",
+      "kana": "したどり",
+      "gloss": "trade in; part exchange",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62455,
+      "kanji": "下火",
+      "kana": "したび",
+      "gloss": "burning low; waning; declining",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80157,
+      "kanji": "失格",
+      "kana": "しっかく",
+      "gloss": "disqualification; elimination; incapacity; being unfit for one's role; being a failure",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80262,
+      "kanji": "質素",
+      "kana": "しっそ",
+      "gloss": "simple; plain; modest; frugal; reserved",
+      "card_type": "vocab"
+    }
+  ]
+}

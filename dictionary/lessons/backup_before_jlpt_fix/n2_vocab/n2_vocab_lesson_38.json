@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 654: 貸家, 個所, 過剰...",
+  "lesson_number": 654,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 92472,
+      "kanji": "貸家",
+      "kana": "かしや",
+      "gloss": "house for rent",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119072,
+      "kanji": "個所",
+      "kana": "かしょ",
+      "gloss": "place; point; part; spot; area; passage; portion; counter for places, parts, passages, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63935,
+      "kanji": "過剰",
+      "kana": "かじょう",
+      "gloss": "excess; surplus; superabundance; overabundance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124616,
+      "kanji": "齧る",
+      "kana": "かじる",
+      "gloss": "to gnaw; to nibble; to bite; to munch; to crunch; to dabble in; to have a smattering of",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63892,
+      "kanji": "課税",
+      "kana": "かぜい",
+      "gloss": "taxation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62578,
+      "kanji": "下線",
+      "kana": "かせん",
+      "gloss": "underline; underscore",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63182,
+      "kanji": "加速",
+      "kana": "かそく",
+      "gloss": "acceleration; speeding up",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 947: 外来, 概略, 学芸...",
+  "lesson_number": 947,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 64996,
+      "kanji": "外来",
+      "kana": "がいらい",
+      "gloss": "foreign; imported; outpatient; outpatient care; outpatient clinic; outpatient ward",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65027,
+      "kanji": "概略",
+      "kana": "がいりゃく",
+      "gloss": "outline; summary; gist; in brief",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65296,
+      "kanji": "学芸",
+      "kana": "がくげい",
+      "gloss": "arts and sciences; liberal arts",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65301,
+      "kanji": "学士",
+      "kana": "がくし",
+      "gloss": "university graduate; bachelor; bachelor's degree",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65320,
+      "kanji": "学説",
+      "kana": "がくせつ",
+      "gloss": "theory",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65382,
+      "kanji": "楽譜",
+      "kana": "がくふ",
+      "gloss": "score; sheet music",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65345,
+      "kanji": "学歴",
+      "kana": "がくれき",
+      "gloss": "academic background",
+      "card_type": "vocab"
+    }
+  ]
+}

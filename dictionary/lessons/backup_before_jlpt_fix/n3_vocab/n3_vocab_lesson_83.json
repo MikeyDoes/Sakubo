@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 432: 語, 恋, 濃い...",
+  "lesson_number": 432,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 73814,
+      "kanji": "語",
+      "kana": "かたり",
+      "gloss": "talk; recital; narration; topic",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111806,
+      "kanji": "恋",
+      "kana": "こい",
+      "gloss": "(romantic) love",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100189,
+      "kanji": "濃い",
+      "kana": "こい",
+      "gloss": "deep (colour); dark; strong (flavour, smell, etc.); thick (consistency); dense; strong (possibility, etc.); thick (i.e. \"as thick as thieves\"); close; deep (love, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111833,
+      "kanji": "恋人",
+      "kana": "こいびと",
+      "gloss": "lover; sweetheart; boyfriend; girlfriend",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119826,
+      "kanji": "幸運",
+      "kana": "こううん",
+      "gloss": "good luck; fortune",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75191,
+      "kanji": "講演",
+      "kana": "こうえん",
+      "gloss": "lecture; address; speech",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74283,
+      "kanji": "効果",
+      "kana": "こうか",
+      "gloss": "effect; effectiveness; efficacy; result; effects (e.g. sound effects, visual effects, special effects)",
+      "card_type": "vocab"
+    }
+  ]
+}

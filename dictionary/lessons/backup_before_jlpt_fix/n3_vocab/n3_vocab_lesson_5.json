@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 354: 当てる, 跡, 跡...",
+  "lesson_number": 354,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 97427,
+      "kanji": "当てる",
+      "kana": "あてる",
+      "gloss": "to hit; to expose; to apply (e.g. patch); to put on; to put against; to hold on; to hold against; to allot; to call on someone (e.g. in class); to guess (an answer); to make a hit (e.g. in a lottery)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88671,
+      "kanji": "跡",
+      "kana": "あと",
+      "gloss": "trace; tracks; mark; sign; site; remains; ruins; scar",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 267840,
+      "kanji": "跡",
+      "kana": "せき",
+      "gloss": "trace",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71546,
+      "kanji": "穴",
+      "kana": "あな",
+      "gloss": "hole; opening; perforation; pit; hollow; hole (in the ground, etc.); burrow; den; lair; holt; deficit; shortage; missing person (in a team, meeting, etc.); vacancy; flaw; well-kept secret place; upset victory (with a large payoff); pit (of a theater); hiding place; hideout; underbelly (of society, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71548,
+      "kanji": "穴",
+      "kana": "けつ",
+      "gloss": "ass; arse; buttocks; rear; end; acupuncture point; hole; notch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109222,
+      "kanji": "油",
+      "kana": "あぶら",
+      "gloss": "oil",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117459,
+      "kanji": "余り",
+      "kana": "あんまり",
+      "gloss": "remainder; remnant; rest; balance; surplus; remains (of a meal); leftovers; (not) very; (not) much; too much; excessively; overly; extreme; great; severe; tremendous; terrible; more than; over",
+      "card_type": "vocab"
+    }
+  ]
+}

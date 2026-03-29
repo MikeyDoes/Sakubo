@@ -1,0 +1,31 @@
+{
+  "lesson_number": 42,
+  "lesson_type": "grammar",
+  "entry_id": 326352,
+  "grammar_point": "じゃありません",
+  "kanji_form": "じゃありません",
+  "meaning": "polite copula negative; is not/am not/are not (polite)",
+  "part_of_speech": "copula",
+  "jlpt_level": "N5",
+  "study_vectors": "fill-blank, jumble, translation, listening-comp, listening-dict, conjugation",
+  "items": [
+    {
+      "item_id": 1,
+      "type": "fill-blank",
+      "sentence": "これは 本___。",
+      "answer": "じゃありません",
+      "translation": "This is not a book.",
+      "notes": "じゃありません is the polite negative copula. Use in polite conversation.",
+      "vocabulary_notes": {
+        "これ": "this",
+        "は": "topic particle",
+        "本": "book (ほん)",
+        "昨日": "yesterday (きのう)",
+        "雨": "rain (あめ)",
+        "寒": "cold (さむ)"
+      }
+    }
+  ],
+  "notes": "Grammar lesson for じゃありません. Fill-in-blank exercise implemented.",
+  "title": "Lesson 42 (Grammar) - じゃありません"
+}

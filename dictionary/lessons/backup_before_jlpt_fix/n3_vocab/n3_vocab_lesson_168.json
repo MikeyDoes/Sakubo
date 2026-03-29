@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 517: 注, 中央, 中学...",
+  "lesson_number": 517,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 94446,
+      "kanji": "注",
+      "kana": "ちゅう",
+      "gloss": "annotation; explanatory note; comment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94076,
+      "kanji": "中央",
+      "kana": "ちゅうおう",
+      "gloss": "centre; center; middle; heart; metropolis; capital city; central government",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94097,
+      "kanji": "中学",
+      "kana": "ちゅうがく",
+      "gloss": "junior high school; middle school; lower secondary school",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94150,
+      "kanji": "中古",
+      "kana": "ちゅうこ",
+      "gloss": "used; second-hand; old; Middle Ages (in Japan esp. Heian period)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94179,
+      "kanji": "中止",
+      "kana": "ちゅうし",
+      "gloss": "suspension; stoppage; discontinuance; interruption",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94499,
+      "kanji": "駐車",
+      "kana": "ちゅうしゃ",
+      "gloss": "parking (e.g. car)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122599,
+      "kanji": "昼食",
+      "kana": "ちゅうしょく",
+      "gloss": "lunch; midday meal; food served at a tea party (tea ceremony)",
+      "card_type": "vocab"
+    }
+  ]
+}

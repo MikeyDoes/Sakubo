@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 115: 一, 一, 一...",
+  "lesson_number": 115,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 59149,
+      "kanji": "一",
+      "kana": "ひとつ",
+      "gloss": "one; for one thing; only; (not) even; just (e.g. \"just try it\"); some kind of; one type of",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 272010,
+      "kanji": "一",
+      "kana": "イー",
+      "gloss": "one",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 282245,
+      "kanji": "一",
+      "kana": "いっち",
+      "gloss": "most; best",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 282252,
+      "kanji": "一",
+      "kana": "ひと",
+      "gloss": "one",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 307180,
+      "kanji": "一",
+      "kana": "いつ",
+      "gloss": "one; same (mind, path, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114910,
+      "kanji": "一日",
+      "kana": "いちにち",
+      "gloss": "one day; all day (long); throughout the day; first day of the month",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 202788,
+      "kanji": "一日",
+      "kana": "つきたち",
+      "gloss": "first day of the month; first ten days of the lunar month",
+      "card_type": "vocab"
+    }
+  ]
+}

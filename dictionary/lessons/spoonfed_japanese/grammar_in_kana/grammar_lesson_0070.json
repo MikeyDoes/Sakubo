@@ -1,0 +1,31 @@
+{
+  "lesson_number": 70,
+  "lesson_type": "grammar",
+  "entry_id": 326356,
+  "grammar_point": "かった",
+  "kanji_form": "かった",
+  "meaning": "i-adjective past tense ending; was (adjective)",
+  "part_of_speech": "auxiliary",
+  "jlpt_level": "N5",
+  "study_vectors": "fill-blank, jumble, translation, listening-comp, listening-dict, conjugation",
+  "items": [
+    {
+      "item_id": 1,
+      "type": "fill-blank",
+      "sentence": "きのうは 寒___。",
+      "answer": "かった",
+      "translation": "It was cold yesterday.",
+      "notes": "かった is the past tense ending for i-adjectives. Remove い and add かった.",
+      "vocabulary_notes": {
+        "これ": "this",
+        "は": "topic particle",
+        "ほん": "book (本)",
+        "きのう": "yesterday (昨日)",
+        "あめ": "rain (雨)",
+        "寒": "cold (さむ)"
+      }
+    }
+  ],
+  "notes": "Grammar lesson for かった. Fill-in-blank exercise implemented.",
+  "title": "Lesson 70 (Grammar) - かった"
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 175: 調度, 稠度, 一寸...",
+  "lesson_number": 175,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 94817,
+      "kanji": "調度",
+      "kana": "ちょうど",
+      "gloss": "household items; furniture; furnishings; fixtures; supplies; bow and arrow",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 203443,
+      "kanji": "稠度",
+      "kana": "ちょうど",
+      "gloss": "consistency",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59567,
+      "kanji": "一寸",
+      "kana": "ちょっと",
+      "gloss": "a little; a bit; slightly; just a minute; for a moment; briefly; somewhat; rather; fairly; pretty; quite; (not) easily; (not) readily; hey!; come on; excuse me",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78343,
+      "kanji": "使う",
+      "kana": "つかう",
+      "gloss": "to use (a thing, method, etc.); to make use of; to put to use; to use (a person, animal, puppet, etc.); to employ; to handle; to manage; to manipulate; to use (time, money, etc.); to spend; to consume; to use (language); to speak",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102069,
+      "kanji": "疲れる",
+      "kana": "つかれる",
+      "gloss": "to get tired; to tire; to get fatigued; to become exhausted; to grow weary; to become worn out (of a well-used object); to starve",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79732,
+      "kanji": "次",
+      "kana": "つぎ",
+      "gloss": "next; following; subsequent; stage; station",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115950,
+      "kanji": "次",
+      "kana": "じ",
+      "gloss": "next; hypo- (i.e. containing an element with low valence); order; sequence; time; times",
+      "card_type": "vocab"
+    }
+  ]
+}

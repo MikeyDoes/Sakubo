@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 247: 表, 親, 親...",
+  "lesson_number": 247,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 102841,
+      "kanji": "表",
+      "kana": "ひょう",
+      "gloss": "table; chart; list; memorial to an emperor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86197,
+      "kanji": "親",
+      "kana": "おや",
+      "gloss": "parent; parents; mother and father; dealer (in cards, mahjong, etc.); banker; founder; inventor; (pet) owner; key; parent (organization); main; ancestor; forefather",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 207451,
+      "kanji": "親",
+      "kana": "しん",
+      "gloss": "intimacy; closeness; friendliness; close relative; pro- (e.g. pro-American)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118842,
+      "kanji": "下りる",
+      "kana": "おりる",
+      "gloss": "to descend (e.g. a mountain); to go down; to come down; to alight (e.g. from bus); to get off; to disembark; to dismount; to step down; to retire; to give up; to quit; to fold; to be granted; to be issued; to be given; to form (of frost, dew, mist, etc.); to be passed (from the body; e.g. of a roundworm)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89042,
+      "kanji": "折る",
+      "kana": "おる",
+      "gloss": "to break; to fracture; to break off; to snap off; to pick (e.g. flowers); to fold; to bend; to make (origami); to interrupt; to end",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73791,
+      "kanji": "お礼",
+      "kana": "おれい",
+      "gloss": "thanks; gratitude; manners; etiquette; bow; reward; gift; ceremony; ritual",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89043,
+      "kanji": "折れる",
+      "kana": "おれる",
+      "gloss": "to break; to be broken; to snap; to fracture; to be folded; to give in; to back down; to yield; to submit; to turn (a corner)",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 307: 楽む, 偶に, 為...",
+  "lesson_number": 307,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 65360,
+      "kanji": "楽む",
+      "kana": "たのしむ",
+      "gloss": "to enjoy (oneself)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 127839,
+      "kanji": "偶に",
+      "kana": "たまに",
+      "gloss": "occasionally; once in a while; now and then; rarely; seldom",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58703,
+      "kanji": "為",
+      "kana": "ため",
+      "gloss": "good; advantage; benefit; welfare; sake; purpose; objective; aim; consequence; result; effect; affecting; regarding; concerning",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 201828,
+      "kanji": "為",
+      "kana": "す",
+      "gloss": "to do",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92206,
+      "kanji": "駄目",
+      "kana": "だめ",
+      "gloss": "no good; not serving its purpose; useless; broken; hopeless; wasted; in vain; purposeless; cannot; must not; not allowed; neutral point (in go); intersection owned by neither player at the end of a game",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91624,
+      "kanji": "足りる",
+      "kana": "たりる",
+      "gloss": "to be sufficient; to be enough; to be worth doing; to be worthy of; to deserve; to do (the job); to serve; to answer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93636,
+      "kanji": "男性",
+      "kana": "だんせい",
+      "gloss": "man; male; masculine gender",
+      "card_type": "vocab"
+    }
+  ]
+}

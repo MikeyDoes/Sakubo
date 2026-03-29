@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 858: ローマ字, 録音, 和英...",
+  "lesson_number": 858,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 57325,
+      "kanji": "ローマ字",
+      "kana": "ローマじ",
+      "gloss": "Latin alphabet; Roman alphabet; rōmaji; romanized Japanese; system of transliterating Japanese into the Latin alphabet",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112242,
+      "kanji": "録音",
+      "kana": "ろくおん",
+      "gloss": "(audio) recording",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112288,
+      "kanji": "和英",
+      "kana": "わえい",
+      "gloss": "Japanese-English; Japanese-English dictionary",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112247,
+      "kanji": "論ずる",
+      "kana": "ろんずる",
+      "gloss": "to discuss; to talk about; to deal with (a topic); to argue; to dispute; to take into consideration; to make an issue of",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123846,
+      "kanji": "分る",
+      "kana": "わかる",
+      "gloss": "to understand; to comprehend; to grasp; to see; to get; to follow; to become clear; to be known; to be discovered; to be realized; to be realised; to be found out; I know!; I think so too!",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123855,
+      "kanji": "分かれる",
+      "kana": "わかれる",
+      "gloss": "to branch; to fork; to diverge; to separate; to split; to divide; to disperse; to scatter",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123888,
+      "kanji": "湧く",
+      "kana": "わく",
+      "gloss": "to well (up); to gush forth (of water); to spring out; to surge; to appear (esp. suddenly) (sweat, tears, etc.); to feel emotions from (joy, bravery, etc.); to hatch (esp. of parasitic insects, etc.)",
+      "card_type": "vocab"
+    }
+  ]
+}

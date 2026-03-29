@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1135: 沈殿, 沈没, 沈黙...",
+  "lesson_number": 1135,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 95127,
+      "kanji": "沈殿",
+      "kana": "ちんでん",
+      "gloss": "precipitation; deposition; settlement (e.g. of sediment)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95128,
+      "kanji": "沈没",
+      "kana": "ちんぼつ",
+      "gloss": "sinking; foundering; going down; submersion; getting dead drunk; having too much fun (esp. in a red-light district, etc.) and missing work or neglecting one's duties; staying in one place for a long time",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95129,
+      "kanji": "沈黙",
+      "kana": "ちんもく",
+      "gloss": "silence; being silent; quiet; hush; reticence; inaction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95181,
+      "kanji": "陳列",
+      "kana": "ちんれつ",
+      "gloss": "exhibition; display; putting on show",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95239,
+      "kanji": "追及",
+      "kana": "ついきゅう",
+      "gloss": "investigation (e.g. into someone's guilt); questioning; pressing; hounding; pinning down; catching up; overtaking",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95249,
+      "kanji": "追跡",
+      "kana": "ついせき",
+      "gloss": "chase; pursuit; tracking; stalking; following up; tracing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95260,
+      "kanji": "追放",
+      "kana": "ついほう",
+      "gloss": "exile; banishment; eviction; deportation; purge; expulsion; ousting; elimination (e.g. of poverty); removal",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Lesson 60 (Kana) - ワ・ヲ・ン",
+  "lesson_number": 60,
+  "description": "Final Characters: ワ (wa) is an empty version of ウ (u). ン (n) is the \"bottom-up\" twin of ソ (so).",
+  "source_file": "Spoonfed Kana Vocab Lessons.ods",
+  "items": [
+    {
+      "entry_id": 325325,
+      "kana": "ワ",
+      "kanji": null,
+      "gloss": "wa"
+    },
+    {
+      "entry_id": 325326,
+      "kana": "ヲ",
+      "kanji": null,
+      "gloss": "wo"
+    },
+    {
+      "entry_id": 325420,
+      "kana": "ン",
+      "kanji": null,
+      "gloss": "n"
+    }
+  ]
+}

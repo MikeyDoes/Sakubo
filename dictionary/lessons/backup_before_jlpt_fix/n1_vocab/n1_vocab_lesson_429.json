@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1289: 要請, 養成, 様相...",
+  "lesson_number": 1289,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 110304,
+      "kanji": "要請",
+      "kana": "ようせい",
+      "gloss": "appeal; call for something; request; claim; demand; axiom",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110350,
+      "kanji": "養成",
+      "kana": "ようせい",
+      "gloss": "training; education; development; cultivation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110148,
+      "kanji": "様相",
+      "kana": "ようそう",
+      "gloss": "aspect; phase; condition; modality (philosophy)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110253,
+      "kanji": "用品",
+      "kana": "ようひん",
+      "gloss": "articles; supplies; parts",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110167,
+      "kanji": "洋風",
+      "kana": "ようふう",
+      "gloss": "Western style",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110254,
+      "kanji": "用法",
+      "kana": "ようほう",
+      "gloss": "directions; rules of use",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110309,
+      "kanji": "要望",
+      "kana": "ようぼう",
+      "gloss": "demand for; request",
+      "card_type": "vocab"
+    }
+  ]
+}

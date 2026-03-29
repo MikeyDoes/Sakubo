@@ -1,0 +1,38 @@
+{
+  "title": "Lesson 58 (Kana) - ラ・リ・ル・レ・ロ",
+  "lesson_number": 58,
+  "description": "The R-Line: ル (ru) and レ (re) are very similar to their Hiragana parents. ロ is a perfect square.",
+  "source_file": "Spoonfed Kana Vocab Lessons.ods",
+  "items": [
+    {
+      "entry_id": 325417,
+      "kana": "ラ",
+      "kanji": null,
+      "gloss": "ra"
+    },
+    {
+      "entry_id": 325323,
+      "kana": "リ",
+      "kanji": null,
+      "gloss": "ri"
+    },
+    {
+      "entry_id": 325324,
+      "kana": "ル",
+      "kanji": null,
+      "gloss": "ru"
+    },
+    {
+      "entry_id": 325418,
+      "kana": "レ",
+      "kanji": null,
+      "gloss": "re"
+    },
+    {
+      "entry_id": 325419,
+      "kana": "ロ",
+      "kanji": null,
+      "gloss": "ro"
+    }
+  ]
+}

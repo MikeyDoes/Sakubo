@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1107: 徐々, 損失, 存続...",
+  "lesson_number": 1107,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 83585,
+      "kanji": "徐々",
+      "kana": "じょじょ",
+      "gloss": "slow; gradual; steady; calm; composed; relaxed",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91871,
+      "kanji": "損失",
+      "kana": "そんしつ",
+      "gloss": "loss (of assets, profit, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91815,
+      "kanji": "存続",
+      "kana": "そんぞく",
+      "gloss": "duration; continuance; survival; persistence; retention",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124513,
+      "kanji": "沿い",
+      "kana": "ぞい",
+      "gloss": "along",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91418,
+      "kanji": "像",
+      "kana": "ぞう",
+      "gloss": "image; figure; statue; picture; portrait; form; shape; appearance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91426,
+      "kanji": "増強",
+      "kana": "ぞうきょう",
+      "gloss": "reinforcement; augmentation; strengthening; increase; buildup",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91462,
+      "kanji": "蔵相",
+      "kana": "ぞうしょう",
+      "gloss": "Minister of Finance",
+      "card_type": "vocab"
+    }
+  ]
+}

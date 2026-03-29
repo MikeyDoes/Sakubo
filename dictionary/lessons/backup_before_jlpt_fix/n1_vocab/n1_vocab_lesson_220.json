@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1080: 人体, 人民, 人民...",
+  "lesson_number": 1080,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 86673,
+      "kanji": "人体",
+      "kana": "じんてい",
+      "gloss": "personal appearance; looks",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86745,
+      "kanji": "人民",
+      "kana": "じんみん",
+      "gloss": "the people; citizens; the populace",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 208065,
+      "kanji": "人民",
+      "kana": "おおみたから",
+      "gloss": "imperial subjects; the people",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116316,
+      "kanji": "人目",
+      "kana": "ひとめ",
+      "gloss": "(public) notice; attention; public eye; public gaze",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87039,
+      "kanji": "水気",
+      "kana": "みずけ",
+      "gloss": "water content; moisture; juiciness; dampness; water vapor (vapour); steam; dropsy; edema; oedema",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87050,
+      "kanji": "水源",
+      "kana": "すいげん",
+      "gloss": "source of river; fountainhead",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87005,
+      "kanji": "推進",
+      "kana": "すいしん",
+      "gloss": "propulsion; drive; promotion (e.g. of a government policy); furtherance; implementation",
+      "card_type": "vocab"
+    }
+  ]
+}

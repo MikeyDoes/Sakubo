@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 942: 監視, 慣習, 観衆...",
+  "lesson_number": 942,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 66253,
+      "kanji": "監視",
+      "kana": "かんし",
+      "gloss": "monitoring; watching; observation; surveillance; guarding; supervision; lookout",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66139,
+      "kanji": "慣習",
+      "kana": "かんしゅう",
+      "gloss": "custom; convention; common practice; becoming accustomed (to)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66402,
+      "kanji": "観衆",
+      "kana": "かんしゅう",
+      "gloss": "spectators; onlookers; members of the audience",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66063,
+      "kanji": "干渉",
+      "kana": "かんしょう",
+      "gloss": "interference; intervention; meddling",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66106,
+      "kanji": "感触",
+      "kana": "かんしょく",
+      "gloss": "feel (i.e. tactile sensation); touch; feeling; sensation; texture (e.g. food, cloth)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119262,
+      "kanji": "肝心",
+      "kana": "かんじん",
+      "gloss": "essential; important; crucial; vital; main",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66176,
+      "kanji": "歓声",
+      "kana": "かんせい",
+      "gloss": "cheer; shout of joy",
+      "card_type": "vocab"
+    }
+  ]
+}

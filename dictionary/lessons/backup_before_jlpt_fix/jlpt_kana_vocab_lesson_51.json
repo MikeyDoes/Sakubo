@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 51: ゼミ, せめて, セメント...",
+  "lesson_number": 1357,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 47352,
+      "kana": "ゼミ",
+      "gloss": "seminar",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37432,
+      "kana": "せめて",
+      "gloss": "at least; at most; (even) just",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47302,
+      "kana": "セメント",
+      "gloss": "cement",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47338,
+      "kana": "センチ",
+      "gloss": "centimeter; centimetre; centi-; 10^-2; sentimental",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37464,
+      "kana": "そうっと",
+      "gloss": "softly; gently; quietly; lightly; stealthily; secretly; in secret; to leave alone; to leave as it is",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37453,
+      "kana": "そそっかしい",
+      "gloss": "careless; thoughtless; hasty; rash",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 178088,
+      "kana": "それなのに",
+      "gloss": "and yet; despite this; but even so; but even then; however; nevertheless; for all that; notwithstanding that",
+      "card_type": "vocab"
+    }
+  ]
+}

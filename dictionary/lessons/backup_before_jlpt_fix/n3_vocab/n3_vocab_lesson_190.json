@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 539: 泥, 貪, 豚...",
+  "lesson_number": 539,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 95828,
+      "kanji": "泥",
+      "kana": "どろ",
+      "gloss": "mud; slush; (wet) dirt; mire; thief",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117747,
+      "kanji": "貪",
+      "kana": "とん",
+      "gloss": "coveting; raga (desire)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 274189,
+      "kanji": "豚",
+      "kana": "とん",
+      "gloss": "pig; pork",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 307642,
+      "kanji": "頓",
+      "kana": "とん",
+      "gloss": "sudden; abrupt; unexpected; stupid; foolish; attaining enlightenment in one effort (without ascetic practices, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37784,
+      "kanji": "とんでも無い",
+      "kana": "とんでもない",
+      "gloss": "unthinkable; absurd; outrageous; preposterous; terrible; absolutely not!; not at all!; far from it!; impossible!; preposterous!; what a thing to say!; no way!; bullshit; don't mention it; you're welcome",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108177,
+      "kanji": "名",
+      "kana": "な",
+      "gloss": "name; given name; title; fame; renown; reputation; pretext; pretense; justification; appearance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 192038,
+      "kanji": "名",
+      "kana": "めい",
+      "gloss": "counter for people (usu. seating, reservations and such); first name; famous; great; name; noun",
+      "card_type": "vocab"
+    }
+  ]
+}

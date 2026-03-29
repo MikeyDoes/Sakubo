@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 631: 映す, 写る, 映る...",
+  "lesson_number": 631,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 118512,
+      "kanji": "映す",
+      "kana": "うつす",
+      "gloss": "to project; to reflect; to cast (shadow)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80391,
+      "kanji": "写る",
+      "kana": "うつる",
+      "gloss": "to be photographed; to be projected",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61064,
+      "kanji": "映る",
+      "kana": "うつる",
+      "gloss": "to be reflected; to harmonize with (harmonise); to come out (photo); to be projected; to be displayed (on a screen)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114461,
+      "kanji": "饂飩",
+      "kana": "うどん",
+      "gloss": "udon; thick Japanese wheat noodles",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109606,
+      "kanji": "有無",
+      "kana": "うむ",
+      "gloss": "existence or nonexistence; presence or absence; consent or refusal; yes or no",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107332,
+      "kanji": "埋める",
+      "kana": "うずめる",
+      "gloss": "to cover; to bury (e.g. one's face in hands); to submerge; to fill (completely); to stuff; to pack; to cram; to fill up",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107334,
+      "kanji": "埋める",
+      "kana": "うめる",
+      "gloss": "to bury (e.g. in the ground); to fill up (e.g. audience fills a hall); to cause to be packed; to plug (a gap); to stop (a gap); to bridge (a difference, a gap); to fill (a seat, a vacant position); to fill out; to make up for (a loss, shortage, etc.); to make amends; to compensate for; to put cold water (in a bath); to cover; to scatter something over",
+      "card_type": "vocab"
+    }
+  ]
+}

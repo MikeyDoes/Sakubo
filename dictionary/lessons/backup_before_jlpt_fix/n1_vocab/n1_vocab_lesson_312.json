@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1172: 独自, 独占, 独創...",
+  "lesson_number": 1172,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 98296,
+      "kanji": "独自",
+      "kana": "どくじ",
+      "gloss": "original; unique; distinctive; characteristic; peculiar; independent; one's own; personal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98302,
+      "kanji": "独占",
+      "kana": "どくせん",
+      "gloss": "monopoly; monopolization; exclusivity; hogging; keeping to oneself",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98307,
+      "kanji": "独創",
+      "kana": "どくそう",
+      "gloss": "originality",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115160,
+      "kanji": "何処",
+      "kana": "いずこ",
+      "gloss": "where; what place; how much (long, far); what extent",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63005,
+      "kanji": "何処か",
+      "kana": "どっか",
+      "gloss": "somewhere; anywhere; in some respects",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96994,
+      "kanji": "土台",
+      "kana": "どだい",
+      "gloss": "foundation; base; basis; from the beginning; from the outset; by nature",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63063,
+      "kanji": "何方",
+      "kana": "いずかた",
+      "gloss": "which way; which direction; where; which one (esp. of two alternatives); who",
+      "card_type": "vocab"
+    }
+  ]
+}

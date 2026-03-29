@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 342: 木綿, 貰う, 森...",
+  "lesson_number": 342,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 208212,
+      "kanji": "木綿",
+      "kana": "ゆう",
+      "gloss": "string made of cut steamed, soaked mulberry bark fibers",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108858,
+      "kanji": "貰う",
+      "kana": "もらう",
+      "gloss": "to receive; to take; to accept; to get somebody to do something; to have in one's pocket (a fight, match); to contract (a disease); to catch; to be affected",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85824,
+      "kanji": "森",
+      "kana": "もり",
+      "gloss": "forest; shrine grove",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84237,
+      "kanji": "焼く",
+      "kana": "やく",
+      "gloss": "to burn; to roast; to broil; to grill; to bake; to toast; to barbecue; to heat; to heat up; to make (charcoal, pottery, bricks, etc.); to fire; to tan (i.e. suntan); to print (a photo); to burn (an optical disc); to be jealous of; to be envious of; to envy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109149,
+      "kanji": "約束",
+      "kana": "やくそく",
+      "gloss": "promise; agreement; arrangement; one's word; contract; pact; appointment; engagement; date; convention; rule; destiny; fate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109130,
+      "kanji": "役に立つ",
+      "kana": "やくにたつ",
+      "gloss": "to be helpful; to be useful",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84240,
+      "kanji": "焼ける",
+      "kana": "やける",
+      "gloss": "to burn; to be roasted; to be heated; to be sunburnt; to fade (in the sun); to glow red (i.e. of the sky at sunset); to be jealous; to be envious",
+      "card_type": "vocab"
+    }
+  ]
+}

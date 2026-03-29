@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 441: 粉, 好み, 好み...",
+  "lesson_number": 441,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 104824,
+      "kanji": "粉",
+      "kana": "こな",
+      "gloss": "flour; meal; powder; dust",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74591,
+      "kanji": "好み",
+      "kana": "このみ",
+      "gloss": "liking; taste; choice",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124330,
+      "kanji": "好み",
+      "kana": "よしみ",
+      "gloss": "friendship; friendly relations; connection; relation; intimacy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 191075,
+      "kanji": "好み",
+      "kana": "ごのみ",
+      "gloss": "being fond of; having a liking for; to the liking of; favored by; popular with",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74593,
+      "kanji": "好む",
+      "kana": "このむ",
+      "gloss": "to like; to prefer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86810,
+      "kanji": "塵",
+      "kana": "あくた",
+      "gloss": "rubbish; trash; garbage; refuse",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86816,
+      "kanji": "塵",
+      "kana": "ちり",
+      "gloss": "dust; dirt",
+      "card_type": "vocab"
+    }
+  ]
+}

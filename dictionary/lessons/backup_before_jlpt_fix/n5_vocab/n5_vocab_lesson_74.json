@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 174: 違う, 近く, 地下鉄...",
+  "lesson_number": 174,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 185831,
+      "kanji": "違う",
+      "kana": "たがう",
+      "gloss": "to differ; to be different; to run counter to; to change (into something out of the ordinary)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69917,
+      "kanji": "近く",
+      "kana": "ちかく",
+      "gloss": "near; neighbourhood; neighborhood; vicinity; nearly (e.g. \"it took nearly one year\"); close to; shortly; soon",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93736,
+      "kanji": "地下鉄",
+      "kana": "ちかてつ",
+      "gloss": "underground train; subway",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93785,
+      "kanji": "地図",
+      "kana": "ちず",
+      "gloss": "map",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93986,
+      "kanji": "茶色",
+      "kana": "ちゃいろ",
+      "gloss": "light brown; tawny",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121184,
+      "kanji": "茶碗",
+      "kana": "ちゃわん",
+      "gloss": "rice bowl; tea cup; teacup",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94548,
+      "kanji": "丁度",
+      "kana": "ちょうど",
+      "gloss": "exactly; precisely; just; right; as if; as though; quite",
+      "card_type": "vocab"
+    }
+  ]
+}

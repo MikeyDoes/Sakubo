@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1240: 封建, 豊作, 方策...",
+  "lesson_number": 1240,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 104159,
+      "kanji": "封建",
+      "kana": "ほうけん",
+      "gloss": "feudalistic",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106561,
+      "kanji": "豊作",
+      "kana": "ほうさく",
+      "gloss": "abundant harvest; bumper crop",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106395,
+      "kanji": "方策",
+      "kana": "ほうさく",
+      "gloss": "plan; policy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106257,
+      "kanji": "奉仕",
+      "kana": "ほうし",
+      "gloss": "service; ministry; attendance; church work; offering goods at a reduced price; providing a service for free",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106396,
+      "kanji": "方式",
+      "kana": "ほうしき",
+      "gloss": "form; method; system; formula",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106349,
+      "kanji": "放射",
+      "kana": "ほうしゃ",
+      "gloss": "radiation; emission",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106358,
+      "kanji": "放射能",
+      "kana": "ほうしゃのう",
+      "gloss": "radioactivity",
+      "card_type": "vocab"
+    }
+  ]
+}

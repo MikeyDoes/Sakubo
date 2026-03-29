@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 188: 習う, 並ぶ, 並べる...",
+  "lesson_number": 188,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 81953,
+      "kanji": "習う",
+      "kana": "ならう",
+      "gloss": "to take lessons in; to be taught; to learn (from a teacher); to study (under a teacher); to get training in",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105277,
+      "kanji": "並ぶ",
+      "kana": "ならぶ",
+      "gloss": "to line up; to stand in a line; to rival; to match; to equal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105280,
+      "kanji": "並べる",
+      "kana": "ならべる",
+      "gloss": "to line up; to set up; to arrange in a line; to enumerate; to itemize; to be equal (to); to compare well (with); to be as good (as)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87625,
+      "kanji": "成る",
+      "kana": "なる",
+      "gloss": "to become; to get; to grow; to be; to reach; to attain; to result in; to prove to be; to consist of; to be composed of; to succeed; to be complete; to change into; to be exchanged for; to play a role; to be promoted; to do ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108373,
+      "kanji": "鳴る",
+      "kana": "なる",
+      "gloss": "to sound; to ring; to resound; to echo; to roar; to rumble",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124688,
+      "kanji": "生る",
+      "kana": "なる",
+      "gloss": "to bear fruit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115150,
+      "kanji": "何",
+      "kana": "なに",
+      "gloss": "what; you-know-what; that thing; whatsit; whachamacallit; what's-his-name; what's-her-name; (not) at all; (not) in the slightest; what?; huh?; hey!; oh, no (it's fine); why (it's nothing); oh (certainly not)",
+      "card_type": "vocab"
+    }
+  ]
+}

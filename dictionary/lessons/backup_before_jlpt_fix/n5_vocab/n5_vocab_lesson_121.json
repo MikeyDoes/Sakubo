@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 221: 雪, 八日, 洋服...",
+  "lesson_number": 221,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 89107,
+      "kanji": "雪",
+      "kana": "ゆき",
+      "gloss": "snow; snowfall",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101218,
+      "kanji": "八日",
+      "kana": "ようか",
+      "gloss": "eighth day of the month; eight days",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110168,
+      "kanji": "洋服",
+      "kana": "ようふく",
+      "gloss": "Western-style clothes (cf. traditional Japanese clothes)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110362,
+      "kanji": "欲",
+      "kana": "よく",
+      "gloss": "greed; craving; desire; appetite; hunger; avarice; wants",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110392,
+      "kanji": "翼",
+      "kana": "よく",
+      "gloss": "wing; Chinese \"Wings\" constellation (one of the 28 mansions); counter for birds or bird wings",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123659,
+      "kanji": "良く",
+      "kana": "よく",
+      "gloss": "nicely; properly; well; skillfully; skilfully; frequently; often; I'm glad that you ...; thank you for ...; (you have) quite the nerve to; I don't know how you can ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 179323,
+      "kanji": "翌",
+      "kana": "よく",
+      "gloss": "the following; next",
+      "card_type": "vocab"
+    }
+  ]
+}

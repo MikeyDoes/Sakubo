@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 27: ジーンズ, しばしば, ジュース...",
+  "lesson_number": 1333,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 45856,
+      "kana": "ジーンズ",
+      "gloss": "jeans; denim; jean",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 195710,
+      "kana": "しばしば",
+      "gloss": "(blinking) repeatedly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 46089,
+      "kana": "ジュース",
+      "gloss": "juice; soft drink (usu. fruit-based); sweetened drink",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 307793,
+      "kana": "ジュース",
+      "gloss": "deuce (tennis, cards, dice, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 46261,
+      "kana": "スイッチ",
+      "gloss": "switch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 46234,
+      "kana": "スープ",
+      "gloss": "(Western) soup",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 46342,
+      "kana": "スキー",
+      "gloss": "skiing; ski; skis",
+      "card_type": "vocab"
+    }
+  ]
+}

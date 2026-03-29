@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 577: 文, 雰囲気, 分析...",
+  "lesson_number": 577,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 190907,
+      "kanji": "文",
+      "kana": "もん",
+      "gloss": "mon; one-thousandth of a kan (unit of currency 1336-1870); 2.4 cm (traditional unit used to measure shoe sizes); letter; character; sentence; scripture; incantation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104878,
+      "kanji": "雰囲気",
+      "kana": "ふんいき",
+      "gloss": "atmosphere; mood; ambience; ambiance; aura; feel; a certain air; presence; special aura; something (about someone); (Earth's) atmosphere",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104721,
+      "kanji": "分析",
+      "kana": "ぶんせき",
+      "gloss": "analysis",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104949,
+      "kanji": "文明",
+      "kana": "ぶんめい",
+      "gloss": "civilization; civilisation; culture; Bunmei era (1469.4.28-1487.7.20)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104771,
+      "kanji": "分野",
+      "kana": "ぶんや",
+      "gloss": "field; sphere; realm; division; branch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105108,
+      "kanji": "塀",
+      "kana": "へい",
+      "gloss": "wall; fence",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117208,
+      "kanji": "平均",
+      "kana": "へいきん",
+      "gloss": "average; mean; balance; equilibrium",
+      "card_type": "vocab"
+    }
+  ]
+}

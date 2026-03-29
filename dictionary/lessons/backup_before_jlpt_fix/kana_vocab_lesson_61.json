@@ -1,0 +1,37 @@
+{
+  "lesson_number": 61,
+  "title": "Lesson 61 (Vocab) - ワイン, ワン, ワッ...",
+  "description": "ワイン (Wine). ワン is both \"One\" and the sound of a dog barking (わん).",
+  "items": [
+    {
+      "entry_id": 57591,
+      "kanji": null,
+      "kana": "ワイン",
+      "gloss": "wine"
+    },
+    {
+      "entry_id": 309358,
+      "kanji": null,
+      "kana": "ワン",
+      "gloss": "woof; arf; bow-wow"
+    },
+    {
+      "entry_id": 171493,
+      "kanji": null,
+      "kana": "ワッ",
+      "gloss": "boo! (sound used to scare someone); ugh (dissatisfaction, aggravation); ulp (consternation)"
+    },
+    {
+      "entry_id": 41853,
+      "kanji": null,
+      "kana": "オン",
+      "gloss": "on"
+    },
+    {
+      "entry_id": 304971,
+      "kanji": null,
+      "kana": "イン",
+      "gloss": "inn; hotel"
+    }
+  ]
+}

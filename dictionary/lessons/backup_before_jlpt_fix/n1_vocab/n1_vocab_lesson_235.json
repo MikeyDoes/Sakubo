@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1095: 選考, 戦災, 専修...",
+  "lesson_number": 1095,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 89922,
+      "kanji": "選考",
+      "kana": "せんこう",
+      "gloss": "selection; screening",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89631,
+      "kanji": "戦災",
+      "kana": "せんさい",
+      "gloss": "war damage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89547,
+      "kanji": "専修",
+      "kana": "せんしゅう",
+      "gloss": "specialization; specialisation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89636,
+      "kanji": "戦術",
+      "kana": "せんじゅつ",
+      "gloss": "tactics",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89792,
+      "kanji": "潜水",
+      "kana": "せんすい",
+      "gloss": "diving; submerging; going underwater",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120775,
+      "kanji": "先先月",
+      "kana": "せんせんげつ",
+      "gloss": "month before last",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 158967,
+      "kanji": "先先週",
+      "kana": "せんせんしゅう",
+      "gloss": "week before last",
+      "card_type": "vocab"
+    }
+  ]
+}

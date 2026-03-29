@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 642: 各々, お早う, お参り...",
+  "lesson_number": 642,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 283289,
+      "kanji": "各々",
+      "kana": "おのおの",
+      "gloss": "each; you (plural)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 125040,
+      "kanji": "お早う",
+      "kana": "おはよう",
+      "gloss": "good morning",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36499,
+      "kanji": "お参り",
+      "kana": "おまいり",
+      "gloss": "visit (to a shrine, grave, etc.); worship",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 191473,
+      "kanji": "お待たせしました",
+      "kana": "おまたせしました",
+      "gloss": "thank you for waiting; sorry to have kept you waiting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36624,
+      "kanji": "お待ちどおさま",
+      "kana": "おまちどおさま",
+      "gloss": "I'm sorry to have kept you waiting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 129549,
+      "kanji": "お目出度い",
+      "kana": "おめでたい",
+      "gloss": "special; auspicious; happy; naive; innocent; good-natured; gullible; foolish",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124614,
+      "kanji": "思い掛けない",
+      "kana": "おもいがけない",
+      "gloss": "unexpected; contrary to expectations; by chance; casual",
+      "card_type": "vocab"
+    }
+  ]
+}

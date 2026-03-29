@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1009: この間, この頃, この頃...",
+  "lesson_number": 1009,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 37099,
+      "kanji": "この間",
+      "kana": "このかん",
+      "gloss": "the other day; lately; recently; during this period; meanwhile; in the meantime",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37104,
+      "kanji": "この頃",
+      "kana": "このころ",
+      "gloss": "these days; nowadays; now; at present; recently; lately",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 267170,
+      "kanji": "この頃",
+      "kana": "このころ",
+      "gloss": "in those days; at the time; then",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74590,
+      "kanji": "好ましい",
+      "kana": "このましい",
+      "gloss": "nice; likeable; desirable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72953,
+      "kanji": "個別",
+      "kana": "こべつ",
+      "gloss": "individual; separate; personal; case-by-case",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76859,
+      "kanji": "細やか",
+      "kana": "こまやか",
+      "gloss": "tender; warm; caring; thoughtful; meticulous; detailed; attentive; deep (of a colour); thick (e.g. fog)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76861,
+      "kanji": "細やか",
+      "kana": "ささやか",
+      "gloss": "meagre; meager; modest",
+      "card_type": "vocab"
+    }
+  ]
+}

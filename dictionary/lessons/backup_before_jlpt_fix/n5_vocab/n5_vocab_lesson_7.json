@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 107: 貴方, 彼方, 兄...",
+  "lesson_number": 107,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 67581,
+      "kanji": "貴方",
+      "kana": "あなた",
+      "gloss": "you; dear; honey",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101997,
+      "kanji": "彼方",
+      "kana": "あなた",
+      "gloss": "beyond; across; the other side; the distance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70922,
+      "kanji": "兄",
+      "kana": "あに",
+      "gloss": "older brother; elder brother",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 199139,
+      "kanji": "兄",
+      "kana": "けい",
+      "gloss": "you; Mr; Mister; older brother; elder brother",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 207254,
+      "kanji": "兄",
+      "kana": "にい",
+      "gloss": "older brother; elder brother",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 266927,
+      "kanji": "兄",
+      "kana": "このかみ",
+      "gloss": "eldest son; older brother; older sister; older person; head of a clan; head of a region; skilled craftsman",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78547,
+      "kanji": "姉",
+      "kana": "あね",
+      "gloss": "older sister; elder sister",
+      "card_type": "vocab"
+    }
+  ]
+}

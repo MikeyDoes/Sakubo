@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 741: 先頭, 全般, 扇風機...",
+  "lesson_number": 741,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 120776,
+      "kanji": "先頭",
+      "kana": "せんとう",
+      "gloss": "head; lead; vanguard; first",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90358,
+      "kanji": "全般",
+      "kana": "ぜんぱん",
+      "gloss": "(the) whole; as a whole; in general; at large",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89691,
+      "kanji": "扇風機",
+      "kana": "せんぷうき",
+      "gloss": "electric fan",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89875,
+      "kanji": "線路",
+      "kana": "せんろ",
+      "gloss": "railway track; railway line; railroad; railway; track; line",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91094,
+      "kanji": "相違",
+      "kana": "そうい",
+      "gloss": "difference; discrepancy; variation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 168902,
+      "kanji": "そう言えば",
+      "kana": "そういえば",
+      "gloss": "now that you mention it; come to think of it; that reminds me; on that subject; speaking of which",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77408,
+      "kanji": "雑巾",
+      "kana": "ぞうきん",
+      "gloss": "house-cloth; dust cloth",
+      "card_type": "vocab"
+    }
+  ]
+}

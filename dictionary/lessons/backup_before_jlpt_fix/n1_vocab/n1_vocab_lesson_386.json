@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1246: 捕吏, 捕虜, 滅びる...",
+  "lesson_number": 1246,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 135219,
+      "kanji": "捕吏",
+      "kana": "ほり",
+      "gloss": "constable; policeman",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106037,
+      "kanji": "捕虜",
+      "kana": "ほりょ",
+      "gloss": "prisoner (of war)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122981,
+      "kanji": "滅びる",
+      "kana": "ほろびる",
+      "gloss": "to go to ruin; to go under; to fall; to be destroyed; to die out; to become extinct; to perish",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122983,
+      "kanji": "滅ぼす",
+      "kana": "ほろぼす",
+      "gloss": "to destroy; to overthrow; to wreck; to ruin",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107060,
+      "kanji": "本格",
+      "kana": "ほんかく",
+      "gloss": "original method or procedure; serious; orthodox; classical; genuine",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107064,
+      "kanji": "本館",
+      "kana": "ほんかん",
+      "gloss": "main building",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107066,
+      "kanji": "本気",
+      "kana": "ほんき",
+      "gloss": "seriousness; earnestness; truth; sanctity",
+      "card_type": "vocab"
+    }
+  ]
+}

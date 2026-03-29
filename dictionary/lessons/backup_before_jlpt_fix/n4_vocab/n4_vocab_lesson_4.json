@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 232: 味, 味, 亜細亜...",
+  "lesson_number": 232,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 107645,
+      "kanji": "味",
+      "kana": "あじ",
+      "gloss": "flavor; flavour; taste; charm; appeal; uniqueness; attractiveness; experience; taste (e.g. of victory); smart; clever; witty; strange",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 207818,
+      "kanji": "味",
+      "kana": "み",
+      "gloss": "(sense of) taste; counter for food, drink, medicine, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 38982,
+      "kanji": "亜細亜",
+      "kana": "アジア",
+      "gloss": "Asia",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109662,
+      "kanji": "遊び",
+      "kana": "あそび",
+      "gloss": "playing; play (margin between on and off, gap before pressing button or lever has an effect)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 306068,
+      "kanji": "遊び",
+      "kana": "すさび",
+      "gloss": "amusement; diversion (to pass time); pastime; recreation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82013,
+      "kanji": "集る",
+      "kana": "あつまる",
+      "gloss": "to gather; to collect; to assemble",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82015,
+      "kanji": "集る",
+      "kana": "たかる",
+      "gloss": "to gather; to crowd round; to swarm; to flock; to sponge (off someone); to scrounge; to pester (someone for something); to bum; to cadge; to extort; to take (money) through intimidation",
+      "card_type": "vocab"
+    }
+  ]
+}

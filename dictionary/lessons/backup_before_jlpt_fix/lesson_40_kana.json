@@ -1,0 +1,38 @@
+{
+  "title": "Lesson 40 (Kana) - ザ・ジ・ズ・ゼ・ゾ",
+  "lesson_number": 40,
+  "description": "Tenten Power: Adding dots turns the \"S\" sounds into \"Z\" (and \"Sh\" into \"J\").",
+  "source_file": "Spoonfed Kana Vocab Lessons.ods",
+  "items": [
+    {
+      "entry_id": 325406,
+      "kana": "ザ",
+      "kanji": null,
+      "gloss": "za"
+    },
+    {
+      "entry_id": 325291,
+      "kana": "ジ",
+      "kanji": null,
+      "gloss": "ji"
+    },
+    {
+      "entry_id": 325407,
+      "kana": "ズ",
+      "kanji": null,
+      "gloss": "zu"
+    },
+    {
+      "entry_id": 325292,
+      "kana": "ゼ",
+      "kanji": null,
+      "gloss": "ze"
+    },
+    {
+      "entry_id": 325293,
+      "kana": "ゾ",
+      "kanji": null,
+      "gloss": "zo"
+    }
+  ]
+}

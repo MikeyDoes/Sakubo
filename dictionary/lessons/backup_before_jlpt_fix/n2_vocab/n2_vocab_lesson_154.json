@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 770: 定休日, 停止, 停車...",
+  "lesson_number": 770,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 95652,
+      "kanji": "定休日",
+      "kana": "ていきゅうび",
+      "gloss": "regular holiday; fixed day off; regular closing day",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95583,
+      "kanji": "停止",
+      "kana": "ていし",
+      "gloss": "stoppage; coming to a stop; halt; standstill; ceasing (movement, activity, etc.); suspension (of operations); interruption (e.g. of electricity supply); cutting off; suspension (of payment, licence, etc.); (temporary) prohibition; ban; suspension of music, dance, etc. as a sign of mourning for a prominent person",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95588,
+      "kanji": "停車",
+      "kana": "ていしゃ",
+      "gloss": "stopping (of a train, car, etc.); stop",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95594,
+      "kanji": "停電",
+      "kana": "ていでん",
+      "gloss": "power outage; electricity outage; blackout; failure of electricity supply",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82812,
+      "kanji": "出入り",
+      "kana": "でいり",
+      "gloss": "going in and out; entering and exiting; visiting regularly; frequenting; having regular dealings with; income and expenditure; incomings and outgoings; increase and decrease; surplus and deficit; fluctuation; fight; trouble; quarrel; dispute; indentations (e.g. of a coastline)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121478,
+      "kanji": "出入口",
+      "kana": "でいりぐち",
+      "gloss": "exit and entrance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81297,
+      "kanji": "手入れ",
+      "kana": "ていれ",
+      "gloss": "care; looking after; repair; maintenance; tending; trimming; grooming; (police) raid; crackdown",
+      "card_type": "vocab"
+    }
+  ]
+}

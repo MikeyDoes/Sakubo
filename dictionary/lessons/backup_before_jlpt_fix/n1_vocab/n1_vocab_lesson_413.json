@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1273: 免除, 面する, 面目...",
+  "lesson_number": 1273,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 108406,
+      "kanji": "免除",
+      "kana": "めんじょ",
+      "gloss": "exemption; exoneration; discharge",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108430,
+      "kanji": "面する",
+      "kana": "めんする",
+      "gloss": "to face on; to look out on to",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108457,
+      "kanji": "面目",
+      "kana": "めんぼく",
+      "gloss": "face; honour; honor; reputation; prestige; dignity; credit; appearance; look",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89052,
+      "kanji": "設ける",
+      "kana": "もうける",
+      "gloss": "to prepare; to provide; to set up; to establish; to organize; to lay down (rules); to make (an excuse)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85897,
+      "kanji": "申し入れる",
+      "kana": "もうしいれる",
+      "gloss": "to propose; to suggest",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123437,
+      "kanji": "申し込み",
+      "kana": "もうしこみ",
+      "gloss": "application; entry; request; subscription; offer; proposal; overture; challenge",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85883,
+      "kanji": "申出",
+      "kana": "もうしで",
+      "gloss": "proposal; request; claim; report; notice; offer",
+      "card_type": "vocab"
+    }
+  ]
+}

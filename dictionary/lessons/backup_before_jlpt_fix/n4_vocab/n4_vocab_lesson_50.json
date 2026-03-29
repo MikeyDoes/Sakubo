@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 278: 異, 如, 小鳥...",
+  "lesson_number": 278,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 203499,
+      "kanji": "異",
+      "kana": "こと",
+      "gloss": "difference (from one another); different thing; other; unusual; extraordinary",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 250223,
+      "kanji": "如",
+      "kana": "こと",
+      "gloss": "like; similar to; same as",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83943,
+      "kanji": "小鳥",
+      "kana": "ことり",
+      "gloss": "small bird; little bird",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37098,
+      "kanji": "この間",
+      "kana": "このあいだ",
+      "gloss": "the other day; lately; recently; during this period; meanwhile; in the meantime",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37103,
+      "kanji": "この頃",
+      "kana": "このごろ",
+      "gloss": "these days; nowadays; now; at present; recently; lately",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76857,
+      "kanji": "細かい",
+      "kana": "こまかい",
+      "gloss": "small; fine; minute; minor; trivial; sensitive; attentive; careful; frugal; stingy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86809,
+      "kanji": "塵",
+      "kana": "ごみ",
+      "gloss": "rubbish; trash; garbage; refuse",
+      "card_type": "vocab"
+    }
+  ]
+}

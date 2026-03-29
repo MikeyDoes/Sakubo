@@ -1,0 +1,44 @@
+{
+  "title": "Lesson 23: (Kana) - Lesson 23: (Katakana) \"ア, イ, ウ, エ, オ\"",
+  "lesson_type": "kana",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Welcome to Katakana",
+      "body": "Katakana is the second Japanese syllabary. Every katakana character has the same sound as its hiragana counterpart:\n\nア = あ (a), イ = い (i), ウ = う (u)\n\nKatakana is used for:\n• Foreign loanwords (コーヒー, coffee)\n• Onomatopoeia and sound effects\n• Emphasis (similar to italics)\n• Scientific and technical terms\n\nThe characters look more angular compared to hiragana's flowing curves."
+    }
+  ],
+  "items": [
+    {
+      "entry_id": 325181,
+      "kana": "ア",
+      "gloss": "a",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325182,
+      "kana": "イ",
+      "gloss": "i",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325183,
+      "kana": "ウ",
+      "gloss": "u",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325184,
+      "kana": "エ",
+      "gloss": "e",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325185,
+      "kana": "オ",
+      "gloss": "o",
+      "card_type": "kana"
+    }
+  ],
+  "lesson_number": 23
+}

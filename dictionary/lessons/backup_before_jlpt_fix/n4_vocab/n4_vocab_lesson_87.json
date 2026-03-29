@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 315: 電灯, 電報, 展覧会...",
+  "lesson_number": 315,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 96664,
+      "kanji": "電灯",
+      "kana": "でんとう",
+      "gloss": "electric light",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96678,
+      "kanji": "電報",
+      "kana": "でんぽう",
+      "gloss": "telegram",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96297,
+      "kanji": "展覧会",
+      "kana": "てんらんかい",
+      "gloss": "exhibition",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96921,
+      "kanji": "都",
+      "kana": "みやこ",
+      "gloss": "capital (esp. Kyoto, Japan's former capital); seat of government; capital (of music, fashion, etc.); city (e.g. of light); location of the Imperial Palace",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 125997,
+      "kanji": "都",
+      "kana": "と",
+      "gloss": "Metropolis (of Tokyo); (Tokyo) Metropolitan District; metropolitan prefecture; counter for cities and towns; capital",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98093,
+      "kanji": "道具",
+      "kana": "どうぐ",
+      "gloss": "tool; implement; instrument; utensil; apparatus; device; means; furniture",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97563,
+      "kanji": "到頭",
+      "kana": "とうとう",
+      "gloss": "finally; at last; ultimately; in the end",
+      "card_type": "vocab"
+    }
+  ]
+}

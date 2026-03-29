@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1106: 染める, 逸らす, 反り...",
+  "lesson_number": 1106,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 89766,
+      "kanji": "染める",
+      "kana": "そめる",
+      "gloss": "to dye; to colour; to color",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60055,
+      "kanji": "逸らす",
+      "kana": "そらす",
+      "gloss": "to turn away (one's eyes, face, etc.); to avert; to divert (e.g. one's attention); to evade (e.g. a question); to change (e.g. the subject); to displease; to annoy; to offend; to upset; to miss (the target, ball, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101605,
+      "kanji": "反り",
+      "kana": "そり",
+      "gloss": "warp; curvature; curve; arch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 256763,
+      "kanji": "反り",
+      "kana": "かえり",
+      "gloss": "turning over; flipping over; reply; response; marks written alongside characters in a classical Chinese text to indicate their ordering when read in Japanese; lapel",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91793,
+      "kanji": "其れでは",
+      "kana": "それじゃ",
+      "gloss": "well then ...; in that situation; in which case",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91804,
+      "kanji": "其れ故",
+      "kana": "それゆえ",
+      "gloss": "therefore; for that reason; so; because of that",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91806,
+      "kanji": "揃い",
+      "kana": "そろい",
+      "gloss": "set; suit; uniform collection; matching items; entirely; all; every one; nothing but",
+      "card_type": "vocab"
+    }
+  ]
+}

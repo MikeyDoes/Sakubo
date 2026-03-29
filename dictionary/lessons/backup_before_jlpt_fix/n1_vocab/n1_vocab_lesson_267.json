@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1127: 知的, 著, 着...",
+  "lesson_number": 1127,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 93705,
+      "kanji": "知的",
+      "kana": "ちてき",
+      "gloss": "intellectual",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 165990,
+      "kanji": "著",
+      "kana": "ちょ",
+      "gloss": "work; book; (a book) by; obvious; striking",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121163,
+      "kanji": "着",
+      "kana": "ちゃく",
+      "gloss": "counter for suits of clothing; arriving at ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 183755,
+      "kanji": "着",
+      "kana": "ぎ",
+      "gloss": "clothes; outfit; uniform",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94027,
+      "kanji": "着手",
+      "kana": "ちゃくしゅ",
+      "gloss": "to start work (on); to undertake; to start committing a crime; embarkation; launch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94030,
+      "kanji": "着色",
+      "kana": "ちゃくしょく",
+      "gloss": "colouring; coloring; colorant",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94034,
+      "kanji": "着席",
+      "kana": "ちゃくせき",
+      "gloss": "taking a seat; sitting down (in one's seat)",
+      "card_type": "vocab"
+    }
+  ]
+}

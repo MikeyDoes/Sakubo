@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 190: 西, 日曜日, 荷物...",
+  "lesson_number": 190,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 293216,
+      "kanji": "西",
+      "kana": "シャー",
+      "gloss": "west wind tile; winning hand with a pung (or kong) of west wind tiles",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99557,
+      "kanji": "日曜日",
+      "kana": "にちようび",
+      "gloss": "Sunday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63853,
+      "kanji": "荷物",
+      "kana": "にもつ",
+      "gloss": "luggage; baggage; package; burden; payload (of a packet, cell, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95723,
+      "kanji": "庭",
+      "kana": "にわ",
+      "gloss": "garden; yard; courtyard; field (of action); area",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93139,
+      "kanji": "脱ぐ",
+      "kana": "ぬぐ",
+      "gloss": "to take off (clothes, shoes, etc.); to undress",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62297,
+      "kanji": "温い",
+      "kana": "ぬるい",
+      "gloss": "lukewarm; tepid; lenient; slow; stupid",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99905,
+      "kanji": "猫",
+      "kana": "ねこ",
+      "gloss": "cat (esp. the domestic cat, Felis catus); shamisen; geisha; wheelbarrow; clay bed-warmer; bottom; submissive partner of a homosexual relationship",
+      "card_type": "vocab"
+    }
+  ]
+}

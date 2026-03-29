@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 721: 上下, 障子, 商社...",
+  "lesson_number": 721,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 124041,
+      "kanji": "上下",
+      "kana": "しょうか",
+      "gloss": "top and bottom; up and down; high and low; above and below; upper and lower ends; upper and lower classes; ruler and ruled; the government and the people",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84454,
+      "kanji": "障子",
+      "kana": "しょうじ",
+      "gloss": "shoji (paper sliding door)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83757,
+      "kanji": "商社",
+      "kana": "しょうしゃ",
+      "gloss": "trading company",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84890,
+      "kanji": "乗車",
+      "kana": "じょうしゃ",
+      "gloss": "boarding (a train, bus, etc.); getting into (e.g. a taxi)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84637,
+      "kanji": "上旬",
+      "kana": "じょうじゅん",
+      "gloss": "first 10 days of month",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87994,
+      "kanji": "生ずる",
+      "kana": "しょうずる",
+      "gloss": "to produce; to yield; to cause; to result from; to arise; to be generated",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83925,
+      "kanji": "小数",
+      "kana": "しょうすう",
+      "gloss": "fraction (part of); decimal fraction",
+      "card_type": "vocab"
+    }
+  ]
+}

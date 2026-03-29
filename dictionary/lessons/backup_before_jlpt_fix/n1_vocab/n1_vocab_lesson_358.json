@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1218: 日向, 日向, 非難...",
+  "lesson_number": 1218,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 99460,
+      "kanji": "日向",
+      "kana": "ひなた",
+      "gloss": "sunny place; in the sun",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 309704,
+      "kanji": "日向",
+      "kana": "ひゅうが",
+      "gloss": "Hyūga (former province located in present-day Miyazaki Prefecture); Hyūga (city)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102031,
+      "kanji": "非難",
+      "kana": "ひなん",
+      "gloss": "criticism; blame; censure; attack; reproach",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102193,
+      "kanji": "避難",
+      "kana": "ひなん",
+      "gloss": "taking refuge; finding shelter; evacuation; escape; seeking safe haven",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99434,
+      "kanji": "日の丸",
+      "kana": "ひのまる",
+      "gloss": "outline of the Sun (esp. represented as a red circle); the Japanese flag",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63623,
+      "kanji": "火花",
+      "kana": "ひばな",
+      "gloss": "spark",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122538,
+      "kanji": "日々",
+      "kana": "ひび",
+      "gloss": "every day; daily; day after day; days (e.g. good old days)",
+      "card_type": "vocab"
+    }
+  ]
+}

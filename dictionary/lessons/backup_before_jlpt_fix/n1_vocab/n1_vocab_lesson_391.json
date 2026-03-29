@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1251: 枚, 埋蔵, 舞う...",
+  "lesson_number": 1251,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 240103,
+      "kanji": "枚",
+      "kana": "びら",
+      "gloss": "bill; handbill; flier; flyer; leaflet; poster; placard",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107345,
+      "kanji": "埋蔵",
+      "kana": "まいぞう",
+      "gloss": "burying in the ground; having underground deposits",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104077,
+      "kanji": "舞う",
+      "kana": "まう",
+      "gloss": "to dance (orig. a whirling dance); to flutter about; to revolve",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86032,
+      "kanji": "真上",
+      "kana": "まうえ",
+      "gloss": "just above; right overhead",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123020,
+      "kanji": "前売り",
+      "kana": "まえうり",
+      "gloss": "advance sale; booking",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90083,
+      "kanji": "前置き",
+      "kana": "まえおき",
+      "gloss": "preface; introduction; preamble",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123028,
+      "kanji": "前もって",
+      "kana": "まえもって",
+      "gloss": "in advance; beforehand; previously",
+      "card_type": "vocab"
+    }
+  ]
+}

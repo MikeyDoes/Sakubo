@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 125: お皿, 伯父さん, 教える...",
+  "lesson_number": 125,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 77454,
+      "kanji": "お皿",
+      "kana": "おさら",
+      "gloss": "plate; dish",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 208273,
+      "kanji": "伯父さん",
+      "kana": "おじさん",
+      "gloss": "uncle; old man; mister; manybar goatfish (Parupeneus multifasciatus)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69253,
+      "kanji": "教える",
+      "kana": "おしえる",
+      "gloss": "to teach; to instruct; to tell; to inform; to preach",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61931,
+      "kanji": "押す",
+      "kana": "おす",
+      "gloss": "to push; to press; to apply pressure from above; to press down; to stamp (i.e. a passport); to apply a seal; to affix (e.g. gold leaf); to press (someone for something); to urge; to compel; to influence; to overwhelm; to overpower; to repress; to push (events along); to advance (a plan); to do in spite of ...; to do even though ...; to force; to make sure; to be pressed for time; to advance troops; to attack; (of light) to be diffused across an entire surface",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93885,
+      "kanji": "遅い",
+      "kana": "おそい",
+      "gloss": "slow; time-consuming; sluggish; late (in the day); towards the end (of the day or night); until a time far into the day or night; later (than expected or usual); late; behind schedule; behind time; tardy; overdue; unpunctual; too late; having missed the boat; dull; stupid",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36651,
+      "kanji": "お茶",
+      "kana": "おちゃ",
+      "gloss": "tea (usu. green); tea break (at work); tea ceremony",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36550,
+      "kanji": "お手洗い",
+      "kana": "おてあらい",
+      "gloss": "toilet; restroom; lavatory; bathroom",
+      "card_type": "vocab"
+    }
+  ]
+}

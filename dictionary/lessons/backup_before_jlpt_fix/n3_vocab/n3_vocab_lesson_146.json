@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 495: 前進, 全体, 選択...",
+  "lesson_number": 495,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 90053,
+      "kanji": "前進",
+      "kana": "ぜんしん",
+      "gloss": "advance; moving forward; progress",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90323,
+      "kanji": "全体",
+      "kana": "ぜんたい",
+      "gloss": "whole; entirety; whatever (is the matter)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89932,
+      "kanji": "選択",
+      "kana": "せんたく",
+      "gloss": "selection; choice; option",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84411,
+      "kanji": "象",
+      "kana": "しょう",
+      "gloss": "form; shape; figure; appearance; phenomenon",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84413,
+      "kanji": "象",
+      "kana": "ぞう",
+      "gloss": "elephant (Elephantidae spp.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91413,
+      "kanji": "騒音",
+      "kana": "そうおん",
+      "gloss": "noise; din",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91423,
+      "kanji": "増加",
+      "kana": "ぞうか",
+      "gloss": "increase; rise; growth; addition; increment",
+      "card_type": "vocab"
+    }
+  ]
+}

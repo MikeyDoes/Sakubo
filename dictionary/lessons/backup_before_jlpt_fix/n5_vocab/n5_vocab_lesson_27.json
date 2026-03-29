@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 127: 男, 男, 男の子...",
+  "lesson_number": 127,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 271286,
+      "kanji": "男",
+      "kana": "なん",
+      "gloss": "son",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 307636,
+      "kanji": "男",
+      "kana": "だん",
+      "gloss": "son; baron; man; male",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93614,
+      "kanji": "男の子",
+      "kana": "おとこのこ",
+      "gloss": "boy; son; baby boy; young man",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114847,
+      "kanji": "一昨日",
+      "kana": "おととい",
+      "gloss": "day before yesterday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114850,
+      "kanji": "一昨年",
+      "kana": "おととし",
+      "gloss": "year before last",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92845,
+      "kanji": "大人",
+      "kana": "おとな",
+      "gloss": "adult; grown-up",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 147023,
+      "kanji": "大人",
+      "kana": "たいじん",
+      "gloss": "person of virtue; great person; magnanimous person; giant; adult; exalted person",
+      "card_type": "vocab"
+    }
+  ]
+}

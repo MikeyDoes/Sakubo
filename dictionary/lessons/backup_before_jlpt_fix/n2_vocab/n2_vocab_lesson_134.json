@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 750: 楕円, 高める, 耕す...",
+  "lesson_number": 750,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 92188,
+      "kanji": "楕円",
+      "kana": "だえん",
+      "gloss": "ellipse",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75306,
+      "kanji": "高める",
+      "kana": "たかめる",
+      "gloss": "to raise; to lift; to boost; to enhance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75012,
+      "kanji": "耕す",
+      "kana": "たがやす",
+      "gloss": "to till; to plow; to plough; to cultivate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93015,
+      "kanji": "滝",
+      "kana": "たき",
+      "gloss": "waterfall; rapids",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120943,
+      "kanji": "炊く",
+      "kana": "たく",
+      "gloss": "to cook (grains, e.g. rice); to boil; to simmer; to stew; to seethe",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84239,
+      "kanji": "焚く",
+      "kana": "やく",
+      "gloss": "to burn; to roast; to broil; to grill; to bake; to toast; to barbecue; to heat; to heat up; to make (charcoal, pottery, bricks, etc.); to fire; to tan (i.e. suntan); to print (a photo); to burn (an optical disc); to be jealous of; to be envious of; to envy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120944,
+      "kanji": "焚く",
+      "kana": "たく",
+      "gloss": "to burn; to kindle; to light (a fire); to make (a fire); to heat (a bath); to light (a stove); to stoke (a boiler); to use (a camera flash)",
+      "card_type": "vocab"
+    }
+  ]
+}

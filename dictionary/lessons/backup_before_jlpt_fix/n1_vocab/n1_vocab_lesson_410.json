@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1270: 名産, 名称, 命中...",
+  "lesson_number": 1270,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 108194,
+      "kanji": "名産",
+      "kana": "めいさん",
+      "gloss": "noted product; local specialty",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108208,
+      "kanji": "名称",
+      "kana": "めいしょう",
+      "gloss": "name; title",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108266,
+      "kanji": "命中",
+      "kana": "めいちゅう",
+      "gloss": "(direct) hit; hitting the mark",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108237,
+      "kanji": "名簿",
+      "kana": "めいぼ",
+      "gloss": "register of names; list of names; roll; register; roster",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 257534,
+      "kanji": "名簿",
+      "kana": "みょうぶ",
+      "gloss": "proof of identity (for nobles, doctors, etc.) (Heian period)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108243,
+      "kanji": "名誉",
+      "kana": "めいよ",
+      "gloss": "honor; honour; credit; prestige",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108330,
+      "kanji": "明瞭",
+      "kana": "めいりょう",
+      "gloss": "clear; plain; distinct; obvious; evident; articulate",
+      "card_type": "vocab"
+    }
+  ]
+}

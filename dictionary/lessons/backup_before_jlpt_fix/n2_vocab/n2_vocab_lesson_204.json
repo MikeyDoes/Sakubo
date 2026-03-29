@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 820: 並行, 平日, 兵隊...",
+  "lesson_number": 820,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 105298,
+      "kanji": "並行",
+      "kana": "へいこう",
+      "gloss": "going side-by-side; going abreast; running concurrently; occurring at the same time; keeping pace with",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105201,
+      "kanji": "平日",
+      "kana": "へいじつ",
+      "gloss": "weekday; ordinary days (i.e. non-holiday); kanji radical 73",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105079,
+      "kanji": "兵隊",
+      "kana": "へいたい",
+      "gloss": "soldier; sailor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105222,
+      "kanji": "平凡",
+      "kana": "へいぼん",
+      "gloss": "ordinary; common; commonplace; mediocre; unremarkable; undistinguished; uneventful",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105234,
+      "kanji": "平野",
+      "kana": "へいや",
+      "gloss": "plain; open field",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61721,
+      "kanji": "凹む",
+      "kana": "へこむ",
+      "gloss": "to be dented; to be indented; to yield; to give; to sink; to collapse; to cave in; to be beaten; to be overwhelmed; to give in; to give up; to be disheartened; to feel down; to feel depressed; to suffer a loss; to lose",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70561,
+      "kanji": "凹む",
+      "kana": "くぼむ",
+      "gloss": "to cave in; to become depressed; to sink",
+      "card_type": "vocab"
+    }
+  ]
+}

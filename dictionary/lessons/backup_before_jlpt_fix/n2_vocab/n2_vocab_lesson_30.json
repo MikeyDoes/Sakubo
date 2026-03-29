@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 646: 回数, 回数券, 改正...",
+  "lesson_number": 646,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 64377,
+      "kanji": "回数",
+      "kana": "かいすう",
+      "gloss": "number of times; frequency; count",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64378,
+      "kanji": "回数券",
+      "kana": "かいすうけん",
+      "gloss": "book of tickets",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64560,
+      "kanji": "改正",
+      "kana": "かいせい",
+      "gloss": "revision; amendment; alteration",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64450,
+      "kanji": "快晴",
+      "kana": "かいせい",
+      "gloss": "clear weather; cloudless weather; good weather",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64322,
+      "kanji": "解説",
+      "kana": "かいせつ",
+      "gloss": "explanation; commentary; exposition; elucidation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64567,
+      "kanji": "改造",
+      "kana": "かいぞう",
+      "gloss": "remodeling; remodelling; restructuring; reconstruction; reshuffling (e.g. cabinet); modding",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64832,
+      "kanji": "開通",
+      "kana": "かいつう",
+      "gloss": "opening (of a new road, railway, etc.); going into operation (e.g. telephone communication); beginning services; reopening (e.g. a road to traffic); resumption of services",
+      "card_type": "vocab"
+    }
+  ]
+}

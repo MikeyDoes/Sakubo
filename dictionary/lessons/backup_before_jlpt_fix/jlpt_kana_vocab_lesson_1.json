@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 1: あの, アパート, あれ...",
+  "lesson_number": 1307,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 36247,
+      "kana": "あの",
+      "gloss": "say; well; um; er",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 39233,
+      "kana": "アパート",
+      "gloss": "apartment building; apartment block; apartment house; apartment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 313031,
+      "kana": "あれ",
+      "gloss": "huh?; eh?; what?; oh; hey!; look!; listen!; help!",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 282148,
+      "kana": "いい",
+      "gloss": "good; excellent; fine; nice; pleasant; agreeable; sufficient; enough; ready; prepared; profitable (deal, business offer, etc.); beneficial; OK; all right; no problem",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326334,
+      "kana": "いる",
+      "gloss": "to be (of animate objects); to exist; to stay; to be ...-ing; to have been ...-ing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36352,
+      "kana": "ええ",
+      "gloss": "yes; that is correct; right; um; errr; huh?; grrr; gah; Must I?; good",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 41122,
+      "kana": "エレベーター",
+      "gloss": "elevator; lift; elevator (aviation)",
+      "card_type": "vocab"
+    }
+  ]
+}

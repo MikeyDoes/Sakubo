@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 829: 混ぜる, 跨ぐ, 待合室...",
+  "lesson_number": 829,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 76207,
+      "kanji": "混ぜる",
+      "kana": "まぜる",
+      "gloss": "to mix; to stir; to blend",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73353,
+      "kanji": "跨ぐ",
+      "kana": "またぐ",
+      "gloss": "to step over; to step across; to stride over; to stride across; to cross; to stretch over; to span; to bridge; to saddle; to straddle",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92394,
+      "kanji": "待合室",
+      "kana": "まちあいしつ",
+      "gloss": "waiting room",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92375,
+      "kanji": "待ち合わせる",
+      "kana": "まちあわせる",
+      "gloss": "to rendezvous; to meet at a prearranged place and time; to arrange to meet",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65037,
+      "kanji": "街角",
+      "kana": "まちかど",
+      "gloss": "street corner",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85929,
+      "kanji": "真っ暗",
+      "kana": "まっくら",
+      "gloss": "total darkness; pitch dark; bleak future; poor prospects",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123100,
+      "kanji": "真っ黒",
+      "kana": "まっくろ",
+      "gloss": "pitch black",
+      "card_type": "vocab"
+    }
+  ]
+}

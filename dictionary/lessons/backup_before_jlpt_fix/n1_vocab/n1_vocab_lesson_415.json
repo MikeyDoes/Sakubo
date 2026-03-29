@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1275: 模型, 模索, 若し...",
+  "lesson_number": 1275,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 108471,
+      "kanji": "模型",
+      "kana": "もけい",
+      "gloss": "model; dummy; maquette",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108472,
+      "kanji": "模索",
+      "kana": "もさく",
+      "gloss": "groping (for); fumbling around (for); searching (for an answer, solution, etc.); trying to find",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99807,
+      "kanji": "若し",
+      "kana": "ごとし",
+      "gloss": "like; as if; the same as",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 38456,
+      "kanji": "若しかして",
+      "kana": "もしかして",
+      "gloss": "perhaps; possibly; maybe; by any chance; if I'm not mistaken; if; in case; in the event that",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80717,
+      "kanji": "若しくは",
+      "kana": "もしくは",
+      "gloss": "or; otherwise",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114249,
+      "kanji": "齎らす",
+      "kana": "もたらす",
+      "gloss": "to bring; to take; to bring about",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124873,
+      "kanji": "持ち",
+      "kana": "もち",
+      "gloss": "having; holding; possessing; owning; using; holder; owner; user; wear; durability; life; charge; expense; draw (in go, poetry contest, etc.); tie",
+      "card_type": "vocab"
+    }
+  ]
+}

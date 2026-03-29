@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1208: 半端, 反発, 反乱...",
+  "lesson_number": 1208,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 101548,
+      "kanji": "半端",
+      "kana": "はんぱ",
+      "gloss": "remnant; fragment; incomplete set; incompleteness; fraction; odd sum; halfway; half-hearted; perfunctory; irresponsible; foolish",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101693,
+      "kanji": "反発",
+      "kana": "はんぱつ",
+      "gloss": "opposition; rebellion; revolt; resistance; backlash; refusal; rebounding; recoiling; repulsion; rally (e.g. in stock prices); recovery",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101720,
+      "kanji": "反乱",
+      "kana": "はんらん",
+      "gloss": "insurrection; mutiny; rebellion; revolt; uprising",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101767,
+      "kanji": "氾濫",
+      "kana": "はんらん",
+      "gloss": "overflowing; flood; inundation; deluge; oversupply; plethora",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114670,
+      "kanji": "黴菌",
+      "kana": "ばいきん",
+      "gloss": "germ; germs; bacteria; mold; mould; something harmful; vermin",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100813,
+      "kanji": "賠償",
+      "kana": "ばいしょう",
+      "gloss": "compensation; reparations; indemnity; damages",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100696,
+      "kanji": "倍率",
+      "kana": "ばいりつ",
+      "gloss": "magnification; leverage; amplification; scaling factor; scale factor; competitiveness rating (e.g. for university entrance); applicant-to-acceptance ratio",
+      "card_type": "vocab"
+    }
+  ]
+}

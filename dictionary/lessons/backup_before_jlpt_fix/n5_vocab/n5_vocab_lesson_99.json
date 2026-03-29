@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 199: 春, 貼る, 晴れ...",
+  "lesson_number": 199,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 82953,
+      "kanji": "春",
+      "kana": "はる",
+      "gloss": "spring; springtime; New Year; prime (of life); height (of one's prosperity); heyday; adolescence; puberty; sexuality; sexual desire",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94626,
+      "kanji": "貼る",
+      "kana": "はる",
+      "gloss": "to stick; to paste; to affix; to stretch; to spread; to strain; to tighten; to put up (tent); to form (e.g. ice on a pond); to fill; to swell; to stick out; to put; to slap; to post (a link, etc. online); to be expensive; to keep a watch on; to be on the lookout; to become one tile away from completion; to span; to generate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87727,
+      "kanji": "晴れ",
+      "kana": "はれ",
+      "gloss": "clear weather; fine weather; formal; ceremonial; public; cleared of suspicion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87730,
+      "kanji": "晴れる",
+      "kana": "はれる",
+      "gloss": "to clear up; to clear away; to be sunny; to stop raining; to refresh (e.g. spirits); to be cleared (e.g. of a suspicion); to be dispelled; to be banished",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101455,
+      "kanji": "半",
+      "kana": "はん",
+      "gloss": "half; semi-; half-past; odd number; unit of land area (595.8 m^2)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101858,
+      "kanji": "晩",
+      "kana": "ばん",
+      "gloss": "evening; night; dinner; evening meal; counter for nights",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101880,
+      "kanji": "番号",
+      "kana": "ばんごう",
+      "gloss": "number; series of digits",
+      "card_type": "vocab"
+    }
+  ]
+}

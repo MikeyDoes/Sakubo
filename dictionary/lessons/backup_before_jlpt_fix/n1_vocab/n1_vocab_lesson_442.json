@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1302: 碌に, 露骨, 論議...",
+  "lesson_number": 1302,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 113581,
+      "kanji": "碌に",
+      "kana": "ろくに",
+      "gloss": "(not) well; (not) enough; (im)properly; (in)sufficiently; (un)satisfactorily",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112010,
+      "kanji": "露骨",
+      "kana": "ろこつ",
+      "gloss": "open; unconcealed; undisguised; blatant; plain; frank; broad; lewd; indecent; crude",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112249,
+      "kanji": "論議",
+      "kana": "ろんぎ",
+      "gloss": "discussion; argument; debate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112271,
+      "kanji": "論理",
+      "kana": "ろんり",
+      "gloss": "logic; logical",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98845,
+      "kanji": "和",
+      "kana": "なぎ",
+      "gloss": "calm (at sea); lull",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112282,
+      "kanji": "和",
+      "kana": "わ",
+      "gloss": "sum; harmony; peace; Japan; Japanese-style",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 176289,
+      "kanji": "和",
+      "kana": "やわ",
+      "gloss": "soft; fragile; weak; poorly built; insubstantial",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 15: ガソリン, ガソリンスタンド, ケーキ...",
+  "lesson_number": 1321,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 42471,
+      "kana": "ガソリン",
+      "gloss": "gasoline; petrol",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 42472,
+      "kana": "ガソリンスタンド",
+      "gloss": "gas station; petrol station",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 43545,
+      "kana": "ケーキ",
+      "gloss": "cake",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37017,
+      "kana": "けれど",
+      "gloss": "but; however; although",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 242105,
+      "kana": "こと",
+      "gloss": "particle indicating a command; particle indicating mild enthusiasm; particle indicating a gentle interrogative; particle used to soften a judgment or conclusion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 44143,
+      "kana": "コンサート",
+      "gloss": "concert",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 44320,
+      "kana": "コンピュータ",
+      "gloss": "computer",
+      "card_type": "vocab"
+    }
+  ]
+}

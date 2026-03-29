@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1211: 番目, 非, 費...",
+  "lesson_number": 1211,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 297575,
+      "kanji": "番目",
+      "kana": "つがいめ",
+      "gloss": "joint; hinge",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102198,
+      "kanji": "非",
+      "kana": "ひ",
+      "gloss": "fault; error; mistake; going poorly; being disadvantageous; being unfavorable; un-; non-; an-",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102186,
+      "kanji": "費",
+      "kana": "ひ",
+      "gloss": "cost; expense",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 208788,
+      "kanji": "費",
+      "kana": "あたい",
+      "gloss": "Atai (post-Taika hereditary title often given to regional administrators)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 38047,
+      "kanji": "延いては",
+      "kana": "ひいては",
+      "gloss": "not only ... but also; in addition to; consequently",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122311,
+      "kanji": "控室",
+      "kana": "ひかえしつ",
+      "gloss": "waiting room; anteroom; antechamber; green room",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74780,
+      "kanji": "控える",
+      "kana": "ひかえる",
+      "gloss": "to be temperate in; to refrain; to abstain; to hold back; to restrain oneself from excessive ...; to make notes; to jot down (e.g. phone number); to be in preparation for; to be in waiting for; to be soon; to be in the offing; to be in a close relationship (e.g. as a backer, etc.)",
+      "card_type": "vocab"
+    }
+  ]
+}

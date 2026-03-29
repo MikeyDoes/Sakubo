@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 476: 書斎, 女子, 女子...",
+  "lesson_number": 476,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 83367,
+      "kanji": "書斎",
+      "kana": "しょさい",
+      "gloss": "study; library; den; home office; reading room",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83507,
+      "kanji": "女子",
+      "kana": "じょし",
+      "gloss": "woman; girl",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 226155,
+      "kanji": "女子",
+      "kana": "めこ",
+      "gloss": "vagina; girl",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83446,
+      "kanji": "助手",
+      "kana": "じょしゅ",
+      "gloss": "assistant; helper; assistant (to a professor)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120540,
+      "kanji": "徐々に",
+      "kana": "じょじょに",
+      "gloss": "gradually; steadily; slowly; little by little; step by step; by degrees",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83292,
+      "kanji": "署名",
+      "kana": "しょめい",
+      "gloss": "signature",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83380,
+      "kanji": "書物",
+      "kana": "しょもつ",
+      "gloss": "book; volume",
+      "card_type": "vocab"
+    }
+  ]
+}

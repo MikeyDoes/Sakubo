@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1024: 差し引く, 些事, 授ける...",
+  "lesson_number": 1024,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 76307,
+      "kanji": "差し引く",
+      "kana": "さしひく",
+      "gloss": "to deduct; to take away; to dock; to make allowances for something; to bear something in mind; to ebb and flow",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120075,
+      "kanji": "些事",
+      "kana": "さじ",
+      "gloss": "something small; something petty; trifle",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81638,
+      "kanji": "授ける",
+      "kana": "さずける",
+      "gloss": "to grant; to give; to confer; to award; to teach; to instruct; to impart (knowledge)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112818,
+      "kanji": "嘸",
+      "kana": "さぞ",
+      "gloss": "surely; certainly; no doubt; indeed",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95634,
+      "kanji": "定まる",
+      "kana": "さだまる",
+      "gloss": "to become settled; to be fixed",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95635,
+      "kanji": "定める",
+      "kana": "さだめる",
+      "gloss": "to decide; to determine; to establish; to lay down; to prescribe; to provide; to stipulate; to bring peace (to); to make peaceful",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77222,
+      "kanji": "錯覚",
+      "kana": "さっかく",
+      "gloss": "optical illusion; hallucination; misapprehension; delusion",
+      "card_type": "vocab"
+    }
+  ]
+}

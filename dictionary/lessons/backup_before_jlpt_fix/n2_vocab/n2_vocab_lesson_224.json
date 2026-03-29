@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 840: 目茶苦茶, 目出度い, 目眩...",
+  "lesson_number": 840,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 108385,
+      "kanji": "目茶苦茶",
+      "kana": "めちゃくちゃ",
+      "gloss": "absurd; unreasonable; nonsensical; preposterous; incoherent; extreme; senseless; reckless; wanton; disorderly; chaotic; confused; messy; incredibly; really; so; super",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124233,
+      "kanji": "目出度い",
+      "kana": "めでたい",
+      "gloss": "happy; auspicious; propitious; joyous; naive",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 113515,
+      "kanji": "目眩",
+      "kana": "めまい",
+      "gloss": "dizziness; giddiness; vertigo",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108739,
+      "kanji": "目安",
+      "kana": "めやす",
+      "gloss": "criterion; standard; yardstick; reference; aim; rough estimate; approximation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108409,
+      "kanji": "免税",
+      "kana": "めんぜい",
+      "gloss": "tax exemption; duty exemption",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108445,
+      "kanji": "面積",
+      "kana": "めんせき",
+      "gloss": "square measure; size (e.g. of land); area; surface",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108446,
+      "kanji": "面接",
+      "kana": "めんせつ",
+      "gloss": "interview (e.g. for a job)",
+      "card_type": "vocab"
+    }
+  ]
+}

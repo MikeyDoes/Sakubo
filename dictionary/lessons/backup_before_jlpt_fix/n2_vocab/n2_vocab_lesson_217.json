@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 833: 岬, 惨め, 店屋...",
+  "lesson_number": 833,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 124812,
+      "kanji": "岬",
+      "kana": "みさき",
+      "gloss": "cape (on coast)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77928,
+      "kanji": "惨め",
+      "kana": "みじめ",
+      "gloss": "miserable; wretched; unhappy; sad; pitiable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 160837,
+      "kanji": "店屋",
+      "kana": "みせや",
+      "gloss": "store; shop",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72222,
+      "kanji": "見出し",
+      "kana": "みだし",
+      "gloss": "heading; headline; title; caption; index; headword",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124823,
+      "kanji": "道順",
+      "kana": "みちじゅん",
+      "gloss": "route; way; course; directions",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123271,
+      "kanji": "見付かる",
+      "kana": "みつかる",
+      "gloss": "to be found; to be discovered",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123276,
+      "kanji": "見付ける",
+      "kana": "みつける",
+      "gloss": "to discover; to find (e.g. an error in a book); to come across; to detect; to spot; to locate; to find (e.g. something missing); to find fault; to be used to seeing; to be familiar with",
+      "card_type": "vocab"
+    }
+  ]
+}

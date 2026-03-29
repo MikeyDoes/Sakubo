@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1220: 肥料, 比例, 疲労...",
+  "lesson_number": 1220,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 102152,
+      "kanji": "肥料",
+      "kana": "ひりょう",
+      "gloss": "manure; fertilizer; fertiliser; compost",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102065,
+      "kanji": "比例",
+      "kana": "ひれい",
+      "gloss": "proportion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102073,
+      "kanji": "疲労",
+      "kana": "ひろう",
+      "gloss": "fatigue; weariness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74705,
+      "kanji": "広まる",
+      "kana": "ひろまる",
+      "gloss": "to spread; to be propagated",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103012,
+      "kanji": "貧困",
+      "kana": "ひんこん",
+      "gloss": "poverty; penury; need; destitution; shortage; lack; want",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102982,
+      "kanji": "品質",
+      "kana": "ひんしつ",
+      "gloss": "quality (of a product or a service)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102986,
+      "kanji": "品種",
+      "kana": "ひんしゅ",
+      "gloss": "kind (of goods); brand; (taxonomical) form; breed; cultivar",
+      "card_type": "vocab"
+    }
+  ]
+}

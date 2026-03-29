@@ -1,0 +1,44 @@
+{
+  "title": "Lesson 26: (Kana) - Lesson 26: (Katakana) \"ガ, ギ, グ, ゲ, ゴ\"",
+  "lesson_type": "kana",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Dakuten in Katakana",
+      "body": "Dakuten (゛) works the same way in katakana — the two small marks voice the consonant:\n\nカ → ガ (ka → ga)\nサ → ザ (sa → za)\nタ → ダ (ta → da)\nハ → バ (ha → ba)"
+    }
+  ],
+  "items": [
+    {
+      "entry_id": 325254,
+      "kana": "ガ",
+      "gloss": "ga",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325255,
+      "kana": "ギ",
+      "gloss": "gi",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325256,
+      "kana": "グ",
+      "gloss": "gu",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325257,
+      "kana": "ゲ",
+      "gloss": "ge",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325258,
+      "kana": "ゴ",
+      "gloss": "go",
+      "card_type": "kana"
+    }
+  ],
+  "lesson_number": 26
+}

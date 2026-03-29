@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 161: 白, 白, 白...",
+  "lesson_number": 161,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 100934,
+      "kanji": "白",
+      "kana": "しろ",
+      "gloss": "white; innocence; innocent person; blank space; white go stone; white dragon tile; skewered grilled pig intestine",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 272500,
+      "kanji": "白",
+      "kana": "しら",
+      "gloss": "white; unseasoned; undyed; unaltered; very much; precisely; playing dumb; unfeigned; honest; diligent",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 272501,
+      "kanji": "白",
+      "kana": "はく",
+      "gloss": "white; striped mullet fry (Mugil cephalus); speech; one's lines; white dragon tile; winning hand with a pung (or kong) of white dragon tiles; white person; Caucasian; Belgium",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100935,
+      "kanji": "白い",
+      "kana": "しろい",
+      "gloss": "white",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85809,
+      "kanji": "新聞",
+      "kana": "しんぶん",
+      "gloss": "newspaper",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87161,
+      "kanji": "水曜日",
+      "kana": "すいようび",
+      "gloss": "Wednesday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68220,
+      "kanji": "吸う",
+      "kana": "すう",
+      "gloss": "to smoke; to breathe in; to inhale; to suck; to sip; to slurp; to absorb; to soak up; to kiss",
+      "card_type": "vocab"
+    }
+  ]
+}

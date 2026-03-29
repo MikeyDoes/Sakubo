@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 900: 英雄, 液, 液...",
+  "lesson_number": 900,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 61163,
+      "kanji": "英雄",
+      "kana": "えいゆう",
+      "gloss": "hero; heroine; great person; Eroica Symphony (Beethoven, 1804); Heroic Polonaise (Chopin)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61193,
+      "kanji": "液",
+      "kana": "えき",
+      "gloss": "liquid; fluid",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82297,
+      "kanji": "液",
+      "kana": "しる",
+      "gloss": "juice; sap; soup; broth; (dipping) sauce",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61237,
+      "kanji": "閲覧",
+      "kana": "えつらん",
+      "gloss": "inspection; reading; perusal; browsing (the web)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65185,
+      "kanji": "獲物",
+      "kana": "えもの",
+      "gloss": "prey; catch; kill; game; spoils; trophy; loot; plunder",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118627,
+      "kanji": "襟",
+      "kana": "えり",
+      "gloss": "collar; lapel; neckband; neck; nape of the neck; scruff of the neck",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61331,
+      "kanji": "園",
+      "kana": "えん",
+      "gloss": "garden (esp. man-made); orchard; park; plantation; place; location",
+      "card_type": "vocab"
+    }
+  ]
+}

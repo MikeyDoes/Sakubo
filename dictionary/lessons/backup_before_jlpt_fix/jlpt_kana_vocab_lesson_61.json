@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 61: ミリ, メーター, めっきり...",
+  "lesson_number": 1367,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 55287,
+      "kana": "ミリ",
+      "gloss": "milli-; 10^-3; millimetre; millimeter",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 55384,
+      "kana": "メーター",
+      "gloss": "meter; gauge; metre (i.e. 100 cm); animator",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 38448,
+      "kana": "めっきり",
+      "gloss": "remarkably; noticeably; considerably; appreciably",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 55589,
+      "kana": "メニュー",
+      "gloss": "menu; schedule; program; programme; (computer) menu",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 55677,
+      "kana": "モーター",
+      "gloss": "motor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 55749,
+      "kana": "モダン",
+      "gloss": "modern",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 55786,
+      "kana": "モデル",
+      "gloss": "model; dummy; mock-up; model (profession); fashion model; model (of a car, etc.); make; version; example; template; standard; model (in model theory); theory; person a fictional character was modeled on; inspiration",
+      "card_type": "vocab"
+    }
+  ]
+}

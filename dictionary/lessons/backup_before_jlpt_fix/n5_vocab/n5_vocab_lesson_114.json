@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 214: 三日, 三つ, 緑...",
+  "lesson_number": 214,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 77670,
+      "kanji": "三日",
+      "kana": "みっか",
+      "gloss": "third day of the month; three days",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77462,
+      "kanji": "三つ",
+      "kana": "みっつ",
+      "gloss": "three; three years of age",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111390,
+      "kanji": "緑",
+      "kana": "みどり",
+      "gloss": "green; greenery (esp. fresh verdure)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64738,
+      "kanji": "皆さん",
+      "kana": "みなさん",
+      "gloss": "all; everyone; everybody",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98877,
+      "kanji": "南",
+      "kana": "みなみ",
+      "gloss": "south",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 293215,
+      "kanji": "南",
+      "kana": "ナン",
+      "gloss": "south wind tile; winning hand with a pung (or kong) of south wind tiles",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79819,
+      "kanji": "耳",
+      "kana": "みみ",
+      "gloss": "ear; hearing; edge; crust; selvedge (non-fray machined edge of fabrics); selvage",
+      "card_type": "vocab"
+    }
+  ]
+}

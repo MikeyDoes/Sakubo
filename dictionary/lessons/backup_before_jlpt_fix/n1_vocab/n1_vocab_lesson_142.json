@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1002: 国有, 国連, 漕ぐ...",
+  "lesson_number": 1002,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 75762,
+      "kanji": "国有",
+      "kana": "こくゆう",
+      "gloss": "national ownership; state ownership; government ownership",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75766,
+      "kanji": "国連",
+      "kana": "こくれん",
+      "gloss": "United Nations; UN",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91060,
+      "kanji": "漕ぐ",
+      "kana": "こぐ",
+      "gloss": "to row; to scull; to paddle; to pedal (e.g. bicycle); to swing (on a swing); to operate a hand pump; to push through (deep snow, the jungle, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84268,
+      "kanji": "焦げ茶",
+      "kana": "こげちゃ",
+      "gloss": "dark brown; olive brown",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85604,
+      "kanji": "心地",
+      "kana": "ここち",
+      "gloss": "feeling; sensation; mood; sensation of doing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 148098,
+      "kanji": "心地",
+      "kana": "しんじ",
+      "gloss": "padding; lining; foundation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85621,
+      "kanji": "心得",
+      "kana": "こころえ",
+      "gloss": "knowledge; understanding; rules; regulations; guideline; directions; deputy; acting",
+      "card_type": "vocab"
+    }
+  ]
+}

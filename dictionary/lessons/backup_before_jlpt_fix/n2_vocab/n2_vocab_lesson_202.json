@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 818: 噴火, 分解, 文芸...",
+  "lesson_number": 818,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 104798,
+      "kanji": "噴火",
+      "kana": "ふんか",
+      "gloss": "eruption; volcanic eruption",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104646,
+      "kanji": "分解",
+      "kana": "ぶんかい",
+      "gloss": "disassembly; dismantling; disaggregating; analysis; disintegrating; decomposing; degrading; factorization; decomposition; resolution; deblocking",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104906,
+      "kanji": "文芸",
+      "kana": "ぶんげい",
+      "gloss": "literature; the arts; art and literature; liberal arts",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104912,
+      "kanji": "文献",
+      "kana": "ぶんけん",
+      "gloss": "literature; books (reference); document",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104804,
+      "kanji": "噴水",
+      "kana": "ふんすい",
+      "gloss": "water fountain",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104720,
+      "kanji": "分数",
+      "kana": "ぶんすう",
+      "gloss": "fraction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104935,
+      "kanji": "文体",
+      "kana": "ぶんたい",
+      "gloss": "literary style; form of (written) language (e.g. classical, modern)",
+      "card_type": "vocab"
+    }
+  ]
+}

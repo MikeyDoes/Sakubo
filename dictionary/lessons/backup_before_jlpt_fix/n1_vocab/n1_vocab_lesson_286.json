@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1146: 定年, 堤防, 手遅れ...",
+  "lesson_number": 1146,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 95675,
+      "kanji": "定年",
+      "kana": "ていねん",
+      "gloss": "retirement age; years of service in a military rank before eligibility for promotion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95632,
+      "kanji": "堤防",
+      "kana": "ていぼう",
+      "gloss": "bank; weir; embankment; levee",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81273,
+      "kanji": "手遅れ",
+      "kana": "ておくれ",
+      "gloss": "being too late; losing one's final chance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81250,
+      "kanji": "手数",
+      "kana": "てすう",
+      "gloss": "trouble; bother; number of moves (in go, shogi, etc.); number of punches (in boxing)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121414,
+      "kanji": "手掛かり",
+      "kana": "てがかり",
+      "gloss": "clue; lead; key; trail; scent; track; handhold; hold",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81163,
+      "kanji": "手掛ける",
+      "kana": "てがける",
+      "gloss": "to handle; to manage; to deal with; to work with; to have experience with; to rear; to look after",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81187,
+      "kanji": "手軽",
+      "kana": "てがる",
+      "gloss": "easy; simple; informal; offhand; cheap",
+      "card_type": "vocab"
+    }
+  ]
+}

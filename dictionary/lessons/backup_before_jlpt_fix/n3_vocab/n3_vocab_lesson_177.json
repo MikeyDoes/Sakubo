@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 526: 停留所, 敵, 敵...",
+  "lesson_number": 526,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 95600,
+      "kanji": "停留所",
+      "kana": "ていりゅうじょ",
+      "gloss": "stop (bus, tram, etc.); station; stopping place",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115465,
+      "kanji": "敵",
+      "kana": "かたき",
+      "gloss": "rival; opponent; adversary; competitor; enemy (esp. one with which there is longstanding enmity); foe; revenge; spouse",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116670,
+      "kanji": "敵",
+      "kana": "てき",
+      "gloss": "opponent; rival; adversary; menace; danger; threat; enemy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82892,
+      "kanji": "出来事",
+      "kana": "できごと",
+      "gloss": "incident; affair; happening; event",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95901,
+      "kanji": "適する",
+      "kana": "てきする",
+      "gloss": "to fit; to suit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95911,
+      "kanji": "適切",
+      "kana": "てきせつ",
+      "gloss": "appropriate; suitable; fitting; apt; proper; right; pertinent; relevant",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95912,
+      "kanji": "適度",
+      "kana": "てきど",
+      "gloss": "moderate (degree); proper (amount); temperate; suitable",
+      "card_type": "vocab"
+    }
+  ]
+}

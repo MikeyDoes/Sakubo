@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 821: 臍, 巻子, 隔てる...",
+  "lesson_number": 821,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 113776,
+      "kanji": "臍",
+      "kana": "へそ",
+      "gloss": "navel; belly button; protrusion or depression in the middle of an object; center; centre; most important part; main point",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 314209,
+      "kanji": "巻子",
+      "kana": "へそ",
+      "gloss": "bobbin; reel; spool",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65252,
+      "kanji": "隔てる",
+      "kana": "へだてる",
+      "gloss": "to separate (by distance, time, etc.); to isolate; to partition; to divide; to interpose; to have between; to alienate; to estrange",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105484,
+      "kanji": "別荘",
+      "kana": "べっそう",
+      "gloss": "holiday house; vacation home; villa; prison; jail",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122859,
+      "kanji": "別々",
+      "kana": "べつべつ",
+      "gloss": "separate; respective",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71094,
+      "kanji": "経る",
+      "kana": "へる",
+      "gloss": "to pass; to elapse; to go by; to pass through; to go through; to experience; to undergo",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122848,
+      "kanji": "編集",
+      "kana": "へんしゅう",
+      "gloss": "editing; compilation",
+      "card_type": "vocab"
+    }
+  ]
+}

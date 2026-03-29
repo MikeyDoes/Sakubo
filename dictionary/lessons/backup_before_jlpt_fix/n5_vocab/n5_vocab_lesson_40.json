@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 140: 可愛い, 漢字, 木...",
+  "lesson_number": 140,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 115193,
+      "kanji": "可愛い",
+      "kana": "かわいい",
+      "gloss": "cute; adorable; charming; lovely; pretty; dear; precious; darling; pet; innocent; childlike; childish; lovable; dainty; cute little; tiny",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66198,
+      "kanji": "漢字",
+      "kana": "かんじ",
+      "gloss": "kanji; Chinese characters",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108585,
+      "kanji": "木",
+      "kana": "き",
+      "gloss": "tree; shrub; bush; wood; timber",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 206284,
+      "kanji": "木",
+      "kana": "もく",
+      "gloss": "Thursday; wood (first of the five elements)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115067,
+      "kanji": "黄色",
+      "kana": "きいろ",
+      "gloss": "yellow; amber",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62125,
+      "kanji": "黄色い",
+      "kana": "きいろい",
+      "gloss": "yellow; high-pitched (voice); shrill",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84152,
+      "kanji": "消える",
+      "kana": "きえる",
+      "gloss": "to go out; to vanish; to disappear",
+      "card_type": "vocab"
+    }
+  ]
+}

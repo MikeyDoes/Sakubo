@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 604: 床, 床, 床...",
+  "lesson_number": 604,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 84057,
+      "kanji": "床",
+      "kana": "とこ",
+      "gloss": "bed; bedding; sickbed; alcove; riverbed; seedbed; straw \"core\" of a tatami mat; floor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84058,
+      "kanji": "床",
+      "kana": "ゆか",
+      "gloss": "floor; stage (for the narrator and the shamisen player); dining platform built across a river",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 182648,
+      "kanji": "床",
+      "kana": "しょう",
+      "gloss": "counter for beds",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109220,
+      "kanji": "愉快",
+      "kana": "ゆかい",
+      "gloss": "pleasant; delightful; enjoyable; joyful; cheerful; amusing; happy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85098,
+      "kanji": "譲る",
+      "kana": "ゆずる",
+      "gloss": "to hand over; to transfer; to turn over; to assign; to convey; to bequeath; to give up (e.g. one's seat); to give way; to yield; to concede; to give ground; to surrender; to sell; to postpone; to put off; to defer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106559,
+      "kanji": "豊か",
+      "kana": "ゆたか",
+      "gloss": "abundant; wealthy; plentiful; rich; affluent; very; extremely; full of; great",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68796,
+      "kanji": "許す",
+      "kana": "ゆるす",
+      "gloss": "to permit; to allow; to approve; to consent to; to forgive; to pardon; to excuse; to tolerate; to exempt (someone) from; to remit; to release; to let off; to acknowledge; to admit; to trust; to confide in; to let one's guard down; to give up (points in a game, distance in a race, etc.); to yield",
+      "card_type": "vocab"
+    }
+  ]
+}

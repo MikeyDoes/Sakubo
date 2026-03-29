@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 114: 医者, 椅子, 椅子...",
+  "lesson_number": 114,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 59051,
+      "kanji": "医者",
+      "kana": "いしゃ",
+      "gloss": "(medical) doctor; physician",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58701,
+      "kanji": "椅子",
+      "kana": "いす",
+      "gloss": "chair; stool; post; office; position",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112508,
+      "kanji": "椅子",
+      "kana": "いし",
+      "gloss": "traditional square chair with armrests and a torii-shaped back (used by the emperor, etc. during ceremonies)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106684,
+      "kanji": "忙しい",
+      "kana": "いそがしい",
+      "gloss": "busy; occupied; hectic; restless; hurried; fidgety",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 296258,
+      "kanji": "忙しい",
+      "kana": "せわしい",
+      "gloss": "busy; hectic; frantic; restless; hurried; fidgety",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95261,
+      "kanji": "痛い",
+      "kana": "いたい",
+      "gloss": "painful; sore; cringy; embarrassing; exceeding",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59137,
+      "kanji": "一",
+      "kana": "いち",
+      "gloss": "one; best; first; foremost; beginning; start; a (single); one (of many); ace (playing card); bottom string (on a shamisen, etc.)",
+      "card_type": "vocab"
+    }
+  ]
+}

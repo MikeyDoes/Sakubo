@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 830: 真っ青, 真っ先, 真っ白...",
+  "lesson_number": 830,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 123107,
+      "kanji": "真っ青",
+      "kana": "まっさお",
+      "gloss": "deep blue; bright blue; ghastly pale; pallid; white as a sheet",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85947,
+      "kanji": "真っ先",
+      "kana": "まっさき",
+      "gloss": "the head; the foremost; beginning; the very front",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116279,
+      "kanji": "真っ白",
+      "kana": "まっしろ",
+      "gloss": "pure white; blank (e.g. mind, paper)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76822,
+      "kanji": "祭る",
+      "kana": "まつる",
+      "gloss": "to deify; to enshrine; to pray; to worship",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91202,
+      "kanji": "窓口",
+      "kana": "まどぐち",
+      "gloss": "counter; window; teller window; ticket window; contact person; point of contact",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124803,
+      "kanji": "纏まる",
+      "kana": "まとまる",
+      "gloss": "to find resolution; to be settled; to be agreed on; to be completed; to be collected; to be assembled; to be brought together; to be well arranged; to be in order; to be unified; to take shape; to be coherent",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96342,
+      "kanji": "纏める",
+      "kana": "まとめる",
+      "gloss": "to collect; to put (it all) together; to integrate; to consolidate; to unify; to summarize; to aggregate; to bring to a conclusion; to finalize; to settle; to put in order; to establish; to decide",
+      "card_type": "vocab"
+    }
+  ]
+}

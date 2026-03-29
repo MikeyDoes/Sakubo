@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1162: 途上, 綴じる, 途絶える...",
+  "lesson_number": 1162,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 96911,
+      "kanji": "途上",
+      "kana": "とじょう",
+      "gloss": "on the way; en route; in the process of (development, construction, etc.); in the middle of",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95407,
+      "kanji": "綴じる",
+      "kana": "とじる",
+      "gloss": "to bind; to file; to top with egg (e.g. donburi)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96914,
+      "kanji": "途絶える",
+      "kana": "とだえる",
+      "gloss": "to stop; to cease; to come to an end; to cut off",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98170,
+      "kanji": "特許",
+      "kana": "とっきょ",
+      "gloss": "patent; special permission; licence (license); concession; franchise; charter; proprietary",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98179,
+      "kanji": "特権",
+      "kana": "とっけん",
+      "gloss": "privilege; special right",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112715,
+      "kanji": "咄嗟",
+      "kana": "とっさ",
+      "gloss": "moment; instant",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121546,
+      "kanji": "取っ手",
+      "kana": "とって",
+      "gloss": "handle; grip; knob",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 468: 主婦, 主要, 需要...",
+  "lesson_number": 468,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 80929,
+      "kanji": "主婦",
+      "kana": "しゅふ",
+      "gloss": "housewife; mistress (of the house); homemaker",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80943,
+      "kanji": "主要",
+      "kana": "しゅよう",
+      "gloss": "chief; main; principal; major",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81656,
+      "kanji": "需要",
+      "kana": "じゅよう",
+      "gloss": "demand; request",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81422,
+      "kanji": "種類",
+      "kana": "しゅるい",
+      "gloss": "variety; kind; type; category; counter for kinds, species, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83114,
+      "kanji": "順",
+      "kana": "じゅん",
+      "gloss": "order; turn; sorting; obedient; docile; submissive; meek",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82981,
+      "kanji": "瞬間",
+      "kana": "しゅんかん",
+      "gloss": "moment; second; instant",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83136,
+      "kanji": "順調",
+      "kana": "じゅんちょう",
+      "gloss": "favourable; favorable; doing well; OK; all right",
+      "card_type": "vocab"
+    }
+  ]
+}

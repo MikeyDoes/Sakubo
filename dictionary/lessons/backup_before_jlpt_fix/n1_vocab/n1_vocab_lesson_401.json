@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1261: 見苦しい, 見込み, 未婚...",
+  "lesson_number": 1261,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 72189,
+      "kanji": "見苦しい",
+      "kana": "みぐるしい",
+      "gloss": "unsightly; ugly; unseemly; indecent; deplorable; disgraceful; shameful",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123244,
+      "kanji": "見込み",
+      "kana": "みこみ",
+      "gloss": "hope; promise; possibility; chance; probability; likelihood; expectation; anticipation; forecast; estimate; side of a structural member",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107700,
+      "kanji": "未婚",
+      "kana": "みこん",
+      "gloss": "unmarried; not yet married",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107708,
+      "kanji": "未熟",
+      "kana": "みじゅく",
+      "gloss": "unripe; green; inexperienced; immature; unskilled",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102377,
+      "kanji": "微塵",
+      "kana": "みじん",
+      "gloss": "particle; atom; little piece; not at all; not the slightest",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72142,
+      "kanji": "見すぼらしい",
+      "kana": "みすぼらしい",
+      "gloss": "shabby; seedy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72144,
+      "kanji": "見せびらかす",
+      "kana": "みせびらかす",
+      "gloss": "to show off; to flaunt",
+      "card_type": "vocab"
+    }
+  ]
+}

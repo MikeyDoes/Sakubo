@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1283: 病む, 遣り通す, やり遂げる...",
+  "lesson_number": 1283,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 102939,
+      "kanji": "病む",
+      "kana": "やむ",
+      "gloss": "to fall ill; to suffer from (e.g. a disease); to have something wrong with (e.g. an inner organ)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72327,
+      "kanji": "遣り通す",
+      "kana": "やりとおす",
+      "gloss": "to carry through; to achieve; to complete",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72325,
+      "kanji": "やり遂げる",
+      "kana": "やりとげる",
+      "gloss": "to accomplish; to finish; to carry through; to follow through",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112287,
+      "kanji": "和らげる",
+      "kana": "やわらげる",
+      "gloss": "to soften; to moderate; to relieve",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109304,
+      "kanji": "優位",
+      "kana": "ゆうい",
+      "gloss": "predominance; superiority; ascendancy; advantage; supremacy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123585,
+      "kanji": "憂鬱",
+      "kana": "ゆううつ",
+      "gloss": "depression; melancholy; dejection; gloom; despondency",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109557,
+      "kanji": "有益",
+      "kana": "ゆうえき",
+      "gloss": "beneficial; profitable; useful; helpful; instructive",
+      "card_type": "vocab"
+    }
+  ]
+}

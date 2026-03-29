@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 400: 雷, 雷, 髪の毛...",
+  "lesson_number": 400,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 117504,
+      "kanji": "雷",
+      "kana": "かみなり",
+      "gloss": "lightning; thunder; thunderbolt; god of thunder; god of lightning; anger; fit of anger",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 270347,
+      "kanji": "雷",
+      "kana": "なるかみ",
+      "gloss": "thunder",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101348,
+      "kanji": "髪の毛",
+      "kana": "かみのけ",
+      "gloss": "hair (of the head)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119174,
+      "kanji": "科目",
+      "kana": "かもく",
+      "gloss": "(school) subject; curriculum; course",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36774,
+      "kanji": "かも知れない",
+      "kana": "かもしれない",
+      "gloss": "may; might; perhaps; may be; possibly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63689,
+      "kanji": "火曜",
+      "kana": "かよう",
+      "gloss": "Tuesday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65768,
+      "kanji": "刈る",
+      "kana": "かる",
+      "gloss": "to cut (grass, hair, etc.); to mow; to clip; to trim; to prune; to shear; to reap; to harvest",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 110: 歩く, 彼, 我...",
+  "lesson_number": 110,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 106045,
+      "kanji": "歩く",
+      "kana": "あるく",
+      "gloss": "to walk",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36267,
+      "kanji": "彼",
+      "kana": "あれ",
+      "gloss": "that; that thing; that person; then; that time; that place (over there); down there (i.e. one's genitals); period; menses",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64015,
+      "kanji": "我",
+      "kana": "あれ",
+      "gloss": "I; me; oneself; you; prefix indicating familiarity or contempt",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 156216,
+      "kanji": "荒れ",
+      "kana": "あれ",
+      "gloss": "stormy weather; tempest; chaps (of skin)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 248312,
+      "kanji": "怡々",
+      "kana": "いい",
+      "gloss": "having fun; rejoicing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 261604,
+      "kanji": "謂",
+      "kana": "いい",
+      "gloss": "what was said; what it means; origin of a story (or tradition, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 261605,
+      "kanji": "飯",
+      "kana": "いい",
+      "gloss": "cooked rice",
+      "card_type": "vocab"
+    }
+  ]
+}

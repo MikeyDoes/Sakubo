@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 815: 武士, 部首, 襖...",
+  "lesson_number": 815,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 117160,
+      "kanji": "武士",
+      "kana": "ぶし",
+      "gloss": "warrior; samurai",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104137,
+      "kanji": "部首",
+      "kana": "ぶしゅ",
+      "gloss": "radical (of a kanji character)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62083,
+      "kanji": "襖",
+      "kana": "ふすま",
+      "gloss": "fusuma; Japanese sliding screen",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 182771,
+      "kanji": "襖",
+      "kana": "あお",
+      "gloss": "everyday garment worn by men in ancient Japan",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122690,
+      "kanji": "附属",
+      "kana": "ふぞく",
+      "gloss": "attached; belonging (to); included; enclosed; affiliated; annexed; associated; subordinate; incidental; dependent; auxiliary",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65033,
+      "kanji": "蓋",
+      "kana": "ふた",
+      "gloss": "cover; lid; cap",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103356,
+      "kanji": "不通",
+      "kana": "ふつう",
+      "gloss": "suspension; interruption; stoppage; tie-up; cessation",
+      "card_type": "vocab"
+    }
+  ]
+}

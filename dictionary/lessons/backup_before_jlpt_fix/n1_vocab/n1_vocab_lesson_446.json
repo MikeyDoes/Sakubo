@@ -1,0 +1,49 @@
+{
+  "title": "Lesson 1306: 打, Ν, 翻...",
+  "lesson_number": 1306,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 47537,
+      "kanji": "打",
+      "kana": "ダース",
+      "gloss": "dozen",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 194925,
+      "kanji": "Ν",
+      "kana": "ニュー",
+      "gloss": "nu",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 293456,
+      "kanji": "翻",
+      "kana": "ファン",
+      "gloss": "han; fan; unit that doubles the score of a hand",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 276566,
+      "kanji": "包子",
+      "kana": "ポーズ",
+      "gloss": "baozi; Chinese steamed bun",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 198216,
+      "kanji": "洋灯",
+      "kana": "ランプ",
+      "gloss": "lamp",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 272954,
+      "kanji": "ＬＡＭＰ",
+      "kana": "ランプ",
+      "gloss": "LAMP; solution stack of free, open source software",
+      "card_type": "vocab"
+    }
+  ]
+}

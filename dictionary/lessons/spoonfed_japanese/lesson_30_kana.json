@@ -1,0 +1,37 @@
+{
+  "title": "Lesson 43: (Kana) - Lesson 43: (Katakana) \"ラ, リ, ル, レ, ロ\"",
+  "lesson_type": "kana",
+  "items": [
+    {
+      "entry_id": 325219,
+      "kana": "ラ",
+      "gloss": "ra",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325220,
+      "kana": "リ",
+      "gloss": "ri",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325221,
+      "kana": "ル",
+      "gloss": "ru",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325222,
+      "kana": "レ",
+      "gloss": "re",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325223,
+      "kana": "ロ",
+      "gloss": "ro",
+      "card_type": "kana"
+    }
+  ],
+  "lesson_number": 43
+}

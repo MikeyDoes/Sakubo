@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 37: ビデオ, ピン, プラス...",
+  "lesson_number": 1343,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 51500,
+      "kana": "ビデオ",
+      "gloss": "video",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 51771,
+      "kana": "ピン",
+      "gloss": "pin (e.g. hairpin, bowling pin, golf pin, etc.); one (on dice, in cards, etc.); beginning; best; kickback",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 53021,
+      "kana": "プラス",
+      "gloss": "plus; addition; positive number; gain; advantage; asset; positive feature; anode; plus terminal; positive pole; + shape",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 53065,
+      "kana": "プラン",
+      "gloss": "plan; scheme; (payment) plan; package; deal; offer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 52877,
+      "kana": "ブレーキ",
+      "gloss": "brake",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 53219,
+      "kana": "プロ",
+      "gloss": "professional",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 53647,
+      "kana": "ベルト",
+      "gloss": "belt (waist, seat, etc.); strap; belt; zone; area; drive belt; machine belt",
+      "card_type": "vocab"
+    }
+  ]
+}

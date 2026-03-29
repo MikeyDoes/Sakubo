@@ -1,0 +1,44 @@
+{
+  "title": "Lesson 9: (Kana) - Lesson 9: (Hiragana) \"だ, ぢ, づ, で, ど\"",
+  "lesson_type": "kana",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "ぢ and づ Are Rare",
+      "body": "While だ, で, and ど appear in many words, ぢ and づ are rarely used in modern Japanese.\n\nIn almost all cases, じ (ji) is used instead of ぢ, and ず (zu) is used instead of づ. They sound identical.\n\nYou may occasionally see づ in compound words like つづく (to continue), where the base word starts with つ. But in general, you can expect to see じ and ず far more often."
+    }
+  ],
+  "items": [
+    {
+      "entry_id": 325239,
+      "kana": "だ",
+      "gloss": "da",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325240,
+      "kana": "ぢ",
+      "gloss": "ji",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325241,
+      "kana": "づ",
+      "gloss": "zu",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325242,
+      "kana": "で",
+      "gloss": "de",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325243,
+      "kana": "ど",
+      "gloss": "do",
+      "card_type": "kana"
+    }
+  ],
+  "lesson_number": 9
+}

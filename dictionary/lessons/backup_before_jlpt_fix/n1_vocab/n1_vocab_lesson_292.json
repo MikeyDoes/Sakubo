@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1152: 天体, 転転, 転任...",
+  "lesson_number": 1152,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 96186,
+      "kanji": "天体",
+      "kana": "てんたい",
+      "gloss": "heavenly body; celestial body; astronomical object",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 137047,
+      "kanji": "転転",
+      "kana": "てんてん",
+      "gloss": "moving from place to place; being passed around repeatedly; rolling about",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96386,
+      "kanji": "転任",
+      "kana": "てんにん",
+      "gloss": "change of post",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96295,
+      "kanji": "展望",
+      "kana": "てんぼう",
+      "gloss": "view; outlook; prospect",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96395,
+      "kanji": "転落",
+      "kana": "てんらく",
+      "gloss": "fall; tumble; spill; plunge; dive; degradation; comedown; demotion; slump",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121474,
+      "kanji": "出合う",
+      "kana": "であう",
+      "gloss": "to meet (by chance); to come across; to run across; to encounter; to happen upon; to meet (e.g. of rivers, highways, etc.); to emerge and engage (an enemy)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121477,
+      "kanji": "出入り口",
+      "kana": "でいりぐち",
+      "gloss": "exit and entrance",
+      "card_type": "vocab"
+    }
+  ]
+}

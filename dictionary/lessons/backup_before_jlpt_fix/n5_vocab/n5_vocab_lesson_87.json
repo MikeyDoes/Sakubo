@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 187: 夏, 夏, 夏休み...",
+  "lesson_number": 187,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 207032,
+      "kanji": "夏",
+      "kana": "か",
+      "gloss": "Xia dynasty (China, perhaps c. 2070-1600 BCE, perhaps mythological); Hsia dynasty",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 232778,
+      "kanji": "夏",
+      "kana": "げ",
+      "gloss": "summer (on the lunisolar calendar: 16th day of the 4th month to the 15th day of the 7th month)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63287,
+      "kanji": "夏休み",
+      "kana": "なつやすみ",
+      "gloss": "summer vacation; summer holiday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116792,
+      "kanji": "等",
+      "kana": "など",
+      "gloss": "et cetera; etc.; and the like; and so forth; or something; the likes of; for example; for instance; for one",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80066,
+      "kanji": "七つ",
+      "kana": "ななつ",
+      "gloss": "seven; seven years of age; four o'clock (old time system)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115968,
+      "kanji": "七日",
+      "kana": "なのか",
+      "gloss": "seventh day of the month; seven days",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108222,
+      "kanji": "名前",
+      "kana": "なまえ",
+      "gloss": "name; given name; first name",
+      "card_type": "vocab"
+    }
+  ]
+}

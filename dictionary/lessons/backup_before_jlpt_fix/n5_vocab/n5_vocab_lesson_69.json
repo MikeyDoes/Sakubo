@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 169: 大学, 大使館, 大丈夫...",
+  "lesson_number": 169,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 92742,
+      "kanji": "大学",
+      "kana": "だいがく",
+      "gloss": "university; college; former central university of Kyoto (established under the ritsuryo system for the training of government administrators); the Great Learning (one of the Four Books)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92816,
+      "kanji": "大使館",
+      "kana": "たいしかん",
+      "gloss": "embassy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92842,
+      "kanji": "大丈夫",
+      "kana": "だいじょうぶ",
+      "gloss": "safe; secure; sound; problem-free; without fear; all right; alright; OK; okay; certainly; surely; undoubtedly; no thanks; I'm good; that's alright; great man; fine figure of a man",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 282757,
+      "kanji": "大丈夫",
+      "kana": "だいじょうふ",
+      "gloss": "great man; fine figure of a man",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92872,
+      "kanji": "大切",
+      "kana": "たいせつ",
+      "gloss": "important; necessary; indispensable; beloved; precious; dear; cherished; valuable; careful",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 129090,
+      "kanji": "大切",
+      "kana": "おおぎり",
+      "gloss": "large cut (e.g. of meat); last piece of the day's programme; last act of a play; comic dialogue as the last item in vaudeville, music hall, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92793,
+      "kanji": "大好き",
+      "kana": "だいすき",
+      "gloss": "loveable; very likeable; like very much",
+      "card_type": "vocab"
+    }
+  ]
+}

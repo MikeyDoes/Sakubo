@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 670: 恐縮, 教養, 行列...",
+  "lesson_number": 670,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 69233,
+      "kanji": "恐縮",
+      "kana": "きょうしゅく",
+      "gloss": "feeling obliged; being grateful; being thankful; being sorry; being ashamed; shrinking back in fear",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69306,
+      "kanji": "教養",
+      "kana": "きょうよう",
+      "gloss": "cultivation; refinement; culture; education",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75189,
+      "kanji": "行列",
+      "kana": "ぎょうれつ",
+      "gloss": "line; queue; procession; parade; matrix",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68817,
+      "kanji": "漁業",
+      "kana": "ぎょぎょう",
+      "gloss": "fishing (industry)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69642,
+      "kanji": "曲線",
+      "kana": "きょくせん",
+      "gloss": "curve",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67521,
+      "kanji": "規律",
+      "kana": "きりつ",
+      "gloss": "order; observance; discipline; rules; law; regulations",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78086,
+      "kanji": "斬る",
+      "kana": "きる",
+      "gloss": "to kill (a human) using a blade (sword, machete, knife, etc.); to slice (off); to lop (off); to cut (off)",
+      "card_type": "vocab"
+    }
+  ]
+}

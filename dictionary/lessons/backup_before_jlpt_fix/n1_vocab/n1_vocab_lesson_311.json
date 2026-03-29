@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1171: 導入, 同封, 同盟...",
+  "lesson_number": 1171,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 98031,
+      "kanji": "導入",
+      "kana": "どうにゅう",
+      "gloss": "introduction; bringing in; leading in; installation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97983,
+      "kanji": "同封",
+      "kana": "どうふう",
+      "gloss": "enclosing (e.g. with a letter)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121691,
+      "kanji": "同盟",
+      "kana": "どうめい",
+      "gloss": "alliance; union; league",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97805,
+      "kanji": "動揺",
+      "kana": "どうよう",
+      "gloss": "shaking; trembling; pitching; rolling; oscillation; disturbance; unrest; agitation; excitement; commotion; turmoil; discomposure; feeling shaken",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97808,
+      "kanji": "動力",
+      "kana": "どうりょく",
+      "gloss": "power; motive power; dynamic force; three-phase electricity",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98295,
+      "kanji": "独裁",
+      "kana": "どくさい",
+      "gloss": "dictatorship; despotism",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98368,
+      "kanji": "読者",
+      "kana": "どくしゃ",
+      "gloss": "reader",
+      "card_type": "vocab"
+    }
+  ]
+}

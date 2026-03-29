@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1017: 細菌, 細工, 採掘...",
+  "lesson_number": 1017,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 76865,
+      "kanji": "細菌",
+      "kana": "さいきん",
+      "gloss": "bacterium; bacteria; germ",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76867,
+      "kanji": "細工",
+      "kana": "さいく",
+      "gloss": "work; workmanship; craftsmanship; handiwork; artifice; trick; device; tampering; doctoring",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76762,
+      "kanji": "採掘",
+      "kana": "さいくつ",
+      "gloss": "mining",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76763,
+      "kanji": "採決",
+      "kana": "さいけつ",
+      "gloss": "vote; ballot; division",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76527,
+      "kanji": "再建",
+      "kana": "さいけん",
+      "gloss": "rebuilding; reconstruction; rehabilitation; protoform reconstruction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76528,
+      "kanji": "再建",
+      "kana": "さいこん",
+      "gloss": "(temple or shrine) rebuilding",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76532,
+      "kanji": "再現",
+      "kana": "さいげん",
+      "gloss": "reappearance; reemergence; return; revival; reproduction; reenactment; recreation",
+      "card_type": "vocab"
+    }
+  ]
+}

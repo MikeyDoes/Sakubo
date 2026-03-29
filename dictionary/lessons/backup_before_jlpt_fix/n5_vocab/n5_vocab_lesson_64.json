@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 164: 背, 生徒, 石鹸...",
+  "lesson_number": 164,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 191256,
+      "kanji": "背",
+      "kana": "せ",
+      "gloss": "back; spine; reverse; rear side; height; stature; ridge (of a mountain)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88096,
+      "kanji": "生徒",
+      "kana": "せいと",
+      "gloss": "pupil; student; schoolchild",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88497,
+      "kanji": "石鹸",
+      "kana": "せっけん",
+      "gloss": "soap",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100615,
+      "kanji": "背広",
+      "kana": "せびろ",
+      "gloss": "business suit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69343,
+      "kanji": "狭い",
+      "kana": "せまい",
+      "gloss": "narrow; confined; small; cramped; limited; narrow-minded; confining",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 302782,
+      "kanji": "０",
+      "kana": "ゼロ",
+      "gloss": "zero; nought; nil; nothing; zilch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89413,
+      "kanji": "千",
+      "kana": "せん",
+      "gloss": "1,000; thousand",
+      "card_type": "vocab"
+    }
+  ]
+}

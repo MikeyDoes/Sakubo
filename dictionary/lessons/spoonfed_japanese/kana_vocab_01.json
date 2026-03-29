@@ -1,0 +1,50 @@
+{
+  "title": "Lesson 5: (Vocab) - ここ, そこ, あそこ...",
+  "lesson_type": "kana_vocab",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Long Vowels in Hiragana",
+      "body": "In Japanese, holding a vowel sound longer can change the meaning of a word. In hiragana, long vowels are written by repeating or adding a vowel character:\n\nいい (ii) — the い sound is held longer\nええ (ee) — the え sound is held longer\n\nCommon patterns you'll encounter:\nあ-column: add あ (おかあさん, mother)\nい-column: add い (おにいさん, older brother)\nう-column: add う (すうじ, number)\nえ-column: usually add い (せんせい, teacher)\nお-column: usually add う (おとうさん, father)\n\nKatakana uses a simpler dash (ー) instead — you'll learn that later."
+    }
+  ],
+  "items": [
+    {
+      "entry_id": 326648,
+      "kana": "ここ",
+      "gloss": "here; this place",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326673,
+      "kana": "そこ",
+      "gloss": "there (place relatively near listener); that place",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326623,
+      "kana": "あそこ",
+      "gloss": "over there; that place; yonder",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326336,
+      "kana": "いいえ",
+      "gloss": "no; nay",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36352,
+      "kana": "ええ",
+      "gloss": "yes (relaxed); that is correct; right",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 282148,
+      "kana": "いい",
+      "gloss": "good; excellent; fine; nice; pleasant",
+      "card_type": "vocab"
+    }
+  ],
+  "lesson_number": 5
+}

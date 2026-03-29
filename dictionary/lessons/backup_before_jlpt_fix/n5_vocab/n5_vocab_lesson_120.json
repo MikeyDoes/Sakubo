@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 220: 演る, 犯る, 夕方...",
+  "lesson_number": 220,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 231212,
+      "kanji": "演る",
+      "kana": "やる",
+      "gloss": "to perform; to play; to act",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 262518,
+      "kanji": "犯る",
+      "kana": "やる",
+      "gloss": "to have sex with",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109767,
+      "kanji": "夕方",
+      "kana": "ゆうがた",
+      "gloss": "evening; dusk",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117455,
+      "kanji": "夕飯",
+      "kana": "ゆうはん",
+      "gloss": "evening meal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109709,
+      "kanji": "郵便局",
+      "kana": "ゆうびんきょく",
+      "gloss": "post office",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109741,
+      "kanji": "昨夜",
+      "kana": "ゆうべ",
+      "gloss": "evening; last night; yesterday evening",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109609,
+      "kanji": "有名",
+      "kana": "ゆうめい",
+      "gloss": "famous; fame",
+      "card_type": "vocab"
+    }
+  ]
+}

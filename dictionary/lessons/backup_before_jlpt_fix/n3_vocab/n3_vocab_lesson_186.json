@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 535: 解ける, 解ける, 何処か...",
+  "lesson_number": 535,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 64305,
+      "kanji": "解ける",
+      "kana": "ほどける",
+      "gloss": "to come loose; to come untied; to come undone; to unravel; to loosen up (e.g. tension)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110201,
+      "kanji": "解ける",
+      "kana": "とける",
+      "gloss": "to melt; to thaw; to fuse; to dissolve",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63004,
+      "kanji": "何処か",
+      "kana": "どこか",
+      "gloss": "somewhere; anywhere; in some respects",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37751,
+      "kanji": "所が",
+      "kana": "ところが",
+      "gloss": "even so; however; still; whereupon; even though; nevertheless; on the contrary; as a matter of fact; despite",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83229,
+      "kanji": "所で",
+      "kana": "ところで",
+      "gloss": "by the way; incidentally; even if; no matter (who, what, when, where, why, how)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96901,
+      "kanji": "登山",
+      "kana": "とざん",
+      "gloss": "mountain climbing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96926,
+      "kanji": "都市",
+      "kana": "とし",
+      "gloss": "town; city; municipal; urban",
+      "card_type": "vocab"
+    }
+  ]
+}

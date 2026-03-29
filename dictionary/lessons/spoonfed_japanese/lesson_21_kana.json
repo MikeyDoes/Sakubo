@@ -1,0 +1,37 @@
+{
+  "title": "Lesson 29: (Kana) - Lesson 29: (Katakana) \"ザ, ジ, ズ, ゼ, ゾ\"",
+  "lesson_type": "kana",
+  "items": [
+    {
+      "entry_id": 325259,
+      "kana": "ザ",
+      "gloss": "za",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325260,
+      "kana": "ジ",
+      "gloss": "ji",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325261,
+      "kana": "ズ",
+      "gloss": "zu",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325262,
+      "kana": "ゼ",
+      "gloss": "ze",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325263,
+      "kana": "ゾ",
+      "gloss": "zo",
+      "card_type": "kana"
+    }
+  ],
+  "lesson_number": 29
+}

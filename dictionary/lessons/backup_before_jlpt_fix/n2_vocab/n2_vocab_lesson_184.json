@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 800: 花火, 花嫁, 放れる...",
+  "lesson_number": 800,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 63733,
+      "kanji": "花火",
+      "kana": "はなび",
+      "gloss": "fireworks",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63732,
+      "kanji": "花嫁",
+      "kana": "はなよめ",
+      "gloss": "bride",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106342,
+      "kanji": "放れる",
+      "kana": "はなれる",
+      "gloss": "to get free (from); to be freed; to be released",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60733,
+      "kanji": "羽根",
+      "kana": "はね",
+      "gloss": "feather; plume; down; wing; blade (of a fan, propeller, etc.); shuttlecock (in badminton); shuttlecock (in hanetsuki); arrow feathers",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 50673,
+      "kanji": "発条",
+      "kana": "ばね",
+      "gloss": "spring (e.g. coil, leaf); mainspring; power spring",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94851,
+      "kanji": "跳ねる",
+      "kana": "はねる",
+      "gloss": "to jump; to leap; to prance; to spring up; to bound; to hop; to break up; to close; to come to an end; to hit (e.g. to have a car hit something or someone)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100380,
+      "kanji": "破片",
+      "kana": "はへん",
+      "gloss": "fragment; broken piece; splinter; chip; shard",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1042: 雫, 沈める, 施設...",
+  "lesson_number": 1042,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 95880,
+      "kanji": "雫",
+      "kana": "しずく",
+      "gloss": "drop (e.g. of water); drip",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95110,
+      "kanji": "沈める",
+      "kana": "しずめる",
+      "gloss": "to sink (e.g. a ship); to submerge; to lower (e.g. one's body into a chair); to floor (an opponent)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78908,
+      "kanji": "施設",
+      "kana": "しせつ",
+      "gloss": "institution; establishment; facility; home (for elderly, orphans, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78603,
+      "kanji": "子息",
+      "kana": "しそく",
+      "gloss": "son",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106117,
+      "kanji": "慕う",
+      "kana": "したう",
+      "gloss": "to yearn for; to long for; to pine for; to miss; to love dearly; to adore; to follow (someone); to idolize (for virtue, learning, status, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62558,
+      "kanji": "下心",
+      "kana": "したごころ",
+      "gloss": "secret intention; ulterior motive; kanji \"heart\" radical at bottom",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86202,
+      "kanji": "親しむ",
+      "kana": "したしむ",
+      "gloss": "to be intimate with; to befriend",
+      "card_type": "vocab"
+    }
+  ]
+}

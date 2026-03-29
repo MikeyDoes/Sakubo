@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 422: 組む, 曇, 位...",
+  "lesson_number": 422,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 90626,
+      "kanji": "組む",
+      "kana": "くむ",
+      "gloss": "to cross (legs or arms); to link (arms); to put together; to construct; to assemble; to produce (e.g. TV program); to braid; to plait; to grapple; to wrestle; to unite; to join; to link up; to form an alliance; to set (e.g. type); to issue (e.g. money order)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119674,
+      "kanji": "曇",
+      "kana": "くもり",
+      "gloss": "cloudiness; cloudy weather; fog (on a mirror, glasses, etc.); cloud (e.g. in marble); blur; mist; shadow; dimness; gloom; dejection",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58499,
+      "kanji": "位",
+      "kana": "くらい",
+      "gloss": "throne; crown; (nobleman's) seat; government position; court rank; social standing; rank; class; echelon; rung; grade (of quality, etc.); level; tier; position of a figure (e.g. tens, thousands); digit; (decimal) place; degree; extent; amount",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 180040,
+      "kanji": "位",
+      "kana": "い",
+      "gloss": "rank; place (e.g. first place); decimal place; counter for ghosts",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106119,
+      "kanji": "暮らし",
+      "kana": "くらし",
+      "gloss": "life; living; livelihood; life circumstances",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106121,
+      "kanji": "暮らす",
+      "kana": "くらす",
+      "gloss": "to live; to get along; to spend (time)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70599,
+      "kanji": "繰り返す",
+      "kana": "くりかえす",
+      "gloss": "to repeat; to do something over again",
+      "card_type": "vocab"
+    }
+  ]
+}

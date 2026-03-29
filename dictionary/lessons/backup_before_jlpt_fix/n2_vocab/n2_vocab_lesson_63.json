@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 679: 下車, 下旬, 下水...",
+  "lesson_number": 679,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 62522,
+      "kanji": "下車",
+      "kana": "げしゃ",
+      "gloss": "alighting (from a train, bus, etc.); getting off; getting out (of a car)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62545,
+      "kanji": "下旬",
+      "kana": "げじゅん",
+      "gloss": "last third of a month; 21st to the last day of a month",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62564,
+      "kanji": "下水",
+      "kana": "げすい",
+      "gloss": "drainage; ditch; gutter; sewerage; sewage; black water",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 195657,
+      "kanji": "下水",
+      "kana": "したみず",
+      "gloss": "water flowing underneath; one's true feelings; kanji \"water\" radical at bottom (radical 85)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77182,
+      "kanji": "削る",
+      "kana": "けずる",
+      "gloss": "to shave (wood, leather, etc.); to sharpen (e.g. pencil); to plane; to whittle; to pare; to scrape off; to erode; to cut down (budget, expenses, staff, time, etc.); to curtail; to reduce; to delete; to erase; to remove; to cross out; to strike out",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77183,
+      "kanji": "削る",
+      "kana": "はつる",
+      "gloss": "to shave off (esp. concrete); to take a percentage; to take a cut",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71450,
+      "kanji": "桁",
+      "kana": "けた",
+      "gloss": "column; beam; girder; crossbeam; spar; yard; digit; decade; order of magnitude",
+      "card_type": "vocab"
+    }
+  ]
+}

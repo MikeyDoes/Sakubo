@@ -1,0 +1,38 @@
+{
+  "title": "Lesson 32 (Kana) - ア・イ・ウ・エ・オ",
+  "lesson_number": 32,
+  "description": "Welcome to Katakana! These look sharper and more \"blocky\" than Hiragana. They are used for foreign names and loanwords.",
+  "source_file": "Spoonfed Kana Vocab Lessons.ods",
+  "items": [
+    {
+      "entry_id": 325395,
+      "kana": "ア",
+      "kanji": null,
+      "gloss": "a"
+    },
+    {
+      "entry_id": 325396,
+      "kana": "イ",
+      "kanji": null,
+      "gloss": "i"
+    },
+    {
+      "entry_id": 325397,
+      "kana": "ウ",
+      "kanji": null,
+      "gloss": "u"
+    },
+    {
+      "entry_id": 325282,
+      "kana": "エ",
+      "kanji": null,
+      "gloss": "e"
+    },
+    {
+      "entry_id": 325283,
+      "kana": "オ",
+      "kanji": null,
+      "gloss": "o"
+    }
+  ]
+}

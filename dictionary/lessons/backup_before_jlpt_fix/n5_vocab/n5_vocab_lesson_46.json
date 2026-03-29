@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 146: 曇り, 曇る, 曇る...",
+  "lesson_number": 146,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 119673,
+      "kanji": "曇り",
+      "kana": "くもり",
+      "gloss": "cloudiness; cloudy weather; fog (on a mirror, glasses, etc.); cloud (e.g. in marble); blur; mist; shadow; dimness; gloom; dejection",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98598,
+      "kanji": "曇る",
+      "kana": "くもる",
+      "gloss": "to get cloudy; to cloud over; to become overcast; to cloud up; to fog up; to mist up; to become dim; to be gloomy; to be clouded (expression); to be downcast; to look slightly downward (of a noh mask; indicating sadness, grief, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 178200,
+      "kanji": "曇る",
+      "kana": "くぐもる",
+      "gloss": "to mumble; to mutter",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58347,
+      "kanji": "暗い",
+      "kana": "くらい",
+      "gloss": "dark; gloomy; murky; depressed; dispirited; down in the dumps; dark (mood); dark (in colour); dull; ill-boding; dark (e.g. past); suspicious; unlikely (to succeed); hopeless; unpromising; unfamiliar (with); ignorant (of)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 43396,
+      "kanji": "瓦",
+      "kana": "グラム",
+      "gloss": "gram; gramme",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110421,
+      "kanji": "来る",
+      "kana": "くる",
+      "gloss": "to come (spatially or temporally); to approach; to arrive; to come back; to do ... and come back; to come to be; to become; to get; to grow; to continue; to come from; to be caused by; to derive from; to come to (i.e. \"when it comes to spinach ...\")",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119388,
+      "kanji": "来る",
+      "kana": "きたる",
+      "gloss": "next (e.g. \"next April\"); forthcoming; coming; to come; to arrive; to be due to",
+      "card_type": "vocab"
+    }
+  ]
+}

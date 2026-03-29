@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 263: 雲, 比べる, 呉れる...",
+  "lesson_number": 263,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 60982,
+      "kanji": "雲",
+      "kana": "くも",
+      "gloss": "cloud",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102049,
+      "kanji": "比べる",
+      "kana": "くらべる",
+      "gloss": "to compare; to make a comparison; to compete; to vie",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73508,
+      "kanji": "呉れる",
+      "kana": "くれる",
+      "gloss": "to give; to let (one) have; to do for one; to take the trouble to do; to do to someone's disadvantage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106125,
+      "kanji": "暮れる",
+      "kana": "くれる",
+      "gloss": "to get dark; to grow dark; to end (of a day, year, season, etc.); to come to an end; to close; to be sunk in (e.g. despair); to be lost in (e.g. thought); to be overcome with",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108495,
+      "kanji": "毛",
+      "kana": "け",
+      "gloss": "hair; fur; wool; down; plumage; feathers",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71231,
+      "kanji": "計画",
+      "kana": "けいかく",
+      "gloss": "plan; project; schedule; scheme; program; programme",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71114,
+      "kanji": "経験",
+      "kana": "けいけん",
+      "gloss": "experience",
+      "card_type": "vocab"
+    }
+  ]
+}

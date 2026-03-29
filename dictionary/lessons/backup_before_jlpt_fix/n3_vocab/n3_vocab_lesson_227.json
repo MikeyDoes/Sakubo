@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 576: 震える, 触れる, 風呂...",
+  "lesson_number": 576,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 86387,
+      "kanji": "震える",
+      "kana": "ふるえる",
+      "gloss": "to shiver; to shake; to quake; to tremble; to quaver; to quiver",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85232,
+      "kanji": "触れる",
+      "kana": "ふれる",
+      "gloss": "to touch; to feel; to touch (with); to experience; to come in contact with; to perceive; to touch on (a subject); to allude to; to refer to; to mention; to bring up; to be in conflict with; to violate (law, copyright, etc.); to infringe; to proclaim; to make known; to spread (e.g. a rumour)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104220,
+      "kanji": "風呂",
+      "kana": "ふろ",
+      "gloss": "bath; bathing; bathtub; bathroom; bathhouse; public bath; room for drying lacquerware; base (wooden joint connecting the blade of a hoe, spade, etc., to the handle)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104884,
+      "kanji": "文",
+      "kana": "ふみ",
+      "gloss": "letter; writings",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104886,
+      "kanji": "文",
+      "kana": "ぶん",
+      "gloss": "sentence; composition; text; writings; the literary arts (as opposed to the military arts); academia; literature; statement",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 166034,
+      "kanji": "文",
+      "kana": "もん",
+      "gloss": "(family) crest; coat of arms; pattern; figure",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 175606,
+      "kanji": "文",
+      "kana": "あや",
+      "gloss": "figure; design; twill weave; pattern of diagonal stripes; style (of writing); figure (of speech); plot; plan; minor market fluctuation; technical correction; cat's cradle; lease rod (in a loom)",
+      "card_type": "vocab"
+    }
+  ]
+}

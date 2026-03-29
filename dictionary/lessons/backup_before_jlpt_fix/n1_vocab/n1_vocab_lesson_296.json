@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1156: 陶器, 陶器, 等級...",
+  "lesson_number": 1156,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 97678,
+      "kanji": "陶器",
+      "kana": "とうき",
+      "gloss": "porcelain (esp. soft-paste porcelain); china; chinaware; earthenware; pottery; ceramics; crockery",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 169114,
+      "kanji": "陶器",
+      "kana": "すえき",
+      "gloss": "Sue ware (type of unglazed pottery made from the middle of the Kofun era through the Heian era)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97506,
+      "kanji": "等級",
+      "kana": "とうきゅう",
+      "gloss": "grade; class; degree; rank; rating; order; points; magnitude",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97573,
+      "kanji": "討議",
+      "kana": "とうぎ",
+      "gloss": "debate; discussion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96899,
+      "kanji": "登校",
+      "kana": "とうこう",
+      "gloss": "attendance (at school); going to school",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97551,
+      "kanji": "統合",
+      "kana": "とうごう",
+      "gloss": "integration; unification; unity; combination; consolidation; synthesis",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97065,
+      "kanji": "倒産",
+      "kana": "とうさん",
+      "gloss": "(corporate) bankruptcy; insolvency; commercial failure; failed business",
+      "card_type": "vocab"
+    }
+  ]
+}

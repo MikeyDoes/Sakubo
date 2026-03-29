@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1255: 交える, 交わる, 麻酔...",
+  "lesson_number": 1255,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 73920,
+      "kanji": "交える",
+      "kana": "まじえる",
+      "gloss": "to mix; to combine; to include; to exchange (words, fire, etc.); to cross (e.g. swords); to join together",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73926,
+      "kanji": "交わる",
+      "kana": "まじわる",
+      "gloss": "to cross; to intersect; to join; to meet; to associate with; to mingle with; to consort with; to have a sexual relationship; to copulate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123060,
+      "kanji": "麻酔",
+      "kana": "ますい",
+      "gloss": "anaesthesia; anesthesia",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123497,
+      "kanji": "股",
+      "kana": "もも",
+      "gloss": "thigh; femoral",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123074,
+      "kanji": "跨がる",
+      "kana": "またがる",
+      "gloss": "to straddle; to sit astride; to mount; to extend over; to spread over; to span; to extend into",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116131,
+      "kanji": "瞬き",
+      "kana": "まばたき",
+      "gloss": "blink (of eyes); wink; twinkling (of stars); flicker (of light); blink (of light)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92373,
+      "kanji": "待ち合わせ",
+      "kana": "まちあわせ",
+      "gloss": "appointment",
+      "card_type": "vocab"
+    }
+  ]
+}

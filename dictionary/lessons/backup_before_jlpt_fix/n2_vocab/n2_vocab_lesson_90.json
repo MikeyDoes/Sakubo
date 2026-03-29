@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 706: 磁石, 四捨五入, 始終...",
+  "lesson_number": 706,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 79808,
+      "kanji": "磁石",
+      "kana": "じしゃく",
+      "gloss": "magnet; compass",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78498,
+      "kanji": "四捨五入",
+      "kana": "ししゃごにゅう",
+      "gloss": "rounding (fractions); rounding half up",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78540,
+      "kanji": "始終",
+      "kana": "しじゅう",
+      "gloss": "continuously; from beginning to end; from first to last",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79908,
+      "kanji": "自習",
+      "kana": "じしゅう",
+      "gloss": "self-study; teaching oneself; studying by oneself (at school) while the teacher is absent",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120207,
+      "kanji": "静まる",
+      "kana": "しずまる",
+      "gloss": "to become quiet; to quiet down; to quieten down; to calm down; to die down; to subside; to abate; to be suppressed",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78564,
+      "kanji": "姿勢",
+      "kana": "しせい",
+      "gloss": "posture; pose; position; stance; carriage (of the body); attitude; approach",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79929,
+      "kanji": "自然科学",
+      "kana": "しぜんかがく",
+      "gloss": "natural science",
+      "card_type": "vocab"
+    }
+  ]
+}

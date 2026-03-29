@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1145: 提携, 体裁, 定食...",
+  "lesson_number": 1145,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 95750,
+      "kanji": "提携",
+      "kana": "ていけい",
+      "gloss": "cooperation; tie-up; joint business; partnership; alliance; sponsorship",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92249,
+      "kanji": "体裁",
+      "kana": "ていさい",
+      "gloss": "(outward) appearance; (proper) format (e.g. of an essay); form; style; appearances; decency; show; display; lip-service; insincere words; glib talk",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95665,
+      "kanji": "定食",
+      "kana": "ていしょく",
+      "gloss": "set meal; special (of the day)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95752,
+      "kanji": "提示",
+      "kana": "ていじ",
+      "gloss": "presentation; exhibit; suggest; citation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95806,
+      "kanji": "訂正",
+      "kana": "ていせい",
+      "gloss": "correction; revision; amendment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95593,
+      "kanji": "停滞",
+      "kana": "ていたい",
+      "gloss": "stagnation; tie-up; standstill; congestion; delay; accumulation; falling into arrears",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95817,
+      "kanji": "邸宅",
+      "kana": "ていたく",
+      "gloss": "mansion; residence",
+      "card_type": "vocab"
+    }
+  ]
+}

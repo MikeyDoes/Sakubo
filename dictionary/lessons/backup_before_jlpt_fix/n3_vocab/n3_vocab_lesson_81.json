@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 430: 健康, 検査, 現在...",
+  "lesson_number": 430,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 71767,
+      "kanji": "健康",
+      "kana": "けんこう",
+      "gloss": "health; healthy; sound; fit; wholesome",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71984,
+      "kanji": "検査",
+      "kana": "けんさ",
+      "gloss": "inspection (e.g. customs, factory); examination; scan (e.g. MRI, PET, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72717,
+      "kanji": "現在",
+      "kana": "げんざい",
+      "gloss": "now; current; present; present time; as of",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72723,
+      "kanji": "現実",
+      "kana": "げんじつ",
+      "gloss": "reality; actuality; hard fact",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72727,
+      "kanji": "現象",
+      "kana": "げんしょう",
+      "gloss": "phenomenon",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72730,
+      "kanji": "現状",
+      "kana": "げんじょう",
+      "gloss": "present condition; existing state; status quo; current state",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71935,
+      "kanji": "建設",
+      "kana": "けんせつ",
+      "gloss": "construction; establishment",
+      "card_type": "vocab"
+    }
+  ]
+}

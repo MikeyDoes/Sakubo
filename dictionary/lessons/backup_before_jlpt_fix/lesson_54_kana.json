@@ -1,0 +1,38 @@
+{
+  "title": "Lesson 54 (Kana) - マ・ミ・ム・メ・モ",
+  "lesson_number": 54,
+  "description": "The M-Line: マ (ma) and ム (mu) look a bit like triangles. メ (me) looks like an 'X'.",
+  "source_file": "Spoonfed Kana Vocab Lessons.ods",
+  "items": [
+    {
+      "entry_id": 325415,
+      "kana": "マ",
+      "kanji": null,
+      "gloss": "ma"
+    },
+    {
+      "entry_id": 325416,
+      "kana": "ミ",
+      "kanji": null,
+      "gloss": "mi"
+    },
+    {
+      "entry_id": 325317,
+      "kana": "ム",
+      "kanji": null,
+      "gloss": "mu"
+    },
+    {
+      "entry_id": 325318,
+      "kana": "メ",
+      "kanji": null,
+      "gloss": "me"
+    },
+    {
+      "entry_id": 325319,
+      "kana": "モ",
+      "kanji": null,
+      "gloss": "mo"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 463: 事務, 示す, 占める...",
+  "lesson_number": 463,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 79440,
+      "kanji": "事務",
+      "kana": "じむ",
+      "gloss": "office work; clerical work; administration; business; affairs",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79813,
+      "kanji": "示す",
+      "kana": "しめす",
+      "gloss": "to (take out and) show; to demonstrate; to tell; to exemplify; to make apparent; to point out (finger, clock hand, needle, etc.); to indicate; to show; to represent; to signify; to display",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89511,
+      "kanji": "占める",
+      "kana": "しめる",
+      "gloss": "to occupy; to hold; to account for; to make up; to take up",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91397,
+      "kanji": "霜",
+      "kana": "しも",
+      "gloss": "frost; white hair; grey hair; gray hair",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80665,
+      "kanji": "借金",
+      "kana": "しゃっきん",
+      "gloss": "debt; loan; liabilities; borrowing money",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94567,
+      "kanji": "喋る",
+      "kana": "しゃべる",
+      "gloss": "to talk; to chat; to chatter",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82002,
+      "kanji": "週",
+      "kana": "しゅう",
+      "gloss": "week",
+      "card_type": "vocab"
+    }
+  ]
+}

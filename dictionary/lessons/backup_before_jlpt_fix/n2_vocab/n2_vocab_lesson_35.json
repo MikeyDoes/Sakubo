@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 651: 学年, 学部, 格別...",
+  "lesson_number": 651,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 65328,
+      "kanji": "学年",
+      "kana": "がくねん",
+      "gloss": "academic year; school year; year in school; grade in school",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65333,
+      "kanji": "学部",
+      "kana": "がくぶ",
+      "gloss": "department of a university; undergraduate (course, program, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65154,
+      "kanji": "格別",
+      "kana": "かくべつ",
+      "gloss": "particular; special; exceptional; especial; particularly; especially; exceptionally",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65206,
+      "kanji": "確率",
+      "kana": "かくりつ",
+      "gloss": "probability; likelihood; chances",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65343,
+      "kanji": "学力",
+      "kana": "がくりょく",
+      "gloss": "scholarly ability; scholarship; knowledge; literary ability",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119014,
+      "kanji": "掛け算",
+      "kana": "かけざん",
+      "gloss": "multiplication",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63228,
+      "kanji": "可決",
+      "kana": "かけつ",
+      "gloss": "approval; adoption (of a motion, bill, etc.); passage",
+      "card_type": "vocab"
+    }
+  ]
+}

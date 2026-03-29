@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 998: 好調, 口頭, 講読...",
+  "lesson_number": 998,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 74617,
+      "kanji": "好調",
+      "kana": "こうちょう",
+      "gloss": "favourable; favorable; promising; satisfactory; in good shape",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74472,
+      "kanji": "口頭",
+      "kana": "こうとう",
+      "gloss": "oral; verbal; spoken; parol",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75201,
+      "kanji": "講読",
+      "kana": "こうどく",
+      "gloss": "reading; translation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75207,
+      "kanji": "購読",
+      "kana": "こうどく",
+      "gloss": "buying and reading (book, magazine, etc.); subscribing (incl. free subscriptions); taking (e.g. newspaper)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75209,
+      "kanji": "購入",
+      "kana": "こうにゅう",
+      "gloss": "purchase; buy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74214,
+      "kanji": "公認",
+      "kana": "こうにん",
+      "gloss": "official recognition; authorization; authorisation; licence; license; accreditation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74080,
+      "kanji": "光熱費",
+      "kana": "こうねつひ",
+      "gloss": "cost of fuel and lighting; cost of heat and electricity; energy bill; utility cost",
+      "card_type": "vocab"
+    }
+  ]
+}

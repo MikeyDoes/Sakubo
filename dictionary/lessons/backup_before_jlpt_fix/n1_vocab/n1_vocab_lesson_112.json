@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 972: 行政, 業績, 業務...",
+  "lesson_number": 972,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 75164,
+      "kanji": "行政",
+      "kana": "ぎょうせい",
+      "gloss": "administration; governance; the authorities; authority",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69576,
+      "kanji": "業績",
+      "kana": "ぎょうせき",
+      "gloss": "achievement; performance; results; work; contribution",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69587,
+      "kanji": "業務",
+      "kana": "ぎょうむ",
+      "gloss": "business; affairs; duties; work; procedure; task; action; function; (business) operations; operational",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68825,
+      "kanji": "漁船",
+      "kana": "ぎょせん",
+      "gloss": "fishing boat",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68826,
+      "kanji": "漁村",
+      "kana": "ぎょそん",
+      "gloss": "fishing village",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67884,
+      "kanji": "義理",
+      "kana": "ぎり",
+      "gloss": "duty; sense of duty; honor; honour; decency; courtesy; debt of gratitude; social obligation; in-law; relation by marriage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67854,
+      "kanji": "疑惑",
+      "kana": "ぎわく",
+      "gloss": "doubt; misgivings; distrust; suspicion",
+      "card_type": "vocab"
+    }
+  ]
+}

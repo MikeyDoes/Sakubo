@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 701: 撮影, 雑音, 早速...",
+  "lesson_number": 701,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 77285,
+      "kanji": "撮影",
+      "kana": "さつえい",
+      "gloss": "photography (still or motion); photographing; filming; shooting; (video) recording",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77387,
+      "kanji": "雑音",
+      "kana": "ざつおん",
+      "gloss": "noise (usu. unpleasant); interference (e.g. radio); static; noise; gossip; irresponsible criticism",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91023,
+      "kanji": "早速",
+      "kana": "さっそく",
+      "gloss": "at once; immediately; without delay; promptly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120085,
+      "kanji": "錆",
+      "kana": "さび",
+      "gloss": "rust",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77442,
+      "kanji": "錆びる",
+      "kana": "さびる",
+      "gloss": "to rust; to become rusty",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76458,
+      "kanji": "座布団",
+      "kana": "ざぶとん",
+      "gloss": "zabuton (flat floor cushion used when sitting or kneeling; usu. rectangular)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111585,
+      "kanji": "冷ます",
+      "kana": "さます",
+      "gloss": "to cool (e.g. from a high temperature to room temperature); to let cool; to dampen; to throw a damper on; to spoil",
+      "card_type": "vocab"
+    }
+  ]
+}

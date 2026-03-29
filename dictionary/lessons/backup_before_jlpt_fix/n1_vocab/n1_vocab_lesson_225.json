@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1085: 制, 製, 生育...",
+  "lesson_number": 1085,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 87500,
+      "kanji": "制",
+      "kana": "せい",
+      "gloss": "system; organization; organisation; imperial command; laws; regulation; control; government; suppression; restraint; holding back; establishment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88242,
+      "kanji": "製",
+      "kana": "せい",
+      "gloss": "-made; make",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88023,
+      "kanji": "生育",
+      "kana": "せいいく",
+      "gloss": "birth and growth; giving birth and raising; development; breeding",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87634,
+      "kanji": "成果",
+      "kana": "せいか",
+      "gloss": "(good) result; outcome; fruits (of one's labors); product; accomplishment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87764,
+      "kanji": "正解",
+      "kana": "せいかい",
+      "gloss": "correct; right; correct interpretation (answer, solution)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87774,
+      "kanji": "正規",
+      "kana": "せいき",
+      "gloss": "regular; normal; formal; legal; established; legitimate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87780,
+      "kanji": "正義",
+      "kana": "せいぎ",
+      "gloss": "justice; right; righteousness; correct meaning; correct explanation",
+      "card_type": "vocab"
+    }
+  ]
+}

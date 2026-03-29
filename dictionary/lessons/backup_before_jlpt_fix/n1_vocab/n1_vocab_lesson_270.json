@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1130: 中断, 中腹, 中毒...",
+  "lesson_number": 1130,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 94234,
+      "kanji": "中断",
+      "kana": "ちゅうだん",
+      "gloss": "interruption; suspension; break",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94303,
+      "kanji": "中腹",
+      "kana": "ちゅうふく",
+      "gloss": "halfway up (down) a mountain; mountainside",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94273,
+      "kanji": "中毒",
+      "kana": "ちゅうどく",
+      "gloss": "poisoning; addiction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94361,
+      "kanji": "仲人",
+      "kana": "なこうど",
+      "gloss": "matchmaker; go-between; intermediary; middleman; mediator; intercessor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 275371,
+      "kanji": "仲人",
+      "kana": "なかびと",
+      "gloss": "go-between; matchmaker",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94432,
+      "kanji": "昼飯",
+      "kana": "ひるめし",
+      "gloss": "lunch; midday meal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94312,
+      "kanji": "中立",
+      "kana": "ちゅうりつ",
+      "gloss": "neutrality",
+      "card_type": "vocab"
+    }
+  ]
+}

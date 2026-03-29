@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 492: 咳, 石炭, 責任...",
+  "lesson_number": 492,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 65002,
+      "kanji": "咳",
+      "kana": "せき",
+      "gloss": "cough; coughing; tussis",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88518,
+      "kanji": "石炭",
+      "kana": "せきたん",
+      "gloss": "coal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88592,
+      "kanji": "責任",
+      "kana": "せきにん",
+      "gloss": "duty; responsibility (incl. supervision of staff); liability; onus",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88542,
+      "kanji": "石油",
+      "kana": "せきゆ",
+      "gloss": "oil; petroleum; kerosene; paraffin",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87407,
+      "kanji": "世間",
+      "kana": "せけん",
+      "gloss": "world; society; people; the public",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89093,
+      "kanji": "説",
+      "kana": "せつ",
+      "gloss": "theory; doctrine; opinion; view; rumour; rumor; gossip; hearsay",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88574,
+      "kanji": "積極的",
+      "kana": "せっきょくてき",
+      "gloss": "positive; assertive; active; proactive; aggressive",
+      "card_type": "vocab"
+    }
+  ]
+}

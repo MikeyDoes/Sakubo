@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 173: 誰, 誕生日, 段々...",
+  "lesson_number": 173,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 93204,
+      "kanji": "誰",
+      "kana": "だれ",
+      "gloss": "who",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93486,
+      "kanji": "誕生日",
+      "kana": "たんじょうび",
+      "gloss": "birthday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121128,
+      "kanji": "段々",
+      "kana": "だんだん",
+      "gloss": "gradually; by degrees; little by little; more and more; increasingly; steps; stairs; staircase; terrace",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83827,
+      "kanji": "小さい",
+      "kana": "ちいさい",
+      "gloss": "small; little; tiny; slight; below average (in degree, amount, etc.); minor; low (e.g. sound); soft (e.g. voice); unimportant; petty; insignificant; trifling; trivial; young; juvenile",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 189587,
+      "kanji": "小さな",
+      "kana": "ちいさな",
+      "gloss": "small; little; tiny",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69913,
+      "kanji": "近い",
+      "kana": "ちかい",
+      "gloss": "near; close; short (distance); close (in time); soon; close (relationship); friendly; intimate; closely related; similar; almost the same; close to; nearly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58935,
+      "kanji": "違う",
+      "kana": "ちがう",
+      "gloss": "to differ (from); to vary; to not be in the usual condition; to not match the correct (answer, etc.); to be different from promised; isn't it?; wasn't it?",
+      "card_type": "vocab"
+    }
+  ]
+}

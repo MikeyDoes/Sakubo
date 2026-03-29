@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 344: 湯, 湯, 輸出...",
+  "lesson_number": 344,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 97381,
+      "kanji": "湯",
+      "kana": "ゆ",
+      "gloss": "hot water; hot bath; hot spring; molten iron",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 251558,
+      "kanji": "湯",
+      "kana": "タン",
+      "gloss": "soup",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109260,
+      "kanji": "輸出",
+      "kana": "ゆしゅつ",
+      "gloss": "export; exportation; efferent",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109266,
+      "kanji": "輸入",
+      "kana": "ゆにゅう",
+      "gloss": "import; importation; introduction; afferent",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78820,
+      "kanji": "指",
+      "kana": "ゆび",
+      "gloss": "finger; toe; digit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 228008,
+      "kanji": "指",
+      "kana": "さし",
+      "gloss": "between (e.g. two people); face to face; hindrance; impediment; arrhythmic section of recitative in noh music; playing with only 2 players; prefix used for stress or emphasis; counter for traditional dance songs",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78869,
+      "kanji": "指輪",
+      "kana": "ゆびわ",
+      "gloss": "(finger) ring",
+      "card_type": "vocab"
+    }
+  ]
+}

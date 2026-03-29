@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 737: 正門, 成立, 西暦...",
+  "lesson_number": 737,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 87903,
+      "kanji": "正門",
+      "kana": "せいもん",
+      "gloss": "main gate; main entrance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87662,
+      "kanji": "成立",
+      "kana": "せいりつ",
+      "gloss": "formation; establishment; materialization; coming into existence; conclusion (e.g. of a deal); reaching (e.g. an agreement); approval; completion; closing; enacting; arrangement; being valid (of a theory, argument, etc.); holding; applying",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88302,
+      "kanji": "西暦",
+      "kana": "せいれき",
+      "gloss": "Common Era; CE; Christian Era; anno domini; AD; Western (Gregorian) calendar",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100637,
+      "kanji": "背負う",
+      "kana": "せおう",
+      "gloss": "to carry on one's back; to be burdened with; to take responsibility for; to have (something) in the background; to be in front (of something); to be conceited; to think highly of oneself",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88653,
+      "kanji": "赤道",
+      "kana": "せきどう",
+      "gloss": "equator",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 312163,
+      "kanji": "赤道",
+      "kana": "あかみち",
+      "gloss": "non-legal public road (denoted by a red line on cadastral maps; sometimes no longer physically existing)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120743,
+      "kanji": "折角",
+      "kana": "せっかく",
+      "gloss": "with trouble; at great pains; rare; valuable; precious; long-awaited; kind; generous; specially; especially; expressly",
+      "card_type": "vocab"
+    }
+  ]
+}

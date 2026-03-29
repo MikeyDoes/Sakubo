@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 824: 方程式, 防犯, 方面...",
+  "lesson_number": 824,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 106399,
+      "kanji": "方程式",
+      "kana": "ほうていしき",
+      "gloss": "equation; formula; method for solving a problem; set way of achieving a particular result",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106850,
+      "kanji": "防犯",
+      "kana": "ぼうはん",
+      "gloss": "prevention of crime; security (device, camera, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106403,
+      "kanji": "方面",
+      "kana": "ほうめん",
+      "gloss": "direction; district; area; field (e.g. of study); sphere; quarter; aspect; angle",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106657,
+      "kanji": "坊や",
+      "kana": "ぼうや",
+      "gloss": "boy; son; child; mere boy; stripling; greenhorn",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106338,
+      "kanji": "放る",
+      "kana": "ほうる",
+      "gloss": "to throw; to fling; to hurl; to toss; to neglect; to abandon; to leave alone; to give up on; to leave undone; to leave unfinished",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 226392,
+      "kanji": "放る",
+      "kana": "ひる",
+      "gloss": "to expel (from the body); to excrete; to defecate; to give birth",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 266186,
+      "kanji": "放る",
+      "kana": "まる",
+      "gloss": "to excrete (faeces, urine)",
+      "card_type": "vocab"
+    }
+  ]
+}

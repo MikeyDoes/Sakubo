@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 915: 趣, 赴く, 重んじる...",
+  "lesson_number": 915,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 81432,
+      "kanji": "趣",
+      "kana": "おもむき",
+      "gloss": "meaning; tenor; gist; effect; influence; appearance; aspect; grace; charm; refinement; taste; elegance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103971,
+      "kanji": "赴く",
+      "kana": "おもむく",
+      "gloss": "to go in the direction of; to proceed toward; to proceed according to; to repair to; to betake oneself to; to become; to face (facts, circumstances, etc.); to abide by; to agree to; to consent to; to obey",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82357,
+      "kanji": "重んじる",
+      "kana": "おもんじる",
+      "gloss": "to respect; to honor; to honour; to esteem; to prize",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82358,
+      "kanji": "重んずる",
+      "kana": "おもんずる",
+      "gloss": "to honor; to honour; to respect; to esteem; to prize",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92956,
+      "kanji": "凡そ",
+      "kana": "おおよそ",
+      "gloss": "about; roughly; approximately; generally; on the whole; as a rule; completely; quite; entirely; altogether; totally; not at all (with neg. verb); outline; gist",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68200,
+      "kanji": "及び",
+      "kana": "および",
+      "gloss": "and; as well as",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68205,
+      "kanji": "及ぶ",
+      "kana": "およぶ",
+      "gloss": "to reach; to amount to; to befall; to happen to; to extend; to go on (for, until); to be up to the task; to come up to; to compare with; to be a match (for); to commit (a crime); to require (to do)",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 836: 剥く, 無限, 無地...",
+  "lesson_number": 836,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 100851,
+      "kanji": "剥く",
+      "kana": "むく",
+      "gloss": "to peel; to skin; to pare; to hull; to bare (e.g. fangs); to open wide (e.g. eyes)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107986,
+      "kanji": "無限",
+      "kana": "むげん",
+      "gloss": "infinity; infinitude; eternity; infinite; limitless",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108086,
+      "kanji": "無地",
+      "kana": "むじ",
+      "gloss": "plain; unfigured; patternless; solid (color)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85074,
+      "kanji": "蒸し暑い",
+      "kana": "むしあつい",
+      "gloss": "humid; sultry",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108141,
+      "kanji": "矛盾",
+      "kana": "むじゅん",
+      "gloss": "contradiction; inconsistency",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85072,
+      "kanji": "蒸す",
+      "kana": "ふかす",
+      "gloss": "to steam (food)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85080,
+      "kanji": "蒸す",
+      "kana": "むす",
+      "gloss": "to steam (food, towel, etc.); to be hot and humid; to be sultry",
+      "card_type": "vocab"
+    }
+  ]
+}

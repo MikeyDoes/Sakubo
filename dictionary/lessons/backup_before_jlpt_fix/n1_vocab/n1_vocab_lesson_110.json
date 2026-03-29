@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 970: 禁物, 勤労, 議案...",
+  "lesson_number": 970,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 69849,
+      "kanji": "禁物",
+      "kana": "きんもつ",
+      "gloss": "thing that should be (carefully) avoided; no-no; thing to definitely not do; something forbidden; taboo",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69788,
+      "kanji": "勤労",
+      "kana": "きんろう",
+      "gloss": "labor; labour; exertion; diligent service",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67916,
+      "kanji": "議案",
+      "kana": "ぎあん",
+      "gloss": "legislative bill; measure; agenda item",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67773,
+      "kanji": "戯曲",
+      "kana": "ぎきょく",
+      "gloss": "drama; play; Chinese opera",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67920,
+      "kanji": "議決",
+      "kana": "ぎけつ",
+      "gloss": "resolution; decision; vote",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67924,
+      "kanji": "議事堂",
+      "kana": "ぎじどう",
+      "gloss": "assembly hall; parliament house; diet building; capitol; houses of parliament; congress hall",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67831,
+      "kanji": "犠牲",
+      "kana": "ぎせい",
+      "gloss": "sacrifice; victim; scapegoat; sacrifice (to the gods)",
+      "card_type": "vocab"
+    }
+  ]
+}

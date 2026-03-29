@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 655: 加速度, 堅い, 片仮名...",
+  "lesson_number": 655,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 63184,
+      "kanji": "加速度",
+      "kana": "かそくど",
+      "gloss": "acceleration",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71891,
+      "kanji": "堅い",
+      "kana": "かたい",
+      "gloss": "hard; solid; tough; stiff; tight; wooden; unpolished (e.g. writing); strong; firm (not viscous or easily moved); safe; steady; honest; steadfast; obstinate; stubborn; bookish; formal; stuffy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105680,
+      "kanji": "片仮名",
+      "kana": "かたかな",
+      "gloss": "katakana; angular Japanese syllabary used primarily for loanwords",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105698,
+      "kanji": "片付く",
+      "kana": "かたづく",
+      "gloss": "to be put in order; to be put to rights; to be disposed of; to be solved; to be finished; to be married (off)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119116,
+      "kanji": "塊",
+      "kana": "かたまり",
+      "gloss": "lump; mass; bundle; clump; clod; cluster; group; crowd; embodiment (of an idea, quality, feeling etc.); personification",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73157,
+      "kanji": "固まる",
+      "kana": "かたまる",
+      "gloss": "to harden; to solidify; to become firm; to become certain; to gather (together); to assemble; to huddle together",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105697,
+      "kanji": "片道",
+      "kana": "かたみち",
+      "gloss": "one-way (trip); one-way ticket",
+      "card_type": "vocab"
+    }
+  ]
+}

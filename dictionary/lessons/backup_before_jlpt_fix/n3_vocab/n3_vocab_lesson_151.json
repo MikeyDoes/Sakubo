@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 500: 尊敬, 存在, 尊重...",
+  "lesson_number": 500,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 91835,
+      "kanji": "尊敬",
+      "kana": "そんけい",
+      "gloss": "respect; esteem; reverence; honour; honor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91811,
+      "kanji": "存在",
+      "kana": "そんざい",
+      "gloss": "existence; being",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91841,
+      "kanji": "尊重",
+      "kana": "そんちょう",
+      "gloss": "respect; esteem; regard",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96545,
+      "kanji": "田",
+      "kana": "た",
+      "gloss": "rice field",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 165007,
+      "kanji": "他",
+      "kana": "た",
+      "gloss": "other (esp. people and abstract matters)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92290,
+      "kanji": "対",
+      "kana": "たい",
+      "gloss": "opposite; opposition; versus; vs.; v.; to (e.g. \"winning a game five to three\"); equal footing; equal terms; against ...; anti-; toward ...; to ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92292,
+      "kanji": "対",
+      "kana": "つい",
+      "gloss": "pair; couple; set; antithesis; counter for items that come in pairs; counter for sets (of clothes, small furniture, utensils, etc.)",
+      "card_type": "vocab"
+    }
+  ]
+}

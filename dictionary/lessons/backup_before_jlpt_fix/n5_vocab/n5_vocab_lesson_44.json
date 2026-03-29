@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 144: 綺麗, 瓩, 粁...",
+  "lesson_number": 144,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 119561,
+      "kanji": "綺麗",
+      "kana": "きれい",
+      "gloss": "pretty; lovely; beautiful; fair; clean; clear; pure; tidy; neat; completely; entirely",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 42794,
+      "kanji": "瓩",
+      "kana": "キログラム",
+      "gloss": "kilogram; kilogramme",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 42797,
+      "kanji": "粁",
+      "kana": "キロメートル",
+      "gloss": "kilometer; kilometre",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70095,
+      "kanji": "銀行",
+      "kana": "ぎんこう",
+      "gloss": "bank; banking institution",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70072,
+      "kanji": "金曜日",
+      "kana": "きんようび",
+      "gloss": "Friday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109152,
+      "kanji": "薬",
+      "kana": "くすり",
+      "gloss": "medicine; pharmaceuticals; (legal) drugs; pill; ointment; salve; efficacious chemical (gunpowder, pesticide, etc.); (pottery) glaze; (illegal) drug; narcotic; small bribe",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 202135,
+      "kanji": "薬",
+      "kana": "やく",
+      "gloss": "dope; narcotic; drug",
+      "card_type": "vocab"
+    }
+  ]
+}

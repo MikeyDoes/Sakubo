@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 409: 期待, 帰宅, 貴重...",
+  "lesson_number": 409,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 67178,
+      "kanji": "期待",
+      "kana": "きたい",
+      "gloss": "expectation; anticipation; hope; promising; rising; up-and-coming",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67283,
+      "kanji": "帰宅",
+      "kana": "きたく",
+      "gloss": "returning home",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67571,
+      "kanji": "貴重",
+      "kana": "きちょう",
+      "gloss": "precious; valuable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67929,
+      "kanji": "議長",
+      "kana": "ぎちょう",
+      "gloss": "chair; chairman; chairperson; speaker (of an assembly); president (of a council, senate, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119412,
+      "kanji": "気付く",
+      "kana": "きづく",
+      "gloss": "to notice; to recognize; to recognise; to become aware of; to perceive; to realize; to realise",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67326,
+      "kanji": "気に入る",
+      "kana": "きにいる",
+      "gloss": "to like; to be pleased with; to be delighted with; to take a liking to; to suit one's fancy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67550,
+      "kanji": "記入",
+      "kana": "きにゅう",
+      "gloss": "entry (in a form, register, diary, etc.); filling in; filling out",
+      "card_type": "vocab"
+    }
+  ]
+}

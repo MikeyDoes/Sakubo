@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 421: 管, 具体, 下り...",
+  "lesson_number": 421,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 115345,
+      "kanji": "管",
+      "kana": "かん",
+      "gloss": "pipe; tube",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70295,
+      "kanji": "具体",
+      "kana": "ぐたい",
+      "gloss": "concrete; tangible; material",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62420,
+      "kanji": "下り",
+      "kana": "くだり",
+      "gloss": "down-train; train heading toward the ending point of its route; down-slope; downward going; downbound (esp. away from Tokyo); downstream; downhill",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70210,
+      "kanji": "苦痛",
+      "kana": "くつう",
+      "gloss": "pain; agony; bitterness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70177,
+      "kanji": "区別",
+      "kana": "くべつ",
+      "gloss": "distinction; differentiation; classification",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90589,
+      "kanji": "組",
+      "kana": "くみ",
+      "gloss": "set (of items); group (of people); class (of students); company (esp. construction); family (i.e. mafia); team; typesetting; composition",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90629,
+      "kanji": "組合",
+      "kana": "くみあい",
+      "gloss": "association; union; guild",
+      "card_type": "vocab"
+    }
+  ]
+}

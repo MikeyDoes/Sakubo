@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 553: 博士, 計る, 吐く...",
+  "lesson_number": 553,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 295270,
+      "kanji": "博士",
+      "kana": "はくし",
+      "gloss": "doctor; PhD; Dr.; expert; learned person",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122076,
+      "kanji": "計る",
+      "kana": "はかる",
+      "gloss": "to measure; to weigh; to survey; to time (sound, gauge, estimate); to conjecture; to infer; to surmise",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96736,
+      "kanji": "吐く",
+      "kana": "つく",
+      "gloss": "to breathe out; to breathe; to tell (a lie); to use (foul language); to vomit; to throw up; to spit up",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100924,
+      "kanji": "拍手",
+      "kana": "はくしゅ",
+      "gloss": "clapping hands; applause",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 153987,
+      "kanji": "拍手",
+      "kana": "かしわで",
+      "gloss": "clapping one's hands in prayer (at a shrine)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101095,
+      "kanji": "莫大",
+      "kana": "ばくだい",
+      "gloss": "vast; huge; immense; enormous; colossal; malva nut (Sterculia lychnophora)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101078,
+      "kanji": "爆発",
+      "kana": "ばくはつ",
+      "gloss": "explosion; detonation; eruption; eruption (of discontent, etc.); outburst; outpouring",
+      "card_type": "vocab"
+    }
+  ]
+}

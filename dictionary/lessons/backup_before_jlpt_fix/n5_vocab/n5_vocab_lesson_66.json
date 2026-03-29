@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 166: 掃除, 然うして, 然して...",
+  "lesson_number": 166,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 90916,
+      "kanji": "掃除",
+      "kana": "そうじ",
+      "gloss": "cleaning; sweeping; dusting; scrubbing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 125046,
+      "kanji": "然うして",
+      "kana": "そうして",
+      "gloss": "and; like that",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37449,
+      "kanji": "然して",
+      "kana": "そして",
+      "gloss": "and; and then; thus; and now; and finally",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37443,
+      "kanji": "其処",
+      "kana": "そこ",
+      "gloss": "there (place relatively near listener); there (place just mentioned); that place; then (of some incident just spoken of); that (of point just raised); you",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95711,
+      "kanji": "底",
+      "kana": "そこ",
+      "gloss": "bottom; sole",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37458,
+      "kanji": "其方",
+      "kana": "そちら",
+      "gloss": "that way; that direction; there; that (one); you; your family; your company; that person",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64873,
+      "kanji": "外",
+      "kana": "そと",
+      "gloss": "outside; exterior; the open (air); other place; somewhere else; outside one's group (family, company, etc.)",
+      "card_type": "vocab"
+    }
+  ]
+}

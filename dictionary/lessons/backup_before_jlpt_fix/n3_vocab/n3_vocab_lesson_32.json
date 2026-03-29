@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 381: お祖父さん, お喋り, 汚染...",
+  "lesson_number": 381,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 36612,
+      "kanji": "お祖父さん",
+      "kana": "おじいさん",
+      "gloss": "grandfather; male senior-citizen",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36655,
+      "kanji": "お喋り",
+      "kana": "おしゃべり",
+      "gloss": "chattering; talk; idle talk; chat; chitchat; gossip; chatty; talkative; chatterbox; blabbermouth",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61705,
+      "kanji": "汚染",
+      "kana": "おせん",
+      "gloss": "pollution; contamination",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69218,
+      "kanji": "恐らく",
+      "kana": "おそらく",
+      "gloss": "perhaps; likely; probably; I dare say",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118754,
+      "kanji": "恐れる",
+      "kana": "おそれる",
+      "gloss": "to fear; to be afraid of",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69227,
+      "kanji": "恐ろしい",
+      "kana": "おそろしい",
+      "gloss": "terrible; dreadful; terrifying; frightening; surprising; startling; tremendous; amazing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 168640,
+      "kanji": "お互い",
+      "kana": "おたがい",
+      "gloss": "each other; one another",
+      "card_type": "vocab"
+    }
+  ]
+}

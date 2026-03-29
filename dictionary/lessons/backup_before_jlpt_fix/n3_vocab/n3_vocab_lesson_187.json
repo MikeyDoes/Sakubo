@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 536: 年月, 図書, 年寄...",
+  "lesson_number": 536,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 116930,
+      "kanji": "年月",
+      "kana": "としつき",
+      "gloss": "months and years",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86882,
+      "kanji": "図書",
+      "kana": "としょ",
+      "gloss": "books",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121539,
+      "kanji": "年寄",
+      "kana": "としより",
+      "gloss": "old person; elderly person; senior citizen; trustee of the Japan Sumo Association; retired high-ranking wrestler who is licensed to coach and receives retirement pay; senior statesman (of the Tokugawa shogunate); important local official (under the Tokugawa Shogunate)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105310,
+      "kanji": "閉じる",
+      "kana": "とじる",
+      "gloss": "to close (e.g. book, eyes, meeting, etc.); to shut",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124671,
+      "kanji": "途端",
+      "kana": "とたん",
+      "gloss": "just (now, at the moment, etc.); just as; in the act of; as soon as; at the moment that",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96997,
+      "kanji": "土地",
+      "kana": "とち",
+      "gloss": "plot of land; lot; soil; locality; region; place",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98505,
+      "kanji": "突然",
+      "kana": "とつぜん",
+      "gloss": "abrupt; sudden; unexpected",
+      "card_type": "vocab"
+    }
+  ]
+}

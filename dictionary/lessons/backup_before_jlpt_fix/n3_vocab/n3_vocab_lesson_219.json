@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 568: ｐｉｎｇ, 筒, 不...",
+  "lesson_number": 568,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 216662,
+      "kanji": "ｐｉｎｇ",
+      "kana": "ピン",
+      "gloss": "ping",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 293728,
+      "kanji": "筒",
+      "kana": "ピン",
+      "gloss": "counter for dot tiles",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 162122,
+      "kanji": "不",
+      "kana": "ふ",
+      "gloss": "un-; non-; negative prefix",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 228039,
+      "kanji": "不",
+      "kana": "ぶ",
+      "gloss": "un-; non-; bad ...; poor ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 166025,
+      "kanji": "無",
+      "kana": "む",
+      "gloss": "nothing; naught; nought; nil; zero; un-; non-",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104580,
+      "kanji": "分",
+      "kana": "ふん",
+      "gloss": "minute (unit of time); fun (one tenth of a monme, 5.787 grains)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104581,
+      "kanji": "分",
+      "kana": "ぶ",
+      "gloss": "one-tenth; one percent (one-tenth of a wari); 3 mm (one-tenth of a sun); 2.4 mm (one-tenth of a mon, a traditional unit used to measure shoe sizes); 0.1 degree (one-tenth of a do, used to measure body temperature on any temperature scale); one-quarter of a ryō (obsolete unit of currency); thickness; advantageous circumstances; one-tenth of a monme of silver",
+      "card_type": "vocab"
+    }
+  ]
+}

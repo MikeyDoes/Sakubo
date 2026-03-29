@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1039: 仕掛ける, 然しながら, 市街...",
+  "lesson_number": 1039,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 78136,
+      "kanji": "仕掛ける",
+      "kana": "しかける",
+      "gloss": "to start; to begin; to commence; to challenge; to pick (a fight); to make (war); to draw (a reaction) from; to set (traps); to plant (explosives); to lay (mines); to make a meld call",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105012,
+      "kanji": "然しながら",
+      "kana": "しかしながら",
+      "gloss": "however; nevertheless",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78637,
+      "kanji": "市街",
+      "kana": "しがい",
+      "gloss": "urban areas; the streets; town; city",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78830,
+      "kanji": "指揮",
+      "kana": "しき",
+      "gloss": "command; direction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85200,
+      "kanji": "色彩",
+      "kana": "しきさい",
+      "gloss": "colour; color; hue; tints",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80036,
+      "kanji": "式場",
+      "kana": "しきじょう",
+      "gloss": "ceremonial hall (e.g. wedding, funeral); hall for ceremonies; place of ceremony",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120180,
+      "kanji": "為来り",
+      "kana": "しきたり",
+      "gloss": "custom; convention; tradition; mores; conventional practice",
+      "card_type": "vocab"
+    }
+  ]
+}

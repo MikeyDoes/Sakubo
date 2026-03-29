@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 414: 急に, 給料, 器用...",
+  "lesson_number": 414,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 209499,
+      "kanji": "急に",
+      "kana": "きゅうに",
+      "gloss": "swiftly; rapidly; quickly; immediately; hastily; hurriedly; suddenly; abruptly; unexpectedly; sharply (of a slope, bend, etc.); steeply",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68504,
+      "kanji": "給料",
+      "kana": "きゅうりょう",
+      "gloss": "salary; wages; pay",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66947,
+      "kanji": "器用",
+      "kana": "きよう",
+      "gloss": "skillful; skilful; adroit; dexterous; dextrous; deft; nimble; handy; clever; shrewd; ingenious",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69266,
+      "kanji": "教科書",
+      "kana": "きょうかしょ",
+      "gloss": "textbook; coursebook; schoolbook",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68946,
+      "kanji": "競技",
+      "kana": "きょうぎ",
+      "gloss": "game; match; contest",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75145,
+      "kanji": "行儀",
+      "kana": "ぎょうぎ",
+      "gloss": "manners; behavior; behaviour",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68895,
+      "kanji": "供給",
+      "kana": "きょうきゅう",
+      "gloss": "supply; provision",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1021: 下がる, 一昨昨日, 先に...",
+  "lesson_number": 1021,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 62394,
+      "kanji": "下がる",
+      "kana": "さがる",
+      "gloss": "to come down; to go down; to fall; to drop; to sink; to get lower; to hang; to dangle; to move back; to step back; to withdraw; to retire; to deteriorate; to fall off; to be downgraded; to get closer to the present day; to go south",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114841,
+      "kanji": "一昨昨日",
+      "kana": "いっさくさくじつ",
+      "gloss": "two days before yesterday; three days back (ago)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89248,
+      "kanji": "先に",
+      "kana": "さきに",
+      "gloss": "previously; before; earlier; formerly; recently; first; before (something or someone else); ahead (of); beforehand; in advance; ahead of time",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89250,
+      "kanji": "先に",
+      "kana": "せんに",
+      "gloss": "formerly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76418,
+      "kanji": "詐欺",
+      "kana": "さぎ",
+      "gloss": "fraud; swindle; graft; cheating; trick; scam",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77071,
+      "kanji": "作",
+      "kana": "さく",
+      "gloss": "work (e.g. of art); production; harvest; cultivation; farming; crop; yield; technique",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77206,
+      "kanji": "策",
+      "kana": "さく",
+      "gloss": "plan; policy; means; measure; stratagem; scheme; fifth principle of the Eight Principles of Yong; right upward flick",
+      "card_type": "vocab"
+    }
+  ]
+}

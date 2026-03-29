@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 647: 回転, 解答, 回答...",
+  "lesson_number": 647,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 64393,
+      "kanji": "回転",
+      "kana": "かいてん",
+      "gloss": "rotation (usu. around something); revolution; turning",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64330,
+      "kanji": "解答",
+      "kana": "かいとう",
+      "gloss": "answer; solution",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64398,
+      "kanji": "回答",
+      "kana": "かいとう",
+      "gloss": "reply; answer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64970,
+      "kanji": "外部",
+      "kana": "がいぶ",
+      "gloss": "outside (e.g. of a building); exterior; outside (of a group, company, etc.); outside world",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64339,
+      "kanji": "解放",
+      "kana": "かいほう",
+      "gloss": "release; unleashing; liberation; emancipation; setting free; deallocation (of computer memory)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64844,
+      "kanji": "開放",
+      "kana": "かいほう",
+      "gloss": "opening (a door, window, etc.); leaving open; opening up (e.g. to the public); allowing (public) access",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64685,
+      "kanji": "海洋",
+      "kana": "かいよう",
+      "gloss": "ocean",
+      "card_type": "vocab"
+    }
+  ]
+}

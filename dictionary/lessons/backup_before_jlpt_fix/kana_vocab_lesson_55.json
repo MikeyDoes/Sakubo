@@ -1,0 +1,31 @@
+{
+  "lesson_number": 55,
+  "title": "Lesson 55 (Vocab) - マイク, チーム, ハム...",
+  "description": "マイク (Mike/Mic) and チーム (Team). You’re now reading 4-character Katakana words easily.",
+  "items": [
+    {
+      "entry_id": 54597,
+      "kanji": null,
+      "kana": "マイク",
+      "gloss": "mike; mic; microphone"
+    },
+    {
+      "entry_id": 47632,
+      "kanji": null,
+      "kana": "チーム",
+      "gloss": "team"
+    },
+    {
+      "entry_id": 50205,
+      "kanji": null,
+      "kana": "ハム",
+      "gloss": "ham (cured pig meat); ham (amateur radio enthusiast)"
+    },
+    {
+      "entry_id": 55595,
+      "kanji": null,
+      "kana": "メモ",
+      "gloss": "memo; note; memorandum"
+    }
+  ]
+}

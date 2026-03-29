@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 769: 吊す, 出合い, 手洗い...",
+  "lesson_number": 769,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 95461,
+      "kanji": "吊す",
+      "kana": "つるす",
+      "gloss": "to hang; to hang up",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82639,
+      "kanji": "出合い",
+      "kana": "であい",
+      "gloss": "meeting; rendezvous; encounter; confluence",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81257,
+      "kanji": "手洗い",
+      "kana": "てあらい",
+      "gloss": "washing one's hands; water (or basin, etc.) for washing one's hands; restroom; lavatory; toilet; hand-washing (laundry, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95637,
+      "kanji": "定員",
+      "kana": "ていいん",
+      "gloss": "fixed number (of people); prescribed number (of regular personnel, students, etc.); quota; numerical limit; complement; capacity (of a bus, boat, theatre, etc.); seating capacity",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95638,
+      "kanji": "定価",
+      "kana": "ていか",
+      "gloss": "list price; regular price; established price",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95515,
+      "kanji": "低下",
+      "kana": "ていか",
+      "gloss": "fall; decline; lowering; deterioration; degradation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95648,
+      "kanji": "定期券",
+      "kana": "ていきけん",
+      "gloss": "commuter pass; season ticket",
+      "card_type": "vocab"
+    }
+  ]
+}

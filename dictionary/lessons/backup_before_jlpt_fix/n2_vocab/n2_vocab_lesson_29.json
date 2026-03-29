@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 645: 貝, 貝, 開会...",
+  "lesson_number": 645,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 64859,
+      "kanji": "貝",
+      "kana": "かい",
+      "gloss": "shellfish; seashell; shell",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 206028,
+      "kanji": "貝",
+      "kana": "ばい",
+      "gloss": "Japanese babylon (species of shelled mollusk, Babylonia japonica); Japanese ivory shell; spinning top (traditionally made from a Japanese babylon shell)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64801,
+      "kanji": "開会",
+      "kana": "かいかい",
+      "gloss": "opening of a meeting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118886,
+      "kanji": "会館",
+      "kana": "かいかん",
+      "gloss": "meeting hall; assembly hall",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64551,
+      "kanji": "改札",
+      "kana": "かいさつ",
+      "gloss": "examination of tickets; ticket gate; ticket barrier",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64313,
+      "kanji": "解散",
+      "kana": "かいさん",
+      "gloss": "breaking up (e.g. meeting); dispersing (e.g. crowd); dissolving (company, organization, etc.); liquidating; disbanding; dissolving (diet, parliament, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64640,
+      "kanji": "海水浴",
+      "kana": "かいすいよく",
+      "gloss": "swimming in the ocean; sea bathing; seawater bath; going for a dip in the ocean",
+      "card_type": "vocab"
+    }
+  ]
+}

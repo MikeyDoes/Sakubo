@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 816: 打つかる, 打付ける, 物騒...",
+  "lesson_number": 816,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 38185,
+      "kanji": "打つかる",
+      "kana": "ぶつかる",
+      "gloss": "to strike against; to collide with; to bump into; to conflict; to encounter; to meet; to clash",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 271145,
+      "kanji": "打付ける",
+      "kana": "ぶつける",
+      "gloss": "to hit (e.g. one's head); to strike; to crash into; to throw (e.g. a ball, a question, a demand); to express; to vent (e.g. one's anger)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104550,
+      "kanji": "物騒",
+      "kana": "ぶっそう",
+      "gloss": "dangerous; unsettled; troubled; disturbed; insecure",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89900,
+      "kanji": "船便",
+      "kana": "ふなびん",
+      "gloss": "surface mail (ship); sea mail; ferry service; steamer service",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104145,
+      "kanji": "部品",
+      "kana": "ぶひん",
+      "gloss": "parts; accessories; components",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86943,
+      "kanji": "吹雪",
+      "kana": "ふぶき",
+      "gloss": "snow storm; blizzard",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103903,
+      "kanji": "父母",
+      "kana": "ふぼ",
+      "gloss": "father and mother; parents",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 2: ほう, カップ, カメラ...",
+  "lesson_number": 1308,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 275216,
+      "kana": "ほう",
+      "gloss": "oh; ho; exclamation of surprise, admiration, etc.; hoo (owl call); toot (sound of a flute)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 42113,
+      "kana": "カップ",
+      "gloss": "cup (drinking vessel, measure, brassiere, prize, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 42214,
+      "kana": "カメラ",
+      "gloss": "camera",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 42329,
+      "kana": "カレンダー",
+      "gloss": "calendar; calender (machine for flattening things)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 42820,
+      "kana": "ギター",
+      "gloss": "guitar",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 42793,
+      "kana": "キロ",
+      "gloss": "kilo-; 1000; kilogram; kilogramme; kilometre; kilometer; 1024; 2^10",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 43005,
+      "kana": "クラス",
+      "gloss": "class",
+      "card_type": "vocab"
+    }
+  ]
+}

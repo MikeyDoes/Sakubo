@@ -1,0 +1,37 @@
+{
+  "title": "Lesson 48: (Vocab) - アパート, シャワー, スプーン...",
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 39233,
+      "kana": "アパート",
+      "gloss": "apartment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 45526,
+      "kana": "シャワー",
+      "gloss": "shower",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47022,
+      "kana": "スプーン",
+      "gloss": "spoon",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47098,
+      "kana": "スポーツ",
+      "gloss": "sport; sports",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 46770,
+      "kana": "ストーブ",
+      "gloss": "heater; stove",
+      "card_type": "vocab"
+    }
+  ],
+  "lesson_number": 48
+}

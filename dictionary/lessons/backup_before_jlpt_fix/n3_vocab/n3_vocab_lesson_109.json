@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 458: 従う, 従って, 親しい...",
+  "lesson_number": 458,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 82252,
+      "kanji": "従う",
+      "kana": "したがう",
+      "gloss": "to obey (an order, law, etc.); to abide by (a rule, custom, etc.); to follow; to observe; to conform to; to yield to; to follow (a person); to accompany; to go with; to go alongside (e.g. a river); to follow (e.g. a sign); to serve (as); to engage in (work)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82260,
+      "kanji": "従って",
+      "kana": "したがって",
+      "gloss": "therefore; consequently; accordingly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86199,
+      "kanji": "親しい",
+      "kana": "したしい",
+      "gloss": "close (e.g. friend); familiar; friendly; intimate; familiar (e.g. story); well-known (to one); close (relatives); closely related",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 181865,
+      "kanji": "親しい",
+      "kana": "ちかしい",
+      "gloss": "intimate; close",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80254,
+      "kanji": "質",
+      "kana": "しつ",
+      "gloss": "quality; value; nature; inherent quality; character; logical quality",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80255,
+      "kanji": "質",
+      "kana": "たち",
+      "gloss": "nature (of a person); disposition; temperament; nature (of something); character; kind; sort",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 261600,
+      "kanji": "質",
+      "kana": "しち",
+      "gloss": "pawn; pawned article; pledge; security; guarantee",
+      "card_type": "vocab"
+    }
+  ]
+}

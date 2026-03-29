@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 909: 教え, 押し込む, 惜しむ...",
+  "lesson_number": 909,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 69251,
+      "kanji": "教え",
+      "kana": "おしえ",
+      "gloss": "teaching; instruction; teachings; precept; lesson; doctrine",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61876,
+      "kanji": "押し込む",
+      "kana": "おしこむ",
+      "gloss": "to push into; to cram into; to stuff into; to crowd into; to break in; to burgle; to burglarize",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88461,
+      "kanji": "惜しむ",
+      "kana": "おしむ",
+      "gloss": "to be frugal; to be sparing; to value; to hold dear; to regret (e.g. a loss); to feel sorry (for); to be unwilling; to be reluctant",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61857,
+      "kanji": "押し寄せる",
+      "kana": "おしよせる",
+      "gloss": "to advance on; to close in; to march on; to descend on (the enemy); to move towards; to surge forward (crowd, wave of nostalgia, wave, etc.); to rush for (the door); to inundate; to overwhelm; to push aside",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118750,
+      "kanji": "雄",
+      "kana": "おす",
+      "gloss": "male (animal, plant)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 271278,
+      "kanji": "雄",
+      "kana": "お",
+      "gloss": "male; manly; brave; heroic; larger (of the two); greater; man; husband",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 298227,
+      "kanji": "雄",
+      "kana": "ゆう",
+      "gloss": "male; man; excellence; greatness; best (of); great person; leading figure",
+      "card_type": "vocab"
+    }
+  ]
+}

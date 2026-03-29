@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 707: 時速, 子孫, 死体...",
+  "lesson_number": 707,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 79723,
+      "kanji": "時速",
+      "kana": "じそく",
+      "gloss": "speed (per hour)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78604,
+      "kanji": "子孫",
+      "kana": "しそん",
+      "gloss": "descendant; posterity; offspring",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78991,
+      "kanji": "死体",
+      "kana": "したい",
+      "gloss": "dead body; corpse; cadaver; carcass",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62550,
+      "kanji": "下書き",
+      "kana": "したがき",
+      "gloss": "draft; rough copy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62611,
+      "kanji": "下町",
+      "kana": "したまち",
+      "gloss": "low-lying part of a city (usu. containing shops, factories, etc.); Shitamachi (low-lying area of eastern Tokyo near Tokyo Bay, incl. Asakusa, Shitaya, Kanda, Fukugawa, Honjo, Nihonbashi, Kyobashi and surrounds)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79899,
+      "kanji": "自治",
+      "kana": "じち",
+      "gloss": "self-government; autonomy; local (governmental) autonomy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80288,
+      "kanji": "実感",
+      "kana": "じっかん",
+      "gloss": "real feeling; actual feeling; to actually feel; to have a real feeling (that ...); to experience personally",
+      "card_type": "vocab"
+    }
+  ]
+}

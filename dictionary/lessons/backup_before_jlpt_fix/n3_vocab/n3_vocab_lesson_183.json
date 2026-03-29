@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 532: 同様, 同僚, 道路...",
+  "lesson_number": 532,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 98005,
+      "kanji": "同様",
+      "kana": "どうよう",
+      "gloss": "same; similar; (just) like; equal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98008,
+      "kanji": "同僚",
+      "kana": "どうりょう",
+      "gloss": "coworker; co-worker; colleague; associate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98109,
+      "kanji": "道路",
+      "kana": "どうろ",
+      "gloss": "road; highway",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95291,
+      "kanji": "通す",
+      "kana": "とおす",
+      "gloss": "to stick through; to force through; to spread throughout; to thoroughly diffuse; to make a path between two points; to proceed in a logical manner; to let pass; to allow through; to lead (someone) into (a house, room, etc.); to show in; to go through (a middleman); to (look, listen) through (a window, wall, etc.); to pass (a law, applicant, etc.); to force to accept; to force agreement; to continue (in a state); to persist in; to do to the entirety of; to cover all of; to span the whole ...; to do from beginning to end without a break; to convey (one's ideas, etc.) to the other party; to do to the end; to carry through; to complete",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95300,
+      "kanji": "通り",
+      "kana": "とおり",
+      "gloss": "avenue; street; way; road; coming and going; street traffic; flow (of water, air, etc.); transmission (of sound); reach (e.g. of voice); fame; reputation; popularity; the same status or way; as (e.g. as expected, as I said); understanding; comprehension; counter for sets of things; counter for methods, ways, types",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95301,
+      "kanji": "通り",
+      "kana": "どおり",
+      "gloss": "in accordance with; following; roughly; about; Street; Avenue",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95310,
+      "kanji": "通り過ぎる",
+      "kana": "とおりすぎる",
+      "gloss": "to go past; to pass; to pass by",
+      "card_type": "vocab"
+    }
+  ]
+}

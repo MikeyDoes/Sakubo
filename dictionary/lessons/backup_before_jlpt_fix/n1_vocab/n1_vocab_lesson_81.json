@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 941: 還元, 刊行, 慣行...",
+  "lesson_number": 941,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 66426,
+      "kanji": "還元",
+      "kana": "かんげん",
+      "gloss": "restoration; return; reduction; resolution; deoxidization; deoxidation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65893,
+      "kanji": "刊行",
+      "kana": "かんこう",
+      "gloss": "publication; issue",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66137,
+      "kanji": "慣行",
+      "kana": "かんこう",
+      "gloss": "customary practice; habit; traditional event",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65931,
+      "kanji": "勧告",
+      "kana": "かんこく",
+      "gloss": "advice; counsel; remonstrance; recommendation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66269,
+      "kanji": "看護",
+      "kana": "かんご",
+      "gloss": "nursing; (army) nurse",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66195,
+      "kanji": "漢語",
+      "kana": "かんご",
+      "gloss": "Japanese word of Chinese origin; Sino-Japanese word; (ancient) Chinese language",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66151,
+      "kanji": "換算",
+      "kana": "かんさん",
+      "gloss": "conversion (e.g. yen to dollars); change; exchange; translation (numerical)",
+      "card_type": "vocab"
+    }
+  ]
+}

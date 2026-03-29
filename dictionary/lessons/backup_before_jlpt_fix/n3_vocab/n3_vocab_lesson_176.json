@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 525: 出会い, 出会う, 提案...",
+  "lesson_number": 525,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 82637,
+      "kanji": "出会い",
+      "kana": "であい",
+      "gloss": "meeting; rendezvous; encounter; confluence",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121472,
+      "kanji": "出会う",
+      "kana": "であう",
+      "gloss": "to meet (by chance); to come across; to run across; to encounter; to happen upon; to meet (e.g. of rivers, highways, etc.); to emerge and engage (an enemy)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95744,
+      "kanji": "提案",
+      "kana": "ていあん",
+      "gloss": "proposal; proposition; suggestion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95646,
+      "kanji": "定期",
+      "kana": "ていき",
+      "gloss": "fixed period; fixed term; regular; periodic; periodical; fixed-term commuter pass; fixed-term deposit; futures contracts",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95736,
+      "kanji": "抵抗",
+      "kana": "ていこう",
+      "gloss": "resistance; opposition; standing up to; reluctance; repulsion; repugnance; drag; friction; electrical resistance; resistor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95753,
+      "kanji": "提出",
+      "kana": "ていしゅつ",
+      "gloss": "presentation (of documents); submission (of an application, report, etc.); production (e.g. of evidence); introduction (e.g. of a bill); filing; turning in",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95781,
+      "kanji": "程度",
+      "kana": "ていど",
+      "gloss": "degree; amount; grade; standard; of the order of (following a number); about; approximately",
+      "card_type": "vocab"
+    }
+  ]
+}

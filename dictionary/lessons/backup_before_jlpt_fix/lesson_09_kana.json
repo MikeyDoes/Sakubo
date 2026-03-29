@@ -1,0 +1,38 @@
+{
+  "source_file": "Spoonfed Japanese Kana Lessons 1-32.ods",
+  "items": [
+    {
+      "entry_id": 325364,
+      "kanji": null,
+      "kana": "は",
+      "gloss": "ha"
+    },
+    {
+      "entry_id": 325365,
+      "kanji": null,
+      "kana": "ひ",
+      "gloss": "hi"
+    },
+    {
+      "entry_id": 325366,
+      "kanji": null,
+      "kana": "ふ",
+      "gloss": "fu"
+    },
+    {
+      "entry_id": 325367,
+      "kanji": null,
+      "kana": "へ",
+      "gloss": "he"
+    },
+    {
+      "entry_id": 325368,
+      "kanji": null,
+      "kana": "ほ",
+      "gloss": "ho"
+    }
+  ],
+  "title": "Lesson 17 (Kana) - はひふへほ",
+  "lesson_number": 17,
+  "description": "Remind user that は is read as 'ha' here because it is a word, not the particle 'wa'."
+}

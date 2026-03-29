@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1060: 処置, 所定, 所得...",
+  "lesson_number": 1060,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 83146,
+      "kanji": "処置",
+      "kana": "しょち",
+      "gloss": "measure; step; dealing with; medical treatment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83257,
+      "kanji": "所定",
+      "kana": "しょてい",
+      "gloss": "prescribed; designated; appointed; fixed",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83258,
+      "kanji": "所得",
+      "kana": "しょとく",
+      "gloss": "income; earnings",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83215,
+      "kanji": "初版",
+      "kana": "しょはん",
+      "gloss": "first edition",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83147,
+      "kanji": "処罰",
+      "kana": "しょばつ",
+      "gloss": "punishment; penalty",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83379,
+      "kanji": "書評",
+      "kana": "しょひょう",
+      "gloss": "book review",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83148,
+      "kanji": "処分",
+      "kana": "しょぶん",
+      "gloss": "disposal; throwing away; selling off; dealing with (a problem); measure; punishment; penalty; putting down (e.g. diseased animal)",
+      "card_type": "vocab"
+    }
+  ]
+}

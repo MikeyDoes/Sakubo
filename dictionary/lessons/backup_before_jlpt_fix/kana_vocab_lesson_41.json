@@ -1,0 +1,37 @@
+{
+  "lesson_number": 41,
+  "title": "Lesson 41 (Vocab) - サイズ, ガス, ジグザグ...",
+  "description": "サイズ (Size) and クイズ (Quiz). Notice how ジ is used for the \"J\" sound in \"Zigzag.\"",
+  "items": [
+    {
+      "entry_id": 44673,
+      "kanji": null,
+      "kana": "サイズ",
+      "gloss": "size"
+    },
+    {
+      "entry_id": 326346,
+      "kanji": null,
+      "kana": "ガス",
+      "gloss": "gas"
+    },
+    {
+      "entry_id": 45919,
+      "kanji": null,
+      "kana": "ジグザグ",
+      "gloss": "zig-zag; zigzag"
+    },
+    {
+      "entry_id": 43603,
+      "kanji": null,
+      "kana": "ゲージ",
+      "gloss": "gauge"
+    },
+    {
+      "entry_id": 42920,
+      "kanji": null,
+      "kana": "クイズ",
+      "gloss": "quiz"
+    }
+  ]
+}

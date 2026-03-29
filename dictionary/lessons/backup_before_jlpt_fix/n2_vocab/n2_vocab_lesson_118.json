@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 734: すれ違う, 寸法, 姓...",
+  "lesson_number": 734,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 120702,
+      "kanji": "すれ違う",
+      "kana": "すれちがう",
+      "gloss": "to pass by one another; to miss meeting each other; to miss each other; to disagree",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87391,
+      "kanji": "寸法",
+      "kana": "すんぽう",
+      "gloss": "measurement; size; extent; dimension; plan; intention; arrangement; schedule",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87570,
+      "kanji": "姓",
+      "kana": "せい",
+      "gloss": "surname; family name; hereditary title (used in ancient Japan to denote rank and political standing)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 203235,
+      "kanji": "姓",
+      "kana": "かばね",
+      "gloss": "hereditary title (used in ancient Japan to denote rank and political standing); clan",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88440,
+      "kanji": "税関",
+      "kana": "ぜいかん",
+      "gloss": "customs; customs house",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88250,
+      "kanji": "製作",
+      "kana": "せいさく",
+      "gloss": "manufacture; production",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87519,
+      "kanji": "制作",
+      "kana": "せいさく",
+      "gloss": "work (film, book); production; creation; turning (something) out; development",
+      "card_type": "vocab"
+    }
+  ]
+}

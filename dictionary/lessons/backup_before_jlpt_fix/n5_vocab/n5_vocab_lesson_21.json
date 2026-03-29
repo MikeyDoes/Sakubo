@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 121: 薄い, 歌, 歌う...",
+  "lesson_number": 121,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 101025,
+      "kanji": "薄い",
+      "kana": "うすい",
+      "gloss": "thin; pale; light; faint; watery; dilute; weak (taste, etc.); little (affection, etc.) not much (of a presence); slim (probability, etc.); small; sparse; patchy; scattered",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63513,
+      "kanji": "歌",
+      "kana": "うた",
+      "gloss": "song; classical Japanese poetry (esp. tanka); modern poetry",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118445,
+      "kanji": "歌う",
+      "kana": "うたう",
+      "gloss": "to sing; to sing (one's praises in a poem, etc.); to compose a poem; to recite a poem",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87999,
+      "kanji": "生まれる",
+      "kana": "うまれる",
+      "gloss": "to be born",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64589,
+      "kanji": "海",
+      "kana": "うみ",
+      "gloss": "sea; ocean; waters",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100797,
+      "kanji": "売る",
+      "kana": "うる",
+      "gloss": "to sell",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101835,
+      "kanji": "煩い",
+      "kana": "うるさい",
+      "gloss": "noisy; loud; annoying; troublesome; tiresome; persistent; importunate; fussy; finicky; picky; particular; nagging; fastidious; bossy; shut up!; be quiet!",
+      "card_type": "vocab"
+    }
+  ]
+}

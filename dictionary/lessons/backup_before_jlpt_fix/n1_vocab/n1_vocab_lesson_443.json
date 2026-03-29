@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1303: 枠, 惑星, 技...",
+  "lesson_number": 1303,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 112379,
+      "kanji": "枠",
+      "kana": "わく",
+      "gloss": "frame; framework; border; box; limit; restriction; quota; category; bracket; class; time slot (in a broadcasting schedule); live stream; live (online) broadcast; spool (of thread); reel",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112378,
+      "kanji": "惑星",
+      "kana": "わくせい",
+      "gloss": "planet",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67780,
+      "kanji": "技",
+      "kana": "わざ",
+      "gloss": "technique; art; skill; move",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123894,
+      "kanji": "態々",
+      "kana": "わざわざ",
+      "gloss": "expressly; especially; taking the trouble (to do); going to the trouble of (doing); going out of one's way (to do); intentionally; deliberately",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101839,
+      "kanji": "煩わしい",
+      "kana": "わずらわしい",
+      "gloss": "troublesome; annoying; complicated",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96885,
+      "kanji": "渡り鳥",
+      "kana": "わたりどり",
+      "gloss": "migratory bird; bird of passage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112388,
+      "kanji": "詫び",
+      "kana": "わび",
+      "gloss": "apology; excuse",
+      "card_type": "vocab"
+    }
+  ]
+}

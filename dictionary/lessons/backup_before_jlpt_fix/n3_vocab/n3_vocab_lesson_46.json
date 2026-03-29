@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 395: 数える, 型, 肩...",
+  "lesson_number": 395,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 87256,
+      "kanji": "数える",
+      "kana": "かぞえる",
+      "gloss": "to count; to enumerate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70947,
+      "kanji": "型",
+      "kana": "かた",
+      "gloss": "model; type (e.g. of machine, goods, etc.); type; style; pattern; mold (mould); template; kata (standard form of a movement, posture, etc. in martial arts, sport, etc.); form (i.e. customary procedure); size (i.e. clothing, shoes); inch (in diagonal display size); (taxonomical) form",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72103,
+      "kanji": "肩",
+      "kana": "かた",
+      "gloss": "shoulder",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71889,
+      "kanji": "硬い",
+      "kana": "かたい",
+      "gloss": "hard; solid; tough; stiff; tight; wooden; unpolished (e.g. writing); strong; firm (not viscous or easily moved); safe; steady; honest; steadfast; obstinate; stubborn; bookish; formal; stuffy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117264,
+      "kanji": "方々",
+      "kana": "かたがた",
+      "gloss": "people; (all) persons; everyone; ladies and gentlemen; you (usu. plural); various",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117267,
+      "kanji": "方々",
+      "kana": "ほうぼう",
+      "gloss": "here and there; this way and that way; everywhere; all over",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97128,
+      "kanji": "刀",
+      "kana": "かたな",
+      "gloss": "sword (esp. Japanese single-edged); katana; scalpel; chisel; burin; graver; knife money (knife-shaped commodity money used in ancient China)",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 510: 度, 度, 旅...",
+  "lesson_number": 510,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 96944,
+      "kanji": "度",
+      "kana": "たび",
+      "gloss": "time (three times, each time, etc.); times",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96945,
+      "kanji": "度",
+      "kana": "ど",
+      "gloss": "degree (angle, temperature, scale, etc.); counter for occurrences; strength (of glasses); glasses prescription; alcohol content (percentage); alcohol by volume; extent; degree; limit; presence of mind; composure",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111141,
+      "kanji": "旅",
+      "kana": "たび",
+      "gloss": "travel; trip; journey",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 256240,
+      "kanji": "旅",
+      "kana": "りょ",
+      "gloss": "500-man battalion (Zhou-dynasty Chinese army)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121075,
+      "kanji": "度々",
+      "kana": "たびたび",
+      "gloss": "often; again and again; over and over again; repeatedly; frequently",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 161963,
+      "kanji": "玉",
+      "kana": "ぎょく",
+      "gloss": "precious stone (esp. jade); egg (sometimes esp. as a sushi topping); stock or security being traded; product being bought or sold; position (in finance, the amount of a security either owned or owed by an investor or dealer); geisha; time charge for a geisha; king (of the junior player)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 195743,
+      "kanji": "弾",
+      "kana": "だん",
+      "gloss": "counter for parts, stages, installments, etc. (of a story, series, project, campaign, etc.); counter for bullets",
+      "card_type": "vocab"
+    }
+  ]
+}

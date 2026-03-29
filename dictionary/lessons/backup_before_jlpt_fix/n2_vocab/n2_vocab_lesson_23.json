@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 639: 送り仮名, 怠る, 押える...",
+  "lesson_number": 639,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 91366,
+      "kanji": "送り仮名",
+      "kana": "おくりがな",
+      "gloss": "kana written after a kanji to complete the full (usually kun) reading of the word; declensional kana ending",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92408,
+      "kanji": "怠る",
+      "kana": "おこたる",
+      "gloss": "to be negligent in doing something; to shirk; to be off one's guard",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118722,
+      "kanji": "押える",
+      "kana": "おさえる",
+      "gloss": "to pin down; to hold down; to press down; to cover (esp. a part of one's body with one's hand); to clutch (a body part in pain); to press (a body part); to get a hold of; to obtain; to seize; to catch; to arrest; to grasp (a point); to comprehend; to quell; to subdue; to suppress; to repress; to hold back; to check; to curb; to contain",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36604,
+      "kanji": "お先に",
+      "kana": "おさきに",
+      "gloss": "before; previously; ahead; Pardon me for leaving (before you)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118724,
+      "kanji": "納める",
+      "kana": "おさめる",
+      "gloss": "to dedicate; to make an offering; to pay (fees); to supply; to store; to finish; to bring to a close; to restore (something to its place); to achieve (e.g. a result)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79778,
+      "kanji": "治める",
+      "kana": "おさめる",
+      "gloss": "to govern; to manage; to subdue",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88460,
+      "kanji": "惜しい",
+      "kana": "おしい",
+      "gloss": "regrettable; disappointing; unfortunate; precious; dear; valuable; too good for; deserving better; almost (but not quite); close (but no cigar)",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 346: 予習, 予定, 予約...",
+  "lesson_number": 346,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 109802,
+      "kanji": "予習",
+      "kana": "よしゅう",
+      "gloss": "preparation for a lesson",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109820,
+      "kanji": "予定",
+      "kana": "よてい",
+      "gloss": "plans; arrangement; schedule; program; programme; expectation; estimate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109873,
+      "kanji": "予約",
+      "kana": "よやく",
+      "gloss": "reservation; appointment; booking; advance order; contract; subscription; pledge; programming (e.g. a device); setting (e.g. a timer)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67044,
+      "kanji": "寄る",
+      "kana": "よる",
+      "gloss": "to approach; to draw near; to come near; to be close to; to gather (in one place); to come together; to meet; to stop by (while on one's way to another place); to drop by; to make a short visit; to grow old; to grow high (number, etc.); to grow (wrinkly); to lean against; to recline on; to push one's opponent while holding their belt; to decide on a price and come to a deal; to be swayed by (a person); to yield to",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66922,
+      "kanji": "喜ぶ",
+      "kana": "よろこぶ",
+      "gloss": "to be delighted; to be glad; to be pleased; to congratulate; to gratefully accept",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67756,
+      "kanji": "宜しい",
+      "kana": "よろしい",
+      "gloss": "good; OK; all right; fine; very well; will do; may; can",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110746,
+      "kanji": "理由",
+      "kana": "りゆう",
+      "gloss": "reason; pretext; motive",
+      "card_type": "vocab"
+    }
+  ]
+}

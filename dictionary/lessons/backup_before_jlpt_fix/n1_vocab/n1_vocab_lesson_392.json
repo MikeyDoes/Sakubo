@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1252: 任す, 負かす, 賄う...",
+  "lesson_number": 1252,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 99844,
+      "kanji": "任す",
+      "kana": "まかす",
+      "gloss": "to entrust; to leave to a person",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103936,
+      "kanji": "負かす",
+      "kana": "まかす",
+      "gloss": "to defeat",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112361,
+      "kanji": "賄う",
+      "kana": "まかなう",
+      "gloss": "to supply (goods, money, etc.); to cover (costs); to pay; to finance; to maintain (e.g. a family); to give board; to provide meals",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69609,
+      "kanji": "曲がる",
+      "kana": "まがる",
+      "gloss": "to bend; to curve; to warp; to wind; to twist; to turn; to be awry; to be askew; to be crooked",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65948,
+      "kanji": "巻",
+      "kana": "まき",
+      "gloss": "roll (e.g. of cloth); winding (e.g. watch); volume (of book); speeding up; heel (of a Japanese sandal)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 165885,
+      "kanji": "巻",
+      "kana": "かん",
+      "gloss": "volume (of book); reel (of film); scroll (of books or paintings); roll (paper, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104868,
+      "kanji": "紛らわしい",
+      "kana": "まぎらわしい",
+      "gloss": "easily mixed up (e.g. similar words); easily mistaken; confusingly similar; misleading; equivocal; ambiguous",
+      "card_type": "vocab"
+    }
+  ]
+}

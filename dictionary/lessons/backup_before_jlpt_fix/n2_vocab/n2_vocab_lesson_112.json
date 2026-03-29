@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 728: 森林, 親類, 針路...",
+  "lesson_number": 728,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 85830,
+      "kanji": "森林",
+      "kana": "しんりん",
+      "gloss": "forest; woods",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86266,
+      "kanji": "親類",
+      "kana": "しんるい",
+      "gloss": "relative; relation; kin",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86384,
+      "kanji": "針路",
+      "kana": "しんろ",
+      "gloss": "course; direction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86182,
+      "kanji": "神話",
+      "kana": "しんわ",
+      "gloss": "myth; legend",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86860,
+      "kanji": "酢",
+      "kana": "す",
+      "gloss": "vinegar",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124501,
+      "kanji": "水産",
+      "kana": "すいさん",
+      "gloss": "aquatic products; fisheries",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87184,
+      "kanji": "炊事",
+      "kana": "すいじ",
+      "gloss": "cooking; kitchen work",
+      "card_type": "vocab"
+    }
+  ]
+}

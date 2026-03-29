@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 514: 地, 地, 地...",
+  "lesson_number": 514,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 93715,
+      "kanji": "地",
+      "kana": "ち",
+      "gloss": "earth; ground; land; soil; place; territory; bottom (of a package, book, etc.); earth (one of the five elements)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96972,
+      "kanji": "地",
+      "kana": "つち",
+      "gloss": "earth; soil; dirt; clay; mud; the earth (historically, esp. as opposed to the heavens); the ground; the land; low-quality torinoko-gami (containing mud); (period of) refraining from construction in the direction of the god of the earth (in Onmyōdō)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 227989,
+      "kanji": "地",
+      "kana": "じ",
+      "gloss": "ground; land; earth; soil; the region in question; the local area; skin; texture; fabric; material; weave; base; background; one's true nature; narrative (i.e. descriptive part of a story); real life; actuality; captured territory (in the game of go); noh chorus; accompaniment music (in Japanese dance); basic phrase (in Japanese music; usu. repetitive); base part (of multiple shamisens)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93724,
+      "kanji": "地位",
+      "kana": "ちい",
+      "gloss": "(social) position; status",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93726,
+      "kanji": "地域",
+      "kana": "ちいき",
+      "gloss": "area; region",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93690,
+      "kanji": "知恵",
+      "kana": "ちえ",
+      "gloss": "wisdom; wit; sagacity; sense; intelligence; prajna (insight leading to enlightenment)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93730,
+      "kanji": "地下",
+      "kana": "ちか",
+      "gloss": "basement; cellar; underground place; underground; below ground; secret; under cover; underground (railway); subway; metro",
+      "card_type": "vocab"
+    }
+  ]
+}

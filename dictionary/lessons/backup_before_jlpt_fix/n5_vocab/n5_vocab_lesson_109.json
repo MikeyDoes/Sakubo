@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 209: 毎朝, 毎月, 毎週...",
+  "lesson_number": 209,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 107359,
+      "kanji": "毎朝",
+      "kana": "まいあさ",
+      "gloss": "every morning",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117316,
+      "kanji": "毎月",
+      "kana": "まいつき",
+      "gloss": "every month; each month; monthly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107358,
+      "kanji": "毎週",
+      "kana": "まいしゅう",
+      "gloss": "every week",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107362,
+      "kanji": "毎日",
+      "kana": "まいにち",
+      "gloss": "every day",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117318,
+      "kanji": "毎年",
+      "kana": "まいとし",
+      "gloss": "every year; yearly; annually",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107363,
+      "kanji": "毎晩",
+      "kana": "まいばん",
+      "gloss": "every night",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89966,
+      "kanji": "前",
+      "kana": "ぜん",
+      "gloss": "last (i.e. immediately preceding); previous; ex-; former; pre- (e.g. premodern); before; earlier",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Lesson 47: (Vocab) - コーヒー, ラジオ, カレー...",
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 326757,
+      "kana": "コーヒー",
+      "gloss": "coffee",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 56239,
+      "kana": "ラジオ",
+      "gloss": "radio",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326364,
+      "kana": "カレー",
+      "gloss": "curry; rice and curry",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 42793,
+      "kana": "キロ",
+      "gloss": "kilo; kilogram; kilometer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326367,
+      "kana": "グラム",
+      "gloss": "gram; gramme",
+      "card_type": "vocab"
+    }
+  ],
+  "lesson_number": 47
+}

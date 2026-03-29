@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 748: 太鼓, 対策, 大して...",
+  "lesson_number": 748,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 92040,
+      "kanji": "太鼓",
+      "kana": "たいこ",
+      "gloss": "drum",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92317,
+      "kanji": "対策",
+      "kana": "たいさく",
+      "gloss": "measure; step; countermeasure; counterplan; countermove; strategy; preparation (e.g. for a test)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92704,
+      "kanji": "大して",
+      "kana": "たいして",
+      "gloss": "(not so) much; (not) very",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92320,
+      "kanji": "対照",
+      "kana": "たいしょう",
+      "gloss": "contrast; antithesis; comparison",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92838,
+      "kanji": "大小",
+      "kana": "だいしょう",
+      "gloss": "size; large and small (sizes); various sizes; daishō (matched pair of long and short swords); large and small drums; long months and short months; sic bo (Macao dice game); tai sai; dai siu; big and small",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92258,
+      "kanji": "体制",
+      "kana": "たいせい",
+      "gloss": "order; system; structure; set-up; organization; organisation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92259,
+      "kanji": "体積",
+      "kana": "たいせき",
+      "gloss": "capacity; volume",
+      "card_type": "vocab"
+    }
+  ]
+}

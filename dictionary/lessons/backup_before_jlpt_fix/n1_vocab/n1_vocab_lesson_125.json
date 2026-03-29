@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 985: 蹴飛ばす, 貶す, 煙たい...",
+  "lesson_number": 985,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 82000,
+      "kanji": "蹴飛ばす",
+      "kana": "けとばす",
+      "gloss": "to kick away; to kick off; to kick hard; to refuse curtly; to reject outright",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114240,
+      "kanji": "貶す",
+      "kana": "けなす",
+      "gloss": "to speak ill of; to disparage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61445,
+      "kanji": "煙たい",
+      "kana": "けむたい",
+      "gloss": "smoky; awkward; ill at ease",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61453,
+      "kanji": "煙る",
+      "kana": "けむる",
+      "gloss": "to smoke (e.g. fire); to billow smoke; to smoulder; to smolder; to be hazy; to look dim",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63423,
+      "kanji": "家来",
+      "kana": "けらい",
+      "gloss": "retainer; retinue; servant",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71886,
+      "kanji": "圏",
+      "kana": "けん",
+      "gloss": "sphere; circle; range; area; zone; bloc; category",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72003,
+      "kanji": "権",
+      "kana": "けん",
+      "gloss": "right (to do something); authority; power",
+      "card_type": "vocab"
+    }
+  ]
+}

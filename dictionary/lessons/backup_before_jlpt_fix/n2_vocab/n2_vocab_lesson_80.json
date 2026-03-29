@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 696: 今晩は, 在学, 再三...",
+  "lesson_number": 696,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 76096,
+      "kanji": "今晩は",
+      "kana": "こんばんは",
+      "gloss": "good evening",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76971,
+      "kanji": "在学",
+      "kana": "ざいがく",
+      "gloss": "attending (school, college, etc.); being enrolled; being a student",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76544,
+      "kanji": "再三",
+      "kana": "さいさん",
+      "gloss": "again and again; repeatedly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76830,
+      "kanji": "祭日",
+      "kana": "さいじつ",
+      "gloss": "national holiday; festival day",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76487,
+      "kanji": "催促",
+      "kana": "さいそく",
+      "gloss": "pressing; urging; demanding; demand",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76772,
+      "kanji": "採点",
+      "kana": "さいてん",
+      "gloss": "marking; grading; scoring",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76802,
+      "kanji": "災難",
+      "kana": "さいなん",
+      "gloss": "calamity; misfortune; disaster",
+      "card_type": "vocab"
+    }
+  ]
+}

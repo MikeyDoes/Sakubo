@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 347: 利用, 両方, 旅館...",
+  "lesson_number": 347,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 110680,
+      "kanji": "利用",
+      "kana": "りよう",
+      "gloss": "use; utilization; utilisation; application",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111251,
+      "kanji": "両方",
+      "kana": "りょうほう",
+      "gloss": "both; both sides; both parties",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111142,
+      "kanji": "旅館",
+      "kana": "りょかん",
+      "gloss": "ryokan; traditional inn; Japanese-style lodging, usu. professionally-run",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111088,
+      "kanji": "留守",
+      "kana": "るす",
+      "gloss": "absence; being away from home; house-sitting; house-sitter; being left unattended to (of one's studies, etc.); neglecting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111648,
+      "kanji": "冷房",
+      "kana": "れいぼう",
+      "gloss": "air conditioning; air cooling",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111742,
+      "kanji": "歴史",
+      "kana": "れきし",
+      "gloss": "history",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111977,
+      "kanji": "連絡",
+      "kana": "れんらく",
+      "gloss": "contacting; (making) contact; getting in touch; communication; correspondence; call; message; connection (with a train, bus, etc.); joining (a railway line, etc.); meeting; connection (between matters, incidents, etc.); relation; link",
+      "card_type": "vocab"
+    }
+  ]
+}

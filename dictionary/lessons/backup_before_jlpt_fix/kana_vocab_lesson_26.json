@@ -1,0 +1,31 @@
+{
+  "lesson_number": 26,
+  "title": "Lesson 26 (Vocab) - やあ, よっ, やだ...",
+  "description": "やだ (No way!) and よっ (Yo!) are extremely common casual speech.",
+  "items": [
+    {
+      "entry_id": 183243,
+      "kanji": null,
+      "kana": "やあ",
+      "gloss": "Yo! (greeting); Wow! (expression of surprise)"
+    },
+    {
+      "entry_id": 266634,
+      "kanji": null,
+      "kana": "やだ",
+      "gloss": "not a chance; not likely; no way; no; oh no; yuck; eew; fault; defect; weak point"
+    },
+    {
+      "entry_id": 275311,
+      "kanji": null,
+      "kana": "やや",
+      "gloss": "oh!; oh my!; dear me!; not a chance; not likely; no way; no; oh no; yuck; eew"
+    },
+    {
+      "entry_id": 38528,
+      "kanji": null,
+      "kana": "ゆさゆさ",
+      "gloss": "swaying (with large slow movements); shaking"
+    }
+  ]
+}

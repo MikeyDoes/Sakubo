@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1100: 走行, 総合, 捜査...",
+  "lesson_number": 1100,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 91357,
+      "kanji": "走行",
+      "kana": "そうこう",
+      "gloss": "running (of a car, bus, etc.); traveling; travelling; running (of a program)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120807,
+      "kanji": "総合",
+      "kana": "そうごう",
+      "gloss": "synthesis; coordination; putting together; integration; composite; comprehensive",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90899,
+      "kanji": "捜査",
+      "kana": "そうさ",
+      "gloss": "search (esp. in criminal investigations); investigation; inquiry; enquiry",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90902,
+      "kanji": "捜索",
+      "kana": "そうさく",
+      "gloss": "search (esp. for someone or something missing); manhunt; legally authorized search of a person, building, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91323,
+      "kanji": "装飾",
+      "kana": "そうしょく",
+      "gloss": "ornament; decoration",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90988,
+      "kanji": "操縦",
+      "kana": "そうじゅう",
+      "gloss": "steering; piloting; flying; control; operation; handling; management; manipulation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90751,
+      "kanji": "創造",
+      "kana": "そうぞう",
+      "gloss": "creation",
+      "card_type": "vocab"
+    }
+  ]
+}

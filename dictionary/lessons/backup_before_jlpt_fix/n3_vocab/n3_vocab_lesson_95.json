@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 444: 今日は, 婚約, 混乱...",
+  "lesson_number": 444,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 76087,
+      "kanji": "今日は",
+      "kana": "こんにちは",
+      "gloss": "hello; good day; good afternoon",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76121,
+      "kanji": "婚約",
+      "kana": "こんやく",
+      "gloss": "engagement; betrothal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76238,
+      "kanji": "混乱",
+      "kana": "こんらん",
+      "gloss": "disorder; chaos; confusion; mayhem",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76302,
+      "kanji": "差",
+      "kana": "さ",
+      "gloss": "difference; variation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 228007,
+      "kanji": "差",
+      "kana": "さし",
+      "gloss": "between (e.g. two people); face to face; hindrance; impediment; arrhythmic section of recitative in noh music; playing with only 2 players; prefix used for stress or emphasis; counter for traditional dance songs",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76946,
+      "kanji": "際",
+      "kana": "きわ",
+      "gloss": "edge; brink; verge; side; time; moment of",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76948,
+      "kanji": "際",
+      "kana": "さい",
+      "gloss": "on the occasion of; circumstances; juncture",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 749: 大層, 体操, 大木...",
+  "lesson_number": 749,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 92878,
+      "kanji": "大層",
+      "kana": "たいそう",
+      "gloss": "very; extremely; exceedingly; greatly; terribly; extreme; excessive; great many; large number of; splendid; impressive; tremendous; immense; exaggerated",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92261,
+      "kanji": "体操",
+      "kana": "たいそう",
+      "gloss": "gymnastics; physical exercises; artistic gymnastics; gymnastics competition; physical education (class); PE",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92962,
+      "kanji": "大木",
+      "kana": "たいぼく",
+      "gloss": "large tree",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93011,
+      "kanji": "題名",
+      "kana": "だいめい",
+      "gloss": "title; caption; heading",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92619,
+      "kanji": "代名詞",
+      "kana": "だいめいし",
+      "gloss": "pronoun; synonym; classic example; pattern; byword; representative",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96557,
+      "kanji": "田植え",
+      "kana": "たうえ",
+      "gloss": "rice planting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89149,
+      "kanji": "絶えず",
+      "kana": "たえず",
+      "gloss": "constantly; always; continually; steadily",
+      "card_type": "vocab"
+    }
+  ]
+}

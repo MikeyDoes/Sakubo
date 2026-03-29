@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 295: 生活, 生産, 生産...",
+  "lesson_number": 295,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 88031,
+      "kanji": "生活",
+      "kana": "せいかつ",
+      "gloss": "living; life (one's daily existence); livelihood",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88045,
+      "kanji": "生産",
+      "kana": "せいさん",
+      "gloss": "production; manufacture",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 183574,
+      "kanji": "生産",
+      "kana": "せいざん",
+      "gloss": "live birth",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87672,
+      "kanji": "政治",
+      "kana": "せいじ",
+      "gloss": "politics; government",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88298,
+      "kanji": "西洋",
+      "kana": "せいよう",
+      "gloss": "the West; the Occident; Western countries",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87396,
+      "kanji": "世界",
+      "kana": "せかい",
+      "gloss": "the world; society; the universe; sphere; circle; world; world-renowned; world-famous; realm governed by one Buddha; space",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88456,
+      "kanji": "席",
+      "kana": "せき",
+      "gloss": "seat; location (of a gathering, etc.); place; position; post",
+      "card_type": "vocab"
+    }
+  ]
+}

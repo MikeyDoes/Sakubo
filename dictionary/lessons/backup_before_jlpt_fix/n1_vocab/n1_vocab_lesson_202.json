@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1062: 記す, 指令, 代...",
+  "lesson_number": 1062,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 67524,
+      "kanji": "記す",
+      "kana": "しるす",
+      "gloss": "to write down; to note; to jot down; to remember",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78871,
+      "kanji": "指令",
+      "kana": "しれい",
+      "gloss": "orders; instructions; directive; command",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92528,
+      "kanji": "代",
+      "kana": "しろ",
+      "gloss": "substitution; material; price; margin (e.g. for stapling, etc.); area required for something; shiro (unit of land area equal to one-fiftieth of a tan; approx. 19.83 m.sq.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123638,
+      "kanji": "代",
+      "kana": "よ",
+      "gloss": "world; society; public; life; lifetime; age; era; period; epoch; generation; reign; rule; the times; world (of existence)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 168979,
+      "kanji": "代",
+      "kana": "だい",
+      "gloss": "charge; cost; price; generation; age; (school) year; cohort; reign; era; a representative of; on behalf of; for (someone); switchboard number; counter for decades of ages, eras, etc.; counter for generations (of inheritors to a throne, etc.); proxy application company; pronoun",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 113500,
+      "kanji": "皺",
+      "kana": "しわ",
+      "gloss": "wrinkle; crease; ripple",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 191525,
+      "kanji": "皺",
+      "kana": "しぼ",
+      "gloss": "bumpy texture of a material (esp. woven fabric); creases in an eboshi hat",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 719: 純粋, 消化, 小学生...",
+  "lesson_number": 719,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 83067,
+      "kanji": "純粋",
+      "kana": "じゅんすい",
+      "gloss": "pure; true; genuine; unmixed",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84165,
+      "kanji": "消化",
+      "kana": "しょうか",
+      "gloss": "digestion (of food); digestion (of information); assimilation; thorough understanding; consumption; absorption; using up; meeting (e.g. a quota); completion; losing one's form and turning into something else",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83845,
+      "kanji": "小学生",
+      "kana": "しょうがくせい",
+      "gloss": "elementary school student; primary school student; grade school student",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78253,
+      "kanji": "仕様がない",
+      "kana": "しょうがない",
+      "gloss": "there's no (other) way; cannot be helped; unavoidable; inevitable; (there's) nothing one can do; having no choice; it's no use (doing); pointless; useless; no good; insufficient; not enough; hopeless (person); annoying; troublesome; awful; cannot stand it; unbearable; cannot help (doing, feeling); dying (to do)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83814,
+      "kanji": "将棋",
+      "kana": "しょうぎ",
+      "gloss": "shogi; Japanese chess",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85083,
+      "kanji": "蒸気",
+      "kana": "じょうき",
+      "gloss": "steam; vapour; vapor; steamboat; steam locomotive",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95649,
+      "kanji": "定規",
+      "kana": "じょうぎ",
+      "gloss": "(measuring) ruler",
+      "card_type": "vocab"
+    }
+  ]
+}

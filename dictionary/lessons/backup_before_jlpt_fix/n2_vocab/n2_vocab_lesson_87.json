@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 703: 爽やか, 三角, 算数...",
+  "lesson_number": 703,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 90879,
+      "kanji": "爽やか",
+      "kana": "さわやか",
+      "gloss": "fresh; refreshing; invigorating; clear (e.g. voice); fluent; eloquent",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77504,
+      "kanji": "三角",
+      "kana": "さんかく",
+      "gloss": "triangle; triangular shape",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78031,
+      "kanji": "算数",
+      "kana": "さんすう",
+      "gloss": "arithmetic",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78076,
+      "kanji": "酸性",
+      "kana": "さんせい",
+      "gloss": "acidity; acidic",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78013,
+      "kanji": "産地",
+      "kana": "さんち",
+      "gloss": "producing area",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77918,
+      "kanji": "山林",
+      "kana": "さんりん",
+      "gloss": "mountain forest; forest on a mountain; montane forest; mountains and forest",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78183,
+      "kanji": "仕上がる",
+      "kana": "しあがる",
+      "gloss": "to be finished; to be completed; to be done",
+      "card_type": "vocab"
+    }
+  ]
+}

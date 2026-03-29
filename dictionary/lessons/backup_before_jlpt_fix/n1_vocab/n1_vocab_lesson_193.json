@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1053: 主人公, 主体, 主体...",
+  "lesson_number": 1053,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 80881,
+      "kanji": "主人公",
+      "kana": "しゅじんこう",
+      "gloss": "protagonist; main character; hero(ine) (of a story); head of household",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80898,
+      "kanji": "主体",
+      "kana": "しゅたい",
+      "gloss": "main constituent; core; nucleus; subject (philosophical); protagonist",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 310488,
+      "kanji": "主体",
+      "kana": "チュチェ",
+      "gloss": "Juche (North Korean political ideology); self-reliance; Juche (North Korean calendar)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80901,
+      "kanji": "主題",
+      "kana": "しゅだい",
+      "gloss": "subject; theme; motif",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82687,
+      "kanji": "出血",
+      "kana": "しゅっけつ",
+      "gloss": "bleeding; haemorrhage; hemorrhage; bleeding money; red ink; selling below cost",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82712,
+      "kanji": "出産",
+      "kana": "しゅっさん",
+      "gloss": "childbirth; (giving) birth; delivery; parturition; confinement; production (of goods)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82726,
+      "kanji": "出社",
+      "kana": "しゅっしゃ",
+      "gloss": "going to work (e.g. in the morning); coming to work",
+      "card_type": "vocab"
+    }
+  ]
+}

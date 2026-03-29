@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 396: 語る, 勝ち, 勝ち...",
+  "lesson_number": 396,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 73822,
+      "kanji": "語る",
+      "kana": "かたる",
+      "gloss": "to talk about; to speak of; to tell; to narrate; to recite; to chant; to indicate; to show",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124440,
+      "kanji": "勝ち",
+      "kana": "かち",
+      "gloss": "win; victory",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 173245,
+      "kanji": "勝ち",
+      "kana": "がち",
+      "gloss": "apt to (do); liable to; prone to; inclined to; tend to; predominantly; mostly; having lots of; ... reaps the rewards; ... takes the prize; ... wins",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63097,
+      "kanji": "価値",
+      "kana": "かち",
+      "gloss": "value; worth; merit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65546,
+      "kanji": "活気",
+      "kana": "かっき",
+      "gloss": "energy; liveliness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65289,
+      "kanji": "学期",
+      "kana": "がっき",
+      "gloss": "school term; semester",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119138,
+      "kanji": "格好",
+      "kana": "かっこ",
+      "gloss": "shape; form; figure; posture; pose; appearance; state; situation; suitable; fit; reasonable; about",
+      "card_type": "vocab"
+    }
+  ]
+}

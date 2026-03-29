@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 20: ピアノ, ビル, プレゼント...",
+  "lesson_number": 1326,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 51683,
+      "kana": "ピアノ",
+      "gloss": "piano",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 51621,
+      "kana": "ビル",
+      "gloss": "multi-floor building; multi-storey building; bill",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 53196,
+      "kana": "プレゼント",
+      "gloss": "present; gift; to give a present or gift",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 53642,
+      "kana": "ベル",
+      "gloss": "bell; bel; B",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 253313,
+      "kana": "もし",
+      "gloss": "excuse me! (when calling out to someone)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 57074,
+      "kana": "レジ",
+      "gloss": "(cash) register; cashier",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 57209,
+      "kana": "レポート",
+      "gloss": "report; paper; reportage",
+      "card_type": "vocab"
+    }
+  ]
+}

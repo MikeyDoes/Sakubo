@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 951: 危害, 気兼ね, 気軽...",
+  "lesson_number": 951,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 66889,
+      "kanji": "危害",
+      "kana": "きがい",
+      "gloss": "injury; harm; danger",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67389,
+      "kanji": "気兼ね",
+      "kana": "きがね",
+      "gloss": "constraint; reserve; feeling hesitant; being afraid of troubling someone",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67388,
+      "kanji": "気軽",
+      "kana": "きがる",
+      "gloss": "carefree; buoyant; lighthearted; sprightly; ease",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66890,
+      "kanji": "危機",
+      "kana": "きき",
+      "gloss": "crisis; critical situation; emergency; pinch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104964,
+      "kanji": "聞き取り",
+      "kana": "ききとり",
+      "gloss": "listening comprehension; aural comprehension; hearing what others say; gathering information, opinions, etc.; public hearing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119327,
+      "kanji": "効き目",
+      "kana": "ききめ",
+      "gloss": "effect; virtue; efficacy; impression; one's dominant eye",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67267,
+      "kanji": "帰京",
+      "kana": "ききょう",
+      "gloss": "returning to (one's home in) Tokyo; returning to (one's home in) the capital",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 411: 気味, 気味, 気味...",
+  "lesson_number": 411,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 67462,
+      "kanji": "気味",
+      "kana": "きみ",
+      "gloss": "sensation; feeling; tendency; propensity",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 147740,
+      "kanji": "気味",
+      "kana": "ぎみ",
+      "gloss": "-like; -looking; -looked; tending to ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 255259,
+      "kanji": "気味",
+      "kana": "きあじ",
+      "gloss": "market sentiment (stock market); market tone",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67008,
+      "kanji": "奇妙",
+      "kana": "きみょう",
+      "gloss": "strange; odd; peculiar; queer; curious",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67882,
+      "kanji": "義務",
+      "kana": "ぎむ",
+      "gloss": "duty; obligation; responsibility",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67849,
+      "kanji": "疑問",
+      "kana": "ぎもん",
+      "gloss": "doubt; question; suspicion; dubiousness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68056,
+      "kanji": "逆",
+      "kana": "ぎゃく",
+      "gloss": "reverse; opposite; converse (of a hypothesis, etc.); inverse (function)",
+      "card_type": "vocab"
+    }
+  ]
+}

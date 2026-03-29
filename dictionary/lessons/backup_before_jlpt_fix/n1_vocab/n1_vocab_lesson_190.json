@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1050: 襲撃, 収支, 終始...",
+  "lesson_number": 1050,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 81990,
+      "kanji": "襲撃",
+      "kana": "しゅうげき",
+      "gloss": "attack; charge; raid",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81681,
+      "kanji": "収支",
+      "kana": "しゅうし",
+      "gloss": "income and expenditure",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81921,
+      "kanji": "終始",
+      "kana": "しゅうし",
+      "gloss": "beginning and end; doing something from beginning to end; being unchanged from beginning to end; from beginning to end; the whole time; throughout; consistently",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81828,
+      "kanji": "修士",
+      "kana": "しゅうし",
+      "gloss": "master's (academic degree)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120333,
+      "kanji": "収集",
+      "kana": "しゅうしゅう",
+      "gloss": "collecting; accumulating; gathering; collection (of art, stamps, insects, etc.); garbage collection; waste collection",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81832,
+      "kanji": "修飾",
+      "kana": "しゅうしょく",
+      "gloss": "ornamentation; embellishment; decoration; adornment; polish up (writing); modification; qualification",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81940,
+      "kanji": "終日",
+      "kana": "しゅうじつ",
+      "gloss": "all day; for a whole day",
+      "card_type": "vocab"
+    }
+  ]
+}

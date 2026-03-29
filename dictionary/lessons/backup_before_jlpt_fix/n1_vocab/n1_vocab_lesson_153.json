@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1013: 御, 御, 語彙...",
+  "lesson_number": 1013,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 208009,
+      "kanji": "御",
+      "kana": "おおみ",
+      "gloss": "august (in ref. to the emperor or the gods); imperial; divine",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 283768,
+      "kanji": "御",
+      "kana": "お",
+      "gloss": "honorific/polite/humble prefix",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73864,
+      "kanji": "語彙",
+      "kana": "ごい",
+      "gloss": "vocabulary; lexicon; lexis; terminology",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69563,
+      "kanji": "業",
+      "kana": "ごう",
+      "gloss": "karma; result of one's karma; fate; destiny; uncontrollable temper",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69564,
+      "kanji": "業",
+      "kana": "わざ",
+      "gloss": "deed; act; work; performance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 192032,
+      "kanji": "業",
+      "kana": "ぎょう",
+      "gloss": "work; business; company; agency; study",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75417,
+      "kanji": "号",
+      "kana": "ごう",
+      "gloss": "number; edition; make; model; issue; part of that group; sobriquet; pen-name; size (of printing types, canvases, knitting needles, etc.); suffix attached to names of ships, trains, airplanes, etc.",
+      "card_type": "vocab"
+    }
+  ]
+}

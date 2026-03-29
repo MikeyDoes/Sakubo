@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 501: 大, 大, 大...",
+  "lesson_number": 501,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 182137,
+      "kanji": "大",
+      "kana": "おお",
+      "gloss": "large; big; great; major; important; serious; heavy; loud; older; senior; final; ultimate; rough; broad; general",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 182171,
+      "kanji": "大",
+      "kana": "だい",
+      "gloss": "large; big; great; huge; vast; major; important; serious; severe; prominent; eminent; distinguished; -sized; as big as; the size of; university; large (e.g. serving size); large option; long month (i.e. having 31 days)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 228616,
+      "kanji": "大",
+      "kana": "おおき",
+      "gloss": "great; grand; large; greater (of equal court ranks); upper; senior; a great deal; very much",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 228618,
+      "kanji": "大",
+      "kana": "おおい",
+      "gloss": "greater (of equal court ranks); upper; senior; a great deal; very much",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 301464,
+      "kanji": "大",
+      "kana": "たい",
+      "gloss": "nth year in the Taishō era (1912.7.30-1926.12.25)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92641,
+      "kanji": "台",
+      "kana": "だい",
+      "gloss": "stand; rack; table; bench; podium; pedestal; platform; stage; support; holder; counter for machines, incl. vehicles; setting (e.g. in jewellery); level (e.g. price level); range (e.g. after physical units); period (of time, e.g. a decade of one's life); elevated area; viewing platform; dish tray; meal; tall building; tower",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 175815,
+      "kanji": "台",
+      "kana": "うてな",
+      "gloss": "tower; stand; pedestal; calyx",
+      "card_type": "vocab"
+    }
+  ]
+}

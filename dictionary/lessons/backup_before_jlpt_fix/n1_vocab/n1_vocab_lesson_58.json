@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 918: 科, 科, 科...",
+  "lesson_number": 918,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 63443,
+      "kanji": "科",
+      "kana": "か",
+      "gloss": "department; section; faculty; school; arm; course (of study); branch of study; specialization; (taxonomical) family",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117112,
+      "kanji": "科",
+      "kana": "しな",
+      "gloss": "article; item; thing; goods; stock; quality; flirtatiousness; coquetry",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 253776,
+      "kanji": "科",
+      "kana": "とが",
+      "gloss": "error; mistake; fault; sin; wrongdoing; offense",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 297514,
+      "kanji": "科",
+      "kana": "しな",
+      "gloss": "Japanese linden (Tilia japonica)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72927,
+      "kanji": "個",
+      "kana": "こ",
+      "gloss": "counter for articles; counter for military units; individual",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 202006,
+      "kanji": "個",
+      "kana": "か",
+      "gloss": "counter for the ichi-ni-san counting system (usu. directly preceding the item being counted); a noun read using its on-yomi",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 202014,
+      "kanji": "個",
+      "kana": "つ",
+      "gloss": "counter for the hito-futa-mi counting system (forming hitotsu, futatsu, mitsu, and misoji, yasoji, etc.)",
+      "card_type": "vocab"
+    }
+  ]
+}

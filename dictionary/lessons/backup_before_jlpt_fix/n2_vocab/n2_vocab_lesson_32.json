@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 648: 概論, 帰す, 帰す...",
+  "lesson_number": 648,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 65028,
+      "kanji": "概論",
+      "kana": "がいろん",
+      "gloss": "introduction; outline; general remarks",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67254,
+      "kanji": "帰す",
+      "kana": "かえす",
+      "gloss": "to send (someone) back; to send (someone) home",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 226284,
+      "kanji": "帰す",
+      "kana": "きす",
+      "gloss": "to come to (in the end); to end in; to attribute; to blame",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68010,
+      "kanji": "却って",
+      "kana": "かえって",
+      "gloss": "on the contrary; rather; all the more; instead",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118921,
+      "kanji": "代える",
+      "kana": "かえる",
+      "gloss": "to replace; to exchange; to interchange; to substitute",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101617,
+      "kanji": "反る",
+      "kana": "そる",
+      "gloss": "to warp; to curve; to arch; to bend; to bend backward (body or body part, e.g. fingers)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105753,
+      "kanji": "反る",
+      "kana": "かえる",
+      "gloss": "to return; to come back; to go back; to turn over; to become extremely; to become completely",
+      "card_type": "vocab"
+    }
+  ]
+}

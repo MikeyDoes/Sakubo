@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 453: 詩, 幸せ, ジェット機...",
+  "lesson_number": 453,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 163104,
+      "kanji": "詩",
+      "kana": "し",
+      "gloss": "poem; verse of poetry",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120144,
+      "kanji": "幸せ",
+      "kana": "しあわせ",
+      "gloss": "happiness; good fortune; luck; blessing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 45879,
+      "kanji": "ジェット機",
+      "kana": "ジェットき",
+      "gloss": "jet aeroplane; jet airplane",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95007,
+      "kanji": "直に",
+      "kana": "じかに",
+      "gloss": "directly; in person; firsthand",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95008,
+      "kanji": "直に",
+      "kana": "じきに",
+      "gloss": "immediately; right away; at once; soon; shortly; in a moment; before long; easily; readily",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105020,
+      "kanji": "然も",
+      "kana": "しかも",
+      "gloss": "moreover; furthermore; nevertheless; and yet",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80033,
+      "kanji": "式",
+      "kana": "しき",
+      "gloss": "equation; formula; expression; ceremony; style; enforcement regulations (of the ritsuryo)",
+      "card_type": "vocab"
+    }
+  ]
+}

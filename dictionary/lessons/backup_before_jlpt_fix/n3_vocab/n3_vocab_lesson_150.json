@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 499: 粗末, 夫れ夫れ, 其れでも...",
+  "lesson_number": 499,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 90505,
+      "kanji": "粗末",
+      "kana": "そまつ",
+      "gloss": "crude; rough; plain; humble; shabby",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120901,
+      "kanji": "夫れ夫れ",
+      "kana": "それぞれ",
+      "gloss": "each; respectively",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91801,
+      "kanji": "其れでも",
+      "kana": "それでも",
+      "gloss": "but (still); and yet; nevertheless; even so; notwithstanding",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 224488,
+      "kanji": "其れと",
+      "kana": "それと",
+      "gloss": "and then; in addition to that; also; even so",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37515,
+      "kanji": "其れ共",
+      "kana": "それとも",
+      "gloss": "or; or else",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91861,
+      "kanji": "損",
+      "kana": "そん",
+      "gloss": "loss; damage; harm; unprofitable; disadvantage; handicap; drawback; unfavorable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91866,
+      "kanji": "損害",
+      "kana": "そんがい",
+      "gloss": "damage; injury; loss",
+      "card_type": "vocab"
+    }
+  ]
+}

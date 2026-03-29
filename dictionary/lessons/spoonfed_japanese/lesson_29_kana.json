@@ -1,0 +1,25 @@
+{
+  "title": "Lesson 41: (Kana) - Lesson 41: (Katakana) \"ヤ, ユ, ヨ\"",
+  "lesson_type": "kana",
+  "items": [
+    {
+      "entry_id": 325216,
+      "kana": "ヤ",
+      "gloss": "ya",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325217,
+      "kana": "ユ",
+      "gloss": "yu",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325218,
+      "kana": "ヨ",
+      "gloss": "yo",
+      "card_type": "kana"
+    }
+  ],
+  "lesson_number": 41
+}

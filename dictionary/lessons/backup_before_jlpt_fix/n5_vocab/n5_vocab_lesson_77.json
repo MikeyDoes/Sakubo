@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 177: 点ける, 尾ける, 勤める...",
+  "lesson_number": 177,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 124565,
+      "kanji": "点ける",
+      "kana": "つける",
+      "gloss": "to turn on; to switch on; to light up",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 184620,
+      "kanji": "尾ける",
+      "kana": "つける",
+      "gloss": "to hunt a spy; to put a tail on someone; to stalk",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69752,
+      "kanji": "勤める",
+      "kana": "つとめる",
+      "gloss": "to work (for); to be employed (at); to serve (in); to serve (as); to act (as); to fill (the position of); to play the role (of); to conduct a religious service",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37701,
+      "kanji": "詰らない",
+      "kana": "つまらない",
+      "gloss": "dull; uninteresting; boring; tedious; insignificant; unimportant; trifling; trivial; worthless; absurd; foolish; silly; stupid; useless; pointless; disappointing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111583,
+      "kanji": "冷たい",
+      "kana": "つめたい",
+      "gloss": "cold (to the touch); chilly; icy; freezing; (emotionally) cold; coldhearted; unfeeling; indifferent; unfriendly; distant",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69154,
+      "kanji": "強い",
+      "kana": "つよい",
+      "gloss": "strong; potent; competent; domineering; tough; brawny; powerful; healthy; rugged; good (at); skilled; knowledgeable; being able to handle; know how to deal (with); durable (against); resistant (to); resilient; firm; rigid; solid; intense; fierce; high; dependable; trustworthy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 182975,
+      "kanji": "強い",
+      "kana": "こわい",
+      "gloss": "tough; stiff; hard; inflexible; obstinate; stubborn; tired; worn out",
+      "card_type": "vocab"
+    }
+  ]
+}

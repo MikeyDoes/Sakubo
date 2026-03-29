@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1038: 強いて, 強いる, 仕入れる...",
+  "lesson_number": 1038,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 69155,
+      "kanji": "強いて",
+      "kana": "しいて",
+      "gloss": "by force",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69158,
+      "kanji": "強いる",
+      "kana": "しいる",
+      "gloss": "to force; to compel; to coerce; to press; to impose",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78214,
+      "kanji": "仕入れる",
+      "kana": "しいれる",
+      "gloss": "to lay in stock; to replenish stock; to procure; to learn; to find out; to take in",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79303,
+      "kanji": "歯科",
+      "kana": "しか",
+      "gloss": "dentistry",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79226,
+      "kanji": "資格",
+      "kana": "しかく",
+      "gloss": "qualifications; requirements; capabilities",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79148,
+      "kanji": "視覚",
+      "kana": "しかく",
+      "gloss": "sense of sight; vision",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120160,
+      "kanji": "仕掛け",
+      "kana": "しかけ",
+      "gloss": "device; contrivance; mechanism; gadget; trick; trap; calculated manipulation; gambit; (small) scale; half finished; commencement; initiation; set up; laying out; preparation; challenge; attack",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 671: 気を付ける, 金魚, 区域...",
+  "lesson_number": 671,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 119589,
+      "kanji": "気を付ける",
+      "kana": "きをつける",
+      "gloss": "to be careful; to pay attention; to take care",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69995,
+      "kanji": "金魚",
+      "kana": "きんぎょ",
+      "gloss": "goldfish (Carassius auratus)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70160,
+      "kanji": "区域",
+      "kana": "くいき",
+      "gloss": "limits; boundary; domain; zone; sphere; territory; area (e.g. in programming languages)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70436,
+      "kanji": "偶数",
+      "kana": "ぐうすう",
+      "gloss": "even number",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70384,
+      "kanji": "空想",
+      "kana": "くうそう",
+      "gloss": "daydream; fantasy; fancy; vision",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70390,
+      "kanji": "空中",
+      "kana": "くうちゅう",
+      "gloss": "sky; air; mid-air",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95821,
+      "kanji": "釘",
+      "kana": "くぎ",
+      "gloss": "nail; spike; tack; rivet; brad; (pachinko) pin",
+      "card_type": "vocab"
+    }
+  ]
+}

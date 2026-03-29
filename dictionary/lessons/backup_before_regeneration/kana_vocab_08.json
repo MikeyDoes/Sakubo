@@ -1,0 +1,37 @@
+{
+  "title": "Lesson 24: (Vocab) - ふたつ, ふたり, ひとり...",
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 326728,
+      "kana": "ふたつ",
+      "gloss": "two",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326729,
+      "kana": "ふたり",
+      "gloss": "two persons; two people; pair; couple",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326725,
+      "kana": "ひとり",
+      "gloss": "one person; alone; by oneself",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326649,
+      "kana": "こちら",
+      "gloss": "this way; this direction; here (polite)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326675,
+      "kana": "そちら",
+      "gloss": "that way; that direction; there (polite)",
+      "card_type": "vocab"
+    }
+  ],
+  "lesson_number": 24
+}

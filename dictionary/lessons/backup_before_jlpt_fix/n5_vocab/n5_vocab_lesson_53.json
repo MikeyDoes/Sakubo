@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 153: 財布, 魚, 先...",
+  "lesson_number": 153,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 77025,
+      "kanji": "財布",
+      "kana": "さいふ",
+      "gloss": "purse; handbag; wallet",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115482,
+      "kanji": "魚",
+      "kana": "さかな",
+      "gloss": "fish",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37216,
+      "kanji": "先",
+      "kana": "さっき",
+      "gloss": "a short while ago; a moment ago; just now; some time ago",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89231,
+      "kanji": "先",
+      "kana": "さき",
+      "gloss": "point; tip; end; nozzle; head (of a line); front; first; before; ahead (of); (the way) ahead; beyond; future; previous; prior; former; recent; last; destination; rest (e.g. of a story); continuation; remaining part; the other party",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89234,
+      "kanji": "先",
+      "kana": "せん",
+      "gloss": "former; previous; old; first move (in go, shogi, etc.); opening move",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77064,
+      "kanji": "咲く",
+      "kana": "さく",
+      "gloss": "to bloom; to flower; to blossom; to open",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77160,
+      "kanji": "作文",
+      "kana": "さくぶん",
+      "gloss": "writing (an essay, prose, etc.); composition; formal writing with little real meaning",
+      "card_type": "vocab"
+    }
+  ]
+}

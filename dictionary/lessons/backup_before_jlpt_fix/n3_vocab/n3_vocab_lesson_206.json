@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 555: 端, 端, 始まり...",
+  "lesson_number": 555,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 271746,
+      "kanji": "端",
+      "kana": "つま",
+      "gloss": "edge; tip; end; gable wall; gable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 274346,
+      "kanji": "端",
+      "kana": "たん",
+      "gloss": "origin; beginning; variable measure of fabric (28.8 cm in width); for kimonos: at least 10 m in length; for haori: at least 7.27 m in length; for other clothes: at least 6.06 m in length; tip; extremity",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124730,
+      "kanji": "始まり",
+      "kana": "はじまり",
+      "gloss": "origin; beginning",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64877,
+      "kanji": "外す",
+      "kana": "はずす",
+      "gloss": "to remove; to take off; to detach; to unfasten; to undo; to drop (e.g. from a team); to remove (from a position); to exclude; to expel; to leave (e.g. one's seat); to go away from; to step out; to slip away; to dodge (a question, blow, etc.); to evade; to sidestep; to avoid (e.g. peak season); to miss (a target, chance, punch, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67124,
+      "kanji": "旗",
+      "kana": "はた",
+      "gloss": "flag; pataka (banner); banner (administrative division of Inner Mongolia)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101135,
+      "kanji": "肌",
+      "kana": "はだ",
+      "gloss": "skin; body (in the context of intimate bodily contact); surface; grain (e.g. of wood); texture; disposition; temperament; character; type",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110405,
+      "kanji": "裸",
+      "kana": "はだか",
+      "gloss": "nakedness; nudity; bareness; baldness; being uncovered; being penniless; concealing nothing; openness",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 871: 天地, 操る, 危ぶむ...",
+  "lesson_number": 871,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 116694,
+      "kanji": "天地",
+      "kana": "てんち",
+      "gloss": "heaven and earth; the universe; nature; top and bottom; realm; sphere; world; gods of heaven and earth",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90981,
+      "kanji": "操る",
+      "kana": "あやつる",
+      "gloss": "to operate (e.g. a machine); to handle; to manage; to control; to maneuver; to steer; to have a good command of (a language); to play proficiently (of a musical instrument); to work (a puppet); to pull the strings of a puppet; to manipulate (a person, public opinion, etc.); to pull the strings; to control from the shadows; to mastermind",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66883,
+      "kanji": "危ぶむ",
+      "kana": "あやぶむ",
+      "gloss": "to fear; to doubt; to have misgivings about; to worry about; to be anxious about; to be apprehensive about",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63916,
+      "kanji": "過ち",
+      "kana": "あやまち",
+      "gloss": "fault; error; indiscretion; faux pas",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73869,
+      "kanji": "誤る",
+      "kana": "あやまる",
+      "gloss": "to make a mistake (in); to commit an error; to do incorrectly; to err; to be wrong; to be incorrect; to be false; to be mistaken; to mislead; to misguide; to lead astray",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106046,
+      "kanji": "歩み",
+      "kana": "あゆみ",
+      "gloss": "walking; pace; step; course (of history, one's life, etc.); history; progress; advance; development; pitch (of a screw, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106051,
+      "kanji": "歩む",
+      "kana": "あゆむ",
+      "gloss": "to walk; to go on foot; to tread (a figurative path); to follow; to lead (a life); to experience; to advance towards (e.g. a solution); to set out (e.g. on the path to destruction, ruin, etc.); to embark (on the road to ...)",
+      "card_type": "vocab"
+    }
+  ]
+}

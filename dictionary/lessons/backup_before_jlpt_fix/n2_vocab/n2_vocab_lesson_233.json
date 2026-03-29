@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 849: 浴衣, 湯気, 輸血...",
+  "lesson_number": 849,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 117482,
+      "kanji": "浴衣",
+      "kana": "ゆかた",
+      "gloss": "yukata (light cotton kimono worn in the summer or used as a bathrobe)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97384,
+      "kanji": "湯気",
+      "kana": "ゆげ",
+      "gloss": "steam; vapour; vapor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109259,
+      "kanji": "輸血",
+      "kana": "ゆけつ",
+      "gloss": "blood transfusion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109264,
+      "kanji": "輸送",
+      "kana": "ゆそう",
+      "gloss": "transport; transportation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109240,
+      "kanji": "油断",
+      "kana": "ゆだん",
+      "gloss": "negligence; carelessness; inattention; unpreparedness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 113825,
+      "kanji": "茹でる",
+      "kana": "ゆでる",
+      "gloss": "to boil (something in hot water); to treat with medicinal steam (a swelling, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124883,
+      "kanji": "湯飲み",
+      "kana": "ゆのみ",
+      "gloss": "teacup",
+      "card_type": "vocab"
+    }
+  ]
+}

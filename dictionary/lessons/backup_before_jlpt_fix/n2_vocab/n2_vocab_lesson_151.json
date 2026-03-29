@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 767: 繋げる, 粒, 潰す...",
+  "lesson_number": 767,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 71201,
+      "kanji": "繋げる",
+      "kana": "つなげる",
+      "gloss": "to connect; to tie; to fasten; to transfer (phone call)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111103,
+      "kanji": "粒",
+      "kana": "つぶ",
+      "gloss": "grain; bead; drop; counter for small round objects including grains, seeds, pills, drops",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95421,
+      "kanji": "潰す",
+      "kana": "つぶす",
+      "gloss": "to smash; to crush; to flatten; to shut down; to put out of business; to force (a company) to close up shop; to wreck; to break; to block; to thwart; to butcher; to slaughter; to kill (livestock, for food); to kill (time); to while away (the time); to use up (one's time); to waste (e.g. talents)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95422,
+      "kanji": "潰れる",
+      "kana": "つぶれる",
+      "gloss": "to be crushed; to be smashed; to be broken; to collapse; to become useless; to cease functioning; to be wasted (e.g. time); to go bankrupt; to go out of business; to fail",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114298,
+      "kanji": "躓く",
+      "kana": "つまずく",
+      "gloss": "to trip (over); to stumble; to fail; to suffer a setback",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67981,
+      "kanji": "詰まる",
+      "kana": "つまる",
+      "gloss": "to be packed (with); to be full (space, schedule, etc.); to be blocked (road, pipe, nose, etc.); to be clogged; to be plugged up; to shorten (width, interval, etc.); to shrink (shirt, word form, etc.); to narrow; to be at a loss; to be hard pressed; to end up; to be settled; to become a geminate consonant; to hit the ball near the handle of the bat",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88565,
+      "kanji": "積む",
+      "kana": "つむ",
+      "gloss": "to pile up; to stack; to load (car, ship, etc.); to pack; to acquire; to accumulate",
+      "card_type": "vocab"
+    }
+  ]
+}

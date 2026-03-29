@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1148: 手錠, 手近, 鉄鋼...",
+  "lesson_number": 1148,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 81243,
+      "kanji": "手錠",
+      "kana": "てじょう",
+      "gloss": "handcuffs; manacles",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81181,
+      "kanji": "手近",
+      "kana": "てぢか",
+      "gloss": "near; close by; within reach; handy; familiar",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95962,
+      "kanji": "鉄鋼",
+      "kana": "てっこう",
+      "gloss": "iron and steel",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121426,
+      "kanji": "徹する",
+      "kana": "てっする",
+      "gloss": "to penetrate; to sink in; to devote oneself (to); to do intently and exclusively; to do throughout (e.g. the night)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 146311,
+      "kanji": "鉄片",
+      "kana": "てっぺん",
+      "gloss": "iron scraps",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81298,
+      "kanji": "手配",
+      "kana": "てはい",
+      "gloss": "arrangement; preparations; search (by police)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81302,
+      "kanji": "手筈",
+      "kana": "てはず",
+      "gloss": "arrangements; plan; programme; program; preparations",
+      "card_type": "vocab"
+    }
+  ]
+}

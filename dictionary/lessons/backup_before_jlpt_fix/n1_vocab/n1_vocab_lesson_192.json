@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1052: 宿命, 主権, 手芸...",
+  "lesson_number": 1052,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 82511,
+      "kanji": "宿命",
+      "kana": "しゅくめい",
+      "gloss": "fate; destiny; predestination",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80848,
+      "kanji": "主権",
+      "kana": "しゅけん",
+      "gloss": "sovereignty; supremacy; dominion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81188,
+      "kanji": "手芸",
+      "kana": "しゅげい",
+      "gloss": "handicrafts",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80858,
+      "kanji": "主催",
+      "kana": "しゅさい",
+      "gloss": "sponsorship (i.e. conducting under one's auspices); promotion; organizing; organising; hosting; staging",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81111,
+      "kanji": "取材",
+      "kana": "しゅざい",
+      "gloss": "news coverage; collecting data (e.g. for an article); covering (something for media); interview",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81436,
+      "kanji": "趣旨",
+      "kana": "しゅし",
+      "gloss": "meaning; point (e.g. of a statement); gist; effect; goal; intent; object; aim; point",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80877,
+      "kanji": "主食",
+      "kana": "しゅしょく",
+      "gloss": "staple food",
+      "card_type": "vocab"
+    }
+  ]
+}

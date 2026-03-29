@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 979: 傾, 系, 経過...",
+  "lesson_number": 979,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 80463,
+      "kanji": "傾",
+      "kana": "ななめ",
+      "gloss": "slanting; tilted; sloping; diagonal; oblique; distorted (feeling); slanted (e.g. view of the world); bad (mood); amiss; awry",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71083,
+      "kanji": "系",
+      "kana": "けい",
+      "gloss": "system; lineage; group; corollary; system (range of strata that correspond to a particular time period); (taxonomical) series",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71112,
+      "kanji": "経過",
+      "kana": "けいか",
+      "gloss": "passage (of time); elapsing; lapse; progress; development; course (of events); transit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71284,
+      "kanji": "軽快",
+      "kana": "けいかい",
+      "gloss": "light (of movements); nimble; sprightly; springy; light-hearted; cheerful; buoyant; jaunty; casual (e.g. clothing); rhythmical (e.g. melody); taking a turn for the better (of an illness); receding of symptoms; recovery; convalescence",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71254,
+      "kanji": "警戒",
+      "kana": "けいかい",
+      "gloss": "vigilance; caution; alertness; precaution; being on guard",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71235,
+      "kanji": "計器",
+      "kana": "けいき",
+      "gloss": "meter; gauge",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70958,
+      "kanji": "契機",
+      "kana": "けいき",
+      "gloss": "opportunity; chance; trigger; cause",
+      "card_type": "vocab"
+    }
+  ]
+}

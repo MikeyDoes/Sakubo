@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 398: 金, 可能, 株...",
+  "lesson_number": 398,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 301843,
+      "kanji": "金",
+      "kana": "こがね",
+      "gloss": "gold; gold coin; gold colour (color)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63253,
+      "kanji": "可能",
+      "kana": "かのう",
+      "gloss": "possible; potential; practicable; feasible",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65649,
+      "kanji": "株",
+      "kana": "かぶ",
+      "gloss": "stock; share; stump; (clump of) roots; plant with attached roots or stem; strain (of bacteria, etc.); stock company; corporation; kabushiki kaisha; KK; goodwill (of a business); privilege (that comes with a role); reputation; standing; popularity; one's forte",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74830,
+      "kanji": "株",
+      "kana": "くい",
+      "gloss": "stake; post; pile; picket; stump",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 258219,
+      "kanji": "株",
+      "kana": "しゅ",
+      "gloss": "stump; counter for trees",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 258220,
+      "kanji": "株",
+      "kana": "くいぜ",
+      "gloss": "stump",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 270509,
+      "kanji": "株",
+      "kana": "かぶた",
+      "gloss": "stump; useless item",
+      "card_type": "vocab"
+    }
+  ]
+}

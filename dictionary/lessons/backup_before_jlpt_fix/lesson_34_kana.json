@@ -1,0 +1,38 @@
+{
+  "title": "Lesson 34 (Kana) - カ・キ・ク・ケ・コ",
+  "lesson_number": 34,
+  "description": "These look very similar to their Hiragana counterparts. Watch out for コ vs ユ (later).",
+  "source_file": "Spoonfed Kana Vocab Lessons.ods",
+  "items": [
+    {
+      "entry_id": 325398,
+      "kana": "カ",
+      "kanji": null,
+      "gloss": "ka"
+    },
+    {
+      "entry_id": 325284,
+      "kana": "キ",
+      "kanji": null,
+      "gloss": "ki"
+    },
+    {
+      "entry_id": 325285,
+      "kana": "ク",
+      "kanji": null,
+      "gloss": "ku"
+    },
+    {
+      "entry_id": 325399,
+      "kana": "ケ",
+      "kanji": null,
+      "gloss": "ke"
+    },
+    {
+      "entry_id": 325400,
+      "kana": "コ",
+      "kanji": null,
+      "gloss": "ko"
+    }
+  ]
+}

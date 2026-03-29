@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 377: 誤, 豆汁, 呉...",
+  "lesson_number": 377,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 273331,
+      "kanji": "誤",
+      "kana": "ご",
+      "gloss": "mistake; error",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 280967,
+      "kanji": "豆汁",
+      "kana": "ご",
+      "gloss": "go; soy beans soaked and mashed to a creamy paste (ingredient of tofu and soy milk)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 297612,
+      "kanji": "呉",
+      "kana": "ご",
+      "gloss": "Wu; region in China, south of the lower Yangtze; Southern Wu; kingdom in China during the Five Dynasties and Ten Kingdoms era (902 CE-937 CE); Eastern Wu; Sun Wu; kingdom in China during the Three Kingdoms era (222 CE-280 CE); kingdom in China during the Spring and Autumn era (11th C-473 BCE)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 306922,
+      "kanji": "伍",
+      "kana": "ご",
+      "gloss": "company; group; class; troop; rank; file",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 306931,
+      "kanji": "期",
+      "kana": "ご",
+      "gloss": "time; moment; limit; time of death; last moment; midnight in red-light districts during the Edo period",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 129099,
+      "kanji": "老い",
+      "kana": "おい",
+      "gloss": "old age; old person; the old; the aged",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118646,
+      "kanji": "追い付く",
+      "kana": "おいつく",
+      "gloss": "to catch up (with); to draw level; to pull even; to reach; to be compensated; to make up for one's losses",
+      "card_type": "vocab"
+    }
+  ]
+}

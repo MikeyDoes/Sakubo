@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 921: 怪獣, 解除, 回送...",
+  "lesson_number": 921,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 64479,
+      "kanji": "怪獣",
+      "kana": "かいじゅう",
+      "gloss": "monster",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64316,
+      "kanji": "解除",
+      "kana": "かいじょ",
+      "gloss": "cancellation; rescinding; release; calling off; lifting (sanctions); delisting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64387,
+      "kanji": "回送",
+      "kana": "かいそう",
+      "gloss": "forwarding; sending on; redirecting (e.g. mail); deadheading (e.g. train)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64857,
+      "kanji": "階層",
+      "kana": "かいそう",
+      "gloss": "class; level; stratum; layer; hierarchy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64830,
+      "kanji": "開拓",
+      "kana": "かいたく",
+      "gloss": "reclamation (e.g. wasteland); cultivation; development; pioneering; opening up (e.g. new market); breaking new ground; trailblazing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64289,
+      "kanji": "会談",
+      "kana": "かいだん",
+      "gloss": "conversation; conference (usu. between important people); discussion; interview",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64571,
+      "kanji": "改定",
+      "kana": "かいてい",
+      "gloss": "revision (of a rule, price, etc.); alteration; change",
+      "card_type": "vocab"
+    }
+  ]
+}

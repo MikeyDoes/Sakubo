@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 799: 発電, 発売, 派手...",
+  "lesson_number": 799,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 101324,
+      "kanji": "発電",
+      "kana": "はつでん",
+      "gloss": "generation (e.g. power); sending a telegram; telegraphing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101332,
+      "kanji": "発売",
+      "kana": "はつばい",
+      "gloss": "sale; offering for sale; release (for sale); launch (product)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100347,
+      "kanji": "派手",
+      "kana": "はで",
+      "gloss": "showy; loud; gay; flashy; gaudy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122157,
+      "kanji": "話合い",
+      "kana": "はなしあい",
+      "gloss": "discussion; talk; tête-à-tête; conference",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112336,
+      "kanji": "話し掛ける",
+      "kana": "はなしかける",
+      "gloss": "to address (someone); to accost a person; to talk (to someone); to begin to talk; to start a conversation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122159,
+      "kanji": "話中",
+      "kana": "はなしちゅう",
+      "gloss": "busy (phone); in talks; discussion underway",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86829,
+      "kanji": "甚だしい",
+      "kana": "はなはだしい",
+      "gloss": "extreme; excessive; terrible; intense; severe; serious; tremendous; heavy (damage)",
+      "card_type": "vocab"
+    }
+  ]
+}

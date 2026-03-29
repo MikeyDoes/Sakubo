@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 289: 準備, 紹介, 小学校...",
+  "lesson_number": 289,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 83039,
+      "kanji": "準備",
+      "kana": "じゅんび",
+      "gloss": "preparation; arrangements; getting ready; provision; setup; reserving",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84363,
+      "kanji": "紹介",
+      "kana": "しょうかい",
+      "gloss": "introduction; presentation; referral; listing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83844,
+      "kanji": "小学校",
+      "kana": "しょうがっこう",
+      "gloss": "primary school; elementary school; grade school",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83933,
+      "kanji": "小説",
+      "kana": "しょうせつ",
+      "gloss": "novel; (short) story",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84089,
+      "kanji": "招待",
+      "kana": "しょうたい",
+      "gloss": "invitation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84073,
+      "kanji": "承知",
+      "kana": "しょうち",
+      "gloss": "knowledge; awareness; consent; acceptance; assent; admitting; compliance; agreement; acknowledgment; acknowledgement; forgiving; pardoning; excusing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83823,
+      "kanji": "将来",
+      "kana": "しょうらい",
+      "gloss": "future (usually near); prospects",
+      "card_type": "vocab"
+    }
+  ]
+}

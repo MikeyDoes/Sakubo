@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 747: 存ずる, 損得, 田ぼ...",
+  "lesson_number": 747,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 169077,
+      "kanji": "存ずる",
+      "kana": "ぞんずる",
+      "gloss": "to think, feel, consider, know, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91873,
+      "kanji": "損得",
+      "kana": "そんとく",
+      "gloss": "loss and gain; advantage and disadvantage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96575,
+      "kanji": "田ぼ",
+      "kana": "たんぼ",
+      "gloss": "paddy field; farm",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92984,
+      "kanji": "第一",
+      "kana": "だいいち",
+      "gloss": "first; foremost; number one; most important; best; greatest; most; above all; besides; in any case; to begin with",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92744,
+      "kanji": "大学院",
+      "kana": "だいがくいん",
+      "gloss": "graduate school",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92796,
+      "kanji": "大工",
+      "kana": "だいく",
+      "gloss": "carpenter",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92240,
+      "kanji": "体系",
+      "kana": "たいけい",
+      "gloss": "system; organization; organisation; architecture",
+      "card_type": "vocab"
+    }
+  ]
+}

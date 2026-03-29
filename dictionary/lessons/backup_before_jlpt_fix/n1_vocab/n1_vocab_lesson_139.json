@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 999: 荒廃, 購買, 好評...",
+  "lesson_number": 999,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 75099,
+      "kanji": "荒廃",
+      "kana": "こうはい",
+      "gloss": "ruin; destruction; devastation; waste; decay",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75212,
+      "kanji": "購買",
+      "kana": "こうばい",
+      "gloss": "procurement; purchase; buying; school store; co-op; school canteen; tuck shop",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74622,
+      "kanji": "好評",
+      "kana": "こうひょう",
+      "gloss": "favorable reception; good reputation; popularity",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74012,
+      "kanji": "交付",
+      "kana": "こうふ",
+      "gloss": "delivery; issuance; handing over; granting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75272,
+      "kanji": "降伏",
+      "kana": "こうふく",
+      "gloss": "capitulation; surrender; submission; yield",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69439,
+      "kanji": "興奮",
+      "kana": "こうふん",
+      "gloss": "excitement; stimulation; agitation; arousal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74237,
+      "kanji": "公募",
+      "kana": "こうぼ",
+      "gloss": "public appeal (e.g. for contributions); public offering (of securities); public advertisement (of a post); open recruitment",
+      "card_type": "vocab"
+    }
+  ]
+}

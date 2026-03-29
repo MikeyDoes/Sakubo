@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 665: 看板, 看病, 冠...",
+  "lesson_number": 665,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 66287,
+      "kanji": "看板",
+      "kana": "かんばん",
+      "gloss": "signboard; sign; billboard; hoarding; doorplate; draw; attraction; feature; highlight; spokesman; figurehead; reputation (of a shop); name; appearance; look; show; closing (for the day, esp. of a restaurant or bar); closing time",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66291,
+      "kanji": "看病",
+      "kana": "かんびょう",
+      "gloss": "nursing (a patient)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115336,
+      "kanji": "冠",
+      "kana": "かんむり",
+      "gloss": "traditional cap worn by Shinto clergy and courtiers; crown; diadem; coronet; top kanji radical; first verse of a haikai, etc.; best; peerless; first; name; title; named sponsorship of a program, event, team, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 204738,
+      "kanji": "冠",
+      "kana": "かぶり",
+      "gloss": "order; rank",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66207,
+      "kanji": "漢和",
+      "kana": "かんわ",
+      "gloss": "China and Japan; Chinese and Japanese (languages); dictionary with Japanese definitions of kanji and kanji compounds; kanji dictionary",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67351,
+      "kanji": "気圧",
+      "kana": "きあつ",
+      "gloss": "atmospheric pressure",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67207,
+      "kanji": "器械",
+      "kana": "きかい",
+      "gloss": "machine; mechanism; instrument; appliance; apparatus",
+      "card_type": "vocab"
+    }
+  ]
+}

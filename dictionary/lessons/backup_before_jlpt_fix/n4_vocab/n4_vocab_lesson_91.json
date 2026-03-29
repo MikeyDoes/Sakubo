@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 319: 直す, 直る, 治る...",
+  "lesson_number": 319,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 121723,
+      "kanji": "直す",
+      "kana": "なおす",
+      "gloss": "to cure; to heal; to fix; to correct; to repair; to do over again; to replace; to put back as it was; to convert (into a different state); to transform",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 311451,
+      "kanji": "直る",
+      "kana": "なおる",
+      "gloss": "to get mended; to be repaired; to be fixed; to return to normal; to recover (e.g. one's temper); to be restored; to improve; to rally; to come right; to be corrected; to get put right; to be rectified; to cure (itself); to get cured; to sit properly; to be promoted; to rise; to have one's crimes forgiven",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121724,
+      "kanji": "治る",
+      "kana": "なおる",
+      "gloss": "to get better; to get well; to recover (from an illness); to be cured; to be restored; to heal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121727,
+      "kanji": "中々",
+      "kana": "なかなか",
+      "gloss": "very; considerably; easily; readily; fairly; quite; highly; rather; by no means; not readily; middle; half-way point; excellent; wonderful; very good",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68444,
+      "kanji": "泣く",
+      "kana": "なく",
+      "gloss": "to cry; to weep; to sob; to howl",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107935,
+      "kanji": "無くなる",
+      "kana": "なくなる",
+      "gloss": "to be lost (e.g. luggage); to be missing; to be used up; to be run out; to be exhausted; to be consumed; to be reduced to zero; to not occur any more; to disappear (e.g. pain); to be lost (e.g. a dream, confidence)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106602,
+      "kanji": "亡くなる",
+      "kana": "なくなる",
+      "gloss": "to die",
+      "card_type": "vocab"
+    }
+  ]
+}

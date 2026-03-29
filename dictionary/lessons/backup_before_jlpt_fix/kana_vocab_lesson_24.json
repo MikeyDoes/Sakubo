@@ -1,0 +1,37 @@
+{
+  "lesson_number": 24,
+  "title": "Lesson 24 (Vocab) - もぐもぐ, むう, まあ...",
+  "description": "もぐもぐ is for chewing. めそめそ is the sound of weeping.",
+  "items": [
+    {
+      "entry_id": 172379,
+      "kanji": null,
+      "kana": "もぐもぐ",
+      "gloss": "mumbling; chewing one's words; chewing (food); squirming; wriggling"
+    },
+    {
+      "entry_id": 326337,
+      "kanji": null,
+      "kana": "むう",
+      "gloss": "hmm; mmmm"
+    },
+    {
+      "entry_id": 38385,
+      "kanji": null,
+      "kana": "まあ",
+      "gloss": "just (e.g. \"just wait here\"); come now; now, now; tolerably; passably; moderately; reasonably; fairly; rather; somewhat; well...; I think...; it would seem...; you might say...; Hmmm, I guess so...; oh!; oh dear!; oh, my!; wow!; goodness gracious!; good heavens!"
+    },
+    {
+      "entry_id": 38447,
+      "kanji": null,
+      "kana": "めそめそ",
+      "gloss": "sobbing; weeping; whimpering"
+    },
+    {
+      "entry_id": 232330,
+      "kanji": null,
+      "kana": "むんず",
+      "gloss": "strongly; violently; with all one's strength"
+    }
+  ]
+}

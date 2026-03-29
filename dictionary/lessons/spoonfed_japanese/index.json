@@ -737,715 +737,715 @@
       "grammar": "dictionary/lessons/spoonfed_japanese/n5_grammar/n5_grammar_lesson_96.json"
     },
     "246": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_100.json"
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_01.json"
     },
     "247": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n5_grammar/n5_grammar_lesson_97.json"
     },
     "248": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_101.json"
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_02.json"
     },
     "249": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n5_grammar/n5_grammar_lesson_98.json"
     },
     "250": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_102.json"
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_03.json"
     },
     "251": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n5_grammar/n5_grammar_lesson_99.json"
     },
     "252": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_103.json"
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_04.json"
     },
     "253": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n5_grammar/n5_grammar_lesson_100.json"
     },
     "254": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_104.json"
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_05.json"
     },
     "255": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n5_grammar/n5_grammar_lesson_101.json"
     },
     "256": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_105.json"
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_06.json"
     },
     "257": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n5_grammar/n5_grammar_lesson_102.json"
     },
     "258": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_106.json"
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_07.json"
     },
     "259": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n5_grammar/n5_grammar_lesson_103.json"
     },
     "260": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_01.json"
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_08.json"
     },
     "261": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n5_grammar/n5_grammar_lesson_104.json"
     },
     "262": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_02.json"
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_09.json"
     },
     "263": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n5_grammar/n5_grammar_lesson_105.json"
     },
     "264": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_03.json"
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_10.json"
     },
     "265": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n5_grammar/n5_grammar_lesson_106.json"
     },
     "266": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_04.json"
-    },
-    "267": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_05.json"
-    },
-    "268": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_06.json"
-    },
-    "269": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_07.json"
-    },
-    "270": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_08.json"
-    },
-    "271": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_09.json"
-    },
-    "272": {
-      "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_10.json"
-    },
-    "273": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_11.json"
     },
-    "274": {
+    "267": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_12.json"
     },
-    "275": {
+    "268": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_13.json"
     },
-    "276": {
+    "269": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_14.json"
     },
-    "277": {
+    "270": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_15.json"
     },
-    "278": {
+    "271": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n5_kana_bonus_16.json"
     },
-    "279": {
+    "272": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_1.json"
     },
-    "280": {
+    "273": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_1.json"
     },
-    "281": {
+    "274": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_2.json"
     },
-    "282": {
+    "275": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_2.json"
     },
-    "283": {
+    "276": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_3.json"
     },
-    "284": {
+    "277": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_3.json"
     },
-    "285": {
+    "278": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_4.json"
     },
-    "286": {
+    "279": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_4.json"
     },
-    "287": {
+    "280": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_5.json"
     },
-    "288": {
+    "281": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_5.json"
     },
-    "289": {
+    "282": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_6.json"
     },
-    "290": {
+    "283": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_6.json"
     },
-    "291": {
+    "284": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_7.json"
     },
-    "292": {
+    "285": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_7.json"
     },
-    "293": {
+    "286": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_8.json"
     },
-    "294": {
+    "287": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_9.json"
     },
-    "295": {
+    "288": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_8.json"
     },
-    "296": {
+    "289": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_10.json"
     },
-    "297": {
+    "290": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_11.json"
     },
-    "298": {
+    "291": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_9.json"
     },
-    "299": {
+    "292": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_12.json"
     },
-    "300": {
+    "293": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_13.json"
     },
-    "301": {
+    "294": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_10.json"
     },
-    "302": {
+    "295": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_14.json"
     },
-    "303": {
+    "296": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_11.json"
     },
-    "304": {
+    "297": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_15.json"
     },
-    "305": {
+    "298": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_12.json"
     },
-    "306": {
+    "299": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_16.json"
     },
-    "307": {
+    "300": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_13.json"
     },
-    "308": {
+    "301": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_17.json"
     },
-    "309": {
+    "302": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_18.json"
     },
-    "310": {
+    "303": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_14.json"
     },
-    "311": {
+    "304": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_19.json"
     },
-    "312": {
+    "305": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_15.json"
     },
-    "313": {
+    "306": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_20.json"
     },
-    "314": {
+    "307": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_16.json"
     },
-    "315": {
+    "308": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_21.json"
     },
-    "316": {
+    "309": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_17.json"
     },
-    "317": {
+    "310": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_22.json"
     },
-    "318": {
+    "311": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_18.json"
     },
-    "319": {
+    "312": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_23.json"
     },
-    "320": {
+    "313": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_19.json"
     },
-    "321": {
+    "314": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_24.json"
     },
-    "322": {
+    "315": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_20.json"
     },
-    "323": {
+    "316": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_25.json"
     },
-    "324": {
+    "317": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_21.json"
     },
-    "325": {
+    "318": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_26.json"
     },
-    "326": {
+    "319": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_22.json"
     },
-    "327": {
+    "320": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_27.json"
     },
-    "328": {
+    "321": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_23.json"
     },
-    "329": {
+    "322": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_28.json"
     },
-    "330": {
+    "323": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_24.json"
     },
-    "331": {
+    "324": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_29.json"
     },
-    "332": {
+    "325": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_25.json"
     },
-    "333": {
+    "326": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_30.json"
     },
-    "334": {
+    "327": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_26.json"
     },
-    "335": {
+    "328": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_31.json"
     },
-    "336": {
+    "329": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_27.json"
     },
-    "337": {
+    "330": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_32.json"
     },
-    "338": {
+    "331": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_28.json"
     },
-    "339": {
+    "332": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_33.json"
     },
-    "340": {
+    "333": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_29.json"
     },
-    "341": {
+    "334": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_34.json"
     },
-    "342": {
+    "335": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_30.json"
     },
-    "343": {
+    "336": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_35.json"
     },
-    "344": {
+    "337": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_31.json"
     },
-    "345": {
+    "338": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_36.json"
     },
-    "346": {
+    "339": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_32.json"
     },
-    "347": {
+    "340": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_37.json"
     },
-    "348": {
+    "341": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_33.json"
     },
-    "349": {
+    "342": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_38.json"
     },
-    "350": {
+    "343": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_34.json"
     },
-    "351": {
+    "344": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_39.json"
     },
-    "352": {
+    "345": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_40.json"
     },
-    "353": {
+    "346": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_41.json"
     },
-    "354": {
+    "347": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_35.json"
     },
-    "355": {
+    "348": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_42.json"
     },
-    "356": {
+    "349": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_43.json"
     },
-    "357": {
+    "350": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_44.json"
     },
-    "358": {
+    "351": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_36.json"
     },
-    "359": {
+    "352": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_45.json"
     },
-    "360": {
+    "353": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_37.json"
     },
-    "361": {
+    "354": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_46.json"
     },
-    "362": {
+    "355": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_38.json"
     },
-    "363": {
+    "356": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_47.json"
     },
-    "364": {
+    "357": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_39.json"
     },
-    "365": {
+    "358": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_48.json"
     },
-    "366": {
+    "359": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_49.json"
     },
-    "367": {
+    "360": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_50.json"
     },
-    "368": {
+    "361": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_40.json"
     },
-    "369": {
+    "362": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_51.json"
     },
-    "370": {
+    "363": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_41.json"
     },
-    "371": {
+    "364": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_52.json"
     },
-    "372": {
+    "365": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_53.json"
     },
-    "373": {
+    "366": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_54.json"
     },
-    "374": {
+    "367": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_42.json"
     },
-    "375": {
+    "368": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_55.json"
     },
-    "376": {
+    "369": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_43.json"
     },
-    "377": {
+    "370": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_56.json"
     },
-    "378": {
+    "371": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_57.json"
     },
-    "379": {
+    "372": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_44.json"
     },
-    "380": {
+    "373": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_58.json"
     },
-    "381": {
+    "374": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_45.json"
     },
-    "382": {
+    "375": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_59.json"
     },
-    "383": {
+    "376": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_46.json"
     },
-    "384": {
+    "377": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_60.json"
     },
-    "385": {
+    "378": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_47.json"
     },
-    "386": {
+    "379": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_61.json"
     },
-    "387": {
+    "380": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_48.json"
     },
-    "388": {
+    "381": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_62.json"
     },
-    "389": {
+    "382": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_49.json"
     },
-    "390": {
+    "383": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_63.json"
     },
-    "391": {
+    "384": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_50.json"
     },
-    "392": {
+    "385": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_64.json"
     },
-    "393": {
+    "386": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_51.json"
     },
-    "394": {
+    "387": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_65.json"
     },
-    "395": {
+    "388": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_52.json"
     },
-    "396": {
+    "389": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_66.json"
     },
-    "397": {
+    "390": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_53.json"
     },
-    "398": {
+    "391": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_67.json"
     },
-    "399": {
+    "392": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_54.json"
     },
-    "400": {
+    "393": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_68.json"
     },
-    "401": {
+    "394": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_55.json"
     },
-    "402": {
+    "395": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_69.json"
     },
-    "403": {
+    "396": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_56.json"
     },
-    "404": {
+    "397": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_70.json"
     },
-    "405": {
+    "398": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_57.json"
     },
-    "406": {
+    "399": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_71.json"
     },
-    "407": {
+    "400": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_58.json"
     },
-    "408": {
+    "401": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_72.json"
     },
-    "409": {
+    "402": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_59.json"
     },
-    "410": {
+    "403": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_73.json"
     },
-    "411": {
+    "404": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_60.json"
     },
-    "412": {
+    "405": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_74.json"
     },
-    "413": {
+    "406": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_61.json"
     },
-    "414": {
+    "407": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_75.json"
     },
-    "415": {
+    "408": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_62.json"
     },
-    "416": {
+    "409": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_76.json"
     },
-    "417": {
+    "410": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_63.json"
     },
-    "418": {
+    "411": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_77.json"
     },
-    "419": {
+    "412": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_64.json"
     },
-    "420": {
+    "413": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_78.json"
     },
-    "421": {
+    "414": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_65.json"
     },
-    "422": {
+    "415": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_79.json"
     },
-    "423": {
+    "416": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_66.json"
     },
-    "424": {
+    "417": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_80.json"
     },
-    "425": {
+    "418": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_67.json"
     },
-    "426": {
+    "419": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_81.json"
     },
-    "427": {
+    "420": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_68.json"
     },
-    "428": {
+    "421": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_82.json"
     },
-    "429": {
+    "422": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_69.json"
     },
-    "430": {
+    "423": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_83.json"
     },
-    "431": {
+    "424": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_70.json"
     },
-    "432": {
+    "425": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_84.json"
     },
-    "433": {
+    "426": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_71.json"
     },
-    "434": {
+    "427": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_85.json"
     },
-    "435": {
+    "428": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_72.json"
     },
-    "436": {
+    "429": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_86.json"
     },
-    "437": {
+    "430": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_73.json"
     },
-    "438": {
+    "431": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_87.json"
     },
-    "439": {
+    "432": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_74.json"
     },
-    "440": {
+    "433": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_88.json"
     },
-    "441": {
+    "434": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_75.json"
     },
-    "442": {
+    "435": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_89.json"
     },
-    "443": {
+    "436": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_76.json"
     },
-    "444": {
+    "437": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_90.json"
     },
-    "445": {
+    "438": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_77.json"
     },
-    "446": {
+    "439": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_91.json"
     },
-    "447": {
+    "440": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_92.json"
     },
-    "448": {
+    "441": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_78.json"
     },
-    "449": {
+    "442": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_93.json"
     },
-    "450": {
+    "443": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_79.json"
     },
-    "451": {
+    "444": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_94.json"
     },
-    "452": {
+    "445": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_80.json"
     },
-    "453": {
+    "446": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_95.json"
     },
-    "454": {
+    "447": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_81.json"
     },
-    "455": {
+    "448": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_96.json"
     },
-    "456": {
+    "449": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_82.json"
     },
-    "457": {
+    "450": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_97.json"
     },
-    "458": {
+    "451": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_83.json"
     },
-    "459": {
+    "452": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_98.json"
     },
-    "460": {
+    "453": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_84.json"
     },
-    "461": {
+    "454": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_99.json"
     },
-    "462": {
+    "455": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_85.json"
     },
-    "463": {
+    "456": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_100.json"
     },
-    "464": {
+    "457": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_86.json"
     },
-    "465": {
+    "458": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_101.json"
     },
-    "466": {
+    "459": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_87.json"
     },
-    "467": {
+    "460": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_102.json"
     },
-    "468": {
+    "461": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_88.json"
     },
-    "469": {
+    "462": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_103.json"
     },
-    "470": {
+    "463": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_89.json"
     },
-    "471": {
+    "464": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_104.json"
     },
-    "472": {
+    "465": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_90.json"
     },
-    "473": {
+    "466": {
       "grammar": "dictionary/lessons/spoonfed_japanese/n4_grammar/n4_grammar_lesson_105.json"
     },
-    "474": {
+    "467": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_91.json"
     },
-    "475": {
+    "468": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_92.json"
     },
-    "476": {
+    "469": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_93.json"
     },
-    "477": {
+    "470": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_94.json"
     },
-    "478": {
+    "471": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_95.json"
     },
-    "479": {
+    "472": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_96.json"
     },
-    "480": {
+    "473": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_97.json"
     },
-    "481": {
+    "474": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_98.json"
     },
-    "482": {
+    "475": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_99.json"
+    },
+    "476": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_100.json"
+    },
+    "477": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_101.json"
+    },
+    "478": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_102.json"
+    },
+    "479": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_103.json"
+    },
+    "480": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_104.json"
+    },
+    "481": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_105.json"
+    },
+    "482": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_106.json"
     },
     "483": {
       "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_1.json"

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1054: 出生, 出世, 出費...",
+  "lesson_number": 1054,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 116095,
+      "kanji": "出生",
+      "kana": "しゅっしょう",
+      "gloss": "birth",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82750,
+      "kanji": "出世",
+      "kana": "しゅっせ",
+      "gloss": "success in life; getting ahead; successful career; promotion; climbing the corporate ladder; eminence",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82844,
+      "kanji": "出費",
+      "kana": "しゅっぴ",
+      "gloss": "expenses; disbursements",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82845,
+      "kanji": "出品",
+      "kana": "しゅっぴん",
+      "gloss": "exhibiting; showing; putting on display; putting up for sale; entering (a work into a competition); submitting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82624,
+      "kanji": "出演",
+      "kana": "しゅつえん",
+      "gloss": "performance; appearance (in a stage, film, TV show, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82780,
+      "kanji": "出題",
+      "kana": "しゅつだい",
+      "gloss": "setting a question (for an exam, quiz, etc.); setting a theme (for composition of poetry)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82809,
+      "kanji": "出動",
+      "kana": "しゅつどう",
+      "gloss": "sailing; marching; going out; dispatch",
+      "card_type": "vocab"
+    }
+  ]
+}

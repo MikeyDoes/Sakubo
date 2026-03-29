@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 456: 時刻, 自殺, 事実...",
+  "lesson_number": 456,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 79710,
+      "kanji": "時刻",
+      "kana": "じこく",
+      "gloss": "time; (the) hour; favourable time; opportunity; chance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79894,
+      "kanji": "自殺",
+      "kana": "じさつ",
+      "gloss": "suicide",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79404,
+      "kanji": "事実",
+      "kana": "じじつ",
+      "gloss": "fact; truth; reality",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78883,
+      "kanji": "支出",
+      "kana": "ししゅつ",
+      "gloss": "expenditure; disbursement; expenses",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79409,
+      "kanji": "事情",
+      "kana": "じじょう",
+      "gloss": "circumstances; conditions; situation; reasons; state of affairs",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79171,
+      "kanji": "詩人",
+      "kana": "しじん",
+      "gloss": "poet",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79918,
+      "kanji": "自身",
+      "kana": "じしん",
+      "gloss": "(one's) self; oneself",
+      "card_type": "vocab"
+    }
+  ]
+}

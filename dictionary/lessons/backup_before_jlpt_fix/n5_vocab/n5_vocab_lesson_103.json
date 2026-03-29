@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 203: 病院, 病気, 病気...",
+  "lesson_number": 203,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 102940,
+      "kanji": "病院",
+      "kana": "びょういん",
+      "gloss": "hospital; clinic; doctor's office; doctor's surgery; infirmary",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102941,
+      "kanji": "病気",
+      "kana": "びょうき",
+      "gloss": "illness (usu. excluding minor ailments, e.g. colds); disease; sickness; weirdness; bad habit; bad behaviour; craziness; perversion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 302549,
+      "kanji": "病気",
+      "kana": "やまいけ",
+      "gloss": "feeling ill; sensation of illness; signs of illness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94407,
+      "kanji": "昼",
+      "kana": "ひる",
+      "gloss": "noon; midday; daytime; lunch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122608,
+      "kanji": "昼ご飯",
+      "kana": "ひるごはん",
+      "gloss": "lunch; midday meal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74697,
+      "kanji": "広い",
+      "kana": "ひろい",
+      "gloss": "spacious; vast; wide",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104167,
+      "kanji": "封筒",
+      "kana": "ふうとう",
+      "gloss": "envelope",
+      "card_type": "vocab"
+    }
+  ]
+}

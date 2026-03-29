@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 763: 追加, 次いで, 序で...",
+  "lesson_number": 763,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 95237,
+      "kanji": "追加",
+      "kana": "ついか",
+      "gloss": "addition; supplement; appending; appendix",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79733,
+      "kanji": "次いで",
+      "kana": "ついで",
+      "gloss": "next; secondly; subsequently",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83569,
+      "kanji": "序で",
+      "kana": "ついで",
+      "gloss": "opportunity; occasion; chance; order; sequence; successor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95320,
+      "kanji": "通貨",
+      "kana": "つうか",
+      "gloss": "currency",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95329,
+      "kanji": "通勤",
+      "kana": "つうきん",
+      "gloss": "commuting to work",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 169080,
+      "kanji": "通ずる",
+      "kana": "つうずる",
+      "gloss": "to be open (to traffic); to lead to; to communicate (with); to flow (liquid, current); to pass; to get through to; to be understood; to be comprehended; to be honored; to be good; to be well versed in; to be well-informed; to communicate clandestinely; to keep in touch (e.g. with the enemy); to form a liaison; to be intimate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95363,
+      "kanji": "通知",
+      "kana": "つうち",
+      "gloss": "notice; notification; report; posting",
+      "card_type": "vocab"
+    }
+  ]
+}

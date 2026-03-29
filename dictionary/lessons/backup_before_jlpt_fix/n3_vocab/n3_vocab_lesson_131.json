@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 480: 親戚, 新鮮, 心臓...",
+  "lesson_number": 480,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 86226,
+      "kanji": "親戚",
+      "kana": "しんせき",
+      "gloss": "relative; relation; kin",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85784,
+      "kanji": "新鮮",
+      "kana": "しんせん",
+      "gloss": "fresh",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85599,
+      "kanji": "心臓",
+      "kana": "しんぞう",
+      "gloss": "heart; guts; nerve; cheek; gall; spine; central part",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92208,
+      "kanji": "身体",
+      "kana": "からだ",
+      "gloss": "body; torso; trunk; build; physique; frame; figure; health; constitution; corpse; dead body",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 289826,
+      "kanji": "身体",
+      "kana": "しんたい",
+      "gloss": "body; physical system; (the) person",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86321,
+      "kanji": "身長",
+      "kana": "しんちょう",
+      "gloss": "height (of body); stature",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85649,
+      "kanji": "慎重",
+      "kana": "しんちょう",
+      "gloss": "careful; cautious; prudent; discreet; deliberate",
+      "card_type": "vocab"
+    }
+  ]
+}

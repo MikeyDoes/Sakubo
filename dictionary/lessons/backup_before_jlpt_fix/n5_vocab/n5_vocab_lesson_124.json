@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 224: 料理, 旅行, 零...",
+  "lesson_number": 224,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 111283,
+      "kanji": "料理",
+      "kana": "りょうり",
+      "gloss": "cooking; cookery; cuisine; meal; food; dish; item on a menu; dealing with something; handling; administration; management",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111148,
+      "kanji": "旅行",
+      "kana": "りょこう",
+      "gloss": "travel; trip; journey; excursion; tour",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111689,
+      "kanji": "零",
+      "kana": "れい",
+      "gloss": "zero; nought",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111631,
+      "kanji": "冷蔵庫",
+      "kana": "れいぞうこ",
+      "gloss": "refrigerator; fridge",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111871,
+      "kanji": "練習",
+      "kana": "れんしゅう",
+      "gloss": "practice; training; drill; (an) exercise; workout",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112078,
+      "kanji": "廊下",
+      "kana": "ろうか",
+      "gloss": "corridor; hallway; passageway",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117574,
+      "kanji": "六",
+      "kana": "ろく",
+      "gloss": "six",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 891: 潮, 渦, 埋まる...",
+  "lesson_number": 891,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 94727,
+      "kanji": "潮",
+      "kana": "しお",
+      "gloss": "tide; current; sea water; opportunity; chance; thin soup of fish or shellfish boiled in seawater",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60843,
+      "kanji": "渦",
+      "kana": "うず",
+      "gloss": "whirlpool; swirl; eddy; vortex; maelstrom",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117314,
+      "kanji": "埋まる",
+      "kana": "うまる",
+      "gloss": "to be buried; to be covered; to be surrounded; to overflow; to be crowded; to be filled; to be repaid (e.g. debt); to be replenished; to be filled (e.g. blank, vacancy, schedule)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60878,
+      "kanji": "嘘つき",
+      "kana": "うそつき",
+      "gloss": "liar; fibber",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118452,
+      "kanji": "打ち合わせ",
+      "kana": "うちあわせ",
+      "gloss": "advance arrangements; preparatory meeting; briefing session; overlap (of a coat, etc.); making something match exactly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118456,
+      "kanji": "打ち合わせる",
+      "kana": "うちあわせる",
+      "gloss": "to knock together; to strike against each other; to arrange (e.g. a meeting); to discuss (in advance)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92134,
+      "kanji": "打ち切る",
+      "kana": "うちきる",
+      "gloss": "to stop; to abort; to discontinue; to close",
+      "card_type": "vocab"
+    }
+  ]
+}

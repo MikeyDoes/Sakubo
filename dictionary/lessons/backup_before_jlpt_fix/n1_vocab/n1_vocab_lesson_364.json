@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1224: 不吉, 不況, 布巾...",
+  "lesson_number": 1224,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 103146,
+      "kanji": "不吉",
+      "kana": "ふきつ",
+      "gloss": "ominous; sinister; unlucky; inauspicious",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103150,
+      "kanji": "不況",
+      "kana": "ふきょう",
+      "gloss": "depression; recession; slump",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103772,
+      "kanji": "布巾",
+      "kana": "ふきん",
+      "gloss": "tea-towel; dish cloth",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104333,
+      "kanji": "福",
+      "kana": "ふく",
+      "gloss": "good fortune; happiness; blessing; good luck",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104293,
+      "kanji": "復旧",
+      "kana": "ふっきゅう",
+      "gloss": "restoration; restitution; rehabilitation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104370,
+      "kanji": "複合",
+      "kana": "ふくごう",
+      "gloss": "composite; combined; complex",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104337,
+      "kanji": "福祉",
+      "kana": "ふくし",
+      "gloss": "welfare; well-being; social welfare; social security; social service",
+      "card_type": "vocab"
+    }
+  ]
+}

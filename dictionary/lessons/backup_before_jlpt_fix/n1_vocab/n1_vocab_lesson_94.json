@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 954: 奇数, 築く, 傷付く...",
+  "lesson_number": 954,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 67000,
+      "kanji": "奇数",
+      "kana": "きすう",
+      "gloss": "odd number",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93911,
+      "kanji": "築く",
+      "kana": "きずく",
+      "gloss": "to build; to construct; to erect; to amass (e.g. fortune); to pile up",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119381,
+      "kanji": "傷付く",
+      "kana": "きずつく",
+      "gloss": "to be wounded; to get injured; to get hurt feelings; to get damaged; to get chipped; to get scratched",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67509,
+      "kanji": "規制",
+      "kana": "きせい",
+      "gloss": "regulation; (traffic) policing; control; restriction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67474,
+      "kanji": "汽船",
+      "kana": "きせん",
+      "gloss": "steamship; steamboat; steamer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115372,
+      "kanji": "寄贈",
+      "kana": "きぞう",
+      "gloss": "donation; presentation; gift",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67574,
+      "kanji": "貴族",
+      "kana": "きぞく",
+      "gloss": "noble; aristocrat; peer",
+      "card_type": "vocab"
+    }
+  ]
+}

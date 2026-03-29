@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 899: 纓, 栄, 詠...",
+  "lesson_number": 899,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 250237,
+      "kanji": "纓",
+      "kana": "えい",
+      "gloss": "tail (of a traditional Japanese cap); chinstrap",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 275188,
+      "kanji": "栄",
+      "kana": "えい",
+      "gloss": "honor; honour; glory; prosperity",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 306850,
+      "kanji": "詠",
+      "kana": "えい",
+      "gloss": "recitation (of a poem); chanting; singing; composition (of a poem); composed poem",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61071,
+      "kanji": "映写",
+      "kana": "えいしゃ",
+      "gloss": "projection",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61148,
+      "kanji": "英字",
+      "kana": "えいじ",
+      "gloss": "English letter; alphabetic character",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61174,
+      "kanji": "衛生",
+      "kana": "えいせい",
+      "gloss": "hygiene; sanitation; health",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61073,
+      "kanji": "映像",
+      "kana": "えいぞう",
+      "gloss": "image (on a screen); picture (e.g. on a TV); video; film; footage; reflection; image (in one's mind); mental picture",
+      "card_type": "vocab"
+    }
+  ]
+}

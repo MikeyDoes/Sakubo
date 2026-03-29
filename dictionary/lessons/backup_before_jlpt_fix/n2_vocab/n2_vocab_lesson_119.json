@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 735: 性質, 清書, 青少年...",
+  "lesson_number": 735,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 87593,
+      "kanji": "性質",
+      "kana": "せいしつ",
+      "gloss": "nature; property; disposition",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87920,
+      "kanji": "清書",
+      "kana": "せいしょ",
+      "gloss": "fair copy; clean copy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88366,
+      "kanji": "青少年",
+      "kana": "せいしょうねん",
+      "gloss": "youth; young person",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87696,
+      "kanji": "整数",
+      "kana": "せいすう",
+      "gloss": "integer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87930,
+      "kanji": "清掃",
+      "kana": "せいそう",
+      "gloss": "cleaning; clean-up; garbage collection; scavenging",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88081,
+      "kanji": "生存",
+      "kana": "せいぞん",
+      "gloss": "existence; being; survival; to exist; to live; to survive",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88095,
+      "kanji": "生長",
+      "kana": "せいちょう",
+      "gloss": "growth (of a plant)",
+      "card_type": "vocab"
+    }
+  ]
+}

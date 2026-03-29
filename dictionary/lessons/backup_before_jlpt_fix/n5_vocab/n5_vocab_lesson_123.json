@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 223: 弱い, 来月, 来週...",
+  "lesson_number": 223,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 80757,
+      "kanji": "弱い",
+      "kana": "よわい",
+      "gloss": "weak; frail; delicate; tender; unskilled; weak (wine)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110444,
+      "kanji": "来月",
+      "kana": "らいげつ",
+      "gloss": "next month",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110455,
+      "kanji": "来週",
+      "kana": "らいしゅう",
+      "gloss": "next week",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110477,
+      "kanji": "来年",
+      "kana": "らいねん",
+      "gloss": "next year",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110975,
+      "kanji": "立派",
+      "kana": "りっぱ",
+      "gloss": "splendid; fine; handsome; elegant; imposing; prominent; praiseworthy; creditable; worthy; legal; legitimate; lawful; undeniable (e.g. crime); indisputable; solid",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111087,
+      "kanji": "留学生",
+      "kana": "りゅうがくせい",
+      "gloss": "overseas student; exchange student",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122691,
+      "kanji": "両親",
+      "kana": "りょうしん",
+      "gloss": "parents; both parents",
+      "card_type": "vocab"
+    }
+  ]
+}

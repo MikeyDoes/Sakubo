@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 650: 架空, 各自, 拡充...",
+  "lesson_number": 650,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 63506,
+      "kanji": "架空",
+      "kana": "かくう",
+      "gloss": "fictitious; imaginary; fanciful; fabricated; aerial; overhead",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65092,
+      "kanji": "各自",
+      "kana": "かくじ",
+      "gloss": "each (person); everyone; individual; respective",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65110,
+      "kanji": "拡充",
+      "kana": "かくじゅう",
+      "gloss": "expansion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65312,
+      "kanji": "学術",
+      "kana": "がくじゅつ",
+      "gloss": "science; learning; scholarship; arts and sciences; academic pursuits",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65101,
+      "kanji": "各地",
+      "kana": "かくち",
+      "gloss": "every place; various places",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65113,
+      "kanji": "拡張",
+      "kana": "かくちょう",
+      "gloss": "expansion; extension; enlargement; escape; ESC",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65234,
+      "kanji": "角度",
+      "kana": "かくど",
+      "gloss": "angle",
+      "card_type": "vocab"
+    }
+  ]
+}

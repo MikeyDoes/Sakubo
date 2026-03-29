@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 755: 断水, 単数, 団地...",
+  "lesson_number": 755,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 93570,
+      "kanji": "断水",
+      "kana": "だんすい",
+      "gloss": "suspension of water supply; water outage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93300,
+      "kanji": "単数",
+      "kana": "たんすう",
+      "gloss": "singular number",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93526,
+      "kanji": "団地",
+      "kana": "だんち",
+      "gloss": "multi-unit apartments; apartment complex",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93578,
+      "kanji": "断定",
+      "kana": "だんてい",
+      "gloss": "conclusion; decision; judgement; declaration; affirmative",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121111,
+      "kanji": "短編",
+      "kana": "たんぺん",
+      "gloss": "short (e.g. story, film)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88315,
+      "kanji": "誓う",
+      "kana": "ちかう",
+      "gloss": "to swear; to vow; to take an oath; to pledge",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 126136,
+      "kanji": "地下水",
+      "kana": "ちかすい",
+      "gloss": "underground water",
+      "card_type": "vocab"
+    }
+  ]
+}

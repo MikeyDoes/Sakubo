@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 152: 此の, ご飯, 困る...",
+  "lesson_number": 152,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 116940,
+      "kanji": "此の",
+      "kana": "この",
+      "gloss": "this; last (couple of years, etc.); these; past; you (as in \"you liar\")",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73732,
+      "kanji": "ご飯",
+      "kana": "ごはん",
+      "gloss": "cooked rice; meal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76109,
+      "kanji": "困る",
+      "kana": "こまる",
+      "gloss": "to be troubled; to have difficulty; to be in a fix; to be at a loss; to be stumped; to be embarrassed; to be bothered; to be inconvenienced; to be annoyed; to be badly off; to be hard up; to be in straitened circumstances",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 126873,
+      "kanji": "此れ",
+      "kana": "これ",
+      "gloss": "this; this one; this person; now; this point (in time); here; used to stress the subject of a sentence; I; me",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76050,
+      "kanji": "今月",
+      "kana": "こんげつ",
+      "gloss": "this month",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76065,
+      "kanji": "今週",
+      "kana": "こんしゅう",
+      "gloss": "this week",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76095,
+      "kanji": "今晩",
+      "kana": "こんばん",
+      "gloss": "tonight; this evening",
+      "card_type": "vocab"
+    }
+  ]
+}

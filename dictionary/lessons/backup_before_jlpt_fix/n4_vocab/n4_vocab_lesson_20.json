@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 248: 終わり, 海岸, 会議...",
+  "lesson_number": 248,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 118864,
+      "kanji": "終わり",
+      "kana": "おわり",
+      "gloss": "the end",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64601,
+      "kanji": "海岸",
+      "kana": "かいがん",
+      "gloss": "coast; beach",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64250,
+      "kanji": "会議",
+      "kana": "かいぎ",
+      "gloss": "meeting; conference; session; assembly; council; convention; congress",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64252,
+      "kanji": "会議室",
+      "kana": "かいぎしつ",
+      "gloss": "conference room; council room",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64279,
+      "kanji": "会場",
+      "kana": "かいじょう",
+      "gloss": "assembly hall; meeting place; venue; grounds",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64301,
+      "kanji": "会話",
+      "kana": "かいわ",
+      "gloss": "conversation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67256,
+      "kanji": "帰り",
+      "kana": "かえり",
+      "gloss": "return; coming back",
+      "card_type": "vocab"
+    }
+  ]
+}

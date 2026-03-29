@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1074: 十字路, 柔軟, 重複...",
+  "lesson_number": 1074,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 82177,
+      "kanji": "十字路",
+      "kana": "じゅうじろ",
+      "gloss": "crossroads; intersection",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82291,
+      "kanji": "柔軟",
+      "kana": "じゅうなん",
+      "gloss": "flexible; lithe; soft; pliable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116074,
+      "kanji": "重複",
+      "kana": "ちょうふく",
+      "gloss": "duplication; repetition; overlapping; redundancy; restoration",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116076,
+      "kanji": "重宝",
+      "kana": "ちょうほう",
+      "gloss": "convenient; useful; handy; helpful; finding useful; coming in handy; using often; (priceless) treasure",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82283,
+      "kanji": "従来",
+      "kana": "じゅうらい",
+      "gloss": "up to now; so far; traditional; conventional; usual; existing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82569,
+      "kanji": "塾",
+      "kana": "じゅく",
+      "gloss": "cram school; private tutoring school; juku",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81651,
+      "kanji": "樹木",
+      "kana": "じゅもく",
+      "gloss": "tree; trees and shrubs",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1248: 本名, 卯, 防衛...",
+  "lesson_number": 1248,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 107164,
+      "kanji": "本名",
+      "kana": "ほんみょう",
+      "gloss": "real name",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114969,
+      "kanji": "卯",
+      "kana": "う",
+      "gloss": "the Rabbit (fourth sign of the Chinese zodiac); the Hare; hour of the Rabbit (around 6am, 5-7am, or 6-8am); east; second month in the lunar calendar",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106810,
+      "kanji": "防衛",
+      "kana": "ぼうえい",
+      "gloss": "defense; defence; protection",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106816,
+      "kanji": "防火",
+      "kana": "ぼうか",
+      "gloss": "fire prevention; fire fighting; fire proof",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106665,
+      "kanji": "妨害",
+      "kana": "ぼうがい",
+      "gloss": "disturbance; obstruction; hindrance; jamming; interference",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106771,
+      "kanji": "紡績",
+      "kana": "ぼうせき",
+      "gloss": "spinning (textiles); spun yarn",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106215,
+      "kanji": "呆然",
+      "kana": "ぼうぜん",
+      "gloss": "dumbfounded; overcome with surprise; in blank amazement; in a daze",
+      "card_type": "vocab"
+    }
+  ]
+}

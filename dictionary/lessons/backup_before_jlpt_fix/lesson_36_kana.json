@@ -1,0 +1,38 @@
+{
+  "title": "Lesson 36 (Kana) - ガ・ギ・グ・ゲ・ゴ",
+  "lesson_number": 36,
+  "description": "Tenten Power: Just like Hiragana, adding two dots turns the \"K\" sound into a \"G\" sound.",
+  "source_file": "Spoonfed Kana Vocab Lessons.ods",
+  "items": [
+    {
+      "entry_id": 325401,
+      "kana": "ガ",
+      "kanji": null,
+      "gloss": "ga"
+    },
+    {
+      "entry_id": 325286,
+      "kana": "ギ",
+      "kanji": null,
+      "gloss": "gi"
+    },
+    {
+      "entry_id": 325287,
+      "kana": "グ",
+      "kanji": null,
+      "gloss": "gu"
+    },
+    {
+      "entry_id": 325402,
+      "kana": "ゲ",
+      "kanji": null,
+      "gloss": "ge"
+    },
+    {
+      "entry_id": 325288,
+      "kana": "ゴ",
+      "kanji": null,
+      "gloss": "go"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 391: 確実, 学者, 学習...",
+  "lesson_number": 391,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 65194,
+      "kanji": "確実",
+      "kana": "かくじつ",
+      "gloss": "certain; sure; definite; reliable; sound; solid; safe; secure",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65305,
+      "kanji": "学者",
+      "kana": "がくしゃ",
+      "gloss": "scholar",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65308,
+      "kanji": "学習",
+      "kana": "がくしゅう",
+      "gloss": "study; learning; tutorial",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60594,
+      "kanji": "隠す",
+      "kana": "かくす",
+      "gloss": "to hide; to conceal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65111,
+      "kanji": "拡大",
+      "kana": "かくだい",
+      "gloss": "magnification; enlargement; expansion; amplification",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65201,
+      "kanji": "確認",
+      "kana": "かくにん",
+      "gloss": "confirmation; verification; validation; review; check; affirmation; identification",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65338,
+      "kanji": "学問",
+      "kana": "がくもん",
+      "gloss": "scholarship; study; learning; discipline; branch of learning; (a) science",
+      "card_type": "vocab"
+    }
+  ]
+}

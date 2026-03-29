@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1231: 部, 部下, 侮辱...",
+  "lesson_number": 1231,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 255303,
+      "kanji": "部",
+      "kana": "べ",
+      "gloss": "hereditary occupational group (Yamato period)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104132,
+      "kanji": "部下",
+      "kana": "ぶか",
+      "gloss": "subordinate person",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103982,
+      "kanji": "侮辱",
+      "kana": "ぶじょく",
+      "gloss": "insult; affront; slight; contempt (e.g. of court)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104036,
+      "kanji": "武装",
+      "kana": "ぶそう",
+      "gloss": "arms; armament",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101754,
+      "kanji": "斑",
+      "kana": "むら",
+      "gloss": "unevenness (of colour, paint, etc.); irregularity; nonuniformity; blotchiness; unevenness (of quality, results, behaviour, etc.); inconsistency; instability; fickleness; capriciousness; fitfulness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117044,
+      "kanji": "斑",
+      "kana": "ぶち",
+      "gloss": "spots; speckles; mottles",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 285664,
+      "kanji": "斑",
+      "kana": "まだら",
+      "gloss": "spots; speckles; mottles; speckled; spotted",
+      "card_type": "vocab"
+    }
+  ]
+}

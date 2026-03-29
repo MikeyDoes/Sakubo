@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 482: 人類, 巣, 図...",
+  "lesson_number": 482,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 86771,
+      "kanji": "人類",
+      "kana": "じんるい",
+      "gloss": "mankind; humanity",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91034,
+      "kanji": "巣",
+      "kana": "す",
+      "gloss": "nest; rookery; breeding place; hive; den; haunt; (spider's) web",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86869,
+      "kanji": "図",
+      "kana": "ず",
+      "gloss": "drawing; picture; diagram; figure; illustration; chart; graph; sight; scene",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87076,
+      "kanji": "水準",
+      "kana": "すいじゅん",
+      "gloss": "level; standard; water level",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87008,
+      "kanji": "推薦",
+      "kana": "すいせん",
+      "gloss": "recommendation; referral; endorsement",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87186,
+      "kanji": "睡眠",
+      "kana": "すいみん",
+      "gloss": "sleep",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87278,
+      "kanji": "数字",
+      "kana": "すうじ",
+      "gloss": "numeral; figure; digit; numeric character",
+      "card_type": "vocab"
+    }
+  ]
+}

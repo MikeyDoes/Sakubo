@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1300: 冷蔵, 冷淡, 恋愛...",
+  "lesson_number": 1300,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 111630,
+      "kanji": "冷蔵",
+      "kana": "れいぞう",
+      "gloss": "cold storage; refrigeration",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111635,
+      "kanji": "冷淡",
+      "kana": "れいたん",
+      "gloss": "cool; indifferent; apathetic; half-hearted; cold; cold-hearted; heartless; unkind",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111821,
+      "kanji": "恋愛",
+      "kana": "れんあい",
+      "gloss": "love; love-making; passion; emotion; affections",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111913,
+      "kanji": "連休",
+      "kana": "れんきゅう",
+      "gloss": "consecutive holidays",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111956,
+      "kanji": "連日",
+      "kana": "れんじつ",
+      "gloss": "day after day; every day",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111952,
+      "kanji": "連中",
+      "kana": "れんちゅう",
+      "gloss": "company; lot; bunch; gang; pack; those guys; group; troupe; company (of musicians)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111947,
+      "kanji": "連帯",
+      "kana": "れんたい",
+      "gloss": "solidarity; joint; collective",
+      "card_type": "vocab"
+    }
+  ]
+}

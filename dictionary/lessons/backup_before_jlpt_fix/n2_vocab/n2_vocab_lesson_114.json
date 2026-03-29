@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 730: 水分, 水平, 水平線...",
+  "lesson_number": 730,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 87139,
+      "kanji": "水分",
+      "kana": "すいぶん",
+      "gloss": "water; liquid; fluid; moisture; humidity; sap; juice",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87142,
+      "kanji": "水平",
+      "kana": "すいへい",
+      "gloss": "horizontal; level; even",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87144,
+      "kanji": "水平線",
+      "kana": "すいへいせん",
+      "gloss": "horizon (related to bodies of water)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87160,
+      "kanji": "水曜",
+      "kana": "すいよう",
+      "gloss": "Wednesday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120709,
+      "kanji": "図々しい",
+      "kana": "ずうずうしい",
+      "gloss": "impudent; shameless; brazen; forward; audacious; cheeky",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117322,
+      "kanji": "末っ子",
+      "kana": "すえっこ",
+      "gloss": "youngest child",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86878,
+      "kanji": "図鑑",
+      "kana": "ずかん",
+      "gloss": "pictorial book; picture book; illustrated reference book; identification manual; field guide",
+      "card_type": "vocab"
+    }
+  ]
+}

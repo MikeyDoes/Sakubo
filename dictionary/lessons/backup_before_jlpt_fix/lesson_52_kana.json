@@ -1,0 +1,38 @@
+{
+  "title": "Lesson 52 (Kana) - パ・ピ・プ・ペ・ポ",
+  "lesson_number": 52,
+  "description": "The Maru (゜): This little circle only ever appears on the H-row. It turns \"H\" into \"P.\"",
+  "source_file": "Spoonfed Kana Vocab Lessons.ods",
+  "items": [
+    {
+      "entry_id": 325414,
+      "kana": "パ",
+      "kanji": null,
+      "gloss": "pa"
+    },
+    {
+      "entry_id": 325313,
+      "kana": "ピ",
+      "kanji": null,
+      "gloss": "pi"
+    },
+    {
+      "entry_id": 325314,
+      "kana": "プ",
+      "kanji": null,
+      "gloss": "pu"
+    },
+    {
+      "entry_id": 325315,
+      "kana": "ペ",
+      "kanji": null,
+      "gloss": "pe"
+    },
+    {
+      "entry_id": 325316,
+      "kana": "ポ",
+      "kanji": null,
+      "gloss": "po"
+    }
+  ]
+}

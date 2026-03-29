@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 732: 鈴, 涼む, 酸っぱい...",
+  "lesson_number": 732,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 111680,
+      "kanji": "鈴",
+      "kana": "すず",
+      "gloss": "bell (often globular)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111290,
+      "kanji": "涼む",
+      "kana": "すずむ",
+      "gloss": "to cool oneself; to cool off; to enjoy the cool air",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78071,
+      "kanji": "酸っぱい",
+      "kana": "すっぱい",
+      "gloss": "sour; acid",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80446,
+      "kanji": "棄てる",
+      "kana": "すてる",
+      "gloss": "to throw away; to cast away; to dump; to discard; to abandon; to desert; to leave; to give up; to resign",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90572,
+      "kanji": "素直",
+      "kana": "すなお",
+      "gloss": "obedient; meek; docile; unaffected; honest; frank; upfront (about one's feelings)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97721,
+      "kanji": "頭脳",
+      "kana": "ずのう",
+      "gloss": "head; brains; intellect; understanding",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86892,
+      "kanji": "図表",
+      "kana": "ずひょう",
+      "gloss": "chart; diagram; graph; figure",
+      "card_type": "vocab"
+    }
+  ]
+}

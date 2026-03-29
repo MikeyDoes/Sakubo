@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 189: 何, 二, 二...",
+  "lesson_number": 189,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 311886,
+      "kanji": "何",
+      "kana": "なん",
+      "gloss": "what; how many; many; a lot of; several; a few; some",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99026,
+      "kanji": "二",
+      "kana": "に",
+      "gloss": "two",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 269184,
+      "kanji": "二",
+      "kana": "アル",
+      "gloss": "two",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99383,
+      "kanji": "賑やか",
+      "kana": "にぎやか",
+      "gloss": "bustling; busy; lively",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99388,
+      "kanji": "肉",
+      "kana": "にく",
+      "gloss": "flesh; meat; the physical body (as opposed to the spirit); thickness; ink pad",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88270,
+      "kanji": "西",
+      "kana": "にし",
+      "gloss": "west",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 224188,
+      "kanji": "西",
+      "kana": "せい",
+      "gloss": "Spain; Spanish (language)",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1288: 要因, 溶液, 用件...",
+  "lesson_number": 1288,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 110292,
+      "kanji": "要因",
+      "kana": "よういん",
+      "gloss": "main cause; primary factor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110214,
+      "kanji": "溶液",
+      "kana": "ようえき",
+      "gloss": "solution (liquid)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110238,
+      "kanji": "用件",
+      "kana": "ようけん",
+      "gloss": "business; thing to be done; something that should be performed; information that should be conveyed",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123655,
+      "kanji": "養護",
+      "kana": "ようご",
+      "gloss": "nursing; (protective) care",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110242,
+      "kanji": "用紙",
+      "kana": "ようし",
+      "gloss": "blank form; sheets of paper; sheet of paper",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110147,
+      "kanji": "様式",
+      "kana": "ようしき",
+      "gloss": "style; form; pattern",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110287,
+      "kanji": "要する",
+      "kana": "ようする",
+      "gloss": "to need; to demand; to take; to require",
+      "card_type": "vocab"
+    }
+  ]
+}

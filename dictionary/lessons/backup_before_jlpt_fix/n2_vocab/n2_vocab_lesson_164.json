@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 780: 特色, 特長, 特定...",
+  "lesson_number": 780,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 98204,
+      "kanji": "特色",
+      "kana": "とくしょく",
+      "gloss": "characteristic; feature; idiosyncrasy; personal colour; spot color (in printing)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98214,
+      "kanji": "特長",
+      "kana": "とくちょう",
+      "gloss": "forte; merit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98215,
+      "kanji": "特定",
+      "kana": "とくてい",
+      "gloss": "specific; particular; designated; special; specifying; designating; identifying; pinpointing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98219,
+      "kanji": "特売",
+      "kana": "とくばい",
+      "gloss": "special sale",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110207,
+      "kanji": "溶け込む",
+      "kana": "とけこむ",
+      "gloss": "to melt into; to dissolve into; to merge into; to blend into (surroundings); to fit in; to adapt to; to integrate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110199,
+      "kanji": "溶ける",
+      "kana": "とける",
+      "gloss": "to melt; to thaw; to fuse; to dissolve",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92492,
+      "kanji": "退ける",
+      "kana": "しりぞける",
+      "gloss": "to repel; to drive away; to repulse; to reject",
+      "card_type": "vocab"
+    }
+  ]
+}

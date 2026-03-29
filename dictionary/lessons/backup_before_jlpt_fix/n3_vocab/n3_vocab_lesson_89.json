@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 438: 黒板, 克服, 国民...",
+  "lesson_number": 438,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 75887,
+      "kanji": "黒板",
+      "kana": "こくばん",
+      "gloss": "blackboard",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75608,
+      "kanji": "克服",
+      "kana": "こくふく",
+      "gloss": "conquest (of a difficulty, illness, handicap, etc.); overcoming; bringing under control; subjugation; victory over",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75752,
+      "kanji": "国民",
+      "kana": "こくみん",
+      "gloss": "people (of a country); nation; citizen; national",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 307800,
+      "kanji": "国民",
+      "kana": "くにたみ",
+      "gloss": "people of a country",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75774,
+      "kanji": "穀物",
+      "kana": "こくもつ",
+      "gloss": "grain; cereal; corn",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75925,
+      "kanji": "腰",
+      "kana": "こし",
+      "gloss": "lower back; waist; hips; lumbar region; body (of hair, noodle, paper, etc.); resilience; spring",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 281982,
+      "kanji": "腰",
+      "kana": "ごし",
+      "gloss": "posture; position; pose; attitude",
+      "card_type": "vocab"
+    }
+  ]
+}

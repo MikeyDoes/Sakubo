@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1207: 反撃, 反射, 繁殖...",
+  "lesson_number": 1207,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 101635,
+      "kanji": "反撃",
+      "kana": "はんげき",
+      "gloss": "counterattack; counteroffensive; counterblow",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101644,
+      "kanji": "反射",
+      "kana": "はんしゃ",
+      "gloss": "reflection; reverberation; reflex; reflexes",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101802,
+      "kanji": "繁殖",
+      "kana": "はんしょく",
+      "gloss": "breeding; multiplication; increase; propagation; reproduction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101804,
+      "kanji": "繁盛",
+      "kana": "はんじょう",
+      "gloss": "prosperity; flourishing; thriving",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101601,
+      "kanji": "反する",
+      "kana": "はんする",
+      "gloss": "to be contrary to; to be inconsistent with; to contradict; to act contrary to (rules or guidelines); to violate; to transgress; to oppose; to rebel; to revolt",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101445,
+      "kanji": "判定",
+      "kana": "はんてい",
+      "gloss": "judgement; judgment; decision; adjudication; award; verdict; determination",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101621,
+      "kanji": "反応",
+      "kana": "はんのう",
+      "gloss": "reaction; response",
+      "card_type": "vocab"
+    }
+  ]
+}

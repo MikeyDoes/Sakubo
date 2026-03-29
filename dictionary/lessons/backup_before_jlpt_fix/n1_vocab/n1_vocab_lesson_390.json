@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1250: 母校, 没収, 坊ちゃん...",
+  "lesson_number": 1250,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 106142,
+      "kanji": "母校",
+      "kana": "ぼこう",
+      "gloss": "alma mater",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107017,
+      "kanji": "没収",
+      "kana": "ぼっしゅう",
+      "gloss": "forfeiture; seizure; confiscation; impounding",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123008,
+      "kanji": "坊ちゃん",
+      "kana": "ぼっちゃん",
+      "gloss": "son (of others); boy; young master; green young man from a well-to-do family; young man innocent of the ways of the world",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123012,
+      "kanji": "勃々",
+      "kana": "ぼつぼつ",
+      "gloss": "spirited; rising; energetic",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107023,
+      "kanji": "没落",
+      "kana": "ぼつらく",
+      "gloss": "ruin; fall; collapse",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107350,
+      "kanji": "枚",
+      "kana": "まい",
+      "gloss": "counter for flat objects (e.g. sheets of paper); counter for positions or roles; counter for food portions (now only gyōza and soba); counter for ranking level",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 231936,
+      "kanji": "枚",
+      "kana": "ひら",
+      "gloss": "counter for thin, flat things (petals, leaves, etc.)",
+      "card_type": "vocab"
+    }
+  ]
+}

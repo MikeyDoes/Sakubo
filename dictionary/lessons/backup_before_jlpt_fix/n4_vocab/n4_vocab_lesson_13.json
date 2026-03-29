@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 241: 暈, 運転, 運転手...",
+  "lesson_number": 241,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 166051,
+      "kanji": "暈",
+      "kana": "うん",
+      "gloss": "halo (around the Sun, Moon, etc.); ring; corona",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60955,
+      "kanji": "運転",
+      "kana": "うんてん",
+      "gloss": "operation (of a machine, etc.); operating; running; run; driving; working (capital, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60959,
+      "kanji": "運転手",
+      "kana": "うんてんしゅ",
+      "gloss": "driver; chauffeur",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60963,
+      "kanji": "運動",
+      "kana": "うんどう",
+      "gloss": "exercise; physical training; work-out; appeal; campaign; drive; crusade; movement; lobbying; motion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78934,
+      "kanji": "枝",
+      "kana": "えだ",
+      "gloss": "branch; bow; bough; twig; limb",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 181942,
+      "kanji": "枝",
+      "kana": "し",
+      "gloss": "counter for long, thin things (i.e. swords)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118618,
+      "kanji": "選ぶ",
+      "kana": "えらぶ",
+      "gloss": "to choose; to select",
+      "card_type": "vocab"
+    }
+  ]
+}

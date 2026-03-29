@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 599: 者, 者, 物音...",
+  "lesson_number": 599,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 80528,
+      "kanji": "者",
+      "kana": "もん",
+      "gloss": "person",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 192035,
+      "kanji": "者",
+      "kana": "しゃ",
+      "gloss": "person; -er; expert; geisha; prostitute",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104518,
+      "kanji": "物音",
+      "kana": "ものおと",
+      "gloss": "sounds",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104524,
+      "kanji": "物語",
+      "kana": "ものがたり",
+      "gloss": "tale; story; legend",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104536,
+      "kanji": "物事",
+      "kana": "ものごと",
+      "gloss": "things; everything",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108482,
+      "kanji": "模様",
+      "kana": "もよう",
+      "gloss": "pattern; figure; design; state; condition; conjecture of the current situation; the way it seems; model; example; indicates that something seems likely (e.g. rain or storm); framework (in go); territorial framework; moyo",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104903,
+      "kanji": "文句",
+      "kana": "もんく",
+      "gloss": "complaint; grumbling; objection; phrase; words; expression",
+      "card_type": "vocab"
+    }
+  ]
+}

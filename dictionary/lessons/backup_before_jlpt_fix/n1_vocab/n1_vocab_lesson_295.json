@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1155: 砥, 堵, 問い合わせる...",
+  "lesson_number": 1155,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 292475,
+      "kanji": "砥",
+      "kana": "と",
+      "gloss": "whetstone; grindstone",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 307610,
+      "kanji": "堵",
+      "kana": "と",
+      "gloss": "fence; wall; hedge",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108869,
+      "kanji": "問い合わせる",
+      "kana": "といあわせる",
+      "gloss": "to enquire; to inquire; to seek information",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117423,
+      "kanji": "問屋",
+      "kana": "とんや",
+      "gloss": "wholesale store; wholesale dealer; wholesaler",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108878,
+      "kanji": "問う",
+      "kana": "とう",
+      "gloss": "to ask; to inquire; to blame (someone) for; to accuse of; to pursue (question of responsibility); to charge with; to care about; to regard as important; to call into question; to doubt; to question",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97349,
+      "kanji": "棟",
+      "kana": "とう",
+      "gloss": "large building; building with a long roof; counter for buildings, apartments, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97350,
+      "kanji": "棟",
+      "kana": "むね",
+      "gloss": "ridge (of roof); back of a sword; counter for buildings, apartments, etc.",
+      "card_type": "vocab"
+    }
+  ]
+}

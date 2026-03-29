@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1292: 余地, 依って, 余程...",
+  "lesson_number": 1292,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 109950,
+      "kanji": "余地",
+      "kana": "よち",
+      "gloss": "place; room; margin; scope",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123687,
+      "kanji": "依って",
+      "kana": "よって",
+      "gloss": "therefore; consequently; accordingly; for that reason",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123690,
+      "kanji": "余程",
+      "kana": "よほど",
+      "gloss": "very; greatly; much; to a large extent; quite; just about to; almost; very nearly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110013,
+      "kanji": "与党",
+      "kana": "よとう",
+      "gloss": "ruling party; government party; party in power; government",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73118,
+      "kanji": "呼び止める",
+      "kana": "よびとめる",
+      "gloss": "to (call and) stop; to call (someone) to stop; to hail (e.g. a taxi)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123694,
+      "kanji": "夜更かし",
+      "kana": "よふかし",
+      "gloss": "staying up late; keeping late hours; sitting up late at night; nighthawk",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123697,
+      "kanji": "夜更け",
+      "kana": "よふけ",
+      "gloss": "late at night; small hours of the morning",
+      "card_type": "vocab"
+    }
+  ]
+}

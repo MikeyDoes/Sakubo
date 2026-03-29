@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 725: 書店, 書道, 白髪...",
+  "lesson_number": 725,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 83377,
+      "kanji": "書店",
+      "kana": "しょてん",
+      "gloss": "bookshop; bookstore",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83378,
+      "kanji": "書道",
+      "kana": "しょどう",
+      "gloss": "calligraphy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116972,
+      "kanji": "白髪",
+      "kana": "しらが",
+      "gloss": "white hair; grey hair; gray hair",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120432,
+      "kanji": "知合い",
+      "kana": "しりあい",
+      "gloss": "acquaintance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79059,
+      "kanji": "私立",
+      "kana": "しりつ",
+      "gloss": "private (establishment)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79239,
+      "kanji": "資料",
+      "kana": "しりょう",
+      "gloss": "materials; data; document",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82295,
+      "kanji": "汁",
+      "kana": "しる",
+      "gloss": "juice; sap; soup; broth; (dipping) sauce",
+      "card_type": "vocab"
+    }
+  ]
+}

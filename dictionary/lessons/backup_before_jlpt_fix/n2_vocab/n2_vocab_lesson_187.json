@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 803: 判事, 反省, 番地...",
+  "lesson_number": 803,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 101436,
+      "kanji": "判事",
+      "kana": "はんじ",
+      "gloss": "judge; judiciary",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101657,
+      "kanji": "反省",
+      "kana": "はんせい",
+      "gloss": "reflection; reconsideration; introspection; meditation; contemplation; regret; repentance; remorse; being sorry",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101887,
+      "kanji": "番地",
+      "kana": "ばんち",
+      "gloss": "house number; address",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101566,
+      "kanji": "半島",
+      "kana": "はんとう",
+      "gloss": "peninsula; Korea",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122303,
+      "kanji": "日当たり",
+      "kana": "ひあたり",
+      "gloss": "exposure to the sun; sunny place; per day",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99449,
+      "kanji": "日帰り",
+      "kana": "ひがえり",
+      "gloss": "day trip",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102057,
+      "kanji": "比較的",
+      "kana": "ひかくてき",
+      "gloss": "comparatively; relatively",
+      "card_type": "vocab"
+    }
+  ]
+}

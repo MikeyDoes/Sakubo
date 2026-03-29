@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 116: 一日, 一番, 何時...",
+  "lesson_number": 116,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 202789,
+      "kanji": "一日",
+      "kana": "ついたち",
+      "gloss": "first day of the month; first ten days of the lunar month",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59842,
+      "kanji": "一番",
+      "kana": "いちばん",
+      "gloss": "number one; first; first place; best; most; game; round; bout; as a test; as an experiment; by way of experiment; by way of trial; tentatively; song (e.g. in noh); piece",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62969,
+      "kanji": "何時",
+      "kana": "いつ",
+      "gloss": "when; at what time; how soon; normal times; ordinary days",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73380,
+      "kanji": "五",
+      "kana": "いつ",
+      "gloss": "five",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117603,
+      "kanji": "佚",
+      "kana": "いつ",
+      "gloss": "being comfortable; relaxing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 299750,
+      "kanji": "凍つ",
+      "kana": "いつ",
+      "gloss": "to freeze",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73446,
+      "kanji": "五日",
+      "kana": "いつか",
+      "gloss": "fifth day of the month; five days",
+      "card_type": "vocab"
+    }
+  ]
+}

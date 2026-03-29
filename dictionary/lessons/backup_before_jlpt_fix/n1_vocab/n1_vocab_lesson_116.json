@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 976: 覆す, 首飾り, 首輪...",
+  "lesson_number": 976,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 104390,
+      "kanji": "覆す",
+      "kana": "くつがえす",
+      "gloss": "to overturn; to capsize; to upset; to overthrow (government etc.); to reverse (decision etc.); to disprove (an established theory etc.); to overrule",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81482,
+      "kanji": "首飾り",
+      "kana": "くびかざり",
+      "gloss": "necklace; choker",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81504,
+      "kanji": "首輪",
+      "kana": "くびわ",
+      "gloss": "(animal) collar; necklace; choker",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119660,
+      "kanji": "組み合わせ",
+      "kana": "くみあわせ",
+      "gloss": "combination; assortment; set; matching (in a contest); pairing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90595,
+      "kanji": "組み合わせる",
+      "kana": "くみあわせる",
+      "gloss": "to join together; to combine; to join up",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90603,
+      "kanji": "組み込む",
+      "kana": "くみこむ",
+      "gloss": "to insert; to include; to incorporate; to cut in (printing)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119685,
+      "kanji": "蔵",
+      "kana": "くら",
+      "gloss": "warehouse; storehouse; cellar; magazine; granary; godown; depository; treasury; elevator",
+      "card_type": "vocab"
+    }
+  ]
+}

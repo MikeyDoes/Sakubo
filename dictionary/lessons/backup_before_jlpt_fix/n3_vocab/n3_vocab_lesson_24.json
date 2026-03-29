@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 373: 噂, 柄, 柄...",
+  "lesson_number": 373,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 60927,
+      "kanji": "噂",
+      "kana": "うわさ",
+      "gloss": "rumour; rumor; report; hearsay; gossip; common talk",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105260,
+      "kanji": "柄",
+      "kana": "え",
+      "gloss": "handle; grip; stalk (of a mushroom, leaf, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105261,
+      "kanji": "柄",
+      "kana": "がら",
+      "gloss": "pattern; design; body build; figure; physique; essential qualities; character; nature; appropriate to; fitting of; suitable for",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105262,
+      "kanji": "柄",
+      "kana": "つか",
+      "gloss": "hilt (of a sword); haft (of a dagger); handle; handgrip",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 224493,
+      "kanji": "柄",
+      "kana": "から",
+      "gloss": "trunk; stem; stalk; shaft (of an arrow); handle",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61101,
+      "kanji": "永遠",
+      "kana": "えいえん",
+      "gloss": "eternity; perpetuity; permanence; immortality",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114996,
+      "kanji": "永久",
+      "kana": "えいきゅう",
+      "gloss": "eternity; permanence; perpetuity; Eikyū era (1113.7.13-1118.4.3)",
+      "card_type": "vocab"
+    }
+  ]
+}

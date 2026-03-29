@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 579: 変更, 弁当, 方...",
+  "lesson_number": 579,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 105614,
+      "kanji": "変更",
+      "kana": "へんこう",
+      "gloss": "change; modification; alteration; revision; amendment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105866,
+      "kanji": "弁当",
+      "kana": "べんとう",
+      "gloss": "bento; Japanese box lunch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106385,
+      "kanji": "方",
+      "kana": "かた",
+      "gloss": "direction; way; person; lady; gentleman; method of; manner of; way of; care of ...; person in charge of ...; side (e.g. \"on my mother's side\")",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110138,
+      "kanji": "方",
+      "kana": "さま",
+      "gloss": "Mr.; Mrs.; Miss; Ms.; makes a word more polite (usu. in fixed expressions); state; situation; appearance; manner",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 207027,
+      "kanji": "方",
+      "kana": "がた",
+      "gloss": "Sirs; Mesdames; around (the time that, etc.); about",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 207251,
+      "kanji": "方",
+      "kana": "へ",
+      "gloss": "surrounding area; shore (of the sea); suffix used as a rough indicator of location, direction, time, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106740,
+      "kanji": "棒",
+      "kana": "ぼう",
+      "gloss": "pole; rod; stick; baton; line; dash; spoken monotonously",
+      "card_type": "vocab"
+    }
+  ]
+}

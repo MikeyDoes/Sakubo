@@ -1,0 +1,38 @@
+{
+  "title": "Lesson 44 (Kana) - ダ・ヂ・ヅ・デ・ド",
+  "lesson_number": 44,
+  "description": "Tenten Power: Turns \"T\" into \"D.\" Like Hiragana, ヂ and ヅ are extremely rare.",
+  "source_file": "Spoonfed Kana Vocab Lessons.ods",
+  "items": [
+    {
+      "entry_id": 325298,
+      "kana": "ダ",
+      "kanji": null,
+      "gloss": "da"
+    },
+    {
+      "entry_id": 325299,
+      "kana": "ヂ",
+      "kanji": null,
+      "gloss": "ji"
+    },
+    {
+      "entry_id": 325300,
+      "kana": "ヅ",
+      "kanji": null,
+      "gloss": "zu"
+    },
+    {
+      "entry_id": 325301,
+      "kana": "デ",
+      "kanji": null,
+      "gloss": "de"
+    },
+    {
+      "entry_id": 325409,
+      "kana": "ド",
+      "kanji": null,
+      "gloss": "do"
+    }
+  ]
+}

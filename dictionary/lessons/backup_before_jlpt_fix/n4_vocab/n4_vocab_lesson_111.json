@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 339: 向かう, 迎える, 昔...",
+  "lesson_number": 339,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 123332,
+      "kanji": "向かう",
+      "kana": "むかう",
+      "gloss": "to face; to go towards; to head towards",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71364,
+      "kanji": "迎える",
+      "kana": "むかえる",
+      "gloss": "to go out to meet; to receive; to welcome; to greet; to salute; to hail; to reach; to approach; to enter (a phase, era, etc.); to accept (e.g. as a member of a group or family); to call for; to summon; to invite; to approach (a certain time, a point in one's life, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88469,
+      "kanji": "昔",
+      "kana": "むかし",
+      "gloss": "olden days; former",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94468,
+      "kanji": "虫",
+      "kana": "むし",
+      "gloss": "insect; bug; cricket; moth; worm; roundworm; one's emotions; one's feelings; nervousness; fretfulness; person devoted to one thing; single-minded person; valve core; mushi (type of game played with a stripped deck)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91577,
+      "kanji": "息子",
+      "kana": "むすこ",
+      "gloss": "son; penis",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84970,
+      "kanji": "娘",
+      "kana": "じょう",
+      "gloss": "unmarried woman; Miss; -ess; -ette",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108160,
+      "kanji": "娘",
+      "kana": "むすめ",
+      "gloss": "daughter; girl (i.e. a young, unmarried woman)",
+      "card_type": "vocab"
+    }
+  ]
+}

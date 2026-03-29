@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 620: 厚かましい, 圧縮, 宛名...",
+  "lesson_number": 620,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 74311,
+      "kanji": "厚かましい",
+      "kana": "あつかましい",
+      "gloss": "impudent; shameless; brazen",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58179,
+      "kanji": "圧縮",
+      "kana": "あっしゅく",
+      "gloss": "compression; condensation; constriction; compaction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117962,
+      "kanji": "宛名",
+      "kana": "あてな",
+      "gloss": "(addressee's) name; (recipient's) name and address",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97442,
+      "kanji": "当てはまる",
+      "kana": "あてはまる",
+      "gloss": "to apply (a rule); to be applicable; to come under (a category); to fulfill; to hold true",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117965,
+      "kanji": "当てはめる",
+      "kana": "あてはめる",
+      "gloss": "to apply; to adapt",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106693,
+      "kanji": "暴れる",
+      "kana": "あばれる",
+      "gloss": "to act violently; to rage; to struggle; to be riotous",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79106,
+      "kanji": "脂",
+      "kana": "あぶら",
+      "gloss": "fat; tallow; lard; grease",
+      "card_type": "vocab"
+    }
+  ]
+}

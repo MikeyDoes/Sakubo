@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 885: 一切, 一心, 一帯...",
+  "lesson_number": 885,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 59597,
+      "kanji": "一切",
+      "kana": "いっさい",
+      "gloss": "all; everything; entirety; the whole; absolutely (not); (not) at all; (none) whatsoever; without exception",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59509,
+      "kanji": "一心",
+      "kana": "いっしん",
+      "gloss": "one mind; wholeheartedness; one's whole heart",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59654,
+      "kanji": "一帯",
+      "kana": "いったい",
+      "gloss": "whole area; whole region; stretch (of land); tract; belt; zone",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59903,
+      "kanji": "一変",
+      "kana": "いっぺん",
+      "gloss": "complete change; about-face",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62970,
+      "kanji": "何時",
+      "kana": "なんじ",
+      "gloss": "what time; which hour",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 309110,
+      "kanji": "何時",
+      "kana": "なんどき",
+      "gloss": "when; at what moment; what time",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115158,
+      "kanji": "何時でも",
+      "kana": "なんどきでも",
+      "gloss": "(at) any time; always; at all times; whenever",
+      "card_type": "vocab"
+    }
+  ]
+}

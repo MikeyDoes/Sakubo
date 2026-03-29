@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1168: 取り戻す, 取り寄せる, 取り分...",
+  "lesson_number": 1168,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 81092,
+      "kanji": "取り戻す",
+      "kana": "とりもどす",
+      "gloss": "to take back; to regain; to get back; to recover",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80994,
+      "kanji": "取り寄せる",
+      "kana": "とりよせる",
+      "gloss": "to order; to send away for; to have (something) sent to one; to pull (something) closer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 130666,
+      "kanji": "取り分",
+      "kana": "とりぶん",
+      "gloss": "one's share; one's portion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104251,
+      "kanji": "副",
+      "kana": "ふく",
+      "gloss": "assistant; associate; vice-; sub-; deputy; substitute; auxiliary; supplementary; additional; collateral; duplicate; copy; adverb",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121662,
+      "kanji": "蕩ける",
+      "kana": "とろける",
+      "gloss": "to melt (and become soft or liquid); to be enchanted (by); to be charmed; to be bewitched",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97829,
+      "kanji": "同意",
+      "kana": "どうい",
+      "gloss": "agreement; consent; approval; assent; same opinion; same view; same meaning",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97765,
+      "kanji": "動員",
+      "kana": "どういん",
+      "gloss": "mobilization; mobilisation",
+      "card_type": "vocab"
+    }
+  ]
+}

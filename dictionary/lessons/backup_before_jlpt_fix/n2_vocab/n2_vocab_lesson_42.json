@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 658: 課程, 仮名, 仮名...",
+  "lesson_number": 658,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 63898,
+      "kanji": "課程",
+      "kana": "かてい",
+      "gloss": "course; curriculum",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115147,
+      "kanji": "仮名",
+      "kana": "かめい",
+      "gloss": "alias; pseudonym; pen name; nom de plume",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119155,
+      "kanji": "仮名",
+      "kana": "かな",
+      "gloss": "kana; Japanese syllabary (i.e. hiragana, katakana)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62856,
+      "kanji": "仮名遣い",
+      "kana": "かなづかい",
+      "gloss": "kana orthography; syllabary spelling",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84439,
+      "kanji": "鐘",
+      "kana": "かね",
+      "gloss": "bell (often a large hanging bell); chime",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63192,
+      "kanji": "加熱",
+      "kana": "かねつ",
+      "gloss": "heating; application of heat",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71805,
+      "kanji": "兼ねる",
+      "kana": "かねる",
+      "gloss": "to be unable to; to find difficult (unpleasant, awkward, painful) to do; to serve two or more functions or roles simultaneously; to contain (or combine) two or more features; to work in two or more jobs simultaneously (positions, etc.); to do alongside; to hesitate to do something (out of consideration for others); to think of the future (as well as the present)",
+      "card_type": "vocab"
+    }
+  ]
+}

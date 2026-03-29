@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 740: 扇子, 専制, 先々月...",
+  "lesson_number": 740,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 89686,
+      "kanji": "扇子",
+      "kana": "せんす",
+      "gloss": "folding fan",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89549,
+      "kanji": "専制",
+      "kana": "せんせい",
+      "gloss": "despotism; autocracy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120774,
+      "kanji": "先々月",
+      "kana": "せんせんげつ",
+      "gloss": "month before last",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 158966,
+      "kanji": "先々週",
+      "kana": "せんせんしゅう",
+      "gloss": "week before last",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89329,
+      "kanji": "先祖",
+      "kana": "せんぞ",
+      "gloss": "ancestor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89339,
+      "kanji": "先端",
+      "kana": "せんたん",
+      "gloss": "pointed end; tip; point; cusp (of a leaf, crescent moon, etc.); apex (of a curve); forefront; vanguard; spearhead; leading edge",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89540,
+      "kanji": "宣伝",
+      "kana": "せんでん",
+      "gloss": "publicity; advertisement; advertising; propaganda",
+      "card_type": "vocab"
+    }
+  ]
+}

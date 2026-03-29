@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 147: 車, 車, 黒...",
+  "lesson_number": 147,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 80537,
+      "kanji": "車",
+      "kana": "くるま",
+      "gloss": "car; automobile; vehicle; wheel",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 275521,
+      "kanji": "車",
+      "kana": "しゃ",
+      "gloss": "car; vehicle",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75788,
+      "kanji": "黒",
+      "kana": "くろ",
+      "gloss": "black; black go stone; guilt; guilty person",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75789,
+      "kanji": "黒い",
+      "kana": "くろい",
+      "gloss": "black; dark; blackish; sun-tanned (skin); suspicious; criminal; illicit; darkened and dirty; sooty; covered in dirt; evil; wicked; black-hearted; inauspicious; ill-boding; unlucky",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71256,
+      "kanji": "警官",
+      "kana": "けいかん",
+      "gloss": "police officer; policeman; constable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115812,
+      "kanji": "今朝",
+      "kana": "けさ",
+      "gloss": "this morning",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84162,
+      "kanji": "消す",
+      "kana": "けす",
+      "gloss": "to erase; to delete; to cross out; to turn off (power); to switch off; to extinguish; to put out; to bump off",
+      "card_type": "vocab"
+    }
+  ]
+}

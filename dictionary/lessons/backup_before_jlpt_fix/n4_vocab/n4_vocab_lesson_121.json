@@ -1,0 +1,28 @@
+{
+  "title": "Lesson 349: 割合, 割れる, 泳ぎ方",
+  "lesson_number": 349,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 123917,
+      "kanji": "割合",
+      "kana": "わりあい",
+      "gloss": "rate; ratio; percentage; proportion; comparatively; contrary to expectations",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65508,
+      "kanji": "割れる",
+      "kana": "われる",
+      "gloss": "to break; to be smashed; to split; to crack; to fissure; to be torn; to be divided (opinion, vote, etc.); to split (e.g. of a party); to come to light; to become clear; to be identified; to be revealed; to be distorted (of a sound); to be divisible (without a remainder); to go below a minimum",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 171775,
+      "kanji": "泳ぎ方",
+      "kana": "およぎかた",
+      "gloss": "way of swimming",
+      "card_type": "vocab"
+    }
+  ]
+}

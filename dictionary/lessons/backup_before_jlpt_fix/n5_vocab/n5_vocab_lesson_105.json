@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 205: 太い, 冬, 降る...",
+  "lesson_number": 205,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 92026,
+      "kanji": "太い",
+      "kana": "ふとい",
+      "gloss": "fat; thick; deep (of a voice); sonorous; daring; shameless; brazen; audacious",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97085,
+      "kanji": "冬",
+      "kana": "ふゆ",
+      "gloss": "winter",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62434,
+      "kanji": "降る",
+      "kana": "くだる",
+      "gloss": "to descend; to go down; to come down; to be handed down (of an order, judgment, etc.); to pass (of time); to surrender; to capitulate; to be less than; to be inferior to; to have the runs; to have diarrhea; to pass (in stool); to be discharged from the body; to depreciate oneself; to be humble",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75257,
+      "kanji": "降る",
+      "kana": "ふる",
+      "gloss": "to fall (of rain, snow, ash, etc.); to come down; to form (of frost); to beam down (of sunlight or moonlight); to pour in; to visit (of luck, misfortune, etc.); to come; to arrive",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72962,
+      "kanji": "古い",
+      "kana": "ふるい",
+      "gloss": "old; aged; ancient; antiquated; antique; timeworn; long; since long ago; time-honored; of the distant past; long-ago; stale; threadbare; hackneyed; corny; old-fashioned; outmoded; out-of-date",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104929,
+      "kanji": "文章",
+      "kana": "ぶんしょう",
+      "gloss": "writing; composition; essay; article; passage; prose; (writing) style; sentence",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 53698,
+      "kanji": "頁",
+      "kana": "ページ",
+      "gloss": "page",
+      "card_type": "vocab"
+    }
+  ]
+}

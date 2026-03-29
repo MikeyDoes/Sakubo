@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 437: 語学, 呼吸, 故郷...",
+  "lesson_number": 437,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 73824,
+      "kanji": "語学",
+      "kana": "ごがく",
+      "gloss": "study of foreign languages; linguistics",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73152,
+      "kanji": "呼吸",
+      "kana": "こきゅう",
+      "gloss": "breathing; respiration; knack; trick; secret (of doing something); harmony; balance; synchronization; accord; short interval; short pause",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122794,
+      "kanji": "故郷",
+      "kana": "ふるさと",
+      "gloss": "home town; birthplace; native place; one's old home; ruins; historic remains",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69664,
+      "kanji": "極",
+      "kana": "ごく",
+      "gloss": "quite; very; 10^48; quindecillion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 165904,
+      "kanji": "極",
+      "kana": "きょく",
+      "gloss": "pole; climax; extreme; extremity; culmination; height; zenith; nadir",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 229809,
+      "kanji": "極",
+      "kana": "はたて",
+      "gloss": "end; limit; extremity",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75675,
+      "kanji": "国語",
+      "kana": "こくご",
+      "gloss": "national language; Japanese language (often as a school subject in Japan); native Japanese words (as opposed to loanwords)",
+      "card_type": "vocab"
+    }
+  ]
+}

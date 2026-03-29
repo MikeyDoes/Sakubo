@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 795: 呑気, 灰色, 俳句...",
+  "lesson_number": 795,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 122041,
+      "kanji": "呑気",
+      "kana": "のんき",
+      "gloss": "carefree; optimistic; careless; reckless; heedless; happy-go-lucky; easygoing; thoughtless",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64710,
+      "kanji": "灰色",
+      "kana": "はいいろ",
+      "gloss": "grey; gray; ashen",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100496,
+      "kanji": "俳句",
+      "kana": "はいく",
+      "gloss": "haiku; 17-mora poem, usu. in 3 lines of 5, 7 and 5 morae",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100806,
+      "kanji": "売店",
+      "kana": "ばいてん",
+      "gloss": "stand; stall; booth; kiosk; store",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100807,
+      "kanji": "売買",
+      "kana": "ばいばい",
+      "gloss": "trade; buying and selling; trafficking (e.g. of humans, arms, drugs); dealing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 295798,
+      "kanji": "売買",
+      "kana": "ばいかい",
+      "gloss": "crossing (shares)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100822,
+      "kanji": "這う",
+      "kana": "はう",
+      "gloss": "to creep; to crawl",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 376: 演説, 演奏, ５...",
+  "lesson_number": 376,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 61408,
+      "kanji": "演説",
+      "kana": "えんぜつ",
+      "gloss": "speech; address",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124064,
+      "kanji": "演奏",
+      "kana": "えんそう",
+      "gloss": "musical performance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73382,
+      "kanji": "５",
+      "kana": "ご",
+      "gloss": "five",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73638,
+      "kanji": "御",
+      "kana": "ご",
+      "gloss": "honorific/polite/humble prefix; honorific suffix",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73805,
+      "kanji": "碁",
+      "kana": "ご",
+      "gloss": "go; board game of capturing territory",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73811,
+      "kanji": "語",
+      "kana": "ご",
+      "gloss": "language; word",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 191219,
+      "kanji": "后",
+      "kana": "ご",
+      "gloss": "after",
+      "card_type": "vocab"
+    }
+  ]
+}

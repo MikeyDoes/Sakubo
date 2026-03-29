@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 3: コート, コート, コップ...",
+  "lesson_number": 1309,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 43703,
+      "kana": "コート",
+      "gloss": "coat; coating",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 305865,
+      "kana": "コート",
+      "gloss": "court (e.g. tennis, basketball, volleyball)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 311450,
+      "kana": "コップ",
+      "gloss": "cop; police officer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 43959,
+      "kana": "コピー",
+      "gloss": "copy; photocopy; blurb on a book jacket; catch copy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 201348,
+      "kana": "これ",
+      "gloss": "hey; oi; come on; look; listen",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37140,
+      "kana": "こんな",
+      "gloss": "this sort of; this kind of; like this; such",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37207,
+      "kana": "さあ",
+      "gloss": "come; come now; come along; go on; hurry up; well; who knows; I don't know...; uh; hmm; well now; let's see; there we go; all right; about that; you see",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 323: 寝坊, 眠い, 眠る...",
+  "lesson_number": 323,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 85535,
+      "kanji": "寝坊",
+      "kana": "ねぼう",
+      "gloss": "sleeping in late; oversleeping; late riser; sleepyhead",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107898,
+      "kanji": "眠い",
+      "kana": "ねむい",
+      "gloss": "sleepy; drowsy; somnolent",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107914,
+      "kanji": "眠る",
+      "kana": "ねむる",
+      "gloss": "to sleep; to die; to rest (in peace); to lie (buried); to sleep (in the grave); to lie idle (e.g. of resources); to lie unused; to lie untapped; to lie untouched; to close one's eyes",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78101,
+      "kanji": "残る",
+      "kana": "のこる",
+      "gloss": "to remain; to be left",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121944,
+      "kanji": "喉",
+      "kana": "のど",
+      "gloss": "throat; singing voice",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 281149,
+      "kanji": "閑",
+      "kana": "のど",
+      "gloss": "tranquil; calm; quiet; peaceful",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122015,
+      "kanji": "乗り換える",
+      "kana": "のりかえる",
+      "gloss": "to transfer (trains); to change (bus, train); to change (to another ideology, party, company, etc.); to switch (to a different system, method, etc.); to move on to (e.g. a new love interest)",
+      "card_type": "vocab"
+    }
+  ]
+}

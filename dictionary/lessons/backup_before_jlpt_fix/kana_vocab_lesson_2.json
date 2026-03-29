@@ -1,0 +1,37 @@
+{
+  "lesson_number": 2,
+  "title": "Lesson 2 (Vocab) - ああ , ええ , いいえ ...",
+  "description": "Teach about long sounds",
+  "items": [
+    {
+      "entry_id": 182576,
+      "kanji": null,
+      "kana": "ああ",
+      "gloss": "like that; so"
+    },
+    {
+      "entry_id": 36352,
+      "kanji": null,
+      "kana": "ええ",
+      "gloss": "yes; that is correct; right; um; errr; huh?; grrr; gah; Must I?; good"
+    },
+    {
+      "entry_id": 326336,
+      "kanji": null,
+      "kana": "いいえ",
+      "gloss": "no; nay"
+    },
+    {
+      "entry_id": 36365,
+      "kanji": null,
+      "kana": "おい",
+      "gloss": "hey!; oi!; ahoy!; I; me"
+    },
+    {
+      "entry_id": 326335,
+      "kanji": null,
+      "kana": "うう",
+      "gloss": "uh; hmm; groan (sound)"
+    }
+  ]
+}

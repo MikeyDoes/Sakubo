@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 250: 硬, 固い, 形...",
+  "lesson_number": 250,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 226761,
+      "kanji": "硬",
+      "kana": "こう",
+      "gloss": "hardness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71890,
+      "kanji": "固い",
+      "kana": "かたい",
+      "gloss": "hard; solid; tough; stiff; tight; wooden; unpolished (e.g. writing); strong; firm (not viscous or easily moved); safe; steady; honest; steadfast; obstinate; stubborn; bookish; formal; stuffy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70962,
+      "kanji": "形",
+      "kana": "かたち",
+      "gloss": "form; shape; figure; visage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 180047,
+      "kanji": "形",
+      "kana": "かた",
+      "gloss": "shape; appearance; collateral; obverse of an old \"zeni\" coin",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 189892,
+      "kanji": "形",
+      "kana": "なり",
+      "gloss": "style; way; shape; form; appearance; state",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 207111,
+      "kanji": "形",
+      "kana": "けい",
+      "gloss": "form; tense; adjective; i-adjective (in Japanese)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105702,
+      "kanji": "片付ける",
+      "kana": "かたづける",
+      "gloss": "to tidy up; to put in order; to straighten up; to put away; to settle (problem); to clear (dispute); to finish; to bring something to an end; to marry off (e.g. a daughter); to do away with someone; to bump someone off",
+      "card_type": "vocab"
+    }
+  ]
+}

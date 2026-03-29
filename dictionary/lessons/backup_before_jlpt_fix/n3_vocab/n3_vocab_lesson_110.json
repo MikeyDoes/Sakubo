@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 459: 失業, 実験, 実現...",
+  "lesson_number": 459,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 80161,
+      "kanji": "失業",
+      "kana": "しつぎょう",
+      "gloss": "unemployment; losing one's job; becoming unemployed",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80293,
+      "kanji": "実験",
+      "kana": "じっけん",
+      "gloss": "experiment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80298,
+      "kanji": "実現",
+      "kana": "じつげん",
+      "gloss": "implementation (e.g. of a system); materialization; materialisation; realization; realisation; actualization; actualisation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80300,
+      "kanji": "実行",
+      "kana": "じっこう",
+      "gloss": "execution (e.g. of a plan); carrying out; practice; action; implementation; fulfillment; realization",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80307,
+      "kanji": "実際",
+      "kana": "じっさい",
+      "gloss": "reality; actuality; truth; fact; actual conditions; practice (as opposed to theory); truly; really; indeed; actually; bhutakoti (limit of reality)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80310,
+      "kanji": "実施",
+      "kana": "じっし",
+      "gloss": "enforcement; implementation; putting into practice; carrying out; operation; working (e.g. working parameters); enactment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37315,
+      "kanji": "凝乎と",
+      "kana": "じっと",
+      "gloss": "motionlessly (e.g. stand, wait); (be) still; fixedly (e.g. gaze, stare); intently (e.g. listen, think); patiently (endure); stoically; firmly (e.g. hold); restrained",
+      "card_type": "vocab"
+    }
+  ]
+}

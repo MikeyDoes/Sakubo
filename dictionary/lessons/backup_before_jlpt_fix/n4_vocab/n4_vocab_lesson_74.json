@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 302: 躁, 宗, 相談...",
+  "lesson_number": 302,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 307500,
+      "kanji": "躁",
+      "kana": "そう",
+      "gloss": "mania",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 308678,
+      "kanji": "宗",
+      "kana": "そう",
+      "gloss": "origin; source; virtuous ancestor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91156,
+      "kanji": "相談",
+      "kana": "そうだん",
+      "gloss": "consultation; discussion; discussing; asking (somebody) for advice",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59111,
+      "kanji": "育てる",
+      "kana": "そだてる",
+      "gloss": "to raise; to rear; to bring up; to train; to teach; to educate; to promote the growth of; to nurture; to foster; to develop",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91769,
+      "kanji": "卒業",
+      "kana": "そつぎょう",
+      "gloss": "graduation; completion (of a course); moving on (from); outgrowing (something); leaving (a group, company, etc.); quitting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90447,
+      "kanji": "祖父",
+      "kana": "そふ",
+      "gloss": "grandfather; old man; kyogen mask used for the role of an old man",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90454,
+      "kanji": "祖母",
+      "kana": "そぼ",
+      "gloss": "grandmother",
+      "card_type": "vocab"
+    }
+  ]
+}

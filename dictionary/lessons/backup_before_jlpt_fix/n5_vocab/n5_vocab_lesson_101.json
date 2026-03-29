@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 201: 弾く, 弾く, 低い...",
+  "lesson_number": 201,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 93533,
+      "kanji": "弾く",
+      "kana": "はじく",
+      "gloss": "to flip; to snap; to flick; to repel; to use (an abacus); to calculate; to strum; to pluck the strings (of a guitar, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93534,
+      "kanji": "弾く",
+      "kana": "ひく",
+      "gloss": "to play (a stringed or keyboard instrument)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95508,
+      "kanji": "低い",
+      "kana": "ひくい",
+      "gloss": "low (rank, degree, value, content, quality, etc.); low (position); close to the ground; short (height); deep (voice); in a low key; low (volume)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102307,
+      "kanji": "飛行機",
+      "kana": "ひこうき",
+      "gloss": "aeroplane; airplane; aircraft",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76261,
+      "kanji": "左",
+      "kana": "ひだり",
+      "gloss": "left; left hand side",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 208269,
+      "kanji": "左",
+      "kana": "さ",
+      "gloss": "left (esp. in vertical Japanese writing); the following",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86399,
+      "kanji": "人",
+      "kana": "じん",
+      "gloss": "-ian (e.g. Italian); -ite (e.g. Tokyoite); -er (e.g. performer, etc.); person working with ...; man; person; people",
+      "card_type": "vocab"
+    }
+  ]
+}

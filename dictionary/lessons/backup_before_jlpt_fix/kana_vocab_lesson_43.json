@@ -1,0 +1,37 @@
+{
+  "lesson_number": 43,
+  "title": "Lesson 43 (Vocab) - テスト, タイ, シート...",
+  "description": "テスト (Test) and トースト (Toast). These are foundational nouns for daily life.",
+  "items": [
+    {
+      "entry_id": 47965,
+      "kanji": null,
+      "kana": "テスト",
+      "gloss": "examination; quiz; test; tryout; trial; rehearsal (in filming)"
+    },
+    {
+      "entry_id": 47434,
+      "kanji": null,
+      "kana": "タイ",
+      "gloss": "tie; necktie; draw; tied score"
+    },
+    {
+      "entry_id": 45188,
+      "kanji": null,
+      "kana": "シート",
+      "gloss": "seat; sheet"
+    },
+    {
+      "entry_id": 48604,
+      "kanji": null,
+      "kana": "トースト",
+      "gloss": "toast"
+    },
+    {
+      "entry_id": 43703,
+      "kanji": null,
+      "kana": "コート",
+      "gloss": "coat; coating"
+    }
+  ]
+}

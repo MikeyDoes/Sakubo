@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 968: 切り替える, 気流, 奇麗...",
+  "lesson_number": 968,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 119516,
+      "kanji": "切り替える",
+      "kana": "きりかえる",
+      "gloss": "to change; to exchange; to convert; to renew; to throw a switch; to replace; to switch over",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67469,
+      "kanji": "気流",
+      "kana": "きりゅう",
+      "gloss": "atmospheric current; air current; airflow",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119562,
+      "kanji": "奇麗",
+      "kana": "きれい",
+      "gloss": "pretty; lovely; beautiful; fair; clean; clear; pure; tidy; neat; completely; entirely",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119574,
+      "kanji": "切れ目",
+      "kana": "きれめ",
+      "gloss": "gap; break; rift; pause; interval; interruption; cut; incision; notch; score; end",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69668,
+      "kanji": "極めて",
+      "kana": "きわめて",
+      "gloss": "exceedingly; extremely; decisively",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69926,
+      "kanji": "近眼",
+      "kana": "きんがん",
+      "gloss": "nearsightedness; shortsightedness; myopia",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69874,
+      "kanji": "緊急",
+      "kana": "きんきゅう",
+      "gloss": "urgency; emergency",
+      "card_type": "vocab"
+    }
+  ]
+}

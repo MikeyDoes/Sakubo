@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1205: 腹立ち, 原っぱ, 張り紙...",
+  "lesson_number": 1205,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 104367,
+      "kanji": "腹立ち",
+      "kana": "はらだち",
+      "gloss": "anger",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72439,
+      "kanji": "原っぱ",
+      "kana": "はらっぱ",
+      "gloss": "open field; empty lot; plain",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94601,
+      "kanji": "張り紙",
+      "kana": "はりがみ",
+      "gloss": "paper patch; paper backing; poster; sticker; label",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110321,
+      "kanji": "遥か",
+      "kana": "はるか",
+      "gloss": "far; far away; distant; remote; far off",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100387,
+      "kanji": "破裂",
+      "kana": "はれつ",
+      "gloss": "explosion; rupture; break off",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81424,
+      "kanji": "腫れる",
+      "kana": "はれる",
+      "gloss": "to swell (from inflammation); to become swollen",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101794,
+      "kanji": "班",
+      "kana": "はん",
+      "gloss": "group; party; team; squad; section",
+      "card_type": "vocab"
+    }
+  ]
+}

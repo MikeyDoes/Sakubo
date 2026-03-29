@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 810: 標準, 標本, 評論...",
+  "lesson_number": 810,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 102772,
+      "kanji": "標準",
+      "kana": "ひょうじゅん",
+      "gloss": "standard; level; norm",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102782,
+      "kanji": "標本",
+      "kana": "ひょうほん",
+      "gloss": "example; specimen; sample",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102922,
+      "kanji": "評論",
+      "kana": "ひょうろん",
+      "gloss": "criticism; critique",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105134,
+      "kanji": "平仮名",
+      "kana": "ひらがな",
+      "gloss": "hiragana; cursive Japanese syllabary used primarily for native Japanese words (esp. function words, inflections, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94424,
+      "kanji": "昼寝",
+      "kana": "ひるね",
+      "gloss": "nap (afternoon); siesta",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122613,
+      "kanji": "広げる",
+      "kana": "ひろげる",
+      "gloss": "to spread; to extend; to expand; to enlarge; to widen; to broaden; to unfold; to open; to unroll; to unwrap; to scatter about; to spread around; to make flourish; to cause to prosper",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74704,
+      "kanji": "広さ",
+      "kana": "ひろさ",
+      "gloss": "extent",
+      "card_type": "vocab"
+    }
+  ]
+}

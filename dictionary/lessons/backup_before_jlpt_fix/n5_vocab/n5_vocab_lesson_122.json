@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 222: 横, 四日, 四つ...",
+  "lesson_number": 222,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 61948,
+      "kanji": "横",
+      "kana": "よこ",
+      "gloss": "horizontal (as opposed to vertical); lying down; side-to-side (as opposed to front-to-back); width; breadth; side (of a box, etc.); beside; aside; next to; unconnected",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78508,
+      "kanji": "四日",
+      "kana": "よっか",
+      "gloss": "fourth day of the month; four days",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78466,
+      "kanji": "四つ",
+      "kana": "よっつ",
+      "gloss": "four; four years of age; ten o'clock (old time system); cross grips",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73147,
+      "kanji": "呼ぶ",
+      "kana": "よぶ",
+      "gloss": "to call out (to); to call; to invoke; to summon (a doctor, etc.); to invite; to designate; to name; to brand; to garner (support, etc.); to gather; to take as one's wife",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98363,
+      "kanji": "読む",
+      "kana": "よむ",
+      "gloss": "to read; to count; to guess; to predict; to read (someone's thoughts); to see (e.g. into someone's heart); to divine",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108915,
+      "kanji": "夜",
+      "kana": "よる",
+      "gloss": "evening; night; dinner",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 285764,
+      "kanji": "夜",
+      "kana": "や",
+      "gloss": "counter for nights",
+      "card_type": "vocab"
+    }
+  ]
+}

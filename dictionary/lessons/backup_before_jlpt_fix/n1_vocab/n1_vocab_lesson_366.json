@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1226: 不在, 負傷, 不審...",
+  "lesson_number": 1226,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 103200,
+      "kanji": "不在",
+      "kana": "ふざい",
+      "gloss": "absence; disregard; indifference",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103957,
+      "kanji": "負傷",
+      "kana": "ふしょう",
+      "gloss": "injury; wound",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103271,
+      "kanji": "不審",
+      "kana": "ふしん",
+      "gloss": "incomplete understanding; doubt; question; distrust; suspicion; strangeness; infidelity",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103274,
+      "kanji": "不振",
+      "kana": "ふしん",
+      "gloss": "dullness; slump; stagnation; inactivity; depression",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103236,
+      "kanji": "不順",
+      "kana": "ふじゅん",
+      "gloss": "irregular; unseasonable; changeable; unsettled; abnormal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122689,
+      "kanji": "付属",
+      "kana": "ふぞく",
+      "gloss": "attached; belonging (to); included; enclosed; affiliated; annexed; associated; subordinate; incidental; dependent; auxiliary",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103960,
+      "kanji": "負担",
+      "kana": "ふたん",
+      "gloss": "burden; load; responsibility; bearing (a cost, responsibility, etc.); shouldering",
+      "card_type": "vocab"
+    }
+  ]
+}

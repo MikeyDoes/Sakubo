@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 128: お腹, 同じ, お兄さん...",
+  "lesson_number": 128,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 36688,
+      "kanji": "お腹",
+      "kana": "おなか",
+      "gloss": "belly; abdomen; stomach",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97817,
+      "kanji": "同じ",
+      "kana": "おなじ",
+      "gloss": "same; identical; equal; uniform; equivalent; similar; common (origin); changeless; alike; anyway; anyhow; in either case",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36469,
+      "kanji": "お兄さん",
+      "kana": "おにいさん",
+      "gloss": "older brother; elder brother; young man; buddy; fella; laddie",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36515,
+      "kanji": "お姉さん",
+      "kana": "おねえさん",
+      "gloss": "older sister; elder sister; young lady; miss; ma'am; older girl",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36617,
+      "kanji": "お祖母さん",
+      "kana": "おばあさん",
+      "gloss": "grandmother; old woman; female senior citizen",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 208276,
+      "kanji": "伯母さん",
+      "kana": "おばさん",
+      "gloss": "aunt",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 208278,
+      "kanji": "小母さん",
+      "kana": "おばさん",
+      "gloss": "old lady; ma'am",
+      "card_type": "vocab"
+    }
+  ]
+}

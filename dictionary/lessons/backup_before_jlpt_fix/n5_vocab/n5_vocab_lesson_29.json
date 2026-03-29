@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 129: お風呂, お弁当, 覚える...",
+  "lesson_number": 129,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 202103,
+      "kanji": "お風呂",
+      "kana": "おふろ",
+      "gloss": "bath",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105870,
+      "kanji": "お弁当",
+      "kana": "おべんとう",
+      "gloss": "bento; Japanese box lunch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65216,
+      "kanji": "覚える",
+      "kana": "おぼえる",
+      "gloss": "to memorize; to memorise; to commit to memory; to learn by heart; to bear in mind; to remember; to learn; to pick up; to acquire; to feel; to think; to regard",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36554,
+      "kanji": "お巡りさん",
+      "kana": "おまわりさん",
+      "gloss": "police officer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82332,
+      "kanji": "重い",
+      "kana": "おもい",
+      "gloss": "heavy; weighty; heavy (feeling); depressed; gloomy; blue; uneasy; slow; sluggish; lumbering; ponderous; clumsy; important (position, responsibility, etc.); serious; grave; serious (punishment, illness, etc.); severe; critical; solid; established; dignified; sensible",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108456,
+      "kanji": "面白い",
+      "kana": "おもしろい",
+      "gloss": "interesting; fascinating; intriguing; enthralling; amusing; funny; comical; enjoyable; fun; entertaining; pleasant; agreeable; good; satisfactory; favourable; desirable; encouraging",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61127,
+      "kanji": "泳ぐ",
+      "kana": "およぐ",
+      "gloss": "to swim",
+      "card_type": "vocab"
+    }
+  ]
+}

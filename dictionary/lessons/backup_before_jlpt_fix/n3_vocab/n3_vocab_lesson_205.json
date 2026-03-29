@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 554: 博物館, 激しい, 鋏...",
+  "lesson_number": 554,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 100914,
+      "kanji": "博物館",
+      "kana": "はくぶつかん",
+      "gloss": "museum",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122101,
+      "kanji": "激しい",
+      "kana": "はげしい",
+      "gloss": "violent; furious; tempestuous; extreme; intense; fierce; strong; fervent; vehement; incessant; relentless; precipitous; steep",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114363,
+      "kanji": "鋏",
+      "kana": "はさみ",
+      "gloss": "scissors; shears; clippers; hole punch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 174940,
+      "kanji": "螯",
+      "kana": "はさみ",
+      "gloss": "pincers (crab, scorpion, etc.); claws; forceps",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100368,
+      "kanji": "破産",
+      "kana": "はさん",
+      "gloss": "bankruptcy; insolvency",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116567,
+      "kanji": "端",
+      "kana": "はし",
+      "gloss": "end (e.g. of street); tip; point; edge; margin; beginning; start; first; odds and ends; scrap; odd bit; least",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 250980,
+      "kanji": "端",
+      "kana": "はした",
+      "gloss": "fraction; odd sum; odd money; small change; low class female servant",
+      "card_type": "vocab"
+    }
+  ]
+}

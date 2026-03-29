@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 598: 基, 基, 素...",
+  "lesson_number": 598,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 196272,
+      "kanji": "基",
+      "kana": "き",
+      "gloss": "group; (free) radical; counter for installed or mounted objects (e.g. stone lanterns, gravestones, satellites)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 201901,
+      "kanji": "基",
+      "kana": "もとい",
+      "gloss": "basis; foundation; cause",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 125966,
+      "kanji": "素",
+      "kana": "そ",
+      "gloss": "plain, white silk; prime",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 180258,
+      "kanji": "素",
+      "kana": "す",
+      "gloss": "one's nature; one's feelings; oneself; plain; unadorned; undecorated; unadulterated; au naturel; mere; poor; exceedingly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108851,
+      "kanji": "戻す",
+      "kana": "もどす",
+      "gloss": "to put back; to return; to give back; to restore (to a previous state, e.g. defrosting, reconstituting, reconciling); to turn back (e.g. clock hand); to vomit; to throw up; to recover (of a market price)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123485,
+      "kanji": "基づく",
+      "kana": "もとづく",
+      "gloss": "to be grounded on; to be based on; to be due to; to originate from",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68360,
+      "kanji": "求める",
+      "kana": "もとめる",
+      "gloss": "to want; to wish for; to request; to demand; to require; to ask for; to seek; to search for; to look for; to pursue (pleasure); to hunt (a job); to purchase; to buy",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1103: 素材, 阻止, 然して...",
+  "lesson_number": 1103,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 90525,
+      "kanji": "素材",
+      "kana": "そざい",
+      "gloss": "ingredient; (raw) material; resource; unprocessed timber; raw timber; subject matter; topic",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90655,
+      "kanji": "阻止",
+      "kana": "そし",
+      "gloss": "obstruction; check; hindrance; prevention; impediment; interdiction; preemption; blocking",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37450,
+      "kanji": "然して",
+      "kana": "しかして",
+      "gloss": "and; and then; thus; and now; and finally",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 206293,
+      "kanji": "然して",
+      "kana": "さして",
+      "gloss": "(not) particularly; (not) especially; (not) very; (not) much",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90644,
+      "kanji": "訴訟",
+      "kana": "そしょう",
+      "gloss": "litigation; lawsuit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59105,
+      "kanji": "育ち",
+      "kana": "そだち",
+      "gloss": "growth; breeding; growing up (in, as); upbringing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90411,
+      "kanji": "措置",
+      "kana": "そち",
+      "gloss": "measure; step; action",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Lesson 4: (Kana) - Lesson 4: (Hiragana) \"さ, し, す, せ, そ\"",
+  "lesson_type": "kana",
+  "items": [
+    {
+      "entry_id": 325143,
+      "kana": "さ",
+      "gloss": "sa",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325144,
+      "kana": "し",
+      "gloss": "shi",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325145,
+      "kana": "す",
+      "gloss": "su",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325146,
+      "kana": "せ",
+      "gloss": "se",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325147,
+      "kana": "そ",
+      "gloss": "so",
+      "card_type": "kana"
+    }
+  ],
+  "lesson_number": 4
+}

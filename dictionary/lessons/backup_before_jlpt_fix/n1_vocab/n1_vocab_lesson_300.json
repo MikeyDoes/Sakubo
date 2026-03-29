@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1160: 跡切れる, 説く, 特技...",
+  "lesson_number": 1160,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 121519,
+      "kanji": "跡切れる",
+      "kana": "とぎれる",
+      "gloss": "to break off; to come to an end; to be interrupted; to be cut short; to pause",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89099,
+      "kanji": "説く",
+      "kana": "とく",
+      "gloss": "to explain; to advocate; to preach; to persuade",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98166,
+      "kanji": "特技",
+      "kana": "とくぎ",
+      "gloss": "special skill",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98184,
+      "kanji": "特産",
+      "kana": "とくさん",
+      "gloss": "being produced in a particular region; local specialty",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98201,
+      "kanji": "特集",
+      "kana": "とくしゅう",
+      "gloss": "feature (e.g. newspaper); special edition; report",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98147,
+      "kanji": "得点",
+      "kana": "とくてん",
+      "gloss": "scoring; score; points made; marks obtained; goals; runs",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98217,
+      "kanji": "特派",
+      "kana": "とくは",
+      "gloss": "send specially; special envoy",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 581: 吠える, 誇り, 埃...",
+  "lesson_number": 581,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 122892,
+      "kanji": "吠える",
+      "kana": "ほえる",
+      "gloss": "to bark; to howl; to bay; to bellow; to howl (e.g. of the wind); to roar; to yell; to cry; to moan; to grunt",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73344,
+      "kanji": "誇り",
+      "kana": "ほこり",
+      "gloss": "pride; boast; credit (to)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112840,
+      "kanji": "埃",
+      "kana": "ほこり",
+      "gloss": "dust; one ten-billionth",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122943,
+      "kanji": "保証",
+      "kana": "ほしょう",
+      "gloss": "guarantee; security; assurance; pledge; warranty",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105980,
+      "kanji": "保存",
+      "kana": "ほぞん",
+      "gloss": "preservation; conservation; storage; maintenance; saving (e.g. to disk)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106058,
+      "kanji": "歩道",
+      "kana": "ほどう",
+      "gloss": "footpath; walkway; sidewalk",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104440,
+      "kanji": "仏",
+      "kana": "ふつ",
+      "gloss": "France; French language",
+      "card_type": "vocab"
+    }
+  ]
+}

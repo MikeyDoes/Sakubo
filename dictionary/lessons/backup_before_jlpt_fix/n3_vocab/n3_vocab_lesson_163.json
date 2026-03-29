@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 512: 便り, 頼る, 誰か...",
+  "lesson_number": 512,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 105779,
+      "kanji": "便り",
+      "kana": "たより",
+      "gloss": "news; tidings; information; correspondence; letter",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121089,
+      "kanji": "頼る",
+      "kana": "たよる",
+      "gloss": "to rely on; to depend on; to count on; to turn to (for help)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93208,
+      "kanji": "誰か",
+      "kana": "だれか",
+      "gloss": "someone; somebody",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101599,
+      "kanji": "段",
+      "kana": "たん",
+      "gloss": "variable measure of fabric (28.8 cm in width); for kimonos: at least 10 m in length; for haori: at least 7.27 m in length; for other clothes: at least 6.06 m in length; 300 tsubo (991.74 meters square, 0.24506 acres); six ken (10.91 m)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 127701,
+      "kanji": "段",
+      "kana": "だん",
+      "gloss": "step; stair; (flight of) steps; (row of) stitches; columns (of print); grade; rank; level; counter for breaks in written language (or speech, etc.); dan; senior rank in martial arts, go, shogi, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93232,
+      "kanji": "単位",
+      "kana": "たんい",
+      "gloss": "unit; denomination; credit (in school); in units of (e.g. \"in thousands\"); in amounts of",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93262,
+      "kanji": "単語",
+      "kana": "たんご",
+      "gloss": "word; vocabulary; (usually) single-character word",
+      "card_type": "vocab"
+    }
+  ]
+}

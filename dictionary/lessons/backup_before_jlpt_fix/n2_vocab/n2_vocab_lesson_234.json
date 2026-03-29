@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 850: 緩い, 緩い, 溶岩...",
+  "lesson_number": 850,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 62299,
+      "kanji": "緩い",
+      "kana": "ぬるい",
+      "gloss": "lukewarm; tepid; lenient; slow; stupid",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66335,
+      "kanji": "緩い",
+      "kana": "ゆるい",
+      "gloss": "loose; lenient; lax; gentle (curve, slope, etc.); slow; weak; soft; not firm; difficult; hard",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110218,
+      "kanji": "溶岩",
+      "kana": "ようがん",
+      "gloss": "lava",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110078,
+      "kanji": "容器",
+      "kana": "ようき",
+      "gloss": "container; receptacle; vessel; packaging",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110240,
+      "kanji": "用語",
+      "kana": "ようご",
+      "gloss": "term; terminology; wording; choice of words; phraseology",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110303,
+      "kanji": "要旨",
+      "kana": "ようし",
+      "gloss": "point; essentials; gist; summary; fundamentals",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110055,
+      "kanji": "幼児",
+      "kana": "ようじ",
+      "gloss": "young child; toddler; child over 1 but not yet of school age",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Lesson 860: 割引, 碗",
+  "lesson_number": 860,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 123958,
+      "kanji": "割引",
+      "kana": "わりびき",
+      "gloss": "discount; reduction; rebate; tenths discounted; tenths reduced",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112425,
+      "kanji": "碗",
+      "kana": "わん",
+      "gloss": "bowl (ceramic, porcelain); counter for bowls of food or drink",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 521: 通信, 捕まる, 掴む...",
+  "lesson_number": 521,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 95348,
+      "kanji": "通信",
+      "kana": "つうしん",
+      "gloss": "correspondence; communication; transmission; news; signal; telecommunications",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106000,
+      "kanji": "捕まる",
+      "kana": "つかまる",
+      "gloss": "to be caught; to be arrested; to hold on to; to grasp; to find (e.g. proof); to get (e.g. a taxi); to be detained by",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95385,
+      "kanji": "掴む",
+      "kana": "つかむ",
+      "gloss": "to seize; to catch; to grasp; to grip; to grab; to clutch; to hold; to catch hold of; to lay one's hands on; to obtain; to acquire; to get; to win; to capture; to understand; to comprehend",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102068,
+      "kanji": "疲れ",
+      "kana": "つかれ",
+      "gloss": "tiredness; fatigue",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 309892,
+      "kanji": "疲れ",
+      "kana": "づかれ",
+      "gloss": "weariness (from); fatigue; tiredness; exhaustion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 192033,
+      "kanji": "月",
+      "kana": "げつ",
+      "gloss": "Monday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103552,
+      "kanji": "付き合い",
+      "kana": "つきあい",
+      "gloss": "association; socializing; socialising; fellowship",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 714: じゃん拳, 集会, 住居...",
+  "lesson_number": 714,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 37333,
+      "kanji": "じゃん拳",
+      "kana": "じゃんけん",
+      "gloss": "rock-paper-scissors (game); janken",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82018,
+      "kanji": "集会",
+      "kana": "しゅうかい",
+      "gloss": "meeting; assembly; gathering; congregation; convention; rally",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120623,
+      "kanji": "住居",
+      "kana": "すまい",
+      "gloss": "dwelling; house; residence; address; living; life",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 304908,
+      "kanji": "住居",
+      "kana": "じゅうきょ",
+      "gloss": "dwelling; house; residence; address",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82020,
+      "kanji": "集金",
+      "kana": "しゅうきん",
+      "gloss": "money collection",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82026,
+      "kanji": "集合",
+      "kana": "しゅうごう",
+      "gloss": "meeting up; gathering; assembly; set",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81958,
+      "kanji": "習字",
+      "kana": "しゅうじ",
+      "gloss": "penmanship; calligraphy",
+      "card_type": "vocab"
+    }
+  ]
+}

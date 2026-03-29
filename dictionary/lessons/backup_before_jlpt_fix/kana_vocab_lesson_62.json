@@ -1,0 +1,37 @@
+{
+  "lesson_number": 62,
+  "title": "Lesson 62 (Vocab) - チョコ, トラック, シャツ...",
+  "description": "チョコ (Chocolate) and ジュース (Juice). トラック (Truck) uses both a small ュ AND a small ッ!",
+  "items": [
+    {
+      "entry_id": 47760,
+      "kanji": null,
+      "kana": "チョコ",
+      "gloss": "chocolate"
+    },
+    {
+      "entry_id": 48772,
+      "kanji": null,
+      "kana": "トラック",
+      "gloss": "truck; lorry; track (running, CD, etc.); track events"
+    },
+    {
+      "entry_id": 45486,
+      "kanji": null,
+      "kana": "シャツ",
+      "gloss": "shirt (underwear); undershirt; singlet; shirt (outerwear, esp. dress shirt)"
+    },
+    {
+      "entry_id": 46089,
+      "kanji": null,
+      "kana": "ジュース",
+      "gloss": "juice; soft drink (usu. fruit-based); sweetened drink"
+    },
+    {
+      "entry_id": 49555,
+      "kanji": null,
+      "kana": "ニュース",
+      "gloss": "news"
+    }
+  ]
+}

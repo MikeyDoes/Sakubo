@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 168: 空, 空, 空...",
+  "lesson_number": 168,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 70322,
+      "kanji": "空",
+      "kana": "から",
+      "gloss": "emptiness; vacuum; blank",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70323,
+      "kanji": "空",
+      "kana": "そら",
+      "gloss": "sky; the air; the heavens; weather; far-off place; distant place; state of mind; feeling; (from) memory; (by) heart; falsehood; lie; somehow; vaguely; fake",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 175863,
+      "kanji": "空",
+      "kana": "うろ",
+      "gloss": "hollow; cavity; hole",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 181030,
+      "kanji": "空",
+      "kana": "くう",
+      "gloss": "empty air; sky; shunyata; emptiness; the lack of an immutable intrinsic nature within any phenomenon; air force; fruitlessness; meaninglessness; void (one of the five elements); empty (e.g. set)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37509,
+      "kanji": "其れ",
+      "kana": "それ",
+      "gloss": "that; it; then; that point (in time); that time; there; you",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37511,
+      "kanji": "其れから",
+      "kana": "それから",
+      "gloss": "and then; after that",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91792,
+      "kanji": "其れでは",
+      "kana": "それでは",
+      "gloss": "well then ...; in that situation; in which case",
+      "card_type": "vocab"
+    }
+  ]
+}

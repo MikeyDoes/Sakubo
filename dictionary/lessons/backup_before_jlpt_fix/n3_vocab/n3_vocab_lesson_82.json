@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 431: 現代, 建築, 見当...",
+  "lesson_number": 431,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 72741,
+      "kanji": "現代",
+      "kana": "げんだい",
+      "gloss": "nowadays; modern era; modern times; present-day",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71943,
+      "kanji": "建築",
+      "kana": "けんちく",
+      "gloss": "construction; architecture (of buildings)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72260,
+      "kanji": "見当",
+      "kana": "けんとう",
+      "gloss": "estimate; guess; conjecture; aim; direction; bearings; registration mark (printing); approximately; about; around",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71994,
+      "kanji": "検討",
+      "kana": "けんとう",
+      "gloss": "consideration; examination; investigation; study; scrutiny; discussion; analysis; review",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72728,
+      "kanji": "現場",
+      "kana": "げんば",
+      "gloss": "actual spot; scene; scene of the crime; site; location; setting; shop floor; factory floor; (on) site",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71953,
+      "kanji": "憲法",
+      "kana": "けんぽう",
+      "gloss": "constitution; rules; regulation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72016,
+      "kanji": "権利",
+      "kana": "けんり",
+      "gloss": "right; privilege",
+      "card_type": "vocab"
+    }
+  ]
+}

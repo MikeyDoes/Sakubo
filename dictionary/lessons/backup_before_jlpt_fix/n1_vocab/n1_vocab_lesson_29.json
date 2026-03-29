@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 889: 印鑑, 陰気, 隠居...",
+  "lesson_number": 889,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 60146,
+      "kanji": "印鑑",
+      "kana": "いんかん",
+      "gloss": "stamp; seal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60542,
+      "kanji": "陰気",
+      "kana": "いんき",
+      "gloss": "gloomy; dismal; miserable; melancholy; spirit of yin",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60604,
+      "kanji": "隠居",
+      "kana": "いんきょ",
+      "gloss": "retirement (from work); leading a quiet life (after retirement); retired person; retiree; surrendering headship of the family (pre-WWII)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103861,
+      "kanji": "浮かぶ",
+      "kana": "うかぶ",
+      "gloss": "to float; to be suspended; to rise to the surface; to appear; to emerge; to show up; to loom (up); to come to mind; to have inspiration",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81521,
+      "kanji": "受かる",
+      "kana": "うかる",
+      "gloss": "to pass (examination)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 279067,
+      "kanji": "含嗽",
+      "kana": "がんそう",
+      "gloss": "gargling; rinsing one's mouth",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81540,
+      "kanji": "受け入れ",
+      "kana": "うけいれ",
+      "gloss": "receiving; acceptance; reception",
+      "card_type": "vocab"
+    }
+  ]
+}

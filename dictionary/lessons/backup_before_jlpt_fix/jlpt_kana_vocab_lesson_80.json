@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 80: グレー, ゲスト, コーナー...",
+  "lesson_number": 1386,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 43493,
+      "kana": "グレー",
+      "gloss": "grey (gray); gray (SI unit of absorbed dose of radiation)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 43645,
+      "kana": "ゲスト",
+      "gloss": "guest",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 43717,
+      "kana": "コーナー",
+      "gloss": "corner; bend; turn; segment (within a radio or TV program); session; column (newspaper, etc.); area; department; section",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 43975,
+      "kana": "コマーシャル",
+      "gloss": "commercial (e.g. TV)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 44017,
+      "kana": "コミュニケーション",
+      "gloss": "communication",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 44057,
+      "kana": "コメント",
+      "gloss": "comment; (blog) comment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 44199,
+      "kana": "コンタクト",
+      "gloss": "contact; contact lens",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 511: 偶, 偶, 偶...",
+  "lesson_number": 511,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 121084,
+      "kanji": "偶",
+      "kana": "たまたま",
+      "gloss": "occasionally; once in a while; seldom; casually; unexpectedly; accidentally; by chance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 180191,
+      "kanji": "偶",
+      "kana": "たま",
+      "gloss": "occasional; infrequent; rare",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 306895,
+      "kanji": "偶",
+      "kana": "ぐう",
+      "gloss": "even number; even; spouse; mate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65980,
+      "kanji": "堪らない",
+      "kana": "たまらない",
+      "gloss": "intolerable; unbearable; unendurable; irresistible; tremendous; out of this world; cannot help (doing); cannot but do; anxious to do",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108676,
+      "kanji": "黙る",
+      "kana": "だまる",
+      "gloss": "to be silent; to say nothing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79175,
+      "kanji": "試し",
+      "kana": "ためし",
+      "gloss": "trial; test",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79178,
+      "kanji": "試す",
+      "kana": "ためす",
+      "gloss": "to attempt; to test; to try out",
+      "card_type": "vocab"
+    }
+  ]
+}

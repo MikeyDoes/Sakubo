@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 207: 辺, 辺, 勉強...",
+  "lesson_number": 207,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 305890,
+      "kanji": "辺",
+      "kana": "ほとり",
+      "gloss": "side (esp. of a waterbody); edge; bank; shore",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 305894,
+      "kanji": "辺",
+      "kana": "わたり",
+      "gloss": "neighbourhood; vicinity; nearby",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105809,
+      "kanji": "勉強",
+      "kana": "べんきょう",
+      "gloss": "study; diligence; discount; reduction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105801,
+      "kanji": "便利",
+      "kana": "べんり",
+      "gloss": "convenient; handy; useful",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106671,
+      "kanji": "帽子",
+      "kana": "ぼうし",
+      "gloss": "hat; cap",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110364,
+      "kanji": "欲しい",
+      "kana": "ほしい",
+      "gloss": "wanted; wished for; in need of; desired; I want (you) to",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 128291,
+      "kanji": "糒",
+      "kana": "ほしい",
+      "gloss": "dried boiled rice used mainly as provisions of samurai troops and travelers (travellers)",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 475: 食品, 植物, 食物...",
+  "lesson_number": 475,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 85333,
+      "kanji": "食品",
+      "kana": "しょくひん",
+      "gloss": "food; food products; foodstuffs",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85137,
+      "kanji": "植物",
+      "kana": "しょくぶつ",
+      "gloss": "plant; vegetation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85335,
+      "kanji": "食物",
+      "kana": "しょくもつ",
+      "gloss": "food; foodstuff",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 128659,
+      "kanji": "食物",
+      "kana": "くいもの",
+      "gloss": "food; foodstuff; prey; victim",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85338,
+      "kanji": "食欲",
+      "kana": "しょくよく",
+      "gloss": "appetite (for food)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85340,
+      "kanji": "食料",
+      "kana": "しょくりょう",
+      "gloss": "food",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85342,
+      "kanji": "食糧",
+      "kana": "しょくりょう",
+      "gloss": "food (esp. staple food such as rice or wheat); provisions; rations; food supply",
+      "card_type": "vocab"
+    }
+  ]
+}

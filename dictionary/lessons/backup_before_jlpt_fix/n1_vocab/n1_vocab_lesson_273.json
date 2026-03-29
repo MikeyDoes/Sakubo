@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1133: 調停, 長編, 丁目...",
+  "lesson_number": 1133,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 94815,
+      "kanji": "調停",
+      "kana": "ちょうてい",
+      "gloss": "arbitration; conciliation; mediation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94931,
+      "kanji": "長編",
+      "kana": "ちょうへん",
+      "gloss": "long (e.g. novel, film)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94557,
+      "kanji": "丁目",
+      "kana": "ちょうめ",
+      "gloss": "district of a town; city block (of irregular size)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94820,
+      "kanji": "調理",
+      "kana": "ちょうり",
+      "gloss": "cooking; food preparation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94822,
+      "kanji": "調和",
+      "kana": "ちょうわ",
+      "gloss": "harmony; accord; reconciliation; agreement",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95097,
+      "kanji": "直面",
+      "kana": "ちょくめん",
+      "gloss": "confrontation; to face; to confront; to encounter",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 249070,
+      "kanji": "直面",
+      "kana": "ひためん",
+      "gloss": "performing without a mask (noh)",
+      "card_type": "vocab"
+    }
+  ]
+}

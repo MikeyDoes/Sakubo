@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 41: ライター, ラケット, ロケット...",
+  "lesson_number": 1347,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 308452,
+      "kana": "ライター",
+      "gloss": "writer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 56216,
+      "kana": "ラケット",
+      "gloss": "racket; paddle (in table-tennis)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 57390,
+      "kana": "ロケット",
+      "gloss": "rocket; locket",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 57591,
+      "kana": "ワイン",
+      "gloss": "wine",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 38707,
+      "kana": "アイデア",
+      "gloss": "idea",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 38884,
+      "kana": "アクセント",
+      "gloss": "accent (on a syllable, word); stress; pitch accent; intonation; inflection; cadence; (language) accent (e.g. American, British); accent (e.g. in a design); highlight; emphasis; accent (on a note)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 39560,
+      "kana": "アンテナ",
+      "gloss": "antenna; thing or method used to collect information or opinions",
+      "card_type": "vocab"
+    }
+  ]
+}

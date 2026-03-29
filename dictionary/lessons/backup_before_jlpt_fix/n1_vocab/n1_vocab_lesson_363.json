@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1223: 封, 封鎖, 風習...",
+  "lesson_number": 1223,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 104155,
+      "kanji": "封",
+      "kana": "ふう",
+      "gloss": "seal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104162,
+      "kanji": "封鎖",
+      "kana": "ふうさ",
+      "gloss": "blockade; lockdown; sealing off (an area); freezing (funds)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104191,
+      "kanji": "風習",
+      "kana": "ふうしゅう",
+      "gloss": "custom",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104201,
+      "kanji": "風俗",
+      "kana": "ふうぞく",
+      "gloss": "manners; customs; sex service; sex industry; sex-oriented entertainment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104211,
+      "kanji": "風土",
+      "kana": "ふうど",
+      "gloss": "natural features; topography; climate; spiritual features",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103086,
+      "kanji": "不可欠",
+      "kana": "ふかけつ",
+      "gloss": "indispensable; essential",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85849,
+      "kanji": "深める",
+      "kana": "ふかめる",
+      "gloss": "to deepen; to heighten; to intensify",
+      "card_type": "vocab"
+    }
+  ]
+}

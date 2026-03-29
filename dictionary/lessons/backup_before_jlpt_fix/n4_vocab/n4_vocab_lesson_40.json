@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 268: 侯, 候, 効...",
+  "lesson_number": 268,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 74024,
+      "kanji": "侯",
+      "kana": "こう",
+      "gloss": "marquis; lord; daimyo",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74029,
+      "kanji": "候",
+      "kana": "こう",
+      "gloss": "season; weather",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74282,
+      "kanji": "効",
+      "kana": "こう",
+      "gloss": "efficacy; benefit; efficiency; effect; result; success",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74631,
+      "kanji": "孝",
+      "kana": "こう",
+      "gloss": "filial piety",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74692,
+      "kanji": "幸",
+      "kana": "こう",
+      "gloss": "good luck; fortune; happiness; harvest; yield",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74899,
+      "kanji": "溝",
+      "kana": "こう",
+      "gloss": "10^32; hundred nonillion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74973,
+      "kanji": "稿",
+      "kana": "こう",
+      "gloss": "manuscript; version; draft",
+      "card_type": "vocab"
+    }
+  ]
+}

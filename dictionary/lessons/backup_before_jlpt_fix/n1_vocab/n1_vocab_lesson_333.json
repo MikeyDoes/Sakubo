@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1193: 乗り換え, 乗り込む, 刃...",
+  "lesson_number": 1193,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 122009,
+      "kanji": "乗り換え",
+      "kana": "のりかえ",
+      "gloss": "transfer (trains, buses, etc.); change; connection; switch (to another ideology, party, system, method, etc.); conversion; switching (stock); chromosomal crossover; crossing over",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84819,
+      "kanji": "乗り込む",
+      "kana": "のりこむ",
+      "gloss": "to board; to embark on; to get into (a car); to man (a ship); to help (someone) into; to march into; to enter",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86801,
+      "kanji": "刃",
+      "kana": "は",
+      "gloss": "edge (of a knife or sword); prong (of an electrical plug)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86802,
+      "kanji": "刃",
+      "kana": "やいば",
+      "gloss": "blade; sword; forged blade; wavy pattern on forged blades; sharpness; unhulled rice",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100345,
+      "kanji": "派",
+      "kana": "は",
+      "gloss": "clique; group; coterie; (political) faction; wing; party; camp; school; sect; denomination",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100313,
+      "kanji": "把握",
+      "kana": "はあく",
+      "gloss": "grasp; catch; understanding",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100511,
+      "kanji": "廃棄",
+      "kana": "はいき",
+      "gloss": "disposal; abandonment; scrapping; discarding; abolition; annulment; cancellation; abrogation; repeal",
+      "card_type": "vocab"
+    }
+  ]
+}

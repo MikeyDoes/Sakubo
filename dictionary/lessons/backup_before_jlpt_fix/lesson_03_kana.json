@@ -1,0 +1,38 @@
+{
+  "source_file": "Spoonfed Japanese Kana Lessons 1-32.ods",
+  "items": [
+    {
+      "entry_id": 325334,
+      "kanji": null,
+      "kana": "が",
+      "gloss": "ga"
+    },
+    {
+      "entry_id": 325335,
+      "kanji": null,
+      "kana": "ぎ",
+      "gloss": "gi"
+    },
+    {
+      "entry_id": 325336,
+      "kanji": null,
+      "kana": "ぐ",
+      "gloss": "gu"
+    },
+    {
+      "entry_id": 325337,
+      "kanji": null,
+      "kana": "げ",
+      "gloss": "ge"
+    },
+    {
+      "entry_id": 325338,
+      "kanji": null,
+      "kana": "ご",
+      "gloss": "go"
+    }
+  ],
+  "title": "Lesson 5 (Kana) - がぎぐげご",
+  "lesson_number": 5,
+  "description": "Teach user about tenen/dakuten"
+}

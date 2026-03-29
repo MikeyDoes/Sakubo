@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1204: 浜, 浜辺, 填まる...",
+  "lesson_number": 1204,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 102998,
+      "kanji": "浜",
+      "kana": "はま",
+      "gloss": "beach; seashore; captured pieces (in the game of go); captured stones; Yokohama; riverbank; riverside",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102999,
+      "kanji": "浜辺",
+      "kana": "はまべ",
+      "gloss": "beach; foreshore",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122191,
+      "kanji": "填まる",
+      "kana": "はまる",
+      "gloss": "to fit; to get into; to go into; to be fitted with (e.g. door with a window); to be fit for (a job, etc.); to be suited for; to satisfy (conditions); to fall into; to plunge into; to get stuck; to get caught; to be deceived; to be taken in; to fall into a trap; to be addicted to; to be deep into; to be crazy about; to be stuck on",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122195,
+      "kanji": "歯磨",
+      "kana": "はみがき",
+      "gloss": "dental brushing; brushing one's teeth; dentifrice; toothpaste; tooth powder",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107333,
+      "kanji": "填める",
+      "kana": "うずめる",
+      "gloss": "to cover; to bury (e.g. one's face in hands); to submerge; to fill (completely); to stuff; to pack; to cram; to fill up",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88016,
+      "kanji": "生やす",
+      "kana": "はやす",
+      "gloss": "to grow; to cultivate; to wear a beard",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122204,
+      "kanji": "早める",
+      "kana": "はやめる",
+      "gloss": "to bring forward (e.g. by 3 hours); to advance; to hasten (e.g. one's death); to expedite; to precipitate; to quicken (e.g. one's step); to speed up; to accelerate",
+      "card_type": "vocab"
+    }
+  ]
+}

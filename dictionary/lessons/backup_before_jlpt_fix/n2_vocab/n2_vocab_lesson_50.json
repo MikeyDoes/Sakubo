@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 666: 着替え, 機関車, 飢饉...",
+  "lesson_number": 666,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 94038,
+      "kanji": "着替え",
+      "kana": "きがえ",
+      "gloss": "changing clothes; change of clothes",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67214,
+      "kanji": "機関車",
+      "kana": "きかんしゃ",
+      "gloss": "locomotive; engine",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119332,
+      "kanji": "飢饉",
+      "kana": "ききん",
+      "gloss": "famine; crop failure; chronic shortage (e.g. of water)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66942,
+      "kanji": "器具",
+      "kana": "きぐ",
+      "gloss": "utensil; implement; tool; instrument; appliance; apparatus",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67177,
+      "kanji": "期限",
+      "kana": "きげん",
+      "gloss": "term; period; time frame; time limit; deadline; cutoff (date)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67537,
+      "kanji": "記号",
+      "kana": "きごう",
+      "gloss": "symbol; code; sign; notation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75622,
+      "kanji": "刻む",
+      "kana": "きざむ",
+      "gloss": "to mince; to cut fine; to chop up; to hash; to shred; to carve; to engrave; to chisel; to notch; to tick away (time); to beat out (e.g. rhythm); to record the passing moments; to etch (into one's mind); to remember distinctly; to have tattooed; to torment",
+      "card_type": "vocab"
+    }
+  ]
+}

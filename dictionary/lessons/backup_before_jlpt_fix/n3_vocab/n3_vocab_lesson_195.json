@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 544: 縄, 何で, 何でも...",
+  "lesson_number": 544,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 98873,
+      "kanji": "縄",
+      "kana": "なわ",
+      "gloss": "rope; cord; policeman's rope",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124690,
+      "kanji": "何で",
+      "kana": "なんで",
+      "gloss": "why?; what for?; how?; by what means?",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124691,
+      "kanji": "何でも",
+      "kana": "なんでも",
+      "gloss": "any; anything; whatever; whatever one likes; everything; all; I am told; I hear; I understand; they say",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62907,
+      "kanji": "何とか",
+      "kana": "なんとか",
+      "gloss": "something; something or other; so-and-so; somehow; anyhow; one way or another",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79491,
+      "kanji": "似合う",
+      "kana": "にあう",
+      "gloss": "to suit; to match; to become; to be like",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70202,
+      "kanji": "苦手",
+      "kana": "にがて",
+      "gloss": "poor (at); weak (in); not very good (at); not one's cup of tea; not one's favorite",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58106,
+      "kanji": "握る",
+      "kana": "にぎる",
+      "gloss": "to clasp; to grasp; to grip; to clutch; to make (nigirizushi, rice ball, etc.); to form; to press into shape; to mold; to mould; to seize (power, etc.); to take hold of",
+      "card_type": "vocab"
+    }
+  ]
+}

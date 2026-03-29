@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 509: 他人, 種, 種...",
+  "lesson_number": 509,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 116510,
+      "kanji": "他人",
+      "kana": "たにん",
+      "gloss": "another person; other people; others; unrelated person (i.e. not related by blood); outsider; stranger",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81414,
+      "kanji": "種",
+      "kana": "しゅ",
+      "gloss": "kind; variety; (biological) species; (logical) species",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81415,
+      "kanji": "種",
+      "kana": "たね",
+      "gloss": "seed (e.g. of a plant); pip; kind; variety; quality; tone; material (e.g. for an article); matter (e.g. of a story); subject; theme; (news) copy; ingredient; leaven (bread); main ingredient of a sushi; cause; source; trick; secret; magician's trick; inside story; paternal blood; lineage; breed (of a stock); sperm; semen; 10-point card (in hanafuda); tane; animal card",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 270183,
+      "kanji": "種",
+      "kana": "くさ",
+      "gloss": "cause; seed; origin; variety; kind; counter for varieties",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91589,
+      "kanji": "束",
+      "kana": "たば",
+      "gloss": "bundle; bunch; sheaf",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91591,
+      "kanji": "束",
+      "kana": "つか",
+      "gloss": "strut; short vertical post; thickness (of a book minus the cover, a sheaf of paper, etc.); handbreadth; bundle",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 241730,
+      "kanji": "束",
+      "kana": "そく",
+      "gloss": "lattice; counter for large bundles (e.g. 10 sheafs of rice, 200 sheets of calligraphy paper, 20 whistling arrows, 100 fish); handbreadth (unit for measuring the length of arrows)",
+      "card_type": "vocab"
+    }
+  ]
+}

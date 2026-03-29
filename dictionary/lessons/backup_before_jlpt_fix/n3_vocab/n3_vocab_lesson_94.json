@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 443: 頃, 殺す, 転ぶ...",
+  "lesson_number": 443,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 209552,
+      "kanji": "頃",
+      "kana": "ころおい",
+      "gloss": "time; period; days",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77354,
+      "kanji": "殺す",
+      "kana": "ころす",
+      "gloss": "to kill; to slay; to murder; to slaughter; to suppress; to block; to hamper; to destroy (e.g. talent); to eliminate (e.g. an odour); to spoil (e.g. a flavour); to kill (e.g. one's speed); to suppress (a voice, feelings, etc.); to hold back; to stifle (a yawn, laugh, etc.); to hold (one's breath); to put out (a runner); to pawn; to put in hock",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116707,
+      "kanji": "転ぶ",
+      "kana": "ころぶ",
+      "gloss": "to fall down; to fall over; to turn out; to play out; to abandon Christianity (and convert to Buddhism); to apostatize; to roll; to tumble; (for a geisha) to prostitute (herself) in secret",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76047,
+      "kanji": "今回",
+      "kana": "こんかい",
+      "gloss": "this time; now",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76054,
+      "kanji": "今後",
+      "kana": "こんご",
+      "gloss": "from now on; hereafter",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76219,
+      "kanji": "混雑",
+      "kana": "こんざつ",
+      "gloss": "congestion; crush; crowding; jam; confusion; disorder",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76112,
+      "kanji": "困難",
+      "kana": "こんなん",
+      "gloss": "difficulty; hardship; trouble; distress; infeasibility; inability (to carry out)",
+      "card_type": "vocab"
+    }
+  ]
+}

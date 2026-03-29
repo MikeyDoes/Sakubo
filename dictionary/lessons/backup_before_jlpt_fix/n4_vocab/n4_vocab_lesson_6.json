@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 234: 安和, 案内, 以下...",
+  "lesson_number": 234,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 183352,
+      "kanji": "安和",
+      "kana": "あんな",
+      "gloss": "Anna era (968.8.13-970.3.25); Anwa era",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58429,
+      "kanji": "案内",
+      "kana": "あんない",
+      "gloss": "guidance; leading (the way); showing around; information; notice; notification; announcement (of one's arrival); invitation; acquaintance; knowledge",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58457,
+      "kanji": "以下",
+      "kana": "いか",
+      "gloss": "not exceeding; and downward; ... and below; below (e.g. standard); under (e.g. a level); the below-mentioned; the following; the rest",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58462,
+      "kanji": "以外",
+      "kana": "いがい",
+      "gloss": "with the exception of; excepting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59034,
+      "kanji": "医学",
+      "kana": "いがく",
+      "gloss": "medical science; medicine",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87958,
+      "kanji": "生きる",
+      "kana": "いきる",
+      "gloss": "to live; to exist; to make a living; to subsist; to be in effect; to be in use; to function; to come to life; to be enlivened; to be safe (in baseball, go, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58635,
+      "kanji": "意見",
+      "kana": "いけん",
+      "gloss": "opinion; view; comment",
+      "card_type": "vocab"
+    }
+  ]
+}

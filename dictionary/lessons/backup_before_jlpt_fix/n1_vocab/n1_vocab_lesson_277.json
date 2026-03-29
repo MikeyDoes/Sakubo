@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1137: 杖, 遣い, 使い道...",
+  "lesson_number": 1137,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 206344,
+      "kanji": "杖",
+      "kana": "じょう",
+      "gloss": "severe caning (60-100 times)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78288,
+      "kanji": "遣い",
+      "kana": "つかい",
+      "gloss": "errand; mission; going as envoy; messenger; bearer; errand boy; errand girl; familiar spirit; use; usage; user; trainer; tamer; charmer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78325,
+      "kanji": "使い道",
+      "kana": "つかいみち",
+      "gloss": "purpose; utility; objective; way to use something",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78129,
+      "kanji": "仕える",
+      "kana": "つかえる",
+      "gloss": "to serve; to work for; to attend",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78424,
+      "kanji": "司る",
+      "kana": "つかさどる",
+      "gloss": "to rule; to govern; to administer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91595,
+      "kanji": "束の間",
+      "kana": "つかのま",
+      "gloss": "moment; brief space of time",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117146,
+      "kanji": "付き",
+      "kana": "づき",
+      "gloss": "furnished with; including; attached to; impression; appearance; luck; sociality; under; assistant (e.g. to a manager); soup base",
+      "card_type": "vocab"
+    }
+  ]
+}

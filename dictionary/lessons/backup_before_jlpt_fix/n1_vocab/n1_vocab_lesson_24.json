@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 884: 一目, 一様, 一律...",
+  "lesson_number": 884,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 280847,
+      "kanji": "一目",
+      "kana": "いちもく",
+      "gloss": "look; glance; stone (in the game of go)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59991,
+      "kanji": "一様",
+      "kana": "いちよう",
+      "gloss": "uniform; equal; even; the same; identical; common; ordinary; usual",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60003,
+      "kanji": "一律",
+      "kana": "いちりつ",
+      "gloss": "uniform; even; across-the-board; equal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60028,
+      "kanji": "一連",
+      "kana": "いちれん",
+      "gloss": "series; chain; sequence; two reams (i.e. 1000 sheets of paper); verse; stanza",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59244,
+      "kanji": "一括",
+      "kana": "いっかつ",
+      "gloss": "lumping together; summing up; bundle; lump; batch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 59275,
+      "kanji": "一気",
+      "kana": "いっき",
+      "gloss": "one breath; chug!; drink!",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124393,
+      "kanji": "一挙に",
+      "kana": "いっきょに",
+      "gloss": "at a stroke; with a single swoop",
+      "card_type": "vocab"
+    }
+  ]
+}

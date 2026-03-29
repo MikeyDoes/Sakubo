@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1209: 馬鹿馬鹿しい, 漠然, 爆弾...",
+  "lesson_number": 1209,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 100458,
+      "kanji": "馬鹿馬鹿しい",
+      "kana": "ばかばかしい",
+      "gloss": "absurd; ridiculous; silly; ludicrous; nonsensical; asinine; foolish",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101065,
+      "kanji": "漠然",
+      "kana": "ばくぜん",
+      "gloss": "vague; obscure; indistinct; hazy; ambiguous",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101074,
+      "kanji": "爆弾",
+      "kana": "ばくだん",
+      "gloss": "bomb; alcohol with liquor added (esp. wine-based shōchū highball, also beer with whiskey)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101077,
+      "kanji": "爆破",
+      "kana": "ばくは",
+      "gloss": "destructive blast; blowing up; explosion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122254,
+      "kanji": "暴露",
+      "kana": "ばくろ",
+      "gloss": "disclosure; exposure; revelation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62702,
+      "kanji": "化ける",
+      "kana": "ばける",
+      "gloss": "to take the form of (esp. in ref. to a spirit, fox, raccoon dog, etc.); to assume the shape of; to turn oneself into; to transform oneself into; to disguise oneself as; to change radically; to metamorphose; to improve unexpectedly and dramatically (esp. of an actor, artist, rikishi, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112152,
+      "kanji": "化ける",
+      "kana": "ふける",
+      "gloss": "to age; to grow old (esp. in appearance); to show marks of age",
+      "card_type": "vocab"
+    }
+  ]
+}

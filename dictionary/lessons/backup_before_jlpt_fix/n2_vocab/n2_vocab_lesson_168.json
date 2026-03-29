@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 784: 内科, 内線, 治す...",
+  "lesson_number": 784,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 98643,
+      "kanji": "内科",
+      "kana": "ないか",
+      "gloss": "internal medicine, i.e. treatment by medical procedures rather than surgical procedures; department of internal medicine (hospital, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98735,
+      "kanji": "内線",
+      "kana": "ないせん",
+      "gloss": "phone extension; indoor wiring; inner line",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121722,
+      "kanji": "治す",
+      "kana": "なおす",
+      "gloss": "to cure; to heal; to fix; to correct; to repair; to do over again; to replace; to put back as it was; to convert (into a different state); to transform",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94881,
+      "kanji": "永い",
+      "kana": "ながい",
+      "gloss": "long (distance, length); long (time); protracted; prolonged",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94370,
+      "kanji": "仲直り",
+      "kana": "なかなおり",
+      "gloss": "reconciliation; make peace with",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124679,
+      "kanji": "長引く",
+      "kana": "ながびく",
+      "gloss": "to be prolonged; to drag on",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97438,
+      "kanji": "中身",
+      "kana": "あてみ",
+      "gloss": "blow to a vital point of a person's body; striking techniques (judo)",
+      "card_type": "vocab"
+    }
+  ]
+}

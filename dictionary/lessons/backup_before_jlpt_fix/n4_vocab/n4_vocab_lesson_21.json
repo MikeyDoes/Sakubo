@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 249: 変える, 科学, 鏡...",
+  "lesson_number": 249,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 105565,
+      "kanji": "変える",
+      "kana": "かえる",
+      "gloss": "to change; to alter; to transform; to convert; to turn; to vary; to reform; to revise; to amend",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63445,
+      "kanji": "科学",
+      "kana": "かがく",
+      "gloss": "science",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69461,
+      "kanji": "鏡",
+      "kana": "かがみ",
+      "gloss": "mirror; looking-glass; barrel head; page added at the beginning of a document mentioning its purpose, date, author, etc.; mirror-shaped mochi",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85124,
+      "kanji": "飾る",
+      "kana": "かざる",
+      "gloss": "to decorate; to ornament; to adorn; to display; to exhibit; to put on show; to arrange; to mark (e.g. the day with a victory); to adorn (e.g. the front page); to grace (e.g. the cover); to affect (a manner); to keep up (appearances); to embellish; to dress up; to be showy; to be pretentious",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63646,
+      "kanji": "火事",
+      "kana": "かじ",
+      "gloss": "fire; conflagration",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 42445,
+      "kanji": "瓦斯",
+      "kana": "ガス",
+      "gloss": "gas (state of matter, e.g. poison gas, natural gas); gasoline; gas; petrol; dense fog; thick fog; gas stove; gas cooker; gas range; flatulence; wind; fart",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 159550,
+      "kanji": "堅",
+      "kana": "けん",
+      "gloss": "strength; solidity; firmness; armour; armor",
+      "card_type": "vocab"
+    }
+  ]
+}

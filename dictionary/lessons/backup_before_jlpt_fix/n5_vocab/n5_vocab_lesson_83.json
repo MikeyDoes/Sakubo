@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 183: 図書館, 何方, 迚も...",
+  "lesson_number": 183,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 86884,
+      "kanji": "図書館",
+      "kana": "としょかん",
+      "gloss": "library",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63061,
+      "kanji": "何方",
+      "kana": "どちら",
+      "gloss": "which way; which direction; where; which one (esp. of two alternatives); who",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37758,
+      "kanji": "迚も",
+      "kana": "とても",
+      "gloss": "very; awfully; exceedingly; (not) at all; by no means; simply (cannot)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63075,
+      "kanji": "何方",
+      "kana": "どなた",
+      "gloss": "who",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111476,
+      "kanji": "隣",
+      "kana": "となり",
+      "gloss": "next (to); adjoining; adjacent; house next door; neighbouring house; next-door neighbour; next-door neighbor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96517,
+      "kanji": "殿",
+      "kana": "どの",
+      "gloss": "Mr.; Mrs.; Miss; Ms.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 161798,
+      "kanji": "何の",
+      "kana": "どの",
+      "gloss": "which; what (way)",
+      "card_type": "vocab"
+    }
+  ]
+}

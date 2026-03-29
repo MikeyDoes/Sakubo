@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1196: 配列, 破壊, 墓地...",
+  "lesson_number": 1196,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 100683,
+      "kanji": "配列",
+      "kana": "はいれつ",
+      "gloss": "arrangement; disposition; array (programming)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100359,
+      "kanji": "破壊",
+      "kana": "はかい",
+      "gloss": "destruction; disruption; (application) crash",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117248,
+      "kanji": "墓地",
+      "kana": "ぼち",
+      "gloss": "cemetery; graveyard",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94990,
+      "kanji": "捗る",
+      "kana": "はかどる",
+      "gloss": "to make progress; to move right ahead (with the work); to advance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122072,
+      "kanji": "果ない",
+      "kana": "はかない",
+      "gloss": "fleeting; transient; short-lived; momentary; ephemeral; fickle; vain; empty (dream, etc.); mere (hope); faint (possibility)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79221,
+      "kanji": "諮る",
+      "kana": "はかる",
+      "gloss": "to consult with; to discuss; to confer; to deliberate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122079,
+      "kanji": "図る",
+      "kana": "はかる",
+      "gloss": "to plan; to attempt; to devise; to plot; to conspire; to scheme; to aim for; to strive for; to work towards; to seek; to deceive; to trick; to take in",
+      "card_type": "vocab"
+    }
+  ]
+}

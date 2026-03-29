@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 227: 私, 渡す, 渡る...",
+  "lesson_number": 227,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 310202,
+      "kanji": "私",
+      "kana": "わっち",
+      "gloss": "I; me",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96880,
+      "kanji": "渡す",
+      "kana": "わたす",
+      "gloss": "to ferry across (e.g. a river); to carry across; to traverse; to lay across; to build across; to hand over; to hand in; to pass; to give; to transfer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96888,
+      "kanji": "渡る",
+      "kana": "わたる",
+      "gloss": "to cross over; to go across; to extend; to cover; to range; to span",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 57900,
+      "kanji": "悪い",
+      "kana": "わるい",
+      "gloss": "bad; poor; undesirable; poor (quality); inferior; insufficient; evil; sinful; ugly; not beautiful; at fault; to blame; in the wrong; bad (at doing something); unprofitable; unbeneficial; sorry; (my) bad; unforgivable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91447,
+      "kanji": "悪い",
+      "kana": "にくい",
+      "gloss": "hateful; abominable; poor-looking; detestable; amazing; fantastic; admirable; lovely; wonderful",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 275451,
+      "kanji": "悪い",
+      "kana": "にくい",
+      "gloss": "difficult to ...; hard to ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 165847,
+      "kanji": "縒り",
+      "kana": "より",
+      "gloss": "twist; ply",
+      "card_type": "vocab"
+    }
+  ]
+}

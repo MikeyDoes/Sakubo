@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1287: 弓, 弓, 弓...",
+  "lesson_number": 1287,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 68248,
+      "kanji": "弓",
+      "kana": "ゆみ",
+      "gloss": "bow (weapon); archery; bow (for a violin, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 259535,
+      "kanji": "弓",
+      "kana": "きゅう",
+      "gloss": "bow (and arrow); unit of distance to an archery target (approx. six feet); unit of distance for land surveying (approx. eight feet)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 259536,
+      "kanji": "弓",
+      "kana": "たらし",
+      "gloss": "bow (and arrow; esp. of a noble)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110117,
+      "kanji": "揺らぐ",
+      "kana": "ゆらぐ",
+      "gloss": "to swing; to sway; to shake; to tremble; to waver; to feel shaken; to become unstable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66340,
+      "kanji": "緩める",
+      "kana": "ゆるめる",
+      "gloss": "to loosen; to slacken; to relax (attention, efforts, etc.); to let down (one's guard); to relieve (tension); to relax (a rule); to ease (e.g. restrictions); to loosen (control); to reduce (speed); to slow down; to ease up; to make more gradual (of a slope)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66342,
+      "kanji": "緩やか",
+      "kana": "ゆるやか",
+      "gloss": "loose; slack; gentle (slope, curve); slow (speed); lenient; liberal; lax",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 199813,
+      "kanji": "世",
+      "kana": "せい",
+      "gloss": "counter for generations; epoch",
+      "card_type": "vocab"
+    }
+  ]
+}

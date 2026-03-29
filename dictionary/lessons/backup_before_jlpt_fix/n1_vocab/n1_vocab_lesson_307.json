@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1167: 取り調べる, 取り立てる, 取り次ぐ...",
+  "lesson_number": 1167,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 81060,
+      "kanji": "取り調べる",
+      "kana": "とりしらべる",
+      "gloss": "to investigate; to examine",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81097,
+      "kanji": "取り立てる",
+      "kana": "とりたてる",
+      "gloss": "to collect (debts); to dun; to exact; to extort; to appoint; to promote; to give patronage; to emphasize; to focus on; to call attention to",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81028,
+      "kanji": "取り次ぐ",
+      "kana": "とりつぐ",
+      "gloss": "to act as an agent for; to intermediate; to announce (someone's arrival); to answer (the door, the phone); to receive (a guest at reception); to usher in (a guest); to convey (a message)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81037,
+      "kanji": "取り除く",
+      "kana": "とりのぞく",
+      "gloss": "to remove; to deinstall; to take away; to set apart",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121650,
+      "kanji": "取り引き",
+      "kana": "とりひき",
+      "gloss": "transactions; dealings; business",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80991,
+      "kanji": "取り巻く",
+      "kana": "とりまく",
+      "gloss": "to surround; to encircle; to enclose",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81019,
+      "kanji": "取り混ぜる",
+      "kana": "とりまぜる",
+      "gloss": "to mix; to put together",
+      "card_type": "vocab"
+    }
+  ]
+}

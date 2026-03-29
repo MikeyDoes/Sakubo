@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1020: 栄える, 栄える, 杯...",
+  "lesson_number": 1020,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 61079,
+      "kanji": "栄える",
+      "kana": "さかえる",
+      "gloss": "to prosper; to flourish",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122066,
+      "kanji": "栄える",
+      "kana": "はえる",
+      "gloss": "to shine; to glow; to look attractive; to look nice; to be set off (by)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100573,
+      "kanji": "杯",
+      "kana": "さかずき",
+      "gloss": "sake cup; cup for alcoholic beverages",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 300811,
+      "kanji": "杯",
+      "kana": "はた",
+      "gloss": "counter for cupfuls, bowlfuls, spoonfuls, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68093,
+      "kanji": "逆立ち",
+      "kana": "さかだち",
+      "gloss": "handstand; headstand; being upside down; being in reverse",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90659,
+      "kanji": "逆上る",
+      "kana": "さかのぼる",
+      "gloss": "to go upstream; to go back (in time, to origin); to date back to; to trace back to; to make retroactive",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76370,
+      "kanji": "差額",
+      "kana": "さがく",
+      "gloss": "balance; difference (in price, cost); margin",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "lesson_number": 30,
+  "title": "Lesson 30 (Vocab) - わあ, わんわん, んー...",
+  "description": "わんわん is a dog barking. んー is the sound of thinking or saying \"no.\"",
+  "items": [
+    {
+      "entry_id": 183017,
+      "kanji": null,
+      "kana": "わあ",
+      "gloss": "wow!; oh!; eek!; gee!; yeah!; alright!; hurray!; waah!; boohoo!"
+    },
+    {
+      "entry_id": 57656,
+      "kanji": null,
+      "kana": "わんわん",
+      "gloss": "bow-wow; woof; arf; barking; wah-wah; bawling; wailing; clamouring; clamoring; echoing; loudly; dog; doggy"
+    },
+    {
+      "entry_id": 303617,
+      "kanji": null,
+      "kana": "んー",
+      "gloss": "hm; um; huh?; what?; nuh-uh; no"
+    },
+    {
+      "entry_id": 207061,
+      "kanji": null,
+      "kana": "おんおん",
+      "gloss": "bawling; crying"
+    },
+    {
+      "entry_id": 171492,
+      "kanji": null,
+      "kana": "わっ",
+      "gloss": "boo! (sound used to scare someone); ugh (dissatisfaction, aggravation); ulp (consternation)"
+    }
+  ]
+}

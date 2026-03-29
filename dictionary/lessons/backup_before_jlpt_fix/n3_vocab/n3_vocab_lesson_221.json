@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 570: 服装, 含む, 袋...",
+  "lesson_number": 570,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 104328,
+      "kanji": "服装",
+      "kana": "ふくそう",
+      "gloss": "garments; attire",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66666,
+      "kanji": "含む",
+      "kana": "ふくむ",
+      "gloss": "to contain; to comprise; to have; to hold; to include; to embrace; to hold in the mouth; to bear in mind; to understand; to harbor (grudge, etc.); to harbour; to express (emotion, etc.); to imply",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92453,
+      "kanji": "袋",
+      "kana": "ふくろ",
+      "gloss": "bag; sack; pouch; skin of an orange (and other like fruits); dead end; plot of land surrounded by water",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 266207,
+      "kanji": "袋",
+      "kana": "たい",
+      "gloss": "counter for things inside a bag",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103189,
+      "kanji": "不幸",
+      "kana": "ふこう",
+      "gloss": "unhappiness; sorrow; misfortune; disaster; accident; death (usu. of a relative); bereavement",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89066,
+      "kanji": "節",
+      "kana": "せつ",
+      "gloss": "occasion; time; section (of a literary work); paragraph; verse; stanza; passage; season; term; holiday; principle; integrity; node (of a plant stem); clause; (taxonomical) section",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89067,
+      "kanji": "節",
+      "kana": "ノット",
+      "gloss": "knot (nautical mile per hour)",
+      "card_type": "vocab"
+    }
+  ]
+}

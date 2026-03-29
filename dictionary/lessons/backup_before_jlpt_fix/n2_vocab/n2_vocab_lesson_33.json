@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 649: 家屋, 係わる, 書留...",
+  "lesson_number": 649,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 63330,
+      "kanji": "家屋",
+      "kana": "かおく",
+      "gloss": "house; building",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118948,
+      "kanji": "係わる",
+      "kana": "かかわる",
+      "gloss": "to be affected; to be influenced; to be concerned with; to have to do with; to stick to (opinions)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118972,
+      "kanji": "書留",
+      "kana": "かきとめ",
+      "gloss": "registered mail; registered post; registration (of mail); (putting on) record; writing down; noting down; registry",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118976,
+      "kanji": "書取",
+      "kana": "かきとり",
+      "gloss": "writing down from other written material; writing kanji text from hiragana; transcription (of spoken material); dictation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65065,
+      "kanji": "垣根",
+      "kana": "かきね",
+      "gloss": "hedge; fence; border; limit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90971,
+      "kanji": "掻く",
+      "kana": "かく",
+      "gloss": "to scratch; to perspire; to shovel; to paddle",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112784,
+      "kanji": "嗅ぐ",
+      "kana": "かぐ",
+      "gloss": "to sniff; to smell",
+      "card_type": "vocab"
+    }
+  ]
+}

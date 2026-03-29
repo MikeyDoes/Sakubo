@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 405: 関する, 完成, 完全...",
+  "lesson_number": 405,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 66509,
+      "kanji": "関する",
+      "kana": "かんする",
+      "gloss": "to concern; to be related",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65999,
+      "kanji": "完成",
+      "kana": "かんせい",
+      "gloss": "complete; completion; perfection; accomplishment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66001,
+      "kanji": "完全",
+      "kana": "かんぜん",
+      "gloss": "perfect; complete",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66120,
+      "kanji": "感動",
+      "kana": "かんどう",
+      "gloss": "being deeply moved emotionally; excitement; passion; inspiration; deep emotion; strong impression",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66257,
+      "kanji": "監督",
+      "kana": "かんとく",
+      "gloss": "supervision; control; superintendence; direction; director; superintendent; supervisor; coach; foreman; manager; overseer; controller; boss",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66312,
+      "kanji": "管理",
+      "kana": "かんり",
+      "gloss": "control; management (e.g. of a business)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66012,
+      "kanji": "完了",
+      "kana": "かんりょう",
+      "gloss": "completion; conclusion; perfect (tense, form, aspect)",
+      "card_type": "vocab"
+    }
+  ]
+}

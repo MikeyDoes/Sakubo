@@ -1,0 +1,37 @@
+{
+  "title": "Lesson 12: (Kana) - Lesson 12: (Hiragana) \"は, ひ, ふ, へ, ほ\"",
+  "lesson_type": "kana",
+  "items": [
+    {
+      "entry_id": 325158,
+      "kana": "は",
+      "gloss": "ha",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325159,
+      "kana": "ひ",
+      "gloss": "hi",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325160,
+      "kana": "ふ",
+      "gloss": "fu",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325161,
+      "kana": "へ",
+      "gloss": "he",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325162,
+      "kana": "ほ",
+      "gloss": "ho",
+      "card_type": "kana"
+    }
+  ],
+  "lesson_number": 12
+}

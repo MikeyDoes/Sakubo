@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 283: さ来月, さ来週, 騒ぐ...",
+  "lesson_number": 283,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 76634,
+      "kanji": "さ来月",
+      "kana": "さらいげつ",
+      "gloss": "month after next",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76636,
+      "kanji": "さ来週",
+      "kana": "さらいしゅう",
+      "gloss": "week after next",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91410,
+      "kanji": "騒ぐ",
+      "kana": "さわぐ",
+      "gloss": "to make noise; to make racket; to be noisy; to rustle; to swoosh; to make merry; to clamor; to clamour; to make a fuss; to kick up a fuss; to lose one's cool; to panic; to act flustered; to feel tense; to be uneasy; to be excited",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85231,
+      "kanji": "触る",
+      "kana": "さわる",
+      "gloss": "to touch; to feel; to get involved (with); to approach; to be harmful to; to hinder; to interfere with; to irritate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78008,
+      "kanji": "産業",
+      "kana": "さんぎょう",
+      "gloss": "industry; livelihood; occupation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78122,
+      "kanji": "残念",
+      "kana": "ざんねん",
+      "gloss": "deplorable; regrettable; disappointing; vexing; unfortunate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78625,
+      "kanji": "市",
+      "kana": "いち",
+      "gloss": "market; fair",
+      "card_type": "vocab"
+    }
+  ]
+}

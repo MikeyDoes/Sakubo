@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 246: お祭り, お見舞い, お土産...",
+  "lesson_number": 246,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 123149,
+      "kanji": "お祭り",
+      "kana": "おまつり",
+      "gloss": "festival; feast; carnival",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36477,
+      "kanji": "お見舞い",
+      "kana": "おみまい",
+      "gloss": "calling on someone who is ill; enquiry; inquiry",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36664,
+      "kanji": "お土産",
+      "kana": "おみやげ",
+      "gloss": "local specialty or souvenir bought as a gift while travelling; present brought by a visitor; something unpleasant that one is given (e.g. an illness while on vacation); unwelcome gift; disservice",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78755,
+      "kanji": "思い出す",
+      "kana": "おもいだす",
+      "gloss": "to recall; to remember; to recollect",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118805,
+      "kanji": "思う",
+      "kana": "おもう",
+      "gloss": "to think; to consider; to believe; to reckon; to think (of doing); to plan (to do); to judge; to assess; to regard; to imagine; to suppose; to dream; to expect; to look forward to; to feel; to be (in a state of mind); to desire; to want; to recall; to remember",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66690,
+      "kanji": "玩具",
+      "kana": "おもちゃ",
+      "gloss": "toy; plaything",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102840,
+      "kanji": "表",
+      "kana": "おもて",
+      "gloss": "surface; face (i.e. the visible side of an object); front (of a building, etc.); obverse side (i.e. \"head\") of a coin; outside; exterior; appearance; public; first half (of an inning); top (of an inning); cover (for tatami mats, etc.); foreground",
+      "card_type": "vocab"
+    }
+  ]
+}

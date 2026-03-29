@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 542: 何故なら, 謎, 納得...",
+  "lesson_number": 542,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 37879,
+      "kanji": "何故なら",
+      "kana": "なぜなら",
+      "gloss": "because; the reason is; if you want to know why",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98853,
+      "kanji": "謎",
+      "kana": "なぞ",
+      "gloss": "riddle; puzzle; enigma; mystery; enigmatic; mysterious",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100207,
+      "kanji": "納得",
+      "kana": "なっとく",
+      "gloss": "consent; assent; agreement; understanding; comprehension; grasp",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116794,
+      "kanji": "等",
+      "kana": "とう",
+      "gloss": "class; order; rank; et cetera; etc.; and the like; equal; iso-",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 179993,
+      "kanji": "等",
+      "kana": "ら",
+      "gloss": "pluralizing suffix; or so; rough indicator of direction, location, amount, etc.; nominalizing suffix",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62880,
+      "kanji": "何か",
+      "kana": "なにか",
+      "gloss": "something; some; any; somehow; for some reason; (is there) something (you want, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62923,
+      "kanji": "何も",
+      "kana": "なにも",
+      "gloss": "(not) anything; (nothing) at all; (not) any; nothing; and everything else; and all; (not) at all; (not) in the least; (not) especially; (not) to that extent",
+      "card_type": "vocab"
+    }
+  ]
+}

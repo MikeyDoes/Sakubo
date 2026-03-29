@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 903: 於, 甥, 追い込む...",
+  "lesson_number": 903,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 61684,
+      "kanji": "於",
+      "kana": "おいて",
+      "gloss": "at; in; on",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61715,
+      "kanji": "甥",
+      "kana": "おい",
+      "gloss": "nephew",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95206,
+      "kanji": "追い込む",
+      "kana": "おいこむ",
+      "gloss": "to herd; to drive; to chase; to corral; to corner; to force someone into doing; to go hard; to push yourself; to make a last charge; to run on (e.g. lines in printing)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95209,
+      "kanji": "追い出す",
+      "kana": "おいだす",
+      "gloss": "to expel; to drive out",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112149,
+      "kanji": "老いる",
+      "kana": "おいる",
+      "gloss": "to age; to grow old",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103934,
+      "kanji": "負う",
+      "kana": "おう",
+      "gloss": "to bear; to carry on one's back; to take responsibility for; to accept a duty; to receive (wound); to incur (damage); to be injured; to owe",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61810,
+      "kanji": "応急",
+      "kana": "おうきゅう",
+      "gloss": "emergency; first-aid",
+      "card_type": "vocab"
+    }
+  ]
+}

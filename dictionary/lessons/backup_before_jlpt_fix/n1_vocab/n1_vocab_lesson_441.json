@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1301: 連邦, 連盟, 老衰...",
+  "lesson_number": 1301,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 111965,
+      "kanji": "連邦",
+      "kana": "れんぽう",
+      "gloss": "commonwealth; federation of states; confederation; union",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111973,
+      "kanji": "連盟",
+      "kana": "れんめい",
+      "gloss": "league; federation; union; alliance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112166,
+      "kanji": "老衰",
+      "kana": "ろうすい",
+      "gloss": "senility; senile decay; infirmity (through age)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112085,
+      "kanji": "朗読",
+      "kana": "ろうどく",
+      "gloss": "reading aloud; recitation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112093,
+      "kanji": "浪費",
+      "kana": "ろうひ",
+      "gloss": "waste; extravagance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112076,
+      "kanji": "労力",
+      "kana": "ろうりょく",
+      "gloss": "labour; labor; effort; toil; trouble",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124920,
+      "kanji": "碌な",
+      "kana": "ろくな",
+      "gloss": "satisfactory; decent",
+      "card_type": "vocab"
+    }
+  ]
+}

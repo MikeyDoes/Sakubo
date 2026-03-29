@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 545: 日常, 日曜, 日光...",
+  "lesson_number": 545,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 99479,
+      "kanji": "日常",
+      "kana": "にちじょう",
+      "gloss": "everyday; daily; ordinary; usual; routine; regular",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99555,
+      "kanji": "日曜",
+      "kana": "にちよう",
+      "gloss": "Sunday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99458,
+      "kanji": "日光",
+      "kana": "にっこう",
+      "gloss": "sunlight; sunshine; sunbeams",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99487,
+      "kanji": "日中",
+      "kana": "にっちゅう",
+      "gloss": "daytime; during the day; Japan and China",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116887,
+      "kanji": "日本",
+      "kana": "にほん",
+      "gloss": "Japan",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99740,
+      "kanji": "入場",
+      "kana": "にゅうじょう",
+      "gloss": "entrance; admission; entering",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86467,
+      "kanji": "人気",
+      "kana": "にんき",
+      "gloss": "popularity; public favor; condition (e.g. market); tone; character; nature",
+      "card_type": "vocab"
+    }
+  ]
+}

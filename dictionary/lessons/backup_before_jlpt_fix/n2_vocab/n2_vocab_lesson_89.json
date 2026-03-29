@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 705: 時間割, 四季, 敷地...",
+  "lesson_number": 705,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 79679,
+      "kanji": "時間割",
+      "kana": "じかんわり",
+      "gloss": "timetable (esp. a weekly school timetable); schedule",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78481,
+      "kanji": "四季",
+      "kana": "しき",
+      "gloss": "the four seasons",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103805,
+      "kanji": "敷地",
+      "kana": "しきち",
+      "gloss": "site; plot; lot; grounds",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79137,
+      "kanji": "至急",
+      "kana": "しきゅう",
+      "gloss": "urgent; pressing; immediate; prompt; express; urgently; promptly; at once; right away; without delay; as soon as possible",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103794,
+      "kanji": "敷く",
+      "kana": "しく",
+      "gloss": "to spread out; to lay out; to take a position; to impose widely (e.g. over a city)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108485,
+      "kanji": "茂る",
+      "kana": "しげる",
+      "gloss": "to grow thickly; to be in full leaf; to be rampant; to luxuriate; to be luxurious",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79653,
+      "kanji": "持参",
+      "kana": "じさん",
+      "gloss": "bringing; taking; carrying",
+      "card_type": "vocab"
+    }
+  ]
+}

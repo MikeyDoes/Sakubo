@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 494: 全, 全員, 専攻...",
+  "lesson_number": 494,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 90227,
+      "kanji": "全",
+      "kana": "ぜん",
+      "gloss": "all; whole; entire; complete; total; pan-; complete (set); in total",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90239,
+      "kanji": "全員",
+      "kana": "ぜんいん",
+      "gloss": "all members; all hands; everyone; everybody; whole crew",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89546,
+      "kanji": "専攻",
+      "kana": "せんこう",
+      "gloss": "major subject; special study",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116439,
+      "kanji": "全国",
+      "kana": "ぜんこく",
+      "gloss": "the whole country",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89360,
+      "kanji": "先日",
+      "kana": "せんじつ",
+      "gloss": "the other day; a few days ago",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90026,
+      "kanji": "前者",
+      "kana": "ぜんしゃ",
+      "gloss": "the former",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89925,
+      "kanji": "選手",
+      "kana": "せんしゅ",
+      "gloss": "player (sports); athlete; team member",
+      "card_type": "vocab"
+    }
+  ]
+}

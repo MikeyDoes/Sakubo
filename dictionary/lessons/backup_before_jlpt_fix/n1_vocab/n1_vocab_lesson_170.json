@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1030: 参照, 参上, 賛美...",
+  "lesson_number": 1030,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 77796,
+      "kanji": "参照",
+      "kana": "さんしょう",
+      "gloss": "reference; bibliographical reference; consultation; browsing (e.g. when selecting a file to upload on a computer); checking out",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77799,
+      "kanji": "参上",
+      "kana": "さんじょう",
+      "gloss": "calling on; visiting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78066,
+      "kanji": "賛美",
+      "kana": "さんび",
+      "gloss": "praise; glorification; extolment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78021,
+      "kanji": "産婦人科",
+      "kana": "さんふじんか",
+      "gloss": "maternity and gynaecology department (gynecology); department of obstetrics and gynaecology (gynecology)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78023,
+      "kanji": "産物",
+      "kana": "さんぶつ",
+      "gloss": "product; produce; result; fruit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77899,
+      "kanji": "山腹",
+      "kana": "さんぷく",
+      "gloss": "hillside; mountainside",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77905,
+      "kanji": "山脈",
+      "kana": "やまなみ",
+      "gloss": "mountain range; mountain belt",
+      "card_type": "vocab"
+    }
+  ]
+}

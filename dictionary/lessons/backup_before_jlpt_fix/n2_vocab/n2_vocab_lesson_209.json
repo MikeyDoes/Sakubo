@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 825: 放る, 朗らか, 牧場...",
+  "lesson_number": 825,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 268331,
+      "kanji": "放る",
+      "kana": "はなる",
+      "gloss": "to get free; to be freed; to be released",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112083,
+      "kanji": "朗らか",
+      "kana": "ほがらか",
+      "gloss": "cheerful; merry; sunny; melodious; bright (sky, day, etc.); fine; clear",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117297,
+      "kanji": "牧場",
+      "kana": "ぼくじょう",
+      "gloss": "farm (livestock); stock farm; ranch; station; pasture; meadow; grazing land",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106999,
+      "kanji": "牧畜",
+      "kana": "ぼくちく",
+      "gloss": "stock-farming; livestock farming; cattle breeding",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105924,
+      "kanji": "保健",
+      "kana": "ほけん",
+      "gloss": "preservation of health; hygiene; sanitation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106105,
+      "kanji": "募集",
+      "kana": "ぼしゅう",
+      "gloss": "recruitment; invitation; selection; advertisement; taking applications; raising (funds, donations, etc.); collection; subscription; solicitation; flotation (of shares, loans, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122945,
+      "kanji": "干す",
+      "kana": "ほす",
+      "gloss": "to air; to dry; to desiccate; to drain (off); to drink up; to deprive of a role, job, etc.",
+      "card_type": "vocab"
+    }
+  ]
+}

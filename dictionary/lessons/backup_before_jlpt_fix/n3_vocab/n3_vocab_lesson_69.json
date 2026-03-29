@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 418: 禁煙, 金額, 金庫...",
+  "lesson_number": 418,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 69829,
+      "kanji": "禁煙",
+      "kana": "きんえん",
+      "gloss": "abstaining from smoking; quitting smoking; No Smoking!; Smoking Prohibited!",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69985,
+      "kanji": "金額",
+      "kana": "きんがく",
+      "gloss": "amount of money; sum of money",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70006,
+      "kanji": "金庫",
+      "kana": "きんこ",
+      "gloss": "safe; strongbox; cashbox; vault; strongroom; depository; cash office; treasury; provider of funds",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115524,
+      "kanji": "金庫",
+      "kana": "かねぐら",
+      "gloss": "treasure house; treasury; financial supporter; patron; financier; backer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69838,
+      "kanji": "禁止",
+      "kana": "きんし",
+      "gloss": "prohibition; inhibition; ban",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70026,
+      "kanji": "金銭",
+      "kana": "きんせん",
+      "gloss": "money; cash",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70028,
+      "kanji": "金属",
+      "kana": "きんぞく",
+      "gloss": "metal",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 255: 代わり, 代わり, 変わる...",
+  "lesson_number": 255,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 119238,
+      "kanji": "代わり",
+      "kana": "かわり",
+      "gloss": "substitute; replacement; substituting; replacing; stand-in; proxy; alternate; deputy; relief; successor; compensation; exchange; return; another helping; second helping; seconds; refill; upcoming program; upcoming programme",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 253295,
+      "kanji": "代わり",
+      "kana": "がわり",
+      "gloss": "substitute for ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105587,
+      "kanji": "変わる",
+      "kana": "かわる",
+      "gloss": "to change; to be transformed; to be altered; to vary; to move to; to be different; to be uncommon; to be unusual",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75020,
+      "kanji": "考える",
+      "kana": "かんがえる",
+      "gloss": "to think (about, of); to think over; to ponder; to contemplate; to reflect (on); to meditate (on); to consider; to bear in mind; to allow for; to take into consideration; to think (that); to believe; to hold (a view); to judge; to conclude; to suspect; to intend (to do); to think of (doing); to plan; to predict; to anticipate; to expect; to imagine; to come up with; to think up; to contrive; to devise; to consider (as); to regard (as); to look on (as); to take; to view",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66510,
+      "kanji": "関係",
+      "kana": "かんけい",
+      "gloss": "relation; relationship; connection; participation; involvement; concern; influence; effect; sexual relations; sexual relationship; related to; connected to",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66275,
+      "kanji": "看護婦",
+      "kana": "かんごふ",
+      "gloss": "(female) nurse",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66325,
+      "kanji": "簡単",
+      "kana": "かんたん",
+      "gloss": "simple; easy; uncomplicated; brief; quick; light",
+      "card_type": "vocab"
+    }
+  ]
+}

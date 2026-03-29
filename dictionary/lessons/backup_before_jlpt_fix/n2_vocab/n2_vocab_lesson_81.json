@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 697: 裁縫, 材木, 逆さ...",
+  "lesson_number": 697,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 76938,
+      "kanji": "裁縫",
+      "kana": "さいほう",
+      "gloss": "sewing; needlework",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76994,
+      "kanji": "材木",
+      "kana": "ざいもく",
+      "gloss": "lumber; timber",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68057,
+      "kanji": "逆さ",
+      "kana": "さかさ",
+      "gloss": "inverted; upside down; reversed; back to front",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120029,
+      "kanji": "逆様",
+      "kana": "さかさま",
+      "gloss": "inverted; upside down; reversed; back to front; wrong way round",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120037,
+      "kanji": "捜す",
+      "kana": "さがす",
+      "gloss": "to search for; to look for; to hunt for; to seek; to search (a house, pocket, etc.); to search through; to rummage in (e.g. a drawer); to fish around",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90657,
+      "kanji": "遡る",
+      "kana": "さかのぼる",
+      "gloss": "to go upstream; to go back (in time, to origin); to date back to; to trace back to; to make retroactive",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81458,
+      "kanji": "酒場",
+      "kana": "さかば",
+      "gloss": "bar; pub; tavern",
+      "card_type": "vocab"
+    }
+  ]
+}

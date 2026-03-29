@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1018: 採算, 採集, 再生...",
+  "lesson_number": 1018,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 76765,
+      "kanji": "採算",
+      "kana": "さいさん",
+      "gloss": "profit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76768,
+      "kanji": "採集",
+      "kana": "さいしゅう",
+      "gloss": "collecting; gathering",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76564,
+      "kanji": "再生",
+      "kana": "さいせい",
+      "gloss": "resuscitation; regeneration; restoration to life; reformation; rehabilitation; playback; regeneration (sound, etc.); view (of a video clip); reclamation; recovery; rebirth; reincarnation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76695,
+      "kanji": "最善",
+      "kana": "さいぜん",
+      "gloss": "the very best; utmost",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76770,
+      "kanji": "採択",
+      "kana": "さいたく",
+      "gloss": "adoption; selection; choice",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76610,
+      "kanji": "再発",
+      "kana": "さいはつ",
+      "gloss": "return; relapse; recurrence",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76777,
+      "kanji": "栽培",
+      "kana": "さいばい",
+      "gloss": "cultivation",
+      "card_type": "vocab"
+    }
+  ]
+}

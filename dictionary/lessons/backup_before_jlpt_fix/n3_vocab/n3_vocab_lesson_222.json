@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 571: 節, 節, 節...",
+  "lesson_number": 571,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 89069,
+      "kanji": "節",
+      "kana": "ふし",
+      "gloss": "joint; knuckle; tune; melody; knot (in wood); node in a bamboo stem; part; notable characteristic",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89070,
+      "kanji": "節",
+      "kana": "ぶし",
+      "gloss": "characteristic way of speaking",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 207261,
+      "kanji": "節",
+      "kana": "よ",
+      "gloss": "space between two nodes (on bamboo, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 307379,
+      "kanji": "節",
+      "kana": "せち",
+      "gloss": "season; time of the year; seasonal festival; seasonal banquet; seasonal feast",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108005,
+      "kanji": "無事",
+      "kana": "ぶじ",
+      "gloss": "safety; security; peace; quiet; safely; without incident; successfully; good health; inaction; ennui",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103210,
+      "kanji": "不思議",
+      "kana": "ふしぎ",
+      "gloss": "wonderful; marvelous; strange; incredible; amazing; curious; miraculous; mysterious; strangely enough; oddly enough; for some reason; curiously",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103222,
+      "kanji": "不自由",
+      "kana": "ふじゆう",
+      "gloss": "discomfort; inconvenience; poverty; want; destitution; disability; impairment (physical, mental, etc.)",
+      "card_type": "vocab"
+    }
+  ]
+}

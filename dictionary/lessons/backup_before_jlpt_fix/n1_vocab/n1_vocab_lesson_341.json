@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1201: 発掘, 発生, 発足...",
+  "lesson_number": 1201,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 101270,
+      "kanji": "発掘",
+      "kana": "はっくつ",
+      "gloss": "excavation; exhumation; discovery (e.g. new talent)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101309,
+      "kanji": "発生",
+      "kana": "はっせい",
+      "gloss": "outbreak; spring forth; occurrence; incidence; generation (e.g. of power or heat); genesis; origin; ontogeny; development of complex multicellular structures from cell(s) in a simple state",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117005,
+      "kanji": "発足",
+      "kana": "ほっそく",
+      "gloss": "starting; inauguration; launch; founding; establishment; start-up",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83152,
+      "kanji": "初",
+      "kana": "はつ",
+      "gloss": "first; new",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 175821,
+      "kanji": "初",
+      "kana": "うぶ",
+      "gloss": "innocent; naive; unsophisticated; inexperienced; green; wet behind the ears; birth-",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 258399,
+      "kanji": "初",
+      "kana": "ぞめ",
+      "gloss": "first doing of ... (ever, in one's life, in the new year, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101249,
+      "kanji": "発",
+      "kana": "はつ",
+      "gloss": "departure; departing (from ...); departing (at time ...); sending; sent (by ...); sent (at ...); engine; counter for gunshots, bursts of gas, etc.; counter for bullets, bombs, etc.; counter for blows (punches)",
+      "card_type": "vocab"
+    }
+  ]
+}

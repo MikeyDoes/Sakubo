@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1264: 源, 源, 身なり...",
+  "lesson_number": 1264,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 72673,
+      "kanji": "源",
+      "kana": "みなもと",
+      "gloss": "source (of a river); fountainhead; source; origin; root",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 170209,
+      "kanji": "源",
+      "kana": "げん",
+      "gloss": "source; origin",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86283,
+      "kanji": "身なり",
+      "kana": "みなり",
+      "gloss": "dress; attire; clothing; getup; outfit; personal appearance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106297,
+      "kanji": "峰",
+      "kana": "みね",
+      "gloss": "peak; summit; ridge; top; back of a blade",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123303,
+      "kanji": "見逃す",
+      "kana": "みのがす",
+      "gloss": "to miss; to overlook; to fail to notice; to let pass (a matter); to overlook (e.g. a wrongdoing); to turn a blind eye to; to pass up (e.g. an opportunity); to let (a good ball) go by",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72230,
+      "kanji": "見晴らし",
+      "kana": "みはらし",
+      "gloss": "view; prospect; outlook; viewing platform; overlook",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86309,
+      "kanji": "身振り",
+      "kana": "みぶり",
+      "gloss": "gesture; gesticulation; motion",
+      "card_type": "vocab"
+    }
+  ]
+}

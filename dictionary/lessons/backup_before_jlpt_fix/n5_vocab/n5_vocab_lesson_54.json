@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 154: 作文, 差す, 雑誌...",
+  "lesson_number": 154,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 242269,
+      "kanji": "作文",
+      "kana": "さくもん",
+      "gloss": "writing (poetry); composing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76366,
+      "kanji": "差す",
+      "kana": "さす",
+      "gloss": "to shine; to be visible; to be tinged with; to rise (of water levels); to flow in; to be felt (i.e. as an emotion); to come over one; to hold up (an umbrella, etc.); to put up; to raise; to extend one's arm straight ahead (in dance); to insert; to put in; to wear (a sword) in one's belt; to wear at one's side; to carry under one's arm; to insert one's arm under an opponent's arm; to pole (a boat); to pour; to add (liquid); to serve (drinks); to put on (lipstick, etc.); to apply; to colour; to dye; to light (a fire); to burn; to shut; to close; to lock; to fasten; to stop in the midst of; to leave undone",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77412,
+      "kanji": "雑誌",
+      "kana": "ざっし",
+      "gloss": "journal; magazine; periodical",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76408,
+      "kanji": "砂糖",
+      "kana": "さとう",
+      "gloss": "sugar",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65869,
+      "kanji": "寒い",
+      "kana": "さむい",
+      "gloss": "cold (e.g. weather); uninteresting (esp. joke); lame; dull; weak; corny",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76638,
+      "kanji": "さ来年",
+      "kana": "さらいねん",
+      "gloss": "year after next",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115873,
+      "kanji": "三",
+      "kana": "さん",
+      "gloss": "three; tri-",
+      "card_type": "vocab"
+    }
+  ]
+}

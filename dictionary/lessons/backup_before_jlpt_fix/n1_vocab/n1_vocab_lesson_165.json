@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1025: 早急, 察する, 颯と...",
+  "lesson_number": 1025,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 116480,
+      "kanji": "早急",
+      "kana": "そうきゅう",
+      "gloss": "immediate; prompt; quick; rapid; urgent; pressing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77278,
+      "kanji": "察する",
+      "kana": "さっする",
+      "gloss": "to guess; to sense; to presume; to judge; to sympathize with; to sympathise with",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37219,
+      "kanji": "颯と",
+      "kana": "さっと",
+      "gloss": "quickly (esp. actions); suddenly (esp. wind, rain, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77243,
+      "kanji": "冊",
+      "kana": "さつ",
+      "gloss": "counter for books; volume",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 277383,
+      "kanji": "冊",
+      "kana": "さく",
+      "gloss": "imperial edict to confer nobility titles (in ancient China)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77363,
+      "kanji": "殺人",
+      "kana": "さつじん",
+      "gloss": "murder; homicide; manslaughter",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73802,
+      "kanji": "悟る",
+      "kana": "さとる",
+      "gloss": "to perceive; to sense; to discern; to understand; to comprehend; to realize; to attain enlightenment",
+      "card_type": "vocab"
+    }
+  ]
+}

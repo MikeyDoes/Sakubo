@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 193: 敗, 杯, 胚...",
+  "lesson_number": 193,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 160063,
+      "kanji": "敗",
+      "kana": "はい",
+      "gloss": "loss; defeat; counter for losses",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 173709,
+      "kanji": "杯",
+      "kana": "はい",
+      "gloss": "sake cup; cup for alcoholic beverages; counter for cupfuls, bowlfuls, spoonfuls, etc.; counter for boats; counter for octopuses and squid; cup (in sports); championship",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 178724,
+      "kanji": "胚",
+      "kana": "はい",
+      "gloss": "embryo; germ (e.g. wheat germ)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 195658,
+      "kanji": "輩",
+      "kana": "はい",
+      "gloss": "group; gang; bunch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 249131,
+      "kanji": "蔤",
+      "kana": "はい",
+      "gloss": "lotus root",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 272493,
+      "kanji": "牌",
+      "kana": "はい",
+      "gloss": "medal; shield; badge; card on which dharani (etc.) are written; notice board (in a Zen temple); tile (mahjong, dominos, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 283403,
+      "kanji": "排",
+      "kana": "はい",
+      "gloss": "anti-",
+      "card_type": "vocab"
+    }
+  ]
+}

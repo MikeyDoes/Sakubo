@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 415: 教師, 教授, 強調...",
+  "lesson_number": 415,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 69278,
+      "kanji": "教師",
+      "kana": "きょうし",
+      "gloss": "teacher (classroom)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69282,
+      "kanji": "教授",
+      "kana": "きょうじゅ",
+      "gloss": "professor; teaching; instruction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69196,
+      "kanji": "強調",
+      "kana": "きょうちょう",
+      "gloss": "emphasis; highlight; stress; stressed point",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69013,
+      "kanji": "共通",
+      "kana": "きょうつう",
+      "gloss": "common; shared; mutual; to be common (to); to be shared (by); -wide",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119487,
+      "kanji": "共同",
+      "kana": "きょうどう",
+      "gloss": "doing together (as equals); sharing; common (land, etc.); joint (statement, etc.); cooperation; co-operation; collaboration; association",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69234,
+      "kanji": "恐怖",
+      "kana": "きょうふ",
+      "gloss": "fear; dread; dismay; terror; horror; scare; panic",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119501,
+      "kanji": "協力",
+      "kana": "きょうりょく",
+      "gloss": "cooperation; collaboration",
+      "card_type": "vocab"
+    }
+  ]
+}

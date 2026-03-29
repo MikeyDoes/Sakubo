@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1166: 取り扱い, 取り扱う, 鳥居...",
+  "lesson_number": 1166,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 121605,
+      "kanji": "取り扱い",
+      "kana": "とりあつかい",
+      "gloss": "treatment; service; handling; management",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80972,
+      "kanji": "取り扱う",
+      "kana": "とりあつかう",
+      "gloss": "to handle; to operate (a machine, etc.); to use; to deal with (an issue); to manage; to treat (someone); to deal with (someone); to deal in; to carry; to sell",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94959,
+      "kanji": "鳥居",
+      "kana": "とりい",
+      "gloss": "torii; Shinto shrine archway",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121613,
+      "kanji": "取り替え",
+      "kana": "とりかえ",
+      "gloss": "swap; exchange",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81052,
+      "kanji": "取り組む",
+      "kana": "とりくむ",
+      "gloss": "to grapple with; to wrestle with; to engage in a bout; to be matched against; to tackle (e.g. a problem); to come to grips with; to work hard on",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121630,
+      "kanji": "取り締まり",
+      "kana": "とりしまり",
+      "gloss": "control; management; supervision",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81065,
+      "kanji": "取り締まる",
+      "kana": "とりしまる",
+      "gloss": "to manage; to control; to supervise; to oversee; to command; to crack down on; to keep under strict control; to enforce; to regulate",
+      "card_type": "vocab"
+    }
+  ]
+}

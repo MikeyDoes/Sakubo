@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1181: 南瓜, 軟貨, 難化...",
+  "lesson_number": 1181,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 116862,
+      "kanji": "南瓜",
+      "kana": "なんか",
+      "gloss": "pumpkin (Cucurbita sp.); squash",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 258141,
+      "kanji": "軟貨",
+      "kana": "なんか",
+      "gloss": "banknote; soft currency",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 286413,
+      "kanji": "難化",
+      "kana": "なんか",
+      "gloss": "becoming more difficult (e.g. exam); increasing difficulty",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62892,
+      "kanji": "何だか",
+      "kana": "なんだか",
+      "gloss": "(a) little; somewhat; somehow",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62893,
+      "kanji": "何だかんだ",
+      "kana": "なんだかんだ",
+      "gloss": "something or other; one thing or another; this or that",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62899,
+      "kanji": "何て",
+      "kana": "なんて",
+      "gloss": "how ...!; what ...!; what?; what's that?",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62906,
+      "kanji": "何と",
+      "kana": "なんと",
+      "gloss": "what; how; what (a) ...!; how ...!; surprisingly; to my amazement; believe it or not; why, ...!; oh my; wow; well, ...; so, ...",
+      "card_type": "vocab"
+    }
+  ]
+}

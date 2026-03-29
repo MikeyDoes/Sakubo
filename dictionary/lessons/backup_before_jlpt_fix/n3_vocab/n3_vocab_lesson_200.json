@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 549: 年代, 年齢, 野...",
+  "lesson_number": 549,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 100057,
+      "kanji": "年代",
+      "kana": "ねんだい",
+      "gloss": "age; era; period; date",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121936,
+      "kanji": "年齢",
+      "kana": "ねんれい",
+      "gloss": "age; years",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109028,
+      "kanji": "野",
+      "kana": "の",
+      "gloss": "plain; field; hidden (structural) member; wild; lacking a political post",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100211,
+      "kanji": "能",
+      "kana": "のう",
+      "gloss": "talent; gift; function; noh (theatre)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100272,
+      "kanji": "農家",
+      "kana": "のうか",
+      "gloss": "farmer; farming family; farmhouse",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100276,
+      "kanji": "農業",
+      "kana": "のうぎょう",
+      "gloss": "agriculture",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100287,
+      "kanji": "農民",
+      "kana": "のうみん",
+      "gloss": "farmer; peasant",
+      "card_type": "vocab"
+    }
+  ]
+}

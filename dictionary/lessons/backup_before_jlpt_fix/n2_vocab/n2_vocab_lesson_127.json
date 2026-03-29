@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 743: 増大, 送別, 草履...",
+  "lesson_number": 743,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 91438,
+      "kanji": "増大",
+      "kana": "ぞうだい",
+      "gloss": "enlargement; increase",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91390,
+      "kanji": "送別",
+      "kana": "そうべつ",
+      "gloss": "farewell; send-off",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91285,
+      "kanji": "草履",
+      "kana": "ぞうり",
+      "gloss": "zōri; traditional Japanese thonged sandals",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91250,
+      "kanji": "総理大臣",
+      "kana": "そうりだいじん",
+      "gloss": "prime minister (as the head of a cabinet government); premier",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91392,
+      "kanji": "送料",
+      "kana": "そうりょう",
+      "gloss": "postage; carriage; shipping charge",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91747,
+      "kanji": "属する",
+      "kana": "ぞくする",
+      "gloss": "to belong to; to come under; to be affiliated with; to be subject to",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 226228,
+      "kanji": "属する",
+      "kana": "しょくする",
+      "gloss": "to entrust; to send (a message, etc.)",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 507: 只, 戦い, 戦う...",
+  "lesson_number": 507,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 109272,
+      "kanji": "只",
+      "kana": "ただ",
+      "gloss": "ordinary; common; usual; free of charge; unaffected; as is; safe; only; merely; just; simply; but; however; nevertheless",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120991,
+      "kanji": "戦い",
+      "kana": "たたかい",
+      "gloss": "battle; fight; struggle; conflict",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120993,
+      "kanji": "戦う",
+      "kana": "たたかう",
+      "gloss": "to make war (on); to wage war (against); to go to war (with); to fight (with); to do battle (against); to compete (against); to struggle (against adversities, etc.); to fight; to contend; to resist",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93112,
+      "kanji": "叩く",
+      "kana": "たたく",
+      "gloss": "to strike; to clap; to knock; to beat; to tap; to pat; to play drums; to abuse; to bash; to flame (e.g. on the Internet); to insult; to consult; to sound out; to brag; to talk big; to call; to invoke (e.g. a function)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 287472,
+      "kanji": "叩く",
+      "kana": "はたく",
+      "gloss": "to dust; to remove dust; to slap; to hit (with the palm); to use up money",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95004,
+      "kanji": "直ちに",
+      "kana": "ただちに",
+      "gloss": "at once; immediately; right away; without delay; directly (face, lead to, etc.); automatically (mean, result in, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110910,
+      "kanji": "立ち上がる",
+      "kana": "たちあがる",
+      "gloss": "to stand up; to get up; to rise; to recover; to take action; to start; to make the initial charge; to start up; to boot up",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 123: 鉛筆, 美味しい, 多い...",
+  "lesson_number": 123,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 61631,
+      "kanji": "鉛筆",
+      "kana": "えんぴつ",
+      "gloss": "pencil",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102450,
+      "kanji": "美味しい",
+      "kana": "おいしい",
+      "gloss": "delicious; tasty; sweet; attractive; appealing; convenient; favorable; desirable; profitable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91955,
+      "kanji": "多い",
+      "kana": "おおい",
+      "gloss": "many; numerous; a lot; large amount of; large quantity of; much; frequent; common",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118667,
+      "kanji": "大きい",
+      "kana": "おおきい",
+      "gloss": "big; large; great; loud; extensive; spacious; important; decisive; valuable; older; grown up",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92695,
+      "kanji": "大きな",
+      "kana": "おおきな",
+      "gloss": "big; large; great",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92854,
+      "kanji": "大勢",
+      "kana": "おおぜい",
+      "gloss": "crowd of people; great number of people; in great numbers",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92858,
+      "kanji": "大勢",
+      "kana": "たいせい",
+      "gloss": "general situation; general trend; general tendency; way things are moving; current (of the times); tide (e.g. of public opinion)",
+      "card_type": "vocab"
+    }
+  ]
+}

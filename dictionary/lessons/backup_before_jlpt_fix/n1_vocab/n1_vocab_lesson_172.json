@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1032: 雑貨, 雑, 雑...",
+  "lesson_number": 1032,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 77388,
+      "kanji": "雑貨",
+      "kana": "ざっか",
+      "gloss": "miscellaneous goods; general goods; sundries",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77386,
+      "kanji": "雑",
+      "kana": "ざつ",
+      "gloss": "rough; crude; sloppy; messy; miscellaneous",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 228218,
+      "kanji": "雑",
+      "kana": "ぞう",
+      "gloss": "miscellany (classification of Japanese poetry unrelated to the seasons or to love)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77420,
+      "kanji": "雑談",
+      "kana": "ざつだん",
+      "gloss": "chatting; idle talk",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77429,
+      "kanji": "雑木",
+      "kana": "ぞうき",
+      "gloss": "various kinds of small trees; assorted trees",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 128360,
+      "kanji": "座標",
+      "kana": "ざひょう",
+      "gloss": "coordinate; coordinates",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78109,
+      "kanji": "残金",
+      "kana": "ざんきん",
+      "gloss": "remaining money",
+      "card_type": "vocab"
+    }
+  ]
+}

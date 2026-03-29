@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 940: 館, 館, 館...",
+  "lesson_number": 940,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 66566,
+      "kanji": "館",
+      "kana": "やかた",
+      "gloss": "mansion; palace; manor house; castle; nobleman; noblewoman; dignitary; cabin (on a boat, carriage, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 163095,
+      "kanji": "館",
+      "kana": "かん",
+      "gloss": "house; hall; building",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 229517,
+      "kanji": "館",
+      "kana": "むろつみ",
+      "gloss": "inn",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66319,
+      "kanji": "簡易",
+      "kana": "かんい",
+      "gloss": "simplicity; convenience; easiness; quasi-",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66093,
+      "kanji": "感慨",
+      "kana": "かんがい",
+      "gloss": "deep emotion; strong feelings",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65875,
+      "kanji": "寒気",
+      "kana": "さむけ",
+      "gloss": "chill; the shivers; shivering fit; cold; coldness; cold air",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66321,
+      "kanji": "簡潔",
+      "kana": "かんけつ",
+      "gloss": "concise; brief; succinct; compact (style)",
+      "card_type": "vocab"
+    }
+  ]
+}

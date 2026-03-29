@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 290: 食事, 食料品, 女性...",
+  "lesson_number": 290,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 85322,
+      "kanji": "食事",
+      "kana": "しょくじ",
+      "gloss": "meal; dinner; diet",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85341,
+      "kanji": "食料品",
+      "kana": "しょくりょうひん",
+      "gloss": "foodstuff; groceries",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83537,
+      "kanji": "女性",
+      "kana": "じょせい",
+      "gloss": "woman; female; feminine gender",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93666,
+      "kanji": "知らせる",
+      "kana": "しらせる",
+      "gloss": "to notify; to advise; to inform",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94794,
+      "kanji": "調べる",
+      "kana": "しらべる",
+      "gloss": "to examine; to look up; to investigate; to check up; to sense; to study; to inquire; to search",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86505,
+      "kanji": "人口",
+      "kana": "じんこう",
+      "gloss": "population; common talk",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86146,
+      "kanji": "神社",
+      "kana": "じんじゃ",
+      "gloss": "Shinto shrine",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1116: 仮令, 他動詞, 辿り着く...",
+  "lesson_number": 1116,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 121052,
+      "kanji": "仮令",
+      "kana": "たとい",
+      "gloss": "even if; no matter (what); if; though; although; supposing; supposing that; -ever",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91937,
+      "kanji": "他動詞",
+      "kana": "たどうし",
+      "gloss": "transitive verb",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93170,
+      "kanji": "辿り着く",
+      "kana": "たどりつく",
+      "gloss": "to arrive at (after a struggle); to finally reach; to find one's way to; to finally hit on (e.g. an idea)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93172,
+      "kanji": "辿る",
+      "kana": "たどる",
+      "gloss": "to follow (road); to pursue (course); to follow up; to follow (hyperlink)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116171,
+      "kanji": "掌",
+      "kana": "てのひら",
+      "gloss": "palm (of one's hand)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65358,
+      "kanji": "楽しむ",
+      "kana": "たのしむ",
+      "gloss": "to enjoy (oneself)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124543,
+      "kanji": "頼み",
+      "kana": "たのみ",
+      "gloss": "request; favor; favour; reliance; dependence; trust; hope",
+      "card_type": "vocab"
+    }
+  ]
+}

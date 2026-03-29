@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 412: 逆, 旧, 旧...",
+  "lesson_number": 412,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 281273,
+      "kanji": "逆",
+      "kana": "さか",
+      "gloss": "inverse; reverse",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68506,
+      "kanji": "旧",
+      "kana": "きゅう",
+      "gloss": "old; former; ex-; the old; old things; old customs; old times; bygone days; Japan's old (lunisolar) calendar",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72961,
+      "kanji": "旧",
+      "kana": "ふる",
+      "gloss": "used item; secondhand item; old; used; previous",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 201899,
+      "kanji": "旧",
+      "kana": "もと",
+      "gloss": "former; ex-; past; one-time; earlier times; the past; previous state; formerly; previously; originally; before",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 161721,
+      "kanji": "級",
+      "kana": "きゅう",
+      "gloss": "class (e.g. school); grade; rank; kyū; kyu; junior rank in martial arts, go, shogi, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67954,
+      "kanji": "球",
+      "kana": "まり",
+      "gloss": "ball (for sport, games, etc.); kemari; type of football played by courtiers in ancient Japan",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68451,
+      "kanji": "球",
+      "kana": "きゅう",
+      "gloss": "sphere; counter for balls",
+      "card_type": "vocab"
+    }
+  ]
+}

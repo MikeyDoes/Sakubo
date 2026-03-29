@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1291: 欲深い, 欲望, 横綱...",
+  "lesson_number": 1291,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 110369,
+      "kanji": "欲深い",
+      "kana": "よくぶかい",
+      "gloss": "greedy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110373,
+      "kanji": "欲望",
+      "kana": "よくぼう",
+      "gloss": "desire; appetite; lust",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61966,
+      "kanji": "横綱",
+      "kana": "よこづな",
+      "gloss": "yokozuna (highest rank in sumo); grand champion; best in its field; crème de la crème; cream of the crop",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58118,
+      "kanji": "葦",
+      "kana": "あし",
+      "gloss": "common reed (Phragmites australis)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116431,
+      "kanji": "善し悪し",
+      "kana": "よしあし",
+      "gloss": "right or wrong; good or bad; quality; suitability; having both merits and demerits; having both advantages and disadvantages",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109808,
+      "kanji": "予想",
+      "kana": "よそう",
+      "gloss": "expectation; anticipation; prediction; forecast; conjecture",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109927,
+      "kanji": "余所見",
+      "kana": "よそみ",
+      "gloss": "looking away; looking aside",
+      "card_type": "vocab"
+    }
+  ]
+}

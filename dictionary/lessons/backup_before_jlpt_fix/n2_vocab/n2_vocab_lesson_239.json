@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 855: 欄, 乱暴, 理科...",
+  "lesson_number": 855,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 308408,
+      "kanji": "欄",
+      "kana": "おばしま",
+      "gloss": "handrail; railing; banister; balustrade",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110605,
+      "kanji": "乱暴",
+      "kana": "らんぼう",
+      "gloss": "violence; assault; running riot; rough (e.g. handling); reckless; careless; coarse; rude; unreasonable (e.g. demand); wild (e.g. argument); rape; sexual assault",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110722,
+      "kanji": "理科",
+      "kana": "りか",
+      "gloss": "science (inc. mathematics, medicine, etc.); natural science; science department (university); science course; science (as a school subject)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110661,
+      "kanji": "利害",
+      "kana": "りがい",
+      "gloss": "advantages and disadvantages; interests (of parties)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110997,
+      "kanji": "略す",
+      "kana": "りゃくす",
+      "gloss": "to abbreviate; to omit; to take; to capture",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111024,
+      "kanji": "流域",
+      "kana": "りゅういき",
+      "gloss": "drainage basin; catchment basin; river basin; watershed; valley",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111274,
+      "kanji": "寮",
+      "kana": "りょう",
+      "gloss": "hostel; dormitory; bureau (government department beneath a ministry under the ritsuryo system); tea-ceremony room; villa",
+      "card_type": "vocab"
+    }
+  ]
+}

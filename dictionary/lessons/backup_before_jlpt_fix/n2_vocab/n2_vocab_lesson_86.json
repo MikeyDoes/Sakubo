@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 702: 妨げる, 冷める, 左様なら...",
+  "lesson_number": 702,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 106664,
+      "kanji": "妨げる",
+      "kana": "さまたげる",
+      "gloss": "to disturb; to prevent; to obstruct; to hinder",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111586,
+      "kanji": "冷める",
+      "kana": "さめる",
+      "gloss": "to cool down; to get cold; to cool off (excitement, temper, etc.); to subside; to dampen; to fade; to wane; to be cold (eyes, expression, etc.); to be composed",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76299,
+      "kanji": "左様なら",
+      "kana": "さようなら",
+      "gloss": "farewell; adieu; goodbye; so long",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76633,
+      "kanji": "再来月",
+      "kana": "さらいげつ",
+      "gloss": "month after next",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76635,
+      "kanji": "再来週",
+      "kana": "さらいしゅう",
+      "gloss": "week after next",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76637,
+      "kanji": "再来年",
+      "kana": "さらいねん",
+      "gloss": "year after next",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91405,
+      "kanji": "騒がしい",
+      "kana": "さわがしい",
+      "gloss": "noisy; boisterous; turbulent (era, etc.); troubled",
+      "card_type": "vocab"
+    }
+  ]
+}

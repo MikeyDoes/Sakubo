@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 471: 状況, 条件, 正午...",
+  "lesson_number": 471,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 85053,
+      "kanji": "状況",
+      "kana": "じょうきょう",
+      "gloss": "state of affairs (around you); situation; circumstances",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85034,
+      "kanji": "条件",
+      "kana": "じょうけん",
+      "gloss": "condition; term; requirement; qualification; prerequisite",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87797,
+      "kanji": "正午",
+      "kana": "しょうご",
+      "gloss": "noon; midday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87849,
+      "kanji": "正直",
+      "kana": "しょうじき",
+      "gloss": "honest; frank; candid; straightforward; honestly; frankly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84976,
+      "kanji": "常識",
+      "kana": "じょうしき",
+      "gloss": "common sense; good sense; common knowledge; general knowledge; common practice; accepted practice; social etiquette",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116162,
+      "kanji": "少女",
+      "kana": "しょうじょ",
+      "gloss": "little girl; maiden; young lady; female usually between 7 and 18 years old; female between 17 and 20 years old (ritsuryo period)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120389,
+      "kanji": "少々",
+      "kana": "しょうしょう",
+      "gloss": "just a minute; small quantity",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 470: 小, 章, 賞...",
+  "lesson_number": 470,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 269386,
+      "kanji": "小",
+      "kana": "さ",
+      "gloss": "narrow; thin",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84330,
+      "kanji": "章",
+      "kana": "しょう",
+      "gloss": "chapter; section; medal; badge; insignia",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84421,
+      "kanji": "賞",
+      "kana": "しょう",
+      "gloss": "prize; award",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84443,
+      "kanji": "障害",
+      "kana": "しょうがい",
+      "gloss": "obstacle; impediment; hindrance; difficulty; barrier; handicap; impairment; disability; disorder; malfunction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83803,
+      "kanji": "奨学金",
+      "kana": "しょうがくきん",
+      "gloss": "scholarship; stipend; bursary; student loan",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116226,
+      "kanji": "乗客",
+      "kana": "じょうきゃく",
+      "gloss": "passenger",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84592,
+      "kanji": "上京",
+      "kana": "じょうきょう",
+      "gloss": "proceeding to the capital (Tokyo)",
+      "card_type": "vocab"
+    }
+  ]
+}

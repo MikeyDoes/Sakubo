@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 776: 銅, 銅, 統一...",
+  "lesson_number": 776,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 69974,
+      "kanji": "銅",
+      "kana": "かね",
+      "gloss": "money; metal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116811,
+      "kanji": "銅",
+      "kana": "あか",
+      "gloss": "copper (Cu); bronze (medal)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97541,
+      "kanji": "統一",
+      "kana": "とういつ",
+      "gloss": "unity; consolidation; uniformity; unification; compatible",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97844,
+      "kanji": "同格",
+      "kana": "どうかく",
+      "gloss": "the same rank; equality; apposition",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98127,
+      "kanji": "峠",
+      "kana": "とうげ",
+      "gloss": "(mountain) pass; highest point on a mountain road; ridge; peak (e.g. of summer); worst (e.g. of an illness); crisis; critical point; most difficult part",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97545,
+      "kanji": "統計",
+      "kana": "とうけい",
+      "gloss": "statistics",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97774,
+      "kanji": "動作",
+      "kana": "どうさ",
+      "gloss": "action; movements; motions; bearing; behaviour; behavior; execution; actuation; operation; manners",
+      "card_type": "vocab"
+    }
+  ]
+}

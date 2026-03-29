@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 935: 鉄棒, 鉄棒, 加入...",
+  "lesson_number": 935,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 95981,
+      "kanji": "鉄棒",
+      "kana": "てつぼう",
+      "gloss": "iron rod; iron bar; iron club; horizontal bar (gymnastics)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 134265,
+      "kanji": "鉄棒",
+      "kana": "かなぼう",
+      "gloss": "metal rod; metal bar; iron rod; crowbar; iron club; iron staff with rings on top (traditionally used by night watchmen)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63188,
+      "kanji": "加入",
+      "kana": "かにゅう",
+      "gloss": "joining (a club, organization, etc.); becoming a member; entry; admission; subscription; affiliation; signing (e.g. a treaty); taking out (insurance)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117457,
+      "kanji": "予言",
+      "kana": "よげん",
+      "gloss": "prediction; prophecy; prognostication",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 283674,
+      "kanji": "予言",
+      "kana": "かねごと",
+      "gloss": "promise; prediction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109780,
+      "kanji": "兼ねて",
+      "kana": "かねて",
+      "gloss": "previously; already; for some time; for quite a while",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63869,
+      "kanji": "華美",
+      "kana": "かび",
+      "gloss": "splendor; splendour; gorgeousness; pomp; magnificence; showiness; gaudiness; extravagance; luxury",
+      "card_type": "vocab"
+    }
+  ]
+}

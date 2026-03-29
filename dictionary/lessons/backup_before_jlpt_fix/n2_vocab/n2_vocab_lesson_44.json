@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 660: 貨物, 痒い, 歌謡...",
+  "lesson_number": 660,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 63902,
+      "kanji": "貨物",
+      "kana": "かもつ",
+      "gloss": "cargo; freight; money or assets",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 113475,
+      "kanji": "痒い",
+      "kana": "かゆい",
+      "gloss": "itchy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63545,
+      "kanji": "歌謡",
+      "kana": "かよう",
+      "gloss": "song; ballad",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65182,
+      "kanji": "殻",
+      "kana": "から",
+      "gloss": "shell; husk; hull; pod; chaff",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 184814,
+      "kanji": "殻",
+      "kana": "がら",
+      "gloss": "chicken bones (e.g. for soup); chicken carcass; poor-quality coke (coal); left-overs; remnants",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 224494,
+      "kanji": "殻",
+      "kana": "かく",
+      "gloss": "shell (e.g. electron shell)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 258503,
+      "kanji": "殻",
+      "kana": "かい",
+      "gloss": "egg; eggshell",
+      "card_type": "vocab"
+    }
+  ]
+}

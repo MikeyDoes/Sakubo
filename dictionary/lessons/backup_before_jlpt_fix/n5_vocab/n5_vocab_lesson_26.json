@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 126: お父さん, 弟, 弟...",
+  "lesson_number": 126,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 36682,
+      "kanji": "お父さん",
+      "kana": "おとうさん",
+      "gloss": "father; dad; papa; pa; pop; daddy; dada; husband; you; he; him",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116648,
+      "kanji": "弟",
+      "kana": "おとうと",
+      "gloss": "younger brother; little brother; kid brother; brother-in-law (spouse's younger brother or younger sister's husband); pupil; apprentice",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 298867,
+      "kanji": "弟",
+      "kana": "おとと",
+      "gloss": "younger sibling",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 298868,
+      "kanji": "弟",
+      "kana": "おと",
+      "gloss": "younger brother (of an older brother); younger sister (of an older sister); youngest child; young; younger; youngest; young and beautiful; cute",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93611,
+      "kanji": "男",
+      "kana": "おとこ",
+      "gloss": "man; male; fellow; guy; chap; bloke; male lover; boyfriend; manliness; manly honor; manly honour; manly reputation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 271275,
+      "kanji": "男",
+      "kana": "おのこ",
+      "gloss": "man; boy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 271279,
+      "kanji": "男",
+      "kana": "お",
+      "gloss": "male; manly; brave; heroic; larger (of the two); greater; man; husband",
+      "card_type": "vocab"
+    }
+  ]
+}

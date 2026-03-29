@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 165: 先月, 先週, 先生...",
+  "lesson_number": 165,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 89271,
+      "kanji": "先月",
+      "kana": "せんげつ",
+      "gloss": "last month",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89312,
+      "kanji": "先週",
+      "kana": "せんしゅう",
+      "gloss": "last week; the week before",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89326,
+      "kanji": "先生",
+      "kana": "せんせい",
+      "gloss": "teacher; instructor; master; sensei; title or form of address for a teacher, master, doctor, lawyer, etc.; intimate or teasing form of address; one's elder",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 269064,
+      "kanji": "先生",
+      "kana": "シーサン",
+      "gloss": "boy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 305274,
+      "kanji": "先生",
+      "kana": "せんじょう",
+      "gloss": "teacher; instructor; master; previous existence",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89718,
+      "kanji": "洗濯",
+      "kana": "せんたく",
+      "gloss": "washing; laundry; relaxing; taking a break",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90368,
+      "kanji": "全部",
+      "kana": "ぜんぶ",
+      "gloss": "all; entire; whole; altogether",
+      "card_type": "vocab"
+    }
+  ]
+}

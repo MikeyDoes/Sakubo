@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 736: 政党, 生年月日, 性能...",
+  "lesson_number": 736,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 87681,
+      "kanji": "政党",
+      "kana": "せいとう",
+      "gloss": "political party",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88101,
+      "kanji": "生年月日",
+      "kana": "せいねんがっぴ",
+      "gloss": "birth date; date of birth; DOB",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87601,
+      "kanji": "性能",
+      "kana": "せいのう",
+      "gloss": "ability; performance; efficiency",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87701,
+      "kanji": "整備",
+      "kana": "せいび",
+      "gloss": "maintenance; servicing; putting in place; establishment; development; preparation; provision; outfitting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87660,
+      "kanji": "成分",
+      "kana": "せいぶん",
+      "gloss": "ingredient; component; composition",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87606,
+      "kanji": "性別",
+      "kana": "せいべつ",
+      "gloss": "gender; distinction of sex; sex",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87883,
+      "kanji": "正方形",
+      "kana": "せいほうけい",
+      "gloss": "square",
+      "card_type": "vocab"
+    }
+  ]
+}

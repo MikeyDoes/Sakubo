@@ -1,0 +1,38 @@
+{
+  "title": "Lesson 27: (Vocab) - ケーキ, とても, おじさん...",
+  "lesson_type": "kana_vocab",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "The Long Vowel Mark (ー)",
+      "body": "In katakana, long vowels are written with a dash — the chōon mark (ー):\n\nケーキ (kēki, cake)\nコーヒー (kōhī, coffee)\nノート (nōto, notebook)\n\nThis is simpler than hiragana, which extends vowels by adding another vowel character (like おう or えい)."
+    }
+  ],
+  "items": [
+    {
+      "entry_id": 43545,
+      "kana": "ケーキ",
+      "gloss": "cake",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326371,
+      "kana": "とても",
+      "gloss": "very; awfully; exceedingly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326359,
+      "kana": "おじさん",
+      "gloss": "uncle; old man; mister",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326360,
+      "kana": "おばさん",
+      "gloss": "aunt",
+      "card_type": "vocab"
+    }
+  ],
+  "lesson_number": 27
+}

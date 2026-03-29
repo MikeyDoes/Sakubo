@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 606: 陽気, 要求, 用心...",
+  "lesson_number": 606,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 110329,
+      "kanji": "陽気",
+      "kana": "ようき",
+      "gloss": "cheerful; jovial; merry; lively; weather; season; spirit of yang",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110293,
+      "kanji": "要求",
+      "kana": "ようきゅう",
+      "gloss": "demand; firm request; requisition; requirement; desire",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110244,
+      "kanji": "用心",
+      "kana": "ようじん",
+      "gloss": "care; precaution; guarding; caution",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110145,
+      "kanji": "様子",
+      "kana": "ようす",
+      "gloss": "state; state of affairs; situation; circumstances; appearance; look; aspect; sign; indication",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110288,
+      "kanji": "要するに",
+      "kana": "ようするに",
+      "gloss": "in short; in a word; to sum up; to put it simply; to make a long story short; after all",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110306,
+      "kanji": "要素",
+      "kana": "ようそ",
+      "gloss": "component; factor; item (e.g. in list); element (e.g. in array); member (e.g. data structure)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110308,
+      "kanji": "要点",
+      "kana": "ようてん",
+      "gloss": "gist; main point",
+      "card_type": "vocab"
+    }
+  ]
+}

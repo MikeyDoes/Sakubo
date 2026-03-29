@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 428: 決定, 欠点, 月曜...",
+  "lesson_number": 428,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 71534,
+      "kanji": "決定",
+      "kana": "けってい",
+      "gloss": "decision; determination",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71484,
+      "kanji": "欠点",
+      "kana": "けってん",
+      "gloss": "fault; defect; flaw; weak point; weakness; shortcoming; drawback; failure (in an examination); failing grade",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71737,
+      "kanji": "月曜",
+      "kana": "げつよう",
+      "gloss": "Monday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71620,
+      "kanji": "結論",
+      "kana": "けつろん",
+      "gloss": "conclusion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61433,
+      "kanji": "煙",
+      "kana": "けむり",
+      "gloss": "smoke; fumes",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71827,
+      "kanji": "券",
+      "kana": "けん",
+      "gloss": "ticket; coupon; bond; certificate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72088,
+      "kanji": "県",
+      "kana": "けん",
+      "gloss": "prefecture (Japan); county (China, Taiwan, Norway, etc.); department (France); province (Italy, Spain, etc.)",
+      "card_type": "vocab"
+    }
+  ]
+}

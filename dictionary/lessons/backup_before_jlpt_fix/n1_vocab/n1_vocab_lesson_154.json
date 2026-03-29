@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1014: 合意, 合議, 合成...",
+  "lesson_number": 1014,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 75466,
+      "kanji": "合意",
+      "kana": "ごうい",
+      "gloss": "(coming to an) agreement; consent; mutual understanding; accord; consensus",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75481,
+      "kanji": "合議",
+      "kana": "ごうぎ",
+      "gloss": "consultation; conference",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75507,
+      "kanji": "合成",
+      "kana": "ごうせい",
+      "gloss": "composition; synthesis; composite; compound; synthetic; mixed; combined; (function) composition",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73895,
+      "kanji": "護衛",
+      "kana": "ごえい",
+      "gloss": "guard; convoy; escort",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73829,
+      "kanji": "語句",
+      "kana": "ごく",
+      "gloss": "words; phrases",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69673,
+      "kanji": "極楽",
+      "kana": "ごくらく",
+      "gloss": "Sukhavati (Amitabha's Pure Land); paradise; heaven on earth",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73832,
+      "kanji": "語源",
+      "kana": "ごげん",
+      "gloss": "origin of a word; derivation of a word; etymology",
+      "card_type": "vocab"
+    }
+  ]
+}

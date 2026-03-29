@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1237: 編, 偏, 変革...",
+  "lesson_number": 1237,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 105712,
+      "kanji": "編",
+      "kana": "へん",
+      "gloss": "compilation (of a text); editing; volume (of a text); completed literary work",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105526,
+      "kanji": "偏",
+      "kana": "へん",
+      "gloss": "left-hand radical of a character",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105603,
+      "kanji": "変革",
+      "kana": "へんかく",
+      "gloss": "change; transformation; innovation; reform; revolution; revolutionizing; upheaval; Reformation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105755,
+      "kanji": "返還",
+      "kana": "へんかん",
+      "gloss": "return; restoration",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105536,
+      "kanji": "偏見",
+      "kana": "へんけん",
+      "gloss": "prejudice; bias; distorted view",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105759,
+      "kanji": "返済",
+      "kana": "へんさい",
+      "gloss": "repayment; reimbursement; refund; redemption",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105637,
+      "kanji": "変遷",
+      "kana": "へんせん",
+      "gloss": "change; transition; vicissitudes",
+      "card_type": "vocab"
+    }
+  ]
+}

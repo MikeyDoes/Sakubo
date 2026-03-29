@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 287: 市民, 事務所, 社会...",
+  "lesson_number": 287,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 78691,
+      "kanji": "市民",
+      "kana": "しみん",
+      "gloss": "citizen; citizenry; public; city inhabitant; townspeople; bourgeoisie; middle class",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79455,
+      "kanji": "事務所",
+      "kana": "じむしょ",
+      "gloss": "office",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80498,
+      "kanji": "社会",
+      "kana": "しゃかい",
+      "gloss": "society; public; community; the world; social studies",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80520,
+      "kanji": "社長",
+      "kana": "しゃちょう",
+      "gloss": "company president; manager; director",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80602,
+      "kanji": "邪魔",
+      "kana": "じゃま",
+      "gloss": "hindrance; obstacle; nuisance; disturbance; interruption; interference; to visit (someone's home); demon who hinders Buddhist training; demon who obstructs sentient beings from maintaining moral behaviour",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79994,
+      "kanji": "自由",
+      "kana": "じゆう",
+      "gloss": "freedom; liberty",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81956,
+      "kanji": "習慣",
+      "kana": "しゅうかん",
+      "gloss": "habit; (social) custom; practice; convention",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1029: 酸化, 山岳, 産休...",
+  "lesson_number": 1029,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 78072,
+      "kanji": "酸化",
+      "kana": "さんか",
+      "gloss": "oxidation; oxidization",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77837,
+      "kanji": "山岳",
+      "kana": "さんがく",
+      "gloss": "mountains",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78007,
+      "kanji": "産休",
+      "kana": "さんきゅう",
+      "gloss": "maternity leave; paternity leave",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77980,
+      "kanji": "桟橋",
+      "kana": "さんばし",
+      "gloss": "wharf; bridge; jetty; pier",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77774,
+      "kanji": "参議院",
+      "kana": "さんぎいん",
+      "gloss": "House of Councillors (upper house of the National Diet of Japan)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78010,
+      "kanji": "産後",
+      "kana": "さんご",
+      "gloss": "postpartum; after childbirth",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78012,
+      "kanji": "産出",
+      "kana": "さんしゅつ",
+      "gloss": "production; output; turning out",
+      "card_type": "vocab"
+    }
+  ]
+}

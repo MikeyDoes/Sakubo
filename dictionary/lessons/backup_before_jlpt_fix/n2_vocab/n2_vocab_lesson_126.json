@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 742: 増減, 倉庫, 相互...",
+  "lesson_number": 742,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 91427,
+      "kanji": "増減",
+      "kana": "ぞうげん",
+      "gloss": "increase and decrease; fluctuation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90830,
+      "kanji": "倉庫",
+      "kana": "そうこ",
+      "gloss": "storehouse; warehouse; godown",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120806,
+      "kanji": "相互",
+      "kana": "そうご",
+      "gloss": "mutual; reciprocal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90737,
+      "kanji": "創作",
+      "kana": "そうさく",
+      "gloss": "creation; production; creative work (novel, film, etc.); original work; (creative) writing; fabrication; fiction; invention",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91301,
+      "kanji": "葬式",
+      "kana": "そうしき",
+      "gloss": "funeral",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91491,
+      "kanji": "造船",
+      "kana": "ぞうせん",
+      "gloss": "shipbuilding",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120835,
+      "kanji": "騒々しい",
+      "kana": "そうぞうしい",
+      "gloss": "noisy; loud; boisterous; clamorous; raucous; turbulent; unsettled; restless",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 384: 主に, 思わず, 祖...",
+  "lesson_number": 384,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 80809,
+      "kanji": "主に",
+      "kana": "おもに",
+      "gloss": "mainly; primarily",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78796,
+      "kanji": "思わず",
+      "kana": "おもわず",
+      "gloss": "unconsciously; involuntarily; instinctively; reflexively; spontaneously; unintentionally; in spite of oneself",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86198,
+      "kanji": "祖",
+      "kana": "おや",
+      "gloss": "parent; parents; mother and father; dealer (in cards, mahjong, etc.); banker; founder; inventor; (pet) owner; key; parent (organization); main; ancestor; forefather",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 125141,
+      "kanji": "泳ぎ",
+      "kana": "およぎ",
+      "gloss": "swimming",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107191,
+      "kanji": "凡そ",
+      "kana": "およそ",
+      "gloss": "about; roughly; approximately; generally; on the whole; as a rule; completely; quite; entirely; altogether; totally; not at all (with neg. verb); outline; gist",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68206,
+      "kanji": "及ぼす",
+      "kana": "およぼす",
+      "gloss": "to exert (influence); to exercise; to cause (e.g. damage); to do (e.g. harm); to bring about (e.g. benefits); to extend; to have an effect (on)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115479,
+      "kanji": "居る",
+      "kana": "おる",
+      "gloss": "to be (animate); to be; to exist; to be ..ing; to (have the audacity to) do",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1256: 間違う, 待ち遠しい, 待ち望む...",
+  "lesson_number": 1256,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 124799,
+      "kanji": "間違う",
+      "kana": "まちがう",
+      "gloss": "to make a mistake; to be incorrect; to be mistaken",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92362,
+      "kanji": "待ち遠しい",
+      "kana": "まちどおしい",
+      "gloss": "longed-for; anxiously awaited",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92388,
+      "kanji": "待ち望む",
+      "kana": "まちのぞむ",
+      "gloss": "to wait eagerly for; to look forward to",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119622,
+      "kanji": "区々",
+      "kana": "くく",
+      "gloss": "petty; trivial; insignificant; trifling",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123090,
+      "kanji": "区々",
+      "kana": "まちまち",
+      "gloss": "several; various; divergent; conflicting; different; diverse",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107439,
+      "kanji": "末期",
+      "kana": "まつご",
+      "gloss": "deathbed; hour of death",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123098,
+      "kanji": "末期",
+      "kana": "まっき",
+      "gloss": "closing years (period, days); last stage; end stage; end-of-life (care, decision making, etc.); terminal (e.g. cancer, disease, etc.); final",
+      "card_type": "vocab"
+    }
+  ]
+}

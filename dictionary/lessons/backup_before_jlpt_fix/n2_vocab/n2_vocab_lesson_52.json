@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 668: 切っ掛け, 基盤, 客席...",
+  "lesson_number": 668,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 119393,
+      "kanji": "切っ掛け",
+      "kana": "きっかけ",
+      "gloss": "chance; start; cue; excuse; motive; impetus; occasion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66968,
+      "kanji": "基盤",
+      "kana": "きばん",
+      "gloss": "foundation; basis; base; footing; infrastructure; bedrock; substrate (circuit board)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68031,
+      "kanji": "客席",
+      "kana": "きゃくせき",
+      "gloss": "guest seating (e.g. theater, stadium); passenger seat (e.g. taxi); audience",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68025,
+      "kanji": "客間",
+      "kana": "きゃくま",
+      "gloss": "drawing room; parlor; parlour; guest room",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68154,
+      "kanji": "休業",
+      "kana": "きゅうぎょう",
+      "gloss": "suspension of business; temporary closure (of a store, school, etc.); shutdown; holiday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68163,
+      "kanji": "休講",
+      "kana": "きゅうこう",
+      "gloss": "cancellation (of a lecture, class, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68179,
+      "kanji": "休息",
+      "kana": "きゅうそく",
+      "gloss": "rest; relief; relaxation",
+      "card_type": "vocab"
+    }
+  ]
+}

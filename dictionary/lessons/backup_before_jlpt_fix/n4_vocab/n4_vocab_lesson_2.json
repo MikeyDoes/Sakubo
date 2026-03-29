@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 230: 挨拶, 間, 間...",
+  "lesson_number": 230,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 57880,
+      "kanji": "挨拶",
+      "kana": "あいさつ",
+      "gloss": "greeting; greetings; salutation; salute; condolences; congratulations; speech (congratulatory or appreciative); address; reply; response; revenge; retaliation; a fine thing to say; dialoging (with another Zen practitioner to ascertain their level of enlightenment); relationship (between people); connection; intervention; mediation; mediator",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66438,
+      "kanji": "間",
+      "kana": "あいだ",
+      "gloss": "space (between); gap; interval; distance; stretch; period of time (during, while); duration; between (two parties or things); among (a group); relations (between); relationship; midpoint; average; halfway; middle ground; due to; because of",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66440,
+      "kanji": "間",
+      "kana": "ま",
+      "gloss": "time; pause; space; room",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 127184,
+      "kanji": "間",
+      "kana": "はざま",
+      "gloss": "interval; space; interstice; threshold; valley; gorge; ravine; loophole (in a wall); crenel; eyelet",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 180018,
+      "kanji": "間",
+      "kana": "かん",
+      "gloss": "interval; period of time; among; between; inter-; good opportunity; chance; estrangement; discord; alienation; spy; secret agent",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 190944,
+      "kanji": "間",
+      "kana": "けん",
+      "gloss": "ken (6 shaku, approx. 1.818 m); counter used to number the gaps between pillars",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75443,
+      "kanji": "合う",
+      "kana": "あう",
+      "gloss": "to come together; to merge; to unite; to meet; to fit; to match; to suit; to agree with; to be correct; to be profitable; to be equitable; to do ... to each other; to do ... together",
+      "card_type": "vocab"
+    }
+  ]
+}

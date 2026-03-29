@@ -1,0 +1,4142 @@
+{
+  "source_file": "Spoonfed Japanese Kana + Grammar Lessons 1-72",
+  "lessons": {
+    "1": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_01_kana.json"
+    },
+    "2": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_2.json"
+    },
+    "3": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_02_kana.json"
+    },
+    "4": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_4.json"
+    },
+    "5": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_03_kana.json"
+    },
+    "6": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_6.json"
+    },
+    "7": {
+      "grammar": "dictionary/lessons/spoonfed_japanese/grammar_in_kana/grammar_lesson_0007.json"
+    },
+    "8": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_04_kana.json"
+    },
+    "9": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_8.json"
+    },
+    "10": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_05_kana.json"
+    },
+    "11": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_10.json"
+    },
+    "12": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_06_kana.json"
+    },
+    "13": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_12.json"
+    },
+    "14": {
+      "grammar": "dictionary/lessons/spoonfed_japanese/grammar_in_kana/grammar_lesson_0014.json"
+    },
+    "15": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_07_kana.json"
+    },
+    "16": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_14.json"
+    },
+    "17": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_08_kana.json"
+    },
+    "18": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_16.json"
+    },
+    "19": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_09_kana.json"
+    },
+    "20": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_18.json"
+    },
+    "21": {
+      "grammar": "dictionary/lessons/spoonfed_japanese/grammar_in_kana/grammar_lesson_0021.json"
+    },
+    "22": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_10_kana.json"
+    },
+    "23": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_20.json"
+    },
+    "24": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_11_kana.json"
+    },
+    "25": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_22.json"
+    },
+    "26": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_12_kana.json"
+    },
+    "27": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_24.json"
+    },
+    "28": {
+      "grammar": "dictionary/lessons/spoonfed_japanese/grammar_in_kana/grammar_lesson_0028.json"
+    },
+    "29": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_13_kana.json"
+    },
+    "30": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_26.json"
+    },
+    "31": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_14_kana.json"
+    },
+    "32": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_28.json"
+    },
+    "33": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_15_kana.json"
+    },
+    "34": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_30.json"
+    },
+    "35": {
+      "grammar": "dictionary/lessons/spoonfed_japanese/grammar_in_kana/grammar_lesson_0035.json"
+    },
+    "36": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_31.json"
+    },
+    "37": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_32_kana.json"
+    },
+    "38": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_33.json"
+    },
+    "39": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_34_kana.json"
+    },
+    "40": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_35.json"
+    },
+    "41": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_36_kana.json"
+    },
+    "42": {
+      "grammar": "dictionary/lessons/spoonfed_japanese/grammar_in_kana/grammar_lesson_0042.json"
+    },
+    "43": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_37.json"
+    },
+    "44": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_38_kana.json"
+    },
+    "45": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_39.json"
+    },
+    "46": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_40_kana.json"
+    },
+    "47": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_41.json"
+    },
+    "48": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_42_kana.json"
+    },
+    "49": {
+      "grammar": "dictionary/lessons/spoonfed_japanese/grammar_in_kana/grammar_lesson_0049.json"
+    },
+    "50": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_43.json"
+    },
+    "51": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_44_kana.json"
+    },
+    "52": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_45.json"
+    },
+    "53": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_46_kana.json"
+    },
+    "54": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_47.json"
+    },
+    "55": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_48_kana.json"
+    },
+    "56": {
+      "grammar": "dictionary/lessons/spoonfed_japanese/grammar_in_kana/grammar_lesson_0056.json"
+    },
+    "57": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_49.json"
+    },
+    "59": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_51.json"
+    },
+    "60": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_52_kana.json"
+    },
+    "61": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_53.json"
+    },
+    "62": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_54_kana.json"
+    },
+    "63": {
+      "grammar": "dictionary/lessons/spoonfed_japanese/grammar_in_kana/grammar_lesson_0063.json"
+    },
+    "64": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_55.json"
+    },
+    "66": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_57.json"
+    },
+    "67": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_58_kana.json"
+    },
+    "68": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_59.json"
+    },
+    "69": {
+      "kana": "dictionary/lessons/spoonfed_japanese/lesson_60_kana.json"
+    },
+    "70": {
+      "grammar": "dictionary/lessons/spoonfed_japanese/grammar_in_kana/grammar_lesson_0070.json"
+    },
+    "71": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_61.json"
+    },
+    "72": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/kana_vocab_lesson_62.json"
+    },
+    "101": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_1.json"
+    },
+    "102": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_2.json"
+    },
+    "103": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_3.json"
+    },
+    "104": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_4.json"
+    },
+    "105": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_5.json"
+    },
+    "106": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_6.json"
+    },
+    "107": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_7.json"
+    },
+    "108": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_8.json"
+    },
+    "109": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_9.json"
+    },
+    "110": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_10.json"
+    },
+    "111": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_11.json"
+    },
+    "112": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_12.json"
+    },
+    "113": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_13.json"
+    },
+    "114": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_14.json"
+    },
+    "115": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_15.json"
+    },
+    "116": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_16.json"
+    },
+    "117": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_17.json"
+    },
+    "118": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_18.json"
+    },
+    "119": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_19.json"
+    },
+    "120": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_20.json"
+    },
+    "121": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_21.json"
+    },
+    "122": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_22.json"
+    },
+    "123": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_23.json"
+    },
+    "124": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_24.json"
+    },
+    "125": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_25.json"
+    },
+    "126": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_26.json"
+    },
+    "127": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_27.json"
+    },
+    "128": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_28.json"
+    },
+    "129": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_29.json"
+    },
+    "130": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_30.json"
+    },
+    "131": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_31.json"
+    },
+    "132": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_32.json"
+    },
+    "133": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_33.json"
+    },
+    "134": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_34.json"
+    },
+    "135": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_35.json"
+    },
+    "136": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_36.json"
+    },
+    "137": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_37.json"
+    },
+    "138": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_38.json"
+    },
+    "139": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_39.json"
+    },
+    "140": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_40.json"
+    },
+    "141": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_41.json"
+    },
+    "142": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_42.json"
+    },
+    "143": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_43.json"
+    },
+    "144": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_44.json"
+    },
+    "145": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_45.json"
+    },
+    "146": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_46.json"
+    },
+    "147": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_47.json"
+    },
+    "148": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_48.json"
+    },
+    "149": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_49.json"
+    },
+    "150": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_50.json"
+    },
+    "151": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_51.json"
+    },
+    "152": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_52.json"
+    },
+    "153": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_53.json"
+    },
+    "154": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_54.json"
+    },
+    "155": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_55.json"
+    },
+    "156": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_56.json"
+    },
+    "157": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_57.json"
+    },
+    "158": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_58.json"
+    },
+    "159": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_59.json"
+    },
+    "160": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_60.json"
+    },
+    "161": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_61.json"
+    },
+    "162": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_62.json"
+    },
+    "163": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_63.json"
+    },
+    "164": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_64.json"
+    },
+    "165": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_65.json"
+    },
+    "166": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_66.json"
+    },
+    "167": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_67.json"
+    },
+    "168": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_68.json"
+    },
+    "169": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_69.json"
+    },
+    "170": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_70.json"
+    },
+    "171": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_71.json"
+    },
+    "172": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_72.json"
+    },
+    "173": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_73.json"
+    },
+    "174": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_74.json"
+    },
+    "175": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_75.json"
+    },
+    "176": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_76.json"
+    },
+    "177": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_77.json"
+    },
+    "178": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_78.json"
+    },
+    "179": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_79.json"
+    },
+    "180": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_80.json"
+    },
+    "181": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_81.json"
+    },
+    "182": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_82.json"
+    },
+    "183": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_83.json"
+    },
+    "184": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_84.json"
+    },
+    "185": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_85.json"
+    },
+    "186": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_86.json"
+    },
+    "187": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_87.json"
+    },
+    "188": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_88.json"
+    },
+    "189": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_89.json"
+    },
+    "190": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_90.json"
+    },
+    "191": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_91.json"
+    },
+    "192": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_92.json"
+    },
+    "193": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_93.json"
+    },
+    "194": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_94.json"
+    },
+    "195": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_95.json"
+    },
+    "196": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_96.json"
+    },
+    "197": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_97.json"
+    },
+    "198": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_98.json"
+    },
+    "199": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_99.json"
+    },
+    "200": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_100.json"
+    },
+    "201": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_101.json"
+    },
+    "202": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_102.json"
+    },
+    "203": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_103.json"
+    },
+    "204": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_104.json"
+    },
+    "205": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_105.json"
+    },
+    "206": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_106.json"
+    },
+    "207": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_107.json"
+    },
+    "208": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_108.json"
+    },
+    "209": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_109.json"
+    },
+    "210": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_110.json"
+    },
+    "211": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_111.json"
+    },
+    "212": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_112.json"
+    },
+    "213": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_113.json"
+    },
+    "214": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_114.json"
+    },
+    "215": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_115.json"
+    },
+    "216": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_116.json"
+    },
+    "217": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_117.json"
+    },
+    "218": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_118.json"
+    },
+    "219": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_119.json"
+    },
+    "220": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_120.json"
+    },
+    "221": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_121.json"
+    },
+    "222": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_122.json"
+    },
+    "223": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_123.json"
+    },
+    "224": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_124.json"
+    },
+    "225": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_125.json"
+    },
+    "226": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_126.json"
+    },
+    "227": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_127.json"
+    },
+    "228": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n5_vocab/n5_vocab_lesson_128.json"
+    },
+    "229": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_1.json"
+    },
+    "230": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_2.json"
+    },
+    "231": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_3.json"
+    },
+    "232": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_4.json"
+    },
+    "233": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_5.json"
+    },
+    "234": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_6.json"
+    },
+    "235": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_7.json"
+    },
+    "236": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_8.json"
+    },
+    "237": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_9.json"
+    },
+    "238": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_10.json"
+    },
+    "239": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_11.json"
+    },
+    "240": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_12.json"
+    },
+    "241": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_13.json"
+    },
+    "242": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_14.json"
+    },
+    "243": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_15.json"
+    },
+    "244": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_16.json"
+    },
+    "245": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_17.json"
+    },
+    "246": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_18.json"
+    },
+    "247": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_19.json"
+    },
+    "248": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_20.json"
+    },
+    "249": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_21.json"
+    },
+    "250": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_22.json"
+    },
+    "251": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_23.json"
+    },
+    "252": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_24.json"
+    },
+    "253": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_25.json"
+    },
+    "254": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_26.json"
+    },
+    "255": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_27.json"
+    },
+    "256": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_28.json"
+    },
+    "257": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_29.json"
+    },
+    "258": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_30.json"
+    },
+    "259": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_31.json"
+    },
+    "260": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_32.json"
+    },
+    "261": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_33.json"
+    },
+    "262": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_34.json"
+    },
+    "263": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_35.json"
+    },
+    "264": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_36.json"
+    },
+    "265": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_37.json"
+    },
+    "266": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_38.json"
+    },
+    "267": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_39.json"
+    },
+    "268": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_40.json"
+    },
+    "269": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_41.json"
+    },
+    "270": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_42.json"
+    },
+    "271": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_43.json"
+    },
+    "272": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_44.json"
+    },
+    "273": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_45.json"
+    },
+    "274": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_46.json"
+    },
+    "275": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_47.json"
+    },
+    "276": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_48.json"
+    },
+    "277": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_49.json"
+    },
+    "278": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_50.json"
+    },
+    "279": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_51.json"
+    },
+    "280": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_52.json"
+    },
+    "281": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_53.json"
+    },
+    "282": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_54.json"
+    },
+    "283": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_55.json"
+    },
+    "284": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_56.json"
+    },
+    "285": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_57.json"
+    },
+    "286": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_58.json"
+    },
+    "287": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_59.json"
+    },
+    "288": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_60.json"
+    },
+    "289": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_61.json"
+    },
+    "290": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_62.json"
+    },
+    "291": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_63.json"
+    },
+    "292": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_64.json"
+    },
+    "293": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_65.json"
+    },
+    "294": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_66.json"
+    },
+    "295": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_67.json"
+    },
+    "296": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_68.json"
+    },
+    "297": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_69.json"
+    },
+    "298": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_70.json"
+    },
+    "299": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_71.json"
+    },
+    "300": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_72.json"
+    },
+    "301": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_73.json"
+    },
+    "302": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_74.json"
+    },
+    "303": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_75.json"
+    },
+    "304": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_76.json"
+    },
+    "305": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_77.json"
+    },
+    "306": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_78.json"
+    },
+    "307": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_79.json"
+    },
+    "308": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_80.json"
+    },
+    "309": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_81.json"
+    },
+    "310": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_82.json"
+    },
+    "311": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_83.json"
+    },
+    "312": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_84.json"
+    },
+    "313": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_85.json"
+    },
+    "314": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_86.json"
+    },
+    "315": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_87.json"
+    },
+    "316": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_88.json"
+    },
+    "317": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_89.json"
+    },
+    "318": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_90.json"
+    },
+    "319": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_91.json"
+    },
+    "320": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_92.json"
+    },
+    "321": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_93.json"
+    },
+    "322": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_94.json"
+    },
+    "323": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_95.json"
+    },
+    "324": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_96.json"
+    },
+    "325": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_97.json"
+    },
+    "326": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_98.json"
+    },
+    "327": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_99.json"
+    },
+    "328": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_100.json"
+    },
+    "329": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_101.json"
+    },
+    "330": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_102.json"
+    },
+    "331": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_103.json"
+    },
+    "332": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_104.json"
+    },
+    "333": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_105.json"
+    },
+    "334": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_106.json"
+    },
+    "335": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_107.json"
+    },
+    "336": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_108.json"
+    },
+    "337": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_109.json"
+    },
+    "338": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_110.json"
+    },
+    "339": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_111.json"
+    },
+    "340": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_112.json"
+    },
+    "341": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_113.json"
+    },
+    "342": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_114.json"
+    },
+    "343": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_115.json"
+    },
+    "344": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_116.json"
+    },
+    "345": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_117.json"
+    },
+    "346": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_118.json"
+    },
+    "347": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_119.json"
+    },
+    "348": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_120.json"
+    },
+    "349": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n4_vocab/n4_vocab_lesson_121.json"
+    },
+    "350": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_1.json"
+    },
+    "351": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_2.json"
+    },
+    "352": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_3.json"
+    },
+    "353": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_4.json"
+    },
+    "354": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_5.json"
+    },
+    "355": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_6.json"
+    },
+    "356": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_7.json"
+    },
+    "357": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_8.json"
+    },
+    "358": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_9.json"
+    },
+    "359": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_10.json"
+    },
+    "360": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_11.json"
+    },
+    "361": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_12.json"
+    },
+    "362": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_13.json"
+    },
+    "363": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_14.json"
+    },
+    "364": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_15.json"
+    },
+    "365": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_16.json"
+    },
+    "366": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_17.json"
+    },
+    "367": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_18.json"
+    },
+    "368": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_19.json"
+    },
+    "369": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_20.json"
+    },
+    "370": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_21.json"
+    },
+    "371": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_22.json"
+    },
+    "372": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_23.json"
+    },
+    "373": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_24.json"
+    },
+    "374": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_25.json"
+    },
+    "375": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_26.json"
+    },
+    "376": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_27.json"
+    },
+    "377": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_28.json"
+    },
+    "378": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_29.json"
+    },
+    "379": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_30.json"
+    },
+    "380": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_31.json"
+    },
+    "381": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_32.json"
+    },
+    "382": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_33.json"
+    },
+    "383": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_34.json"
+    },
+    "384": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_35.json"
+    },
+    "385": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_36.json"
+    },
+    "386": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_37.json"
+    },
+    "387": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_38.json"
+    },
+    "388": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_39.json"
+    },
+    "389": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_40.json"
+    },
+    "390": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_41.json"
+    },
+    "391": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_42.json"
+    },
+    "392": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_43.json"
+    },
+    "393": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_44.json"
+    },
+    "394": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_45.json"
+    },
+    "395": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_46.json"
+    },
+    "396": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_47.json"
+    },
+    "397": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_48.json"
+    },
+    "398": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_49.json"
+    },
+    "399": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_50.json"
+    },
+    "400": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_51.json"
+    },
+    "401": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_52.json"
+    },
+    "402": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_53.json"
+    },
+    "403": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_54.json"
+    },
+    "404": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_55.json"
+    },
+    "405": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_56.json"
+    },
+    "406": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_57.json"
+    },
+    "407": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_58.json"
+    },
+    "408": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_59.json"
+    },
+    "409": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_60.json"
+    },
+    "410": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_61.json"
+    },
+    "411": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_62.json"
+    },
+    "412": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_63.json"
+    },
+    "413": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_64.json"
+    },
+    "414": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_65.json"
+    },
+    "415": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_66.json"
+    },
+    "416": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_67.json"
+    },
+    "417": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_68.json"
+    },
+    "418": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_69.json"
+    },
+    "419": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_70.json"
+    },
+    "420": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_71.json"
+    },
+    "421": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_72.json"
+    },
+    "422": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_73.json"
+    },
+    "423": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_74.json"
+    },
+    "424": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_75.json"
+    },
+    "425": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_76.json"
+    },
+    "426": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_77.json"
+    },
+    "427": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_78.json"
+    },
+    "428": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_79.json"
+    },
+    "429": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_80.json"
+    },
+    "430": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_81.json"
+    },
+    "431": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_82.json"
+    },
+    "432": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_83.json"
+    },
+    "433": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_84.json"
+    },
+    "434": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_85.json"
+    },
+    "435": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_86.json"
+    },
+    "436": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_87.json"
+    },
+    "437": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_88.json"
+    },
+    "438": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_89.json"
+    },
+    "439": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_90.json"
+    },
+    "440": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_91.json"
+    },
+    "441": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_92.json"
+    },
+    "442": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_93.json"
+    },
+    "443": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_94.json"
+    },
+    "444": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_95.json"
+    },
+    "445": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_96.json"
+    },
+    "446": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_97.json"
+    },
+    "447": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_98.json"
+    },
+    "448": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_99.json"
+    },
+    "449": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_100.json"
+    },
+    "450": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_101.json"
+    },
+    "451": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_102.json"
+    },
+    "452": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_103.json"
+    },
+    "453": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_104.json"
+    },
+    "454": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_105.json"
+    },
+    "455": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_106.json"
+    },
+    "456": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_107.json"
+    },
+    "457": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_108.json"
+    },
+    "458": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_109.json"
+    },
+    "459": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_110.json"
+    },
+    "460": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_111.json"
+    },
+    "461": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_112.json"
+    },
+    "462": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_113.json"
+    },
+    "463": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_114.json"
+    },
+    "464": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_115.json"
+    },
+    "465": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_116.json"
+    },
+    "466": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_117.json"
+    },
+    "467": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_118.json"
+    },
+    "468": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_119.json"
+    },
+    "469": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_120.json"
+    },
+    "470": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_121.json"
+    },
+    "471": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_122.json"
+    },
+    "472": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_123.json"
+    },
+    "473": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_124.json"
+    },
+    "474": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_125.json"
+    },
+    "475": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_126.json"
+    },
+    "476": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_127.json"
+    },
+    "477": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_128.json"
+    },
+    "478": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_129.json"
+    },
+    "479": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_130.json"
+    },
+    "480": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_131.json"
+    },
+    "481": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_132.json"
+    },
+    "482": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_133.json"
+    },
+    "483": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_134.json"
+    },
+    "484": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_135.json"
+    },
+    "485": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_136.json"
+    },
+    "486": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_137.json"
+    },
+    "487": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_138.json"
+    },
+    "488": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_139.json"
+    },
+    "489": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_140.json"
+    },
+    "490": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_141.json"
+    },
+    "491": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_142.json"
+    },
+    "492": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_143.json"
+    },
+    "493": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_144.json"
+    },
+    "494": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_145.json"
+    },
+    "495": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_146.json"
+    },
+    "496": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_147.json"
+    },
+    "497": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_148.json"
+    },
+    "498": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_149.json"
+    },
+    "499": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_150.json"
+    },
+    "500": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_151.json"
+    },
+    "501": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_152.json"
+    },
+    "502": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_153.json"
+    },
+    "503": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_154.json"
+    },
+    "504": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_155.json"
+    },
+    "505": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_156.json"
+    },
+    "506": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_157.json"
+    },
+    "507": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_158.json"
+    },
+    "508": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_159.json"
+    },
+    "509": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_160.json"
+    },
+    "510": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_161.json"
+    },
+    "511": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_162.json"
+    },
+    "512": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_163.json"
+    },
+    "513": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_164.json"
+    },
+    "514": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_165.json"
+    },
+    "515": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_166.json"
+    },
+    "516": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_167.json"
+    },
+    "517": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_168.json"
+    },
+    "518": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_169.json"
+    },
+    "519": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_170.json"
+    },
+    "520": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_171.json"
+    },
+    "521": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_172.json"
+    },
+    "522": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_173.json"
+    },
+    "523": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_174.json"
+    },
+    "524": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_175.json"
+    },
+    "525": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_176.json"
+    },
+    "526": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_177.json"
+    },
+    "527": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_178.json"
+    },
+    "528": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_179.json"
+    },
+    "529": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_180.json"
+    },
+    "530": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_181.json"
+    },
+    "531": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_182.json"
+    },
+    "532": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_183.json"
+    },
+    "533": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_184.json"
+    },
+    "534": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_185.json"
+    },
+    "535": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_186.json"
+    },
+    "536": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_187.json"
+    },
+    "537": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_188.json"
+    },
+    "538": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_189.json"
+    },
+    "539": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_190.json"
+    },
+    "540": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_191.json"
+    },
+    "541": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_192.json"
+    },
+    "542": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_193.json"
+    },
+    "543": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_194.json"
+    },
+    "544": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_195.json"
+    },
+    "545": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_196.json"
+    },
+    "546": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_197.json"
+    },
+    "547": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_198.json"
+    },
+    "548": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_199.json"
+    },
+    "549": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_200.json"
+    },
+    "550": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_201.json"
+    },
+    "551": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_202.json"
+    },
+    "552": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_203.json"
+    },
+    "553": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_204.json"
+    },
+    "554": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_205.json"
+    },
+    "555": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_206.json"
+    },
+    "556": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_207.json"
+    },
+    "557": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_208.json"
+    },
+    "558": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_209.json"
+    },
+    "559": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_210.json"
+    },
+    "560": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_211.json"
+    },
+    "561": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_212.json"
+    },
+    "562": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_213.json"
+    },
+    "563": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_214.json"
+    },
+    "564": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_215.json"
+    },
+    "565": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_216.json"
+    },
+    "566": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_217.json"
+    },
+    "567": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_218.json"
+    },
+    "568": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_219.json"
+    },
+    "569": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_220.json"
+    },
+    "570": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_221.json"
+    },
+    "571": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_222.json"
+    },
+    "572": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_223.json"
+    },
+    "573": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_224.json"
+    },
+    "574": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_225.json"
+    },
+    "575": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_226.json"
+    },
+    "576": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_227.json"
+    },
+    "577": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_228.json"
+    },
+    "578": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_229.json"
+    },
+    "579": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_230.json"
+    },
+    "580": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_231.json"
+    },
+    "581": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_232.json"
+    },
+    "582": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_233.json"
+    },
+    "583": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_234.json"
+    },
+    "584": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_235.json"
+    },
+    "585": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_236.json"
+    },
+    "586": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_237.json"
+    },
+    "587": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_238.json"
+    },
+    "588": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_239.json"
+    },
+    "589": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_240.json"
+    },
+    "590": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_241.json"
+    },
+    "591": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_242.json"
+    },
+    "592": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_243.json"
+    },
+    "593": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_244.json"
+    },
+    "594": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_245.json"
+    },
+    "595": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_246.json"
+    },
+    "596": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_247.json"
+    },
+    "597": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_248.json"
+    },
+    "598": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_249.json"
+    },
+    "599": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_250.json"
+    },
+    "600": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_251.json"
+    },
+    "601": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_252.json"
+    },
+    "602": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_253.json"
+    },
+    "603": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_254.json"
+    },
+    "604": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_255.json"
+    },
+    "605": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_256.json"
+    },
+    "606": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_257.json"
+    },
+    "607": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_258.json"
+    },
+    "608": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_259.json"
+    },
+    "609": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_260.json"
+    },
+    "610": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_261.json"
+    },
+    "611": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_262.json"
+    },
+    "612": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_263.json"
+    },
+    "613": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_264.json"
+    },
+    "614": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_265.json"
+    },
+    "615": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_266.json"
+    },
+    "616": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n3_vocab/n3_vocab_lesson_267.json"
+    },
+    "617": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_1.json"
+    },
+    "618": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_2.json"
+    },
+    "619": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_3.json"
+    },
+    "620": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_4.json"
+    },
+    "621": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_5.json"
+    },
+    "622": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_6.json"
+    },
+    "623": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_7.json"
+    },
+    "624": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_8.json"
+    },
+    "625": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_9.json"
+    },
+    "626": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_10.json"
+    },
+    "627": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_11.json"
+    },
+    "628": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_12.json"
+    },
+    "629": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_13.json"
+    },
+    "630": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_14.json"
+    },
+    "631": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_15.json"
+    },
+    "632": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_16.json"
+    },
+    "633": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_17.json"
+    },
+    "634": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_18.json"
+    },
+    "635": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_19.json"
+    },
+    "636": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_20.json"
+    },
+    "637": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_21.json"
+    },
+    "638": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_22.json"
+    },
+    "639": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_23.json"
+    },
+    "640": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_24.json"
+    },
+    "641": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_25.json"
+    },
+    "642": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_26.json"
+    },
+    "643": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_27.json"
+    },
+    "644": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_28.json"
+    },
+    "645": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_29.json"
+    },
+    "646": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_30.json"
+    },
+    "647": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_31.json"
+    },
+    "648": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_32.json"
+    },
+    "649": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_33.json"
+    },
+    "650": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_34.json"
+    },
+    "651": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_35.json"
+    },
+    "652": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_36.json"
+    },
+    "653": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_37.json"
+    },
+    "654": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_38.json"
+    },
+    "655": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_39.json"
+    },
+    "656": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_40.json"
+    },
+    "657": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_41.json"
+    },
+    "658": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_42.json"
+    },
+    "659": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_43.json"
+    },
+    "660": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_44.json"
+    },
+    "661": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_45.json"
+    },
+    "662": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_46.json"
+    },
+    "663": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_47.json"
+    },
+    "664": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_48.json"
+    },
+    "665": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_49.json"
+    },
+    "666": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_50.json"
+    },
+    "667": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_51.json"
+    },
+    "668": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_52.json"
+    },
+    "669": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_53.json"
+    },
+    "670": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_54.json"
+    },
+    "671": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_55.json"
+    },
+    "672": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_56.json"
+    },
+    "673": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_57.json"
+    },
+    "674": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_58.json"
+    },
+    "675": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_59.json"
+    },
+    "676": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_60.json"
+    },
+    "677": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_61.json"
+    },
+    "678": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_62.json"
+    },
+    "679": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_63.json"
+    },
+    "680": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_64.json"
+    },
+    "681": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_65.json"
+    },
+    "682": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_66.json"
+    },
+    "683": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_67.json"
+    },
+    "684": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_68.json"
+    },
+    "685": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_69.json"
+    },
+    "686": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_70.json"
+    },
+    "687": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_71.json"
+    },
+    "688": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_72.json"
+    },
+    "689": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_73.json"
+    },
+    "690": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_74.json"
+    },
+    "691": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_75.json"
+    },
+    "692": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_76.json"
+    },
+    "693": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_77.json"
+    },
+    "694": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_78.json"
+    },
+    "695": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_79.json"
+    },
+    "696": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_80.json"
+    },
+    "697": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_81.json"
+    },
+    "698": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_82.json"
+    },
+    "699": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_83.json"
+    },
+    "700": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_84.json"
+    },
+    "701": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_85.json"
+    },
+    "702": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_86.json"
+    },
+    "703": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_87.json"
+    },
+    "704": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_88.json"
+    },
+    "705": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_89.json"
+    },
+    "706": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_90.json"
+    },
+    "707": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_91.json"
+    },
+    "708": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_92.json"
+    },
+    "709": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_93.json"
+    },
+    "710": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_94.json"
+    },
+    "711": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_95.json"
+    },
+    "712": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_96.json"
+    },
+    "713": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_97.json"
+    },
+    "714": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_98.json"
+    },
+    "715": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_99.json"
+    },
+    "716": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_100.json"
+    },
+    "717": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_101.json"
+    },
+    "718": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_102.json"
+    },
+    "719": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_103.json"
+    },
+    "720": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_104.json"
+    },
+    "721": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_105.json"
+    },
+    "722": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_106.json"
+    },
+    "723": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_107.json"
+    },
+    "724": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_108.json"
+    },
+    "725": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_109.json"
+    },
+    "726": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_110.json"
+    },
+    "727": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_111.json"
+    },
+    "728": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_112.json"
+    },
+    "729": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_113.json"
+    },
+    "730": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_114.json"
+    },
+    "731": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_115.json"
+    },
+    "732": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_116.json"
+    },
+    "733": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_117.json"
+    },
+    "734": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_118.json"
+    },
+    "735": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_119.json"
+    },
+    "736": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_120.json"
+    },
+    "737": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_121.json"
+    },
+    "738": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_122.json"
+    },
+    "739": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_123.json"
+    },
+    "740": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_124.json"
+    },
+    "741": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_125.json"
+    },
+    "742": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_126.json"
+    },
+    "743": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_127.json"
+    },
+    "744": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_128.json"
+    },
+    "745": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_129.json"
+    },
+    "746": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_130.json"
+    },
+    "747": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_131.json"
+    },
+    "748": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_132.json"
+    },
+    "749": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_133.json"
+    },
+    "750": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_134.json"
+    },
+    "751": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_135.json"
+    },
+    "752": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_136.json"
+    },
+    "753": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_137.json"
+    },
+    "754": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_138.json"
+    },
+    "755": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_139.json"
+    },
+    "756": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_140.json"
+    },
+    "757": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_141.json"
+    },
+    "758": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_142.json"
+    },
+    "759": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_143.json"
+    },
+    "760": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_144.json"
+    },
+    "761": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_145.json"
+    },
+    "762": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_146.json"
+    },
+    "763": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_147.json"
+    },
+    "764": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_148.json"
+    },
+    "765": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_149.json"
+    },
+    "766": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_150.json"
+    },
+    "767": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_151.json"
+    },
+    "768": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_152.json"
+    },
+    "769": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_153.json"
+    },
+    "770": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_154.json"
+    },
+    "771": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_155.json"
+    },
+    "772": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_156.json"
+    },
+    "773": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_157.json"
+    },
+    "774": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_158.json"
+    },
+    "775": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_159.json"
+    },
+    "776": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_160.json"
+    },
+    "777": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_161.json"
+    },
+    "778": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_162.json"
+    },
+    "779": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_163.json"
+    },
+    "780": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_164.json"
+    },
+    "781": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_165.json"
+    },
+    "782": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_166.json"
+    },
+    "783": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_167.json"
+    },
+    "784": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_168.json"
+    },
+    "785": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_169.json"
+    },
+    "786": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_170.json"
+    },
+    "787": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_171.json"
+    },
+    "788": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_172.json"
+    },
+    "789": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_173.json"
+    },
+    "790": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_174.json"
+    },
+    "791": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_175.json"
+    },
+    "792": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_176.json"
+    },
+    "793": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_177.json"
+    },
+    "794": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_178.json"
+    },
+    "795": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_179.json"
+    },
+    "796": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_180.json"
+    },
+    "797": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_181.json"
+    },
+    "798": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_182.json"
+    },
+    "799": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_183.json"
+    },
+    "800": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_184.json"
+    },
+    "801": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_185.json"
+    },
+    "802": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_186.json"
+    },
+    "803": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_187.json"
+    },
+    "804": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_188.json"
+    },
+    "805": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_189.json"
+    },
+    "806": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_190.json"
+    },
+    "807": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_191.json"
+    },
+    "808": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_192.json"
+    },
+    "809": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_193.json"
+    },
+    "810": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_194.json"
+    },
+    "811": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_195.json"
+    },
+    "812": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_196.json"
+    },
+    "813": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_197.json"
+    },
+    "814": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_198.json"
+    },
+    "815": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_199.json"
+    },
+    "816": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_200.json"
+    },
+    "817": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_201.json"
+    },
+    "818": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_202.json"
+    },
+    "819": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_203.json"
+    },
+    "820": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_204.json"
+    },
+    "821": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_205.json"
+    },
+    "822": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_206.json"
+    },
+    "823": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_207.json"
+    },
+    "824": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_208.json"
+    },
+    "825": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_209.json"
+    },
+    "826": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_210.json"
+    },
+    "827": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_211.json"
+    },
+    "828": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_212.json"
+    },
+    "829": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_213.json"
+    },
+    "830": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_214.json"
+    },
+    "831": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_215.json"
+    },
+    "832": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_216.json"
+    },
+    "833": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_217.json"
+    },
+    "834": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_218.json"
+    },
+    "835": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_219.json"
+    },
+    "836": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_220.json"
+    },
+    "837": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_221.json"
+    },
+    "838": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_222.json"
+    },
+    "839": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_223.json"
+    },
+    "840": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_224.json"
+    },
+    "841": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_225.json"
+    },
+    "842": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_226.json"
+    },
+    "843": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_227.json"
+    },
+    "844": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_228.json"
+    },
+    "845": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_229.json"
+    },
+    "846": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_230.json"
+    },
+    "847": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_231.json"
+    },
+    "848": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_232.json"
+    },
+    "849": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_233.json"
+    },
+    "850": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_234.json"
+    },
+    "851": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_235.json"
+    },
+    "852": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_236.json"
+    },
+    "853": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_237.json"
+    },
+    "854": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_238.json"
+    },
+    "855": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_239.json"
+    },
+    "856": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_240.json"
+    },
+    "857": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_241.json"
+    },
+    "858": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_242.json"
+    },
+    "859": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_243.json"
+    },
+    "860": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n2_vocab/n2_vocab_lesson_244.json"
+    },
+    "861": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_1.json"
+    },
+    "862": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_2.json"
+    },
+    "863": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_3.json"
+    },
+    "864": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_4.json"
+    },
+    "865": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_5.json"
+    },
+    "866": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_6.json"
+    },
+    "867": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_7.json"
+    },
+    "868": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_8.json"
+    },
+    "869": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_9.json"
+    },
+    "870": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_10.json"
+    },
+    "871": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_11.json"
+    },
+    "872": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_12.json"
+    },
+    "873": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_13.json"
+    },
+    "874": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_14.json"
+    },
+    "875": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_15.json"
+    },
+    "876": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_16.json"
+    },
+    "877": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_17.json"
+    },
+    "878": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_18.json"
+    },
+    "879": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_19.json"
+    },
+    "880": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_20.json"
+    },
+    "881": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_21.json"
+    },
+    "882": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_22.json"
+    },
+    "883": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_23.json"
+    },
+    "884": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_24.json"
+    },
+    "885": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_25.json"
+    },
+    "886": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_26.json"
+    },
+    "887": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_27.json"
+    },
+    "888": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_28.json"
+    },
+    "889": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_29.json"
+    },
+    "890": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_30.json"
+    },
+    "891": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_31.json"
+    },
+    "892": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_32.json"
+    },
+    "893": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_33.json"
+    },
+    "894": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_34.json"
+    },
+    "895": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_35.json"
+    },
+    "896": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_36.json"
+    },
+    "897": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_37.json"
+    },
+    "898": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_38.json"
+    },
+    "899": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_39.json"
+    },
+    "900": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_40.json"
+    },
+    "901": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_41.json"
+    },
+    "902": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_42.json"
+    },
+    "903": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_43.json"
+    },
+    "904": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_44.json"
+    },
+    "905": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_45.json"
+    },
+    "906": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_46.json"
+    },
+    "907": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_47.json"
+    },
+    "908": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_48.json"
+    },
+    "909": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_49.json"
+    },
+    "910": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_50.json"
+    },
+    "911": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_51.json"
+    },
+    "912": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_52.json"
+    },
+    "913": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_53.json"
+    },
+    "914": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_54.json"
+    },
+    "915": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_55.json"
+    },
+    "916": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_56.json"
+    },
+    "917": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_57.json"
+    },
+    "918": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_58.json"
+    },
+    "919": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_59.json"
+    },
+    "920": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_60.json"
+    },
+    "921": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_61.json"
+    },
+    "922": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_62.json"
+    },
+    "923": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_63.json"
+    },
+    "924": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_64.json"
+    },
+    "925": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_65.json"
+    },
+    "926": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_66.json"
+    },
+    "927": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_67.json"
+    },
+    "928": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_68.json"
+    },
+    "929": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_69.json"
+    },
+    "930": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_70.json"
+    },
+    "931": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_71.json"
+    },
+    "932": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_72.json"
+    },
+    "933": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_73.json"
+    },
+    "934": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_74.json"
+    },
+    "935": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_75.json"
+    },
+    "936": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_76.json"
+    },
+    "937": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_77.json"
+    },
+    "938": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_78.json"
+    },
+    "939": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_79.json"
+    },
+    "940": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_80.json"
+    },
+    "941": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_81.json"
+    },
+    "942": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_82.json"
+    },
+    "943": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_83.json"
+    },
+    "944": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_84.json"
+    },
+    "945": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_85.json"
+    },
+    "946": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_86.json"
+    },
+    "947": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_87.json"
+    },
+    "948": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_88.json"
+    },
+    "949": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_89.json"
+    },
+    "950": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_90.json"
+    },
+    "951": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_91.json"
+    },
+    "952": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_92.json"
+    },
+    "953": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_93.json"
+    },
+    "954": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_94.json"
+    },
+    "955": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_95.json"
+    },
+    "956": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_96.json"
+    },
+    "957": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_97.json"
+    },
+    "958": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_98.json"
+    },
+    "959": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_99.json"
+    },
+    "960": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_100.json"
+    },
+    "961": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_101.json"
+    },
+    "962": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_102.json"
+    },
+    "963": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_103.json"
+    },
+    "964": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_104.json"
+    },
+    "965": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_105.json"
+    },
+    "966": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_106.json"
+    },
+    "967": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_107.json"
+    },
+    "968": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_108.json"
+    },
+    "969": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_109.json"
+    },
+    "970": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_110.json"
+    },
+    "971": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_111.json"
+    },
+    "972": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_112.json"
+    },
+    "973": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_113.json"
+    },
+    "974": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_114.json"
+    },
+    "975": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_115.json"
+    },
+    "976": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_116.json"
+    },
+    "977": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_117.json"
+    },
+    "978": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_118.json"
+    },
+    "979": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_119.json"
+    },
+    "980": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_120.json"
+    },
+    "981": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_121.json"
+    },
+    "982": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_122.json"
+    },
+    "983": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_123.json"
+    },
+    "984": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_124.json"
+    },
+    "985": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_125.json"
+    },
+    "986": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_126.json"
+    },
+    "987": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_127.json"
+    },
+    "988": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_128.json"
+    },
+    "989": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_129.json"
+    },
+    "990": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_130.json"
+    },
+    "991": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_131.json"
+    },
+    "992": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_132.json"
+    },
+    "993": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_133.json"
+    },
+    "994": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_134.json"
+    },
+    "995": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_135.json"
+    },
+    "996": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_136.json"
+    },
+    "997": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_137.json"
+    },
+    "998": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_138.json"
+    },
+    "999": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_139.json"
+    },
+    "1000": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_140.json"
+    },
+    "1001": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_141.json"
+    },
+    "1002": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_142.json"
+    },
+    "1003": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_143.json"
+    },
+    "1004": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_144.json"
+    },
+    "1005": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_145.json"
+    },
+    "1006": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_146.json"
+    },
+    "1007": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_147.json"
+    },
+    "1008": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_148.json"
+    },
+    "1009": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_149.json"
+    },
+    "1010": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_150.json"
+    },
+    "1011": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_151.json"
+    },
+    "1012": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_152.json"
+    },
+    "1013": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_153.json"
+    },
+    "1014": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_154.json"
+    },
+    "1015": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_155.json"
+    },
+    "1016": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_156.json"
+    },
+    "1017": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_157.json"
+    },
+    "1018": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_158.json"
+    },
+    "1019": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_159.json"
+    },
+    "1020": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_160.json"
+    },
+    "1021": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_161.json"
+    },
+    "1022": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_162.json"
+    },
+    "1023": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_163.json"
+    },
+    "1024": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_164.json"
+    },
+    "1025": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_165.json"
+    },
+    "1026": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_166.json"
+    },
+    "1027": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_167.json"
+    },
+    "1028": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_168.json"
+    },
+    "1029": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_169.json"
+    },
+    "1030": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_170.json"
+    },
+    "1031": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_171.json"
+    },
+    "1032": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_172.json"
+    },
+    "1033": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_173.json"
+    },
+    "1034": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_174.json"
+    },
+    "1035": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_175.json"
+    },
+    "1036": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_176.json"
+    },
+    "1037": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_177.json"
+    },
+    "1038": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_178.json"
+    },
+    "1039": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_179.json"
+    },
+    "1040": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_180.json"
+    },
+    "1041": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_181.json"
+    },
+    "1042": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_182.json"
+    },
+    "1043": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_183.json"
+    },
+    "1044": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_184.json"
+    },
+    "1045": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_185.json"
+    },
+    "1046": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_186.json"
+    },
+    "1047": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_187.json"
+    },
+    "1048": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_188.json"
+    },
+    "1049": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_189.json"
+    },
+    "1050": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_190.json"
+    },
+    "1051": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_191.json"
+    },
+    "1052": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_192.json"
+    },
+    "1053": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_193.json"
+    },
+    "1054": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_194.json"
+    },
+    "1055": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_195.json"
+    },
+    "1056": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_196.json"
+    },
+    "1057": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_197.json"
+    },
+    "1058": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_198.json"
+    },
+    "1059": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_199.json"
+    },
+    "1060": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_200.json"
+    },
+    "1061": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_201.json"
+    },
+    "1062": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_202.json"
+    },
+    "1063": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_203.json"
+    },
+    "1064": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_204.json"
+    },
+    "1065": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_205.json"
+    },
+    "1066": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_206.json"
+    },
+    "1067": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_207.json"
+    },
+    "1068": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_208.json"
+    },
+    "1069": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_209.json"
+    },
+    "1070": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_210.json"
+    },
+    "1071": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_211.json"
+    },
+    "1072": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_212.json"
+    },
+    "1073": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_213.json"
+    },
+    "1074": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_214.json"
+    },
+    "1075": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_215.json"
+    },
+    "1076": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_216.json"
+    },
+    "1077": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_217.json"
+    },
+    "1078": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_218.json"
+    },
+    "1079": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_219.json"
+    },
+    "1080": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_220.json"
+    },
+    "1081": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_221.json"
+    },
+    "1082": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_222.json"
+    },
+    "1083": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_223.json"
+    },
+    "1084": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_224.json"
+    },
+    "1085": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_225.json"
+    },
+    "1086": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_226.json"
+    },
+    "1087": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_227.json"
+    },
+    "1088": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_228.json"
+    },
+    "1089": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_229.json"
+    },
+    "1090": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_230.json"
+    },
+    "1091": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_231.json"
+    },
+    "1092": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_232.json"
+    },
+    "1093": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_233.json"
+    },
+    "1094": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_234.json"
+    },
+    "1095": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_235.json"
+    },
+    "1096": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_236.json"
+    },
+    "1097": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_237.json"
+    },
+    "1098": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_238.json"
+    },
+    "1099": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_239.json"
+    },
+    "1100": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_240.json"
+    },
+    "1101": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_241.json"
+    },
+    "1102": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_242.json"
+    },
+    "1103": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_243.json"
+    },
+    "1104": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_244.json"
+    },
+    "1105": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_245.json"
+    },
+    "1106": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_246.json"
+    },
+    "1107": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_247.json"
+    },
+    "1108": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_248.json"
+    },
+    "1109": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_249.json"
+    },
+    "1110": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_250.json"
+    },
+    "1111": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_251.json"
+    },
+    "1112": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_252.json"
+    },
+    "1113": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_253.json"
+    },
+    "1114": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_254.json"
+    },
+    "1115": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_255.json"
+    },
+    "1116": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_256.json"
+    },
+    "1117": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_257.json"
+    },
+    "1118": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_258.json"
+    },
+    "1119": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_259.json"
+    },
+    "1120": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_260.json"
+    },
+    "1121": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_261.json"
+    },
+    "1122": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_262.json"
+    },
+    "1123": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_263.json"
+    },
+    "1124": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_264.json"
+    },
+    "1125": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_265.json"
+    },
+    "1126": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_266.json"
+    },
+    "1127": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_267.json"
+    },
+    "1128": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_268.json"
+    },
+    "1129": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_269.json"
+    },
+    "1130": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_270.json"
+    },
+    "1131": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_271.json"
+    },
+    "1132": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_272.json"
+    },
+    "1133": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_273.json"
+    },
+    "1134": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_274.json"
+    },
+    "1135": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_275.json"
+    },
+    "1136": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_276.json"
+    },
+    "1137": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_277.json"
+    },
+    "1138": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_278.json"
+    },
+    "1139": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_279.json"
+    },
+    "1140": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_280.json"
+    },
+    "1141": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_281.json"
+    },
+    "1142": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_282.json"
+    },
+    "1143": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_283.json"
+    },
+    "1144": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_284.json"
+    },
+    "1145": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_285.json"
+    },
+    "1146": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_286.json"
+    },
+    "1147": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_287.json"
+    },
+    "1148": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_288.json"
+    },
+    "1149": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_289.json"
+    },
+    "1150": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_290.json"
+    },
+    "1151": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_291.json"
+    },
+    "1152": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_292.json"
+    },
+    "1153": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_293.json"
+    },
+    "1154": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_294.json"
+    },
+    "1155": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_295.json"
+    },
+    "1156": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_296.json"
+    },
+    "1157": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_297.json"
+    },
+    "1158": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_298.json"
+    },
+    "1159": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_299.json"
+    },
+    "1160": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_300.json"
+    },
+    "1161": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_301.json"
+    },
+    "1162": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_302.json"
+    },
+    "1163": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_303.json"
+    },
+    "1164": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_304.json"
+    },
+    "1165": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_305.json"
+    },
+    "1166": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_306.json"
+    },
+    "1167": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_307.json"
+    },
+    "1168": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_308.json"
+    },
+    "1169": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_309.json"
+    },
+    "1170": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_310.json"
+    },
+    "1171": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_311.json"
+    },
+    "1172": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_312.json"
+    },
+    "1173": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_313.json"
+    },
+    "1174": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_314.json"
+    },
+    "1175": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_315.json"
+    },
+    "1176": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_316.json"
+    },
+    "1177": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_317.json"
+    },
+    "1178": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_318.json"
+    },
+    "1179": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_319.json"
+    },
+    "1180": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_320.json"
+    },
+    "1181": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_321.json"
+    },
+    "1182": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_322.json"
+    },
+    "1183": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_323.json"
+    },
+    "1184": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_324.json"
+    },
+    "1185": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_325.json"
+    },
+    "1186": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_326.json"
+    },
+    "1187": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_327.json"
+    },
+    "1188": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_328.json"
+    },
+    "1189": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_329.json"
+    },
+    "1190": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_330.json"
+    },
+    "1191": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_331.json"
+    },
+    "1192": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_332.json"
+    },
+    "1193": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_333.json"
+    },
+    "1194": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_334.json"
+    },
+    "1195": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_335.json"
+    },
+    "1196": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_336.json"
+    },
+    "1197": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_337.json"
+    },
+    "1198": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_338.json"
+    },
+    "1199": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_339.json"
+    },
+    "1200": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_340.json"
+    },
+    "1201": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_341.json"
+    },
+    "1202": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_342.json"
+    },
+    "1203": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_343.json"
+    },
+    "1204": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_344.json"
+    },
+    "1205": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_345.json"
+    },
+    "1206": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_346.json"
+    },
+    "1207": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_347.json"
+    },
+    "1208": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_348.json"
+    },
+    "1209": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_349.json"
+    },
+    "1210": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_350.json"
+    },
+    "1211": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_351.json"
+    },
+    "1212": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_352.json"
+    },
+    "1213": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_353.json"
+    },
+    "1214": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_354.json"
+    },
+    "1215": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_355.json"
+    },
+    "1216": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_356.json"
+    },
+    "1217": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_357.json"
+    },
+    "1218": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_358.json"
+    },
+    "1219": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_359.json"
+    },
+    "1220": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_360.json"
+    },
+    "1221": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_361.json"
+    },
+    "1222": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_362.json"
+    },
+    "1223": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_363.json"
+    },
+    "1224": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_364.json"
+    },
+    "1225": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_365.json"
+    },
+    "1226": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_366.json"
+    },
+    "1227": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_367.json"
+    },
+    "1228": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_368.json"
+    },
+    "1229": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_369.json"
+    },
+    "1230": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_370.json"
+    },
+    "1231": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_371.json"
+    },
+    "1232": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_372.json"
+    },
+    "1233": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_373.json"
+    },
+    "1234": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_374.json"
+    },
+    "1235": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_375.json"
+    },
+    "1236": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_376.json"
+    },
+    "1237": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_377.json"
+    },
+    "1238": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_378.json"
+    },
+    "1239": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_379.json"
+    },
+    "1240": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_380.json"
+    },
+    "1241": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_381.json"
+    },
+    "1242": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_382.json"
+    },
+    "1243": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_383.json"
+    },
+    "1244": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_384.json"
+    },
+    "1245": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_385.json"
+    },
+    "1246": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_386.json"
+    },
+    "1247": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_387.json"
+    },
+    "1248": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_388.json"
+    },
+    "1249": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_389.json"
+    },
+    "1250": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_390.json"
+    },
+    "1251": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_391.json"
+    },
+    "1252": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_392.json"
+    },
+    "1253": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_393.json"
+    },
+    "1254": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_394.json"
+    },
+    "1255": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_395.json"
+    },
+    "1256": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_396.json"
+    },
+    "1257": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_397.json"
+    },
+    "1258": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_398.json"
+    },
+    "1259": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_399.json"
+    },
+    "1260": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_400.json"
+    },
+    "1261": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_401.json"
+    },
+    "1262": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_402.json"
+    },
+    "1263": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_403.json"
+    },
+    "1264": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_404.json"
+    },
+    "1265": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_405.json"
+    },
+    "1266": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_406.json"
+    },
+    "1267": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_407.json"
+    },
+    "1268": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_408.json"
+    },
+    "1269": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_409.json"
+    },
+    "1270": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_410.json"
+    },
+    "1271": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_411.json"
+    },
+    "1272": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_412.json"
+    },
+    "1273": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_413.json"
+    },
+    "1274": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_414.json"
+    },
+    "1275": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_415.json"
+    },
+    "1276": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_416.json"
+    },
+    "1277": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_417.json"
+    },
+    "1278": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_418.json"
+    },
+    "1279": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_419.json"
+    },
+    "1280": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_420.json"
+    },
+    "1281": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_421.json"
+    },
+    "1282": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_422.json"
+    },
+    "1283": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_423.json"
+    },
+    "1284": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_424.json"
+    },
+    "1285": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_425.json"
+    },
+    "1286": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_426.json"
+    },
+    "1287": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_427.json"
+    },
+    "1288": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_428.json"
+    },
+    "1289": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_429.json"
+    },
+    "1290": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_430.json"
+    },
+    "1291": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_431.json"
+    },
+    "1292": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_432.json"
+    },
+    "1293": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_433.json"
+    },
+    "1294": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_434.json"
+    },
+    "1295": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_435.json"
+    },
+    "1296": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_436.json"
+    },
+    "1297": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_437.json"
+    },
+    "1298": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_438.json"
+    },
+    "1299": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_439.json"
+    },
+    "1300": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_440.json"
+    },
+    "1301": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_441.json"
+    },
+    "1302": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_442.json"
+    },
+    "1303": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_443.json"
+    },
+    "1304": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_444.json"
+    },
+    "1305": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_445.json"
+    },
+    "1306": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/n1_vocab/n1_vocab_lesson_446.json"
+    },
+    "1307": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_1.json"
+    },
+    "1308": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_2.json"
+    },
+    "1309": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_3.json"
+    },
+    "1310": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_4.json"
+    },
+    "1311": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_5.json"
+    },
+    "1312": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_6.json"
+    },
+    "1313": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_7.json"
+    },
+    "1314": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_8.json"
+    },
+    "1315": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_9.json"
+    },
+    "1316": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_10.json"
+    },
+    "1317": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_11.json"
+    },
+    "1318": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_12.json"
+    },
+    "1319": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_13.json"
+    },
+    "1320": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_14.json"
+    },
+    "1321": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_15.json"
+    },
+    "1322": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_16.json"
+    },
+    "1323": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_17.json"
+    },
+    "1324": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_18.json"
+    },
+    "1325": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_19.json"
+    },
+    "1326": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_20.json"
+    },
+    "1327": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_21.json"
+    },
+    "1328": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_22.json"
+    },
+    "1329": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_23.json"
+    },
+    "1330": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_24.json"
+    },
+    "1331": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_25.json"
+    },
+    "1332": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_26.json"
+    },
+    "1333": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_27.json"
+    },
+    "1334": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_28.json"
+    },
+    "1335": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_29.json"
+    },
+    "1336": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_30.json"
+    },
+    "1337": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_31.json"
+    },
+    "1338": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_32.json"
+    },
+    "1339": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_33.json"
+    },
+    "1340": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_34.json"
+    },
+    "1341": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_35.json"
+    },
+    "1342": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_36.json"
+    },
+    "1343": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_37.json"
+    },
+    "1344": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_38.json"
+    },
+    "1345": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_39.json"
+    },
+    "1346": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_40.json"
+    },
+    "1347": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_41.json"
+    },
+    "1348": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_42.json"
+    },
+    "1349": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_43.json"
+    },
+    "1350": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_44.json"
+    },
+    "1351": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_45.json"
+    },
+    "1352": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_46.json"
+    },
+    "1353": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_47.json"
+    },
+    "1354": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_48.json"
+    },
+    "1355": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_49.json"
+    },
+    "1356": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_50.json"
+    },
+    "1357": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_51.json"
+    },
+    "1358": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_52.json"
+    },
+    "1359": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_53.json"
+    },
+    "1360": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_54.json"
+    },
+    "1361": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_55.json"
+    },
+    "1362": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_56.json"
+    },
+    "1363": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_57.json"
+    },
+    "1364": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_58.json"
+    },
+    "1365": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_59.json"
+    },
+    "1366": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_60.json"
+    },
+    "1367": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_61.json"
+    },
+    "1368": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_62.json"
+    },
+    "1369": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_63.json"
+    },
+    "1370": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_64.json"
+    },
+    "1371": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_65.json"
+    },
+    "1372": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_66.json"
+    },
+    "1373": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_67.json"
+    },
+    "1374": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_68.json"
+    },
+    "1375": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_69.json"
+    },
+    "1376": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_70.json"
+    },
+    "1377": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_71.json"
+    },
+    "1378": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_72.json"
+    },
+    "1379": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_73.json"
+    },
+    "1380": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_74.json"
+    },
+    "1381": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_75.json"
+    },
+    "1382": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_76.json"
+    },
+    "1383": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_77.json"
+    },
+    "1384": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_78.json"
+    },
+    "1385": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_79.json"
+    },
+    "1386": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_80.json"
+    },
+    "1387": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_81.json"
+    },
+    "1388": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_82.json"
+    },
+    "1389": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_83.json"
+    },
+    "1390": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_84.json"
+    },
+    "1391": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_85.json"
+    },
+    "1392": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_86.json"
+    },
+    "1393": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_87.json"
+    },
+    "1394": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_88.json"
+    },
+    "1395": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_89.json"
+    },
+    "1396": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_90.json"
+    },
+    "1397": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_91.json"
+    },
+    "1398": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_92.json"
+    },
+    "1399": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_93.json"
+    },
+    "1400": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_94.json"
+    },
+    "1401": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_95.json"
+    },
+    "1402": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_96.json"
+    },
+    "1403": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_97.json"
+    },
+    "1404": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_98.json"
+    },
+    "1405": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_99.json"
+    },
+    "1406": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_100.json"
+    },
+    "1407": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_101.json"
+    },
+    "1408": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_102.json"
+    },
+    "1409": {
+      "vocab": "dictionary/lessons/spoonfed_japanese/jlpt_kana_vocab_lesson_103.json"
+    }
+  }
+}

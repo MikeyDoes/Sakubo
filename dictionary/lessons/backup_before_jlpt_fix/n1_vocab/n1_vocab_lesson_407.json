@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1267: 無効, 無言, 毟る...",
+  "lesson_number": 1267,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 107991,
+      "kanji": "無効",
+      "kana": "むこう",
+      "gloss": "invalid; void; ineffective; unavailable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107984,
+      "kanji": "無言",
+      "kana": "むごん",
+      "gloss": "silence (not speaking); muteness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 113304,
+      "kanji": "毟る",
+      "kana": "むしる",
+      "gloss": "to pluck; to pick; to tear",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108010,
+      "kanji": "無邪気",
+      "kana": "むじゃき",
+      "gloss": "innocent; simple-minded",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71573,
+      "kanji": "結び",
+      "kana": "むすび",
+      "gloss": "ending; conclusion; join; union; connecting; knot; knotting; rice ball",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71577,
+      "kanji": "結び付き",
+      "kana": "むすびつき",
+      "gloss": "connection; relation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71579,
+      "kanji": "結び付く",
+      "kana": "むすびつく",
+      "gloss": "to be related; to be connected; to be joined together; to result in; to lead to; to bring about",
+      "card_type": "vocab"
+    }
+  ]
+}

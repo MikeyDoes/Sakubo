@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 595: 面, 綿, 綿...",
+  "lesson_number": 595,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 209048,
+      "kanji": "面",
+      "kana": "づら",
+      "gloss": "looking like a ...; acting as if a ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108419,
+      "kanji": "綿",
+      "kana": "めん",
+      "gloss": "cotton",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108422,
+      "kanji": "綿",
+      "kana": "わた",
+      "gloss": "cotton plant (Gossypium spp.); batting; wadding; padding",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108399,
+      "kanji": "免許",
+      "kana": "めんきょ",
+      "gloss": "license; permit; licence; certificate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108450,
+      "kanji": "面倒",
+      "kana": "めんどう",
+      "gloss": "trouble; bother; difficulty; care; attention",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85872,
+      "kanji": "申し込む",
+      "kana": "もうしこむ",
+      "gloss": "to apply for; to make an application; to propose (marriage); to offer (mediation); to make an overture (of peace); to challenge; to lodge (objections); to request (an interview); to subscribe for; to book; to reserve",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85904,
+      "kanji": "申し訳",
+      "kana": "もうしわけ",
+      "gloss": "apology; excuse",
+      "card_type": "vocab"
+    }
+  ]
+}

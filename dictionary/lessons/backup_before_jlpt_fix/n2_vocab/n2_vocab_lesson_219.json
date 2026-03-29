@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 835: 見舞う, 未満, 名字...",
+  "lesson_number": 835,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 72272,
+      "kanji": "見舞う",
+      "kana": "みまう",
+      "gloss": "to ask after (someone's health); to visit; to attack; to strike; to meet with misfortune; to suffer an attack",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107757,
+      "kanji": "未満",
+      "kana": "みまん",
+      "gloss": "less than; under; below",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123317,
+      "kanji": "名字",
+      "kana": "みょうじ",
+      "gloss": "surname; family name",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86269,
+      "kanji": "診る",
+      "kana": "みる",
+      "gloss": "to examine (medically)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107828,
+      "kanji": "民間",
+      "kana": "みんかん",
+      "gloss": "private; non-governmental; non-official; civilian; civil; folk; popular",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107892,
+      "kanji": "民謡",
+      "kana": "みんよう",
+      "gloss": "folk song; popular song",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123333,
+      "kanji": "向う",
+      "kana": "むかう",
+      "gloss": "to face; to go towards; to head towards",
+      "card_type": "vocab"
+    }
+  ]
+}

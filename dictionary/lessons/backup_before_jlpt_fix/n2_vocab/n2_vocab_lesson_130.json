@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 746: 剃る, 逸れる, 逸れる...",
+  "lesson_number": 746,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 116642,
+      "kanji": "剃る",
+      "kana": "そる",
+      "gloss": "to shave",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114938,
+      "kanji": "逸れる",
+      "kana": "それる",
+      "gloss": "to turn away; to bear off; to veer away; to swerve from; to miss (e.g. a target); to deviate (e.g. of a conversation); to digress; to go astray; to wander",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 279585,
+      "kanji": "逸れる",
+      "kana": "はぐれる",
+      "gloss": "to lose sight of (one's companions); to stray from; to miss (one's chance to ...)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91807,
+      "kanji": "揃う",
+      "kana": "そろう",
+      "gloss": "to be complete; to be all present; to make a full set; to be satisfied (of conditions); to be equal; to be uniform; to be even; to match; to agree; to gather; to assemble; to be collected",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91808,
+      "kanji": "揃える",
+      "kana": "そろえる",
+      "gloss": "to collect; to gather; to get together; to complete (a collection); to arrange; to put in order; to prepare; to get ready; to make uniform; to make even; to match",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120908,
+      "kanji": "算盤",
+      "kana": "そろばん",
+      "gloss": "abacus",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91810,
+      "kanji": "存じる",
+      "kana": "ぞんじる",
+      "gloss": "to think, feel, consider, know, etc.",
+      "card_type": "vocab"
+    }
+  ]
+}

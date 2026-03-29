@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 502: 台, 題, 体育...",
+  "lesson_number": 502,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 271989,
+      "kanji": "台",
+      "kana": "たい",
+      "gloss": "Taiwan",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93009,
+      "kanji": "題",
+      "kana": "だい",
+      "gloss": "title; subject; theme; topic; problem (on a test); question; counter for questions (on a test)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92217,
+      "kanji": "体育",
+      "kana": "たいいく",
+      "gloss": "physical education; PE; gym (class)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92224,
+      "kanji": "体温",
+      "kana": "たいおん",
+      "gloss": "temperature; body temperature (human, animal)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92734,
+      "kanji": "大会",
+      "kana": "たいかい",
+      "gloss": "mass meeting; convention; rally; conference; assembly; gathering; tournament; competition; contest; meet; grand event",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92752,
+      "kanji": "大気",
+      "kana": "たいき",
+      "gloss": "atmosphere; air; magnanimity; generosity",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92557,
+      "kanji": "代金",
+      "kana": "だいきん",
+      "gloss": "price; cost; charge; payment; bill; fee",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 124: お母さん, お菓子, お金...",
+  "lesson_number": 124,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 36696,
+      "kanji": "お母さん",
+      "kana": "おかあさん",
+      "gloss": "mother; mom; mum; ma; wife",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36441,
+      "kanji": "お菓子",
+      "kana": "おかし",
+      "gloss": "confections; sweets; candy; cake",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36467,
+      "kanji": "お金",
+      "kana": "おかね",
+      "gloss": "money",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67587,
+      "kanji": "起きる",
+      "kana": "おきる",
+      "gloss": "to get up; to rise; to blaze up (fire); to wake up; to be awake; to stay awake; to occur (usu. of unfavourable incidents); to happen; to take place",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93870,
+      "kanji": "置く",
+      "kana": "おく",
+      "gloss": "to put; to place; to leave (behind); to establish (an organization, a facility, a position, etc.); to set up; to appoint (someone to a certain position); to hire; to employ; to place (one's trust, one's faith, etc.); to bear (in mind, etc.); to put down a tool (e.g. a pen) hence stopping what one is doing with that tool; to take in (boarders, etc.); to provide lodging in one's house; to separate spatially or temporally; to do something in advance; to leave something in a certain state; to keep something in a certain state",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61739,
+      "kanji": "奥さん",
+      "kana": "おくさん",
+      "gloss": "wife; your wife; his wife; married lady; madam",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81444,
+      "kanji": "お酒",
+      "kana": "おさけ",
+      "gloss": "alcohol; sake",
+      "card_type": "vocab"
+    }
+  ]
+}

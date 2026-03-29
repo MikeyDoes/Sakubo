@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1296: 流, 流, 流...",
+  "lesson_number": 1296,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 111009,
+      "kanji": "流",
+      "kana": "りゅう",
+      "gloss": "fashion; way; style; manner; school (of thought); class; rank; rate; current (electrical, water, etc.); flow; stream",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 206342,
+      "kanji": "流",
+      "kana": "る",
+      "gloss": "exile",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 308431,
+      "kanji": "流",
+      "kana": "りゅう",
+      "gloss": "counter for flags, banners, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111050,
+      "kanji": "流通",
+      "kana": "りゅうつう",
+      "gloss": "circulation (money, goods, etc.); distribution; circulation (air, water, etc.); ventilation; flow; negotiable (e.g. shares); distributional; circulating",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111168,
+      "kanji": "了",
+      "kana": "りょう",
+      "gloss": "finish; completion; the end",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 240412,
+      "kanji": "了",
+      "kana": "りょう",
+      "gloss": "fact; truth; understanding; consideration",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111278,
+      "kanji": "料",
+      "kana": "りょう",
+      "gloss": "fee; charge; rate; material",
+      "card_type": "vocab"
+    }
+  ]
+}

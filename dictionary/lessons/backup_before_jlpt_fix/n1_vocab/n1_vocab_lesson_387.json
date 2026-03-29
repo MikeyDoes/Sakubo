@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1247: 本質, 本体, 本音...",
+  "lesson_number": 1247,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 107092,
+      "kanji": "本質",
+      "kana": "ほんしつ",
+      "gloss": "essence; true nature; substance; reality",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107126,
+      "kanji": "本体",
+      "kana": "ほんたい",
+      "gloss": "substance; real form; main part; main unit; body (of a machine); this machine; this appliance; object of worship (at a shrine, temple, etc.); noumenon; base price; pre-tax price",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107051,
+      "kanji": "本音",
+      "kana": "ほんね",
+      "gloss": "real intention; motive; true opinion; what one really thinks",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 38287,
+      "kanji": "本の",
+      "kana": "ほんの",
+      "gloss": "mere; only; just; slight",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107153,
+      "kanji": "本能",
+      "kana": "ほんのう",
+      "gloss": "instinct",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107100,
+      "kanji": "本場",
+      "kana": "ほんば",
+      "gloss": "home (of something); place famous for its ...; center (e.g. of manufacture); best place (for); place of origin; birthplace; cradle; morning session; last session in the morning",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117301,
+      "kanji": "本文",
+      "kana": "ほんぶん",
+      "gloss": "text (of a book, document, etc.); body (of a letter); this passage; this sentence",
+      "card_type": "vocab"
+    }
+  ]
+}

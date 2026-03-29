@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1234: 文語, 分散, 分子...",
+  "lesson_number": 1234,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 104916,
+      "kanji": "文語",
+      "kana": "ぶんご",
+      "gloss": "written language; literary language; classical (or formal) written style based on Heian-period Japanese",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104691,
+      "kanji": "分散",
+      "kana": "ぶんさん",
+      "gloss": "dispersion; breakup; scattering; decentralization; decentralisation; distribution; variance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104696,
+      "kanji": "分子",
+      "kana": "ぶんし",
+      "gloss": "numerator; molecule; member; element",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117201,
+      "kanji": "文書",
+      "kana": "ぶんしょ",
+      "gloss": "document; writing; letter; papers; notes; records; archives; document addressed to someone",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104729,
+      "kanji": "分担",
+      "kana": "ぶんたん",
+      "gloss": "taking on one's share (e.g. of work); dividing (work, expenses, etc.) between; apportionment; allotment; allocation; assignment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104745,
+      "kanji": "分配",
+      "kana": "ぶんぱい",
+      "gloss": "division; splitting; sharing; distribution; dissemination; allocation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104769,
+      "kanji": "分母",
+      "kana": "ぶんぼ",
+      "gloss": "denominator",
+      "card_type": "vocab"
+    }
+  ]
+}

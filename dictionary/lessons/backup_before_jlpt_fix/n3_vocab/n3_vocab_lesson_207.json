@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 556: 畑, 二十, 二十...",
+  "lesson_number": 556,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 101156,
+      "kanji": "畑",
+      "kana": "はたけ",
+      "gloss": "field (for fruits, vegetables, etc.); cultivated land; vegetable plot; kitchen garden; plantation; field (of specialization); sphere; area; womb; birth; birthplace",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99175,
+      "kanji": "二十",
+      "kana": "にじゅう",
+      "gloss": "twenty; 20",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122118,
+      "kanji": "二十",
+      "kana": "はたち",
+      "gloss": "20 years old; twenty",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97737,
+      "kanji": "働き",
+      "kana": "はたらき",
+      "gloss": "work; labor; labour; achievement; performance; ability; talent; salary; income; earnings; action; activity; workings; function; operation; movement; motion; conjugation; inflection",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101272,
+      "kanji": "発見",
+      "kana": "はっけん",
+      "gloss": "discovery; detection; finding",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101283,
+      "kanji": "発行",
+      "kana": "はっこう",
+      "gloss": "publication; issue (of journal, newspaper, etc.); issue (of banknotes, bonds, passport, etc.); raising an event (software)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101296,
+      "kanji": "発車",
+      "kana": "はっしゃ",
+      "gloss": "departure (of a train, car, etc.); starting; leaving",
+      "card_type": "vocab"
+    }
+  ]
+}

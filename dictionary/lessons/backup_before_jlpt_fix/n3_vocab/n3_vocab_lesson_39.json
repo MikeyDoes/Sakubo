@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 388: 解釈, 外出, 改善...",
+  "lesson_number": 388,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 64314,
+      "kanji": "解釈",
+      "kana": "かいしゃく",
+      "gloss": "explanation; interpretation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64938,
+      "kanji": "外出",
+      "kana": "がいしゅつ",
+      "gloss": "going out; outing; leaving (one's home, office, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64563,
+      "kanji": "改善",
+      "kana": "かいぜん",
+      "gloss": "betterment; improvement; kaizen (Japanese business philosophy of continuous improvement)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64457,
+      "kanji": "快適",
+      "kana": "かいてき",
+      "gloss": "pleasant; agreeable; comfortable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64402,
+      "kanji": "回復",
+      "kana": "かいふく",
+      "gloss": "restoration; rehabilitation; recovery; return; replevin; improvement; recovery (from an illness); recuperation; convalescence",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79283,
+      "kanji": "飼う",
+      "kana": "かう",
+      "gloss": "to keep (a pet or other animal); to have; to own; to raise; to rear; to feed",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118920,
+      "kanji": "替える",
+      "kana": "かえる",
+      "gloss": "to replace; to exchange; to interchange; to substitute",
+      "card_type": "vocab"
+    }
+  ]
+}

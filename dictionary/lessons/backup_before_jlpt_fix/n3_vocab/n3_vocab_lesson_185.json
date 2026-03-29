@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 534: 得意, 読書, 独身...",
+  "lesson_number": 534,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 98138,
+      "kanji": "得意",
+      "kana": "とくい",
+      "gloss": "triumph; prosperity; pride; one's strong point; one's forte; one's specialty; frequent customer (client, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98370,
+      "kanji": "読書",
+      "kana": "どくしょ",
+      "gloss": "reading (books)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98300,
+      "kanji": "独身",
+      "kana": "どくしん",
+      "gloss": "bachelorhood; single; unmarried; celibate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98211,
+      "kanji": "特徴",
+      "kana": "とくちょう",
+      "gloss": "feature; trait; characteristic; peculiarity; distinction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98315,
+      "kanji": "独特",
+      "kana": "どくとく",
+      "gloss": "peculiarity; uniqueness; characteristic; understood only by oneself",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98319,
+      "kanji": "独立",
+      "kana": "どくりつ",
+      "gloss": "independence; self-reliance; supporting oneself; being on one's own; independence (e.g. of a nation); freedom; separation; isolation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64304,
+      "kanji": "解ける",
+      "kana": "とける",
+      "gloss": "to be solved; to be resolved; to loosen; to come untied; to come undone; to be removed (of restrictions); to be lifted (e.g. a ban); to be broken (spells, curses, etc.); to dissipate (of anger, tension, etc.); to melt away; to ease; to be appeased; to be resolved (of a dispute, misunderstanding, etc.); to be cleared up",
+      "card_type": "vocab"
+    }
+  ]
+}

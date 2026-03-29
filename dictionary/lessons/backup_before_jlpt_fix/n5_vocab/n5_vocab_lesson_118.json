@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 218: 門, 問題, 八百屋...",
+  "lesson_number": 218,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 117425,
+      "kanji": "門",
+      "kana": "もん",
+      "gloss": "gate; branch of learning based on the teachings of a single master; division; phylum; counter for cannons",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108880,
+      "kanji": "問題",
+      "kana": "もんだい",
+      "gloss": "question (e.g. on a test); problem; problem (e.g. societal, political); question; issue; subject (e.g. of research); case; matter; question (i.e. doubt); public discussion; controversy; trouble; inconvenience; difficulty",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101223,
+      "kanji": "八百屋",
+      "kana": "やおや",
+      "gloss": "greengrocer; fruit and vegetable shop",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109045,
+      "kanji": "野菜",
+      "kana": "やさい",
+      "gloss": "vegetable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58694,
+      "kanji": "易しい",
+      "kana": "やさしい",
+      "gloss": "easy; plain; simple",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58256,
+      "kanji": "安い",
+      "kana": "やすい",
+      "gloss": "cheap; inexpensive; calm; peaceful; quiet",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68132,
+      "kanji": "休み",
+      "kana": "やすみ",
+      "gloss": "rest; recess; respite; vacation; holiday; absence; suspension; dormancy (of a silkworm prior to moulting)",
+      "card_type": "vocab"
+    }
+  ]
+}

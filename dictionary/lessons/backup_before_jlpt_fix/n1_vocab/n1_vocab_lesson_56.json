@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 916: 織, 檻, 折り返す...",
+  "lesson_number": 916,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 163090,
+      "kanji": "織",
+      "kana": "おり",
+      "gloss": "weave; weaving; woven item",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 113282,
+      "kanji": "檻",
+      "kana": "おり",
+      "gloss": "cage; pen; (jail) cell",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89040,
+      "kanji": "折り返す",
+      "kana": "おりかえす",
+      "gloss": "to turn up (hem, sleeves, etc.); to fold back (e.g. page); to turn back; to double back; to return; to loopback (a signal, message, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85158,
+      "kanji": "織物",
+      "kana": "おりもの",
+      "gloss": "textile; fabric",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85152,
+      "kanji": "織る",
+      "kana": "おる",
+      "gloss": "to weave",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115091,
+      "kanji": "俺",
+      "kana": "おれ",
+      "gloss": "I; me",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70302,
+      "kanji": "愚か",
+      "kana": "おろか",
+      "gloss": "foolish; stupid",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 103: 朝, 朝, 朝ご飯...",
+  "lesson_number": 103,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 94674,
+      "kanji": "朝",
+      "kana": "あさ",
+      "gloss": "morning; breakfast; next morning",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94678,
+      "kanji": "朝",
+      "kana": "ちょう",
+      "gloss": "dynasty; reign; period; epoch; age; court; North Korea",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117893,
+      "kanji": "朝ご飯",
+      "kana": "あさごはん",
+      "gloss": "breakfast",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117382,
+      "kanji": "明後日",
+      "kana": "あさって",
+      "gloss": "day after tomorrow",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91610,
+      "kanji": "足",
+      "kana": "あし",
+      "gloss": "foot; paw; arm (of an octopus, squid, etc.); leg; gait; pace; bottom structural component (i.e. radical) of a kanji; means of transportation; money; coin",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 226483,
+      "kanji": "足",
+      "kana": "そく",
+      "gloss": "counter for pairs of socks, shoes, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117385,
+      "kanji": "明日",
+      "kana": "あした",
+      "gloss": "tomorrow; near future",
+      "card_type": "vocab"
+    }
+  ]
+}

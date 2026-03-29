@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1235: 分離, 分裂, 兵器...",
+  "lesson_number": 1235,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 104775,
+      "kanji": "分離",
+      "kana": "ぶんり",
+      "gloss": "separation; partition; detachment; segregation; isolation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104794,
+      "kanji": "分裂",
+      "kana": "ぶんれつ",
+      "gloss": "split; division; break up",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105052,
+      "kanji": "兵器",
+      "kana": "へいき",
+      "gloss": "arms; weapon; ordnance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105329,
+      "kanji": "閉口",
+      "kana": "へいこう",
+      "gloss": "to be stumped; to be at a loss; to be at one's wits' end; to be nonplussed; to be fed up; to be tired (of); to be unable to bear; to be annoyed",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 296990,
+      "kanji": "平行",
+      "kana": "へいこう",
+      "gloss": "parallelism; running parallel (to, with); running concurrently; occurring at the same time; keeping pace with; not reaching an agreement (e.g. of a debate)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105330,
+      "kanji": "閉鎖",
+      "kana": "へいさ",
+      "gloss": "closing; closure; shutdown; lockout",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105062,
+      "kanji": "兵士",
+      "kana": "へいし",
+      "gloss": "soldier",
+      "card_type": "vocab"
+    }
+  ]
+}

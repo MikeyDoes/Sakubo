@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 318: 届ける, 泊まる, 止める...",
+  "lesson_number": 318,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 98523,
+      "kanji": "届ける",
+      "kana": "とどける",
+      "gloss": "to deliver; to forward; to send; to report; to notify; to file notice (to the authorities); to give notice; to register",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100927,
+      "kanji": "泊まる",
+      "kana": "とまる",
+      "gloss": "to stay at (e.g. hotel); to be docked; to be berthed; to be moored",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78959,
+      "kanji": "止める",
+      "kana": "とめる",
+      "gloss": "to stop; to turn off; to park; to prevent; to suppress (a cough); to hold back (tears); to hold (one's breath); to relieve (pain); to stop (someone from doing something); to dissuade; to forbid; to prohibit; to notice; to be aware of; to concentrate on; to pay attention to; to remember; to bear in mind; to fix (in place); to fasten; to tack; to pin; to nail; to button; to staple; to detain; to keep in custody",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78962,
+      "kanji": "止める",
+      "kana": "やめる",
+      "gloss": "to stop (an activity); to cease; to discontinue; to end; to quit; to cancel; to abandon; to give up; to abolish; to abstain; to refrain",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121562,
+      "kanji": "止める",
+      "kana": "とどめる",
+      "gloss": "to stop; to stay (e.g. the night); to cease; to put an end to; to contain; to keep (in position, in place); to limit; to record (e.g. a fact); to retain",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81054,
+      "kanji": "取り替える",
+      "kana": "とりかえる",
+      "gloss": "to exchange; to swap; to barter; to replace; to substitute",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121710,
+      "kanji": "泥棒",
+      "kana": "どろぼう",
+      "gloss": "thief; burglar; robber; theft; burglary; robbery",
+      "card_type": "vocab"
+    }
+  ]
+}

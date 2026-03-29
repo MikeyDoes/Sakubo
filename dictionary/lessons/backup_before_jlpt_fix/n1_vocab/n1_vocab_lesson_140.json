@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1000: 巧妙, 公用, 小売...",
+  "lesson_number": 1000,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 74686,
+      "kanji": "巧妙",
+      "kana": "こうみょう",
+      "gloss": "ingenious; skillful; clever; deft",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74263,
+      "kanji": "公用",
+      "kana": "こうよう",
+      "gloss": "official business; government business; public business; company duties; public use; government use",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119853,
+      "kanji": "小売",
+      "kana": "こうり",
+      "gloss": "retail",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74296,
+      "kanji": "効率",
+      "kana": "こうりつ",
+      "gloss": "efficiency",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74269,
+      "kanji": "公立",
+      "kana": "こうりつ",
+      "gloss": "public (institution)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83972,
+      "kanji": "小柄",
+      "kana": "こがら",
+      "gloss": "small build; small stature; petite; small pattern",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 141816,
+      "kanji": "小柄",
+      "kana": "こづか",
+      "gloss": "knife attached to the sheath of a sword",
+      "card_type": "vocab"
+    }
+  ]
+}

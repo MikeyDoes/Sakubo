@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 130: 降りる, 終る, 音楽...",
+  "lesson_number": 130,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 118841,
+      "kanji": "降りる",
+      "kana": "おりる",
+      "gloss": "to descend (e.g. a mountain); to go down; to come down; to alight (e.g. from bus); to get off; to disembark; to dismount; to step down; to retire; to give up; to quit; to fold; to be granted; to be issued; to be given; to form (of frost, dew, mist, etc.); to be passed (from the body; e.g. of a roundworm)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118868,
+      "kanji": "終る",
+      "kana": "おわる",
+      "gloss": "to end; to come to an end; to close; to finish",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62342,
+      "kanji": "音楽",
+      "kana": "おんがく",
+      "gloss": "music",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83474,
+      "kanji": "女",
+      "kana": "おんな",
+      "gloss": "female; woman; female sex; female lover; girlfriend; mistress; (someone's) woman",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83479,
+      "kanji": "女",
+      "kana": "じょ",
+      "gloss": "woman; girl; daughter; Chinese \"Girl\" constellation (one of the 28 mansions)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 271283,
+      "kanji": "女",
+      "kana": "め",
+      "gloss": "female; smaller (of the two); weaker; woman; wife",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83481,
+      "kanji": "女の子",
+      "kana": "おんなのこ",
+      "gloss": "girl; daughter; baby girl; young woman",
+      "card_type": "vocab"
+    }
+  ]
+}

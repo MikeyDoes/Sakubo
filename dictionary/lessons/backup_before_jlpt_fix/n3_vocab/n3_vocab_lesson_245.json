@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 594: 命令, 迷惑, 飯...",
+  "lesson_number": 594,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 108274,
+      "kanji": "命令",
+      "kana": "めいれい",
+      "gloss": "order; command; decree; directive; (software) instruction; statement",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108353,
+      "kanji": "迷惑",
+      "kana": "めいわく",
+      "gloss": "trouble; bother; annoyance; nuisance; inconvenience; to be troubled (by); to be bothered (by); to be inconvenienced (by)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101847,
+      "kanji": "飯",
+      "kana": "めし",
+      "gloss": "cooked rice; meal; food; one's living; livelihood",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 174280,
+      "kanji": "飯",
+      "kana": "まんま",
+      "gloss": "cooked rice",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124860,
+      "kanji": "滅多に",
+      "kana": "めったに",
+      "gloss": "rarely; seldom",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117390,
+      "kanji": "面",
+      "kana": "おもて",
+      "gloss": "face; surface; mask (esp. a noh or kyogen mask)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117397,
+      "kanji": "面",
+      "kana": "めん",
+      "gloss": "face; mask; face guard; (in kendo) striking the head; surface (esp. a geometrical surface); page; aspect; facet; side; chamfer; counter for broad, flat objects, levels or stages, e.g. in a video game",
+      "card_type": "vocab"
+    }
+  ]
+}

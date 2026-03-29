@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 496: 操作, 想像, 相続...",
+  "lesson_number": 496,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 90985,
+      "kanji": "操作",
+      "kana": "そうさ",
+      "gloss": "operation; management; handling; manipulating (to one's benefit); manipulation; influencing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90888,
+      "kanji": "想像",
+      "kana": "そうぞう",
+      "gloss": "imagination; guess",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91135,
+      "kanji": "相続",
+      "kana": "そうぞく",
+      "gloss": "succession; inheritance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91327,
+      "kanji": "装置",
+      "kana": "そうち",
+      "gloss": "equipment; device; installation; apparatus; stage setting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91172,
+      "kanji": "相当",
+      "kana": "そうとう",
+      "gloss": "corresponding to (in meaning, function, etc.); being equivalent to; appropriate; suitable; befitting; proportionate; to be proportionate to; to be in keeping with; to be deserving of; to be worthy of; considerable; substantial; considerably; rather; quite; fairly; pretty",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91678,
+      "kanji": "速度",
+      "kana": "そくど",
+      "gloss": "speed; velocity; pace; rate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 204722,
+      "kanji": "底",
+      "kana": "てい",
+      "gloss": "base (logarithmic, exponential, number system); radix; base (triangle, cone, cylinder, etc.); type; kind; extent; degree",
+      "card_type": "vocab"
+    }
+  ]
+}

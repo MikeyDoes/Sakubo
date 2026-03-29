@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1263: 密集, 密接, 蜜...",
+  "lesson_number": 1263,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 107789,
+      "kanji": "密集",
+      "kana": "みっしゅう",
+      "gloss": "crowding together; clustering together; close formation; swarm",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107790,
+      "kanji": "密接",
+      "kana": "みっせつ",
+      "gloss": "close (relationship, connection, etc.); intimate; near; close (together)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 129606,
+      "kanji": "蜜",
+      "kana": "みつ",
+      "gloss": "nectar; honey; honeydew; treacle; molasses; sorbitol (when visible as dark patches inside an apple)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107794,
+      "kanji": "密度",
+      "kana": "みつど",
+      "gloss": "density",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123286,
+      "kanji": "見積り",
+      "kana": "みつもり",
+      "gloss": "estimate; estimation; valuation; quotation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107734,
+      "kanji": "未定",
+      "kana": "みてい",
+      "gloss": "not yet fixed; undecided; pending",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123289,
+      "kanji": "見通し",
+      "kana": "みとおし",
+      "gloss": "unobstructed view; perspective; visibility; vista; forecast; outlook; prospect; prediction; insight; foresight",
+      "card_type": "vocab"
+    }
+  ]
+}

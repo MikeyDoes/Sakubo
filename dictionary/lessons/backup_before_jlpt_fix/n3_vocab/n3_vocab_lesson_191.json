@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 540: 内容, 尚, 仲...",
+  "lesson_number": 540,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 98816,
+      "kanji": "内容",
+      "kana": "ないよう",
+      "gloss": "contents; content; substance; matter; detail; import",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84041,
+      "kanji": "尚",
+      "kana": "なお",
+      "gloss": "still; yet; more; still more; greater; further; as ...; like ...; furthermore; in addition; moreover; note that ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94327,
+      "kanji": "仲",
+      "kana": "なか",
+      "gloss": "relation; relationship",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 226976,
+      "kanji": "仲",
+      "kana": "すあい",
+      "gloss": "broker; brokerage; brokerage fee",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111012,
+      "kanji": "流す",
+      "kana": "ながす",
+      "gloss": "to drain; to pour; to spill; to shed (blood, tears); to wash away; to distribute (e.g. electricity over wires, music over a PA system, etc.); to circulate; to broadcast; to beam; to cruise (e.g. taxi); to float; to set adrift; to call off (a meeting, etc.); to exile; to banish",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121728,
+      "kanji": "仲々",
+      "kana": "なかなか",
+      "gloss": "very; considerably; easily; readily; fairly; quite; highly; rather; by no means; not readily; middle; half-way point; excellent; wonderful; very good",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101458,
+      "kanji": "半ば",
+      "kana": "なかば",
+      "gloss": "middle; halfway; midway; half (of); one half; half (e.g. done, jokingly); partly; in part; partially; mostly; almost; nearly",
+      "card_type": "vocab"
+    }
+  ]
+}

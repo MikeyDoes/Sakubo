@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 433: 硬貨, 高価, 豪華...",
+  "lesson_number": 433,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 74960,
+      "kanji": "硬貨",
+      "kana": "こうか",
+      "gloss": "coin; hard currency",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75313,
+      "kanji": "高価",
+      "kana": "こうか",
+      "gloss": "highly priced; expensive; valuable; costly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75573,
+      "kanji": "豪華",
+      "kana": "ごうか",
+      "gloss": "extravagant; lavish; opulent; luxurious; magnificent; splendid; fancy; gorgeous",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75472,
+      "kanji": "合格",
+      "kana": "ごうかく",
+      "gloss": "success; passing (e.g. exam); eligibility",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73931,
+      "kanji": "交換",
+      "kana": "こうかん",
+      "gloss": "exchange; interchange; switching; reciprocity; barter; substitution; replacement; clearing (of checks, cheques)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75062,
+      "kanji": "航空",
+      "kana": "こうくう",
+      "gloss": "aviation; flying",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74065,
+      "kanji": "光景",
+      "kana": "こうけい",
+      "gloss": "scene; spectacle; sight; view",
+      "card_type": "vocab"
+    }
+  ]
+}

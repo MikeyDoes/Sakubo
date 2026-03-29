@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 990: 限定, 原点, 原典...",
+  "lesson_number": 990,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 72910,
+      "kanji": "限定",
+      "kana": "げんてい",
+      "gloss": "limit; restriction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72543,
+      "kanji": "原点",
+      "kana": "げんてん",
+      "gloss": "starting point; origin; beginning; origin (of coordinate axes); datum point",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72542,
+      "kanji": "原典",
+      "kana": "げんてん",
+      "gloss": "original (text)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72665,
+      "kanji": "減点",
+      "kana": "げんてん",
+      "gloss": "subtracting points; points deducted",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72549,
+      "kanji": "原爆",
+      "kana": "げんばく",
+      "gloss": "atomic bomb; A-bomb",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72564,
+      "kanji": "原文",
+      "kana": "げんぶん",
+      "gloss": "original text",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72617,
+      "kanji": "厳密",
+      "kana": "げんみつ",
+      "gloss": "strict; close; precise; scrupulous",
+      "card_type": "vocab"
+    }
+  ]
+}

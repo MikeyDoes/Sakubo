@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1190: 年生, 年長, 燃料...",
+  "lesson_number": 1190,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 100052,
+      "kanji": "年生",
+      "kana": "ねんせい",
+      "gloss": "pupil in ... year; student in ... year",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100075,
+      "kanji": "年長",
+      "kana": "ねんちょう",
+      "gloss": "senior; older",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100154,
+      "kanji": "燃料",
+      "kana": "ねんりょう",
+      "gloss": "fuel",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100101,
+      "kanji": "年輪",
+      "kana": "ねんりん",
+      "gloss": "annual tree ring; growth ring; experience in life",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100240,
+      "kanji": "脳",
+      "kana": "のう",
+      "gloss": "brain; brains; mind",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 260802,
+      "kanji": "脳",
+      "kana": "なずき",
+      "gloss": "brain; skull; head",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100278,
+      "kanji": "農耕",
+      "kana": "のうこう",
+      "gloss": "farming; agriculture; cultivation",
+      "card_type": "vocab"
+    }
+  ]
+}

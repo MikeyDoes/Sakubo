@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 212: 万, 万, 万年筆...",
+  "lesson_number": 212,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 107490,
+      "kanji": "万",
+      "kana": "ばん",
+      "gloss": "completely; absolutely; totally",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117335,
+      "kanji": "万",
+      "kana": "まん",
+      "gloss": "10,000; ten thousand; myriad; everything; all; various",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107568,
+      "kanji": "万年筆",
+      "kana": "まんねんひつ",
+      "gloss": "fountain pen",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107242,
+      "kanji": "磨く",
+      "kana": "みがく",
+      "gloss": "to polish; to shine; to brush (e.g. teeth); to grind (e.g. lens); to refine (e.g. a skill); to improve; to cultivate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60649,
+      "kanji": "右",
+      "kana": "みぎ",
+      "gloss": "right; right-hand side; afore-mentioned (esp. in vertical Japanese writing); foregoing; forgoing; above",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93415,
+      "kanji": "短い",
+      "kana": "みじかい",
+      "gloss": "short; brief",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87017,
+      "kanji": "水",
+      "kana": "みず",
+      "gloss": "water (esp. cool, fresh water, e.g. drinking water); fluid (esp. in an animal tissue); liquid; flood; floodwaters; water offered to wrestlers just prior to a bout; break granted to wrestlers engaged in a prolonged bout",
+      "card_type": "vocab"
+    }
+  ]
+}

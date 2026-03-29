@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1108: 増進, 他意, 退化...",
+  "lesson_number": 1108,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 91434,
+      "kanji": "増進",
+      "kana": "ぞうしん",
+      "gloss": "promoting; increase; advance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91902,
+      "kanji": "他意",
+      "kana": "たい",
+      "gloss": "other intention; hidden purpose; ulterior motive; ill will; malice",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92503,
+      "kanji": "退化",
+      "kana": "たいか",
+      "gloss": "degeneration; retrogression",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92296,
+      "kanji": "対応",
+      "kana": "たいおう",
+      "gloss": "correspondence (to); equivalence; suitability; coordination; matching; being appropriate (for); dealing with; coping with; handling; response; reception; reaction; compatibility (with technology, software, etc.); capability; support (for)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92231,
+      "kanji": "体格",
+      "kana": "たいかく",
+      "gloss": "physique; constitution",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92505,
+      "kanji": "退学",
+      "kana": "たいがく",
+      "gloss": "dropping out of school; withdrawing from school; expulsion from school; dismissal; leaving school (university, etc.) after completing a course",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92741,
+      "kanji": "大概",
+      "kana": "たいがい",
+      "gloss": "generally; mainly; usually; normally; mostly; for the most part; nearly all; almost all; most; gist; summary; outline; main idea; staying within bounds; not overdoing (something); not getting carried away; not going too far; being moderate; probably; perhaps; in all likelihood; considerably; greatly; really",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 179: 出る, 天気, 電気...",
+  "lesson_number": 179,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 82620,
+      "kanji": "出る",
+      "kana": "でる",
+      "gloss": "to leave; to exit; to go out; to come out; to get out; to leave (on a journey); to depart; to start out; to set out; to move forward; to come to; to get to; to lead to; to reach; to appear; to emerge; to surface; to come forth; to turn up; to be found; to be detected; to be discovered; to be exposed; to show; to be exhibited; to be on display; to appear (in print); to be published; to be announced; to be issued; to be listed; to attend; to participate; to take part; to enter (an event); to play in; to perform; to be stated; to be expressed; to come up; to be brought up; to be raised; to sell; to exceed; to go over; to stick out; to protrude; to break out; to occur; to start; to originate; to be produced; to come from; to be derived from; to be given; to get; to receive; to be offered; to be provided; to be presented; to be submitted; to be handed in; to be turned in; to be paid; to answer (phone, door, etc.); to assume (an attitude); to act; to behave; to pick up (speed, etc.); to gain; to flow (e.g. tears); to run; to bleed; to graduate; to ejaculate; to cum",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96066,
+      "kanji": "天気",
+      "kana": "てんき",
+      "gloss": "weather; the elements; fair weather; fine weather",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96596,
+      "kanji": "電気",
+      "kana": "でんき",
+      "gloss": "electricity; (electric) light",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96651,
+      "kanji": "電車",
+      "kana": "でんしゃ",
+      "gloss": "train; electric train",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96686,
+      "kanji": "電話",
+      "kana": "でんわ",
+      "gloss": "telephone call; phone call; telephone (device); phone",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73213,
+      "kanji": "戸",
+      "kana": "と",
+      "gloss": "door (esp. Japanese-style); shutter; window shutter; entrance (to a home); narrows",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 131283,
+      "kanji": "戸",
+      "kana": "こ",
+      "gloss": "counter for houses, households, apartments, etc.",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 774: 電球, 点数, 伝染...",
+  "lesson_number": 774,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 96616,
+      "kanji": "電球",
+      "kana": "でんきゅう",
+      "gloss": "light bulb",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96426,
+      "kanji": "点数",
+      "kana": "てんすう",
+      "gloss": "marks; points; score; grade; runs (baseball); number of items; number of articles",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96475,
+      "kanji": "伝染",
+      "kana": "でんせん",
+      "gloss": "contagion; infection",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96660,
+      "kanji": "電池",
+      "kana": "でんち",
+      "gloss": "battery; cell",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121458,
+      "kanji": "点々",
+      "kana": "てんてん",
+      "gloss": "here and there; little by little; sporadically; scattered in drops; dots; spots",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 137046,
+      "kanji": "転々",
+      "kana": "てんてん",
+      "gloss": "moving from place to place; being passed around repeatedly; rolling about",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96661,
+      "kanji": "電柱",
+      "kana": "でんちゅう",
+      "gloss": "utility pole; power pole; telephone pole; telegraph pole",
+      "card_type": "vocab"
+    }
+  ]
+}

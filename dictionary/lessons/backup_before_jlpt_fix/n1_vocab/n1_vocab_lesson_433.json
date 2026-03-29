@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1293: 読み上げる, 寄り掛かる, 弱まる...",
+  "lesson_number": 1293,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 98347,
+      "kanji": "読み上げる",
+      "kana": "よみあげる",
+      "gloss": "to read out; to read aloud; to call out; to finish reading; to read through",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123728,
+      "kanji": "寄り掛かる",
+      "kana": "よりかかる",
+      "gloss": "to lean against; to recline on; to lean on; to rely on; to depend on",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80764,
+      "kanji": "弱まる",
+      "kana": "よわまる",
+      "gloss": "to abate; to weaken; to be emaciated; to be dejected; to be perplexed",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80765,
+      "kanji": "弱める",
+      "kana": "よわめる",
+      "gloss": "to weaken",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80771,
+      "kanji": "弱る",
+      "kana": "よわる",
+      "gloss": "to weaken; to grow weak; to wane; to decline (of one's health); to be downcast; to be dejected; to be dispirited; to be troubled; to be at a loss; to be perplexed; to be annoyed",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117502,
+      "kanji": "来場",
+      "kana": "らいじょう",
+      "gloss": "attendance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110579,
+      "kanji": "酪農",
+      "kana": "らくのう",
+      "gloss": "dairy farming",
+      "card_type": "vocab"
+    }
+  ]
+}

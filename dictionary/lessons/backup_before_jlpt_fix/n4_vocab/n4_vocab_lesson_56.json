@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 284: 市, 字, 字...",
+  "lesson_number": 284,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 78626,
+      "kanji": "市",
+      "kana": "し",
+      "gloss": "city",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79542,
+      "kanji": "字",
+      "kana": "あざ",
+      "gloss": "section of village",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79543,
+      "kanji": "字",
+      "kana": "じ",
+      "gloss": "character (esp. kanji); letter; written text; handwriting; penmanship; the ... word (e.g. \"the L word\" = \"love\")",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 186313,
+      "kanji": "字",
+      "kana": "あざな",
+      "gloss": "Chinese courtesy name (name formerly given to adult Chinese men, used in place of their given name in formal situations); nickname; section of a village",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79196,
+      "kanji": "試合",
+      "kana": "しあい",
+      "gloss": "match; game; bout; contest",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120162,
+      "kanji": "仕方",
+      "kana": "しかた",
+      "gloss": "way; method; means; resource; course",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80120,
+      "kanji": "叱る",
+      "kana": "しかる",
+      "gloss": "to scold; to chide; to rebuke; to reprimand",
+      "card_type": "vocab"
+    }
+  ]
+}

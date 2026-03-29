@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 779: 溶かす, 尖る, 溶く...",
+  "lesson_number": 779,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 110189,
+      "kanji": "溶かす",
+      "kana": "とかす",
+      "gloss": "to dissolve; to melt",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89573,
+      "kanji": "尖る",
+      "kana": "とがる",
+      "gloss": "to taper to a point; to become pointed; to become sharp; to look displeased; to look sour; to be on edge; to be touchy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110194,
+      "kanji": "溶く",
+      "kana": "とく",
+      "gloss": "to dissolve (paint); to scramble (eggs); to melt (metal, etc.); to mix (water with flour, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120436,
+      "kanji": "退く",
+      "kana": "どく",
+      "gloss": "to step aside; to move (i.e. out of the way); to make way; to resign; to retire; to quit; to secede",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120438,
+      "kanji": "退く",
+      "kana": "しりぞく",
+      "gloss": "to step back; to move back; to retreat; to withdraw (from the presence of a superior); to leave; to exit; to resign; to retire; to quit; to concede",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120442,
+      "kanji": "退く",
+      "kana": "ひく",
+      "gloss": "to move back; to draw back; to recede; to lessen; to subside; to ebb; to go down (e.g. of swelling); to resign; to retire; to quit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98189,
+      "kanji": "特殊",
+      "kana": "とくしゅ",
+      "gloss": "special; particular; peculiar; unique",
+      "card_type": "vocab"
+    }
+  ]
+}

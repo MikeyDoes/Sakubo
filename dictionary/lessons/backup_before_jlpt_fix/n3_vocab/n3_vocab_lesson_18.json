@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 367: 衣服, 居間, 今に...",
+  "lesson_number": 367,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 58928,
+      "kanji": "衣服",
+      "kana": "いふく",
+      "gloss": "clothes",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68659,
+      "kanji": "居間",
+      "kana": "いま",
+      "gloss": "living room (Western style); sitting room",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76032,
+      "kanji": "今に",
+      "kana": "いまに",
+      "gloss": "before long; even now",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76033,
+      "kanji": "今にも",
+      "kana": "いまにも",
+      "gloss": "at any moment (now); at any minute; on the verge of (doing); just about to",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101956,
+      "kanji": "否",
+      "kana": "ひ",
+      "gloss": "no; the noes",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58477,
+      "kanji": "以来",
+      "kana": "いらい",
+      "gloss": "since; henceforth",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58532,
+      "kanji": "依頼",
+      "kana": "いらい",
+      "gloss": "request; commission; entrusting (with a matter); dependence; reliance",
+      "card_type": "vocab"
+    }
+  ]
+}

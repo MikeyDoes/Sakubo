@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 257: 汽車, 技術, 季節...",
+  "lesson_number": 257,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 67471,
+      "kanji": "汽車",
+      "kana": "きしゃ",
+      "gloss": "train (esp. long distance train); steam train",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67788,
+      "kanji": "技術",
+      "kana": "ぎじゅつ",
+      "gloss": "technology; engineering; technique; skill; art; craft",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67489,
+      "kanji": "季節",
+      "kana": "きせつ",
+      "gloss": "season; time of year",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67510,
+      "kanji": "規則",
+      "kana": "きそく",
+      "gloss": "rule; regulation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36855,
+      "kanji": "屹度",
+      "kana": "きっと",
+      "gloss": "surely; undoubtedly; almost certainly; most likely (e.g. 90 percent); sternly; severely; having no slack; rigid; stiff; tight; suddenly; abruptly; instantly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72078,
+      "kanji": "絹",
+      "kana": "きぬ",
+      "gloss": "silk",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72583,
+      "kanji": "厳しい",
+      "kana": "きびしい",
+      "gloss": "severe; strict; rigid; unsparing; relentless; hard (to do); difficult; tricky; intense (e.g. cold); harsh (weather); inclement",
+      "card_type": "vocab"
+    }
+  ]
+}

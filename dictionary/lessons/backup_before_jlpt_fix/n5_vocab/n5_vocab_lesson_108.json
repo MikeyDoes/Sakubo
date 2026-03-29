@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 208: 細い, 細い, 鈕...",
+  "lesson_number": 208,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 76855,
+      "kanji": "細い",
+      "kana": "ほそい",
+      "gloss": "thin; slender; fine; unlucky",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 268029,
+      "kanji": "細い",
+      "kana": "こまい",
+      "gloss": "small; fine; minute; stingy; cheap",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 54202,
+      "kanji": "鈕",
+      "kana": "ボタン",
+      "gloss": "button (clothing); push-button",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72370,
+      "kanji": "本",
+      "kana": "もと",
+      "gloss": "origin; source; base; basis; foundation; root; cause; ingredient; material; (somebody's) side; (somebody's) location; original cost (or capital, principal, etc.); (plant) root; (tree) trunk; first section of a waka; counter for blades of grass, tree trunks, etc., and for falcons (in falconry); handle (chopsticks, brush, etc.); grip",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107040,
+      "kanji": "本",
+      "kana": "ほん",
+      "gloss": "book; volume; script; this; present; main; head; real; regular; counter for long cylindrical things; counter for films, TV shows, etc.; counter for goals, home runs, etc.; counter for telephone calls",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107130,
+      "kanji": "本棚",
+      "kana": "ほんだな",
+      "gloss": "bookshelves; bookshelf; bookcase",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107143,
+      "kanji": "本当",
+      "kana": "ほんとう",
+      "gloss": "truth; reality; actuality; fact; proper; right; correct; official; genuine; authentic; real; natural; veritable",
+      "card_type": "vocab"
+    }
+  ]
+}

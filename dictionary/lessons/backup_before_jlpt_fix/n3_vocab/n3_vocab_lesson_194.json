@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 543: 鍋, 怠ける, 波...",
+  "lesson_number": 543,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 98856,
+      "kanji": "鍋",
+      "kana": "なべ",
+      "gloss": "saucepan; pot; stew; hot pot",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92397,
+      "kanji": "怠ける",
+      "kana": "なまける",
+      "gloss": "to be idle; to slacken; to neglect (e.g. one's work)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100319,
+      "kanji": "波",
+      "kana": "なみ",
+      "gloss": "wave; ups and downs",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 284356,
+      "kanji": "波",
+      "kana": "ぽ",
+      "gloss": "Poland",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 308476,
+      "kanji": "波",
+      "kana": "は",
+      "gloss": "counter for waves (of a repeated occurrence)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111492,
+      "kanji": "涙",
+      "kana": "なみだ",
+      "gloss": "tear; tears; lachrymal secretion; sympathy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100187,
+      "kanji": "悩む",
+      "kana": "なやむ",
+      "gloss": "to be worried; to be troubled",
+      "card_type": "vocab"
+    }
+  ]
+}

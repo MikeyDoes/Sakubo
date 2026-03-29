@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 386: 可, 課, 会...",
+  "lesson_number": 386,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 63219,
+      "kanji": "可",
+      "kana": "か",
+      "gloss": "acceptable; satisfactory; allowed; permitted; approval; being in favour; (a) vote in favour; aye; Pass (grade); Fair; C; D",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63884,
+      "kanji": "課",
+      "kana": "か",
+      "gloss": "lesson; section (in an organization); division; department; counter for lessons and chapters (of a book)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64225,
+      "kanji": "会",
+      "kana": "え",
+      "gloss": "gathering (esp. Buddhist, festive, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64226,
+      "kanji": "会",
+      "kana": "かい",
+      "gloss": "meeting; assembly; party; gathering; conference; athletic meet; society; association; club",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64347,
+      "kanji": "回",
+      "kana": "かい",
+      "gloss": "counter for occurrences; a time; an instance; inning (baseball); round; game; episode; chapter; instalment; Hui (people); Islam",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65009,
+      "kanji": "害",
+      "kana": "がい",
+      "gloss": "injury; harm; evil influence; damage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64237,
+      "kanji": "会員",
+      "kana": "かいいん",
+      "gloss": "member; the membership",
+      "card_type": "vocab"
+    }
+  ]
+}

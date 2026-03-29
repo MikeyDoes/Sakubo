@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 436: 考慮, 越える, 氷...",
+  "lesson_number": 436,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 75041,
+      "kanji": "考慮",
+      "kana": "こうりょ",
+      "gloss": "consideration; taking into account",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119859,
+      "kanji": "越える",
+      "kana": "こえる",
+      "gloss": "to cross over; to cross; to pass through; to pass over (out of); to go beyond; to go past; to exceed; to surpass; to be more (than)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102785,
+      "kanji": "氷",
+      "kana": "こおり",
+      "gloss": "ice; shaved ice (usually served with flavored simple syrup)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102787,
+      "kanji": "氷",
+      "kana": "ひ",
+      "gloss": "ice; hail",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117102,
+      "kanji": "氷",
+      "kana": "つらら",
+      "gloss": "icicle; ice pillar (for cooling a room); ice",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119865,
+      "kanji": "凍る",
+      "kana": "こおる",
+      "gloss": "to freeze; to be frozen over; to congeal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73871,
+      "kanji": "誤解",
+      "kana": "ごかい",
+      "gloss": "misunderstanding",
+      "card_type": "vocab"
+    }
+  ]
+}

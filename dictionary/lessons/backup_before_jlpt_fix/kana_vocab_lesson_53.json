@@ -1,0 +1,37 @@
+{
+  "lesson_number": 53,
+  "title": "Lesson 53 (Vocab) - ペン, ピアノ, ページ...",
+  "description": "ペン (Pen) and ページ (Page). パン (Bread) actually comes from Portuguese, not English!",
+  "items": [
+    {
+      "entry_id": 53844,
+      "kanji": null,
+      "kana": "ペン",
+      "gloss": "pen"
+    },
+    {
+      "entry_id": 51683,
+      "kanji": null,
+      "kana": "ピアノ",
+      "gloss": "piano"
+    },
+    {
+      "entry_id": 326348,
+      "kanji": null,
+      "kana": "ページ",
+      "gloss": "page"
+    },
+    {
+      "entry_id": 51177,
+      "kanji": null,
+      "kana": "パン",
+      "gloss": "bread; pastries (e.g. croissants); pastry-based products; pan; frying pan; panning (in a film)"
+    },
+    {
+      "entry_id": 51771,
+      "kanji": null,
+      "kana": "ピン",
+      "gloss": "pin (e.g. hairpin, bowling pin, golf pin, etc.); one (on dice, in cards, etc.); beginning; best; kickback"
+    }
+  ]
+}

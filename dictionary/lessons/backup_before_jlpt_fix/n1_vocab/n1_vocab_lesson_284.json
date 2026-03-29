@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1144: 釣り, 吊り革, 釣鐘...",
+  "lesson_number": 1144,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 95471,
+      "kanji": "釣り",
+      "kana": "つり",
+      "gloss": "fishing; angling; change (for a purchase); clickbaiting; trolling; writing deliberately inflammatory posts online",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 145517,
+      "kanji": "吊り革",
+      "kana": "つりかわ",
+      "gloss": "strap (to hang onto)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95493,
+      "kanji": "釣鐘",
+      "kana": "つりがね",
+      "gloss": "temple bell; hanging bell; funeral bell",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95460,
+      "kanji": "吊るす",
+      "kana": "つるす",
+      "gloss": "to hang; to hang up",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121402,
+      "kanji": "手当て",
+      "kana": "てあて",
+      "gloss": "salary; pay; compensation; allowance (e.g. housing allowance); benefit; bonus; medical care; treatment; advance preparation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95748,
+      "kanji": "提供",
+      "kana": "ていきょう",
+      "gloss": "offer; tender; providing; supplying; making available; donating (blood, organs, etc.); sponsoring (a TV program)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95651,
+      "kanji": "定義",
+      "kana": "ていぎ",
+      "gloss": "definition",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1241: 報酬, 放出, 報じる...",
+  "lesson_number": 1241,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 106232,
+      "kanji": "報酬",
+      "kana": "ほうしゅう",
+      "gloss": "remuneration; recompense; reward; toll",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106361,
+      "kanji": "放出",
+      "kana": "ほうしゅつ",
+      "gloss": "release; emission; ejection",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106227,
+      "kanji": "報じる",
+      "kana": "ほうじる",
+      "gloss": "to inform; to report",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106228,
+      "kanji": "報ずる",
+      "kana": "ほうずる",
+      "gloss": "to inform; to report",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106368,
+      "kanji": "放置",
+      "kana": "ほうち",
+      "gloss": "leaving as is; leaving alone; leaving to chance; neglecting; abandoning",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106437,
+      "kanji": "法廷",
+      "kana": "ほうてい",
+      "gloss": "court (of law); courtroom",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106235,
+      "kanji": "報道",
+      "kana": "ほうどう",
+      "gloss": "report (of news); reporting; news; information; (media) coverage",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 145: 下さい, 果物, 口...",
+  "lesson_number": 145,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 62407,
+      "kanji": "下さい",
+      "kana": "ください",
+      "gloss": "please (give me); please (do for me)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63497,
+      "kanji": "果物",
+      "kana": "くだもの",
+      "gloss": "fruit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74343,
+      "kanji": "口",
+      "kana": "くち",
+      "gloss": "mouth; opening; hole; gap; orifice; mouth (of a bottle); spout; nozzle; mouthpiece; gate; door; entrance; exit; speaking; speech; talk (i.e. gossip); taste; palate; mouth (to feed); opening (i.e. vacancy); available position; invitation; summons; kind; sort; type; opening (i.e. beginning); counter for mouthfuls, shares (of money), and swords",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 209890,
+      "kanji": "口",
+      "kana": "く",
+      "gloss": "mouth; speech; counter for people or implements",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70529,
+      "kanji": "靴",
+      "kana": "くつ",
+      "gloss": "shoe; shoes; boots; footwear; footgear",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70538,
+      "kanji": "靴下",
+      "kana": "くつした",
+      "gloss": "socks; sock; stockings; stocking",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119647,
+      "kanji": "国",
+      "kana": "くに",
+      "gloss": "country; state; region; national government; central government; home (i.e. hometown, home country); province (of Japan); land; earth",
+      "card_type": "vocab"
+    }
+  ]
+}

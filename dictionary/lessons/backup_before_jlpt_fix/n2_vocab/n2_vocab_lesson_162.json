@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 778: 当番, 等分, 透明...",
+  "lesson_number": 778,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 97473,
+      "kanji": "当番",
+      "kana": "とうばん",
+      "gloss": "being on duty; person on duty",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97516,
+      "kanji": "等分",
+      "kana": "とうぶん",
+      "gloss": "division into equal parts; equal parts",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97676,
+      "kanji": "透明",
+      "kana": "とうめい",
+      "gloss": "transparent; clear",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97407,
+      "kanji": "灯油",
+      "kana": "とうゆ",
+      "gloss": "kerosene; paraffin; lamp oil",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97335,
+      "kanji": "東洋",
+      "kana": "とうよう",
+      "gloss": "the East; the Orient; (East) Asia; Japan",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98068,
+      "kanji": "童話",
+      "kana": "どうわ",
+      "gloss": "children's story; fairy tale",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95303,
+      "kanji": "通り掛かる",
+      "kana": "とおりかかる",
+      "gloss": "to happen to pass by",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1007: 古代, 拘る, 誇張...",
+  "lesson_number": 1007,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 73045,
+      "kanji": "古代",
+      "kana": "こだい",
+      "gloss": "ancient times",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37069,
+      "kanji": "拘る",
+      "kana": "こだわる",
+      "gloss": "to fuss over; to be particular about; to be obsessive about; to be fixated on; to obstruct; to hinder",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73352,
+      "kanji": "誇張",
+      "kana": "こちょう",
+      "gloss": "exaggeration",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65591,
+      "kanji": "滑稽",
+      "kana": "こっけい",
+      "gloss": "funny; comical; humorous; laughable; ridiculous; silly; absurd",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75676,
+      "kanji": "国交",
+      "kana": "こっこう",
+      "gloss": "diplomatic relations",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75991,
+      "kanji": "骨董品",
+      "kana": "こっとうひん",
+      "gloss": "curio; antique",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73171,
+      "kanji": "固定",
+      "kana": "こてい",
+      "gloss": "fixing (in place); being fixed (in place); securing; anchoring; fastening down; fixing (e.g. salary, capital); keeping the same; fixation (histology); user name (on an online forum like 2ch where the majority of users post anonymously); user of an online handle (instead of posting anonymously)",
+      "card_type": "vocab"
+    }
+  ]
+}

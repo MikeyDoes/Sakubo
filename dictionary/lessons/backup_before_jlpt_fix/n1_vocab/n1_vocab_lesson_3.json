@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 863: 亜科, 証, 証...",
+  "lesson_number": 863,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 57696,
+      "kanji": "亜科",
+      "kana": "あか",
+      "gloss": "subfamily",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60138,
+      "kanji": "証",
+      "kana": "しるし",
+      "gloss": "mark; sign; symbol; emblem; badge; crest; flag; evidence; proof; token (of gratitude, affection, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84381,
+      "kanji": "証",
+      "kana": "あかし",
+      "gloss": "proof; evidence; sign; testimony; vindication; certificate; license; membership card; to testify (usu. Christian religious context); enlightenment; symptoms (in Chinese medicine); patient's condition",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88638,
+      "kanji": "赤字",
+      "kana": "あかじ",
+      "gloss": "(being in) the red; deficit; red letter; red writing; corrections (by a teacher or proofreader) written in red",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108280,
+      "kanji": "明かす",
+      "kana": "あかす",
+      "gloss": "to pass (the night); to spend; to reveal; to divulge; to disclose; to expose; to prove; to verify",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36190,
+      "kanji": "明白",
+      "kana": "めいはく",
+      "gloss": "obvious; clear; plain; evident; apparent; explicit; overt",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36191,
+      "kanji": "明白",
+      "kana": "あからさま",
+      "gloss": "plain; frank; candid; open; direct; straightforward; unabashed; blatant; flagrant",
+      "card_type": "vocab"
+    }
+  ]
+}

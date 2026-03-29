@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 369: 印刷, 印象, 引退...",
+  "lesson_number": 369,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 60153,
+      "kanji": "印刷",
+      "kana": "いんさつ",
+      "gloss": "printing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60177,
+      "kanji": "印象",
+      "kana": "いんしょう",
+      "gloss": "impression",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60441,
+      "kanji": "引退",
+      "kana": "いんたい",
+      "gloss": "retirement",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60445,
+      "kanji": "引用",
+      "kana": "いんよう",
+      "gloss": "quotation; citation; reference",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60822,
+      "kanji": "鵜飼い",
+      "kana": "うがい",
+      "gloss": "cormorant fishing; cormorant fisherman",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115347,
+      "kanji": "嗽",
+      "kana": "うがい",
+      "gloss": "gargling; rinsing one's mouth",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 240627,
+      "kanji": "有界",
+      "kana": "うがい",
+      "gloss": "realm of existence",
+      "card_type": "vocab"
+    }
+  ]
+}

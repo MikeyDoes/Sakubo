@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 285: 然る, 試験, 事故...",
+  "lesson_number": 285,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 90220,
+      "kanji": "然る",
+      "kana": "しかる",
+      "gloss": "a particular; a certain; that kind of; such a",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79189,
+      "kanji": "試験",
+      "kana": "しけん",
+      "gloss": "examination; exam; test; trial; experiment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79391,
+      "kanji": "事故",
+      "kana": "じこ",
+      "gloss": "accident; incident; trouble; circumstances; reasons",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93773,
+      "kanji": "地震",
+      "kana": "じしん",
+      "gloss": "earthquake",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79724,
+      "kanji": "時代",
+      "kana": "じだい",
+      "gloss": "period; epoch; era; age; the times; those days; oldness; ancientness; antiquity; antique; period piece",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62610,
+      "kanji": "下着",
+      "kana": "したぎ",
+      "gloss": "underwear",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78892,
+      "kanji": "支度",
+      "kana": "したく",
+      "gloss": "preparation; arrangements",
+      "card_type": "vocab"
+    }
+  ]
+}

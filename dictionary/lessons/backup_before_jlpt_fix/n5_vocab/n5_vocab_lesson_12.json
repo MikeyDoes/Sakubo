@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 112: 酔い, 否, 言う...",
+  "lesson_number": 112,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 165467,
+      "kanji": "酔い",
+      "kana": "よい",
+      "gloss": "drunkenness; intoxication; motion sickness; travel sickness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117056,
+      "kanji": "否",
+      "kana": "いいえ",
+      "gloss": "no; nay; well; er; why; you're welcome; not at all; don't mention it",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118115,
+      "kanji": "言う",
+      "kana": "いう",
+      "gloss": "to say; to utter; to declare; to name; to call; to go (e.g. \"the alarm went ping\"); to make a noise",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63326,
+      "kanji": "家",
+      "kana": "いえ",
+      "gloss": "house; residence; dwelling; family; household; lineage; family name",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63327,
+      "kanji": "家",
+      "kana": "うち",
+      "gloss": "house; one's house; one's home; one's family; one's household",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63328,
+      "kanji": "家",
+      "kana": "け",
+      "gloss": "house (e.g. of Tokugawa); family",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 182140,
+      "kanji": "家",
+      "kana": "や",
+      "gloss": "(something) shop; somebody who sells (something) or works as (something); somebody with a (certain) personality trait; house; roof",
+      "card_type": "vocab"
+    }
+  ]
+}

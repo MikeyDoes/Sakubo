@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 518: 中心, 中心, 注目...",
+  "lesson_number": 518,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 94196,
+      "kanji": "中心",
+      "kana": "ちゅうしん",
+      "gloss": "center; centre; middle; heart; core; focus; pivot; emphasis; balance; -centered; -centred; -focused; -oriented; centered on; focused on",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 135993,
+      "kanji": "中心",
+      "kana": "なかご",
+      "gloss": "core; tang (of a sword, etc.); middle of a nest of boxes",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94467,
+      "kanji": "注目",
+      "kana": "ちゅうもく",
+      "gloss": "notice; attention; observation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94464,
+      "kanji": "注文",
+      "kana": "ちゅうもん",
+      "gloss": "order (for an item); request; demand; condition",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 269715,
+      "kanji": "注文",
+      "kana": "ちゅうぶん",
+      "gloss": "annotation; explanatory note",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94895,
+      "kanji": "長期",
+      "kana": "ちょうき",
+      "gloss": "long-term",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94800,
+      "kanji": "調査",
+      "kana": "ちょうさ",
+      "gloss": "investigation; examination; inquiry; enquiry; survey",
+      "card_type": "vocab"
+    }
+  ]
+}

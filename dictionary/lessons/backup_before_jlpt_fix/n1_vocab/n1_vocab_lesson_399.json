@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1259: 丸々, 丸める, 満月...",
+  "lesson_number": 1259,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 123188,
+      "kanji": "丸々",
+      "kana": "まるまる",
+      "gloss": "plump; rotund; chubby; entirely; completely; wholly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66585,
+      "kanji": "丸める",
+      "kana": "まるめる",
+      "gloss": "to make round; to roll up; to curl up; to seduce; to cajole; to explain away; to round off (a fraction); to lump together",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107618,
+      "kanji": "満月",
+      "kana": "まんげつ",
+      "gloss": "full moon",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107624,
+      "kanji": "満場",
+      "kana": "まんじょう",
+      "gloss": "whole house; whole audience",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123203,
+      "kanji": "真ん中",
+      "kana": "まんなか",
+      "gloss": "middle; centre; center; midpoint; heart",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85962,
+      "kanji": "真ん前",
+      "kana": "まんまえ",
+      "gloss": "right in front; just opposite; under the nose",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85958,
+      "kanji": "真ん丸い",
+      "kana": "まんまるい",
+      "gloss": "perfectly round; perfectly circular",
+      "card_type": "vocab"
+    }
+  ]
+}

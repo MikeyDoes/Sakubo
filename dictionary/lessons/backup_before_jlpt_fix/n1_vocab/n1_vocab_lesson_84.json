@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 944: 勘弁, 完璧, 感無量...",
+  "lesson_number": 944,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 65920,
+      "kanji": "勘弁",
+      "kana": "かんべん",
+      "gloss": "pardon; forgiveness; forbearance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119293,
+      "kanji": "完璧",
+      "kana": "かんぺき",
+      "gloss": "perfect; complete; flawless",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66128,
+      "kanji": "感無量",
+      "kana": "かんむりょう",
+      "gloss": "deep emotion; being filled with emotion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65946,
+      "kanji": "勧誘",
+      "kana": "かんゆう",
+      "gloss": "invitation; solicitation; canvassing; canvasing; inducement; persuasion; encouragement",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66543,
+      "kanji": "関与",
+      "kana": "かんよ",
+      "gloss": "participation; taking part in; participating in; being concerned in",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66141,
+      "kanji": "慣用",
+      "kana": "かんよう",
+      "gloss": "customary use; common usage; general usage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66047,
+      "kanji": "寛容",
+      "kana": "かんよう",
+      "gloss": "tolerance; open-mindedness; forbearance; generosity; magnanimity",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 445: 最高, 財産, 最終...",
+  "lesson_number": 445,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 76660,
+      "kanji": "最高",
+      "kana": "さいこう",
+      "gloss": "most; highest; maximum; uppermost; supreme; best; wonderful; finest",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77010,
+      "kanji": "財産",
+      "kana": "ざいさん",
+      "gloss": "property; fortune; assets",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76669,
+      "kanji": "最終",
+      "kana": "さいしゅう",
+      "gloss": "last; final; closing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115842,
+      "kanji": "最中",
+      "kana": "さいちゅう",
+      "gloss": "(in) the middle of; (in) the midst of; (in) the course of; (at) the height of",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 139096,
+      "kanji": "最中",
+      "kana": "もなか",
+      "gloss": "wafer cake filled with bean jam; (in) the middle of; (in) the midst of; (in) the course of; (at) the height of",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76701,
+      "kanji": "最低",
+      "kana": "さいてい",
+      "gloss": "least; lowest; minimum; worst; awful; horrible; nasty; disgusting; at the very least",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76750,
+      "kanji": "才能",
+      "kana": "さいのう",
+      "gloss": "talent; ability",
+      "card_type": "vocab"
+    }
+  ]
+}

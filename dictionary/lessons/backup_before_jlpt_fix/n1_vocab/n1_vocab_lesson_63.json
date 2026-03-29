@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 923: 回覧, 海流, 改良...",
+  "lesson_number": 923,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 64414,
+      "kanji": "回覧",
+      "kana": "かいらん",
+      "gloss": "circulation (esp. documents); sending round",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64688,
+      "kanji": "海流",
+      "kana": "かいりゅう",
+      "gloss": "ocean current",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64583,
+      "kanji": "改良",
+      "kana": "かいりょう",
+      "gloss": "improvement; reform",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64418,
+      "kanji": "回路",
+      "kana": "かいろ",
+      "gloss": "circuit (electric); cycle (e.g. Krebs cycle)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73358,
+      "kanji": "顧みる",
+      "kana": "かえりみる",
+      "gloss": "to look back on (the past); to reflect on; to reminisce about; to look behind (at); to turn round (and look); to look over one's shoulder; to consider; to concern oneself about; to take notice of; to pay attention to; to take into consideration",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 297771,
+      "kanji": "省みる",
+      "kana": "かえりみる",
+      "gloss": "to reflect on (oneself, past conduct, etc.); to contemplate; to examine; to think over; to introspect",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105752,
+      "kanji": "返る",
+      "kana": "かえる",
+      "gloss": "to return; to come back; to go back; to turn over; to become extremely; to become completely",
+      "card_type": "vocab"
+    }
+  ]
+}

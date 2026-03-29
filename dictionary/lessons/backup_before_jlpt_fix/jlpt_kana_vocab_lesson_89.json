@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 89: チャイム, チャンネル, ティッシュペーパー...",
+  "lesson_number": 1395,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 47714,
+      "kana": "チャイム",
+      "gloss": "chime; bell (e.g. doorbell)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47723,
+      "kana": "チャンネル",
+      "gloss": "channel",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47881,
+      "kana": "ティッシュペーパー",
+      "gloss": "tissue paper; tissue; facial tissue; facial tissues",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 48046,
+      "kana": "テレックス",
+      "gloss": "telex; teletypewriter exchange",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 48146,
+      "kana": "データ",
+      "gloss": "data; datum",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 48368,
+      "kana": "デコレーション",
+      "gloss": "decoration",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 48373,
+      "kana": "デザート",
+      "gloss": "dessert; desert",
+      "card_type": "vocab"
+    }
+  ]
+}

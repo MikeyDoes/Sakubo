@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1081: 水洗, 吹奏, 推測...",
+  "lesson_number": 1081,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 87101,
+      "kanji": "水洗",
+      "kana": "すいせん",
+      "gloss": "washing with water; rinsing; flushing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86945,
+      "kanji": "吹奏",
+      "kana": "すいそう",
+      "gloss": "playing (a wind instrument); blowing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87011,
+      "kanji": "推測",
+      "kana": "すいそく",
+      "gloss": "guess; conjecture",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87116,
+      "kanji": "水田",
+      "kana": "すいでん",
+      "gloss": "(water-filled) paddy field",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87013,
+      "kanji": "推理",
+      "kana": "すいり",
+      "gloss": "reasoning; inference; deduction; mystery or detective genre",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87277,
+      "kanji": "数詞",
+      "kana": "すうし",
+      "gloss": "numeral",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87252,
+      "kanji": "崇拝",
+      "kana": "すうはい",
+      "gloss": "worship; adoration; admiration; cult",
+      "card_type": "vocab"
+    }
+  ]
+}

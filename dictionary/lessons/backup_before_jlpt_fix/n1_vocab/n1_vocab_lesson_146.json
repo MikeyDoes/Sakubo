@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1006: 戸籍, 小銭, 固体...",
+  "lesson_number": 1006,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 73220,
+      "kanji": "戸籍",
+      "kana": "こせき",
+      "gloss": "family register; census",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83937,
+      "kanji": "小銭",
+      "kana": "こぜに",
+      "gloss": "small change; coins; small sum of money",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73170,
+      "kanji": "固体",
+      "kana": "こたい",
+      "gloss": "solid (body); solid matter; solid-state",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97518,
+      "kanji": "答え",
+      "kana": "こたえ",
+      "gloss": "answer; reply; response; solution",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65976,
+      "kanji": "堪える",
+      "kana": "たえる",
+      "gloss": "to bear; to stand; to endure; to put up with; to support; to withstand; to resist; to brave; to be fit for; to be equal to",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 284898,
+      "kanji": "堪える",
+      "kana": "こたえる",
+      "gloss": "to bear; to stand; to endure; to put up with; to restrain; to control; to keep a check on; to forgive; to pardon",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63699,
+      "kanji": "火燵",
+      "kana": "こたつ",
+      "gloss": "kotatsu; table over an electric heater (orig. a charcoal brazier in a floor well) with a hanging quilt that retains heat",
+      "card_type": "vocab"
+    }
+  ]
+}

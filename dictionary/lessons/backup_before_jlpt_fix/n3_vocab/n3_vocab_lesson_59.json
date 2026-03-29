@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 408: 岸, 生地, 生地...",
+  "lesson_number": 408,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 66685,
+      "kanji": "岸",
+      "kana": "きし",
+      "gloss": "bank; coast; shore",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88091,
+      "kanji": "生地",
+      "kana": "きじ",
+      "gloss": "cloth; fabric; material; texture; dough; batter; inherent quality; one's true character; one's true colours; unglazed pottery; skin with no make-up; uncoated metal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88093,
+      "kanji": "生地",
+      "kana": "せいち",
+      "gloss": "birthplace",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67540,
+      "kanji": "記事",
+      "kana": "きじ",
+      "gloss": "article; news story; report; account",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67785,
+      "kanji": "技師",
+      "kana": "ぎし",
+      "gloss": "engineer; technician",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67541,
+      "kanji": "記者",
+      "kana": "きしゃ",
+      "gloss": "reporter; journalist",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116151,
+      "kanji": "傷",
+      "kana": "きず",
+      "gloss": "wound; injury; cut; gash; bruise; scratch; scrape; scar; chip; crack; nick; flaw; defect; weakness; weak point; stain (on one's reputation); disgrace; dishonor; dishonour; (emotional) hurt; hurt feelings",
+      "card_type": "vocab"
+    }
+  ]
+}

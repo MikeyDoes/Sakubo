@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1016: 再, 差異, 歳...",
+  "lesson_number": 1016,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 76496,
+      "kanji": "再",
+      "kana": "さい",
+      "gloss": "re-; again; repeated; deutero-; deuto-; deuter-",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76367,
+      "kanji": "差異",
+      "kana": "さい",
+      "gloss": "difference; disparity; gap",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76780,
+      "kanji": "歳",
+      "kana": "さい",
+      "gloss": "-years-old",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99950,
+      "kanji": "歳",
+      "kana": "とし",
+      "gloss": "year; age; years; past one's prime; old age",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 202031,
+      "kanji": "歳",
+      "kana": "とせ",
+      "gloss": "counter for years (following a number in the hito-futa-mi counting system)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76507,
+      "kanji": "再会",
+      "kana": "さいかい",
+      "gloss": "another meeting; meeting again; reunion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76801,
+      "kanji": "災害",
+      "kana": "さいがい",
+      "gloss": "calamity; disaster; misfortune",
+      "card_type": "vocab"
+    }
+  ]
+}

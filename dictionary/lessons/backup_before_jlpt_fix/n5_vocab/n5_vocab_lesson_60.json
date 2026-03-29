@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 160: 上手, 丈夫, 丈夫...",
+  "lesson_number": 160,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 116200,
+      "kanji": "上手",
+      "kana": "うわて",
+      "gloss": "upper part; upper stream; upper course of a river; right side of the stage (audience's or camera's POV); stage left (actor's POV); skillful (in comparisons); dexterity; over-arm grip on opponent's belt",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116221,
+      "kanji": "丈夫",
+      "kana": "じょうぶ",
+      "gloss": "healthy; robust; strong; solid; durable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116222,
+      "kanji": "丈夫",
+      "kana": "じょうふ",
+      "gloss": "hero; manly person; warrior",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120415,
+      "kanji": "醤油",
+      "kana": "しょうゆ",
+      "gloss": "soy sauce; shoyu",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85328,
+      "kanji": "食堂",
+      "kana": "しょくどう",
+      "gloss": "dining room; dining hall; cafeteria; canteen; messroom; restaurant; eatery; snack bar; diner",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 207064,
+      "kanji": "食堂",
+      "kana": "じきどう",
+      "gloss": "dining hall (at a temple)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93680,
+      "kanji": "知る",
+      "kana": "しる",
+      "gloss": "to be aware of; to know; to be conscious of; to cognize; to cognise; to notice; to feel; to understand; to comprehend; to grasp; to remember; to be acquainted with (a procedure); to experience; to go through; to learn; to be acquainted with (a person); to get to know; to concern",
+      "card_type": "vocab"
+    }
+  ]
+}

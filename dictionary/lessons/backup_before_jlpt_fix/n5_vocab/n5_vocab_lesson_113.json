@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 213: 水, 店, 店...",
+  "lesson_number": 213,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 192037,
+      "kanji": "水",
+      "kana": "すい",
+      "gloss": "Wednesday; shaved ice (served with flavored syrup); water (fifth of the five elements)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116704,
+      "kanji": "店",
+      "kana": "みせ",
+      "gloss": "store; shop; establishment; restaurant",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116706,
+      "kanji": "店",
+      "kana": "てん",
+      "gloss": "-store; -shop",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 226117,
+      "kanji": "店",
+      "kana": "たな",
+      "gloss": "merchant's home; rented home; store; shop",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72145,
+      "kanji": "見せる",
+      "kana": "みせる",
+      "gloss": "to show; to display",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98077,
+      "kanji": "道",
+      "kana": "みち",
+      "gloss": "road; path; street; lane; passage; route; way; distance; journey; road (e.g. to victory); course; way (of living, proper conduct, etc.); moral principles; teachings (esp. Confucian or Buddhist); dogma; field (e.g. of medicine); subject; speciality; means; method",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 209359,
+      "kanji": "道",
+      "kana": "ち",
+      "gloss": "way; road; way to ...; road to ...",
+      "card_type": "vocab"
+    }
+  ]
+}

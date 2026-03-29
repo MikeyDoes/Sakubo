@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1206: 判, 版, 繁栄...",
+  "lesson_number": 1206,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 101422,
+      "kanji": "判",
+      "kana": "はん",
+      "gloss": "seal; stamp; monogram signature; judgment; judgement; size (of paper or books)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101775,
+      "kanji": "版",
+      "kana": "はん",
+      "gloss": "edition; version; printing; impression; implementation (e.g. software); plate; block; cast; editions of a publication",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101799,
+      "kanji": "繁栄",
+      "kana": "はんえい",
+      "gloss": "prosperity; thriving; flourishing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101627,
+      "kanji": "反感",
+      "kana": "はんかん",
+      "gloss": "antipathy; antagonism; animosity; revulsion; ill feeling",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101779,
+      "kanji": "版画",
+      "kana": "はんが",
+      "gloss": "woodcut; woodblock print; art print",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101632,
+      "kanji": "反響",
+      "kana": "はんきょう",
+      "gloss": "echo; reverberation; response; reaction; repercussions; sensation; influence",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101431,
+      "kanji": "判決",
+      "kana": "はんけつ",
+      "gloss": "judicial decision; judgement; judgment; sentence; decree",
+      "card_type": "vocab"
+    }
+  ]
+}

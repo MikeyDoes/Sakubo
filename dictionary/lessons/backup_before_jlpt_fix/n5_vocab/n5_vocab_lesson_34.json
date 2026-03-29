@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 134: 傘, 傘, 貸す...",
+  "lesson_number": 134,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 77746,
+      "kanji": "傘",
+      "kana": "かさ",
+      "gloss": "umbrella; parasol; something shaped like an umbrella or a conical hat; shade (of a lamp); mushroom cap; pileus",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 145679,
+      "kanji": "傘",
+      "kana": "からかさ",
+      "gloss": "paper umbrella; bamboo-and-paper umbrella parasol",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92470,
+      "kanji": "貸す",
+      "kana": "かす",
+      "gloss": "to lend; to loan; to rent out; to hire out",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85653,
+      "kanji": "風",
+      "kana": "ふり",
+      "gloss": "swing; shake; wave; swinging; appearance; behaviour; pretence (pretense); show; pretending (to); going to restaurant, hotel etc. without a reservation or introduction; move (dance); postures; lead in (e.g. to a running joke, asking a question); lead up; unsewn part of a hanging sleeve on a traditional Japanese woman's garment; counter for swords, blades, etc.; not wearing underwear or pants",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104170,
+      "kanji": "風",
+      "kana": "かぜ",
+      "gloss": "wind; breeze; draught; draft; manner; behaviour; behavior; cold; influenza",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104171,
+      "kanji": "風",
+      "kana": "ふう",
+      "gloss": "method; manner; way; style; appearance; air; tendency; folk song (genre of the Shi Jing); wind (one of the five elements)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117173,
+      "kanji": "風邪",
+      "kana": "かぜ",
+      "gloss": "(common) cold; influenza; flu; ague; inflammatory respiratory system illness (in general)",
+      "card_type": "vocab"
+    }
+  ]
+}

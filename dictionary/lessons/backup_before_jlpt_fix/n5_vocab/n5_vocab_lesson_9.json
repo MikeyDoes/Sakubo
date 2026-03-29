@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 109: 余り, 雨, 飴...",
+  "lesson_number": 109,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 117458,
+      "kanji": "余り",
+      "kana": "あまり",
+      "gloss": "remainder; remnant; rest; balance; surplus; remains (of a meal); leftovers; (not) very; (not) much; too much; excessively; overly; extreme; great; severe; tremendous; terrible; more than; over",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60769,
+      "kanji": "雨",
+      "kana": "あめ",
+      "gloss": "rain; rainy day; rainy weather; the November suit (in hanafuda)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58233,
+      "kanji": "飴",
+      "kana": "あめ",
+      "gloss": "(hard) candy; toffee; rice-sugar; sugar made from the starch of rice, potatoes, etc.; amber; yellowish-brown",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 265715,
+      "kanji": "飴",
+      "kana": "たがね",
+      "gloss": "confection (e.g. candy, mochi); sweet",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89713,
+      "kanji": "洗う",
+      "kana": "あらう",
+      "gloss": "to wash; to cleanse; to rinse; to inquire into; to investigate; to purify (one's heart); to lave (e.g. shore); to wash over (e.g. deck); to sweep",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76966,
+      "kanji": "有る",
+      "kana": "ある",
+      "gloss": "to be; to exist; to live; to have; to be located; to be equipped with; to happen; to come about",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118057,
+      "kanji": "或る",
+      "kana": "ある",
+      "gloss": "a certain ...; some ...",
+      "card_type": "vocab"
+    }
+  ]
+}

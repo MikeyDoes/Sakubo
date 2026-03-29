@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1111: 対比, 大部, 待望...",
+  "lesson_number": 1111,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 92337,
+      "kanji": "対比",
+      "kana": "たいひ",
+      "gloss": "contrast; comparison",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92930,
+      "kanji": "大部",
+      "kana": "たいぶ",
+      "gloss": "lengthy (of a book, etc.); voluminous; most (e.g. most part); greater; fairly; a good deal; much",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92396,
+      "kanji": "待望",
+      "kana": "たいぼう",
+      "gloss": "waiting expectantly; waiting eagerly; looking forward to; long-awaited",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92412,
+      "kanji": "怠慢",
+      "kana": "たいまん",
+      "gloss": "negligence; neglect; carelessness; procrastination",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92338,
+      "kanji": "対面",
+      "kana": "たいめん",
+      "gloss": "meeting face-to-face; seeing in person; facing (each other); opposing (traffic, etc.); confronting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 272717,
+      "kanji": "対面",
+      "kana": "トイメン",
+      "gloss": "opposite player; opposite side; (person) directly opposite",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92341,
+      "kanji": "対立",
+      "kana": "たいりつ",
+      "gloss": "confrontation; opposition; antagonism",
+      "card_type": "vocab"
+    }
+  ]
+}

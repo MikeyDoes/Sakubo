@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 486: 鋭い, 正, 正...",
+  "lesson_number": 486,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 61185,
+      "kanji": "鋭い",
+      "kana": "するどい",
+      "gloss": "sharp (blade); pointed; sharp (pain); stabbing; cutting (remark); stinging; pointed (question or look); screeching (noise); perceptive; keen; quick (mind); astute; shrewd; discerning; nimble; agile; quick",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87748,
+      "kanji": "正",
+      "kana": "せい",
+      "gloss": "(logical) true; regular; 10^40; ten thousand undecillion; original; positive; greater than zero; thesis (in dialectics)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 228612,
+      "kanji": "正",
+      "kana": "しょう",
+      "gloss": "greater (of equal court ranks); upper; senior; director (highest of the four administrative positions of the ritsuryo period); chief; exactly; precisely",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 228614,
+      "kanji": "正",
+      "kana": "まさ",
+      "gloss": "exact; precise",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87942,
+      "kanji": "生",
+      "kana": "き",
+      "gloss": "pure; undiluted; raw; crude",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87943,
+      "kanji": "生",
+      "kana": "なま",
+      "gloss": "raw; uncooked; fresh; natural; as it is; unedited; unprocessed; unprotected (sex); live (i.e. not recorded); inexperienced; unpolished; green; crude; impudence; sauciness; unpasteurized beer; draft beer; draught beer; blank (e.g. disk); unused; just a little; somehow; vaguely; partially; somewhat; half-; semi-; insufficient; incomplete; half-baked; half-hearted; perfunctory; cash; tipsiness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 175824,
+      "kanji": "生",
+      "kana": "うぶ",
+      "gloss": "innocent; naive; unsophisticated; inexperienced; green; wet behind the ears; birth-",
+      "card_type": "vocab"
+    }
+  ]
+}

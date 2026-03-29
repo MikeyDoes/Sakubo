@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1139: 繕う, 接ぐ, 接ぐ...",
+  "lesson_number": 1139,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 90405,
+      "kanji": "繕う",
+      "kana": "つくろう",
+      "gloss": "to mend; to patch up; to repair; to fix; to darn; to fix (hair, clothes, appearance etc.); to adjust; to tidy up; to groom; to keep up appearances; to cover up (e.g. a mistake); to gloss over; to treat (illness, injury, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88964,
+      "kanji": "接ぐ",
+      "kana": "つぐ",
+      "gloss": "to join; to piece together; to set (bones); to graft (onto a tree)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 228800,
+      "kanji": "接ぐ",
+      "kana": "はぐ",
+      "gloss": "to join (cloth, wood, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71171,
+      "kanji": "継ぐ",
+      "kana": "つぐ",
+      "gloss": "to succeed (a person, to a position, etc.); to inherit; to take over; to follow; to patch (clothes); to mend; to repair; to add (e.g. charcoal to the fire); to replenish with; to feed with; to follow up with (e.g. remarks); to gather (one's breath)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103581,
+      "kanji": "付け加える",
+      "kana": "つけくわえる",
+      "gloss": "to add (one thing to another); to add (a few more words, an explanation, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75631,
+      "kanji": "告げる",
+      "kana": "つげる",
+      "gloss": "to tell; to inform; to announce; to indicate; to signal; to mark",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95402,
+      "kanji": "辻褄",
+      "kana": "つじつま",
+      "gloss": "coherence; consistency",
+      "card_type": "vocab"
+    }
+  ]
+}

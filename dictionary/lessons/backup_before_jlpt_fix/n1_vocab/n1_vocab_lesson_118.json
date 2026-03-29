@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 978: 群, 軍艦, 群集...",
+  "lesson_number": 978,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 262839,
+      "kanji": "群",
+      "kana": "むら",
+      "gloss": "gathering",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70695,
+      "kanji": "軍艦",
+      "kana": "ぐんかん",
+      "gloss": "warship; battleship",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119728,
+      "kanji": "群集",
+      "kana": "ぐんしゅう",
+      "gloss": "crowd; community; group; herd; gathering; assembly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70722,
+      "kanji": "軍事",
+      "kana": "ぐんじ",
+      "gloss": "military affairs",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70804,
+      "kanji": "軍備",
+      "kana": "ぐんび",
+      "gloss": "armaments; military preparations",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70814,
+      "kanji": "軍服",
+      "kana": "ぐんぷく",
+      "gloss": "military uniform",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70892,
+      "kanji": "刑",
+      "kana": "けい",
+      "gloss": "penalty; sentence; punishment",
+      "card_type": "vocab"
+    }
+  ]
+}

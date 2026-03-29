@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 427: 劇場, 化粧, 結果...",
+  "lesson_number": 427,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 71396,
+      "kanji": "劇場",
+      "kana": "げきじょう",
+      "gloss": "theatre; theater; playhouse",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115136,
+      "kanji": "化粧",
+      "kana": "けしょう",
+      "gloss": "make-up; makeup; cosmetics",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71585,
+      "kanji": "結果",
+      "kana": "けっか",
+      "gloss": "result; consequence; outcome; effect; coming to fruition; bearing fruit; as a result; consequently; therefore",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71468,
+      "kanji": "欠陥",
+      "kana": "けっかん",
+      "gloss": "defect; fault; flaw; deformity; deficiency; shortage; gap",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71589,
+      "kanji": "結局",
+      "kana": "けっきょく",
+      "gloss": "after all; in the end; ultimately; eventually; conclusion; end; end of a game of go, shogi, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71530,
+      "kanji": "決心",
+      "kana": "けっしん",
+      "gloss": "determination; resolution",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71480,
+      "kanji": "欠席",
+      "kana": "けっせき",
+      "gloss": "absence; non-attendance",
+      "card_type": "vocab"
+    }
+  ]
+}

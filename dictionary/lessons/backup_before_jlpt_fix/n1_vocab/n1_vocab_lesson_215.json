@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1075: 樹立, 準急, 準じる...",
+  "lesson_number": 1075,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 81652,
+      "kanji": "樹立",
+      "kana": "じゅりつ",
+      "gloss": "establishment; founding; setting (a record)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83023,
+      "kanji": "準急",
+      "kana": "じゅんきゅう",
+      "gloss": "semi-express train; local express train; sub-express train",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83018,
+      "kanji": "準じる",
+      "kana": "じゅんじる",
+      "gloss": "to follow; to conform; to apply to",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83020,
+      "kanji": "準ずる",
+      "kana": "じゅんずる",
+      "gloss": "to apply correspondingly; to correspond to; to be proportionate to; to conform to",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83410,
+      "kanji": "助",
+      "kana": "じょ",
+      "gloss": "help; rescue; assistant",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83411,
+      "kanji": "助",
+      "kana": "すけ",
+      "gloss": "assistance; help; helper; babe; chick; broad",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85000,
+      "kanji": "情",
+      "kana": "じょう",
+      "gloss": "feelings; emotion; sentiment; compassion; sympathy; passion; affection; love; the way things really are; the actual situation",
+      "card_type": "vocab"
+    }
+  ]
+}

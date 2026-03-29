@@ -1,0 +1,38 @@
+{
+  "source_file": "Spoonfed Japanese Kana Lessons 1-32.ods",
+  "items": [
+    {
+      "entry_id": 325374,
+      "kanji": null,
+      "kana": "ぱ",
+      "gloss": "pa"
+    },
+    {
+      "entry_id": 325375,
+      "kanji": null,
+      "kana": "ぴ",
+      "gloss": "pi"
+    },
+    {
+      "entry_id": 325376,
+      "kanji": null,
+      "kana": "ぷ",
+      "gloss": "pu"
+    },
+    {
+      "entry_id": 325377,
+      "kanji": null,
+      "kana": "ぺ",
+      "gloss": "pe"
+    },
+    {
+      "entry_id": 325378,
+      "kanji": null,
+      "kana": "ぽ",
+      "gloss": "po"
+    }
+  ],
+  "title": "Lesson 21 (Kana) - ぱぴぷぺぽ",
+  "lesson_number": 21,
+  "description": "Teach user about tenen/handakuten"
+}

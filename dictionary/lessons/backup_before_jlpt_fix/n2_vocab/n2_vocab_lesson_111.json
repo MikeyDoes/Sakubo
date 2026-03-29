@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 727: 人造, 寝台, 診断...",
+  "lesson_number": 727,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 86663,
+      "kanji": "人造",
+      "kana": "じんぞう",
+      "gloss": "artificial; man-made; imitation; synthetic",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116262,
+      "kanji": "寝台",
+      "kana": "しんだい",
+      "gloss": "bed; couch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86272,
+      "kanji": "診断",
+      "kana": "しんだん",
+      "gloss": "diagnosis; medical examination",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85475,
+      "kanji": "侵入",
+      "kana": "しんにゅう",
+      "gloss": "invasion; incursion; raid; aggression; intrusion; trespass; penetration",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86729,
+      "kanji": "人文科学",
+      "kana": "じんぶんかがく",
+      "gloss": "humanities; social sciences; liberal arts",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86758,
+      "kanji": "人命",
+      "kana": "じんめい",
+      "gloss": "(human) life",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85862,
+      "kanji": "深夜",
+      "kana": "しんや",
+      "gloss": "late at night",
+      "card_type": "vocab"
+    }
+  ]
+}

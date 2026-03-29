@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 191: 猫, 寝る, 登る...",
+  "lesson_number": 191,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 264966,
+      "kanji": "猫",
+      "kana": "ねこま",
+      "gloss": "cat",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85493,
+      "kanji": "寝る",
+      "kana": "ねる",
+      "gloss": "to sleep (lying down); to go to bed; to lie in bed; to lie down; to sleep (with someone, i.e. have intercourse); to lie flat (e.g. of hair); to lie idle (of funds, stock, etc.); to ferment (of soy sauce, miso, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84543,
+      "kanji": "登る",
+      "kana": "のぼる",
+      "gloss": "to ascend; to go up; to climb; to ascend (as a natural process, e.g. the Sun); to rise; to go to (the capital); to be promoted; to add up to; to advance (in price); to swim up (a river); to sail up; to come up (on the agenda)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121999,
+      "kanji": "飲み物",
+      "kana": "のみもの",
+      "gloss": "drink; beverage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60492,
+      "kanji": "飲む",
+      "kana": "のむ",
+      "gloss": "to drink; to gulp; to swallow; to take (medicine); to smoke (tobacco); to engulf; to overwhelm; to keep down; to suppress; to accept (e.g. demand, condition); to make light of; to conceal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84861,
+      "kanji": "乗る",
+      "kana": "のる",
+      "gloss": "to get on (train, plane, bus, ship, etc.); to get in; to board; to take; to embark; to get on (e.g. a footstool); to step on; to jump on; to sit on; to mount; to reach; to go over; to pass; to follow; to stay (on track); to go with (the times, etc.); to take part; to participate; to join; to get into the swing (and sing, dance, etc.); to be deceived; to be taken in; to be carried; to be spread; to be scattered; to stick; to attach; to go on",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79286,
+      "kanji": "歯",
+      "kana": "は",
+      "gloss": "tooth",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 139: 体, 体, 体...",
+  "lesson_number": 139,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 92207,
+      "kanji": "体",
+      "kana": "からだ",
+      "gloss": "body; torso; trunk; build; physique; frame; figure; health; constitution; corpse; dead body",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92211,
+      "kanji": "体",
+      "kana": "たい",
+      "gloss": "body; physique; posture; shape; form; style; substance; identity; reality; field; counter for humanoid forms (e.g. dolls, statues, corpses, etc.); typeface; type",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92212,
+      "kanji": "体",
+      "kana": "てい",
+      "gloss": "appearance; air; condition; state; form",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80611,
+      "kanji": "借りる",
+      "kana": "かりる",
+      "gloss": "to borrow; to have a loan; to rent; to hire",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71279,
+      "kanji": "軽い",
+      "kana": "かるい",
+      "gloss": "light (i.e. not heavy); feeling light (i.e. offering little resistance, moving easily); light (i.e. of foot); effortless; nimble; agile; non-serious; minor; unimportant; trivial; slight; small; gentle; soft; easy; lighthearted (e.g. joke); simple; indiscriminate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 42318,
+      "kanji": "咖哩",
+      "kana": "カレー",
+      "gloss": "curry (esp. Japanese curry); rice and curry",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89582,
+      "kanji": "川",
+      "kana": "かわ",
+      "gloss": "river; stream; River; the ... river",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1194: 配給, 配偶者, 拝啓...",
+  "lesson_number": 1194,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 100663,
+      "kanji": "配給",
+      "kana": "はいきゅう",
+      "gloss": "distribution (e.g. films, rice); rationing (e.g. food, gasoline); food ration",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100666,
+      "kanji": "配偶者",
+      "kana": "はいぐうしゃ",
+      "gloss": "spouse; wife; husband; partner",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100535,
+      "kanji": "拝啓",
+      "kana": "はいけい",
+      "gloss": "Dear (so and so); Dear Sir; Dear Madam; To Whom It May Concern",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100612,
+      "kanji": "背景",
+      "kana": "はいけい",
+      "gloss": "background; scenery; backdrop; setting; background (of an incident, situation, etc.); circumstances; context; backing; support (from behind the scenes)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100613,
+      "kanji": "背後",
+      "kana": "はいご",
+      "gloss": "back; rear; background; behind the scenes",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100520,
+      "kanji": "廃止",
+      "kana": "はいし",
+      "gloss": "abolition; repeal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100538,
+      "kanji": "拝借",
+      "kana": "はいしゃく",
+      "gloss": "borrowing",
+      "card_type": "vocab"
+    }
+  ]
+}

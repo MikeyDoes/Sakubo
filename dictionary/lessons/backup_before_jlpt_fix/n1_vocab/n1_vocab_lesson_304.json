@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1164: 殿様, 帳, 帳...",
+  "lesson_number": 1164,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 96534,
+      "kanji": "殿様",
+      "kana": "とのさま",
+      "gloss": "nobleman; dignitary; lord; feudal lord (of the Edo period); daimyō; man brought up away from the world; arrogant man with little knowledge of the ways of the world",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94568,
+      "kanji": "帳",
+      "kana": "ちょう",
+      "gloss": "book; register",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 245016,
+      "kanji": "帳",
+      "kana": "とばり",
+      "gloss": "curtain; hanging; bunting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102027,
+      "kanji": "扉",
+      "kana": "とびら",
+      "gloss": "door; gate; opening; title page",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96790,
+      "kanji": "徒歩",
+      "kana": "とほ",
+      "gloss": "walking; going on foot",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 253835,
+      "kanji": "徒歩",
+      "kana": "かち",
+      "gloss": "foot soldier (Edo period); samurai on foot; going on foot; walking",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117275,
+      "kanji": "乏しい",
+      "kana": "とぼしい",
+      "gloss": "meagre; meager; scarce; limited; destitute; hard up; lacking; scanty; poor",
+      "card_type": "vocab"
+    }
+  ]
+}

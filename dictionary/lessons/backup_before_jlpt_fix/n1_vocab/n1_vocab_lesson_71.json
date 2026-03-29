@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 931: 火星, 化石, 河川...",
+  "lesson_number": 931,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 63660,
+      "kanji": "火星",
+      "kana": "かせい",
+      "gloss": "Mars (planet)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62753,
+      "kanji": "化石",
+      "kana": "かせき",
+      "gloss": "fossil; petrifaction; petrification; fossilization; fossilisation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63558,
+      "kanji": "河川",
+      "kana": "かせん",
+      "gloss": "rivers",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62757,
+      "kanji": "化繊",
+      "kana": "かせん",
+      "gloss": "synthetic fiber; synthetic fibre; chemical fiber; chemical fibre",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63940,
+      "kanji": "過疎",
+      "kana": "かそ",
+      "gloss": "depopulation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63941,
+      "kanji": "過多",
+      "kana": "かた",
+      "gloss": "excess; surplus; superabundance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116872,
+      "kanji": "難い",
+      "kana": "かたい",
+      "gloss": "difficult; hard",
+      "card_type": "vocab"
+    }
+  ]
+}

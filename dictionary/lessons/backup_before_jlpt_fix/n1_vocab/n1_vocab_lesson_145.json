@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1005: 孤児, 拵える, 拗れる...",
+  "lesson_number": 1005,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 73190,
+      "kanji": "孤児",
+      "kana": "こじ",
+      "gloss": "orphan; person without friends",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 113081,
+      "kanji": "拵える",
+      "kana": "こさえる",
+      "gloss": "to make; to manufacture",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 113064,
+      "kanji": "拗れる",
+      "kana": "こじれる",
+      "gloss": "to get complicated; to grow worse; to turn sour",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121917,
+      "kanji": "拗れる",
+      "kana": "ねじれる",
+      "gloss": "to get twisted; to get crooked; to get warped; to become twisted (of a mind, relationship, etc.); to become warped; to become perverse; to become contrary; to become troubled; to become complicated; to become strained",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73238,
+      "kanji": "故人",
+      "kana": "こじん",
+      "gloss": "the deceased; the departed",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84137,
+      "kanji": "梢",
+      "kana": "こずえ",
+      "gloss": "treetop; tip of a branch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72949,
+      "kanji": "個性",
+      "kana": "こせい",
+      "gloss": "individuality; personality; quirk; idiosyncrasy; character; individual characteristic",
+      "card_type": "vocab"
+    }
+  ]
+}

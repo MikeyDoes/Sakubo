@@ -1,0 +1,37 @@
+{
+  "lesson_number": 37,
+  "title": "Lesson 37 (Vocab) - ガイ, ギア, エゴ...",
+  "description": "ガイ (Guy), ギア (Gear). カギ (Key/Lock) is often written in Katakana in games and technical manuals.",
+  "items": [
+    {
+      "entry_id": 42419,
+      "kanji": null,
+      "kana": "ガイ",
+      "gloss": "guy"
+    },
+    {
+      "entry_id": 42811,
+      "kanji": null,
+      "kana": "ギア",
+      "gloss": "gear"
+    },
+    {
+      "entry_id": 40843,
+      "kanji": null,
+      "kana": "エゴ",
+      "gloss": "ego; egoism; egoist"
+    },
+    {
+      "entry_id": 72336,
+      "kanji": null,
+      "kana": "カギ",
+      "gloss": "key; lock; key (to a problem); clue"
+    },
+    {
+      "entry_id": 277007,
+      "kanji": null,
+      "kana": "ゴア",
+      "gloss": "gore; triangular piece of fabric, used for making skirts, umbrellas, etc."
+    }
+  ]
+}

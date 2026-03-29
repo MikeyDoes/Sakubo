@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1304: 和風, 和文, 藁...",
+  "lesson_number": 1304,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 112323,
+      "kanji": "和風",
+      "kana": "わふう",
+      "gloss": "Japanese style; light wind; moderate breeze",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112325,
+      "kanji": "和文",
+      "kana": "わぶん",
+      "gloss": "Japanese text; sentence in Japanese",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112395,
+      "kanji": "藁",
+      "kana": "わら",
+      "gloss": "straw",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123919,
+      "kanji": "割り当て",
+      "kana": "わりあて",
+      "gloss": "allotment; assignment; allocation; quota; rationing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123934,
+      "kanji": "割り込む",
+      "kana": "わりこむ",
+      "gloss": "to cut into (a line, conversation, etc.); to force oneself into (e.g. a crowd); to wedge oneself into; to squeeze oneself into; to intrude on; to interrupt; to fall below (of stock prices, sales, etc.); to drop below",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123938,
+      "kanji": "割り算",
+      "kana": "わりざん",
+      "gloss": "division",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123959,
+      "kanji": "割引き",
+      "kana": "わりびき",
+      "gloss": "discount; reduction; rebate; tenths discounted; tenths reduced",
+      "card_type": "vocab"
+    }
+  ]
+}

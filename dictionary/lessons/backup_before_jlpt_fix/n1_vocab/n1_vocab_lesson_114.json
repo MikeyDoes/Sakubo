@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 974: 茎, 区切り, 種々...",
+  "lesson_number": 974,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 135994,
+      "kanji": "茎",
+      "kana": "なかご",
+      "gloss": "core; tang (of a sword, etc.); middle of a nest of boxes",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70169,
+      "kanji": "区切り",
+      "kana": "くぎり",
+      "gloss": "punctuation; pause; juncture; end; (place to) stop",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120366,
+      "kanji": "種々",
+      "kana": "しゅじゅ",
+      "gloss": "various; a variety of; all kinds of; many; diverse",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36911,
+      "kanji": "嚏",
+      "kana": "くさめ",
+      "gloss": "sneeze; spoken twice in response to someone sneezing as a charm against an early death",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115472,
+      "kanji": "旧事",
+      "kana": "きゅうじ",
+      "gloss": "past events; bygones",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 113645,
+      "kanji": "籤引",
+      "kana": "くじびき",
+      "gloss": "lottery; drawn lot",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36921,
+      "kanji": "擽ぐったい",
+      "kana": "くすぐったい",
+      "gloss": "ticklish; embarrassing",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1066: 真相, 新築, 進呈...",
+  "lesson_number": 1066,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 86055,
+      "kanji": "真相",
+      "kana": "しんそう",
+      "gloss": "truth; real situation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85789,
+      "kanji": "新築",
+      "kana": "しんちく",
+      "gloss": "new building; new construction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86368,
+      "kanji": "進呈",
+      "kana": "しんてい",
+      "gloss": "presentation (e.g. of a gift)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86369,
+      "kanji": "進展",
+      "kana": "しんてん",
+      "gloss": "progress; development",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86160,
+      "kanji": "神殿",
+      "kana": "しんでん",
+      "gloss": "temple; sacred place; shrine; sanctuary; tabernacle",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86370,
+      "kanji": "進度",
+      "kana": "しんど",
+      "gloss": "progress",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85710,
+      "kanji": "振動",
+      "kana": "しんどう",
+      "gloss": "oscillation; vibration; swing (e.g. of a pendulum)",
+      "card_type": "vocab"
+    }
+  ]
+}

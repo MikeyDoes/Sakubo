@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 808: 日日, 捻る, 日の入り...",
+  "lesson_number": 808,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 124763,
+      "kanji": "日日",
+      "kana": "ひにち",
+      "gloss": "the number of days; date",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100133,
+      "kanji": "捻る",
+      "kana": "ひねる",
+      "gloss": "to twist; to wrench; to turn (a switch on or off, etc.); to wring (a neck); to puzzle over; to defeat easily",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99436,
+      "kanji": "日の入り",
+      "kana": "ひのいり",
+      "gloss": "sunset",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99435,
+      "kanji": "日の出",
+      "kana": "ひので",
+      "gloss": "sunrise",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37859,
+      "kanji": "響き",
+      "kana": "どよめき",
+      "gloss": "commotion; stir",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122542,
+      "kanji": "響き",
+      "kana": "ひびき",
+      "gloss": "echo; reverberation; sound (esp. the distinctive sound of an object or activity, e.g. rain, gun, gallop, drum); noise; quality of a sound (e.g. a fine phrase, clear voice, resonant bell); feeling of a sound; emotion or feeling inspired by something heard or read",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69468,
+      "kanji": "響く",
+      "kana": "ひびく",
+      "gloss": "to resound; to be heard far away; to reverberate; to shake; to vibrate; to come (home); to remain (with someone); to have an effect; to make an impression",
+      "card_type": "vocab"
+    }
+  ]
+}

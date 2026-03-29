@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1236: 平常, 平方, 並列...",
+  "lesson_number": 1236,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 105170,
+      "kanji": "平常",
+      "kana": "へいじょう",
+      "gloss": "normal; usual; ordinary; everyday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105216,
+      "kanji": "平方",
+      "kana": "へいほう",
+      "gloss": "square (e.g. metre)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105305,
+      "kanji": "並列",
+      "kana": "へいれつ",
+      "gloss": "arranging in a line; standing in a row; parallel (electronics, computing, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114333,
+      "kanji": "辟易",
+      "kana": "へきえき",
+      "gloss": "to be fed up (with); to be tired (of); to be bored (with); to be unable to bear; to be stumped; to be nonplussed; to be disconcerted; to wince; to shrink back; to cringe",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 113777,
+      "kanji": "臍",
+      "kana": "ほぞ",
+      "gloss": "navel; belly button; protrusion or depression in the middle of an object; center; centre; most important part; main point",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65249,
+      "kanji": "隔たる",
+      "kana": "へだたる",
+      "gloss": "to be distant",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122844,
+      "kanji": "謙る",
+      "kana": "へりくだる",
+      "gloss": "to deprecate oneself and praise the listener; to abase oneself",
+      "card_type": "vocab"
+    }
+  ]
+}

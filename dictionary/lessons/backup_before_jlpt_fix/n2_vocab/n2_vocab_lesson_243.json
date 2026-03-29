@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 859: 若々しい, 詫びる, 和服...",
+  "lesson_number": 859,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 123857,
+      "kanji": "若々しい",
+      "kana": "わかわかしい",
+      "gloss": "youthful; young; young-looking",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123913,
+      "kanji": "詫びる",
+      "kana": "わびる",
+      "gloss": "to apologize; to apologise",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112324,
+      "kanji": "和服",
+      "kana": "わふく",
+      "gloss": "Japanese clothes",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124924,
+      "kanji": "割合に",
+      "kana": "わりあいに",
+      "gloss": "comparatively",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123940,
+      "kanji": "割算",
+      "kana": "わりざん",
+      "gloss": "division",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 169074,
+      "kanji": "割と",
+      "kana": "わりと",
+      "gloss": "relatively; comparatively",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112415,
+      "kanji": "椀",
+      "kana": "わん",
+      "gloss": "bowl (wooden); counter for bowls of food or drink",
+      "card_type": "vocab"
+    }
+  ]
+}

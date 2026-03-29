@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 890: 受け入れる, 受け継ぐ, 受け付ける...",
+  "lesson_number": 890,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 81543,
+      "kanji": "受け入れる",
+      "kana": "うけいれる",
+      "gloss": "to accept; to receive; to agree",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81527,
+      "kanji": "受け継ぐ",
+      "kana": "うけつぐ",
+      "gloss": "to inherit; to succeed; to take over",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81552,
+      "kanji": "受け付ける",
+      "kana": "うけつける",
+      "gloss": "to accept; to receive (an application); to take up; to (be able to) take (food, medicine, etc.); to bear; to tolerate; to endure; to be affected by; to take damage from",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81531,
+      "kanji": "受け止める",
+      "kana": "うけとめる",
+      "gloss": "to catch; to stop the blow; to react to; to take (advice, etc.); to accept; to come to grips with",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81564,
+      "kanji": "受け取り",
+      "kana": "うけとり",
+      "gloss": "receiving; receipt",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81580,
+      "kanji": "受身",
+      "kana": "うけみ",
+      "gloss": "the defensive; passive attitude; passivity; passiveness; the passive; passive voice; ukemi (the art of falling safely)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97757,
+      "kanji": "動き",
+      "kana": "うごき",
+      "gloss": "movement; move; motion; trend; development; change; fluctuation",
+      "card_type": "vocab"
+    }
+  ]
+}

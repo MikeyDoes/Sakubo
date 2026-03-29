@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 332: 不便, 不便, 踏む...",
+  "lesson_number": 332,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 103456,
+      "kanji": "不便",
+      "kana": "ふべん",
+      "gloss": "inconvenience; inexpediency; unhandiness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 122720,
+      "kanji": "不便",
+      "kana": "ふびん",
+      "gloss": "poor; pitiful; piteous; pitiable",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97622,
+      "kanji": "踏む",
+      "kana": "ふむ",
+      "gloss": "to step on; to tread on; to trample on; to set foot on (e.g. foreign soil); to stand on; to visit; to experience; to undergo; to follow (rules, principles, etc.); to go through (e.g. formalities); to complete; to estimate; to guess; to judge; to value; to appraise; to rhyme; to succeed to (e.g. the throne)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75252,
+      "kanji": "降り出す",
+      "kana": "ふりだす",
+      "gloss": "to begin to rain; to begin to snow",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104889,
+      "kanji": "文化",
+      "kana": "ぶんか",
+      "gloss": "culture; civilization; civilisation; Bunka era (1804.2.11-1818.4.22)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104896,
+      "kanji": "文学",
+      "kana": "ぶんがく",
+      "gloss": "literature",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104944,
+      "kanji": "文法",
+      "kana": "ぶんぽう",
+      "gloss": "grammar",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1023: 叫び, 裂ける, 捧げる...",
+  "lesson_number": 1023,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 69132,
+      "kanji": "叫び",
+      "kana": "さけび",
+      "gloss": "shout; scream; outcry",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111795,
+      "kanji": "裂ける",
+      "kana": "さける",
+      "gloss": "to split; to tear; to burst; to be separated; to be divided",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106324,
+      "kanji": "捧げる",
+      "kana": "ささげる",
+      "gloss": "to lift up; to hold up; to hold above eye level; to give; to offer; to consecrate; to devote; to sacrifice; to dedicate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76319,
+      "kanji": "差し掛かる",
+      "kana": "さしかかる",
+      "gloss": "to come near; to approach; to be on the verge of; to be about to; to overhang; to hang over",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78848,
+      "kanji": "指図",
+      "kana": "さしず",
+      "gloss": "directions; instructions; orders; command",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76338,
+      "kanji": "差し出す",
+      "kana": "さしだす",
+      "gloss": "to present; to submit; to tender; to hold out",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76330,
+      "kanji": "差し支える",
+      "kana": "さしつかえる",
+      "gloss": "to interfere (with); to hinder; to be hindered (from doing); to become impeded; to have difficulty; to suffer inconvenience",
+      "card_type": "vocab"
+    }
+  ]
+}

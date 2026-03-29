@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1233: 無難, 部門, 武力...",
+  "lesson_number": 1233,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 108100,
+      "kanji": "無難",
+      "kana": "ぶなん",
+      "gloss": "safe (e.g. choice); secure; innocuous; inoffensive; acceptable; passable; satisfactory; adequate; faultless; without flaw",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104151,
+      "kanji": "部門",
+      "kana": "ぶもん",
+      "gloss": "division (of a larger group); branch; field; class (subclass); group; category; department",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104062,
+      "kanji": "武力",
+      "kana": "ぶりょく",
+      "gloss": "armed might; military power; the sword; force",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108138,
+      "kanji": "無礼",
+      "kana": "ぶれい",
+      "gloss": "rudeness; impoliteness; discourtesy; insolence",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 313678,
+      "kanji": "無礼",
+      "kana": "なめ",
+      "gloss": "rude; impolite; discourteous; insolent",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104892,
+      "kanji": "文化財",
+      "kana": "ぶんかざい",
+      "gloss": "cultural assets; cultural property",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104664,
+      "kanji": "分業",
+      "kana": "ぶんぎょう",
+      "gloss": "division of labor; division of labour; specialization; specialisation; assembly-line production",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 170: 台所, 大変, 対辺...",
+  "lesson_number": 170,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 92657,
+      "kanji": "台所",
+      "kana": "だいどころ",
+      "gloss": "kitchen; financial situation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92947,
+      "kanji": "大変",
+      "kana": "たいへん",
+      "gloss": "very; greatly; terribly; awfully; immense; enormous; great; serious; grave; dreadful; terrible; difficult; hard; major incident; disaster",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 130729,
+      "kanji": "対辺",
+      "kana": "たいへん",
+      "gloss": "opposite side",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93059,
+      "kanji": "沢山",
+      "kana": "たくさん",
+      "gloss": "a lot; lots; plenty; many; a large number; much; a great deal; a good deal; enough; sufficient; too many; too much",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75297,
+      "kanji": "高い",
+      "kana": "たかい",
+      "gloss": "high; tall; expensive; high-priced; high (level); above average (in degree, quality, etc.); loud; high-pitched; shrill",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82611,
+      "kanji": "出す",
+      "kana": "だす",
+      "gloss": "to take out; to get out; to put out; to reveal; to show; to submit (e.g. thesis); to turn in; to publish; to make public; to send (e.g. letter); to produce (a sound); to start (fire); to serve (food); ... out (e.g. to jump out, to carry out); to begin ...; to start to ...; to burst into ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121023,
+      "kanji": "立つ",
+      "kana": "たつ",
+      "gloss": "to stand; to rise; to stand up; to find oneself (e.g. in a difficult position); to depart (on a plane, train, etc.)",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 926: 画, 画, 格差...",
+  "lesson_number": 926,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 64096,
+      "kanji": "画",
+      "kana": "かく",
+      "gloss": "stroke (of a kanji, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64754,
+      "kanji": "画",
+      "kana": "え",
+      "gloss": "picture; drawing; painting; sketch; image (TV, film, etc.); footage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65136,
+      "kanji": "格差",
+      "kana": "かくさ",
+      "gloss": "qualitative difference; disparity; gap",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65109,
+      "kanji": "拡散",
+      "kana": "かくさん",
+      "gloss": "scattering; diffusion; spread (e.g. signal across the spectrum)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65095,
+      "kanji": "各種",
+      "kana": "かくしゅ",
+      "gloss": "every kind; all sorts",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124008,
+      "kanji": "隔週",
+      "kana": "かくしゅう",
+      "gloss": "every other week; every two weeks",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65198,
+      "kanji": "確信",
+      "kana": "かくしん",
+      "gloss": "conviction; belief; confidence",
+      "card_type": "vocab"
+    }
+  ]
+}

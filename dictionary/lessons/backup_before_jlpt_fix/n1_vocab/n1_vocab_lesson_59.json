@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 919: 下位, 階, 階...",
+  "lesson_number": 919,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 62440,
+      "kanji": "下位",
+      "kana": "かい",
+      "gloss": "low rank; lower position; subordinate position; lower order (e.g. byte)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64851,
+      "kanji": "階",
+      "kana": "かい",
+      "gloss": "storey; story; floor; stairs; stage (in chronostratigraphy); counter for storeys and floors of a building",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 244620,
+      "kanji": "階",
+      "kana": "きざはし",
+      "gloss": "stairs; stairs at the front of a noh stage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64543,
+      "kanji": "改悪",
+      "kana": "かいあく",
+      "gloss": "deterioration; changing for the worse",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64596,
+      "kanji": "海運",
+      "kana": "かいうん",
+      "gloss": "maritime; marine transportation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64545,
+      "kanji": "改革",
+      "kana": "かいかく",
+      "gloss": "reform; reformation; reorganization",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64862,
+      "kanji": "貝殻",
+      "kana": "かいがら",
+      "gloss": "seashell; shell",
+      "card_type": "vocab"
+    }
+  ]
+}

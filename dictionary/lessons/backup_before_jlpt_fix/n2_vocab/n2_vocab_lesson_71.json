@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 687: 耕地, 交通機関, 校庭...",
+  "lesson_number": 687,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 75016,
+      "kanji": "耕地",
+      "kana": "こうち",
+      "gloss": "arable land",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73992,
+      "kanji": "交通機関",
+      "kana": "こうつうきかん",
+      "gloss": "(means of) transportation; transport; transportation facilities; transportation system; transit system",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74847,
+      "kanji": "校庭",
+      "kana": "こうてい",
+      "gloss": "schoolyard; playground; school grounds; campus",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75042,
+      "kanji": "肯定",
+      "kana": "こうてい",
+      "gloss": "affirmation; affirmative (logic)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75368,
+      "kanji": "高度",
+      "kana": "こうど",
+      "gloss": "altitude; height; elevation; high-degree; high-grade; advanced; sophisticated; strong",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75370,
+      "kanji": "高等",
+      "kana": "こうとう",
+      "gloss": "high class; high grade",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75534,
+      "kanji": "合同",
+      "kana": "ごうどう",
+      "gloss": "combination; union; incorporation; amalgamation; fusion; congruence",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1120: 単一, 単一, 短歌...",
+  "lesson_number": 1120,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 93238,
+      "kanji": "単一",
+      "kana": "たんいつ",
+      "gloss": "single; simple; sole; individual; unitary",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 272096,
+      "kanji": "単一",
+      "kana": "たんいち",
+      "gloss": "D battery; D cell",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93417,
+      "kanji": "短歌",
+      "kana": "たんか",
+      "gloss": "tanka; 31-mora Japanese poem",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93356,
+      "kanji": "担架",
+      "kana": "たんか",
+      "gloss": "stretcher; litter (medical); gurney",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93422,
+      "kanji": "短気",
+      "kana": "たんき",
+      "gloss": "short temper; quick temper; hot temper; impatience; irritability",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121097,
+      "kanji": "探検",
+      "kana": "たんけん",
+      "gloss": "exploration; expedition",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93434,
+      "kanji": "短縮",
+      "kana": "たんしゅく",
+      "gloss": "shortening; contraction; reduction; curtailment; abbreviation",
+      "card_type": "vocab"
+    }
+  ]
+}

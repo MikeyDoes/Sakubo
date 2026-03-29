@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 237: 以内, 田舎, 田舎...",
+  "lesson_number": 237,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 58474,
+      "kanji": "以内",
+      "kana": "いない",
+      "gloss": "within; inside of; less than",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96550,
+      "kanji": "田舎",
+      "kana": "いなか",
+      "gloss": "rural area; countryside; the sticks; hometown",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 275281,
+      "kanji": "田舎",
+      "kana": "でんしゃ",
+      "gloss": "country; country home",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67481,
+      "kanji": "祈る",
+      "kana": "いのる",
+      "gloss": "to pray; to wish",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85132,
+      "kanji": "植える",
+      "kana": "うえる",
+      "gloss": "to plant; to grow; to raise; to insert; to transplant; to implant; to set (type); to inoculate (e.g. an infectious agent); to instill (idea, value, etc.); to inculcate",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60830,
+      "kanji": "窺う",
+      "kana": "うかがう",
+      "gloss": "to peep (through); to peek; to examine (esp. covertly); to await (one's chance); to guess; to infer; to gather; to surmise",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78285,
+      "kanji": "伺う",
+      "kana": "うかがう",
+      "gloss": "to ask; to inquire; to hear; to be told; to implore (a god for an oracle); to seek direction (from your superior); to visit; to speak to (a large crowd at a theatre, etc.)",
+      "card_type": "vocab"
+    }
+  ]
+}

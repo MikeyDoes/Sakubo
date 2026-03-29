@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 288: 住所, 柔道, 十分...",
+  "lesson_number": 288,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 82101,
+      "kanji": "住所",
+      "kana": "じゅうしょ",
+      "gloss": "address (e.g. of house); residence; domicile",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82287,
+      "kanji": "柔道",
+      "kana": "じゅうどう",
+      "gloss": "judo",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82229,
+      "kanji": "十分",
+      "kana": "じっぷん",
+      "gloss": "10 minutes",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82231,
+      "kanji": "十分",
+      "kana": "じゅうぶん",
+      "gloss": "enough; sufficient; plenty; adequate; satisfactory; sufficiently; fully; thoroughly; well; perfectly; division into ten",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82763,
+      "kanji": "出席",
+      "kana": "しゅっせき",
+      "gloss": "attendance; presence; appearance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82825,
+      "kanji": "出発",
+      "kana": "しゅっぱつ",
+      "gloss": "departure",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81438,
+      "kanji": "趣味",
+      "kana": "しゅみ",
+      "gloss": "hobby; pastime; tastes; preference; liking",
+      "card_type": "vocab"
+    }
+  ]
+}

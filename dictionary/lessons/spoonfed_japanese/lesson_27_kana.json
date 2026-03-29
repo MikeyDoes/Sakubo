@@ -1,0 +1,44 @@
+{
+  "title": "Lesson 38: (Kana) - Lesson 38: (Katakana) \"パ, ピ, プ, ペ, ポ\"",
+  "lesson_type": "kana",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Handakuten in Katakana",
+      "body": "Handakuten (゜) works the same in katakana — the small circle changes the ハ row to 'p' sounds:\n\nハ → パ (ha → pa)\nヒ → ピ (hi → pi)\nフ → プ (fu → pu)\nヘ → ペ (he → pe)\nホ → ポ (ho → po)"
+    }
+  ],
+  "items": [
+    {
+      "entry_id": 325274,
+      "kana": "パ",
+      "gloss": "pa",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325275,
+      "kana": "ピ",
+      "gloss": "pi",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325276,
+      "kana": "プ",
+      "gloss": "pu",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325277,
+      "kana": "ペ",
+      "gloss": "pe",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325278,
+      "kana": "ポ",
+      "gloss": "po",
+      "card_type": "kana"
+    }
+  ],
+  "lesson_number": 38
+}

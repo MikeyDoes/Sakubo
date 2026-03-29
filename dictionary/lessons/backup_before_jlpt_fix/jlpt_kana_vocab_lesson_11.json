@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 11: ポケット, ポスト, ボタン...",
+  "lesson_number": 1317,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 54368,
+      "kana": "ポケット",
+      "gloss": "pocket",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 54397,
+      "kana": "ポスト",
+      "gloss": "postbox; mailbox; mail box; pillar box; post; position; post (e.g. goalpost); post- (e.g. post-Cold War)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62235,
+      "kana": "ボタン",
+      "gloss": "tree peony (Paeonia suffruticosa); moutan; wild boar (meat)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 54027,
+      "kana": "ホテル",
+      "gloss": "hotel",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 277060,
+      "kana": "マッチ",
+      "gloss": "match (contest); to match with; to go well with",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 38449,
+      "kana": "もう",
+      "gloss": "now; soon; shortly; before long; presently; already; yet; by now; (not) anymore; further; more; again; another; the other; tsk; dammit; jeez; come on; what the hell",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 38468,
+      "kana": "もっと",
+      "gloss": "(some) more; even more; longer; further",
+      "card_type": "vocab"
+    }
+  ]
+}

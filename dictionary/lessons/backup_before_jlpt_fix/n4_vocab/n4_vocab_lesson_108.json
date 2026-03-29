@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 336: 先ず, 混ず, 又は...",
+  "lesson_number": 336,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 89237,
+      "kanji": "先ず",
+      "kana": "まず",
+      "gloss": "first (of all); firstly; to begin with; before anything else; probably; most likely; almost certainly; virtually; more or less (satisfactory); on the whole; reasonably; anyway; at any rate; for now (at least); for the time being",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 276974,
+      "kanji": "混ず",
+      "kana": "まず",
+      "gloss": "to mix; to stir; to blend",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107399,
+      "kanji": "又は",
+      "kana": "または",
+      "gloss": "or; either ... or ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66453,
+      "kanji": "間違える",
+      "kana": "まちがえる",
+      "gloss": "to make a mistake (in); to commit an error (e.g. in calculation); to confuse; to mistake something for something else",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66442,
+      "kanji": "間に合う",
+      "kana": "まにあう",
+      "gloss": "to be in time (for); to serve (suit, meet) the purpose; to be good enough; to be enough; to manage; to make do",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123192,
+      "kanji": "周り",
+      "kana": "まわり",
+      "gloss": "circumference; girth; surroundings; neighbourhood; neighborhood; vicinity; people surrounding oneself; surrounding circumstances",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83091,
+      "kanji": "回る",
+      "kana": "めぐる",
+      "gloss": "to go around; to return; to surround; to concern (usu. of disputes)",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 440: 小包, 事, 事...",
+  "lesson_number": 440,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 119908,
+      "kanji": "小包",
+      "kana": "こづつみ",
+      "gloss": "parcel; package",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79356,
+      "kanji": "事",
+      "kana": "こん",
+      "gloss": "thing; matter; incident; occurrence; event; something serious; trouble; crisis; circumstances; situation; state of affairs; work; business; affair; after an inflectable word, creates a noun phrase indicating something the speaker does not feel close to; nominalizing suffix; pretending to ...; playing make-believe ...; alias; also known as; otherwise known as; or; necessity; need; you should ...; I advise that you ...; it's important to ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 196953,
+      "kanji": "事",
+      "kana": "じ",
+      "gloss": "individual concrete phenomenon (as opposed to a general principle)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 253972,
+      "kanji": "事",
+      "kana": "ごと",
+      "gloss": "nominalizing suffix; pretending to ...; playing make-believe ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58775,
+      "kanji": "異なる",
+      "kana": "ことなる",
+      "gloss": "to differ; to vary; to disagree",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72901,
+      "kanji": "諺",
+      "kana": "ことわざ",
+      "gloss": "proverb; saying; aphorism; maxim",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93559,
+      "kanji": "断る",
+      "kana": "ことわる",
+      "gloss": "to refuse; to reject; to dismiss; to turn down; to decline; to inform; to give notice; to tell in advance; to ask leave; to excuse oneself (from)",
+      "card_type": "vocab"
+    }
+  ]
+}

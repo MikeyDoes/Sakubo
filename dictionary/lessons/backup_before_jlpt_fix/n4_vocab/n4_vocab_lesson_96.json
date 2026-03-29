@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 324: 乗り物, 葉, 葉...",
+  "lesson_number": 324,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 122030,
+      "kanji": "乗り物",
+      "kana": "のりもの",
+      "gloss": "vehicle; conveyance; transport; ride (playground, fair, carnival); playground facility",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110273,
+      "kanji": "葉",
+      "kana": "は",
+      "gloss": "leaf; blade (of grass); (pine) needle",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 207469,
+      "kanji": "葉",
+      "kana": "よう",
+      "gloss": "counter for leaves, pieces of paper, etc.; counter for boats",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84958,
+      "kanji": "場合",
+      "kana": "ばあい",
+      "gloss": "case; situation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100685,
+      "kanji": "倍",
+      "kana": "ばい",
+      "gloss": "twice; double; times; -fold; 1-nth; 1 to n; 1 in n",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100536,
+      "kanji": "拝見",
+      "kana": "はいけん",
+      "gloss": "seeing; looking at",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79299,
+      "kanji": "歯医者",
+      "kana": "はいしゃ",
+      "gloss": "dentist",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 131: 女の子, 外国, 外国人...",
+  "lesson_number": 131,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 271277,
+      "kanji": "女の子",
+      "kana": "めのこ",
+      "gloss": "woman; girl",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64919,
+      "kanji": "外国",
+      "kana": "がいこく",
+      "gloss": "foreign country",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64923,
+      "kanji": "外国人",
+      "kana": "がいこくじん",
+      "gloss": "foreigner; foreign citizen; foreign national; alien; non-Japanese",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64268,
+      "kanji": "会社",
+      "kana": "かいしゃ",
+      "gloss": "company; corporation; workplace",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64858,
+      "kanji": "階段",
+      "kana": "かいだん",
+      "gloss": "stairs; stairway; staircase",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118900,
+      "kanji": "買い物",
+      "kana": "かいもの",
+      "gloss": "shopping; purchased goods",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100759,
+      "kanji": "買う",
+      "kana": "かう",
+      "gloss": "to buy; to purchase; to value; to have a high opinion; to stir; to provoke; to draw upon oneself",
+      "card_type": "vocab"
+    }
+  ]
+}

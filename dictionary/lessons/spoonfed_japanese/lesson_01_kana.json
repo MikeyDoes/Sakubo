@@ -1,0 +1,44 @@
+{
+  "title": "Lesson 1: (Kana) - Lesson 1: (Hiragana) \"あ, い, う, え, お\"",
+  "lesson_type": "kana",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Welcome to Hiragana",
+      "body": "Hiragana is one of three Japanese writing systems. It's a syllabary — unlike an alphabet where each letter is a single sound (like 'b' or 'a'), each hiragana character represents a whole syllable (like 'ka' or 'shi').\n\nJapanese has no spaces between words. You'll learn to recognize word boundaries through practice.\n\nThere are 46 basic hiragana characters. Let's start with the five vowels: あ, い, う, え, お."
+    }
+  ],
+  "items": [
+    {
+      "entry_id": 325133,
+      "kana": "あ",
+      "gloss": "a",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325134,
+      "kana": "い",
+      "gloss": "i",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325135,
+      "kana": "う",
+      "gloss": "u",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325136,
+      "kana": "え",
+      "gloss": "e",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325137,
+      "kana": "お",
+      "gloss": "o",
+      "card_type": "kana"
+    }
+  ],
+  "lesson_number": 1
+}

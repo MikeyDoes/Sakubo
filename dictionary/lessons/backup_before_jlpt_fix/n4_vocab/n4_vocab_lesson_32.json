@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 260: 急, 急行, 教育...",
+  "lesson_number": 260,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 68267,
+      "kanji": "急",
+      "kana": "きゅう",
+      "gloss": "sudden; abrupt; unexpected; urgent; pressing; steep; sharp; precipitous; rapid; swift; fast; emergency; crisis; danger; urgency; hurrying; haste; (in gagaku or noh) end of a song",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68287,
+      "kanji": "急行",
+      "kana": "きゅうこう",
+      "gloss": "hurrying (to somewhere); rushing; hastening; express (train)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69259,
+      "kanji": "教育",
+      "kana": "きょういく",
+      "gloss": "education; schooling; training; instruction; teaching; upbringing; culture; cultivation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69267,
+      "kanji": "教会",
+      "kana": "きょうかい",
+      "gloss": "church; congregation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68952,
+      "kanji": "競争",
+      "kana": "きょうそう",
+      "gloss": "competition; contest; rivalry; race; competition (between organisms or species)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69444,
+      "kanji": "興味",
+      "kana": "きょうみ",
+      "gloss": "interest (in something); curiosity (about something); zest (for)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69944,
+      "kanji": "近所",
+      "kana": "きんじょ",
+      "gloss": "neighbourhood; neighborhood",
+      "card_type": "vocab"
+    }
+  ]
+}

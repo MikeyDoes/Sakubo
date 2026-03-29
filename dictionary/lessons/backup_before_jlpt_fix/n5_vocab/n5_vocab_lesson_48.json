@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 148: 結構, 結婚, 月曜日...",
+  "lesson_number": 148,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 71592,
+      "kanji": "結構",
+      "kana": "けっこう",
+      "gloss": "splendid; nice; wonderful; delicious; sweet; sufficient; fine (in the sense of \"I'm fine\"); (by implication) no thank you; well enough; OK; tolerable; quite; reasonably; fairly; tolerably; construction; architecture",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71595,
+      "kanji": "結婚",
+      "kana": "けっこん",
+      "gloss": "marriage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71738,
+      "kanji": "月曜日",
+      "kana": "げつようび",
+      "gloss": "Monday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72678,
+      "kanji": "玄関",
+      "kana": "げんかん",
+      "gloss": "entrance; front door; entryway; entranceway; entry hall; vestibule; porch; foyer; mud room",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72378,
+      "kanji": "元気",
+      "kana": "げんき",
+      "gloss": "lively; full of spirit; energetic; vigorous; vital; spirited; healthy; well; fit; in good health",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 272013,
+      "kanji": "五",
+      "kana": "ウー",
+      "gloss": "five",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74096,
+      "kanji": "公園",
+      "kana": "こうえん",
+      "gloss": "(public) park",
+      "card_type": "vocab"
+    }
+  ]
+}

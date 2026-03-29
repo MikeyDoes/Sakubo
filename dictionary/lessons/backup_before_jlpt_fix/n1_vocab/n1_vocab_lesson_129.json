@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 989: 元首, 原書, 減少...",
+  "lesson_number": 989,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 72400,
+      "kanji": "元首",
+      "kana": "げんしゅ",
+      "gloss": "sovereign; ruler; head of state",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72511,
+      "kanji": "原書",
+      "kana": "げんしょ",
+      "gloss": "original document (not a copy or adaptation); book in its original language (esp. a European language)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72657,
+      "kanji": "減少",
+      "kana": "げんしょう",
+      "gloss": "decrease; reduction; decline",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119804,
+      "kanji": "元素",
+      "kana": "げんそ",
+      "gloss": "element; chemical element; (classical) element (e.g. earth, water, air, fire); origin; source",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72533,
+      "kanji": "原則",
+      "kana": "げんそく",
+      "gloss": "principle; general rule; as a rule; in principle; in general",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72740,
+      "kanji": "現像",
+      "kana": "げんぞう",
+      "gloss": "development (of film); photographic processing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72746,
+      "kanji": "現地",
+      "kana": "げんち",
+      "gloss": "actual place; local; on-site",
+      "card_type": "vocab"
+    }
+  ]
+}

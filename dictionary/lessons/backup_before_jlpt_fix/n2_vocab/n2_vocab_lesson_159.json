@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 775: 天皇, 天皇, 天皇...",
+  "lesson_number": 775,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 116677,
+      "kanji": "天皇",
+      "kana": "てんのう",
+      "gloss": "Emperor of Japan",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 298879,
+      "kanji": "天皇",
+      "kana": "すめらみこと",
+      "gloss": "Emperor of Japan",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 298890,
+      "kanji": "天皇",
+      "kana": "すめらぎ",
+      "gloss": "Emperor of Japan",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96673,
+      "kanji": "電波",
+      "kana": "でんぱ",
+      "gloss": "radio wave; reception; signal; saying strange things",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96681,
+      "kanji": "電流",
+      "kana": "でんりゅう",
+      "gloss": "electric current",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96683,
+      "kanji": "電力",
+      "kana": "でんりょく",
+      "gloss": "electric power",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121487,
+      "kanji": "問い合わせ",
+      "kana": "といあわせ",
+      "gloss": "enquiry; inquiry; query; interrogation; ENQ",
+      "card_type": "vocab"
+    }
+  ]
+}

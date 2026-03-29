@@ -1,0 +1,37 @@
+{
+  "title": "Lesson 40: (Kana) - Lesson 40: (Katakana) \"マ, ミ, ム, メ, モ\"",
+  "lesson_type": "kana",
+  "items": [
+    {
+      "entry_id": 325211,
+      "kana": "マ",
+      "gloss": "ma",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325212,
+      "kana": "ミ",
+      "gloss": "mi",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325213,
+      "kana": "ム",
+      "gloss": "mu",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325214,
+      "kana": "メ",
+      "gloss": "me",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325215,
+      "kana": "モ",
+      "gloss": "mo",
+      "card_type": "kana"
+    }
+  ],
+  "lesson_number": 40
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1113: 巧み, 類, 類...",
+  "lesson_number": 1113,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 74680,
+      "kanji": "巧み",
+      "kana": "たくみ",
+      "gloss": "skillful; adroit; dexterous; masterful; clever; ingenious; cunning",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111511,
+      "kanji": "類",
+      "kana": "るい",
+      "gloss": "kind; sort; type; class; genus; order; family; similar example; parallel; the like",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120951,
+      "kanji": "類",
+      "kana": "たぐい",
+      "gloss": "kind; sort; type; equal; match; peer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37567,
+      "kanji": "丈",
+      "kana": "だけ",
+      "gloss": "only; just; merely; simply; no more than; nothing but; alone; as much as; to the extent of; enough to",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 190943,
+      "kanji": "丈",
+      "kana": "じょう",
+      "gloss": "3.03 meters (ten shaku); length; measure; Mr.; Mrs.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91618,
+      "kanji": "足し算",
+      "kana": "たしざん",
+      "gloss": "addition",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91996,
+      "kanji": "多数決",
+      "kana": "たすうけつ",
+      "gloss": "majority decision; majority vote; majority rule",
+      "card_type": "vocab"
+    }
+  ]
+}

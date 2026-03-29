@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 333: 別, 別, 変...",
+  "lesson_number": 333,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 105421,
+      "kanji": "別",
+      "kana": "べつ",
+      "gloss": "distinction; difference; discrimination; separate; different; another; extra; exception; exclusion; classified by; ranked by; according to",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 208030,
+      "kanji": "別",
+      "kana": "わけ",
+      "gloss": "lord (hereditary title for imperial descendants in outlying regions)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105563,
+      "kanji": "変",
+      "kana": "へん",
+      "gloss": "strange; odd; peculiar; weird; curious; queer; eccentric; funny; suspicious; fishy; unexpected; change; incident; disturbance; disaster; accident; flat",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105760,
+      "kanji": "返事",
+      "kana": "へんじ",
+      "gloss": "reply; answer; response",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106800,
+      "kanji": "貿易",
+      "kana": "ぼうえき",
+      "gloss": "trade (foreign)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106365,
+      "kanji": "放送",
+      "kana": "ほうそう",
+      "gloss": "broadcast; broadcasting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106445,
+      "kanji": "法律",
+      "kana": "ほうりつ",
+      "gloss": "law",
+      "card_type": "vocab"
+    }
+  ]
+}

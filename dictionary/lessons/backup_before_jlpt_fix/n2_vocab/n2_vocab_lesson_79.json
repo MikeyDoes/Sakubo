@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 695: ご覧, 転がす, 転がる...",
+  "lesson_number": 695,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 73781,
+      "kanji": "ご覧",
+      "kana": "ごらん",
+      "gloss": "(please) try to; (please) look; seeing; looking; watching",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96352,
+      "kanji": "転がす",
+      "kana": "ころがす",
+      "gloss": "to roll; to wheel; to trundle; to drive (a car); to turn over; to tip over; to throw down; to leave; to buy and sell (quickly for a profit)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96354,
+      "kanji": "転がる",
+      "kana": "ころがる",
+      "gloss": "to roll; to tumble; to fall over; to roll over; to lie down; to be scattered about; to be lying around; (of a situation or outcome) to change; to turn out; to come easily; to be common; to fall into one's hands; to grow on trees",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76241,
+      "kanji": "紺",
+      "kana": "こん",
+      "gloss": "navy blue; deep blue",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 44124,
+      "kanji": "混凝土",
+      "kana": "コンクリート",
+      "gloss": "concrete",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76216,
+      "kanji": "混合",
+      "kana": "こんごう",
+      "gloss": "mixing; mixture; meld; miscegenation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72055,
+      "kanji": "献立",
+      "kana": "こんだて",
+      "gloss": "menu; bill of fare; program; programme; schedule",
+      "card_type": "vocab"
+    }
+  ]
+}

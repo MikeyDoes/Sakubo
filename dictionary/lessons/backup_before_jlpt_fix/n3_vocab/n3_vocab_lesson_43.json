@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 392: 隠れる, 影, 陰...",
+  "lesson_number": 392,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 60598,
+      "kanji": "隠れる",
+      "kana": "かくれる",
+      "gloss": "to hide; to be hidden; to conceal oneself; to disappear",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119042,
+      "kanji": "影",
+      "kana": "かげ",
+      "gloss": "shadow; silhouette; figure; shape; reflection; image; ominous sign; light (stars, moon); trace; shadow (of one's former self)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 60538,
+      "kanji": "陰",
+      "kana": "いん",
+      "gloss": "(the) negative (e.g. pole); yin (in Chinese divination); hidden place; unseen part; private location",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119044,
+      "kanji": "陰",
+      "kana": "かげ",
+      "gloss": "shade; shadow; behind (something); other side; back; background; behind the scenes; behind someone's back; gloom (in someone's expression, nature, etc.); darkness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 259574,
+      "kanji": "陰",
+      "kana": "ほと",
+      "gloss": "female private parts; female genitals",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71463,
+      "kanji": "欠ける",
+      "kana": "かける",
+      "gloss": "to be chipped; to be damaged; to be broken; to be lacking; to be missing; to be insufficient; to be short; to be deficient; to be negligent toward; to wane (e.g. moon); to go into eclipse",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63151,
+      "kanji": "加減",
+      "kana": "かげん",
+      "gloss": "degree; extent; amount; balance; state; condition; (health) condition; state of health; adjustment; moderation; regulation; addition and subtraction; slight sign of ...; slight state of ...; just right for ...",
+      "card_type": "vocab"
+    }
+  ]
+}

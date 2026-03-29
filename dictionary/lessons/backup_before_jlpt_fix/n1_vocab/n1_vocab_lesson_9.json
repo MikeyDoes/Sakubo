@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 869: 当て字, 宛てる, 跡継ぎ...",
+  "lesson_number": 869,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 97432,
+      "kanji": "当て字",
+      "kana": "あてじ",
+      "gloss": "kanji used as a phonetic symbol, instead of for the meaning; phonetic-equivalent character; substitute character; kanji used for their meaning, irrespective of reading",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58226,
+      "kanji": "宛てる",
+      "kana": "あてる",
+      "gloss": "to address",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88675,
+      "kanji": "跡継ぎ",
+      "kana": "あとつぎ",
+      "gloss": "heir; inheritor; successor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73557,
+      "kanji": "後回し",
+      "kana": "あとまわし",
+      "gloss": "putting off; postponing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115390,
+      "kanji": "貴女",
+      "kana": "きじょ",
+      "gloss": "you; noblewoman; lady",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 310583,
+      "kanji": "彼の",
+      "kana": "かの",
+      "gloss": "that well-known ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36254,
+      "kanji": "溢れる",
+      "kana": "あぶれる",
+      "gloss": "to fail (in getting a job); to miss out (at fishing, hunting, etc.); to be left out; to be crowded out",
+      "card_type": "vocab"
+    }
+  ]
+}

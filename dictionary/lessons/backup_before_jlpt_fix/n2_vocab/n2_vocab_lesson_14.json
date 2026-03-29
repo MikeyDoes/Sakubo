@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 630: 受取, 受け持つ, 薄暗い...",
+  "lesson_number": 630,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 81565,
+      "kanji": "受取",
+      "kana": "うけとり",
+      "gloss": "receiving; receipt",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81533,
+      "kanji": "受け持つ",
+      "kana": "うけもつ",
+      "gloss": "to take (be in) charge of",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101030,
+      "kanji": "薄暗い",
+      "kana": "うすぐらい",
+      "gloss": "dim; gloomy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101027,
+      "kanji": "薄める",
+      "kana": "うすめる",
+      "gloss": "to dilute; to water down",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118454,
+      "kanji": "打合せ",
+      "kana": "うちあわせ",
+      "gloss": "advance arrangements; preparatory meeting; briefing session; overlap (of a coat, etc.); making something match exactly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124404,
+      "kanji": "打ち消す",
+      "kana": "うちけす",
+      "gloss": "to deny; to contradict; to negate (esp. a sound); to drown out",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71412,
+      "kanji": "討つ",
+      "kana": "うつ",
+      "gloss": "to shoot (at); to attack; to defeat; to destroy; to avenge",
+      "card_type": "vocab"
+    }
+  ]
+}

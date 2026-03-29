@@ -1,0 +1,43 @@
+{
+  "title": "Lesson 8: (Vocab) - こっち, そっち, あっち...",
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 326650,
+      "kana": "こっち",
+      "gloss": "this way; this direction; here",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326676,
+      "kana": "そっち",
+      "gloss": "that way; that direction; there",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326625,
+      "kana": "あっち",
+      "gloss": "that way; over there; yonder",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326627,
+      "kana": "いくつ",
+      "gloss": "how many?; how old?",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37207,
+      "kana": "さあ",
+      "gloss": "come; come now; well; who knows",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 62969,
+      "kana": "いつ",
+      "gloss": "when; at what time; how soon",
+      "card_type": "vocab"
+    }
+  ],
+  "lesson_number": 8
+}

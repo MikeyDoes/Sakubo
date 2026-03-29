@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 922: 改訂, 街道, 介入...",
+  "lesson_number": 922,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 64573,
+      "kanji": "改訂",
+      "kana": "かいてい",
+      "gloss": "revision (of text); alteration; change",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65045,
+      "kanji": "街道",
+      "kana": "かいどう",
+      "gloss": "highway (esp. one existing from the Edo period); main road; highway (e.g. to success); path (to becoming ...)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64220,
+      "kanji": "介入",
+      "kana": "かいにゅう",
+      "gloss": "intervention",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64835,
+      "kanji": "開発",
+      "kana": "かいはつ",
+      "gloss": "development; exploitation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64668,
+      "kanji": "海抜",
+      "kana": "かいばつ",
+      "gloss": "height above sea level",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64222,
+      "kanji": "介抱",
+      "kana": "かいほう",
+      "gloss": "nursing; looking after",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64341,
+      "kanji": "解剖",
+      "kana": "かいぼう",
+      "gloss": "dissection; autopsy; analysis",
+      "card_type": "vocab"
+    }
+  ]
+}

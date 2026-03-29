@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 5: ズボン, スリッパ, セーター...",
+  "lesson_number": 1311,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 47236,
+      "kana": "ズボン",
+      "gloss": "trousers; pants",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47193,
+      "kana": "スリッパ",
+      "gloss": "slipper; slippers",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47237,
+      "kana": "セーター",
+      "gloss": "sweater; jumper",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 201361,
+      "kana": "それ",
+      "gloss": "there!; look!; go on!; right!; here goes!",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47483,
+      "kana": "タクシー",
+      "gloss": "taxi",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 245031,
+      "kana": "だんだん",
+      "gloss": "thank you (dialect from the Izumo region of Shimane Prefecture)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47822,
+      "kana": "テープ",
+      "gloss": "tape",
+      "card_type": "vocab"
+    }
+  ]
+}

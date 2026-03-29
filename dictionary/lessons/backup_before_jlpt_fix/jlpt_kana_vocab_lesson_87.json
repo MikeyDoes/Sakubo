@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 87: タイピスト, タイマー, タイミング...",
+  "lesson_number": 1393,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 47444,
+      "kana": "タイピスト",
+      "gloss": "typist",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47451,
+      "kana": "タイマー",
+      "gloss": "timer; clock register",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47453,
+      "kana": "タイミング",
+      "gloss": "timing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47454,
+      "kana": "タイム",
+      "gloss": "time; thyme; time out (e.g. in sport)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47467,
+      "kana": "タイムリー",
+      "gloss": "timely; well-timed; clutch hit; run-scoring hit; RBI hit",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47475,
+      "kana": "タイヤ",
+      "gloss": "tire; tyre",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 47476,
+      "kana": "タイル",
+      "gloss": "tile",
+      "card_type": "vocab"
+    }
+  ]
+}

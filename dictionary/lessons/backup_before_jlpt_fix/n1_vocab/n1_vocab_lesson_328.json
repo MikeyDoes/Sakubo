@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1188: 熱湯, 熱湯, 熱意...",
+  "lesson_number": 1188,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 99939,
+      "kanji": "熱湯",
+      "kana": "ねっとう",
+      "gloss": "boiling water",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 247683,
+      "kanji": "熱湯",
+      "kana": "あつゆ",
+      "gloss": "warmer than usual bath",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99919,
+      "kanji": "熱意",
+      "kana": "ねつい",
+      "gloss": "zeal; enthusiasm; ardor; ardour",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99944,
+      "kanji": "熱量",
+      "kana": "ねつりょう",
+      "gloss": "quantity of heat; heat value; calorific value; calories; (degree of) enthusiasm; zeal; passion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100155,
+      "kanji": "粘り",
+      "kana": "ねばり",
+      "gloss": "stickiness; viscosity; tenacity; persistence",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100159,
+      "kanji": "粘る",
+      "kana": "ねばる",
+      "gloss": "to be sticky; to be adhesive; to persevere; to persist; to stick to; to hold out; to linger",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121927,
+      "kanji": "値引き",
+      "kana": "ねびき",
+      "gloss": "price reduction; discount",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 355: 誤り, 粗, 粗...",
+  "lesson_number": 355,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 73866,
+      "kanji": "誤り",
+      "kana": "あやまり",
+      "gloss": "error; mistake; slip; bug",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110995,
+      "kanji": "粗",
+      "kana": "ほぼ",
+      "gloss": "almost; roughly; approximately",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118028,
+      "kanji": "粗",
+      "kana": "あら",
+      "gloss": "remaining bony parts (of a fish after filleting); flaw (esp. of a person); fault; defect; rice chaff; rough; crude; raw; natural; wild",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 309372,
+      "kanji": "粗",
+      "kana": "そ",
+      "gloss": "coarse; rough; crude; raw; unrefined",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110638,
+      "kanji": "嵐",
+      "kana": "あらし",
+      "gloss": "storm; tempest; uproar; hullabaloo; storm (e.g. of protest); winds (e.g. of change)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85726,
+      "kanji": "新た",
+      "kana": "あらた",
+      "gloss": "new; fresh; novel",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 118047,
+      "kanji": "有らゆる",
+      "kana": "あらゆる",
+      "gloss": "all; every",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "lesson_number": 51,
+  "title": "Lesson 51 (Vocab) - バス, ビール, ベッド...",
+  "description": "ビール (Beer) vs ビル (Building). The dash (ー) changes the meaning entirely! ベッド is Bed.",
+  "items": [
+    {
+      "entry_id": 50513,
+      "kanji": null,
+      "kana": "バス",
+      "gloss": "bus"
+    },
+    {
+      "entry_id": 278897,
+      "kanji": null,
+      "kana": "ビール",
+      "gloss": "beer"
+    },
+    {
+      "entry_id": 53577,
+      "kanji": null,
+      "kana": "ベッド",
+      "gloss": "bed"
+    },
+    {
+      "entry_id": 54263,
+      "kanji": null,
+      "kana": "ボブ",
+      "gloss": "bob (haircut)"
+    },
+    {
+      "entry_id": 50604,
+      "kanji": null,
+      "kana": "バッグ",
+      "gloss": "bag"
+    }
+  ]
+}

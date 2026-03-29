@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 196: 箱, 橋, 橋...",
+  "lesson_number": 196,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 117645,
+      "kanji": "箱",
+      "kana": "はこ",
+      "gloss": "box; case; chest; package; pack; crate; car (of a train, etc.); shamisen case; shamisen; public building; community building; man who carries a geisha's shamisen; receptacle for human waste; feces (faeces); counter for boxes (or boxed objects)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69310,
+      "kanji": "橋",
+      "kana": "はし",
+      "gloss": "bridge",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 191717,
+      "kanji": "橋",
+      "kana": "きょう",
+      "gloss": "pons (pontes); pons Varolii; pontine; part of the brain stem (links the medulla oblongata and cerebellum with the midbrain)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101131,
+      "kanji": "箸",
+      "kana": "はし",
+      "gloss": "chopsticks",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78530,
+      "kanji": "始まる",
+      "kana": "はじまる",
+      "gloss": "to begin; to start; to commence; to happen (again); to begin (anew); to date (from); to originate (in)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83155,
+      "kanji": "初め",
+      "kana": "はじめ",
+      "gloss": "beginning; start; outset; opening; first (in line, etc.); origin; such as ...; not to mention ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 258398,
+      "kanji": "初め",
+      "kana": "ぞめ",
+      "gloss": "first doing of ... (ever, in one's life, in the new year, etc.)",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 122: 煩い, 上着, 絵...",
+  "lesson_number": 122,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 155959,
+      "kanji": "煩い",
+      "kana": "わずらい",
+      "gloss": "worry; agony; vexation; illness; sickness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116183,
+      "kanji": "上着",
+      "kana": "うわぎ",
+      "gloss": "coat; tunic; jacket; outer garment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64752,
+      "kanji": "絵",
+      "kana": "え",
+      "gloss": "picture; drawing; painting; sketch; image (TV, film, etc.); footage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61065,
+      "kanji": "映画",
+      "kana": "えいが",
+      "gloss": "movie; film",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61068,
+      "kanji": "映画館",
+      "kana": "えいがかん",
+      "gloss": "movie theatre; movie theater; cinema",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61136,
+      "kanji": "英語",
+      "kana": "えいご",
+      "gloss": "English (language)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 61211,
+      "kanji": "駅",
+      "kana": "えき",
+      "gloss": "railway station; train station; staging post on a highway (in pre-modern Japan); counter for railway stations and bus stations",
+      "card_type": "vocab"
+    }
+  ]
+}

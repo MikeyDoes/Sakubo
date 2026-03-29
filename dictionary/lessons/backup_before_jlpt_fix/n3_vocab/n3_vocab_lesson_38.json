@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 387: 絵画, 海外, 会計...",
+  "lesson_number": 387,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 64761,
+      "kanji": "絵画",
+      "kana": "かいが",
+      "gloss": "painting; picture",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64599,
+      "kanji": "海外",
+      "kana": "かいがい",
+      "gloss": "foreign; abroad; overseas",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64257,
+      "kanji": "会計",
+      "kana": "かいけい",
+      "gloss": "accounting; finance; account; reckoning; bill (at a restaurant); check; accountant; treasurer; paymaster; cashier; settlement (of a bill, fee, etc.), payment; economic condition",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64309,
+      "kanji": "解決",
+      "kana": "かいけつ",
+      "gloss": "settlement; solution; resolution",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64266,
+      "kanji": "会合",
+      "kana": "かいごう",
+      "gloss": "meeting; assembly; gathering; association; conjunction",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64911,
+      "kanji": "外交",
+      "kana": "がいこう",
+      "gloss": "diplomacy; selling (e.g. door-to-door); canvassing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64823,
+      "kanji": "開始",
+      "kana": "かいし",
+      "gloss": "start; commencement; beginning; initiation",
+      "card_type": "vocab"
+    }
+  ]
+}

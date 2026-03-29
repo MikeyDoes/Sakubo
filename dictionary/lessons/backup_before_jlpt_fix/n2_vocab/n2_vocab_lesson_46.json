@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 662: 為替, 瓦, 代る...",
+  "lesson_number": 662,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 58756,
+      "kanji": "為替",
+      "kana": "かわせ",
+      "gloss": "money order; draft; exchange (e.g. foreign)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65772,
+      "kanji": "瓦",
+      "kana": "かわら",
+      "gloss": "roof tile",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119252,
+      "kanji": "代る",
+      "kana": "かわる",
+      "gloss": "to succeed; to relieve; to replace; to take the place of; to substitute for; to take over for; to represent; to hand over (telephone); to be exchanged; to change (places with); to switch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66460,
+      "kanji": "間隔",
+      "kana": "かんかく",
+      "gloss": "space; interval; space character; whitespace",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66147,
+      "kanji": "換気",
+      "kana": "かんき",
+      "gloss": "ventilation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66098,
+      "kanji": "感激",
+      "kana": "かんげき",
+      "gloss": "deep emotion; impression; inspiration",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66523,
+      "kanji": "関西",
+      "kana": "かんさい",
+      "gloss": "Kansai; region consisting of Osaka, Kobe, Kyoto and surrounding prefectures; south-western half of Japan (during the feudal era)",
+      "card_type": "vocab"
+    }
+  ]
+}

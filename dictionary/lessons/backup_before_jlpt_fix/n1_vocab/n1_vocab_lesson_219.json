@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1079: 助詞, 助動詞, 自立...",
+  "lesson_number": 1079,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 83444,
+      "kanji": "助詞",
+      "kana": "じょし",
+      "gloss": "particle; postpositional word in Japanese grammar that functions as an auxiliary to a main word",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83456,
+      "kanji": "助動詞",
+      "kana": "じょどうし",
+      "gloss": "inflecting dependent word (in Japanese); bound auxiliary; auxiliary verb (in languages other than Japanese)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80009,
+      "kanji": "自立",
+      "kana": "じりつ",
+      "gloss": "independence; self-reliance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86439,
+      "kanji": "人格",
+      "kana": "じんかく",
+      "gloss": "personality; character; individuality; personhood",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86559,
+      "kanji": "人材",
+      "kana": "じんざい",
+      "gloss": "capable person; talented person; human resources; personnel",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86848,
+      "kanji": "迅速",
+      "kana": "じんそく",
+      "gloss": "quick; fast; rapid; swift; prompt; streamlined; expedited; expeditious",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86672,
+      "kanji": "人体",
+      "kana": "じんたい",
+      "gloss": "human body",
+      "card_type": "vocab"
+    }
+  ]
+}

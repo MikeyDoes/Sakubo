@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1290: 余暇, 予感, 余興...",
+  "lesson_number": 1290,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 109903,
+      "kanji": "余暇",
+      "kana": "よか",
+      "gloss": "leisure; leisure time; spare time",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109785,
+      "kanji": "予感",
+      "kana": "よかん",
+      "gloss": "presentiment; premonition; hunch; to have a premonition; to have a hunch",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109908,
+      "kanji": "余興",
+      "kana": "よきょう",
+      "gloss": "performance (at a party or banquet, etc.); side show; entertainment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110028,
+      "kanji": "預金",
+      "kana": "よきん",
+      "gloss": "deposit; bank account",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110357,
+      "kanji": "抑圧",
+      "kana": "よくあつ",
+      "gloss": "check; restraint; oppression; suppression",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110383,
+      "kanji": "浴室",
+      "kana": "よくしつ",
+      "gloss": "bathroom",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110359,
+      "kanji": "抑制",
+      "kana": "よくせい",
+      "gloss": "control; restraint; suppression; constraint; curtailment; inhibition; check; curb",
+      "card_type": "vocab"
+    }
+  ]
+}

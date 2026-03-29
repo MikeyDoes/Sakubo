@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 256: 気, 気, 気...",
+  "lesson_number": 256,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 67292,
+      "kanji": "気",
+      "kana": "き",
+      "gloss": "spirit; mind; heart; nature; disposition; motivation; intention; mood; feelings; ambience; atmosphere",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 171891,
+      "kanji": "気",
+      "kana": "げ",
+      "gloss": "seeming; giving the appearance of; giving one the feeling of",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 204058,
+      "kanji": "気",
+      "kana": "ぎ",
+      "gloss": "-like nature; -like disposition; -ish temperament",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 204059,
+      "kanji": "気",
+      "kana": "け",
+      "gloss": "sign; indication; trace; touch; feeling; somehow; for some reason; seeming to be",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67205,
+      "kanji": "機会",
+      "kana": "きかい",
+      "gloss": "chance; opportunity",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66901,
+      "kanji": "危険",
+      "kana": "きけん",
+      "gloss": "danger; peril; hazard; risk",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119351,
+      "kanji": "聞こえる",
+      "kana": "きこえる",
+      "gloss": "to be heard; to be audible; to be said to be; to be reputed",
+      "card_type": "vocab"
+    }
+  ]
+}

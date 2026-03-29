@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 591: 妙, 明後日, 未来...",
+  "lesson_number": 591,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 107816,
+      "kanji": "妙",
+      "kana": "みょう",
+      "gloss": "strange; weird; odd; curious; wonder; mystery; miracle; excellence; cleverness; adroitness; knack; skill",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 117383,
+      "kanji": "明後日",
+      "kana": "みょうごにち",
+      "gloss": "day after tomorrow",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107759,
+      "kanji": "未来",
+      "kana": "みらい",
+      "gloss": "the future (usually distant); future tense; the world to come",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 107769,
+      "kanji": "魅力",
+      "kana": "みりょく",
+      "gloss": "charm; fascination; glamour; glamor; attraction; appeal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123321,
+      "kanji": "向かい",
+      "kana": "むかい",
+      "gloss": "facing; opposite; across the street; other side",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71363,
+      "kanji": "迎え",
+      "kana": "むかえ",
+      "gloss": "meeting; greeting; welcome",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74523,
+      "kanji": "向く",
+      "kana": "むく",
+      "gloss": "to turn toward; to look (up, down, etc.); to face (e.g. east); to look out on; to point to; to be suited to; to be fit for; to go in the direction of; to lean towards (of a feeling)",
+      "card_type": "vocab"
+    }
+  ]
+}

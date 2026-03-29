@@ -1,0 +1,49 @@
+{
+  "title": "Lesson 20: (Vocab) - いろいろ, ゆっくり, もっと...",
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 326634,
+      "kana": "いろいろ",
+      "gloss": "various; all sorts of; variety",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 38529,
+      "kana": "ゆっくり",
+      "gloss": "slowly; unhurriedly; at one's leisure",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 38468,
+      "kana": "もっと",
+      "gloss": "more; even more; longer; further",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326748,
+      "kana": "やさしい",
+      "gloss": "easy; plain; simple",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 38547,
+      "kana": "より",
+      "gloss": "than; from; out of; since",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 125040,
+      "kana": "おはよう",
+      "gloss": "good morning",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36458,
+      "kana": "おやすみなさい",
+      "gloss": "good night",
+      "card_type": "vocab"
+    }
+  ],
+  "lesson_number": 20
+}

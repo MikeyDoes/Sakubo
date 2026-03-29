@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 101: 会う, 青, 青い...",
+  "lesson_number": 101,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 64227,
+      "kanji": "会う",
+      "kana": "あう",
+      "gloss": "to meet; to encounter; to see; to have an accident; to have a bad experience",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88334,
+      "kanji": "青",
+      "kana": "あお",
+      "gloss": "blue; azure; green; green light (traffic); black (horse coat color); blue 5-point card; immature; unripe; young",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88337,
+      "kanji": "青い",
+      "kana": "あおい",
+      "gloss": "blue; azure; green; pale; gray; grey; unripe; inexperienced",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 172913,
+      "kanji": "赤",
+      "kana": "あか",
+      "gloss": "red; crimson; scarlet; red-containing colour (e.g. brown, pink, orange); Red (i.e. communist); red light (traffic); red ink (i.e. in finance or proof-reading); (in) the red; complete; total; perfect; obvious; copper; red 5-point card",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88598,
+      "kanji": "赤い",
+      "kana": "あかい",
+      "gloss": "red; crimson; scarlet; vermilion; vermillion; Red; communist; beautiful",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108302,
+      "kanji": "明るい",
+      "kana": "あかるい",
+      "gloss": "light; well-lit; well-lighted; bright (of a colour); brightly-coloured; brightly-colored; cheerful; bright; spirited; sunny (e.g. disposition); encouraging (for the future of a project, etc.); promising; of fair prospects; familiar (with); knowledgeable (about); well versed (in); fair (e.g. politics); clean; impartial",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79661,
+      "kanji": "時",
+      "kana": "とき",
+      "gloss": "time; hour; moment; occasion; case; chance; opportunity; season; the times; the age; the day; tense",
+      "card_type": "vocab"
+    }
+  ]
+}

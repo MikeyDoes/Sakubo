@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 138: 花瓶, 紙, 紙...",
+  "lesson_number": 138,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 251974,
+      "kanji": "花瓶",
+      "kana": "けびょう",
+      "gloss": "vase used to hold flower offerings (often made of gilded copper)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79076,
+      "kanji": "紙",
+      "kana": "かみ",
+      "gloss": "paper",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 277492,
+      "kanji": "紙",
+      "kana": "し",
+      "gloss": "newspaper",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63690,
+      "kanji": "火曜日",
+      "kana": "かようび",
+      "gloss": "Tuesday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86329,
+      "kanji": "辛い",
+      "kana": "からい",
+      "gloss": "spicy; hot; salty; harsh (criticism); severe (punishment); strict; painful; bitter; difficult; tough",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 86330,
+      "kanji": "辛い",
+      "kana": "つらい",
+      "gloss": "painful; bitter; heart-breaking; difficult (emotionally); tough; difficult; hard (usu. of situations); cruel; harsh; cold",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 184099,
+      "kanji": "辛い",
+      "kana": "づらい",
+      "gloss": "difficult to ...; hard to ...",
+      "card_type": "vocab"
+    }
+  ]
+}

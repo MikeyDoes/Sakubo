@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 314: 寺, 寺, 点...",
+  "lesson_number": 314,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 79558,
+      "kanji": "寺",
+      "kana": "てら",
+      "gloss": "temple (Buddhist)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 209245,
+      "kanji": "寺",
+      "kana": "じ",
+      "gloss": "counter for temples",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37643,
+      "kanji": "点",
+      "kana": "ちょぼ",
+      "gloss": "dot; point; mark; gidayū musicians (in kabuki)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96399,
+      "kanji": "点",
+      "kana": "てん",
+      "gloss": "dot; spot; point; speck; mark; mark (in an exam, etc.); grade; score; points; point (in a game); goal; run; point (in geometry); aspect; matter; detail; part; respect; way; viewpoint; (punctuation) mark (e.g. comma, period, decimal point); \"dot\" stroke (in a Chinese character); counter for points, marks, goals, etc.; counter for goods, items, articles of clothing, works of art, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 274113,
+      "kanji": "点",
+      "kana": "ぽち",
+      "gloss": "dot; point; mark; tip; gratuity; a little; paltry; piddling; mere",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96298,
+      "kanji": "店員",
+      "kana": "てんいん",
+      "gloss": "employee (of a store); shop assistant; clerk; salesperson",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96077,
+      "kanji": "天気予報",
+      "kana": "てんきよほう",
+      "gloss": "weather forecast; weather report",
+      "card_type": "vocab"
+    }
+  ]
+}

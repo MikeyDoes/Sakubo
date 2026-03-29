@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1195: 排除, 排水, 敗戦...",
+  "lesson_number": 1195,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 100547,
+      "kanji": "排除",
+      "kana": "はいじょ",
+      "gloss": "exclusion; removal; rejection; elimination; abatement; lifting (sanctions, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100548,
+      "kanji": "排水",
+      "kana": "はいすい",
+      "gloss": "drainage; draining; pumping out (water); sewerage; displacement",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100566,
+      "kanji": "敗戦",
+      "kana": "はいせん",
+      "gloss": "defeat; lost battle; losing a war",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100676,
+      "kanji": "配置",
+      "kana": "はいち",
+      "gloss": "arrangement (of resources); deployment; stationing; posting; disposition; configuration; layout",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100680,
+      "kanji": "配布",
+      "kana": "はいふ",
+      "gloss": "distribution",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100681,
+      "kanji": "配分",
+      "kana": "はいぶん",
+      "gloss": "distribution; allotment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100682,
+      "kanji": "配慮",
+      "kana": "はいりょ",
+      "gloss": "consideration; concern; attention; thoughtfulness; making arrangements; care; trouble",
+      "card_type": "vocab"
+    }
+  ]
+}

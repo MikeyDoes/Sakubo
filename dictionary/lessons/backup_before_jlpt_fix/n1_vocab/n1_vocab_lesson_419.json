@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1279: 矢, 哉, 喧しい...",
+  "lesson_number": 1279,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 109101,
+      "kanji": "矢",
+      "kana": "や",
+      "gloss": "arrow; wedge; chock",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115846,
+      "kanji": "哉",
+      "kana": "かな",
+      "gloss": "how!; what!; alas!",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 285446,
+      "kanji": "喧しい",
+      "kana": "かしましい",
+      "gloss": "noisy; boisterous",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109035,
+      "kanji": "野外",
+      "kana": "やがい",
+      "gloss": "outdoors; outside; open air; fields; outskirts; suburbs",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109139,
+      "kanji": "役職",
+      "kana": "やくしょく",
+      "gloss": "post; official position; managerial position; executive position",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109144,
+      "kanji": "役立つ",
+      "kana": "やくだつ",
+      "gloss": "to be useful; to be helpful; to serve the purpose",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109138,
+      "kanji": "役場",
+      "kana": "やくば",
+      "gloss": "town hall",
+      "card_type": "vocab"
+    }
+  ]
+}

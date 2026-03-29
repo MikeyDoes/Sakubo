@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 602: 稍, 稚, 嫌や...",
+  "lesson_number": 602,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 113595,
+      "kanji": "稍",
+      "kana": "やや",
+      "gloss": "a little; partially; somewhat; slightly; semi-; -ish; on the ... side; a short time; a while",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 275312,
+      "kanji": "稚",
+      "kana": "やや",
+      "gloss": "baby; child",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 275322,
+      "kanji": "嫌や",
+      "kana": "やや",
+      "gloss": "no; quit it; no way",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109278,
+      "kanji": "唯一",
+      "kana": "ゆいいつ",
+      "gloss": "only; sole; unique",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109374,
+      "kanji": "勇気",
+      "kana": "ゆうき",
+      "gloss": "courage; bravery; valour; valor; nerve; boldness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109574,
+      "kanji": "有効",
+      "kana": "ゆうこう",
+      "gloss": "valid; effective; yuko (judo)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109318,
+      "kanji": "優秀",
+      "kana": "ゆうしゅう",
+      "gloss": "superior; excellent; brilliant; outstanding",
+      "card_type": "vocab"
+    }
+  ]
+}

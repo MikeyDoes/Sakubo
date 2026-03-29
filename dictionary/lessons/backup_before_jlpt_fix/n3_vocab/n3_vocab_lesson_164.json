@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 513: 単純, 男子, 誕生...",
+  "lesson_number": 513,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 93287,
+      "kanji": "単純",
+      "kana": "たんじゅん",
+      "gloss": "simple; plain; uncomplicated; straightforward",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93625,
+      "kanji": "男子",
+      "kana": "だんし",
+      "gloss": "youth; young man",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93483,
+      "kanji": "誕生",
+      "kana": "たんじょう",
+      "gloss": "birth; creation; formation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93523,
+      "kanji": "団体",
+      "kana": "だんたい",
+      "gloss": "organization; organisation; association",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93357,
+      "kanji": "担当",
+      "kana": "たんとう",
+      "gloss": "being in charge (of an area of responsibility); being responsible (for a work role, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93230,
+      "kanji": "単なる",
+      "kana": "たんなる",
+      "gloss": "mere; simple; sheer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93231,
+      "kanji": "単に",
+      "kana": "たんに",
+      "gloss": "simply; merely; only; solely",
+      "card_type": "vocab"
+    }
+  ]
+}

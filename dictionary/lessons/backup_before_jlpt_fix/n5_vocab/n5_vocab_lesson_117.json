@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 217: 網, 盲, もう一度...",
+  "lesson_number": 217,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 229570,
+      "kanji": "網",
+      "kana": "もう",
+      "gloss": "network",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 308577,
+      "kanji": "盲",
+      "kana": "もう",
+      "gloss": "blindness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 171753,
+      "kanji": "もう一度",
+      "kana": "もういちど",
+      "gloss": "once more; again",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 108667,
+      "kanji": "木曜日",
+      "kana": "もくようび",
+      "gloss": "Thursday",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79636,
+      "kanji": "持つ",
+      "kana": "もつ",
+      "gloss": "to hold (in one's hand); to take; to carry; to possess; to have; to own; to maintain; to keep; to last; to be durable; to survive; to take charge of; to be in charge of; to hold (meeting, etc.); to have (opportunity, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80527,
+      "kanji": "者",
+      "kana": "もの",
+      "gloss": "person",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104512,
+      "kanji": "物",
+      "kana": "もの",
+      "gloss": "thing; object; article; stuff; substance; one's things; possessions; property; belongings; things; something; anything; everything; nothing; quality; reason; the way of things; used to emphasize emotion, judgment, etc.; used to indicate a common occurrence in the past (after a verb in past tense); used to indicate a general tendency; used to indicate something that should happen; item classified as ...; item related to ...; work in the genre of ...; cause of ...; cause for ...; somehow; somewhat; for some reason; really; truly",
+      "card_type": "vocab"
+    }
+  ]
+}

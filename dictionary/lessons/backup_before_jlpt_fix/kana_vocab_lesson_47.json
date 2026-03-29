@@ -1,0 +1,37 @@
+{
+  "lesson_number": 47,
+  "title": "Lesson 47 (Vocab) - アニメ, ノート, ナノ...",
+  "description": "アニメ (Anime) is finally here. ノート means a notebook or a memo.",
+  "items": [
+    {
+      "entry_id": 39208,
+      "kanji": null,
+      "kana": "アニメ",
+      "gloss": "animation; animated film; animated cartoon; anime"
+    },
+    {
+      "entry_id": 49855,
+      "kanji": null,
+      "kana": "ノート",
+      "gloss": "notebook; copy-book; exercise book; note; noting down; (musical) note; notebook computer; laptop"
+    },
+    {
+      "entry_id": 49430,
+      "kanji": null,
+      "kana": "ナノ",
+      "gloss": "nano-; 10^-9"
+    },
+    {
+      "entry_id": 47997,
+      "kanji": null,
+      "kana": "テニス",
+      "gloss": "tennis"
+    },
+    {
+      "entry_id": 42149,
+      "kanji": null,
+      "kana": "カヌー",
+      "gloss": "canoe"
+    }
+  ]
+}

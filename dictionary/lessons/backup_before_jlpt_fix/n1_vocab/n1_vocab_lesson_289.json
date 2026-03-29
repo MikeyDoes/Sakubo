@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1149: 手引き, 手本, 手回し...",
+  "lesson_number": 1149,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 121446,
+      "kanji": "手引き",
+      "kana": "てびき",
+      "gloss": "guidance; lead; acting as guide; guide; primer; guidebook; handbook; manual; influence; connections; introduction; good offices",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81317,
+      "kanji": "手本",
+      "kana": "てほん",
+      "gloss": "copybook; model; pattern",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81161,
+      "kanji": "手回し",
+      "kana": "てまわし",
+      "gloss": "turning by hand; hand-turned; hand-cranked; preparations; arrangements",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81190,
+      "kanji": "手元",
+      "kana": "てもと",
+      "gloss": "at hand; on hand; nearby; close at hand; way of moving one's arms; skill; money at hand; pocket money; grip; handle",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84281,
+      "kanji": "照り返す",
+      "kana": "てりかえす",
+      "gloss": "to reflect; to throw back light",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81308,
+      "kanji": "手分け",
+      "kana": "てわけ",
+      "gloss": "division of labour; division of labor; splitting into groups (e.g. to search)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96403,
+      "kanji": "点火",
+      "kana": "てんか",
+      "gloss": "ignition; lighting; firing; setting off",
+      "card_type": "vocab"
+    }
+  ]
+}

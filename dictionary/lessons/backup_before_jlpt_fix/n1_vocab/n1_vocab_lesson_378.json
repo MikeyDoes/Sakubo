@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1238: 返答, 変動, 弁解...",
+  "lesson_number": 1238,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 105768,
+      "kanji": "返答",
+      "kana": "へんとう",
+      "gloss": "reply; answer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105657,
+      "kanji": "変動",
+      "kana": "へんどう",
+      "gloss": "change; fluctuation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105822,
+      "kanji": "弁解",
+      "kana": "べんかい",
+      "gloss": "explanation (e.g. for one's actions); excuse; justification; defense; defence",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105787,
+      "kanji": "便宜",
+      "kana": "べんぎ",
+      "gloss": "convenience; accommodation; advantage; benefit; expediency",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105833,
+      "kanji": "弁護",
+      "kana": "べんご",
+      "gloss": "defense; defence; pleading; advocacy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105857,
+      "kanji": "弁償",
+      "kana": "べんしょう",
+      "gloss": "reimbursement; compensation; reparation; indemnity",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105889,
+      "kanji": "弁論",
+      "kana": "べんろん",
+      "gloss": "discussion; debate; argument",
+      "card_type": "vocab"
+    }
+  ]
+}

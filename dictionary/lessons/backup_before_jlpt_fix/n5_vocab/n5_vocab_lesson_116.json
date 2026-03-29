@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 216: 目, 目, 米...",
+  "lesson_number": 216,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 123371,
+      "kanji": "目",
+      "kana": "め",
+      "gloss": "eye; eyeball; eyesight; sight; vision; look; stare; gaze; glance; notice; attention; observation; eyes (of the world, public, etc.); an experience; viewpoint; discrimination; discernment; judgement; eye (e.g. for quality); appearance; chance to succeed; possibility; spacing (between crossed strands of a net, mesh, etc.); opening; stitch; texture; weave; grain (of wood); eye (of a storm, needle, etc.); intersection (on a go board); square (on a chess board); dot (on a dice); pip; rolled number; graduation; division (of a scale); tooth (of a saw, comb, etc.); ordinal number suffix; somewhat; -ish; point (e.g. of change)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 173952,
+      "kanji": "目",
+      "kana": "もく",
+      "gloss": "order; item (of a budget revision, etc.); counter for go pieces; counter for surrounded positions (in go)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 55393,
+      "kanji": "米",
+      "kana": "メートル",
+      "gloss": "metre; meter; gauge",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115350,
+      "kanji": "眼鏡",
+      "kana": "めがね",
+      "gloss": "glasses; eyeglasses; spectacles; judgment; judgement; discrimination; discernment; insight",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 161019,
+      "kanji": "蒙",
+      "kana": "もう",
+      "gloss": "ignorance; covering; concealing; Mongolia",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 182063,
+      "kanji": "猛",
+      "kana": "もう",
+      "gloss": "greatly energetic; ferocious; extreme; severe",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 188507,
+      "kanji": "毛",
+      "kana": "もう",
+      "gloss": "one-thousandth; 0.03 mm (one-thousandth of a sun); 0.01 percent (one-thousandth of a wari); 3.75 milligrams (one-thousandth of a monme); old monetary unit (0.0001 yen)",
+      "card_type": "vocab"
+    }
+  ]
+}

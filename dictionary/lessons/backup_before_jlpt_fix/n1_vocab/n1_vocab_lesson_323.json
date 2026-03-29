@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1183: 憎しみ, 肉親, 肉体...",
+  "lesson_number": 1183,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 91448,
+      "kanji": "憎しみ",
+      "kana": "にくしみ",
+      "gloss": "hatred",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99414,
+      "kanji": "肉親",
+      "kana": "にくしん",
+      "gloss": "blood relationship; blood relative",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99415,
+      "kanji": "肉体",
+      "kana": "にくたい",
+      "gloss": "the body; the flesh; the outer man; one's physique",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97647,
+      "kanji": "逃げ出す",
+      "kana": "にげだす",
+      "gloss": "to run away; to flee; to make off; to take to one's heels; to escape; to start to run away",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88288,
+      "kanji": "西日",
+      "kana": "にしび",
+      "gloss": "westering sun; setting sun",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 190446,
+      "kanji": "西日",
+      "kana": "せいにち",
+      "gloss": "Spanish-Japanese (gen. for translations and dictionaries)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 113347,
+      "kanji": "滲む",
+      "kana": "にじむ",
+      "gloss": "to run (of liquid); to spread; to blur; to blot; to be blurred; to ooze; to well up (of tears, etc.); to show through (of feelings, emotions, etc.); to reveal itself",
+      "card_type": "vocab"
+    }
+  ]
+}

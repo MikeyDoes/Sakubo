@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 528: 徹底, 鉄道, 徹夜...",
+  "lesson_number": 528,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 95936,
+      "kanji": "徹底",
+      "kana": "てってい",
+      "gloss": "thoroughness; completeness; consistency; thorough enforcement; seeing to it that a policy, etc. is carried out without exception",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95971,
+      "kanji": "鉄道",
+      "kana": "てつどう",
+      "gloss": "railroad; railway; rail transport",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95940,
+      "kanji": "徹夜",
+      "kana": "てつや",
+      "gloss": "staying up all night",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81169,
+      "kanji": "手間",
+      "kana": "てま",
+      "gloss": "time; labour; labor",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95986,
+      "kanji": "典型",
+      "kana": "てんけい",
+      "gloss": "type; pattern; model; epitome; exemplar; archetype; perfect example",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96102,
+      "kanji": "天候",
+      "kana": "てんこう",
+      "gloss": "weather",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96630,
+      "kanji": "電子",
+      "kana": "でんし",
+      "gloss": "electron; electronic",
+      "card_type": "vocab"
+    }
+  ]
+}

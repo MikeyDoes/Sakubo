@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 689: 交流, 合流, 効力...",
+  "lesson_number": 689,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 74019,
+      "kanji": "交流",
+      "kana": "こうりゅう",
+      "gloss": "exchange (e.g. cultural); interchange; interaction; mingling; mixing; coming together; alternating current; AC",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75560,
+      "kanji": "合流",
+      "kana": "ごうりゅう",
+      "gloss": "confluence (of rivers); merge (of traffic); conflux; junction; joining; union (e.g. of forces); linking up; merging; coming together",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74300,
+      "kanji": "効力",
+      "kana": "こうりょく",
+      "gloss": "effect; efficacy; validity; potency",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119860,
+      "kanji": "超える",
+      "kana": "こえる",
+      "gloss": "to cross over; to cross; to pass through; to pass over (out of); to go beyond; to go past; to exceed; to surpass; to be more (than)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84260,
+      "kanji": "焦がす",
+      "kana": "こがす",
+      "gloss": "to burn; to scorch; to singe; to char",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75649,
+      "kanji": "国王",
+      "kana": "こくおう",
+      "gloss": "king; queen; monarch; sovereign; the Crown (as a focus of authority in the UK, etc.); the throne",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 75716,
+      "kanji": "国籍",
+      "kana": "こくせき",
+      "gloss": "nationality; citizenship; nationality (ship, airplane, etc.); registration; flag",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 461: 品, 品, 支配...",
+  "lesson_number": 461,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 258678,
+      "kanji": "品",
+      "kana": "ほん",
+      "gloss": "court rank; level; grade; chapter; section; volume",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 258682,
+      "kanji": "品",
+      "kana": "ひん",
+      "gloss": "elegance; grace; refinement; class; dignity; article; item; counter for items (of food, etc.); counter for dishes or courses (at a restaurant)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78894,
+      "kanji": "支配",
+      "kana": "しはい",
+      "gloss": "domination; rule; control; direction; management; guidance; control (e.g. over one's emotions); determining (e.g. one's fate); governing; influence; holding sway over",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80359,
+      "kanji": "芝居",
+      "kana": "しばい",
+      "gloss": "play; drama",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80361,
+      "kanji": "芝生",
+      "kana": "しばふ",
+      "gloss": "lawn; grass",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120262,
+      "kanji": "支払",
+      "kana": "しはらい",
+      "gloss": "payment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78897,
+      "kanji": "支払う",
+      "kana": "しはらう",
+      "gloss": "to pay",
+      "card_type": "vocab"
+    }
+  ]
+}

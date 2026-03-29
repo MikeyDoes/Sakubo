@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1022: 策, 柵, 柵...",
+  "lesson_number": 1022,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 127742,
+      "kanji": "策",
+      "kana": "むち",
+      "gloss": "whip; lash; scourge; stick; cane; rod; pointer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77205,
+      "kanji": "柵",
+      "kana": "さく",
+      "gloss": "fence; paling; railing; fortress",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 189710,
+      "kanji": "柵",
+      "kana": "しがらみ",
+      "gloss": "weir; bonds; fetters; ties of obligation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 201909,
+      "kanji": "柵",
+      "kana": "き",
+      "gloss": "fortress (surrounded by a wall, moat, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77186,
+      "kanji": "削減",
+      "kana": "さくげん",
+      "gloss": "cut; reduction; curtailment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77224,
+      "kanji": "錯誤",
+      "kana": "さくご",
+      "gloss": "mistake; error; discrepancy; discrepancy between one's actions and intentions",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77143,
+      "kanji": "作戦",
+      "kana": "さくせん",
+      "gloss": "tactics; strategy; military operation; naval operation",
+      "card_type": "vocab"
+    }
+  ]
+}

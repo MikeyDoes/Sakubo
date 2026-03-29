@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 322: 盗む, 塗る, 濡れる...",
+  "lesson_number": 322,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 97366,
+      "kanji": "盗む",
+      "kana": "ぬすむ",
+      "gloss": "to steal",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96757,
+      "kanji": "塗る",
+      "kana": "ぬる",
+      "gloss": "to paint; to plaster; to lacquer; to varnish; to spread; to smear; to put up (wallpaper)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99899,
+      "kanji": "濡れる",
+      "kana": "ぬれる",
+      "gloss": "to get wet",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121920,
+      "kanji": "値段",
+      "kana": "ねだん",
+      "gloss": "price; cost",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99914,
+      "kanji": "熱",
+      "kana": "ねつ",
+      "gloss": "heat; fever; temperature; zeal; passion; enthusiasm; mania; craze; rage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 307652,
+      "kanji": "熱",
+      "kana": "ねち",
+      "gloss": "fever",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99934,
+      "kanji": "熱心",
+      "kana": "ねっしん",
+      "gloss": "zealous; enthusiastic; ardent; fervent; keen; eager",
+      "card_type": "vocab"
+    }
+  ]
+}

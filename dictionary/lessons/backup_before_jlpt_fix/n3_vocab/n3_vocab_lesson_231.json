@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 580: 冒険, 方向, 報告...",
+  "lesson_number": 580,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 106753,
+      "kanji": "冒険",
+      "kana": "ぼうけん",
+      "gloss": "adventure; venture; venture which is unlikely to succeed; risky attempt; danger; hazard; risk",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106392,
+      "kanji": "方向",
+      "kana": "ほうこう",
+      "gloss": "direction; orientation; bearing; way; course (e.g. of action)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106229,
+      "kanji": "報告",
+      "kana": "ほうこく",
+      "gloss": "report; information",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106294,
+      "kanji": "宝石",
+      "kana": "ほうせき",
+      "gloss": "gem; jewel; precious stone",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106564,
+      "kanji": "豊富",
+      "kana": "ほうふ",
+      "gloss": "abundant; plentiful; rich; ample",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106402,
+      "kanji": "方法",
+      "kana": "ほうほう",
+      "gloss": "method; process; manner; way; means; technique",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106558,
+      "kanji": "訪問",
+      "kana": "ほうもん",
+      "gloss": "call; visit",
+      "card_type": "vocab"
+    }
+  ]
+}

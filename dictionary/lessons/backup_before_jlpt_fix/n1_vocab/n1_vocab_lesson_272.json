@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1132: 聴覚, 長官, 長官...",
+  "lesson_number": 1132,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 94764,
+      "kanji": "聴覚",
+      "kana": "ちょうかく",
+      "gloss": "the sense of hearing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94891,
+      "kanji": "長官",
+      "kana": "ちょうかん",
+      "gloss": "secretary (government); director; chief",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 206433,
+      "kanji": "長官",
+      "kana": "かみ",
+      "gloss": "director (highest of the four administrative positions of the ritsuryo system); chief",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94765,
+      "kanji": "聴講",
+      "kana": "ちょうこう",
+      "gloss": "lecture attendance; auditing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94654,
+      "kanji": "徴収",
+      "kana": "ちょうしゅう",
+      "gloss": "collection (of fees, taxes, etc.); levy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94768,
+      "kanji": "聴診器",
+      "kana": "ちょうしんき",
+      "gloss": "stethoscope",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 94669,
+      "kanji": "挑戦",
+      "kana": "ちょうせん",
+      "gloss": "challenge; defiance; dare; attempt; try",
+      "card_type": "vocab"
+    }
+  ]
+}

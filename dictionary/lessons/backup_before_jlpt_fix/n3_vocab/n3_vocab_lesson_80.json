@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 429: 県, 軒, 軒...",
+  "lesson_number": 429,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 208026,
+      "kanji": "県",
+      "kana": "あがた",
+      "gloss": "territory (pre-Taika: under the Yamato court; Heian: under a provincial governor, etc.); countryside",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72312,
+      "kanji": "軒",
+      "kana": "のき",
+      "gloss": "eaves; narrow aisle surrounding the core of a temple building",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 181607,
+      "kanji": "軒",
+      "kana": "けん",
+      "gloss": "counter for buildings (esp. houses); suffix for a pen name, stage name, etc.",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72174,
+      "kanji": "見解",
+      "kana": "けんかい",
+      "gloss": "opinion; point of view",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72908,
+      "kanji": "限界",
+      "kana": "げんかい",
+      "gloss": "limit; bound",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72707,
+      "kanji": "現金",
+      "kana": "げんきん",
+      "gloss": "cash; ready money; money on hand; currency; mercenary; self-interested; calculating",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72866,
+      "kanji": "言語",
+      "kana": "げんご",
+      "gloss": "language",
+      "card_type": "vocab"
+    }
+  ]
+}

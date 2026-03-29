@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 178: 手, 出かける, 手紙...",
+  "lesson_number": 178,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 81140,
+      "kanji": "手",
+      "kana": "て",
+      "gloss": "hand; arm; forepaw; foreleg; handle; worker; help; trouble; care; effort; means; way; trick; move; technique; workmanship; handwriting; kind; type; sort; one's hands; one's possession; ability to cope; hand (of cards); direction; move (in go, shogi, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121479,
+      "kanji": "出かける",
+      "kana": "でかける",
+      "gloss": "to go out (e.g. on an excursion or outing); to leave; to depart; to start; to set out; to be about to leave; to be just going out",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81215,
+      "kanji": "手紙",
+      "kana": "てがみ",
+      "gloss": "letter; missive; note; mail",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82767,
+      "kanji": "出切る",
+      "kana": "できる",
+      "gloss": "to be out of; to have no more at hand",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82874,
+      "kanji": "出来る",
+      "kana": "できる",
+      "gloss": "to be able (in a position) to do; to be up to the task; to be ready; to be completed; to be made; to be built; to be good at; to be permitted (to do); to become intimate; to take up (with somebody); to grow; to be raised; to become pregnant",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82696,
+      "kanji": "出口",
+      "kana": "でぐち",
+      "gloss": "exit; gateway; way out; outlet; vent; leak",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116112,
+      "kanji": "出端",
+      "kana": "では",
+      "gloss": "chance of going out; opportunity (to succeed); musical accompaniment for an actor going on stage",
+      "card_type": "vocab"
+    }
+  ]
+}

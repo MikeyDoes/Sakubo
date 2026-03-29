@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1026: 真実, 裁く, 錆び...",
+  "lesson_number": 1026,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 86016,
+      "kanji": "真実",
+      "kana": "しんじつ",
+      "gloss": "truth; reality; truly; really; absolute truth",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76907,
+      "kanji": "裁く",
+      "kana": "さばく",
+      "gloss": "to judge; to decide; to sit in judgement; to try",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 120086,
+      "kanji": "錆び",
+      "kana": "さび",
+      "gloss": "rust",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90226,
+      "kanji": "左程",
+      "kana": "さほど",
+      "gloss": "(not) so; (not) particularly; (not) very; (not) that much",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 115914,
+      "kanji": "三味線",
+      "kana": "しゃみせん",
+      "gloss": "shamisen; samisen; three-stringed Japanese lute",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 79506,
+      "kanji": "侍",
+      "kana": "さむらい",
+      "gloss": "warrior (esp. of military retainers of daimyos in the Edo period); samurai; man in attendance (on a person of high standing); retainer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 90215,
+      "kanji": "然も",
+      "kana": "さも",
+      "gloss": "really (seem, appear, etc.); truly; evidently; in that way",
+      "card_type": "vocab"
+    }
+  ]
+}

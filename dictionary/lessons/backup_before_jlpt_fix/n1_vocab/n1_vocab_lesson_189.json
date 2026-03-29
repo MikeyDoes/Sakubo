@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1049: 収益, 修学, 周期...",
+  "lesson_number": 1049,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 81667,
+      "kanji": "収益",
+      "kana": "しゅうえき",
+      "gloss": "earnings; proceeds; returns; revenue",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81820,
+      "kanji": "修学",
+      "kana": "しゅうがく",
+      "gloss": "learning",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81729,
+      "kanji": "周期",
+      "kana": "しゅうき",
+      "gloss": "cycle; period",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81978,
+      "kanji": "衆議院",
+      "kana": "しゅうぎいん",
+      "gloss": "House of Representatives (lower house of the National Diet of Japan)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81782,
+      "kanji": "就業",
+      "kana": "しゅうぎょう",
+      "gloss": "employment; starting work",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 258852,
+      "kanji": "修行",
+      "kana": "しゅぎょう",
+      "gloss": "training; practice; discipline; study; ascetic practices",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82022,
+      "kanji": "集計",
+      "kana": "しゅうけい",
+      "gloss": "totalization; totalisation; aggregation; tally (e.g. of votes); adding up; summing up",
+      "card_type": "vocab"
+    }
+  ]
+}

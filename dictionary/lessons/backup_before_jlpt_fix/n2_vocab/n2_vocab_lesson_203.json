@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 819: 分布, 文房具, 文脈...",
+  "lesson_number": 819,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 104753,
+      "kanji": "分布",
+      "kana": "ぶんぷ",
+      "gloss": "distribution; allocation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104946,
+      "kanji": "文房具",
+      "kana": "ぶんぼうぐ",
+      "gloss": "stationery",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104947,
+      "kanji": "文脈",
+      "kana": "ぶんみゃく",
+      "gloss": "context (of a passage); line of thought; context; environment; circumstances",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104781,
+      "kanji": "分量",
+      "kana": "ぶんりょう",
+      "gloss": "amount; quantity",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 104789,
+      "kanji": "分類",
+      "kana": "ぶんるい",
+      "gloss": "classification; categorization; sorting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105323,
+      "kanji": "閉会",
+      "kana": "へいかい",
+      "gloss": "closure (of a ceremony, event, meeting, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105145,
+      "kanji": "平気",
+      "kana": "へいき",
+      "gloss": "coolness; calmness; composure; unconcern; all right; fine; OK; okay",
+      "card_type": "vocab"
+    }
+  ]
+}

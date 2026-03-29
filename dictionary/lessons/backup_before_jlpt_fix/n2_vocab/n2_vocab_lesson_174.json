@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 790: 日用品, 日課, 日程...",
+  "lesson_number": 790,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 99558,
+      "kanji": "日用品",
+      "kana": "にちようひん",
+      "gloss": "daily necessities",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99443,
+      "kanji": "日課",
+      "kana": "にっか",
+      "gloss": "daily routine; daily work; daily lesson",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99492,
+      "kanji": "日程",
+      "kana": "にってい",
+      "gloss": "schedule; program; programme; agenda",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93886,
+      "kanji": "鈍い",
+      "kana": "おそい",
+      "gloss": "slow; time-consuming; sluggish; late (in the day); towards the end (of the day or night); until a time far into the day or night; later (than expected or usual); late; behind schedule; behind time; tardy; overdue; unpunctual; too late; having missed the boat; dull; stupid",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116823,
+      "kanji": "鈍い",
+      "kana": "にぶい",
+      "gloss": "dull (e.g. a knife); blunt; thickheaded; obtuse; stupid; dull (sound, color, etc.); dim (light); slow; sluggish; inert; lethargic; insensitive; dull (e.g. reflexes); unperceptive; unfeeling",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 300823,
+      "kanji": "鈍い",
+      "kana": "のろい",
+      "gloss": "thickheaded; obtuse; stupid; slow; sluggish; inert; lethargic; indulgent (esp. to the opposite sex); doting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 99730,
+      "kanji": "入社",
+      "kana": "にゅうしゃ",
+      "gloss": "joining a company; getting a job with a company; entering a company",
+      "card_type": "vocab"
+    }
+  ]
+}

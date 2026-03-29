@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 271: 綱, 高, 江...",
+  "lesson_number": 271,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 195723,
+      "kanji": "綱",
+      "kana": "こう",
+      "gloss": "class",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 196331,
+      "kanji": "高",
+      "kana": "こう",
+      "gloss": "high; high school",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 203513,
+      "kanji": "江",
+      "kana": "こう",
+      "gloss": "large river (esp. the Yangtze); Lake Biwa",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 203854,
+      "kanji": "爻",
+      "kana": "こう",
+      "gloss": "yao (line representing yin or yang that comprises one third of a trigram)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 206155,
+      "kanji": "亢",
+      "kana": "こう",
+      "gloss": "Chinese \"Neck\" constellation (one of the 28 mansions)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 206257,
+      "kanji": "喉",
+      "kana": "こう",
+      "gloss": "fish; counter for fish",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 206435,
+      "kanji": "長官",
+      "kana": "こう",
+      "gloss": "director (highest of the four administrative positions of the ritsuryo system); chief",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Lesson 5: (Vocab) - ここ, そこ, あそこ...",
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 326648,
+      "kana": "ここ",
+      "gloss": "here; this place",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326673,
+      "kana": "そこ",
+      "gloss": "there; that place",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326623,
+      "kana": "あそこ",
+      "gloss": "over there; that place; yonder",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326336,
+      "kana": "いいえ",
+      "gloss": "no; nay",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36352,
+      "kana": "ええ",
+      "gloss": "yes; that is correct; right",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 282148,
+      "kana": "いい",
+      "gloss": "good; excellent; fine; nice; pleasant",
+      "card_type": "vocab"
+    }
+  ],
+  "lesson_number": 5
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 172: 他聞, 多分, 食べる...",
+  "lesson_number": 172,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 91945,
+      "kanji": "他聞",
+      "kana": "たぶん",
+      "gloss": "informing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 92007,
+      "kanji": "多分",
+      "kana": "たぶん",
+      "gloss": "perhaps; probably; generous; many; much; great",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85294,
+      "kanji": "食べる",
+      "kana": "たべる",
+      "gloss": "to eat; to live on (e.g. a salary); to live off; to subsist on",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85304,
+      "kanji": "食べ物",
+      "kana": "たべもの",
+      "gloss": "food",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110613,
+      "kanji": "卵",
+      "kana": "たまご",
+      "gloss": "eggs; egg; spawn; roe; (hen's) egg; (an expert) in the making; beginning; origin; infancy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 258501,
+      "kanji": "卵",
+      "kana": "かい",
+      "gloss": "egg; eggshell",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 258507,
+      "kanji": "卵",
+      "kana": "らん",
+      "gloss": "ovum; ovule; egg cell",
+      "card_type": "vocab"
+    }
+  ]
+}

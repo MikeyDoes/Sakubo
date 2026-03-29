@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 92: ニュー, ニュアンス, ネガ...",
+  "lesson_number": 1398,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 49529,
+      "kana": "ニュー",
+      "gloss": "new",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 49646,
+      "kana": "ニュアンス",
+      "gloss": "nuance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 49760,
+      "kana": "ネガ",
+      "gloss": "negative; negative (e.g. thinking)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 49897,
+      "kana": "ノイローゼ",
+      "gloss": "neurosis; nervous breakdown; mental problem; identity crisis; obsession",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 50238,
+      "kana": "ハンガー",
+      "gloss": "(aircraft) hangar; (coat) hanger; hunger",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 50304,
+      "kana": "バー",
+      "gloss": "bar; VAR",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 50606,
+      "kana": "バッジ",
+      "gloss": "badge",
+      "card_type": "vocab"
+    }
+  ]
+}

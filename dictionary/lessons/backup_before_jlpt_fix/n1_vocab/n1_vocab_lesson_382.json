@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1242: 褒美, 葬る, 放り込む...",
+  "lesson_number": 1242,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 106549,
+      "kanji": "褒美",
+      "kana": "ほうび",
+      "gloss": "reward; prize",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 91297,
+      "kanji": "葬る",
+      "kana": "ほうむる",
+      "gloss": "to bury; to inter; to entomb; to cover up; to hush up; to shelve",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106333,
+      "kanji": "放り込む",
+      "kana": "ほうりこむ",
+      "gloss": "to throw into; to toss into",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106335,
+      "kanji": "放り出す",
+      "kana": "ほうりだす",
+      "gloss": "to throw out; to drop; to toss; to dump; to abandon; to neglect; to leave behind; to give up; to dismiss; to fire; to expel",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 290521,
+      "kanji": "放り出す",
+      "kana": "ひりだす",
+      "gloss": "to expel; to eject; to push out; to force out",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106583,
+      "kanji": "飽和",
+      "kana": "ほうわ",
+      "gloss": "saturation; satiation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105914,
+      "kanji": "保温",
+      "kana": "ほおん",
+      "gloss": "retaining warmth; keeping heat in; heat insulation",
+      "card_type": "vocab"
+    }
+  ]
+}

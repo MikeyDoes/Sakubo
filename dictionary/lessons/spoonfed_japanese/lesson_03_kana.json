@@ -1,0 +1,44 @@
+{
+  "title": "Lesson 3: (Kana) - Lesson 3: (Hiragana) \"が, ぎ, ぐ, げ, ご\"",
+  "lesson_type": "kana",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Dakuten (゛)",
+      "body": "The two small marks (゛) at the top-right of a character are called dakuten (or 'tenten'). They voice the consonant:\n\nか → が (ka → ga)\nさ → ざ (sa → za)\nた → だ (ta → da)\nは → ば (ha → ba)\n\nYou'll learn each set as it comes. This lesson covers the か row: か → が, き → ぎ, く → ぐ, け → げ, こ → ご."
+    }
+  ],
+  "items": [
+    {
+      "entry_id": 325229,
+      "kana": "が",
+      "gloss": "ga",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325230,
+      "kana": "ぎ",
+      "gloss": "gi",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325231,
+      "kana": "ぐ",
+      "gloss": "gu",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325232,
+      "kana": "げ",
+      "gloss": "ge",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325233,
+      "kana": "ご",
+      "gloss": "go",
+      "card_type": "kana"
+    }
+  ],
+  "lesson_number": 3
+}

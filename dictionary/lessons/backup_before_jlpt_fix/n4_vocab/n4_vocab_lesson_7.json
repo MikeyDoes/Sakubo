@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 235: 石, 石, 石...",
+  "lesson_number": 235,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 88474,
+      "kanji": "石",
+      "kana": "いし",
+      "gloss": "stone; jewel; precious stone; flint (in a lighter); stone (in go); stone (in the bladder, kidney etc.); calculus; rock (in rock-paper-scissors)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88475,
+      "kanji": "石",
+      "kana": "こく",
+      "gloss": "koku; traditional unit of volume, approx. 180.4 litres; measure of a Japanese-style boat's loading capacity (approx. 278.26 liters)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 307356,
+      "kanji": "石",
+      "kana": "せき",
+      "gloss": "counter for jewels in a watch; counter for transistors, diodes, etc. in an electronic product",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63813,
+      "kanji": "苛める",
+      "kana": "いじめる",
+      "gloss": "to ill-treat; to bully; to torment; to pick on; to tease; to be cruel to; to persecute; to be tough on (e.g. one's body); to treat harshly",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 58467,
+      "kanji": "以上",
+      "kana": "いじょう",
+      "gloss": "not less than; ... and over; ... and above; ... and upwards; ... or more; beyond (e.g. one's expectations); above; more than; further than; above-mentioned; aforementioned; foregoing; since ...; seeing that ...; now that ...; once ...; that's all; that is the end; the end",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68282,
+      "kanji": "急ぐ",
+      "kana": "いそぐ",
+      "gloss": "to hurry; to rush; to hasten; to make something happen sooner",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 93874,
+      "kanji": "致す",
+      "kana": "いたす",
+      "gloss": "to do",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 176: 着く, 着く, 机...",
+  "lesson_number": 176,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 94017,
+      "kanji": "着く",
+      "kana": "つく",
+      "gloss": "to arrive at; to reach; to sit on; to sit at (e.g. the table)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124027,
+      "kanji": "着く",
+      "kana": "はく",
+      "gloss": "to put on (lower-body clothing, e.g. pants, skirt, footwear); to wear; to affix (a sword to one's hip); to affix (a bowstring to a bow)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 67117,
+      "kanji": "机",
+      "kana": "つくえ",
+      "gloss": "desk",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121282,
+      "kanji": "作る",
+      "kana": "つくる",
+      "gloss": "to make; to produce; to manufacture; to build; to construct; to prepare (food); to brew (alcohol); to raise; to grow; to cultivate; to train; to till; to draw up (a document); to make out; to prepare; to write; to create (an artistic work, etc.); to compose; to coin (a phrase); to organize; to organise; to establish; to found; to have (a child); to make up (one's face, etc.); to fabricate (an excuse, etc.); to give a (false) appearance; to feign (a smile, etc.); to put on a show of emotion; to form (a line, etc.); to set (a record); to commit (a sin, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81776,
+      "kanji": "就ける",
+      "kana": "つける",
+      "gloss": "to install (a king, emperor, etc.); to appoint (to a post); to promote; to assign (to study under)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95393,
+      "kanji": "漬ける",
+      "kana": "つける",
+      "gloss": "to soak (in); to steep; to dip; to dunk; to pickle; to preserve (in salt, vinegar, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103576,
+      "kanji": "付ける",
+      "kana": "つける",
+      "gloss": "to attach; to join; to add; to append; to affix; to stick; to glue; to fasten; to sew on; to apply (ointment); to furnish (a house with); to wear; to put on; to keep a diary; to make an entry; to appraise; to set (a price); to allot; to budget; to assign; to bring alongside; to place (under guard or doctor); to follow; to shadow; to load; to give (courage to); to keep (an eye on); to establish (relations or understanding); to turn on (light); to produce flowers; to produce fruit",
+      "card_type": "vocab"
+    }
+  ]
+}

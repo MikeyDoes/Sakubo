@@ -1,0 +1,37 @@
+{
+  "title": "Lesson 31: (Kana) - Lesson 31: (Katakana) \"タ, チ, ツ, テ, ト\"",
+  "lesson_type": "kana",
+  "items": [
+    {
+      "entry_id": 325196,
+      "kana": "タ",
+      "gloss": "ta",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325197,
+      "kana": "チ",
+      "gloss": "chi",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325198,
+      "kana": "ツ",
+      "gloss": "tsu",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325199,
+      "kana": "テ",
+      "gloss": "te",
+      "card_type": "kana"
+    },
+    {
+      "entry_id": 325200,
+      "kana": "ト",
+      "gloss": "to",
+      "card_type": "kana"
+    }
+  ],
+  "lesson_number": 31
+}

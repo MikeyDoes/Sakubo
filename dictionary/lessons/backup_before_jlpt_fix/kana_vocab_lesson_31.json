@@ -1,0 +1,31 @@
+{
+  "lesson_number": 31,
+  "title": "Lesson 31 (Vocab) - にゃあ, ぎゃあ, ひょい...",
+  "description": "にゃあ (Cat) vs ぎゃあ (Screaming). This is the final boss of Kana reading!",
+  "items": [
+    {
+      "entry_id": 127475,
+      "kanji": null,
+      "kana": "にゃあ",
+      "gloss": "meow; miaow"
+    },
+    {
+      "entry_id": 269907,
+      "kanji": null,
+      "kana": "ぎゃあ",
+      "gloss": "yikes!; eek!; ouch!; blech; ook; eek; customer"
+    },
+    {
+      "entry_id": 247307,
+      "kanji": null,
+      "kana": "ぴゅん",
+      "gloss": "whiz (e.g. projectile through air); swoosh; whoosh; whistling sound"
+    },
+    {
+      "entry_id": 326342,
+      "kanji": null,
+      "kana": "じょじょ",
+      "gloss": "slowly; gradually; bit by bit"
+    }
+  ]
+}

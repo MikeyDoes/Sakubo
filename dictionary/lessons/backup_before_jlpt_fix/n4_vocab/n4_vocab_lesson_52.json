@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 280: 此れから, 怖い, 壊す...",
+  "lesson_number": 280,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 37121,
+      "kanji": "此れから",
+      "kana": "これから",
+      "gloss": "from now on; after this; in the future; in future; from here; from this point",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 119978,
+      "kanji": "怖い",
+      "kana": "こわい",
+      "gloss": "scary; frightening; eerie; dreadful",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64425,
+      "kanji": "壊す",
+      "kana": "こわす",
+      "gloss": "to break; to destroy; to demolish; to wreck; to ruin; to spoil; to damage; to break (a bill, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 64427,
+      "kanji": "壊れる",
+      "kana": "こわれる",
+      "gloss": "to be broken; to break; to fall through; to come to nothing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76084,
+      "kanji": "今度",
+      "kana": "こんど",
+      "gloss": "this time; now; next time; another time; shortly; soon; recently; lately; the other day",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76100,
+      "kanji": "今夜",
+      "kana": "こんや",
+      "gloss": "this evening; tonight",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76653,
+      "kanji": "最近",
+      "kana": "さいきん",
+      "gloss": "recently; lately; these days; nowadays; right now; nearest; closest",
+      "card_type": "vocab"
+    }
+  ]
+}

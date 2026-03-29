@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1143: 露, 露, 強まる...",
+  "lesson_number": 1143,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 112002,
+      "kanji": "露",
+      "kana": "つゆ",
+      "gloss": "dew; tears; (not) a bit; (not) at all",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112003,
+      "kanji": "露",
+      "kana": "あらわ",
+      "gloss": "exposed; scanty; bare; unconcealed; naked; public; open",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69161,
+      "kanji": "強まる",
+      "kana": "つよまる",
+      "gloss": "to get strong; to gain strength",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69164,
+      "kanji": "強める",
+      "kana": "つよめる",
+      "gloss": "to strengthen; to emphasize; to emphasise",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111888,
+      "kanji": "連なる",
+      "kana": "つらなる",
+      "gloss": "to extend; to stretch out; to stand in a row; to attend; to participate in; to enrol; to enroll; to join; to have a connection; to be related; to be linked",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 66420,
+      "kanji": "貫く",
+      "kana": "つらぬく",
+      "gloss": "to go through; to pierce; to penetrate; to run through (e.g. a river through a city); to pass through; to stick to (opinion, principles, etc.); to carry out; to persist with; to keep (e.g. faith); to maintain (e.g. independence)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111890,
+      "kanji": "連ねる",
+      "kana": "つらねる",
+      "gloss": "to line up; to put in a row; to add (to a group); to accept (as a member of an organization, etc.); to join (e.g. a list); to link; to put together; to string together (e.g. compliments); to enumerate; to take along with; to bring with",
+      "card_type": "vocab"
+    }
+  ]
+}

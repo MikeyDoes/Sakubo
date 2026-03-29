@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 873: 荒っぽい, 霰, 現われ...",
+  "lesson_number": 873,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 75082,
+      "kanji": "荒っぽい",
+      "kana": "あらっぽい",
+      "gloss": "wild; violent; rough-mannered; rude; rough (e.g. work); crude; coarse; careless",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 114402,
+      "kanji": "霰",
+      "kana": "あられ",
+      "gloss": "hail (esp. hailballs under 5 mm); graupel; dicing; small cubes; roasted mochi pieces (usu. flavoured with soy sauce, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124586,
+      "kanji": "現われ",
+      "kana": "あらわれ",
+      "gloss": "embodiment; manifestation; materialization; materialisation; expression; indication",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 72699,
+      "kanji": "現われる",
+      "kana": "あらわれる",
+      "gloss": "to appear; to come in sight; to become visible; to come out; to embody; to materialize; to materialise; to be expressed (e.g. emotions); to become apparent (e.g. trends, effects)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109545,
+      "kanji": "有様",
+      "kana": "ありさま",
+      "gloss": "state; condition; circumstances; sight; spectacle; the way things should be; ideal state; truth",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 109527,
+      "kanji": "有りのまま",
+      "kana": "ありのまま",
+      "gloss": "the truth; fact; as it is; as you are; frank; bare plain",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 124993,
+      "kanji": "彼此",
+      "kana": "かれこれ",
+      "gloss": "this and that; this or that; one thing or another; this way and that; around; about; round about; roughly; nearly; almost",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 613: 礼儀, 冷静, 列...",
+  "lesson_number": 613,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 111668,
+      "kanji": "礼儀",
+      "kana": "れいぎ",
+      "gloss": "manners; courtesy; etiquette",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111625,
+      "kanji": "冷静",
+      "kana": "れいせい",
+      "gloss": "calmness; composure; coolness; serenity; presence of mind",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111769,
+      "kanji": "列",
+      "kana": "れつ",
+      "gloss": "row; line; file; column; queue; rank; procession; company (of someone); group; ranks; sequence; counter for rows",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111773,
+      "kanji": "列車",
+      "kana": "れっしゃ",
+      "gloss": "train; railway train",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111940,
+      "kanji": "連想",
+      "kana": "れんそう",
+      "gloss": "association (of ideas); being reminded (of something); suggestion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111942,
+      "kanji": "連続",
+      "kana": "れんぞく",
+      "gloss": "continuation; succession; series",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 112163,
+      "kanji": "老人",
+      "kana": "ろうじん",
+      "gloss": "old person; senior citizen; the aged; the elderly",
+      "card_type": "vocab"
+    }
+  ]
+}

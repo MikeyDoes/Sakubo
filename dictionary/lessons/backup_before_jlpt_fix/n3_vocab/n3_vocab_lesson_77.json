@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 426: 計算, 掲示, 刑事...",
+  "lesson_number": 426,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 71236,
+      "kanji": "計算",
+      "kana": "けいさん",
+      "gloss": "calculation; reckoning; count; forecast",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71030,
+      "kanji": "掲示",
+      "kana": "けいじ",
+      "gloss": "notice; bulletin; post; posting; placard",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70897,
+      "kanji": "刑事",
+      "kana": "けいじ",
+      "gloss": "(police) detective; criminal matter",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71350,
+      "kanji": "芸術",
+      "kana": "げいじゅつ",
+      "gloss": "(fine) art; the arts",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 70959,
+      "kanji": "契約",
+      "kana": "けいやく",
+      "gloss": "contract; compact; agreement",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71153,
+      "kanji": "経由",
+      "kana": "けいゆ",
+      "gloss": "going through; going via; going by way of",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71384,
+      "kanji": "劇",
+      "kana": "げき",
+      "gloss": "drama; play; powerful drug",
+      "card_type": "vocab"
+    }
+  ]
+}

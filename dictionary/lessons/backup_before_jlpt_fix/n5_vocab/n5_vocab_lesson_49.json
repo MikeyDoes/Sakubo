@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 149: 交差点, 紅茶, 交番...",
+  "lesson_number": 149,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 119831,
+      "kanji": "交差点",
+      "kana": "こうさてん",
+      "gloss": "crossing; intersection",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74989,
+      "kanji": "紅茶",
+      "kana": "こうちゃ",
+      "gloss": "black tea",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 74010,
+      "kanji": "交番",
+      "kana": "こうばん",
+      "gloss": "police box; koban; small neighborhood police station; alternation; alternating (current, stress, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 88227,
+      "kanji": "声",
+      "kana": "こえ",
+      "gloss": "voice; singing (of a bird); chirping (of an insect); hoot; opinion (as expressed in words); view; wish; attitude; will; sound; sense (of something's arrival); feeling; voiced sound",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 307136,
+      "kanji": "声",
+      "kana": "しょう",
+      "gloss": "voice; sound; tone (of Chinese character); tone mark; stress (in pronunciation); intonation; accent",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 43730,
+      "kanji": "珈琲",
+      "kana": "コーヒー",
+      "gloss": "coffee",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76015,
+      "kanji": "此処",
+      "kana": "ここ",
+      "gloss": "here; this place; this point; now; these past ... (e.g. three years); these last ...; the next ... (e.g. few days); these next ...",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 340: 無理, 召し上がる, 珍しい...",
+  "lesson_number": 340,
+  "jlpt_level": "N4",
+  "items": [
+    {
+      "entry_id": 108127,
+      "kanji": "無理",
+      "kana": "むり",
+      "gloss": "unreasonable; unnatural; unjustifiable; impossible; forcible; forced; compulsory; excessive (work, etc.); immoderate; to work too hard; to try too hard; no way; not a chance; never; dream on; irrational",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83679,
+      "kanji": "召し上がる",
+      "kana": "めしあがる",
+      "gloss": "to eat; to drink",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 95133,
+      "kanji": "珍しい",
+      "kana": "めずらしい",
+      "gloss": "unusual; rare; curious; new; novel; fine (e.g. gift)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85888,
+      "kanji": "申し上げる",
+      "kana": "もうしあげる",
+      "gloss": "to say; to tell; to state; to express; to offer; to extend (greetings, congratulations, etc.); to do",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 85915,
+      "kanji": "申す",
+      "kana": "もうす",
+      "gloss": "to say; to be called; to do",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 173129,
+      "kanji": "もう直ぐ",
+      "kana": "もうすぐ",
+      "gloss": "soon; shortly; before long; nearly; almost",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 38454,
+      "kanji": "若し",
+      "kana": "もし",
+      "gloss": "if; in case; supposing",
+      "card_type": "vocab"
+    }
+  ]
+}

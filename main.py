@@ -6459,9 +6459,9 @@ class LessonsScreen(BoxLayout):
             if collection_name == 'kana':
                 min_lesson, max_lesson = 1, 50
             elif collection_name == 'n5':
-                min_lesson, max_lesson = 51, 278
+                min_lesson, max_lesson = 51, 271
             elif collection_name == 'n4':
-                min_lesson, max_lesson = 279, 482
+                min_lesson, max_lesson = 272, 482
             elif collection_name == 'n3':
                 min_lesson, max_lesson = 483, 908
             elif collection_name == 'n2':
@@ -7169,14 +7169,14 @@ class LessonsScreen(BoxLayout):
     def show_n5_vocab_lessons(self, query: str | None = None, record_nav: bool = True):
         """Show JLPT N5 vocabulary lessons."""
         self._show_level_vocab_lessons_async(
-            'n5', (51, 278), 'n5_vocab_lessons',
+            'n5', (51, 271), 'n5_vocab_lessons',
             'add_all_n5_vocab_to_queue', 'remove_all_n5_vocab_from_queue',
             query=query, record_nav=record_nav)
 
     def show_n4_vocab_lessons(self, query: str | None = None, record_nav: bool = True):
         """Show JLPT N4 vocabulary lessons."""
         self._show_level_vocab_lessons_async(
-            'n4', (279, 482), 'n4_vocab_lessons',
+            'n4', (272, 482), 'n4_vocab_lessons',
             'add_all_n4_vocab_to_queue', 'remove_all_n4_vocab_from_queue',
             query=query, record_nav=record_nav)
 
@@ -24820,7 +24820,7 @@ class SpoonfedApp(App):
             
             # Define lesson ranges (must match show_*_lessons methods)
             ranges = {
-                'kana': (1, 50), 'n5': (51, 278), 'n4': (279, 482),
+                'kana': (1, 50), 'n5': (51, 271), 'n4': (272, 482),
                 'n3': (483, 908), 'n2': (909, 1361), 'n1': (1362, 2093),
             }
             if collection_name not in ranges:
@@ -34279,7 +34279,7 @@ class SpoonfedApp(App):
                 if index_file.exists():
                     idx = self._load_lesson_json(index_file).get('lessons', {})
                     ranges = {
-                        'Kana': (1, 50), 'JLPT N5': (51, 278), 'JLPT N4': (279, 482),
+                        'Kana': (1, 50), 'JLPT N5': (51, 271), 'JLPT N4': (272, 482),
                         'JLPT N3': (483, 908), 'JLPT N2': (909, 1361), 'JLPT N1': (1362, 2093),
                     }
                     num_to_coll = {}

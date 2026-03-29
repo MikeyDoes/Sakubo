@@ -1,0 +1,38 @@
+{
+  "title": "Lesson 46 (Kana) - ナ・ニ・ヌ・ネ・ノ",
+  "lesson_number": 46,
+  "description": "ヌ looks like a sword! ノ is just one single stroke.",
+  "source_file": "Spoonfed Kana Vocab Lessons.ods",
+  "items": [
+    {
+      "entry_id": 325302,
+      "kana": "ナ",
+      "kanji": null,
+      "gloss": "na"
+    },
+    {
+      "entry_id": 325410,
+      "kana": "ニ",
+      "kanji": null,
+      "gloss": "ni"
+    },
+    {
+      "entry_id": 325303,
+      "kana": "ヌ",
+      "kanji": null,
+      "gloss": "nu"
+    },
+    {
+      "entry_id": 325304,
+      "kana": "ネ",
+      "kanji": null,
+      "gloss": "ne"
+    },
+    {
+      "entry_id": 325305,
+      "kana": "ノ",
+      "kanji": null,
+      "gloss": "no"
+    }
+  ]
+}

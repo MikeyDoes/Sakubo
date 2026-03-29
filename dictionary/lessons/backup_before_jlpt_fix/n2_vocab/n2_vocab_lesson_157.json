@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 773: 手前, 出迎え, 出迎える...",
+  "lesson_number": 773,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 181357,
+      "kanji": "手前",
+      "kana": "てめえ",
+      "gloss": "you; I; me; oneself",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82683,
+      "kanji": "出迎え",
+      "kana": "でむかえ",
+      "gloss": "meeting; reception",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82684,
+      "kanji": "出迎える",
+      "kana": "でむかえる",
+      "gloss": "to meet; to greet",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84280,
+      "kanji": "照らす",
+      "kana": "てらす",
+      "gloss": "to shine on; to illuminate; to compare (with); to refer to",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84282,
+      "kanji": "照る",
+      "kana": "てる",
+      "gloss": "to shine; to look slightly upward (of a noh mask; indicating joy, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96291,
+      "kanji": "展開",
+      "kana": "てんかい",
+      "gloss": "development; evolution; progression; unfolding; (plot) twist; expansion; spreading out; extending; deployment; building up; expansion (of an algebraic expression); development (of a three-dimensional shape); extraction (of compressed data); decompression; unpacking",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 96457,
+      "kanji": "伝記",
+      "kana": "でんき",
+      "gloss": "biography; life story",
+      "card_type": "vocab"
+    }
+  ]
+}

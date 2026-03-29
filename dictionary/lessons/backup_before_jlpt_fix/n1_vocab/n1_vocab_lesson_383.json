@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1243: 捕獲, 保管, 補給...",
+  "lesson_number": 1243,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 106027,
+      "kanji": "捕獲",
+      "kana": "ほかく",
+      "gloss": "capture; seizure",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105915,
+      "kanji": "保管",
+      "kana": "ほかん",
+      "gloss": "charge; custody; safekeeping; deposit; storage",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106067,
+      "kanji": "補給",
+      "kana": "ほきゅう",
+      "gloss": "supply; supplying; replenishment",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106069,
+      "kanji": "補強",
+      "kana": "ほきょう",
+      "gloss": "reinforcement; strengthening",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105927,
+      "kanji": "保険",
+      "kana": "ほけん",
+      "gloss": "insurance; guarantee",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106029,
+      "kanji": "捕鯨",
+      "kana": "ほげい",
+      "gloss": "whaling; whale hunting; whale fishing",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73346,
+      "kanji": "誇る",
+      "kana": "ほこる",
+      "gloss": "to boast of; to be proud of; to take pride in",
+      "card_type": "vocab"
+    }
+  ]
+}

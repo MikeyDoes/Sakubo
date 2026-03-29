@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1245: 補助, 舗装, 補足...",
+  "lesson_number": 1245,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 106076,
+      "kanji": "補助",
+      "kana": "ほじょ",
+      "gloss": "assistance; support; aid; help; subsidy; supplement; subvention; grant-in-aid; auxiliary; subsidiary; spot (in bodybuilding)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105994,
+      "kanji": "舗装",
+      "kana": "ほそう",
+      "gloss": "paving (a road); surfacing (with asphalt, concrete, etc.); pavement",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106087,
+      "kanji": "補足",
+      "kana": "ほそく",
+      "gloss": "supplement; complement",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 101293,
+      "kanji": "発作",
+      "kana": "ほっさ",
+      "gloss": "fit; spasm; attack; seizure",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 106856,
+      "kanji": "頬っぺた",
+      "kana": "ほっぺた",
+      "gloss": "cheek",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 78904,
+      "kanji": "施す",
+      "kana": "ほどこす",
+      "gloss": "to give (time, money, goods); to donate; to do; to perform; to conduct; to apply (processing, makeup, etc.); to add (e.g. ornamentation, annotation); to sow; to seed; to scatter (e.g. fertilizer); to sprinkle; to spread far and wide",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105986,
+      "kanji": "保養",
+      "kana": "ほよう",
+      "gloss": "health preservation; recuperation; recreation",
+      "card_type": "vocab"
+    }
+  ]
+}

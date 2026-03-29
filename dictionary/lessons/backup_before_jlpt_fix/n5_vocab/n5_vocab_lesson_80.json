@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 180: 如何, 動, 同...",
+  "lesson_number": 180,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 37801,
+      "kanji": "如何",
+      "kana": "どう",
+      "gloss": "how; in what way; how about",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97755,
+      "kanji": "動",
+      "kana": "どう",
+      "gloss": "motion",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 97815,
+      "kanji": "同",
+      "kana": "どう",
+      "gloss": "the same; the said; likewise",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98014,
+      "kanji": "堂",
+      "kana": "どう",
+      "gloss": "temple; shrine; chapel; hall; company; front room",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 98069,
+      "kanji": "胴",
+      "kana": "どう",
+      "gloss": "trunk; torso; body; abdomen; waist; plastron (in kendo); touching the plastron (kimari-te in kendo); frame (of a drum, etc.); sound box (of a shamisen, etc.); hull (of a ship); dealer",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 116810,
+      "kanji": "銅",
+      "kana": "どう",
+      "gloss": "copper (Cu); bronze (medal)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 192755,
+      "kanji": "道",
+      "kana": "どう",
+      "gloss": "road; path; street; route; way; set of practices; rules for conducting oneself; Buddhist teachings; Taoism; modern administrative region of Japan (Hokkaido); historical administrative region of Japan (Tokaido, Tosando, etc.); province (Tang-era administrative region of China); province (modern administrative region of Korea)",
+      "card_type": "vocab"
+    }
+  ]
+}

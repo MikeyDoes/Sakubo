@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1161: 特有, 研ぐ, 刺...",
+  "lesson_number": 1161,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 98231,
+      "kanji": "特有",
+      "kana": "とくゆう",
+      "gloss": "characteristic (of); peculiar (to)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121520,
+      "kanji": "研ぐ",
+      "kana": "とぐ",
+      "gloss": "to sharpen; to hone; to whet; to grind; to wash (rice); to scour; to polish; to burnish",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121524,
+      "kanji": "刺",
+      "kana": "とげ",
+      "gloss": "thorn; spine; prickle; splinter (esp. lodged in one's flesh); hard sharp item (esp. lodged in one's throat, e.g. fish bone); biting words",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 87212,
+      "kanji": "遂げる",
+      "kana": "とげる",
+      "gloss": "to accomplish; to achieve; to carry out; to arrive at (a certain outcome); to come to; to end with",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 100024,
+      "kanji": "年頃",
+      "kana": "としごろ",
+      "gloss": "approximate age; apparent age; marriageable age (esp. of a woman); age of maturity; age of adulthood; appropriate age (to ...); old enough (to ...); past few years; for some years",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121538,
+      "kanji": "年寄り",
+      "kana": "としより",
+      "gloss": "old person; elderly person; senior citizen; trustee of the Japan Sumo Association; retired high-ranking wrestler who is licensed to coach and receives retirement pay; senior statesman (of the Tokugawa shogunate); important local official (under the Tokugawa Shogunate)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 73224,
+      "kanji": "戸締り",
+      "kana": "とじまり",
+      "gloss": "locking up (doors and windows); fastening the doors",
+      "card_type": "vocab"
+    }
+  ]
+}

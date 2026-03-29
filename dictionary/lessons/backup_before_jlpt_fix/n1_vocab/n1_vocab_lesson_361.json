@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1221: 貧弱, 頻繁, 美...",
+  "lesson_number": 1221,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 103014,
+      "kanji": "貧弱",
+      "kana": "ひんじゃく",
+      "gloss": "poor; meagre; meager; feeble; scanty; shabby; insubstantial",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 103038,
+      "kanji": "頻繁",
+      "kana": "ひんぱん",
+      "gloss": "frequent; incessant",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102417,
+      "kanji": "美",
+      "kana": "び",
+      "gloss": "beauty",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102363,
+      "kanji": "微笑",
+      "kana": "びしょう",
+      "gloss": "smile",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102427,
+      "kanji": "美術",
+      "kana": "びじゅつ",
+      "gloss": "art; fine arts",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 255127,
+      "kanji": "吃驚",
+      "kana": "きっきょう",
+      "gloss": "surprise",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102930,
+      "kanji": "描写",
+      "kana": "びょうしゃ",
+      "gloss": "depiction; description; portrayal",
+      "card_type": "vocab"
+    }
+  ]
+}

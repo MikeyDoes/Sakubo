@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1299: 旅券, 履歴, 理論...",
+  "lesson_number": 1299,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 111147,
+      "kanji": "旅券",
+      "kana": "りょけん",
+      "gloss": "passport",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110699,
+      "kanji": "履歴",
+      "kana": "りれき",
+      "gloss": "personal history; background; career; log; record; history; hysteresis",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110749,
+      "kanji": "理論",
+      "kana": "りろん",
+      "gloss": "theory",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111420,
+      "kanji": "林業",
+      "kana": "りんぎょう",
+      "gloss": "forestry",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111517,
+      "kanji": "類似",
+      "kana": "るいじ",
+      "gloss": "resemblance; similarity; likeness; analogy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111519,
+      "kanji": "類推",
+      "kana": "るいすい",
+      "gloss": "analogy; analogical reasoning; analogical inference",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 111618,
+      "kanji": "冷酷",
+      "kana": "れいこく",
+      "gloss": "cruelty; coldheartedness; relentless; ruthless",
+      "card_type": "vocab"
+    }
+  ]
+}

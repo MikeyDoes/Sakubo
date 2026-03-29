@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 698: 一昨昨日, 先程, 裂く...",
+  "lesson_number": 698,
+  "jlpt_level": "N2",
+  "items": [
+    {
+      "entry_id": 114843,
+      "kanji": "一昨昨日",
+      "kana": "さきおととい",
+      "gloss": "two days before yesterday; three days back (ago)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 89347,
+      "kanji": "先程",
+      "kana": "さきほど",
+      "gloss": "a short while ago; a moment ago; just now; some time ago",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65453,
+      "kanji": "裂く",
+      "kana": "さく",
+      "gloss": "to tear; to rip up; to cut up; to cleave; to cut open (esp. the abdomen); to forcibly separate (e.g. two lovers); to spare (time, money, etc.); to use part of something; to have a tattoo in the corner of one's eye",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77212,
+      "kanji": "索引",
+      "kana": "さくいん",
+      "gloss": "index (in a book)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77135,
+      "kanji": "作者",
+      "kana": "さくしゃ",
+      "gloss": "creator (of a work); author; writer; artist; composer; playwright; dramatist",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77187,
+      "kanji": "削除",
+      "kana": "さくじょ",
+      "gloss": "deletion; elimination; erasure; striking out",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 77139,
+      "kanji": "作成",
+      "kana": "さくせい",
+      "gloss": "drawing up (e.g. legal document, contract, will, etc.); preparing; writing; framing; making; producing; creating; creation",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1294: 落下, 楽観, 濫用...",
+  "lesson_number": 1294,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 110549,
+      "kanji": "落下",
+      "kana": "らっか",
+      "gloss": "fall; drop; descent; coming down",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65364,
+      "kanji": "楽観",
+      "kana": "らっかん",
+      "gloss": "optimism; taking an optimistic view",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110609,
+      "kanji": "濫用",
+      "kana": "らんよう",
+      "gloss": "abuse; misuse; misappropriation; using to excess",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 123762,
+      "kanji": "理屈",
+      "kana": "りくつ",
+      "gloss": "theory; reason",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 143618,
+      "kanji": "利根",
+      "kana": "りこん",
+      "gloss": "intelligence; cleverness; innate aptitude",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110670,
+      "kanji": "利子",
+      "kana": "りし",
+      "gloss": "interest (on a loan, deposit, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110672,
+      "kanji": "利潤",
+      "kana": "りじゅん",
+      "gloss": "profit; returns",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1058: 承諾, 象徴, 小児科...",
+  "lesson_number": 1058,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 84072,
+      "kanji": "承諾",
+      "kana": "しょうだく",
+      "gloss": "consent; approval; acceptance; agreement; compliance",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84420,
+      "kanji": "象徴",
+      "kana": "しょうちょう",
+      "gloss": "(abstract) symbol; emblem; representation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83896,
+      "kanji": "小児科",
+      "kana": "しょうにか",
+      "gloss": "pediatrics",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84394,
+      "kanji": "証人",
+      "kana": "しょうにん",
+      "gloss": "witness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84301,
+      "kanji": "照明",
+      "kana": "しょうめい",
+      "gloss": "illumination; lighting",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83659,
+      "kanji": "勝利",
+      "kana": "しょうり",
+      "gloss": "victory; triumph; conquest; success; win",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 83805,
+      "kanji": "奨励",
+      "kana": "しょうれい",
+      "gloss": "encouragement; promotion; inducement; incitement; stimulation",
+      "card_type": "vocab"
+    }
+  ]
+}

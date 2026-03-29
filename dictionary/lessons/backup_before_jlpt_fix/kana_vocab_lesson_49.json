@@ -1,0 +1,31 @@
+{
+  "lesson_number": 49,
+  "title": "Lesson 49 (Vocab) - ハワイ, ヒーロー, ハイク...",
+  "description": "ハワイ (Hawaii) and ハイク (Haiku). ヘー is the same \"Hee!\" surprise sound from Hiragana.",
+  "items": [
+    {
+      "entry_id": 326347,
+      "kanji": null,
+      "kana": "ハワイ",
+      "gloss": "Hawaii"
+    },
+    {
+      "entry_id": 51242,
+      "kanji": null,
+      "kana": "ヒーロー",
+      "gloss": "hero"
+    },
+    {
+      "entry_id": 50064,
+      "kanji": null,
+      "kana": "ハイク",
+      "gloss": "hike"
+    },
+    {
+      "entry_id": 50043,
+      "kanji": null,
+      "kana": "ハイ",
+      "gloss": "high (e.g. spirits); merry; high; high (i.e. feeling of extreme pleasure)"
+    }
+  ]
+}

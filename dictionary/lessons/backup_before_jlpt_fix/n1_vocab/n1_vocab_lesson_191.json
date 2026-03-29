@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1051: 執着, 収容, 修了...",
+  "lesson_number": 1051,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 120339,
+      "kanji": "執着",
+      "kana": "しゅうちゃく",
+      "gloss": "attachment; adhesion; tenacity; fixation; obsession",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81705,
+      "kanji": "収容",
+      "kana": "しゅうよう",
+      "gloss": "accommodation; reception; housing; seating; custody (e.g. awaiting deportation); internment; admission; hospitalization; entering (e.g. in dictionary)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81880,
+      "kanji": "修了",
+      "kana": "しゅうりょう",
+      "gloss": "completion (of a course)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 81129,
+      "kanji": "守衛",
+      "kana": "しゅえい",
+      "gloss": "security guard; doorkeeper",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80815,
+      "kanji": "主演",
+      "kana": "しゅえん",
+      "gloss": "starring; playing the leading part",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 80829,
+      "kanji": "主観",
+      "kana": "しゅかん",
+      "gloss": "subjectivity; subject (philosophical); ego; one's personal opinion; one's own idea",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 82525,
+      "kanji": "祝賀",
+      "kana": "しゅくが",
+      "gloss": "celebration; congratulations",
+      "card_type": "vocab"
+    }
+  ]
+}

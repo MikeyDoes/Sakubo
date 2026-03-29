@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1057: 証拠, 照合, 詳細...",
+  "lesson_number": 1057,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 84386,
+      "kanji": "証拠",
+      "kana": "しょうこ",
+      "gloss": "evidence; proof",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84292,
+      "kanji": "照合",
+      "kana": "しょうごう",
+      "gloss": "collation; comparison",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84406,
+      "kanji": "詳細",
+      "kana": "しょうさい",
+      "gloss": "details; particulars; specifics; detailed; specific; minute; close-up view (of a digitally displayed map); zoomed-in view",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84110,
+      "kanji": "昇進",
+      "kana": "しょうしん",
+      "gloss": "promotion; advancement; rising in rank",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84019,
+      "kanji": "少数",
+      "kana": "しょうすう",
+      "gloss": "small number; few; minority",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84328,
+      "kanji": "称する",
+      "kana": "しょうする",
+      "gloss": "to take the name of; to call oneself; to pretend; to feign; to purport",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 84177,
+      "kanji": "消息",
+      "kana": "しょうそく",
+      "gloss": "news (from somebody); letter; contact; (somebody's) whereabouts; (somebody's) movements",
+      "card_type": "vocab"
+    }
+  ]
+}

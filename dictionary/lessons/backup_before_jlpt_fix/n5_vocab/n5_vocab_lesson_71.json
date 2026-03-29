@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 171: 縦, 縦, 縦...",
+  "lesson_number": 171,
+  "jlpt_level": "N5",
+  "items": [
+    {
+      "entry_id": 82315,
+      "kanji": "縦",
+      "kana": "たて",
+      "gloss": "the vertical; height; front-to-back; length; north-to-south; vertical (relationship); hierarchy; (weaving) warp",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 160667,
+      "kanji": "縦",
+      "kana": "ほしいまま",
+      "gloss": "selfish; self-indulgent; arbitrary",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 253310,
+      "kanji": "縦",
+      "kana": "よし",
+      "gloss": "even if",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 71947,
+      "kanji": "建物",
+      "kana": "たてもの",
+      "gloss": "building",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 110493,
+      "kanji": "頼む",
+      "kana": "たのむ",
+      "gloss": "to request; to beg; to ask; to call; to order; to reserve; to entrust to; to rely on; please; please do",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 65352,
+      "kanji": "楽しい",
+      "kana": "たのしい",
+      "gloss": "enjoyable; fun; pleasant; happy; delightful",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 121063,
+      "kanji": "煙草",
+      "kana": "たばこ",
+      "gloss": "tobacco; cigarette; cigaret; cigar; tobacco plant (Nicotiana tabacum)",
+      "card_type": "vocab"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 566: 秒, 評価, 表現...",
+  "lesson_number": 566,
+  "jlpt_level": "N3",
+  "items": [
+    {
+      "entry_id": 102964,
+      "kanji": "秒",
+      "kana": "びょう",
+      "gloss": "second (unit of time); arc second",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102915,
+      "kanji": "評価",
+      "kana": "ひょうか",
+      "gloss": "valuation; appraisal; evaluation; assessment; estimation; rating; judging; appreciation; recognition; acknowledgement; rating highly; praising",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102856,
+      "kanji": "表現",
+      "kana": "ひょうげん",
+      "gloss": "expression; presentation; representation; notation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102877,
+      "kanji": "表情",
+      "kana": "ひょうじょう",
+      "gloss": "facial expression; countenance; look; appearance; expression (vocal, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 105196,
+      "kanji": "平等",
+      "kana": "びょうどう",
+      "gloss": "equality; impartiality; evenness",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102921,
+      "kanji": "評判",
+      "kana": "ひょうばん",
+      "gloss": "fame; reputation; popularity; rumour (rumor); talk",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 102899,
+      "kanji": "表面",
+      "kana": "ひょうめん",
+      "gloss": "surface; face; outside; exterior; appearances; superficiality",
+      "card_type": "vocab"
+    }
+  ]
+}

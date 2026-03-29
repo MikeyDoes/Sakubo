@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 961: 共, 共, 共...",
+  "lesson_number": 961,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 115489,
+      "kanji": "共",
+      "kana": "とも",
+      "gloss": "together with; same; both; all; neither; none; including ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 245858,
+      "kanji": "共",
+      "kana": "ごと",
+      "gloss": "including...; with ...; inclusive of; ...and all",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 259353,
+      "kanji": "共",
+      "kana": "むた",
+      "gloss": "together with ...",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 68888,
+      "kanji": "供",
+      "kana": "とも",
+      "gloss": "companion; follower; attendant; retinue",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69483,
+      "kanji": "驚異",
+      "kana": "きょうい",
+      "gloss": "wonder; miracle; amazement; prodigy",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69262,
+      "kanji": "教員",
+      "kana": "きょういん",
+      "gloss": "teacher; instructor; teaching staff; faculty member",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 69265,
+      "kanji": "教科",
+      "kana": "きょうか",
+      "gloss": "subject; curriculum",
+      "card_type": "vocab"
+    }
+  ]
+}

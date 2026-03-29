@@ -1,0 +1,56 @@
+{
+  "title": "Lesson 1012: 根底, 混同, 根本...",
+  "lesson_number": 1012,
+  "jlpt_level": "N1",
+  "items": [
+    {
+      "entry_id": 76201,
+      "kanji": "根底",
+      "kana": "こんてい",
+      "gloss": "root; basis; foundation",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 76229,
+      "kanji": "混同",
+      "kana": "こんどう",
+      "gloss": "confusion; mixing; merger",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 228235,
+      "kanji": "根本",
+      "kana": "ねほん",
+      "gloss": "kabuki script; illustrated kabuki script",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 313920,
+      "kanji": "根本",
+      "kana": "ねもと",
+      "gloss": "base (of a plant, tree, pillar, etc.); (part near the) root; roots (of one's hair); root (e.g. of a problem); source",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 313933,
+      "kanji": "根本",
+      "kana": "こんぽん",
+      "gloss": "root; source; origin; foundation; basis; essence",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 208001,
+      "kanji": "御",
+      "kana": "ぎょ",
+      "gloss": "honorific affix; honorific prefix",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 208003,
+      "kanji": "御",
+      "kana": "み",
+      "gloss": "august; beautiful",
+      "card_type": "vocab"
+    }
+  ]
+}

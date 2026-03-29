@@ -1,0 +1,49 @@
+{
+  "title": "Kana Vocab 7: ドア, トイレ, どう...",
+  "lesson_number": 1313,
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 49036,
+      "kana": "ドア",
+      "gloss": "door (Western-style, car, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 48643,
+      "kana": "トイレ",
+      "gloss": "toilet; restroom; bathroom; lavatory",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 206906,
+      "kana": "どう",
+      "gloss": "precisely; exactly; plumb; totally; very much; damn; stupid; cursed",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 207317,
+      "kana": "どう",
+      "gloss": "whoa (command used to stop a horse, etc.)",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63026,
+      "kana": "どうぞ",
+      "gloss": "please; kindly; I beg of you; by all means; feel free; you are welcome; here you are",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 37814,
+      "kana": "どうも",
+      "gloss": "thank you; thanks; much (thanks); very (sorry); quite (regret); quite; really; mostly; somehow; in spite of oneself; try as one might; no matter how hard one may try (to, not to); greetings; hello; goodbye",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 49330,
+      "kana": "ナイフ",
+      "gloss": "knife",
+      "card_type": "vocab"
+    }
+  ]
+}

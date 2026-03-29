@@ -1,0 +1,37 @@
+{
+  "title": "Lesson 14: (Vocab) - はい, どうぞ, なぜ...",
+  "lesson_type": "kana_vocab",
+  "items": [
+    {
+      "entry_id": 37969,
+      "kana": "はい",
+      "gloss": "yes; that is correct; understood",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 63026,
+      "kana": "どうぞ",
+      "gloss": "please; kindly; by all means",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326713,
+      "kana": "なぜ",
+      "gloss": "why; how",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326666,
+      "kana": "すぐに",
+      "gloss": "immediately; right away; at once",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 326731,
+      "kana": "ほか",
+      "gloss": "other; the rest; besides",
+      "card_type": "vocab"
+    }
+  ],
+  "lesson_number": 14
+}
