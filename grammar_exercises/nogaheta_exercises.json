@@ -1,0 +1,172 @@
+{
+  "grammar_point": "のが下手",
+  "entry_id": 325485,
+  "categories": [
+    {
+      "id": "bad_at",
+      "label": "Bad At",
+      "sentences": [
+        {
+          "japanese": "食べるのが下手です。",
+          "japanese_with_blank": "食べる[___]です。",
+          "english": "I am bad at eating.",
+          "target_answer": "のが下手",
+          "alternative_answers": [],
+          "hint": "Bad at",
+          "scramble_blocks": [
+            "食べる",
+            "のが下手",
+            "です"
+          ],
+          "audio_text": "食べるのが下手です。",
+          "notes": "のが下手 = \"bad at [verb]-ing.\"",
+          "position": 1
+        },
+        {
+          "japanese": "書くのが下手です。",
+          "japanese_with_blank": "書く[___]です。",
+          "english": "I am bad at writing.",
+          "target_answer": "のが下手",
+          "alternative_answers": [],
+          "hint": "Bad at",
+          "scramble_blocks": [
+            "書く",
+            "のが下手",
+            "です"
+          ],
+          "audio_text": "書くのが下手です。",
+          "notes": "Weakness: writing.",
+          "position": 2
+        },
+        {
+          "japanese": "読むのが下手です。",
+          "japanese_with_blank": "読む[___]です。",
+          "english": "I am bad at reading.",
+          "target_answer": "のが下手",
+          "alternative_answers": [],
+          "hint": "Bad at",
+          "scramble_blocks": [
+            "読む",
+            "のが下手",
+            "です"
+          ],
+          "audio_text": "読むのが下手です。",
+          "notes": "Weakness: reading.",
+          "position": 3
+        },
+        {
+          "japanese": "話すのが下手です。",
+          "japanese_with_blank": "話す[___]です。",
+          "english": "I am bad at speaking.",
+          "target_answer": "のが下手",
+          "alternative_answers": [],
+          "hint": "Bad at",
+          "scramble_blocks": [
+            "話す",
+            "のが下手",
+            "です"
+          ],
+          "audio_text": "話すのが下手です。",
+          "notes": "Weakness: speaking.",
+          "position": 4
+        },
+        {
+          "japanese": "走るのが下手です。",
+          "japanese_with_blank": "走る[___]です。",
+          "english": "I am bad at running.",
+          "target_answer": "のが下手",
+          "alternative_answers": [],
+          "hint": "Bad at",
+          "scramble_blocks": [
+            "走る",
+            "のが下手",
+            "です"
+          ],
+          "audio_text": "走るのが下手です。",
+          "notes": "Athletic weakness.",
+          "position": 5
+        },
+        {
+          "japanese": "泳ぐのが下手です。",
+          "japanese_with_blank": "泳ぐ[___]です。",
+          "english": "I am bad at swimming.",
+          "target_answer": "のが下手",
+          "alternative_answers": [],
+          "hint": "Bad at",
+          "scramble_blocks": [
+            "泳ぐ",
+            "のが下手",
+            "です"
+          ],
+          "audio_text": "泳ぐのが下手です。",
+          "notes": "Swimming weakness.",
+          "position": 6
+        },
+        {
+          "japanese": "聞くのが下手です。",
+          "japanese_with_blank": "聞く[___]です。",
+          "english": "I am bad at listening.",
+          "target_answer": "のが下手",
+          "alternative_answers": [],
+          "hint": "Bad at",
+          "scramble_blocks": [
+            "聞く",
+            "のが下手",
+            "です"
+          ],
+          "audio_text": "聞くのが下手です。",
+          "notes": "Listening weakness.",
+          "position": 7
+        },
+        {
+          "japanese": "料理するのが下手です。",
+          "japanese_with_blank": "料理する[___]です。",
+          "english": "I am bad at cooking.",
+          "target_answer": "のが下手",
+          "alternative_answers": [],
+          "hint": "Bad at",
+          "scramble_blocks": [
+            "料理する",
+            "のが下手",
+            "です"
+          ],
+          "audio_text": "料理するのが下手です。",
+          "notes": "Cooking weakness.",
+          "position": 8
+        },
+        {
+          "japanese": "歌うのが下手です。",
+          "japanese_with_blank": "歌う[___]です。",
+          "english": "I am bad at singing.",
+          "target_answer": "のが下手",
+          "alternative_answers": [],
+          "hint": "Bad at",
+          "scramble_blocks": [
+            "歌う",
+            "のが下手",
+            "です"
+          ],
+          "audio_text": "歌うのが下手です。",
+          "notes": "Singing weakness.",
+          "position": 9
+        },
+        {
+          "japanese": "飲むのが下手です。",
+          "japanese_with_blank": "飲む[___]です。",
+          "english": "I am bad at drinking.",
+          "target_answer": "のが下手",
+          "alternative_answers": [],
+          "hint": "Bad at",
+          "scramble_blocks": [
+            "飲む",
+            "のが下手",
+            "です"
+          ],
+          "audio_text": "飲むのが下手です。",
+          "notes": "Drinking weakness.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

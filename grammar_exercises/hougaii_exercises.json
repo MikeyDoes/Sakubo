@@ -1,0 +1,162 @@
+{
+  "grammar_point": "ほうがいい",
+  "entry_id": 325476,
+  "categories": [
+    {
+      "id": "advice",
+      "label": "Had Better / Should",
+      "sentences": [
+        {
+          "japanese": "食べたほうがいい。",
+          "japanese_with_blank": "食べた[___]。",
+          "english": "You had better eat.",
+          "target_answer": "ほうがいい",
+          "alternative_answers": [],
+          "hint": "Advice",
+          "scramble_blocks": [
+            "食べた",
+            "ほうがいい"
+          ],
+          "audio_text": "食べたほうがいい。",
+          "notes": "ほうがいい gives advice (past form + ほうがいい).",
+          "position": 1
+        },
+        {
+          "japanese": "見たほうがいい。",
+          "japanese_with_blank": "見た[___]。",
+          "english": "You had better look.",
+          "target_answer": "ほうがいい",
+          "alternative_answers": [],
+          "hint": "Advice",
+          "scramble_blocks": [
+            "見た",
+            "ほうがいい"
+          ],
+          "audio_text": "見たほうがいい。",
+          "notes": "Advice with past verb.",
+          "position": 2
+        },
+        {
+          "japanese": "読んだほうがいい。",
+          "japanese_with_blank": "読んだ[___]。",
+          "english": "You had better read.",
+          "target_answer": "ほうがいい",
+          "alternative_answers": [],
+          "hint": "Advice",
+          "scramble_blocks": [
+            "読んだ",
+            "ほうがいい"
+          ],
+          "audio_text": "読んだほうがいい。",
+          "notes": "Reading advice.",
+          "position": 3
+        },
+        {
+          "japanese": "行ったほうがいい。",
+          "japanese_with_blank": "行った[___]。",
+          "english": "You had better go.",
+          "target_answer": "ほうがいい",
+          "alternative_answers": [],
+          "hint": "Advice",
+          "scramble_blocks": [
+            "行った",
+            "ほうがいい"
+          ],
+          "audio_text": "行ったほうがいい。",
+          "notes": "Going advice.",
+          "position": 4
+        },
+        {
+          "japanese": "飲んだほうがいい。",
+          "japanese_with_blank": "飲んだ[___]。",
+          "english": "You had better drink.",
+          "target_answer": "ほうがいい",
+          "alternative_answers": [],
+          "hint": "Advice",
+          "scramble_blocks": [
+            "飲んだ",
+            "ほうがいい"
+          ],
+          "audio_text": "飲んだほうがいい。",
+          "notes": "Drinking advice.",
+          "position": 5
+        },
+        {
+          "japanese": "書いたほうがいい。",
+          "japanese_with_blank": "書いた[___]。",
+          "english": "You had better write.",
+          "target_answer": "ほうがいい",
+          "alternative_answers": [],
+          "hint": "Advice",
+          "scramble_blocks": [
+            "書いた",
+            "ほうがいい"
+          ],
+          "audio_text": "書いたほうがいい。",
+          "notes": "Writing advice.",
+          "position": 6
+        },
+        {
+          "japanese": "聞いたほうがいい。",
+          "japanese_with_blank": "聞いた[___]。",
+          "english": "You had better listen.",
+          "target_answer": "ほうがいい",
+          "alternative_answers": [],
+          "hint": "Advice",
+          "scramble_blocks": [
+            "聞いた",
+            "ほうがいい"
+          ],
+          "audio_text": "聞いたほうがいい。",
+          "notes": "Listening advice.",
+          "position": 7
+        },
+        {
+          "japanese": "寝たほうがいい。",
+          "japanese_with_blank": "寝た[___]。",
+          "english": "You had better sleep.",
+          "target_answer": "ほうがいい",
+          "alternative_answers": [],
+          "hint": "Advice",
+          "scramble_blocks": [
+            "寝た",
+            "ほうがいい"
+          ],
+          "audio_text": "寝たほうがいい。",
+          "notes": "Sleep advice.",
+          "position": 8
+        },
+        {
+          "japanese": "起きたほうがいい。",
+          "japanese_with_blank": "起きた[___]。",
+          "english": "You had better wake up.",
+          "target_answer": "ほうがいい",
+          "alternative_answers": [],
+          "hint": "Advice",
+          "scramble_blocks": [
+            "起きた",
+            "ほうがいい"
+          ],
+          "audio_text": "起きたほうがいい。",
+          "notes": "Wake-up advice.",
+          "position": 9
+        },
+        {
+          "japanese": "帰ったほうがいい。",
+          "japanese_with_blank": "帰った[___]。",
+          "english": "You had better go home.",
+          "target_answer": "ほうがいい",
+          "alternative_answers": [],
+          "hint": "Advice",
+          "scramble_blocks": [
+            "帰った",
+            "ほうがいい"
+          ],
+          "audio_text": "帰ったほうがいい。",
+          "notes": "Return advice.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

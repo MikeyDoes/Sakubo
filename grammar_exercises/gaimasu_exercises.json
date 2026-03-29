@@ -1,0 +1,182 @@
+{
+  "grammar_point": "がいます",
+  "entry_id": 325456,
+  "categories": [
+    {
+      "id": "existence_living",
+      "label": "Existence (Living)",
+      "sentences": [
+        {
+          "japanese": "部屋に猫がいます。",
+          "japanese_with_blank": "部屋に猫[___]。",
+          "english": "There is a cat in the room.",
+          "target_answer": "がいます",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "部屋",
+            "に",
+            "猫",
+            "がいます"
+          ],
+          "audio_text": "部屋に猫がいます。",
+          "notes": "がいます for living things.",
+          "position": 1
+        },
+        {
+          "japanese": "家に犬がいます。",
+          "japanese_with_blank": "家に犬[___]。",
+          "english": "There is a dog at the house.",
+          "target_answer": "がいます",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "家",
+            "に",
+            "犬",
+            "がいます"
+          ],
+          "audio_text": "家に犬がいます。",
+          "notes": "Animal existence.",
+          "position": 2
+        },
+        {
+          "japanese": "学校に子供がいます。",
+          "japanese_with_blank": "学校に子供[___]。",
+          "english": "There are children at school.",
+          "target_answer": "がいます",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "学校",
+            "に",
+            "子供",
+            "がいます"
+          ],
+          "audio_text": "学校に子供がいます。",
+          "notes": "People existence.",
+          "position": 3
+        },
+        {
+          "japanese": "学校に先生がいます。",
+          "japanese_with_blank": "学校に先生[___]。",
+          "english": "There is a teacher at school.",
+          "target_answer": "がいます",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "学校",
+            "に",
+            "先生",
+            "がいます"
+          ],
+          "audio_text": "学校に先生がいます。",
+          "notes": "Person at location.",
+          "position": 4
+        },
+        {
+          "japanese": "店に友達がいます。",
+          "japanese_with_blank": "店に友達[___]。",
+          "english": "There is a friend at the shop.",
+          "target_answer": "がいます",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "店",
+            "に",
+            "友達",
+            "がいます"
+          ],
+          "audio_text": "店に友達がいます。",
+          "notes": "Person at place.",
+          "position": 5
+        },
+        {
+          "japanese": "部屋に学生がいます。",
+          "japanese_with_blank": "部屋に学生[___]。",
+          "english": "There is a student in the room.",
+          "target_answer": "がいます",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "部屋",
+            "に",
+            "学生",
+            "がいます"
+          ],
+          "audio_text": "部屋に学生がいます。",
+          "notes": "Student in room.",
+          "position": 6
+        },
+        {
+          "japanese": "ここに人がいます。",
+          "japanese_with_blank": "ここに人[___]。",
+          "english": "There is a person here.",
+          "target_answer": "がいます",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "ここ",
+            "に",
+            "人",
+            "がいます"
+          ],
+          "audio_text": "ここに人がいます。",
+          "notes": "General person existence.",
+          "position": 7
+        },
+        {
+          "japanese": "家に猫がいます。",
+          "japanese_with_blank": "家に猫[___]。",
+          "english": "There is a cat at home.",
+          "target_answer": "がいます",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "家",
+            "に",
+            "猫",
+            "がいます"
+          ],
+          "audio_text": "家に猫がいます。",
+          "notes": "Pet at home.",
+          "position": 8
+        },
+        {
+          "japanese": "部屋に犬がいます。",
+          "japanese_with_blank": "部屋に犬[___]。",
+          "english": "There is a dog in the room.",
+          "target_answer": "がいます",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "部屋",
+            "に",
+            "犬",
+            "がいます"
+          ],
+          "audio_text": "部屋に犬がいます。",
+          "notes": "Animal in room.",
+          "position": 9
+        },
+        {
+          "japanese": "家に子供がいます。",
+          "japanese_with_blank": "家に子供[___]。",
+          "english": "There are children at home.",
+          "target_answer": "がいます",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "家",
+            "に",
+            "子供",
+            "がいます"
+          ],
+          "audio_text": "家に子供がいます。",
+          "notes": "Children at home.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

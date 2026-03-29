@@ -1,0 +1,162 @@
+{
+  "grammar_point": "かった",
+  "entry_id": 326356,
+  "categories": [
+    {
+      "id": "i_adj_past",
+      "label": "い-Adjective Past",
+      "sentences": [
+        {
+          "japanese": "大きかった。",
+          "japanese_with_blank": "大き[___]。",
+          "english": "It was big.",
+          "target_answer": "かった",
+          "alternative_answers": [],
+          "hint": "い-adj past",
+          "scramble_blocks": [
+            "大き",
+            "かった"
+          ],
+          "audio_text": "大きかった。",
+          "notes": "い-adj past: drop い, add かった.",
+          "position": 1
+        },
+        {
+          "japanese": "小さかった。",
+          "japanese_with_blank": "小さ[___]。",
+          "english": "It was small.",
+          "target_answer": "かった",
+          "alternative_answers": [],
+          "hint": "い-adj past",
+          "scramble_blocks": [
+            "小さ",
+            "かった"
+          ],
+          "audio_text": "小さかった。",
+          "notes": "い-adj past form.",
+          "position": 2
+        },
+        {
+          "japanese": "高かった。",
+          "japanese_with_blank": "高[___]。",
+          "english": "It was expensive.",
+          "target_answer": "かった",
+          "alternative_answers": [],
+          "hint": "い-adj past",
+          "scramble_blocks": [
+            "高",
+            "かった"
+          ],
+          "audio_text": "高かった。",
+          "notes": "い-adj past: 高かった.",
+          "position": 3
+        },
+        {
+          "japanese": "美味しかった。",
+          "japanese_with_blank": "美味し[___]。",
+          "english": "It was delicious.",
+          "target_answer": "かった",
+          "alternative_answers": [],
+          "hint": "い-adj past",
+          "scramble_blocks": [
+            "美味し",
+            "かった"
+          ],
+          "audio_text": "美味しかった。",
+          "notes": "Past taste description.",
+          "position": 4
+        },
+        {
+          "japanese": "面白かった。",
+          "japanese_with_blank": "面白[___]。",
+          "english": "It was interesting.",
+          "target_answer": "かった",
+          "alternative_answers": [],
+          "hint": "い-adj past",
+          "scramble_blocks": [
+            "面白",
+            "かった"
+          ],
+          "audio_text": "面白かった。",
+          "notes": "Past evaluation.",
+          "position": 5
+        },
+        {
+          "japanese": "難しかった。",
+          "japanese_with_blank": "難し[___]。",
+          "english": "It was difficult.",
+          "target_answer": "かった",
+          "alternative_answers": [],
+          "hint": "い-adj past",
+          "scramble_blocks": [
+            "難し",
+            "かった"
+          ],
+          "audio_text": "難しかった。",
+          "notes": "Past difficulty.",
+          "position": 6
+        },
+        {
+          "japanese": "暑かった。",
+          "japanese_with_blank": "暑[___]。",
+          "english": "It was hot.",
+          "target_answer": "かった",
+          "alternative_answers": [],
+          "hint": "い-adj past",
+          "scramble_blocks": [
+            "暑",
+            "かった"
+          ],
+          "audio_text": "暑かった。",
+          "notes": "Past weather.",
+          "position": 7
+        },
+        {
+          "japanese": "寒かった。",
+          "japanese_with_blank": "寒[___]。",
+          "english": "It was cold.",
+          "target_answer": "かった",
+          "alternative_answers": [],
+          "hint": "い-adj past",
+          "scramble_blocks": [
+            "寒",
+            "かった"
+          ],
+          "audio_text": "寒かった。",
+          "notes": "Past temperature.",
+          "position": 8
+        },
+        {
+          "japanese": "新しかった。",
+          "japanese_with_blank": "新し[___]。",
+          "english": "It was new.",
+          "target_answer": "かった",
+          "alternative_answers": [],
+          "hint": "い-adj past",
+          "scramble_blocks": [
+            "新し",
+            "かった"
+          ],
+          "audio_text": "新しかった。",
+          "notes": "Past description.",
+          "position": 9
+        },
+        {
+          "japanese": "悪かった。",
+          "japanese_with_blank": "悪[___]。",
+          "english": "It was bad.",
+          "target_answer": "かった",
+          "alternative_answers": [],
+          "hint": "い-adj past",
+          "scramble_blocks": [
+            "悪",
+            "かった"
+          ],
+          "audio_text": "悪かった。",
+          "notes": "Past negative evaluation.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

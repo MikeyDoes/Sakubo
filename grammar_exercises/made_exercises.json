@@ -1,0 +1,172 @@
+{
+  "grammar_point": "まで",
+  "entry_id": 325450,
+  "categories": [
+    {
+      "id": "until",
+      "label": "Until / As Far As",
+      "sentences": [
+        {
+          "japanese": "学校まで歩きます。",
+          "japanese_with_blank": "学校[___]歩きます。",
+          "english": "I walk to/until school.",
+          "target_answer": "まで",
+          "alternative_answers": [],
+          "hint": "Until",
+          "scramble_blocks": [
+            "学校",
+            "まで",
+            "歩きます"
+          ],
+          "audio_text": "学校まで歩きます。",
+          "notes": "まで marks an endpoint (time or place).",
+          "position": 1
+        },
+        {
+          "japanese": "家まで帰ります。",
+          "japanese_with_blank": "家[___]帰ります。",
+          "english": "I go home (back to the house).",
+          "target_answer": "まで",
+          "alternative_answers": [],
+          "hint": "Until",
+          "scramble_blocks": [
+            "家",
+            "まで",
+            "帰ります"
+          ],
+          "audio_text": "家まで帰ります。",
+          "notes": "まで as spatial endpoint.",
+          "position": 2
+        },
+        {
+          "japanese": "店まで行きます。",
+          "japanese_with_blank": "店[___]行きます。",
+          "english": "I go as far as the shop.",
+          "target_answer": "まで",
+          "alternative_answers": [],
+          "hint": "Until",
+          "scramble_blocks": [
+            "店",
+            "まで",
+            "行きます"
+          ],
+          "audio_text": "店まで行きます。",
+          "notes": "Distance endpoint.",
+          "position": 3
+        },
+        {
+          "japanese": "五時まで待ちます。",
+          "japanese_with_blank": "五時[___]待ちます。",
+          "english": "I wait until 5 o'clock.",
+          "target_answer": "まで",
+          "alternative_answers": [],
+          "hint": "Until",
+          "scramble_blocks": [
+            "五時",
+            "まで",
+            "待ちます"
+          ],
+          "audio_text": "五時まで待ちます。",
+          "notes": "Time endpoint.",
+          "position": 4
+        },
+        {
+          "japanese": "三時まで勉強します。",
+          "japanese_with_blank": "三時[___]勉強します。",
+          "english": "I study until 3 o'clock.",
+          "target_answer": "まで",
+          "alternative_answers": [],
+          "hint": "Until",
+          "scramble_blocks": [
+            "三時",
+            "まで",
+            "勉強します"
+          ],
+          "audio_text": "三時まで勉強します。",
+          "notes": "Study time limit.",
+          "position": 5
+        },
+        {
+          "japanese": "夜まで働きます。",
+          "japanese_with_blank": "夜[___]働きます。",
+          "english": "I work until night.",
+          "target_answer": "まで",
+          "alternative_answers": [],
+          "hint": "Until",
+          "scramble_blocks": [
+            "夜",
+            "まで",
+            "働きます"
+          ],
+          "audio_text": "夜まで働きます。",
+          "notes": "Time endpoint.",
+          "position": 6
+        },
+        {
+          "japanese": "朝まで寝ます。",
+          "japanese_with_blank": "朝[___]寝ます。",
+          "english": "I sleep until morning.",
+          "target_answer": "まで",
+          "alternative_answers": [],
+          "hint": "Until",
+          "scramble_blocks": [
+            "朝",
+            "まで",
+            "寝ます"
+          ],
+          "audio_text": "朝まで寝ます。",
+          "notes": "Sleep duration.",
+          "position": 7
+        },
+        {
+          "japanese": "ホテルまで歩きました。",
+          "japanese_with_blank": "ホテル[___]歩きました。",
+          "english": "I walked to the hotel.",
+          "target_answer": "まで",
+          "alternative_answers": [],
+          "hint": "Until",
+          "scramble_blocks": [
+            "ホテル",
+            "まで",
+            "歩きました"
+          ],
+          "audio_text": "ホテルまで歩きました。",
+          "notes": "Past spatial endpoint.",
+          "position": 8
+        },
+        {
+          "japanese": "十時まで飲みます。",
+          "japanese_with_blank": "十時[___]飲みます。",
+          "english": "I drink until 10.",
+          "target_answer": "まで",
+          "alternative_answers": [],
+          "hint": "Until",
+          "scramble_blocks": [
+            "十時",
+            "まで",
+            "飲みます"
+          ],
+          "audio_text": "十時まで飲みます。",
+          "notes": "Activity time limit.",
+          "position": 9
+        },
+        {
+          "japanese": "学校まで走ります。",
+          "japanese_with_blank": "学校[___]走ります。",
+          "english": "I run to/until school.",
+          "target_answer": "まで",
+          "alternative_answers": [],
+          "hint": "Until",
+          "scramble_blocks": [
+            "学校",
+            "まで",
+            "走ります"
+          ],
+          "audio_text": "学校まで走ります。",
+          "notes": "Running distance.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

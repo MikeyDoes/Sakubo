@@ -1,0 +1,80 @@
+{
+  "grammar_point": "みたいだ",
+  "entry_id": 326776,
+  "categories": [
+    {
+      "id": "casual_seems",
+      "label": "Seems Like (Casual)",
+      "sentences": [
+        {
+          "japanese": "田中さんは忙しいみたいです。",
+          "japanese_with_blank": "田中さんは忙しい[___]。",
+          "english": "Tanaka-san seems busy.",
+          "target_answer": "みたいです",
+          "alternative_answers": [],
+          "hint": "seems like",
+          "scramble_blocks": [
+            "田中さん",
+            "は",
+            "忙しい",
+            "みたいです"
+          ],
+          "audio_text": "田中さんは忙しいみたいです。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "雨が降るみたいです。",
+          "japanese_with_blank": "雨が降る[___]。",
+          "english": "It seems like it's going to rain.",
+          "target_answer": "みたいです",
+          "alternative_answers": [],
+          "hint": "seems like",
+          "scramble_blocks": [
+            "雨",
+            "が",
+            "降る",
+            "みたいです"
+          ],
+          "audio_text": "雨が降るみたいです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "あの店は休みみたいです。",
+          "japanese_with_blank": "あの店は休み[___]。",
+          "english": "That shop seems to be closed.",
+          "target_answer": "みたいです",
+          "alternative_answers": [],
+          "hint": "seems like",
+          "scramble_blocks": [
+            "あの",
+            "店",
+            "は",
+            "休み",
+            "みたいです"
+          ],
+          "audio_text": "あの店は休みみたいです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "もう終わったみたいです。",
+          "japanese_with_blank": "もう終わった[___]。",
+          "english": "It seems like it's already over.",
+          "target_answer": "みたいです",
+          "alternative_answers": [],
+          "hint": "seems like",
+          "scramble_blocks": [
+            "もう",
+            "終わった",
+            "みたいです"
+          ],
+          "audio_text": "もう終わったみたいです。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

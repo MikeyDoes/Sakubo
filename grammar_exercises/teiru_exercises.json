@@ -1,0 +1,162 @@
+{
+  "grammar_point": "ている",
+  "entry_id": 325462,
+  "categories": [
+    {
+      "id": "progressive",
+      "label": "Progressive / Ongoing",
+      "sentences": [
+        {
+          "japanese": "食べている。",
+          "japanese_with_blank": "食べて[___]。",
+          "english": "I am eating.",
+          "target_answer": "いる",
+          "alternative_answers": [],
+          "hint": "Progressive",
+          "scramble_blocks": [
+            "食べて",
+            "いる"
+          ],
+          "audio_text": "食べている。",
+          "notes": "ている shows ongoing action: 食べている.",
+          "position": 1
+        },
+        {
+          "japanese": "読んでいる。",
+          "japanese_with_blank": "読んで[___]。",
+          "english": "I am reading.",
+          "target_answer": "いる",
+          "alternative_answers": [],
+          "hint": "Progressive",
+          "scramble_blocks": [
+            "読んで",
+            "いる"
+          ],
+          "audio_text": "読んでいる。",
+          "notes": "Progressive: 読んでいる.",
+          "position": 2
+        },
+        {
+          "japanese": "書いている。",
+          "japanese_with_blank": "書いて[___]。",
+          "english": "I am writing.",
+          "target_answer": "いる",
+          "alternative_answers": [],
+          "hint": "Progressive",
+          "scramble_blocks": [
+            "書いて",
+            "いる"
+          ],
+          "audio_text": "書いている。",
+          "notes": "Ongoing action: 書いている.",
+          "position": 3
+        },
+        {
+          "japanese": "見ている。",
+          "japanese_with_blank": "見て[___]。",
+          "english": "I am watching.",
+          "target_answer": "いる",
+          "alternative_answers": [],
+          "hint": "Progressive",
+          "scramble_blocks": [
+            "見て",
+            "いる"
+          ],
+          "audio_text": "見ている。",
+          "notes": "る-verb: 見ている.",
+          "position": 4
+        },
+        {
+          "japanese": "飲んでいる。",
+          "japanese_with_blank": "飲んで[___]。",
+          "english": "I am drinking.",
+          "target_answer": "いる",
+          "alternative_answers": [],
+          "hint": "Progressive",
+          "scramble_blocks": [
+            "飲んで",
+            "いる"
+          ],
+          "audio_text": "飲んでいる。",
+          "notes": "Ongoing: 飲んでいる.",
+          "position": 5
+        },
+        {
+          "japanese": "話している。",
+          "japanese_with_blank": "話して[___]。",
+          "english": "I am speaking.",
+          "target_answer": "いる",
+          "alternative_answers": [],
+          "hint": "Progressive",
+          "scramble_blocks": [
+            "話して",
+            "いる"
+          ],
+          "audio_text": "話している。",
+          "notes": "Ongoing: 話している.",
+          "position": 6
+        },
+        {
+          "japanese": "聞いている。",
+          "japanese_with_blank": "聞いて[___]。",
+          "english": "I am listening.",
+          "target_answer": "いる",
+          "alternative_answers": [],
+          "hint": "Progressive",
+          "scramble_blocks": [
+            "聞いて",
+            "いる"
+          ],
+          "audio_text": "聞いている。",
+          "notes": "Ongoing: 聞いている.",
+          "position": 7
+        },
+        {
+          "japanese": "待っている。",
+          "japanese_with_blank": "待って[___]。",
+          "english": "I am waiting.",
+          "target_answer": "いる",
+          "alternative_answers": [],
+          "hint": "Progressive",
+          "scramble_blocks": [
+            "待って",
+            "いる"
+          ],
+          "audio_text": "待っている。",
+          "notes": "Ongoing: 待っている.",
+          "position": 8
+        },
+        {
+          "japanese": "している。",
+          "japanese_with_blank": "して[___]。",
+          "english": "I am doing it.",
+          "target_answer": "いる",
+          "alternative_answers": [],
+          "hint": "Progressive",
+          "scramble_blocks": [
+            "して",
+            "いる"
+          ],
+          "audio_text": "している。",
+          "notes": "Irregular: している.",
+          "position": 9
+        },
+        {
+          "japanese": "寝ている。",
+          "japanese_with_blank": "寝て[___]。",
+          "english": "I am sleeping.",
+          "target_answer": "いる",
+          "alternative_answers": [],
+          "hint": "Progressive",
+          "scramble_blocks": [
+            "寝て",
+            "いる"
+          ],
+          "audio_text": "寝ている。",
+          "notes": "State: 寝ている.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

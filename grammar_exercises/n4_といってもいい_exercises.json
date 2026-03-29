@@ -1,0 +1,89 @@
+{
+  "grammar_point": "といってもいい",
+  "entry_id": 326780,
+  "categories": [
+    {
+      "id": "expression",
+      "label": "It's Fair to Say",
+      "sentences": [
+        {
+          "japanese": "この店は一番おいしいといってもいいです。",
+          "japanese_with_blank": "この店は一番おいしい[___]です。",
+          "english": "It's fair to say this shop is the most delicious.",
+          "target_answer": "といってもいい",
+          "alternative_answers": [],
+          "hint": "it's okay to say",
+          "scramble_blocks": [
+            "この",
+            "店",
+            "は",
+            "一番",
+            "おいしい",
+            "といってもいい",
+            "です"
+          ],
+          "audio_text": "この店は一番おいしいといってもいいです。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "日本語が上手だといってもいいです。",
+          "japanese_with_blank": "日本語が上手だ[___]です。",
+          "english": "You could say their Japanese is good.",
+          "target_answer": "といってもいい",
+          "alternative_answers": [],
+          "hint": "it's okay to say",
+          "scramble_blocks": [
+            "日本語",
+            "が",
+            "上手",
+            "だ",
+            "といってもいい",
+            "です"
+          ],
+          "audio_text": "日本語が上手だといってもいいです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "もう夏だといってもいいでしょう。",
+          "japanese_with_blank": "もう夏だ[___]でしょう。",
+          "english": "You could say it's already summer.",
+          "target_answer": "といってもいい",
+          "alternative_answers": [],
+          "hint": "it's okay to say",
+          "scramble_blocks": [
+            "もう",
+            "夏",
+            "だ",
+            "といってもいい",
+            "でしょう"
+          ],
+          "audio_text": "もう夏だといってもいいでしょう。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "この映画は最高だといってもいいです。",
+          "japanese_with_blank": "この映画は最高だ[___]です。",
+          "english": "It's fair to say this movie is the best.",
+          "target_answer": "といってもいい",
+          "alternative_answers": [],
+          "hint": "it's okay to say",
+          "scramble_blocks": [
+            "この",
+            "映画",
+            "は",
+            "最高",
+            "だ",
+            "といってもいい",
+            "です"
+          ],
+          "audio_text": "この映画は最高だといってもいいです。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

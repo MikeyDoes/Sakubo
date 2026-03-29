@@ -1,0 +1,84 @@
+{
+  "grammar_point": "がる",
+  "entry_id": 325540,
+  "categories": [
+    {
+      "id": "third_person_feelings",
+      "label": "Third Person Feelings",
+      "sentences": [
+        {
+          "japanese": "子供が怖がっています。",
+          "japanese_with_blank": "子供が怖[___]います。",
+          "english": "The child is acting scared.",
+          "target_answer": "がって",
+          "alternative_answers": [],
+          "hint": "showing signs of",
+          "scramble_blocks": [
+            "子供",
+            "が",
+            "怖",
+            "がって",
+            "います"
+          ],
+          "audio_text": "子供が怖がっています。",
+          "notes": "い-adj stem + がる = show signs.",
+          "position": 1
+        },
+        {
+          "japanese": "彼は寂しがっています。",
+          "japanese_with_blank": "彼は寂し[___]います。",
+          "english": "He seems lonely.",
+          "target_answer": "がって",
+          "alternative_answers": [],
+          "hint": "showing signs of",
+          "scramble_blocks": [
+            "彼",
+            "は",
+            "寂し",
+            "がって",
+            "います"
+          ],
+          "audio_text": "彼は寂しがっています。",
+          "notes": "寂しい → 寂しがる.",
+          "position": 2
+        },
+        {
+          "japanese": "妹が寒がっています。",
+          "japanese_with_blank": "妹が寒[___]います。",
+          "english": "My younger sister seems cold.",
+          "target_answer": "がって",
+          "alternative_answers": [],
+          "hint": "showing signs of",
+          "scramble_blocks": [
+            "妹",
+            "が",
+            "寒",
+            "がって",
+            "います"
+          ],
+          "audio_text": "妹が寒がっています。",
+          "notes": "寒い → 寒がる.",
+          "position": 3
+        },
+        {
+          "japanese": "彼女は暑がっています。",
+          "japanese_with_blank": "彼女は暑[___]います。",
+          "english": "She seems hot.",
+          "target_answer": "がって",
+          "alternative_answers": [],
+          "hint": "showing signs of",
+          "scramble_blocks": [
+            "彼女",
+            "は",
+            "暑",
+            "がって",
+            "います"
+          ],
+          "audio_text": "彼女は暑がっています。",
+          "notes": "暑い → 暑がる.",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

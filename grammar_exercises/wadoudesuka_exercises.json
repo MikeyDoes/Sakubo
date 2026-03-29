@@ -1,0 +1,162 @@
+{
+  "grammar_point": "はどうですか",
+  "entry_id": 325503,
+  "categories": [
+    {
+      "id": "how_about",
+      "label": "How About?",
+      "sentences": [
+        {
+          "japanese": "コーヒーはどうですか。",
+          "japanese_with_blank": "コーヒー[___]。",
+          "english": "How about coffee?",
+          "target_answer": "はどうですか",
+          "alternative_answers": [],
+          "hint": "How about",
+          "scramble_blocks": [
+            "コーヒー",
+            "はどうですか"
+          ],
+          "audio_text": "コーヒーはどうですか。",
+          "notes": "はどうですか suggests or asks for an opinion.",
+          "position": 1
+        },
+        {
+          "japanese": "日本語はどうですか。",
+          "japanese_with_blank": "日本語[___]。",
+          "english": "How about Japanese?",
+          "target_answer": "はどうですか",
+          "alternative_answers": [],
+          "hint": "How about",
+          "scramble_blocks": [
+            "日本語",
+            "はどうですか"
+          ],
+          "audio_text": "日本語はどうですか。",
+          "notes": "Asking about language study.",
+          "position": 2
+        },
+        {
+          "japanese": "天気はどうですか。",
+          "japanese_with_blank": "天気[___]。",
+          "english": "How is the weather?",
+          "target_answer": "はどうですか",
+          "alternative_answers": [],
+          "hint": "How about",
+          "scramble_blocks": [
+            "天気",
+            "はどうですか"
+          ],
+          "audio_text": "天気はどうですか。",
+          "notes": "Asking about conditions.",
+          "position": 3
+        },
+        {
+          "japanese": "仕事はどうですか。",
+          "japanese_with_blank": "仕事[___]。",
+          "english": "How is work?",
+          "target_answer": "はどうですか",
+          "alternative_answers": [],
+          "hint": "How about",
+          "scramble_blocks": [
+            "仕事",
+            "はどうですか"
+          ],
+          "audio_text": "仕事はどうですか。",
+          "notes": "Asking about work.",
+          "position": 4
+        },
+        {
+          "japanese": "お茶はどうですか。",
+          "japanese_with_blank": "お茶[___]。",
+          "english": "How about tea?",
+          "target_answer": "はどうですか",
+          "alternative_answers": [],
+          "hint": "How about",
+          "scramble_blocks": [
+            "お茶",
+            "はどうですか"
+          ],
+          "audio_text": "お茶はどうですか。",
+          "notes": "Suggesting tea.",
+          "position": 5
+        },
+        {
+          "japanese": "映画はどうですか。",
+          "japanese_with_blank": "映画[___]。",
+          "english": "How about a movie?",
+          "target_answer": "はどうですか",
+          "alternative_answers": [],
+          "hint": "How about",
+          "scramble_blocks": [
+            "映画",
+            "はどうですか"
+          ],
+          "audio_text": "映画はどうですか。",
+          "notes": "Suggesting a movie.",
+          "position": 6
+        },
+        {
+          "japanese": "旅行はどうですか。",
+          "japanese_with_blank": "旅行[___]。",
+          "english": "How about a trip?",
+          "target_answer": "はどうですか",
+          "alternative_answers": [],
+          "hint": "How about",
+          "scramble_blocks": [
+            "旅行",
+            "はどうですか"
+          ],
+          "audio_text": "旅行はどうですか。",
+          "notes": "Suggesting travel.",
+          "position": 7
+        },
+        {
+          "japanese": "明日はどうですか。",
+          "japanese_with_blank": "明日[___]。",
+          "english": "How about tomorrow?",
+          "target_answer": "はどうですか",
+          "alternative_answers": [],
+          "hint": "How about",
+          "scramble_blocks": [
+            "明日",
+            "はどうですか"
+          ],
+          "audio_text": "明日はどうですか。",
+          "notes": "Suggesting a time.",
+          "position": 8
+        },
+        {
+          "japanese": "買い物はどうですか。",
+          "japanese_with_blank": "買い物[___]。",
+          "english": "How about shopping?",
+          "target_answer": "はどうですか",
+          "alternative_answers": [],
+          "hint": "How about",
+          "scramble_blocks": [
+            "買い物",
+            "はどうですか"
+          ],
+          "audio_text": "買い物はどうですか。",
+          "notes": "Suggesting an activity.",
+          "position": 9
+        },
+        {
+          "japanese": "日曜日はどうですか。",
+          "japanese_with_blank": "日曜日[___]。",
+          "english": "How about Sunday?",
+          "target_answer": "はどうですか",
+          "alternative_answers": [],
+          "hint": "How about",
+          "scramble_blocks": [
+            "日曜日",
+            "はどうですか"
+          ],
+          "audio_text": "日曜日はどうですか。",
+          "notes": "Suggesting a day.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

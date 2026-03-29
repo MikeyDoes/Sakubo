@@ -1,0 +1,101 @@
+{
+  "grammar_point": "のに",
+  "entry_id": 325576,
+  "categories": [
+    {
+      "id": "contrast",
+      "label": "Although; Despite",
+      "sentences": [
+        {
+          "japanese": "勉強したのにテストに落ちました。",
+          "japanese_with_blank": "勉強した[___]テストに落ちました。",
+          "english": "Even though I studied, I failed the test.",
+          "target_answer": "のに",
+          "alternative_answers": [],
+          "hint": "although",
+          "scramble_blocks": [
+            "勉強した",
+            "のに",
+            "テスト",
+            "に",
+            "落ちました"
+          ],
+          "audio_text": "勉強したのにテストに落ちました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "約束したのに来ませんでした。",
+          "japanese_with_blank": "約束した[___]来ませんでした。",
+          "english": "Even though they promised, they didn't come.",
+          "target_answer": "のに",
+          "alternative_answers": [],
+          "hint": "although",
+          "scramble_blocks": [
+            "約束した",
+            "のに",
+            "来ませんでした"
+          ],
+          "audio_text": "約束したのに来ませんでした。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "高いのにおいしくないです。",
+          "japanese_with_blank": "高い[___]おいしくないです。",
+          "english": "Even though it's expensive, it's not delicious.",
+          "target_answer": "のに",
+          "alternative_answers": [],
+          "hint": "although",
+          "scramble_blocks": [
+            "高い",
+            "のに",
+            "おいしくない",
+            "です"
+          ],
+          "audio_text": "高いのにおいしくないです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "薬を飲んだのに治りません。",
+          "japanese_with_blank": "薬を飲んだ[___]治りません。",
+          "english": "Even though I took medicine, it won't get better.",
+          "target_answer": "のに",
+          "alternative_answers": [],
+          "hint": "although",
+          "scramble_blocks": [
+            "薬",
+            "を",
+            "飲んだ",
+            "のに",
+            "治りません"
+          ],
+          "audio_text": "薬を飲んだのに治りません。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "天気がいいのに家にいます。",
+          "japanese_with_blank": "天気がいい[___]家にいます。",
+          "english": "Even though the weather is nice, I'm staying home.",
+          "target_answer": "のに",
+          "alternative_answers": [],
+          "hint": "although",
+          "scramble_blocks": [
+            "天気",
+            "が",
+            "いい",
+            "のに",
+            "家",
+            "に",
+            "います"
+          ],
+          "audio_text": "天気がいいのに家にいます。",
+          "notes": "",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

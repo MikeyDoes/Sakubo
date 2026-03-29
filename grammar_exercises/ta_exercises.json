@@ -1,0 +1,162 @@
+{
+  "grammar_point": "た",
+  "entry_id": 326763,
+  "categories": [
+    {
+      "id": "plain_past",
+      "label": "Plain Past",
+      "sentences": [
+        {
+          "japanese": "食べた。",
+          "japanese_with_blank": "食べ[___]。",
+          "english": "I ate.",
+          "target_answer": "た",
+          "alternative_answers": [],
+          "hint": "Plain past",
+          "scramble_blocks": [
+            "食べ",
+            "た"
+          ],
+          "audio_text": "食べた。",
+          "notes": "る-verb plain past: 食べ + た.",
+          "position": 1
+        },
+        {
+          "japanese": "見た。",
+          "japanese_with_blank": "見[___]。",
+          "english": "I saw.",
+          "target_answer": "た",
+          "alternative_answers": [],
+          "hint": "Plain past",
+          "scramble_blocks": [
+            "見",
+            "た"
+          ],
+          "audio_text": "見た。",
+          "notes": "る-verb: 見 + た.",
+          "position": 2
+        },
+        {
+          "japanese": "起きた。",
+          "japanese_with_blank": "起き[___]。",
+          "english": "I woke up.",
+          "target_answer": "た",
+          "alternative_answers": [],
+          "hint": "Plain past",
+          "scramble_blocks": [
+            "起き",
+            "た"
+          ],
+          "audio_text": "起きた。",
+          "notes": "る-verb: 起き + た.",
+          "position": 3
+        },
+        {
+          "japanese": "寝た。",
+          "japanese_with_blank": "寝[___]。",
+          "english": "I slept.",
+          "target_answer": "た",
+          "alternative_answers": [],
+          "hint": "Plain past",
+          "scramble_blocks": [
+            "寝",
+            "た"
+          ],
+          "audio_text": "寝た。",
+          "notes": "る-verb: 寝 + た.",
+          "position": 4
+        },
+        {
+          "japanese": "行った。",
+          "japanese_with_blank": "行っ[___]。",
+          "english": "I went.",
+          "target_answer": "た",
+          "alternative_answers": [],
+          "hint": "Plain past",
+          "scramble_blocks": [
+            "行っ",
+            "た"
+          ],
+          "audio_text": "行った。",
+          "notes": "う-verb: 行く → 行った (っ + た).",
+          "position": 5
+        },
+        {
+          "japanese": "読んだ。",
+          "japanese_with_blank": "読ん[___]。",
+          "english": "I read (past).",
+          "target_answer": "だ",
+          "alternative_answers": [],
+          "hint": "Plain past",
+          "scramble_blocks": [
+            "読ん",
+            "だ"
+          ],
+          "audio_text": "読んだ。",
+          "notes": "う-verb: 読む → 読んだ (ん + だ).",
+          "position": 6
+        },
+        {
+          "japanese": "書いた。",
+          "japanese_with_blank": "書い[___]。",
+          "english": "I wrote.",
+          "target_answer": "た",
+          "alternative_answers": [],
+          "hint": "Plain past",
+          "scramble_blocks": [
+            "書い",
+            "た"
+          ],
+          "audio_text": "書いた。",
+          "notes": "う-verb: 書く → 書いた.",
+          "position": 7
+        },
+        {
+          "japanese": "飲んだ。",
+          "japanese_with_blank": "飲ん[___]。",
+          "english": "I drank.",
+          "target_answer": "だ",
+          "alternative_answers": [],
+          "hint": "Plain past",
+          "scramble_blocks": [
+            "飲ん",
+            "だ"
+          ],
+          "audio_text": "飲んだ。",
+          "notes": "う-verb: 飲む → 飲んだ.",
+          "position": 8
+        },
+        {
+          "japanese": "話した。",
+          "japanese_with_blank": "話し[___]。",
+          "english": "I spoke.",
+          "target_answer": "た",
+          "alternative_answers": [],
+          "hint": "Plain past",
+          "scramble_blocks": [
+            "話し",
+            "た"
+          ],
+          "audio_text": "話した。",
+          "notes": "う-verb: 話す → 話した.",
+          "position": 9
+        },
+        {
+          "japanese": "した。",
+          "japanese_with_blank": "し[___]。",
+          "english": "I did it.",
+          "target_answer": "た",
+          "alternative_answers": [],
+          "hint": "Plain past",
+          "scramble_blocks": [
+            "し",
+            "た"
+          ],
+          "audio_text": "した。",
+          "notes": "Irregular: する → した.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "grammar_point": "あまり～ない",
+  "entry_id": 325625,
+  "categories": [
+    {
+      "id": "not_very",
+      "label": "Not Very; Not Much",
+      "sentences": [
+        {
+          "japanese": "あまり食べませんでした。",
+          "japanese_with_blank": "[___]食べませんでした。",
+          "english": "I didn't eat much.",
+          "target_answer": "あまり",
+          "alternative_answers": [],
+          "hint": "not very",
+          "scramble_blocks": [
+            "あまり",
+            "食べませんでした"
+          ],
+          "audio_text": "あまり食べませんでした。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "あまり好きじゃないです。",
+          "japanese_with_blank": "[___]好きじゃないです。",
+          "english": "I don't like it very much.",
+          "target_answer": "あまり",
+          "alternative_answers": [],
+          "hint": "not very",
+          "scramble_blocks": [
+            "あまり",
+            "好き",
+            "じゃない",
+            "です"
+          ],
+          "audio_text": "あまり好きじゃないです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "今日はあまり寒くないです。",
+          "japanese_with_blank": "今日は[___]寒くないです。",
+          "english": "It's not very cold today.",
+          "target_answer": "あまり",
+          "alternative_answers": [],
+          "hint": "not very",
+          "scramble_blocks": [
+            "今日",
+            "は",
+            "あまり",
+            "寒くない",
+            "です"
+          ],
+          "audio_text": "今日はあまり寒くないです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "あまり分かりません。",
+          "japanese_with_blank": "[___]分かりません。",
+          "english": "I don't really understand.",
+          "target_answer": "あまり",
+          "alternative_answers": [],
+          "hint": "not very",
+          "scramble_blocks": [
+            "あまり",
+            "分かりません"
+          ],
+          "audio_text": "あまり分かりません。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

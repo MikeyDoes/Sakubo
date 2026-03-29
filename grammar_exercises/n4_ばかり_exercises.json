@@ -1,0 +1,76 @@
+{
+  "grammar_point": "ばかり",
+  "entry_id": 325581,
+  "categories": [
+    {
+      "id": "only_nothing_but",
+      "label": "Only; Nothing But",
+      "sentences": [
+        {
+          "japanese": "お菓子ばかり食べています。",
+          "japanese_with_blank": "お菓子[___]食べています。",
+          "english": "I eat nothing but sweets.",
+          "target_answer": "ばかり",
+          "alternative_answers": [],
+          "hint": "nothing but",
+          "scramble_blocks": [
+            "お菓子",
+            "ばかり",
+            "食べています"
+          ],
+          "audio_text": "お菓子ばかり食べています。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "テレビばかり見ています。",
+          "japanese_with_blank": "テレビ[___]見ています。",
+          "english": "I do nothing but watch TV.",
+          "target_answer": "ばかり",
+          "alternative_answers": [],
+          "hint": "nothing but",
+          "scramble_blocks": [
+            "テレビ",
+            "ばかり",
+            "見ています"
+          ],
+          "audio_text": "テレビばかり見ています。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "遊んでばかりいます。",
+          "japanese_with_blank": "遊んで[___]います。",
+          "english": "They do nothing but play.",
+          "target_answer": "ばかり",
+          "alternative_answers": [],
+          "hint": "nothing but",
+          "scramble_blocks": [
+            "遊んで",
+            "ばかり",
+            "います"
+          ],
+          "audio_text": "遊んでばかりいます。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "文句ばかり言わないでください。",
+          "japanese_with_blank": "文句[___]言わないでください。",
+          "english": "Please don't do nothing but complain.",
+          "target_answer": "ばかり",
+          "alternative_answers": [],
+          "hint": "nothing but",
+          "scramble_blocks": [
+            "文句",
+            "ばかり",
+            "言わないでください"
+          ],
+          "audio_text": "文句ばかり言わないでください。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

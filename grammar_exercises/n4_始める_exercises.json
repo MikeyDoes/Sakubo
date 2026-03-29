@@ -1,0 +1,97 @@
+{
+  "grammar_point": "始める",
+  "entry_id": 325591,
+  "categories": [
+    {
+      "id": "start_compound",
+      "label": "Start Doing (V+始める)",
+      "sentences": [
+        {
+          "japanese": "雨が降り始めました。",
+          "japanese_with_blank": "雨が降り[___]。",
+          "english": "It started raining.",
+          "target_answer": "始めました",
+          "alternative_answers": [],
+          "hint": "started",
+          "scramble_blocks": [
+            "雨",
+            "が",
+            "降り",
+            "始めました"
+          ],
+          "audio_text": "雨が降り始めました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "日本語を勉強し始めました。",
+          "japanese_with_blank": "日本語を勉強し[___]。",
+          "english": "I started studying Japanese.",
+          "target_answer": "始めました",
+          "alternative_answers": [],
+          "hint": "started",
+          "scramble_blocks": [
+            "日本語",
+            "を",
+            "勉強し",
+            "始めました"
+          ],
+          "audio_text": "日本語を勉強し始めました。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "本を読み始めました。",
+          "japanese_with_blank": "本を読み[___]。",
+          "english": "I started reading a book.",
+          "target_answer": "始めました",
+          "alternative_answers": [],
+          "hint": "started",
+          "scramble_blocks": [
+            "本",
+            "を",
+            "読み",
+            "始めました"
+          ],
+          "audio_text": "本を読み始めました。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "子供が泣き始めました。",
+          "japanese_with_blank": "子供が泣き[___]。",
+          "english": "The child started crying.",
+          "target_answer": "始めました",
+          "alternative_answers": [],
+          "hint": "started",
+          "scramble_blocks": [
+            "子供",
+            "が",
+            "泣き",
+            "始めました"
+          ],
+          "audio_text": "子供が泣き始めました。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "桜が咲き始めました。",
+          "japanese_with_blank": "桜が咲き[___]。",
+          "english": "The cherry blossoms started blooming.",
+          "target_answer": "始めました",
+          "alternative_answers": [],
+          "hint": "started",
+          "scramble_blocks": [
+            "桜",
+            "が",
+            "咲き",
+            "始めました"
+          ],
+          "audio_text": "桜が咲き始めました。",
+          "notes": "",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

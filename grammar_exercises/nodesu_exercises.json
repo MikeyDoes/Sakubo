@@ -1,0 +1,162 @@
+{
+  "grammar_point": "のです",
+  "entry_id": 325487,
+  "categories": [
+    {
+      "id": "explanation",
+      "label": "Explanatory",
+      "sentences": [
+        {
+          "japanese": "忙しいのです。",
+          "japanese_with_blank": "忙しい[___]。",
+          "english": "The thing is, I am busy.",
+          "target_answer": "のです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "忙しい",
+            "のです"
+          ],
+          "audio_text": "忙しいのです。",
+          "notes": "のです adds explanatory nuance.",
+          "position": 1
+        },
+        {
+          "japanese": "行くのです。",
+          "japanese_with_blank": "行く[___]。",
+          "english": "I am (in fact) going.",
+          "target_answer": "のです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "行く",
+            "のです"
+          ],
+          "audio_text": "行くのです。",
+          "notes": "Explains the situation.",
+          "position": 2
+        },
+        {
+          "japanese": "食べないのです。",
+          "japanese_with_blank": "食べない[___]。",
+          "english": "I am (actually) not eating.",
+          "target_answer": "のです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "食べない",
+            "のです"
+          ],
+          "audio_text": "食べないのです。",
+          "notes": "Negative explanation.",
+          "position": 3
+        },
+        {
+          "japanese": "好きなのです。",
+          "japanese_with_blank": "好きな[___]。",
+          "english": "The thing is, I like it.",
+          "target_answer": "のです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "好きな",
+            "のです"
+          ],
+          "audio_text": "好きなのです。",
+          "notes": "な-adj + のです.",
+          "position": 4
+        },
+        {
+          "japanese": "元気なのです。",
+          "japanese_with_blank": "元気な[___]。",
+          "english": "The thing is, I am well.",
+          "target_answer": "のです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "元気な",
+            "のです"
+          ],
+          "audio_text": "元気なのです。",
+          "notes": "Health explanation.",
+          "position": 5
+        },
+        {
+          "japanese": "難しいのです。",
+          "japanese_with_blank": "難しい[___]。",
+          "english": "It is (actually) difficult.",
+          "target_answer": "のです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "難しい",
+            "のです"
+          ],
+          "audio_text": "難しいのです。",
+          "notes": "Explains difficulty.",
+          "position": 6
+        },
+        {
+          "japanese": "高いのです。",
+          "japanese_with_blank": "高い[___]。",
+          "english": "The thing is, it is expensive.",
+          "target_answer": "のです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "高い",
+            "のです"
+          ],
+          "audio_text": "高いのです。",
+          "notes": "Price explanation.",
+          "position": 7
+        },
+        {
+          "japanese": "寒いのです。",
+          "japanese_with_blank": "寒い[___]。",
+          "english": "It is (in fact) cold.",
+          "target_answer": "のです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "寒い",
+            "のです"
+          ],
+          "audio_text": "寒いのです。",
+          "notes": "Weather explanation.",
+          "position": 8
+        },
+        {
+          "japanese": "帰るのです。",
+          "japanese_with_blank": "帰る[___]。",
+          "english": "I am (in fact) going home.",
+          "target_answer": "のです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "帰る",
+            "のです"
+          ],
+          "audio_text": "帰るのです。",
+          "notes": "Departure explanation.",
+          "position": 9
+        },
+        {
+          "japanese": "分からないのです。",
+          "japanese_with_blank": "分からない[___]。",
+          "english": "The thing is, I don't understand.",
+          "target_answer": "のです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "分からない",
+            "のです"
+          ],
+          "audio_text": "分からないのです。",
+          "notes": "Explaining lack of understanding.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

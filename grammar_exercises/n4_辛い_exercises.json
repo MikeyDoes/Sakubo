@@ -1,0 +1,86 @@
+{
+  "grammar_point": "辛い",
+  "entry_id": 325558,
+  "categories": [
+    {
+      "id": "difficult_suffix",
+      "label": "Difficult To (～づらい)",
+      "sentences": [
+        {
+          "japanese": "この薬は飲みづらいです。",
+          "japanese_with_blank": "この薬は飲み[___]です。",
+          "english": "This medicine is hard to swallow.",
+          "target_answer": "づらい",
+          "alternative_answers": [],
+          "hint": "difficult to",
+          "scramble_blocks": [
+            "この",
+            "薬",
+            "は",
+            "飲み",
+            "づらい",
+            "です"
+          ],
+          "audio_text": "この薬は飲みづらいです。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "この靴は歩きづらいです。",
+          "japanese_with_blank": "この靴は歩き[___]です。",
+          "english": "These shoes are hard to walk in.",
+          "target_answer": "づらい",
+          "alternative_answers": [],
+          "hint": "difficult to",
+          "scramble_blocks": [
+            "この",
+            "靴",
+            "は",
+            "歩き",
+            "づらい",
+            "です"
+          ],
+          "audio_text": "この靴は歩きづらいです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "言いづらいことがあります。",
+          "japanese_with_blank": "言い[___]ことがあります。",
+          "english": "There's something hard to say.",
+          "target_answer": "づらい",
+          "alternative_answers": [],
+          "hint": "difficult to",
+          "scramble_blocks": [
+            "言い",
+            "づらい",
+            "こと",
+            "が",
+            "あります"
+          ],
+          "audio_text": "言いづらいことがあります。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "先生に話しづらいです。",
+          "japanese_with_blank": "先生に話し[___]です。",
+          "english": "It's hard to talk to the teacher.",
+          "target_answer": "づらい",
+          "alternative_answers": [],
+          "hint": "difficult to",
+          "scramble_blocks": [
+            "先生",
+            "に",
+            "話し",
+            "づらい",
+            "です"
+          ],
+          "audio_text": "先生に話しづらいです。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

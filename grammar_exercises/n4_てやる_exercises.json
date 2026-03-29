@@ -1,0 +1,86 @@
+{
+  "grammar_point": "てやる",
+  "entry_id": 325562,
+  "categories": [
+    {
+      "id": "doing_for",
+      "label": "Doing for Someone (Casual)",
+      "sentences": [
+        {
+          "japanese": "弟に教えてやった。",
+          "japanese_with_blank": "弟に教え[___]。",
+          "english": "I taught my little brother.",
+          "target_answer": "てやった",
+          "alternative_answers": [],
+          "hint": "did for (casual past)",
+          "scramble_blocks": [
+            "弟",
+            "に",
+            "教え",
+            "てやった"
+          ],
+          "audio_text": "弟に教えてやった。",
+          "notes": "て-form + やる = do for (casual).",
+          "position": 1
+        },
+        {
+          "japanese": "猫にご飯を作ってやります。",
+          "japanese_with_blank": "猫にご飯を作っ[___]。",
+          "english": "I'll make food for the cat.",
+          "target_answer": "てやります",
+          "alternative_answers": [],
+          "hint": "do for (casual)",
+          "scramble_blocks": [
+            "猫",
+            "に",
+            "ご飯",
+            "を",
+            "作っ",
+            "てやります"
+          ],
+          "audio_text": "猫にご飯を作ってやります。",
+          "notes": "Doing for animals/inferiors.",
+          "position": 2
+        },
+        {
+          "japanese": "子供に本を読んでやりました。",
+          "japanese_with_blank": "子供に本を読ん[___]。",
+          "english": "I read a book for/to the child.",
+          "target_answer": "でやりました",
+          "alternative_answers": [],
+          "hint": "did for (casual past)",
+          "scramble_blocks": [
+            "子供",
+            "に",
+            "本",
+            "を",
+            "読ん",
+            "でやりました"
+          ],
+          "audio_text": "子供に本を読んでやりました。",
+          "notes": "読む → 読んでやる (voiced).",
+          "position": 3
+        },
+        {
+          "japanese": "犬を散歩に連れて行ってやる。",
+          "japanese_with_blank": "犬を散歩に連れて行っ[___]。",
+          "english": "I'll take the dog for a walk.",
+          "target_answer": "てやる",
+          "alternative_answers": [],
+          "hint": "do for (casual)",
+          "scramble_blocks": [
+            "犬",
+            "を",
+            "散歩",
+            "に",
+            "連れて行っ",
+            "てやる"
+          ],
+          "audio_text": "犬を散歩に連れて行ってやる。",
+          "notes": "Casual favors.",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

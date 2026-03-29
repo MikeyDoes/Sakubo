@@ -1,0 +1,121 @@
+{
+  "grammar_point": "てしまう",
+  "entry_id": 325601,
+  "categories": [
+    {
+      "id": "completion",
+      "label": "Completion",
+      "sentences": [
+        {
+          "japanese": "本を全部読んでしまいました。",
+          "japanese_with_blank": "本を全部読ん[___]。",
+          "english": "I finished reading the entire book.",
+          "target_answer": "でしまいました",
+          "alternative_answers": [],
+          "hint": "finished doing",
+          "scramble_blocks": [
+            "本",
+            "を",
+            "全部",
+            "読ん",
+            "でしまいました"
+          ],
+          "audio_text": "本を全部読んでしまいました。",
+          "notes": "て-form + しまう = complete.",
+          "position": 1
+        },
+        {
+          "japanese": "宿題を全部してしまいました。",
+          "japanese_with_blank": "宿題を全部し[___]。",
+          "english": "I completely finished the homework.",
+          "target_answer": "てしまいました",
+          "alternative_answers": [],
+          "hint": "finished doing",
+          "scramble_blocks": [
+            "宿題",
+            "を",
+            "全部",
+            "し",
+            "てしまいました"
+          ],
+          "audio_text": "宿題を全部してしまいました。",
+          "notes": "する → してしまう.",
+          "position": 2
+        },
+        {
+          "japanese": "食べてしまいましょう。",
+          "japanese_with_blank": "食べ[___]。",
+          "english": "Let's finish eating it.",
+          "target_answer": "てしまいましょう",
+          "alternative_answers": [],
+          "hint": "let's finish",
+          "scramble_blocks": [
+            "食べ",
+            "てしまいましょう"
+          ],
+          "audio_text": "食べてしまいましょう。",
+          "notes": "Let's complete.",
+          "position": 3
+        }
+      ]
+    },
+    {
+      "id": "regret",
+      "label": "Regret / Accidentally",
+      "sentences": [
+        {
+          "japanese": "財布を忘れてしまいました。",
+          "japanese_with_blank": "財布を忘れ[___]。",
+          "english": "I accidentally forgot my wallet.",
+          "target_answer": "てしまいました",
+          "alternative_answers": [],
+          "hint": "unfortunately did",
+          "scramble_blocks": [
+            "財布",
+            "を",
+            "忘れ",
+            "てしまいました"
+          ],
+          "audio_text": "財布を忘れてしまいました。",
+          "notes": "Regrettable action.",
+          "position": 1
+        },
+        {
+          "japanese": "電車に遅れてしまいました。",
+          "japanese_with_blank": "電車に遅れ[___]。",
+          "english": "I unfortunately missed the train.",
+          "target_answer": "てしまいました",
+          "alternative_answers": [],
+          "hint": "unfortunately did",
+          "scramble_blocks": [
+            "電車",
+            "に",
+            "遅れ",
+            "てしまいました"
+          ],
+          "audio_text": "電車に遅れてしまいました。",
+          "notes": "Regret for being late.",
+          "position": 2
+        },
+        {
+          "japanese": "大事な物を無くしてしまいました。",
+          "japanese_with_blank": "大事な物を無くし[___]。",
+          "english": "I accidentally lost something important.",
+          "target_answer": "てしまいました",
+          "alternative_answers": [],
+          "hint": "unfortunately did",
+          "scramble_blocks": [
+            "大事な",
+            "物",
+            "を",
+            "無くし",
+            "てしまいました"
+          ],
+          "audio_text": "大事な物を無くしてしまいました。",
+          "notes": "Regrettable loss.",
+          "position": 3
+        }
+      ]
+    }
+  ]
+}

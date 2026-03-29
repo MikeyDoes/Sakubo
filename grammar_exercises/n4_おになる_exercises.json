@@ -1,0 +1,78 @@
+{
+  "grammar_point": "お～になる",
+  "entry_id": 325597,
+  "categories": [
+    {
+      "id": "honorific_verb",
+      "label": "Honorific Verb Pattern",
+      "sentences": [
+        {
+          "japanese": "先生はもうお帰りになりました。",
+          "japanese_with_blank": "先生はもう[___]。",
+          "english": "The teacher has already gone home. (honorific)",
+          "target_answer": "お帰りになりました",
+          "alternative_answers": [],
+          "hint": "did (hon.)",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "もう",
+            "お帰りになりました"
+          ],
+          "audio_text": "先生はもうお帰りになりました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "社長はお読みになりましたか。",
+          "japanese_with_blank": "社長は[___]か。",
+          "english": "Has the president read it? (honorific)",
+          "target_answer": "お読みになりました",
+          "alternative_answers": [],
+          "hint": "did (hon.)",
+          "scramble_blocks": [
+            "社長",
+            "は",
+            "お読みになりました",
+            "か"
+          ],
+          "audio_text": "社長はお読みになりましたか。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "先生がお話しになりました。",
+          "japanese_with_blank": "先生が[___]。",
+          "english": "The teacher spoke. (honorific)",
+          "target_answer": "お話しになりました",
+          "alternative_answers": [],
+          "hint": "did (hon.)",
+          "scramble_blocks": [
+            "先生",
+            "が",
+            "お話しになりました"
+          ],
+          "audio_text": "先生がお話しになりました。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "お客様はお待ちになっています。",
+          "japanese_with_blank": "お客様は[___]。",
+          "english": "The customer is waiting. (honorific)",
+          "target_answer": "お待ちになっています",
+          "alternative_answers": [],
+          "hint": "is doing (hon.)",
+          "scramble_blocks": [
+            "お客様",
+            "は",
+            "お待ちになっています"
+          ],
+          "audio_text": "お客様はお待ちになっています。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

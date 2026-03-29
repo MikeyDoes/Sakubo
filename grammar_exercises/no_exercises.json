@@ -1,0 +1,182 @@
+{
+  "grammar_point": "の",
+  "entry_id": 325435,
+  "categories": [
+    {
+      "id": "possessive",
+      "label": "Possessive / Modifier",
+      "sentences": [
+        {
+          "japanese": "私の本です。",
+          "japanese_with_blank": "私[___]本です。",
+          "english": "It is my book.",
+          "target_answer": "の",
+          "alternative_answers": [],
+          "hint": "Possessive",
+          "scramble_blocks": [
+            "私",
+            "の",
+            "本",
+            "です"
+          ],
+          "audio_text": "私の本です。",
+          "notes": "の shows possession: 私の本.",
+          "position": 1
+        },
+        {
+          "japanese": "先生の名前です。",
+          "japanese_with_blank": "先生[___]名前です。",
+          "english": "It is the teacher's name.",
+          "target_answer": "の",
+          "alternative_answers": [],
+          "hint": "Possessive",
+          "scramble_blocks": [
+            "先生",
+            "の",
+            "名前",
+            "です"
+          ],
+          "audio_text": "先生の名前です。",
+          "notes": "の links possessor to possession.",
+          "position": 2
+        },
+        {
+          "japanese": "友達の犬です。",
+          "japanese_with_blank": "友達[___]犬です。",
+          "english": "It is my friend's dog.",
+          "target_answer": "の",
+          "alternative_answers": [],
+          "hint": "Possessive",
+          "scramble_blocks": [
+            "友達",
+            "の",
+            "犬",
+            "です"
+          ],
+          "audio_text": "友達の犬です。",
+          "notes": "Possession with a person.",
+          "position": 3
+        },
+        {
+          "japanese": "学校の先生です。",
+          "japanese_with_blank": "学校[___]先生です。",
+          "english": "It is the school's teacher.",
+          "target_answer": "の",
+          "alternative_answers": [],
+          "hint": "Possessive",
+          "scramble_blocks": [
+            "学校",
+            "の",
+            "先生",
+            "です"
+          ],
+          "audio_text": "学校の先生です。",
+          "notes": "の can link organizations.",
+          "position": 4
+        },
+        {
+          "japanese": "子供の本です。",
+          "japanese_with_blank": "子供[___]本です。",
+          "english": "It is the child's book.",
+          "target_answer": "の",
+          "alternative_answers": [],
+          "hint": "Possessive",
+          "scramble_blocks": [
+            "子供",
+            "の",
+            "本",
+            "です"
+          ],
+          "audio_text": "子供の本です。",
+          "notes": "Child owning something.",
+          "position": 5
+        },
+        {
+          "japanese": "私の家です。",
+          "japanese_with_blank": "私[___]家です。",
+          "english": "It is my house.",
+          "target_answer": "の",
+          "alternative_answers": [],
+          "hint": "Possessive",
+          "scramble_blocks": [
+            "私",
+            "の",
+            "家",
+            "です"
+          ],
+          "audio_text": "私の家です。",
+          "notes": "Personal possession.",
+          "position": 6
+        },
+        {
+          "japanese": "友達の車です。",
+          "japanese_with_blank": "友達[___]車です。",
+          "english": "It is my friend's car.",
+          "target_answer": "の",
+          "alternative_answers": [],
+          "hint": "Possessive",
+          "scramble_blocks": [
+            "友達",
+            "の",
+            "車",
+            "です"
+          ],
+          "audio_text": "友達の車です。",
+          "notes": "Ownership of objects.",
+          "position": 7
+        },
+        {
+          "japanese": "先生の電話です。",
+          "japanese_with_blank": "先生[___]電話です。",
+          "english": "It is the teacher's phone.",
+          "target_answer": "の",
+          "alternative_answers": [],
+          "hint": "Possessive",
+          "scramble_blocks": [
+            "先生",
+            "の",
+            "電話",
+            "です"
+          ],
+          "audio_text": "先生の電話です。",
+          "notes": "Possession of tools.",
+          "position": 8
+        },
+        {
+          "japanese": "私の友達です。",
+          "japanese_with_blank": "私[___]友達です。",
+          "english": "It is my friend.",
+          "target_answer": "の",
+          "alternative_answers": [],
+          "hint": "Possessive",
+          "scramble_blocks": [
+            "私",
+            "の",
+            "友達",
+            "です"
+          ],
+          "audio_text": "私の友達です。",
+          "notes": "Relationship marker.",
+          "position": 9
+        },
+        {
+          "japanese": "学校の名前です。",
+          "japanese_with_blank": "学校[___]名前です。",
+          "english": "It is the school's name.",
+          "target_answer": "の",
+          "alternative_answers": [],
+          "hint": "Possessive",
+          "scramble_blocks": [
+            "学校",
+            "の",
+            "名前",
+            "です"
+          ],
+          "audio_text": "学校の名前です。",
+          "notes": "Organizational attribute.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

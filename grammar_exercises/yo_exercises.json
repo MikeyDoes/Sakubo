@@ -1,0 +1,162 @@
+{
+  "grammar_point": "よ",
+  "entry_id": 325438,
+  "categories": [
+    {
+      "id": "assertion",
+      "label": "Emphatic Assertion",
+      "sentences": [
+        {
+          "japanese": "美味しいですよ。",
+          "japanese_with_blank": "美味しいです[___]。",
+          "english": "It is delicious, you know!",
+          "target_answer": "よ",
+          "alternative_answers": [],
+          "hint": "Assertion",
+          "scramble_blocks": [
+            "美味しいです",
+            "よ"
+          ],
+          "audio_text": "美味しいですよ。",
+          "notes": "よ adds emphasis or new information.",
+          "position": 1
+        },
+        {
+          "japanese": "面白いですよ。",
+          "japanese_with_blank": "面白いです[___]。",
+          "english": "It is interesting!",
+          "target_answer": "よ",
+          "alternative_answers": [],
+          "hint": "Assertion",
+          "scramble_blocks": [
+            "面白いです",
+            "よ"
+          ],
+          "audio_text": "面白いですよ。",
+          "notes": "Sharing something the listener may not know.",
+          "position": 2
+        },
+        {
+          "japanese": "大きいですよ。",
+          "japanese_with_blank": "大きいです[___]。",
+          "english": "It is big!",
+          "target_answer": "よ",
+          "alternative_answers": [],
+          "hint": "Assertion",
+          "scramble_blocks": [
+            "大きいです",
+            "よ"
+          ],
+          "audio_text": "大きいですよ。",
+          "notes": "よ for emphatic assertion.",
+          "position": 3
+        },
+        {
+          "japanese": "元気ですよ。",
+          "japanese_with_blank": "元気です[___]。",
+          "english": "I am well!",
+          "target_answer": "よ",
+          "alternative_answers": [],
+          "hint": "Assertion",
+          "scramble_blocks": [
+            "元気です",
+            "よ"
+          ],
+          "audio_text": "元気ですよ。",
+          "notes": "Asserting one's condition.",
+          "position": 4
+        },
+        {
+          "japanese": "好きですよ。",
+          "japanese_with_blank": "好きです[___]。",
+          "english": "I like it!",
+          "target_answer": "よ",
+          "alternative_answers": [],
+          "hint": "Assertion",
+          "scramble_blocks": [
+            "好きです",
+            "よ"
+          ],
+          "audio_text": "好きですよ。",
+          "notes": "Emphatic declaration.",
+          "position": 5
+        },
+        {
+          "japanese": "いいですよ。",
+          "japanese_with_blank": "いいです[___]。",
+          "english": "It is good!",
+          "target_answer": "よ",
+          "alternative_answers": [],
+          "hint": "Assertion",
+          "scramble_blocks": [
+            "いいです",
+            "よ"
+          ],
+          "audio_text": "いいですよ。",
+          "notes": "Simple positive assertion.",
+          "position": 6
+        },
+        {
+          "japanese": "難しいですよ。",
+          "japanese_with_blank": "難しいです[___]。",
+          "english": "It is difficult!",
+          "target_answer": "よ",
+          "alternative_answers": [],
+          "hint": "Assertion",
+          "scramble_blocks": [
+            "難しいです",
+            "よ"
+          ],
+          "audio_text": "難しいですよ。",
+          "notes": "Warning or informing.",
+          "position": 7
+        },
+        {
+          "japanese": "静かですよ。",
+          "japanese_with_blank": "静かです[___]。",
+          "english": "It is quiet!",
+          "target_answer": "よ",
+          "alternative_answers": [],
+          "hint": "Assertion",
+          "scramble_blocks": [
+            "静かです",
+            "よ"
+          ],
+          "audio_text": "静かですよ。",
+          "notes": "Stating a discovery.",
+          "position": 8
+        },
+        {
+          "japanese": "高いですよ。",
+          "japanese_with_blank": "高いです[___]。",
+          "english": "It is expensive!",
+          "target_answer": "よ",
+          "alternative_answers": [],
+          "hint": "Assertion",
+          "scramble_blocks": [
+            "高いです",
+            "よ"
+          ],
+          "audio_text": "高いですよ。",
+          "notes": "Informing about price.",
+          "position": 9
+        },
+        {
+          "japanese": "新しいですよ。",
+          "japanese_with_blank": "新しいです[___]。",
+          "english": "It is new!",
+          "target_answer": "よ",
+          "alternative_answers": [],
+          "hint": "Assertion",
+          "scramble_blocks": [
+            "新しいです",
+            "よ"
+          ],
+          "audio_text": "新しいですよ。",
+          "notes": "Sharing new information.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

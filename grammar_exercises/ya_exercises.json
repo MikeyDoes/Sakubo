@@ -1,0 +1,375 @@
+{
+  "grammar_point": "や",
+  "entry_id": 325437,
+  "categories": [
+    {
+      "id": "listing",
+      "label": "Non-Exhaustive Listing",
+      "sentences": [
+        {
+          "japanese": "猫や犬が好きです。",
+          "japanese_with_blank": "猫[___]犬が好きです。",
+          "english": "I like cats, dogs, etc.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Listing",
+          "scramble_blocks": [
+            "猫",
+            "や",
+            "犬",
+            "が好きです"
+          ],
+          "audio_text": "猫や犬が好きです。",
+          "notes": "や lists items non-exhaustively (implies there are more).",
+          "position": 1
+        },
+        {
+          "japanese": "本やペンがあります。",
+          "japanese_with_blank": "本[___]ペンがあります。",
+          "english": "There are books, pens, etc.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Listing",
+          "scramble_blocks": [
+            "本",
+            "や",
+            "ペン",
+            "があります"
+          ],
+          "audio_text": "本やペンがあります。",
+          "notes": "や implies the list is not complete.",
+          "position": 2
+        },
+        {
+          "japanese": "パンやケーキを食べます。",
+          "japanese_with_blank": "パン[___]ケーキを食べます。",
+          "english": "I eat bread, cake, etc.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Listing",
+          "scramble_blocks": [
+            "パン",
+            "や",
+            "ケーキ",
+            "を食べます"
+          ],
+          "audio_text": "パンやケーキを食べます。",
+          "notes": "Non-exhaustive food listing.",
+          "position": 3
+        },
+        {
+          "japanese": "水やコーヒーを飲みます。",
+          "japanese_with_blank": "水[___]コーヒーを飲みます。",
+          "english": "I drink water, coffee, etc.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Listing",
+          "scramble_blocks": [
+            "水",
+            "や",
+            "コーヒー",
+            "を飲みます"
+          ],
+          "audio_text": "水やコーヒーを飲みます。",
+          "notes": "Listing drinks.",
+          "position": 4
+        },
+        {
+          "japanese": "先生や学生がいます。",
+          "japanese_with_blank": "先生[___]学生がいます。",
+          "english": "There are teachers, students, etc.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Listing",
+          "scramble_blocks": [
+            "先生",
+            "や",
+            "学生",
+            "がいます"
+          ],
+          "audio_text": "先生や学生がいます。",
+          "notes": "Listing people.",
+          "position": 5
+        },
+        {
+          "japanese": "犬や猫がいます。",
+          "japanese_with_blank": "犬[___]猫がいます。",
+          "english": "There are dogs, cats, etc.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Listing",
+          "scramble_blocks": [
+            "犬",
+            "や",
+            "猫",
+            "がいます"
+          ],
+          "audio_text": "犬や猫がいます。",
+          "notes": "Listing animals.",
+          "position": 6
+        },
+        {
+          "japanese": "テレビや電話があります。",
+          "japanese_with_blank": "テレビ[___]電話があります。",
+          "english": "There are TVs, phones, etc.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Listing",
+          "scramble_blocks": [
+            "テレビ",
+            "や",
+            "電話",
+            "があります"
+          ],
+          "audio_text": "テレビや電話があります。",
+          "notes": "Listing objects.",
+          "position": 7
+        },
+        {
+          "japanese": "学校や店があります。",
+          "japanese_with_blank": "学校[___]店があります。",
+          "english": "There are schools, shops, etc.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Listing",
+          "scramble_blocks": [
+            "学校",
+            "や",
+            "店",
+            "があります"
+          ],
+          "audio_text": "学校や店があります。",
+          "notes": "Listing places.",
+          "position": 8
+        },
+        {
+          "japanese": "本や新聞を読みます。",
+          "japanese_with_blank": "本[___]新聞を読みます。",
+          "english": "I read books, newspapers, etc.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Listing",
+          "scramble_blocks": [
+            "本",
+            "や",
+            "新聞",
+            "を読みます"
+          ],
+          "audio_text": "本や新聞を読みます。",
+          "notes": "Reading materials.",
+          "position": 9
+        },
+        {
+          "japanese": "車やバスで行きます。",
+          "japanese_with_blank": "車[___]バスで行きます。",
+          "english": "I go by car, bus, etc.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Listing",
+          "scramble_blocks": [
+            "車",
+            "や",
+            "バス",
+            "で行きます"
+          ],
+          "audio_text": "車やバスで行きます。",
+          "notes": "Listing means of transport.",
+          "position": 10
+        }
+      ]
+    },
+    {
+      "id": "nado",
+      "label": "Such as... (や...など)",
+      "sentences": [
+        {
+          "japanese": "猫や犬などが好きです。",
+          "japanese_with_blank": "猫[___]犬などが好きです。",
+          "english": "I like things such as cats and dogs.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Such as (など)",
+          "scramble_blocks": [
+            "猫",
+            "や",
+            "犬",
+            "など",
+            "が好きです"
+          ],
+          "audio_text": "猫や犬などが好きです。",
+          "notes": "や...など makes the non-exhaustive listing explicit.",
+          "position": 1
+        },
+        {
+          "japanese": "本やペンなどがあります。",
+          "japanese_with_blank": "本[___]ペンなどがあります。",
+          "english": "There are things like books and pens.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Such as (など)",
+          "scramble_blocks": [
+            "本",
+            "や",
+            "ペン",
+            "など",
+            "があります"
+          ],
+          "audio_text": "本やペンなどがあります。",
+          "notes": "や...など lists examples.",
+          "position": 2
+        },
+        {
+          "japanese": "りんごやみかんなどを買いました。",
+          "japanese_with_blank": "りんご[___]みかんなどを買いました。",
+          "english": "I bought things like apples and oranges.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Such as (など)",
+          "scramble_blocks": [
+            "りんご",
+            "や",
+            "みかん",
+            "など",
+            "を",
+            "買いました"
+          ],
+          "audio_text": "りんごやみかんなどを買いました。",
+          "notes": "や...など for shopping items.",
+          "position": 3
+        },
+        {
+          "japanese": "日曜日や土曜日などは休みです。",
+          "japanese_with_blank": "日曜日[___]土曜日などは休みです。",
+          "english": "Days such as Sunday and Saturday are days off.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Such as (など)",
+          "scramble_blocks": [
+            "日曜日",
+            "や",
+            "土曜日",
+            "など",
+            "は",
+            "休み",
+            "です"
+          ],
+          "audio_text": "日曜日や土曜日などは休みです。",
+          "notes": "や...など for days.",
+          "position": 4
+        },
+        {
+          "japanese": "お茶や水などを飲みます。",
+          "japanese_with_blank": "お茶[___]水などを飲みます。",
+          "english": "I drink things like tea and water.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Such as (など)",
+          "scramble_blocks": [
+            "お茶",
+            "や",
+            "水",
+            "など",
+            "を",
+            "飲みます"
+          ],
+          "audio_text": "お茶や水などを飲みます。",
+          "notes": "や...など for drinks.",
+          "position": 5
+        },
+        {
+          "japanese": "テレビやラジオなどがあります。",
+          "japanese_with_blank": "テレビ[___]ラジオなどがあります。",
+          "english": "There are things like a TV and radio.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Such as (など)",
+          "scramble_blocks": [
+            "テレビ",
+            "や",
+            "ラジオ",
+            "など",
+            "があります"
+          ],
+          "audio_text": "テレビやラジオなどがあります。",
+          "notes": "や...など for electronics.",
+          "position": 6
+        },
+        {
+          "japanese": "英語や日本語などを勉強します。",
+          "japanese_with_blank": "英語[___]日本語などを勉強します。",
+          "english": "I study things like English and Japanese.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Such as (など)",
+          "scramble_blocks": [
+            "英語",
+            "や",
+            "日本語",
+            "など",
+            "を",
+            "勉強します"
+          ],
+          "audio_text": "英語や日本語などを勉強します。",
+          "notes": "や...など for languages.",
+          "position": 7
+        },
+        {
+          "japanese": "肉や魚などを食べます。",
+          "japanese_with_blank": "肉[___]魚などを食べます。",
+          "english": "I eat things like meat and fish.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Such as (など)",
+          "scramble_blocks": [
+            "肉",
+            "や",
+            "魚",
+            "など",
+            "を",
+            "食べます"
+          ],
+          "audio_text": "肉や魚などを食べます。",
+          "notes": "や...など for food.",
+          "position": 8
+        },
+        {
+          "japanese": "公園や学校などに行きます。",
+          "japanese_with_blank": "公園[___]学校などに行きます。",
+          "english": "I go to places like the park and school.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Such as (など)",
+          "scramble_blocks": [
+            "公園",
+            "や",
+            "学校",
+            "など",
+            "に",
+            "行きます"
+          ],
+          "audio_text": "公園や学校などに行きます。",
+          "notes": "や...など for places.",
+          "position": 9
+        },
+        {
+          "japanese": "机や椅子などがあります。",
+          "japanese_with_blank": "机[___]椅子などがあります。",
+          "english": "There are things like desks and chairs.",
+          "target_answer": "や",
+          "alternative_answers": [],
+          "hint": "Such as (など)",
+          "scramble_blocks": [
+            "机",
+            "や",
+            "椅子",
+            "など",
+            "があります"
+          ],
+          "audio_text": "机や椅子などがあります。",
+          "notes": "や...など for furniture.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

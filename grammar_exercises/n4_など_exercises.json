@@ -1,0 +1,92 @@
+{
+  "grammar_point": "など",
+  "entry_id": 326785,
+  "categories": [
+    {
+      "id": "listing_etc",
+      "label": "Listing with Etc",
+      "sentences": [
+        {
+          "japanese": "りんごやみかんなどを買いました。",
+          "japanese_with_blank": "りんごやみかん[___]を買いました。",
+          "english": "I bought apples, oranges, etc.",
+          "target_answer": "など",
+          "alternative_answers": [],
+          "hint": "etc.",
+          "scramble_blocks": [
+            "りんご",
+            "や",
+            "みかん",
+            "など",
+            "を",
+            "買いました"
+          ],
+          "audio_text": "りんごやみかんなどを買いました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "東京や大阪などの大きい町が好きです。",
+          "japanese_with_blank": "東京や大阪[___]の大きい町が好きです。",
+          "english": "I like big cities such as Tokyo and Osaka.",
+          "target_answer": "など",
+          "alternative_answers": [],
+          "hint": "such as",
+          "scramble_blocks": [
+            "東京",
+            "や",
+            "大阪",
+            "など",
+            "の",
+            "大きい",
+            "町",
+            "が",
+            "好き",
+            "です"
+          ],
+          "audio_text": "東京や大阪などの大きい町が好きです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "テニスなどのスポーツをします。",
+          "japanese_with_blank": "テニス[___]のスポーツをします。",
+          "english": "I play sports such as tennis.",
+          "target_answer": "など",
+          "alternative_answers": [],
+          "hint": "such as",
+          "scramble_blocks": [
+            "テニス",
+            "など",
+            "の",
+            "スポーツ",
+            "を",
+            "します"
+          ],
+          "audio_text": "テニスなどのスポーツをします。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "本やペンなどを持ってきてください。",
+          "japanese_with_blank": "本やペン[___]を持ってきてください。",
+          "english": "Please bring books, pens, etc.",
+          "target_answer": "など",
+          "alternative_answers": [],
+          "hint": "etc.",
+          "scramble_blocks": [
+            "本",
+            "や",
+            "ペン",
+            "など",
+            "を",
+            "持ってきてください"
+          ],
+          "audio_text": "本やペンなどを持ってきてください。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

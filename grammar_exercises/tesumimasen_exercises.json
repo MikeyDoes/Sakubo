@@ -1,0 +1,162 @@
+{
+  "grammar_point": "てすみません",
+  "entry_id": 325517,
+  "categories": [
+    {
+      "id": "apology",
+      "label": "Apology for Action",
+      "sentences": [
+        {
+          "japanese": "遅れてすみません。",
+          "japanese_with_blank": "遅れて[___]。",
+          "english": "I'm sorry for being late.",
+          "target_answer": "すみません",
+          "alternative_answers": [],
+          "hint": "Apology",
+          "scramble_blocks": [
+            "遅れて",
+            "すみません"
+          ],
+          "audio_text": "遅れてすみません。",
+          "notes": "てすみません apologizes for an action.",
+          "position": 1
+        },
+        {
+          "japanese": "忘れてすみません。",
+          "japanese_with_blank": "忘れて[___]。",
+          "english": "I'm sorry for forgetting.",
+          "target_answer": "すみません",
+          "alternative_answers": [],
+          "hint": "Apology",
+          "scramble_blocks": [
+            "忘れて",
+            "すみません"
+          ],
+          "audio_text": "忘れてすみません。",
+          "notes": "Apologizing for a mistake.",
+          "position": 2
+        },
+        {
+          "japanese": "待たせてすみません。",
+          "japanese_with_blank": "待たせて[___]。",
+          "english": "I'm sorry for making you wait.",
+          "target_answer": "すみません",
+          "alternative_answers": [],
+          "hint": "Apology",
+          "scramble_blocks": [
+            "待たせて",
+            "すみません"
+          ],
+          "audio_text": "待たせてすみません。",
+          "notes": "Apologizing for inconvenience.",
+          "position": 3
+        },
+        {
+          "japanese": "起こしてすみません。",
+          "japanese_with_blank": "起こして[___]。",
+          "english": "I'm sorry for waking you.",
+          "target_answer": "すみません",
+          "alternative_answers": [],
+          "hint": "Apology",
+          "scramble_blocks": [
+            "起こして",
+            "すみません"
+          ],
+          "audio_text": "起こしてすみません。",
+          "notes": "Apologizing for disturbing.",
+          "position": 4
+        },
+        {
+          "japanese": "間違えてすみません。",
+          "japanese_with_blank": "間違えて[___]。",
+          "english": "I'm sorry for making a mistake.",
+          "target_answer": "すみません",
+          "alternative_answers": [],
+          "hint": "Apology",
+          "scramble_blocks": [
+            "間違えて",
+            "すみません"
+          ],
+          "audio_text": "間違えてすみません。",
+          "notes": "Apologizing for an error.",
+          "position": 5
+        },
+        {
+          "japanese": "来てすみません。",
+          "japanese_with_blank": "来て[___]。",
+          "english": "I'm sorry for coming.",
+          "target_answer": "すみません",
+          "alternative_answers": [],
+          "hint": "Apology",
+          "scramble_blocks": [
+            "来て",
+            "すみません"
+          ],
+          "audio_text": "来てすみません。",
+          "notes": "Apologizing for one's arrival.",
+          "position": 6
+        },
+        {
+          "japanese": "食べてすみません。",
+          "japanese_with_blank": "食べて[___]。",
+          "english": "I'm sorry for eating.",
+          "target_answer": "すみません",
+          "alternative_answers": [],
+          "hint": "Apology",
+          "scramble_blocks": [
+            "食べて",
+            "すみません"
+          ],
+          "audio_text": "食べてすみません。",
+          "notes": "Apologizing for eating something.",
+          "position": 7
+        },
+        {
+          "japanese": "聞いてすみません。",
+          "japanese_with_blank": "聞いて[___]。",
+          "english": "I'm sorry for asking.",
+          "target_answer": "すみません",
+          "alternative_answers": [],
+          "hint": "Apology",
+          "scramble_blocks": [
+            "聞いて",
+            "すみません"
+          ],
+          "audio_text": "聞いてすみません。",
+          "notes": "Apologizing for inquiring.",
+          "position": 8
+        },
+        {
+          "japanese": "見てすみません。",
+          "japanese_with_blank": "見て[___]。",
+          "english": "I'm sorry for looking.",
+          "target_answer": "すみません",
+          "alternative_answers": [],
+          "hint": "Apology",
+          "scramble_blocks": [
+            "見て",
+            "すみません"
+          ],
+          "audio_text": "見てすみません。",
+          "notes": "Apologizing for seeing.",
+          "position": 9
+        },
+        {
+          "japanese": "話してすみません。",
+          "japanese_with_blank": "話して[___]。",
+          "english": "I'm sorry for talking.",
+          "target_answer": "すみません",
+          "alternative_answers": [],
+          "hint": "Apology",
+          "scramble_blocks": [
+            "話して",
+            "すみません"
+          ],
+          "audio_text": "話してすみません。",
+          "notes": "Apologizing for speaking.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

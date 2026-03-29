@@ -1,0 +1,162 @@
+{
+  "grammar_point": "て",
+  "entry_id": 325518,
+  "categories": [
+    {
+      "id": "sequential",
+      "label": "Sequential Actions",
+      "sentences": [
+        {
+          "japanese": "食べて飲みます。",
+          "japanese_with_blank": "[___]飲みます。",
+          "english": "I eat and then drink.",
+          "target_answer": "食べて",
+          "alternative_answers": [],
+          "hint": "て-form",
+          "scramble_blocks": [
+            "食べて",
+            "飲みます"
+          ],
+          "audio_text": "食べて飲みます。",
+          "notes": "て-form connects sequential actions.",
+          "position": 1
+        },
+        {
+          "japanese": "読んで書きます。",
+          "japanese_with_blank": "[___]書きます。",
+          "english": "I read and then write.",
+          "target_answer": "読んで",
+          "alternative_answers": [],
+          "hint": "て-form",
+          "scramble_blocks": [
+            "読んで",
+            "書きます"
+          ],
+          "audio_text": "読んで書きます。",
+          "notes": "て links sequential verbs.",
+          "position": 2
+        },
+        {
+          "japanese": "起きて食べます。",
+          "japanese_with_blank": "[___]食べます。",
+          "english": "I wake up and eat.",
+          "target_answer": "起きて",
+          "alternative_answers": [],
+          "hint": "て-form",
+          "scramble_blocks": [
+            "起きて",
+            "食べます"
+          ],
+          "audio_text": "起きて食べます。",
+          "notes": "Morning routine sequence.",
+          "position": 3
+        },
+        {
+          "japanese": "行って買います。",
+          "japanese_with_blank": "[___]買います。",
+          "english": "I go and buy.",
+          "target_answer": "行って",
+          "alternative_answers": [],
+          "hint": "て-form",
+          "scramble_blocks": [
+            "行って",
+            "買います"
+          ],
+          "audio_text": "行って買います。",
+          "notes": "Sequential actions with って.",
+          "position": 4
+        },
+        {
+          "japanese": "書いて見せます。",
+          "japanese_with_blank": "[___]見せます。",
+          "english": "I write and show.",
+          "target_answer": "書いて",
+          "alternative_answers": [],
+          "hint": "て-form",
+          "scramble_blocks": [
+            "書いて",
+            "見せます"
+          ],
+          "audio_text": "書いて見せます。",
+          "notes": "Two actions in sequence.",
+          "position": 5
+        },
+        {
+          "japanese": "聞いて話します。",
+          "japanese_with_blank": "[___]話します。",
+          "english": "I listen and speak.",
+          "target_answer": "聞いて",
+          "alternative_answers": [],
+          "hint": "て-form",
+          "scramble_blocks": [
+            "聞いて",
+            "話します"
+          ],
+          "audio_text": "聞いて話します。",
+          "notes": "Communication sequence.",
+          "position": 6
+        },
+        {
+          "japanese": "見て食べます。",
+          "japanese_with_blank": "[___]食べます。",
+          "english": "I look and eat.",
+          "target_answer": "見て",
+          "alternative_answers": [],
+          "hint": "て-form",
+          "scramble_blocks": [
+            "見て",
+            "食べます"
+          ],
+          "audio_text": "見て食べます。",
+          "notes": "Simple sequence.",
+          "position": 7
+        },
+        {
+          "japanese": "話して帰ります。",
+          "japanese_with_blank": "[___]帰ります。",
+          "english": "I talk and go home.",
+          "target_answer": "話して",
+          "alternative_answers": [],
+          "hint": "て-form",
+          "scramble_blocks": [
+            "話して",
+            "帰ります"
+          ],
+          "audio_text": "話して帰ります。",
+          "notes": "して form of 話す.",
+          "position": 8
+        },
+        {
+          "japanese": "買って帰ります。",
+          "japanese_with_blank": "[___]帰ります。",
+          "english": "I buy and go home.",
+          "target_answer": "買って",
+          "alternative_answers": [],
+          "hint": "て-form",
+          "scramble_blocks": [
+            "買って",
+            "帰ります"
+          ],
+          "audio_text": "買って帰ります。",
+          "notes": "Shopping then returning.",
+          "position": 9
+        },
+        {
+          "japanese": "飲んで寝ます。",
+          "japanese_with_blank": "[___]寝ます。",
+          "english": "I drink and sleep.",
+          "target_answer": "飲んで",
+          "alternative_answers": [],
+          "hint": "て-form",
+          "scramble_blocks": [
+            "飲んで",
+            "寝ます"
+          ],
+          "audio_text": "飲んで寝ます。",
+          "notes": "Evening routine.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

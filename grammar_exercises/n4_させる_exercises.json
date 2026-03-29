@@ -1,0 +1,90 @@
+{
+  "grammar_point": "させる",
+  "entry_id": 325546,
+  "categories": [
+    {
+      "id": "causative",
+      "label": "Make/Let Someone Do",
+      "sentences": [
+        {
+          "japanese": "母は私に野菜を食べさせました。",
+          "japanese_with_blank": "母は私に野菜を食べ[___]。",
+          "english": "My mother made me eat vegetables.",
+          "target_answer": "させました",
+          "alternative_answers": [],
+          "hint": "made (do)",
+          "scramble_blocks": [
+            "母",
+            "は",
+            "私",
+            "に",
+            "野菜",
+            "を",
+            "食べ",
+            "させました"
+          ],
+          "audio_text": "母は私に野菜を食べさせました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "先生は学生に本を読ませました。",
+          "japanese_with_blank": "先生は学生に本を読[___]。",
+          "english": "The teacher made the students read the book.",
+          "target_answer": "ませました",
+          "alternative_answers": [],
+          "hint": "made (do)",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "学生",
+            "に",
+            "本",
+            "を",
+            "読",
+            "ませました"
+          ],
+          "audio_text": "先生は学生に本を読ませました。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "子供を遊ばせました。",
+          "japanese_with_blank": "子供を遊ば[___]。",
+          "english": "I let the children play.",
+          "target_answer": "せました",
+          "alternative_answers": [],
+          "hint": "let (do)",
+          "scramble_blocks": [
+            "子供",
+            "を",
+            "遊ば",
+            "せました"
+          ],
+          "audio_text": "子供を遊ばせました。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "先生は学生を立たせました。",
+          "japanese_with_blank": "先生は学生を立た[___]。",
+          "english": "The teacher made the students stand.",
+          "target_answer": "せました",
+          "alternative_answers": [],
+          "hint": "made (do)",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "学生",
+            "を",
+            "立た",
+            "せました"
+          ],
+          "audio_text": "先生は学生を立たせました。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

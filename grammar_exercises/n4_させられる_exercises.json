@@ -1,0 +1,80 @@
+{
+  "grammar_point": "させられる",
+  "entry_id": 326774,
+  "categories": [
+    {
+      "id": "causative_passive",
+      "label": "Was Made To Do",
+      "sentences": [
+        {
+          "japanese": "野菜を食べさせられました。",
+          "japanese_with_blank": "野菜を食べ[___]。",
+          "english": "I was made to eat vegetables.",
+          "target_answer": "させられました",
+          "alternative_answers": [],
+          "hint": "was made to",
+          "scramble_blocks": [
+            "野菜",
+            "を",
+            "食べ",
+            "させられました"
+          ],
+          "audio_text": "野菜を食べさせられました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "毎日走らせられました。",
+          "japanese_with_blank": "毎日走らせられました。",
+          "english": "I was made to run every day.",
+          "target_answer": "させられました",
+          "alternative_answers": [],
+          "hint": "was made to",
+          "scramble_blocks": [
+            "毎日",
+            "走ら",
+            "させられました"
+          ],
+          "audio_text": "毎日走らせられました。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "長い時間待たせられました。",
+          "japanese_with_blank": "長い時間待たせられました。",
+          "english": "I was made to wait a long time.",
+          "target_answer": "させられました",
+          "alternative_answers": [],
+          "hint": "was made to",
+          "scramble_blocks": [
+            "長い",
+            "時間",
+            "待た",
+            "させられました"
+          ],
+          "audio_text": "長い時間待たせられました。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "嫌いな物を食べさせられました。",
+          "japanese_with_blank": "嫌いな物を食べ[___]。",
+          "english": "I was made to eat food I don't like.",
+          "target_answer": "させられました",
+          "alternative_answers": [],
+          "hint": "was made to",
+          "scramble_blocks": [
+            "嫌いな",
+            "物",
+            "を",
+            "食べ",
+            "させられました"
+          ],
+          "audio_text": "嫌いな物を食べさせられました。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

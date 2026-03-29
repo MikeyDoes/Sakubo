@@ -1,0 +1,99 @@
+{
+  "grammar_point": "られる",
+  "entry_id": 326775,
+  "categories": [
+    {
+      "id": "potential",
+      "label": "Can Do; Able To",
+      "sentences": [
+        {
+          "japanese": "日本語が話せます。",
+          "japanese_with_blank": "日本語が話[___]。",
+          "english": "I can speak Japanese.",
+          "target_answer": "せます",
+          "alternative_answers": [],
+          "hint": "can",
+          "scramble_blocks": [
+            "日本語",
+            "が",
+            "話",
+            "せます"
+          ],
+          "audio_text": "日本語が話せます。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "朝早く起きられます。",
+          "japanese_with_blank": "朝早く起き[___]。",
+          "english": "I can wake up early in the morning.",
+          "target_answer": "られます",
+          "alternative_answers": [],
+          "hint": "can",
+          "scramble_blocks": [
+            "朝",
+            "早く",
+            "起き",
+            "られます"
+          ],
+          "audio_text": "朝早く起きられます。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "この漢字が読めますか。",
+          "japanese_with_blank": "この漢字が読[___]か。",
+          "english": "Can you read this kanji?",
+          "target_answer": "めます",
+          "alternative_answers": [],
+          "hint": "can",
+          "scramble_blocks": [
+            "この",
+            "漢字",
+            "が",
+            "読",
+            "めます",
+            "か"
+          ],
+          "audio_text": "この漢字が読めますか。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "明日来られますか。",
+          "japanese_with_blank": "明日来[___]か。",
+          "english": "Can you come tomorrow?",
+          "target_answer": "られます",
+          "alternative_answers": [],
+          "hint": "can",
+          "scramble_blocks": [
+            "明日",
+            "来",
+            "られます",
+            "か"
+          ],
+          "audio_text": "明日来られますか。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "一人で食べられます。",
+          "japanese_with_blank": "一人で食べ[___]。",
+          "english": "I can eat by myself.",
+          "target_answer": "られます",
+          "alternative_answers": [],
+          "hint": "can",
+          "scramble_blocks": [
+            "一人",
+            "で",
+            "食べ",
+            "られます"
+          ],
+          "audio_text": "一人で食べられます。",
+          "notes": "",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

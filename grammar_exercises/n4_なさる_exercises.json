@@ -1,0 +1,83 @@
+{
+  "grammar_point": "なさる",
+  "entry_id": 326782,
+  "categories": [
+    {
+      "id": "honorific_do",
+      "label": "Honorific Do",
+      "sentences": [
+        {
+          "japanese": "何をなさいますか。",
+          "japanese_with_blank": "何を[___]か。",
+          "english": "What will you do? (honorific)",
+          "target_answer": "なさいます",
+          "alternative_answers": [],
+          "hint": "do (hon.)",
+          "scramble_blocks": [
+            "何",
+            "を",
+            "なさいます",
+            "か"
+          ],
+          "audio_text": "何をなさいますか。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "先生はどうなさいますか。",
+          "japanese_with_blank": "先生はどう[___]か。",
+          "english": "What will the teacher do? (honorific)",
+          "target_answer": "なさいます",
+          "alternative_answers": [],
+          "hint": "do (hon.)",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "どう",
+            "なさいます",
+            "か"
+          ],
+          "audio_text": "先生はどうなさいますか。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "お仕事は何をなさっていますか。",
+          "japanese_with_blank": "お仕事は何を[___]か。",
+          "english": "What work do you do? (honorific)",
+          "target_answer": "なさっています",
+          "alternative_answers": [],
+          "hint": "do (hon.)",
+          "scramble_blocks": [
+            "お仕事",
+            "は",
+            "何",
+            "を",
+            "なさっています",
+            "か"
+          ],
+          "audio_text": "お仕事は何をなさっていますか。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "先生がそうおっしゃいました。",
+          "japanese_with_blank": "先生がそう[___]。",
+          "english": "The teacher said so. (honorific)",
+          "target_answer": "おっしゃいました",
+          "alternative_answers": [],
+          "hint": "said (hon.)",
+          "scramble_blocks": [
+            "先生",
+            "が",
+            "そう",
+            "おっしゃいました"
+          ],
+          "audio_text": "先生がそうおっしゃいました。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

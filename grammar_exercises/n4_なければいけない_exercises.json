@@ -1,0 +1,79 @@
+{
+  "grammar_point": "なければいけない",
+  "entry_id": 325634,
+  "categories": [
+    {
+      "id": "must",
+      "label": "Have To; Must",
+      "sentences": [
+        {
+          "japanese": "明日早く起きなければいけません。",
+          "japanese_with_blank": "明日早く起き[___]。",
+          "english": "I have to wake up early tomorrow.",
+          "target_answer": "なければいけません",
+          "alternative_answers": [],
+          "hint": "have to",
+          "scramble_blocks": [
+            "明日",
+            "早く",
+            "起き",
+            "なければいけません"
+          ],
+          "audio_text": "明日早く起きなければいけません。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "薬を飲まなければいけません。",
+          "japanese_with_blank": "薬を飲ま[___]。",
+          "english": "I have to take medicine.",
+          "target_answer": "なければいけません",
+          "alternative_answers": [],
+          "hint": "have to",
+          "scramble_blocks": [
+            "薬",
+            "を",
+            "飲ま",
+            "なければいけません"
+          ],
+          "audio_text": "薬を飲まなければいけません。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "宿題をしなければいけません。",
+          "japanese_with_blank": "宿題をし[___]。",
+          "english": "I have to do homework.",
+          "target_answer": "なければいけません",
+          "alternative_answers": [],
+          "hint": "have to",
+          "scramble_blocks": [
+            "宿題",
+            "を",
+            "し",
+            "なければいけません"
+          ],
+          "audio_text": "宿題をしなければいけません。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "もう帰らなければいけません。",
+          "japanese_with_blank": "もう帰ら[___]。",
+          "english": "I have to go home now.",
+          "target_answer": "なければいけません",
+          "alternative_answers": [],
+          "hint": "have to",
+          "scramble_blocks": [
+            "もう",
+            "帰ら",
+            "なければいけません"
+          ],
+          "audio_text": "もう帰らなければいけません。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "grammar_point": "方",
+  "entry_id": 325454,
+  "categories": [
+    {
+      "id": "way_of",
+      "label": "Way Of Doing",
+      "sentences": [
+        {
+          "japanese": "食べ方を知っていますか。",
+          "japanese_with_blank": "食べ[___]を知っていますか。",
+          "english": "Do you know the way of eating?",
+          "target_answer": "方",
+          "alternative_answers": [],
+          "hint": "Way of doing",
+          "scramble_blocks": [
+            "食べ",
+            "方",
+            "を",
+            "知っていますか"
+          ],
+          "audio_text": "食べ方を知っていますか。",
+          "notes": "方 (かた) means \"way of doing.\"",
+          "position": 1
+        },
+        {
+          "japanese": "書き方を知っていますか。",
+          "japanese_with_blank": "書き[___]を知っていますか。",
+          "english": "Do you know the way of writing?",
+          "target_answer": "方",
+          "alternative_answers": [],
+          "hint": "Way of doing",
+          "scramble_blocks": [
+            "書き",
+            "方",
+            "を",
+            "知っていますか"
+          ],
+          "audio_text": "書き方を知っていますか。",
+          "notes": "Writing method.",
+          "position": 2
+        },
+        {
+          "japanese": "読み方を知っていますか。",
+          "japanese_with_blank": "読み[___]を知っていますか。",
+          "english": "Do you know the way of reading?",
+          "target_answer": "方",
+          "alternative_answers": [],
+          "hint": "Way of doing",
+          "scramble_blocks": [
+            "読み",
+            "方",
+            "を",
+            "知っていますか"
+          ],
+          "audio_text": "読み方を知っていますか。",
+          "notes": "Reading method.",
+          "position": 3
+        },
+        {
+          "japanese": "話し方を知っていますか。",
+          "japanese_with_blank": "話し[___]を知っていますか。",
+          "english": "Do you know the way of speaking?",
+          "target_answer": "方",
+          "alternative_answers": [],
+          "hint": "Way of doing",
+          "scramble_blocks": [
+            "話し",
+            "方",
+            "を",
+            "知っていますか"
+          ],
+          "audio_text": "話し方を知っていますか。",
+          "notes": "Speaking method.",
+          "position": 4
+        },
+        {
+          "japanese": "使い方を知っていますか。",
+          "japanese_with_blank": "使い[___]を知っていますか。",
+          "english": "Do you know the way of using?",
+          "target_answer": "方",
+          "alternative_answers": [],
+          "hint": "Way of doing",
+          "scramble_blocks": [
+            "使い",
+            "方",
+            "を",
+            "知っていますか"
+          ],
+          "audio_text": "使い方を知っていますか。",
+          "notes": "Usage method.",
+          "position": 5
+        },
+        {
+          "japanese": "作り方を知っていますか。",
+          "japanese_with_blank": "作り[___]を知っていますか。",
+          "english": "Do you know the way of making?",
+          "target_answer": "方",
+          "alternative_answers": [],
+          "hint": "Way of doing",
+          "scramble_blocks": [
+            "作り",
+            "方",
+            "を",
+            "知っていますか"
+          ],
+          "audio_text": "作り方を知っていますか。",
+          "notes": "Making method.",
+          "position": 6
+        },
+        {
+          "japanese": "行き方を知っていますか。",
+          "japanese_with_blank": "行き[___]を知っていますか。",
+          "english": "Do you know the way of going?",
+          "target_answer": "方",
+          "alternative_answers": [],
+          "hint": "Way of doing",
+          "scramble_blocks": [
+            "行き",
+            "方",
+            "を",
+            "知っていますか"
+          ],
+          "audio_text": "行き方を知っていますか。",
+          "notes": "Getting there.",
+          "position": 7
+        },
+        {
+          "japanese": "飲み方を知っていますか。",
+          "japanese_with_blank": "飲み[___]を知っていますか。",
+          "english": "Do you know the way of drinking?",
+          "target_answer": "方",
+          "alternative_answers": [],
+          "hint": "Way of doing",
+          "scramble_blocks": [
+            "飲み",
+            "方",
+            "を",
+            "知っていますか"
+          ],
+          "audio_text": "飲み方を知っていますか。",
+          "notes": "Drinking style.",
+          "position": 8
+        },
+        {
+          "japanese": "泳ぎ方を知っていますか。",
+          "japanese_with_blank": "泳ぎ[___]を知っていますか。",
+          "english": "Do you know the way of swimming?",
+          "target_answer": "方",
+          "alternative_answers": [],
+          "hint": "Way of doing",
+          "scramble_blocks": [
+            "泳ぎ",
+            "方",
+            "を",
+            "知っていますか"
+          ],
+          "audio_text": "泳ぎ方を知っていますか。",
+          "notes": "Swimming style.",
+          "position": 9
+        },
+        {
+          "japanese": "歩き方を知っていますか。",
+          "japanese_with_blank": "歩き[___]を知っていますか。",
+          "english": "Do you know the way of walking?",
+          "target_answer": "方",
+          "alternative_answers": [],
+          "hint": "Way of doing",
+          "scramble_blocks": [
+            "歩き",
+            "方",
+            "を",
+            "知っていますか"
+          ],
+          "audio_text": "歩き方を知っていますか。",
+          "notes": "Walking style.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

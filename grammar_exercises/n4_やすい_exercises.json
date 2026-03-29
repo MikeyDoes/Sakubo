@@ -1,0 +1,112 @@
+{
+  "grammar_point": "やすい",
+  "entry_id": 326787,
+  "categories": [
+    {
+      "id": "easy_to",
+      "label": "Easy To Do",
+      "sentences": [
+        {
+          "japanese": "この本は読みやすいです。",
+          "japanese_with_blank": "この本は読み[___]です。",
+          "english": "This book is easy to read.",
+          "target_answer": "やすい",
+          "alternative_answers": [],
+          "hint": "easy to",
+          "scramble_blocks": [
+            "この",
+            "本",
+            "は",
+            "読み",
+            "やすい",
+            "です"
+          ],
+          "audio_text": "この本は読みやすいです。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "この道は歩きやすいです。",
+          "japanese_with_blank": "この道は歩き[___]です。",
+          "english": "This road is easy to walk on.",
+          "target_answer": "やすい",
+          "alternative_answers": [],
+          "hint": "easy to",
+          "scramble_blocks": [
+            "この",
+            "道",
+            "は",
+            "歩き",
+            "やすい",
+            "です"
+          ],
+          "audio_text": "この道は歩きやすいです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "このペンは書きやすいです。",
+          "japanese_with_blank": "このペンは書き[___]です。",
+          "english": "This pen is easy to write with.",
+          "target_answer": "やすい",
+          "alternative_answers": [],
+          "hint": "easy to",
+          "scramble_blocks": [
+            "この",
+            "ペン",
+            "は",
+            "書き",
+            "やすい",
+            "です"
+          ],
+          "audio_text": "このペンは書きやすいです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "分かりやすい説明でした。",
+          "japanese_with_blank": "分かり[___]説明でした。",
+          "english": "It was an easy-to-understand explanation.",
+          "target_answer": "やすい",
+          "alternative_answers": [],
+          "hint": "easy to",
+          "scramble_blocks": [
+            "分かり",
+            "やすい",
+            "説明",
+            "でした"
+          ],
+          "audio_text": "分かりやすい説明でした。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "tend_to",
+      "label": "Tend To",
+      "sentences": [
+        {
+          "japanese": "冬は風邪をひきやすいです。",
+          "japanese_with_blank": "冬は風邪をひき[___]です。",
+          "english": "You tend to catch colds in winter.",
+          "target_answer": "やすい",
+          "alternative_answers": [],
+          "hint": "tend to",
+          "scramble_blocks": [
+            "冬",
+            "は",
+            "風邪",
+            "を",
+            "ひき",
+            "やすい",
+            "です"
+          ],
+          "audio_text": "冬は風邪をひきやすいです。",
+          "notes": "",
+          "position": 1
+        }
+      ]
+    }
+  ]
+}

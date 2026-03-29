@@ -1,0 +1,178 @@
+{
+  "grammar_point": "でも (2)",
+  "entry_id": 325509,
+  "categories": [
+    {
+      "id": "or_something",
+      "label": "Or Something",
+      "sentences": [
+        {
+          "japanese": "コーヒーでも飲みませんか。",
+          "japanese_with_blank": "コーヒー[___]飲みませんか。",
+          "english": "How about having some coffee or something?",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "Or something",
+          "scramble_blocks": [
+            "コーヒー",
+            "でも",
+            "飲みませんか"
+          ],
+          "audio_text": "コーヒーでも飲みませんか。",
+          "notes": "でも suggests \"or something.\"",
+          "position": 1
+        },
+        {
+          "japanese": "映画でも見ませんか。",
+          "japanese_with_blank": "映画[___]見ませんか。",
+          "english": "How about watching a movie or something?",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "Or something",
+          "scramble_blocks": [
+            "映画",
+            "でも",
+            "見ませんか"
+          ],
+          "audio_text": "映画でも見ませんか。",
+          "notes": "Casual suggestion.",
+          "position": 2
+        },
+        {
+          "japanese": "お茶でも飲みましょう。",
+          "japanese_with_blank": "お茶[___]飲みましょう。",
+          "english": "Let's have tea or something.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "Or something",
+          "scramble_blocks": [
+            "お茶",
+            "でも",
+            "飲みましょう"
+          ],
+          "audio_text": "お茶でも飲みましょう。",
+          "notes": "Casual drink suggestion.",
+          "position": 3
+        },
+        {
+          "japanese": "散歩でもしませんか。",
+          "japanese_with_blank": "散歩[___]しませんか。",
+          "english": "How about going for a walk or something?",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "Or something",
+          "scramble_blocks": [
+            "散歩",
+            "でも",
+            "しませんか"
+          ],
+          "audio_text": "散歩でもしませんか。",
+          "notes": "Activity suggestion.",
+          "position": 4
+        },
+        {
+          "japanese": "本でも読みましょう。",
+          "japanese_with_blank": "本[___]読みましょう。",
+          "english": "Let's read a book or something.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "Or something",
+          "scramble_blocks": [
+            "本",
+            "でも",
+            "読みましょう"
+          ],
+          "audio_text": "本でも読みましょう。",
+          "notes": "Reading suggestion.",
+          "position": 5
+        }
+      ]
+    },
+    {
+      "id": "any",
+      "label": "Anything / Anyone",
+      "sentences": [
+        {
+          "japanese": "何でもいいです。",
+          "japanese_with_blank": "何[___]いいです。",
+          "english": "Anything is fine.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "Any~",
+          "scramble_blocks": [
+            "何",
+            "でも",
+            "いいです"
+          ],
+          "audio_text": "何でもいいです。",
+          "notes": "何でも = anything.",
+          "position": 6
+        },
+        {
+          "japanese": "誰でもいいです。",
+          "japanese_with_blank": "誰[___]いいです。",
+          "english": "Anyone is fine.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "Any~",
+          "scramble_blocks": [
+            "誰",
+            "でも",
+            "いいです"
+          ],
+          "audio_text": "誰でもいいです。",
+          "notes": "誰でも = anyone.",
+          "position": 7
+        },
+        {
+          "japanese": "どこでも行きます。",
+          "japanese_with_blank": "どこ[___]行きます。",
+          "english": "I'll go anywhere.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "Any~",
+          "scramble_blocks": [
+            "どこ",
+            "でも",
+            "行きます"
+          ],
+          "audio_text": "どこでも行きます。",
+          "notes": "どこでも = anywhere.",
+          "position": 8
+        },
+        {
+          "japanese": "いつでもいいです。",
+          "japanese_with_blank": "いつ[___]いいです。",
+          "english": "Anytime is fine.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "Any~",
+          "scramble_blocks": [
+            "いつ",
+            "でも",
+            "いいです"
+          ],
+          "audio_text": "いつでもいいです。",
+          "notes": "いつでも = anytime.",
+          "position": 9
+        },
+        {
+          "japanese": "何でも食べます。",
+          "japanese_with_blank": "何[___]食べます。",
+          "english": "I eat anything.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "Any~",
+          "scramble_blocks": [
+            "何",
+            "でも",
+            "食べます"
+          ],
+          "audio_text": "何でも食べます。",
+          "notes": "Eats anything.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

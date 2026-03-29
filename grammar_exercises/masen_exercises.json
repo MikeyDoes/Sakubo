@@ -1,0 +1,392 @@
+{
+  "grammar_point": "ません",
+  "entry_id": 326760,
+  "categories": [
+    {
+      "id": "ru_verb",
+      "label": "る-Verb Negative",
+      "sentences": [
+        {
+          "japanese": "私は食べません。",
+          "japanese_with_blank": "私は食べ[___]。",
+          "english": "I do not eat.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "食べ",
+            "ません"
+          ],
+          "audio_text": "私は食べません。",
+          "notes": "る-verb negative: 食べ + ません.",
+          "position": 1
+        },
+        {
+          "japanese": "猫は寝ません。",
+          "japanese_with_blank": "猫は寝[___]。",
+          "english": "The cat does not sleep.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "猫",
+            "は",
+            "寝",
+            "ません"
+          ],
+          "audio_text": "猫は寝ません。",
+          "notes": "Intransitive verb in negative polite.",
+          "position": 2
+        },
+        {
+          "japanese": "起きません。",
+          "japanese_with_blank": "起き[___]。",
+          "english": "I do not wake up.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "起き",
+            "ません"
+          ],
+          "audio_text": "起きません。",
+          "notes": "Negative polite for daily routine.",
+          "position": 3
+        },
+        {
+          "japanese": "学生は見ません。",
+          "japanese_with_blank": "学生は見[___]。",
+          "english": "The student does not watch.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "学生",
+            "は",
+            "見",
+            "ません"
+          ],
+          "audio_text": "学生は見ません。",
+          "notes": "る-verb negative: 見 + ません.",
+          "position": 4
+        },
+        {
+          "japanese": "私は忘れません。",
+          "japanese_with_blank": "私は忘れ[___]。",
+          "english": "I do not forget.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "忘れ",
+            "ません"
+          ],
+          "audio_text": "私は忘れません。",
+          "notes": "Negative: 忘れ + ません.",
+          "position": 5
+        },
+        {
+          "japanese": "子供は出ません。",
+          "japanese_with_blank": "子供は出[___]。",
+          "english": "The child does not go out.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "子供",
+            "は",
+            "出",
+            "ません"
+          ],
+          "audio_text": "子供は出ません。",
+          "notes": "Negative of departure.",
+          "position": 6
+        },
+        {
+          "japanese": "先生は教えません。",
+          "japanese_with_blank": "先生は教え[___]。",
+          "english": "The teacher does not teach.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "教え",
+            "ません"
+          ],
+          "audio_text": "先生は教えません。",
+          "notes": "Negative with に removed — subject-only pattern.",
+          "position": 7
+        },
+        {
+          "japanese": "犬は食べません。",
+          "japanese_with_blank": "犬は食べ[___]。",
+          "english": "The dog does not eat.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "犬",
+            "は",
+            "食べ",
+            "ません"
+          ],
+          "audio_text": "犬は食べません。",
+          "notes": "Another food-related negative.",
+          "position": 8
+        },
+        {
+          "japanese": "動物は寝ません。",
+          "japanese_with_blank": "動物は寝[___]。",
+          "english": "The animal does not sleep.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "動物",
+            "は",
+            "寝",
+            "ません"
+          ],
+          "audio_text": "動物は寝ません。",
+          "notes": "Negative observation.",
+          "position": 9
+        },
+        {
+          "japanese": "友達が起きません。",
+          "japanese_with_blank": "友達が起き[___]。",
+          "english": "My friend does not wake up.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "起き",
+            "ません"
+          ],
+          "audio_text": "友達が起きません。",
+          "notes": "Negative with が subject.",
+          "position": 10
+        }
+      ]
+    },
+    {
+      "id": "u_verb",
+      "label": "う-Verb Negative",
+      "sentences": [
+        {
+          "japanese": "先生は行きません。",
+          "japanese_with_blank": "先生は行き[___]。",
+          "english": "The teacher does not go.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "行き",
+            "ません"
+          ],
+          "audio_text": "先生は行きません。",
+          "notes": "う-verb negative: 行き + ません.",
+          "position": 11
+        },
+        {
+          "japanese": "私は書きません。",
+          "japanese_with_blank": "私は書き[___]。",
+          "english": "I do not write.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "書き",
+            "ません"
+          ],
+          "audio_text": "私は書きません。",
+          "notes": "う-verb: 書き + ません.",
+          "position": 12
+        },
+        {
+          "japanese": "学生は読みません。",
+          "japanese_with_blank": "学生は読み[___]。",
+          "english": "The student does not read.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "学生",
+            "は",
+            "読み",
+            "ません"
+          ],
+          "audio_text": "学生は読みません。",
+          "notes": "う-verb: 読み + ません.",
+          "position": 13
+        },
+        {
+          "japanese": "聞きません。",
+          "japanese_with_blank": "聞き[___]。",
+          "english": "I do not listen.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "聞き",
+            "ません"
+          ],
+          "audio_text": "聞きません。",
+          "notes": "う-verb: 聞き + ません.",
+          "position": 14
+        },
+        {
+          "japanese": "友達は話しません。",
+          "japanese_with_blank": "友達は話し[___]。",
+          "english": "My friend does not talk.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "話し",
+            "ません"
+          ],
+          "audio_text": "友達は話しません。",
+          "notes": "う-verb: 話し + ません.",
+          "position": 15
+        },
+        {
+          "japanese": "私は飲みません。",
+          "japanese_with_blank": "私は飲み[___]。",
+          "english": "I do not drink.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "飲み",
+            "ません"
+          ],
+          "audio_text": "私は飲みません。",
+          "notes": "う-verb: 飲み + ません.",
+          "position": 16
+        },
+        {
+          "japanese": "子供は歩きません。",
+          "japanese_with_blank": "子供は歩き[___]。",
+          "english": "The child does not walk.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "子供",
+            "は",
+            "歩き",
+            "ません"
+          ],
+          "audio_text": "子供は歩きません。",
+          "notes": "う-verb: く→き. 歩き + ません.",
+          "position": 17
+        },
+        {
+          "japanese": "女は走りません。",
+          "japanese_with_blank": "女は走り[___]。",
+          "english": "The woman does not run.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "女",
+            "は",
+            "走り",
+            "ません"
+          ],
+          "audio_text": "女は走りません。",
+          "notes": "う-verb: る→り. 走り + ません.",
+          "position": 18
+        },
+        {
+          "japanese": "男は泳ぎません。",
+          "japanese_with_blank": "男は泳ぎ[___]。",
+          "english": "The man does not swim.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "男",
+            "は",
+            "泳ぎ",
+            "ません"
+          ],
+          "audio_text": "男は泳ぎません。",
+          "notes": "う-verb: ぐ→ぎ. 泳ぎ + ません.",
+          "position": 19
+        },
+        {
+          "japanese": "私は待ちません。",
+          "japanese_with_blank": "私は待ち[___]。",
+          "english": "I do not wait.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "待ち",
+            "ません"
+          ],
+          "audio_text": "私は待ちません。",
+          "notes": "う-verb: つ→ち. 待ち + ません.",
+          "position": 20
+        }
+      ]
+    },
+    {
+      "id": "irregular",
+      "label": "Irregular Negative",
+      "sentences": [
+        {
+          "japanese": "友達が来ません。",
+          "japanese_with_blank": "友達が来[___]。",
+          "english": "My friend does not come.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "来ません"
+          ],
+          "audio_text": "友達が来ません。",
+          "notes": "来る → きません. Irregular verb negative.",
+          "position": 21
+        },
+        {
+          "japanese": "先生が来ません。",
+          "japanese_with_blank": "先生が来[___]。",
+          "english": "The teacher does not come.",
+          "target_answer": "ません",
+          "alternative_answers": [],
+          "hint": "Polite negative",
+          "scramble_blocks": [
+            "先生",
+            "が",
+            "来ません"
+          ],
+          "audio_text": "先生が来ません。",
+          "notes": "来る (くる) → きません. Irregular conjugation.",
+          "position": 22
+        }
+      ]
+    }
+  ]
+}

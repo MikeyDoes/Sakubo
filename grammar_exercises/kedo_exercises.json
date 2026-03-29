@@ -1,0 +1,172 @@
+{
+  "grammar_point": "けど",
+  "entry_id": 325442,
+  "categories": [
+    {
+      "id": "contrast",
+      "label": "But / However",
+      "sentences": [
+        {
+          "japanese": "大きいですけど高いです。",
+          "japanese_with_blank": "大きいです[___]高いです。",
+          "english": "It is big, but it is expensive.",
+          "target_answer": "けど",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "大きいです",
+            "けど",
+            "高いです"
+          ],
+          "audio_text": "大きいですけど高いです。",
+          "notes": "けど connects contrasting clauses.",
+          "position": 1
+        },
+        {
+          "japanese": "美味しいですけど高いです。",
+          "japanese_with_blank": "美味しいです[___]高いです。",
+          "english": "It is delicious, but expensive.",
+          "target_answer": "けど",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "美味しいです",
+            "けど",
+            "高いです"
+          ],
+          "audio_text": "美味しいですけど高いです。",
+          "notes": "Contrast with けど.",
+          "position": 2
+        },
+        {
+          "japanese": "好きですけど難しいです。",
+          "japanese_with_blank": "好きです[___]難しいです。",
+          "english": "I like it, but it is difficult.",
+          "target_answer": "けど",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "好きです",
+            "けど",
+            "難しいです"
+          ],
+          "audio_text": "好きですけど難しいです。",
+          "notes": "Preference vs difficulty.",
+          "position": 3
+        },
+        {
+          "japanese": "面白いですけど長いです。",
+          "japanese_with_blank": "面白いです[___]長いです。",
+          "english": "It is interesting, but long.",
+          "target_answer": "けど",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "面白いです",
+            "けど",
+            "長いです"
+          ],
+          "audio_text": "面白いですけど長いです。",
+          "notes": "Positive vs negative.",
+          "position": 4
+        },
+        {
+          "japanese": "元気ですけど忙しいです。",
+          "japanese_with_blank": "元気です[___]忙しいです。",
+          "english": "I am well, but busy.",
+          "target_answer": "けど",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "元気です",
+            "けど",
+            "忙しいです"
+          ],
+          "audio_text": "元気ですけど忙しいです。",
+          "notes": "Condition contrast.",
+          "position": 5
+        },
+        {
+          "japanese": "新しいですけど小さいです。",
+          "japanese_with_blank": "新しいです[___]小さいです。",
+          "english": "It is new, but small.",
+          "target_answer": "けど",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "新しいです",
+            "けど",
+            "小さいです"
+          ],
+          "audio_text": "新しいですけど小さいです。",
+          "notes": "Description contrast.",
+          "position": 6
+        },
+        {
+          "japanese": "静かですけど暗いです。",
+          "japanese_with_blank": "静かです[___]暗いです。",
+          "english": "It is quiet, but dark.",
+          "target_answer": "けど",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "静かです",
+            "けど",
+            "暗いです"
+          ],
+          "audio_text": "静かですけど暗いです。",
+          "notes": "Atmosphere contrast.",
+          "position": 7
+        },
+        {
+          "japanese": "やすいですけど古いです。",
+          "japanese_with_blank": "やすいです[___]古いです。",
+          "english": "It is cheap, but old.",
+          "target_answer": "けど",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "やすいです",
+            "けど",
+            "古いです"
+          ],
+          "audio_text": "やすいですけど古いです。",
+          "notes": "Price vs age.",
+          "position": 8
+        },
+        {
+          "japanese": "行きましたけど食べませんでした。",
+          "japanese_with_blank": "行きました[___]食べませんでした。",
+          "english": "I went, but I didn't eat.",
+          "target_answer": "けど",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "行きました",
+            "けど",
+            "食べませんでした"
+          ],
+          "audio_text": "行きましたけど食べませんでした。",
+          "notes": "Action contrast.",
+          "position": 9
+        },
+        {
+          "japanese": "読みましたけど分かりませんでした。",
+          "japanese_with_blank": "読みました[___]分かりませんでした。",
+          "english": "I read it, but I didn't understand.",
+          "target_answer": "けど",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "読みました",
+            "けど",
+            "分かりませんでした"
+          ],
+          "audio_text": "読みましたけど分かりませんでした。",
+          "notes": "Effort vs result.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

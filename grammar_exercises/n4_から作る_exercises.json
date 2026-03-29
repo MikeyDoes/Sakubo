@@ -1,0 +1,80 @@
+{
+  "grammar_point": "から作る",
+  "entry_id": 325623,
+  "categories": [
+    {
+      "id": "made_from",
+      "label": "Made From / Made With",
+      "sentences": [
+        {
+          "japanese": "ワインはぶどうから作ります。",
+          "japanese_with_blank": "ワインはぶどう[___]。",
+          "english": "Wine is made from grapes.",
+          "target_answer": "から作ります",
+          "alternative_answers": [],
+          "hint": "made from",
+          "scramble_blocks": [
+            "ワイン",
+            "は",
+            "ぶどう",
+            "から作ります"
+          ],
+          "audio_text": "ワインはぶどうから作ります。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "豆腐は大豆から作られます。",
+          "japanese_with_blank": "豆腐は大豆[___]。",
+          "english": "Tofu is made from soybeans.",
+          "target_answer": "から作られます",
+          "alternative_answers": [],
+          "hint": "made from",
+          "scramble_blocks": [
+            "豆腐",
+            "は",
+            "大豆",
+            "から作られます"
+          ],
+          "audio_text": "豆腐は大豆から作られます。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "紙は木から作ります。",
+          "japanese_with_blank": "紙は木[___]。",
+          "english": "Paper is made from trees.",
+          "target_answer": "から作ります",
+          "alternative_answers": [],
+          "hint": "made from",
+          "scramble_blocks": [
+            "紙",
+            "は",
+            "木",
+            "から作ります"
+          ],
+          "audio_text": "紙は木から作ります。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "チーズは牛乳から作られます。",
+          "japanese_with_blank": "チーズは牛乳[___]。",
+          "english": "Cheese is made from milk.",
+          "target_answer": "から作られます",
+          "alternative_answers": [],
+          "hint": "made from",
+          "scramble_blocks": [
+            "チーズ",
+            "は",
+            "牛乳",
+            "から作られます"
+          ],
+          "audio_text": "チーズは牛乳から作られます。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "grammar_point": "ませんか",
+  "entry_id": 325457,
+  "categories": [
+    {
+      "id": "invitation",
+      "label": "Invitation",
+      "sentences": [
+        {
+          "japanese": "ケーキを食べませんか。",
+          "japanese_with_blank": "ケーキを食べ[___]。",
+          "english": "Won't you eat some cake?",
+          "target_answer": "ませんか",
+          "alternative_answers": [],
+          "hint": "Invitation",
+          "scramble_blocks": [
+            "ケーキ",
+            "を",
+            "食べ",
+            "ませんか"
+          ],
+          "audio_text": "ケーキを食べませんか。",
+          "notes": "ませんか is a polite invitation.",
+          "position": 1
+        },
+        {
+          "japanese": "コーヒーを飲みませんか。",
+          "japanese_with_blank": "コーヒーを飲み[___]。",
+          "english": "Won't you have some coffee?",
+          "target_answer": "ませんか",
+          "alternative_answers": [],
+          "hint": "Invitation",
+          "scramble_blocks": [
+            "コーヒー",
+            "を",
+            "飲み",
+            "ませんか"
+          ],
+          "audio_text": "コーヒーを飲みませんか。",
+          "notes": "Drink invitation.",
+          "position": 2
+        },
+        {
+          "japanese": "学校に行きませんか。",
+          "japanese_with_blank": "学校に行き[___]。",
+          "english": "Won't you go to school?",
+          "target_answer": "ませんか",
+          "alternative_answers": [],
+          "hint": "Invitation",
+          "scramble_blocks": [
+            "学校",
+            "に",
+            "行き",
+            "ませんか"
+          ],
+          "audio_text": "学校に行きませんか。",
+          "notes": "Movement invitation.",
+          "position": 3
+        },
+        {
+          "japanese": "テレビを見ませんか。",
+          "japanese_with_blank": "テレビを見[___]。",
+          "english": "Won't you watch TV?",
+          "target_answer": "ませんか",
+          "alternative_answers": [],
+          "hint": "Invitation",
+          "scramble_blocks": [
+            "テレビ",
+            "を",
+            "見",
+            "ませんか"
+          ],
+          "audio_text": "テレビを見ませんか。",
+          "notes": "Viewing invitation.",
+          "position": 4
+        },
+        {
+          "japanese": "本を読みませんか。",
+          "japanese_with_blank": "本を読み[___]。",
+          "english": "Won't you read a book?",
+          "target_answer": "ませんか",
+          "alternative_answers": [],
+          "hint": "Invitation",
+          "scramble_blocks": [
+            "本",
+            "を",
+            "読み",
+            "ませんか"
+          ],
+          "audio_text": "本を読みませんか。",
+          "notes": "Reading invitation.",
+          "position": 5
+        },
+        {
+          "japanese": "来ませんか。",
+          "japanese_with_blank": "来[___]。",
+          "english": "Won't you come?",
+          "target_answer": "ませんか",
+          "alternative_answers": [],
+          "hint": "Invitation",
+          "scramble_blocks": [
+            "来",
+            "ませんか"
+          ],
+          "audio_text": "来ませんか。",
+          "notes": "Coming invitation.",
+          "position": 6
+        },
+        {
+          "japanese": "話しませんか。",
+          "japanese_with_blank": "話し[___]。",
+          "english": "Won't you talk?",
+          "target_answer": "ませんか",
+          "alternative_answers": [],
+          "hint": "Invitation",
+          "scramble_blocks": [
+            "話し",
+            "ませんか"
+          ],
+          "audio_text": "話しませんか。",
+          "notes": "Conversation invitation.",
+          "position": 7
+        },
+        {
+          "japanese": "聞きませんか。",
+          "japanese_with_blank": "聞き[___]。",
+          "english": "Won't you listen?",
+          "target_answer": "ませんか",
+          "alternative_answers": [],
+          "hint": "Invitation",
+          "scramble_blocks": [
+            "聞き",
+            "ませんか"
+          ],
+          "audio_text": "聞きませんか。",
+          "notes": "Listening invitation.",
+          "position": 8
+        },
+        {
+          "japanese": "書きませんか。",
+          "japanese_with_blank": "書き[___]。",
+          "english": "Won't you write?",
+          "target_answer": "ませんか",
+          "alternative_answers": [],
+          "hint": "Invitation",
+          "scramble_blocks": [
+            "書き",
+            "ませんか"
+          ],
+          "audio_text": "書きませんか。",
+          "notes": "Writing invitation.",
+          "position": 9
+        },
+        {
+          "japanese": "しませんか。",
+          "japanese_with_blank": "し[___]。",
+          "english": "Won't you do it?",
+          "target_answer": "ませんか",
+          "alternative_answers": [],
+          "hint": "Invitation",
+          "scramble_blocks": [
+            "し",
+            "ませんか"
+          ],
+          "audio_text": "しませんか。",
+          "notes": "Doing invitation.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

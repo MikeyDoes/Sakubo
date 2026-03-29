@@ -1,0 +1,172 @@
+{
+  "grammar_point": "ないで",
+  "entry_id": 325461,
+  "categories": [
+    {
+      "id": "without",
+      "label": "Without Doing",
+      "sentences": [
+        {
+          "japanese": "食べないで行きました。",
+          "japanese_with_blank": "食べ[___]行きました。",
+          "english": "I went without eating.",
+          "target_answer": "ないで",
+          "alternative_answers": [],
+          "hint": "Without",
+          "scramble_blocks": [
+            "食べ",
+            "ないで",
+            "行きました"
+          ],
+          "audio_text": "食べないで行きました。",
+          "notes": "ないで means \"without doing.\"",
+          "position": 1
+        },
+        {
+          "japanese": "見ないで買いました。",
+          "japanese_with_blank": "見[___]買いました。",
+          "english": "I bought it without looking.",
+          "target_answer": "ないで",
+          "alternative_answers": [],
+          "hint": "Without",
+          "scramble_blocks": [
+            "見",
+            "ないで",
+            "買いました"
+          ],
+          "audio_text": "見ないで買いました。",
+          "notes": "Without checking.",
+          "position": 2
+        },
+        {
+          "japanese": "読まないで書きました。",
+          "japanese_with_blank": "読ま[___]書きました。",
+          "english": "I wrote without reading.",
+          "target_answer": "ないで",
+          "alternative_answers": [],
+          "hint": "Without",
+          "scramble_blocks": [
+            "読ま",
+            "ないで",
+            "書きました"
+          ],
+          "audio_text": "読まないで書きました。",
+          "notes": "Without reading first.",
+          "position": 3
+        },
+        {
+          "japanese": "飲まないで帰りました。",
+          "japanese_with_blank": "飲ま[___]帰りました。",
+          "english": "I went home without drinking.",
+          "target_answer": "ないで",
+          "alternative_answers": [],
+          "hint": "Without",
+          "scramble_blocks": [
+            "飲ま",
+            "ないで",
+            "帰りました"
+          ],
+          "audio_text": "飲まないで帰りました。",
+          "notes": "Without having a drink.",
+          "position": 4
+        },
+        {
+          "japanese": "聞かないで話しました。",
+          "japanese_with_blank": "聞か[___]話しました。",
+          "english": "I spoke without listening.",
+          "target_answer": "ないで",
+          "alternative_answers": [],
+          "hint": "Without",
+          "scramble_blocks": [
+            "聞か",
+            "ないで",
+            "話しました"
+          ],
+          "audio_text": "聞かないで話しました。",
+          "notes": "Without listening first.",
+          "position": 5
+        },
+        {
+          "japanese": "書かないで話しました。",
+          "japanese_with_blank": "書か[___]話しました。",
+          "english": "I spoke without writing.",
+          "target_answer": "ないで",
+          "alternative_answers": [],
+          "hint": "Without",
+          "scramble_blocks": [
+            "書か",
+            "ないで",
+            "話しました"
+          ],
+          "audio_text": "書かないで話しました。",
+          "notes": "Without notes.",
+          "position": 6
+        },
+        {
+          "japanese": "見ないで食べました。",
+          "japanese_with_blank": "見[___]食べました。",
+          "english": "I ate without looking.",
+          "target_answer": "ないで",
+          "alternative_answers": [],
+          "hint": "Without",
+          "scramble_blocks": [
+            "見",
+            "ないで",
+            "食べました"
+          ],
+          "audio_text": "見ないで食べました。",
+          "notes": "Without looking at the food.",
+          "position": 7
+        },
+        {
+          "japanese": "しないで帰りました。",
+          "japanese_with_blank": "し[___]帰りました。",
+          "english": "I went home without doing it.",
+          "target_answer": "ないで",
+          "alternative_answers": [],
+          "hint": "Without",
+          "scramble_blocks": [
+            "し",
+            "ないで",
+            "帰りました"
+          ],
+          "audio_text": "しないで帰りました。",
+          "notes": "Without completing the task.",
+          "position": 8
+        },
+        {
+          "japanese": "来ないで電話しました。",
+          "japanese_with_blank": "来[___]電話しました。",
+          "english": "I called without coming.",
+          "target_answer": "ないで",
+          "alternative_answers": [],
+          "hint": "Without",
+          "scramble_blocks": [
+            "来",
+            "ないで",
+            "電話しました"
+          ],
+          "audio_text": "来ないで電話しました。",
+          "notes": "Without visiting.",
+          "position": 9
+        },
+        {
+          "japanese": "言わないで帰りました。",
+          "japanese_with_blank": "言わ[___]帰りました。",
+          "english": "I went home without saying anything.",
+          "target_answer": "ないで",
+          "alternative_answers": [],
+          "hint": "Without",
+          "scramble_blocks": [
+            "言わ",
+            "ないで",
+            "帰りました"
+          ],
+          "audio_text": "言わないで帰りました。",
+          "notes": "Without speaking.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

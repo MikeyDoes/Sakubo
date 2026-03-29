@@ -1,0 +1,172 @@
+{
+  "grammar_point": "間",
+  "entry_id": 325511,
+  "categories": [
+    {
+      "id": "during",
+      "label": "During / While",
+      "sentences": [
+        {
+          "japanese": "食べている間話しました。",
+          "japanese_with_blank": "食べている[___]話しました。",
+          "english": "While eating, I talked.",
+          "target_answer": "間",
+          "alternative_answers": [],
+          "hint": "During",
+          "scramble_blocks": [
+            "食べている",
+            "間",
+            "話しました"
+          ],
+          "audio_text": "食べている間話しました。",
+          "notes": "間 means \"during\" or \"while.\"",
+          "position": 1
+        },
+        {
+          "japanese": "寝ている間電話がありました。",
+          "japanese_with_blank": "寝ている[___]電話がありました。",
+          "english": "While sleeping, there was a call.",
+          "target_answer": "間",
+          "alternative_answers": [],
+          "hint": "During",
+          "scramble_blocks": [
+            "寝ている",
+            "間",
+            "電話がありました"
+          ],
+          "audio_text": "寝ている間電話がありました。",
+          "notes": "During sleep event.",
+          "position": 2
+        },
+        {
+          "japanese": "勉強している間音楽を聞きます。",
+          "japanese_with_blank": "勉強している[___]音楽を聞きます。",
+          "english": "While studying, I listen to music.",
+          "target_answer": "間",
+          "alternative_answers": [],
+          "hint": "During",
+          "scramble_blocks": [
+            "勉強している",
+            "間",
+            "音楽を聞きます"
+          ],
+          "audio_text": "勉強している間音楽を聞きます。",
+          "notes": "During study.",
+          "position": 3
+        },
+        {
+          "japanese": "待っている間本を読みます。",
+          "japanese_with_blank": "待っている[___]本を読みます。",
+          "english": "While waiting, I read a book.",
+          "target_answer": "間",
+          "alternative_answers": [],
+          "hint": "During",
+          "scramble_blocks": [
+            "待っている",
+            "間",
+            "本を読みます"
+          ],
+          "audio_text": "待っている間本を読みます。",
+          "notes": "While waiting activity.",
+          "position": 4
+        },
+        {
+          "japanese": "話している間書きました。",
+          "japanese_with_blank": "話している[___]書きました。",
+          "english": "While talking, I wrote.",
+          "target_answer": "間",
+          "alternative_answers": [],
+          "hint": "During",
+          "scramble_blocks": [
+            "話している",
+            "間",
+            "書きました"
+          ],
+          "audio_text": "話している間書きました。",
+          "notes": "Simultaneous actions.",
+          "position": 5
+        },
+        {
+          "japanese": "見ている間食べます。",
+          "japanese_with_blank": "見ている[___]食べます。",
+          "english": "While watching, I eat.",
+          "target_answer": "間",
+          "alternative_answers": [],
+          "hint": "During",
+          "scramble_blocks": [
+            "見ている",
+            "間",
+            "食べます"
+          ],
+          "audio_text": "見ている間食べます。",
+          "notes": "Eating while viewing.",
+          "position": 6
+        },
+        {
+          "japanese": "読んでいる間飲みます。",
+          "japanese_with_blank": "読んでいる[___]飲みます。",
+          "english": "While reading, I drink.",
+          "target_answer": "間",
+          "alternative_answers": [],
+          "hint": "During",
+          "scramble_blocks": [
+            "読んでいる",
+            "間",
+            "飲みます"
+          ],
+          "audio_text": "読んでいる間飲みます。",
+          "notes": "Reading and drinking.",
+          "position": 7
+        },
+        {
+          "japanese": "書いている間聞きます。",
+          "japanese_with_blank": "書いている[___]聞きます。",
+          "english": "While writing, I listen.",
+          "target_answer": "間",
+          "alternative_answers": [],
+          "hint": "During",
+          "scramble_blocks": [
+            "書いている",
+            "間",
+            "聞きます"
+          ],
+          "audio_text": "書いている間聞きます。",
+          "notes": "Multi-tasking.",
+          "position": 8
+        },
+        {
+          "japanese": "歩いている間話します。",
+          "japanese_with_blank": "歩いている[___]話します。",
+          "english": "While walking, I talk.",
+          "target_answer": "間",
+          "alternative_answers": [],
+          "hint": "During",
+          "scramble_blocks": [
+            "歩いている",
+            "間",
+            "話します"
+          ],
+          "audio_text": "歩いている間話します。",
+          "notes": "Walking conversation.",
+          "position": 9
+        },
+        {
+          "japanese": "走っている間音楽を聞きます。",
+          "japanese_with_blank": "走っている[___]音楽を聞きます。",
+          "english": "While running, I listen to music.",
+          "target_answer": "間",
+          "alternative_answers": [],
+          "hint": "During",
+          "scramble_blocks": [
+            "走っている",
+            "間",
+            "音楽を聞きます"
+          ],
+          "audio_text": "走っている間音楽を聞きます。",
+          "notes": "Exercise routine.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

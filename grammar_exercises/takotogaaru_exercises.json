@@ -1,0 +1,182 @@
+{
+  "grammar_point": "たことがある",
+  "entry_id": 325463,
+  "categories": [
+    {
+      "id": "experience",
+      "label": "Past Experience",
+      "sentences": [
+        {
+          "japanese": "ケーキを食べたことがある。",
+          "japanese_with_blank": "ケーキを食べた[___]。",
+          "english": "I have eaten cake before.",
+          "target_answer": "ことがある",
+          "alternative_answers": [],
+          "hint": "Experience",
+          "scramble_blocks": [
+            "ケーキ",
+            "を",
+            "食べた",
+            "ことがある"
+          ],
+          "audio_text": "ケーキを食べたことがある。",
+          "notes": "たことがある expresses past experience.",
+          "position": 1
+        },
+        {
+          "japanese": "テレビを見たことがある。",
+          "japanese_with_blank": "テレビを見た[___]。",
+          "english": "I have watched that TV show before.",
+          "target_answer": "ことがある",
+          "alternative_answers": [],
+          "hint": "Experience",
+          "scramble_blocks": [
+            "テレビ",
+            "を",
+            "見た",
+            "ことがある"
+          ],
+          "audio_text": "テレビを見たことがある。",
+          "notes": "Experience with media.",
+          "position": 2
+        },
+        {
+          "japanese": "本を読んだことがある。",
+          "japanese_with_blank": "本を読んだ[___]。",
+          "english": "I have read that book before.",
+          "target_answer": "ことがある",
+          "alternative_answers": [],
+          "hint": "Experience",
+          "scramble_blocks": [
+            "本",
+            "を",
+            "読んだ",
+            "ことがある"
+          ],
+          "audio_text": "本を読んだことがある。",
+          "notes": "Reading experience.",
+          "position": 3
+        },
+        {
+          "japanese": "学校に行ったことがある。",
+          "japanese_with_blank": "学校に行った[___]。",
+          "english": "I have been to that school before.",
+          "target_answer": "ことがある",
+          "alternative_answers": [],
+          "hint": "Experience",
+          "scramble_blocks": [
+            "学校",
+            "に",
+            "行った",
+            "ことがある"
+          ],
+          "audio_text": "学校に行ったことがある。",
+          "notes": "Travel experience.",
+          "position": 4
+        },
+        {
+          "japanese": "コーヒーを飲んだことがある。",
+          "japanese_with_blank": "コーヒーを飲んだ[___]。",
+          "english": "I have drunk that coffee before.",
+          "target_answer": "ことがある",
+          "alternative_answers": [],
+          "hint": "Experience",
+          "scramble_blocks": [
+            "コーヒー",
+            "を",
+            "飲んだ",
+            "ことがある"
+          ],
+          "audio_text": "コーヒーを飲んだことがある。",
+          "notes": "Tasting experience.",
+          "position": 5
+        },
+        {
+          "japanese": "名前を書いたことがある。",
+          "japanese_with_blank": "名前を書いた[___]。",
+          "english": "I have written that name before.",
+          "target_answer": "ことがある",
+          "alternative_answers": [],
+          "hint": "Experience",
+          "scramble_blocks": [
+            "名前",
+            "を",
+            "書いた",
+            "ことがある"
+          ],
+          "audio_text": "名前を書いたことがある。",
+          "notes": "Writing experience.",
+          "position": 6
+        },
+        {
+          "japanese": "話を聞いたことがある。",
+          "japanese_with_blank": "話を聞いた[___]。",
+          "english": "I have heard that story before.",
+          "target_answer": "ことがある",
+          "alternative_answers": [],
+          "hint": "Experience",
+          "scramble_blocks": [
+            "話",
+            "を",
+            "聞いた",
+            "ことがある"
+          ],
+          "audio_text": "話を聞いたことがある。",
+          "notes": "Hearing experience.",
+          "position": 7
+        },
+        {
+          "japanese": "仕事をしたことがある。",
+          "japanese_with_blank": "仕事をした[___]。",
+          "english": "I have done that work before.",
+          "target_answer": "ことがある",
+          "alternative_answers": [],
+          "hint": "Experience",
+          "scramble_blocks": [
+            "仕事",
+            "を",
+            "した",
+            "ことがある"
+          ],
+          "audio_text": "仕事をしたことがある。",
+          "notes": "Work experience.",
+          "position": 8
+        },
+        {
+          "japanese": "車を買ったことがある。",
+          "japanese_with_blank": "車を買った[___]。",
+          "english": "I have bought a car before.",
+          "target_answer": "ことがある",
+          "alternative_answers": [],
+          "hint": "Experience",
+          "scramble_blocks": [
+            "車",
+            "を",
+            "買った",
+            "ことがある"
+          ],
+          "audio_text": "車を買ったことがある。",
+          "notes": "Purchase experience.",
+          "position": 9
+        },
+        {
+          "japanese": "学校に来たことがある。",
+          "japanese_with_blank": "学校に来た[___]。",
+          "english": "I have come to this school before.",
+          "target_answer": "ことがある",
+          "alternative_answers": [],
+          "hint": "Experience",
+          "scramble_blocks": [
+            "学校",
+            "に",
+            "来た",
+            "ことがある"
+          ],
+          "audio_text": "学校に来たことがある。",
+          "notes": "Visit experience.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

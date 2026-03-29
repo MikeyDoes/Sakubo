@@ -1,0 +1,92 @@
+{
+  "grammar_point": "意向形",
+  "entry_id": 326781,
+  "categories": [
+    {
+      "id": "volitional",
+      "label": "Let's; Shall We; I Think I Will",
+      "sentences": [
+        {
+          "japanese": "一緒に行こう。",
+          "japanese_with_blank": "一緒に[___]。",
+          "english": "Let's go together.",
+          "target_answer": "行こう",
+          "alternative_answers": [],
+          "hint": "let's",
+          "scramble_blocks": [
+            "一緒に",
+            "行こう"
+          ],
+          "audio_text": "一緒に行こう。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "明日映画を見よう。",
+          "japanese_with_blank": "明日映画を[___]。",
+          "english": "Let's watch a movie tomorrow.",
+          "target_answer": "見よう",
+          "alternative_answers": [],
+          "hint": "let's",
+          "scramble_blocks": [
+            "明日",
+            "映画",
+            "を",
+            "見よう"
+          ],
+          "audio_text": "明日映画を見よう。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "そろそろ帰ろう。",
+          "japanese_with_blank": "そろそろ[___]。",
+          "english": "Let's go home soon.",
+          "target_answer": "帰ろう",
+          "alternative_answers": [],
+          "hint": "let's",
+          "scramble_blocks": [
+            "そろそろ",
+            "帰ろう"
+          ],
+          "audio_text": "そろそろ帰ろう。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "今日は早く寝よう。",
+          "japanese_with_blank": "今日は早く[___]。",
+          "english": "I think I'll go to bed early today.",
+          "target_answer": "寝よう",
+          "alternative_answers": [],
+          "hint": "I think I'll",
+          "scramble_blocks": [
+            "今日",
+            "は",
+            "早く",
+            "寝よう"
+          ],
+          "audio_text": "今日は早く寝よう。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "昼ご飯を食べよう。",
+          "japanese_with_blank": "昼ご飯を[___]。",
+          "english": "Let's eat lunch.",
+          "target_answer": "食べよう",
+          "alternative_answers": [],
+          "hint": "let's",
+          "scramble_blocks": [
+            "昼ご飯",
+            "を",
+            "食べよう"
+          ],
+          "audio_text": "昼ご飯を食べよう。",
+          "notes": "",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "grammar_point": "ていただけませんか",
+  "entry_id": 325516,
+  "categories": [
+    {
+      "id": "formal_request",
+      "label": "Very Polite Request",
+      "sentences": [
+        {
+          "japanese": "食べていただけませんか。",
+          "japanese_with_blank": "食べて[___]。",
+          "english": "Could you please eat?",
+          "target_answer": "いただけませんか",
+          "alternative_answers": [],
+          "hint": "Formal request",
+          "scramble_blocks": [
+            "食べて",
+            "いただけませんか"
+          ],
+          "audio_text": "食べていただけませんか。",
+          "notes": "ていただけませんか is a very polite request.",
+          "position": 1
+        },
+        {
+          "japanese": "見ていただけませんか。",
+          "japanese_with_blank": "見て[___]。",
+          "english": "Could you please look?",
+          "target_answer": "いただけませんか",
+          "alternative_answers": [],
+          "hint": "Formal request",
+          "scramble_blocks": [
+            "見て",
+            "いただけませんか"
+          ],
+          "audio_text": "見ていただけませんか。",
+          "notes": "Formal polite request form.",
+          "position": 2
+        },
+        {
+          "japanese": "読んでいただけませんか。",
+          "japanese_with_blank": "読んで[___]。",
+          "english": "Could you please read?",
+          "target_answer": "いただけませんか",
+          "alternative_answers": [],
+          "hint": "Formal request",
+          "scramble_blocks": [
+            "読んで",
+            "いただけませんか"
+          ],
+          "audio_text": "読んでいただけませんか。",
+          "notes": "Highly respectful request.",
+          "position": 3
+        },
+        {
+          "japanese": "書いていただけませんか。",
+          "japanese_with_blank": "書いて[___]。",
+          "english": "Could you please write?",
+          "target_answer": "いただけませんか",
+          "alternative_answers": [],
+          "hint": "Formal request",
+          "scramble_blocks": [
+            "書いて",
+            "いただけませんか"
+          ],
+          "audio_text": "書いていただけませんか。",
+          "notes": "Business-level politeness.",
+          "position": 4
+        },
+        {
+          "japanese": "聞いていただけませんか。",
+          "japanese_with_blank": "聞いて[___]。",
+          "english": "Could you please listen?",
+          "target_answer": "いただけませんか",
+          "alternative_answers": [],
+          "hint": "Formal request",
+          "scramble_blocks": [
+            "聞いて",
+            "いただけませんか"
+          ],
+          "audio_text": "聞いていただけませんか。",
+          "notes": "Very formal listening request.",
+          "position": 5
+        },
+        {
+          "japanese": "待っていただけませんか。",
+          "japanese_with_blank": "待って[___]。",
+          "english": "Could you please wait?",
+          "target_answer": "いただけませんか",
+          "alternative_answers": [],
+          "hint": "Formal request",
+          "scramble_blocks": [
+            "待って",
+            "いただけませんか"
+          ],
+          "audio_text": "待っていただけませんか。",
+          "notes": "Formal request to wait.",
+          "position": 6
+        },
+        {
+          "japanese": "話していただけませんか。",
+          "japanese_with_blank": "話して[___]。",
+          "english": "Could you please speak?",
+          "target_answer": "いただけませんか",
+          "alternative_answers": [],
+          "hint": "Formal request",
+          "scramble_blocks": [
+            "話して",
+            "いただけませんか"
+          ],
+          "audio_text": "話していただけませんか。",
+          "notes": "Formal speaking request.",
+          "position": 7
+        },
+        {
+          "japanese": "来ていただけませんか。",
+          "japanese_with_blank": "来て[___]。",
+          "english": "Could you please come?",
+          "target_answer": "いただけませんか",
+          "alternative_answers": [],
+          "hint": "Formal request",
+          "scramble_blocks": [
+            "来て",
+            "いただけませんか"
+          ],
+          "audio_text": "来ていただけませんか。",
+          "notes": "Formal request to come.",
+          "position": 8
+        },
+        {
+          "japanese": "教えていただけませんか。",
+          "japanese_with_blank": "教えて[___]。",
+          "english": "Could you please teach me?",
+          "target_answer": "いただけませんか",
+          "alternative_answers": [],
+          "hint": "Formal request",
+          "scramble_blocks": [
+            "教えて",
+            "いただけませんか"
+          ],
+          "audio_text": "教えていただけませんか。",
+          "notes": "Asking for instruction.",
+          "position": 9
+        },
+        {
+          "japanese": "見せていただけませんか。",
+          "japanese_with_blank": "見せて[___]。",
+          "english": "Could you please show me?",
+          "target_answer": "いただけませんか",
+          "alternative_answers": [],
+          "hint": "Formal request",
+          "scramble_blocks": [
+            "見せて",
+            "いただけませんか"
+          ],
+          "audio_text": "見せていただけませんか。",
+          "notes": "Asking to see something.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

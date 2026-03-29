@@ -1,0 +1,81 @@
+{
+  "grammar_point": "場合は",
+  "entry_id": 325624,
+  "categories": [
+    {
+      "id": "conditional_situation",
+      "label": "In the Case of",
+      "sentences": [
+        {
+          "japanese": "雨の場合は中止します。",
+          "japanese_with_blank": "雨の[___]中止します。",
+          "english": "In the case of rain, it will be cancelled.",
+          "target_answer": "場合は",
+          "alternative_answers": [],
+          "hint": "in the case of",
+          "scramble_blocks": [
+            "雨",
+            "の",
+            "場合は",
+            "中止します"
+          ],
+          "audio_text": "雨の場合は中止します。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "分からない場合は聞いてください。",
+          "japanese_with_blank": "分からない[___]聞いてください。",
+          "english": "If you don't understand, please ask.",
+          "target_answer": "場合は",
+          "alternative_answers": [],
+          "hint": "in the case",
+          "scramble_blocks": [
+            "分からない",
+            "場合は",
+            "聞いてください"
+          ],
+          "audio_text": "分からない場合は聞いてください。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "遅れる場合は連絡してください。",
+          "japanese_with_blank": "遅れる[___]連絡してください。",
+          "english": "In the event you're late, please contact us.",
+          "target_answer": "場合は",
+          "alternative_answers": [],
+          "hint": "in the case",
+          "scramble_blocks": [
+            "遅れる",
+            "場合は",
+            "連絡してください"
+          ],
+          "audio_text": "遅れる場合は連絡してください。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "お金がない場合はカードで払えます。",
+          "japanese_with_blank": "お金がない[___]カードで払えます。",
+          "english": "If you don't have money, you can pay by card.",
+          "target_answer": "場合は",
+          "alternative_answers": [],
+          "hint": "in the case",
+          "scramble_blocks": [
+            "お金",
+            "が",
+            "ない",
+            "場合は",
+            "カード",
+            "で",
+            "払えます"
+          ],
+          "audio_text": "お金がない場合はカードで払えます。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

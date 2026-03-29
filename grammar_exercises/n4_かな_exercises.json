@@ -1,0 +1,79 @@
+{
+  "grammar_point": "かな",
+  "entry_id": 325537,
+  "categories": [
+    {
+      "id": "wonder",
+      "label": "I Wonder",
+      "sentences": [
+        {
+          "japanese": "明日は雨かな。",
+          "japanese_with_blank": "明日は雨[___]。",
+          "english": "I wonder if it'll rain tomorrow.",
+          "target_answer": "かな",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "雨",
+            "かな"
+          ],
+          "audio_text": "明日は雨かな。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "これでいいかな。",
+          "japanese_with_blank": "これでいい[___]。",
+          "english": "I wonder if this is okay.",
+          "target_answer": "かな",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "これ",
+            "で",
+            "いい",
+            "かな"
+          ],
+          "audio_text": "これでいいかな。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "何時に終わるかな。",
+          "japanese_with_blank": "何時に終わる[___]。",
+          "english": "I wonder what time it'll finish.",
+          "target_answer": "かな",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "何時",
+            "に",
+            "終わる",
+            "かな"
+          ],
+          "audio_text": "何時に終わるかな。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "もう寝ようかな。",
+          "japanese_with_blank": "もう寝よう[___]。",
+          "english": "I wonder if I should go to sleep.",
+          "target_answer": "かな",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "もう",
+            "寝よう",
+            "かな"
+          ],
+          "audio_text": "もう寝ようかな。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

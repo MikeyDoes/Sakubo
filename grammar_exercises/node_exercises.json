@@ -1,0 +1,172 @@
+{
+  "grammar_point": "ので",
+  "entry_id": 325501,
+  "categories": [
+    {
+      "id": "polite_reason",
+      "label": "Because (Polite)",
+      "sentences": [
+        {
+          "japanese": "暑いので水を飲みます。",
+          "japanese_with_blank": "暑い[___]水を飲みます。",
+          "english": "Because it is hot, I drink water.",
+          "target_answer": "ので",
+          "alternative_answers": [],
+          "hint": "Because (polite)",
+          "scramble_blocks": [
+            "暑い",
+            "ので",
+            "水を飲みます"
+          ],
+          "audio_text": "暑いので水を飲みます。",
+          "notes": "ので gives a polite reason. Plain form before ので.",
+          "position": 1
+        },
+        {
+          "japanese": "美味しいので食べます。",
+          "japanese_with_blank": "美味しい[___]食べます。",
+          "english": "Because it is delicious, I eat it.",
+          "target_answer": "ので",
+          "alternative_answers": [],
+          "hint": "Because (polite)",
+          "scramble_blocks": [
+            "美味しい",
+            "ので",
+            "食べます"
+          ],
+          "audio_text": "美味しいので食べます。",
+          "notes": "ので is softer than から.",
+          "position": 2
+        },
+        {
+          "japanese": "好きなので買いました。",
+          "japanese_with_blank": "好きな[___]買いました。",
+          "english": "Because I like it, I bought it.",
+          "target_answer": "ので",
+          "alternative_answers": [],
+          "hint": "Because (polite)",
+          "scramble_blocks": [
+            "好きな",
+            "ので",
+            "買いました"
+          ],
+          "audio_text": "好きなので買いました。",
+          "notes": "な-adj needs な before ので.",
+          "position": 3
+        },
+        {
+          "japanese": "難しいので勉強します。",
+          "japanese_with_blank": "難しい[___]勉強します。",
+          "english": "Because it is difficult, I study.",
+          "target_answer": "ので",
+          "alternative_answers": [],
+          "hint": "Because (polite)",
+          "scramble_blocks": [
+            "難しい",
+            "ので",
+            "勉強します"
+          ],
+          "audio_text": "難しいので勉強します。",
+          "notes": "い-adj directly + ので.",
+          "position": 4
+        },
+        {
+          "japanese": "元気なので行きます。",
+          "japanese_with_blank": "元気な[___]行きます。",
+          "english": "Because I am well, I will go.",
+          "target_answer": "ので",
+          "alternative_answers": [],
+          "hint": "Because (polite)",
+          "scramble_blocks": [
+            "元気な",
+            "ので",
+            "行きます"
+          ],
+          "audio_text": "元気なので行きます。",
+          "notes": "な-adj + ので.",
+          "position": 5
+        },
+        {
+          "japanese": "忙しいので帰ります。",
+          "japanese_with_blank": "忙しい[___]帰ります。",
+          "english": "Because I am busy, I go home.",
+          "target_answer": "ので",
+          "alternative_answers": [],
+          "hint": "Because (polite)",
+          "scramble_blocks": [
+            "忙しい",
+            "ので",
+            "帰ります"
+          ],
+          "audio_text": "忙しいので帰ります。",
+          "notes": "い-adj reason.",
+          "position": 6
+        },
+        {
+          "japanese": "寒いので家にいます。",
+          "japanese_with_blank": "寒い[___]家にいます。",
+          "english": "Because it is cold, I stay home.",
+          "target_answer": "ので",
+          "alternative_answers": [],
+          "hint": "Because (polite)",
+          "scramble_blocks": [
+            "寒い",
+            "ので",
+            "家にいます"
+          ],
+          "audio_text": "寒いので家にいます。",
+          "notes": "Weather reason politely.",
+          "position": 7
+        },
+        {
+          "japanese": "面白いので見ます。",
+          "japanese_with_blank": "面白い[___]見ます。",
+          "english": "Because it is interesting, I watch.",
+          "target_answer": "ので",
+          "alternative_answers": [],
+          "hint": "Because (polite)",
+          "scramble_blocks": [
+            "面白い",
+            "ので",
+            "見ます"
+          ],
+          "audio_text": "面白いので見ます。",
+          "notes": "Interest reason.",
+          "position": 8
+        },
+        {
+          "japanese": "高いので買いません。",
+          "japanese_with_blank": "高い[___]買いません。",
+          "english": "Because it is expensive, I won't buy.",
+          "target_answer": "ので",
+          "alternative_answers": [],
+          "hint": "Because (polite)",
+          "scramble_blocks": [
+            "高い",
+            "ので",
+            "買いません"
+          ],
+          "audio_text": "高いので買いません。",
+          "notes": "Price deterrent.",
+          "position": 9
+        },
+        {
+          "japanese": "静かなので好きです。",
+          "japanese_with_blank": "静かな[___]好きです。",
+          "english": "Because it is quiet, I like it.",
+          "target_answer": "ので",
+          "alternative_answers": [],
+          "hint": "Because (polite)",
+          "scramble_blocks": [
+            "静かな",
+            "ので",
+            "好きです"
+          ],
+          "audio_text": "静かなので好きです。",
+          "notes": "な-adj with ので.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "grammar_point": "も (2)",
+  "entry_id": 325508,
+  "categories": [
+    {
+      "id": "even",
+      "label": "Even",
+      "sentences": [
+        {
+          "japanese": "子供も知っています。",
+          "japanese_with_blank": "子供[___]知っています。",
+          "english": "Even children know.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Even",
+          "scramble_blocks": [
+            "子供",
+            "も",
+            "知っています"
+          ],
+          "audio_text": "子供も知っています。",
+          "notes": "も for \"even.\"",
+          "position": 1
+        },
+        {
+          "japanese": "私も分かります。",
+          "japanese_with_blank": "私[___]分かります。",
+          "english": "Even I understand.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Even",
+          "scramble_blocks": [
+            "私",
+            "も",
+            "分かります"
+          ],
+          "audio_text": "私も分かります。",
+          "notes": "Even speaker.",
+          "position": 2
+        },
+        {
+          "japanese": "先生も分かりません。",
+          "japanese_with_blank": "先生[___]分かりません。",
+          "english": "Even the teacher doesn't know.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Even",
+          "scramble_blocks": [
+            "先生",
+            "も",
+            "分かりません"
+          ],
+          "audio_text": "先生も分かりません。",
+          "notes": "Even authority.",
+          "position": 3
+        },
+        {
+          "japanese": "犬も食べません。",
+          "japanese_with_blank": "犬[___]食べません。",
+          "english": "Even dogs don't eat it.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Even",
+          "scramble_blocks": [
+            "犬",
+            "も",
+            "食べません"
+          ],
+          "audio_text": "犬も食べません。",
+          "notes": "Even animals.",
+          "position": 4
+        },
+        {
+          "japanese": "あの人も来ました。",
+          "japanese_with_blank": "あの人[___]来ました。",
+          "english": "Even that person came.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Even",
+          "scramble_blocks": [
+            "あの人",
+            "も",
+            "来ました"
+          ],
+          "audio_text": "あの人も来ました。",
+          "notes": "Even that person.",
+          "position": 5
+        }
+      ]
+    },
+    {
+      "id": "nothing",
+      "label": "Nothing / Nobody",
+      "sentences": [
+        {
+          "japanese": "何も食べませんでした。",
+          "japanese_with_blank": "何[___]食べませんでした。",
+          "english": "I didn't eat anything.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Nothing/Nobody",
+          "scramble_blocks": [
+            "何",
+            "も",
+            "食べませんでした"
+          ],
+          "audio_text": "何も食べませんでした。",
+          "notes": "何も + neg = nothing.",
+          "position": 6
+        },
+        {
+          "japanese": "誰も来ませんでした。",
+          "japanese_with_blank": "誰[___]来ませんでした。",
+          "english": "Nobody came.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Nothing/Nobody",
+          "scramble_blocks": [
+            "誰",
+            "も",
+            "来ませんでした"
+          ],
+          "audio_text": "誰も来ませんでした。",
+          "notes": "誰も + neg = nobody.",
+          "position": 7
+        },
+        {
+          "japanese": "どこも行きませんでした。",
+          "japanese_with_blank": "どこ[___]行きませんでした。",
+          "english": "I didn't go anywhere.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Nothing/Nobody",
+          "scramble_blocks": [
+            "どこ",
+            "も",
+            "行きませんでした"
+          ],
+          "audio_text": "どこも行きませんでした。",
+          "notes": "どこも + neg = nowhere.",
+          "position": 8
+        },
+        {
+          "japanese": "何も分かりません。",
+          "japanese_with_blank": "何[___]分かりません。",
+          "english": "I don't understand anything.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Nothing/Nobody",
+          "scramble_blocks": [
+            "何",
+            "も",
+            "分かりません"
+          ],
+          "audio_text": "何も分かりません。",
+          "notes": "Nothing understood.",
+          "position": 9
+        },
+        {
+          "japanese": "誰も知りません。",
+          "japanese_with_blank": "誰[___]知りません。",
+          "english": "Nobody knows.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Nothing/Nobody",
+          "scramble_blocks": [
+            "誰",
+            "も",
+            "知りません"
+          ],
+          "audio_text": "誰も知りません。",
+          "notes": "Nobody knows.",
+          "position": 10
+        }
+      ]
+    },
+    {
+      "id": "both_and",
+      "label": "Both A and B",
+      "sentences": [
+        {
+          "japanese": "犬も猫も好きです。",
+          "japanese_with_blank": "犬[___]猫も好きです。",
+          "english": "I like both dogs and cats.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Both...and",
+          "scramble_blocks": [
+            "犬",
+            "も",
+            "猫",
+            "も",
+            "好きです"
+          ],
+          "audio_text": "犬も猫も好きです。",
+          "notes": "AもBも = both A and B.",
+          "position": 11
+        },
+        {
+          "japanese": "お茶もコーヒーも飲みます。",
+          "japanese_with_blank": "お茶[___]コーヒーも飲みます。",
+          "english": "I drink both tea and coffee.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Both...and",
+          "scramble_blocks": [
+            "お茶",
+            "も",
+            "コーヒー",
+            "も",
+            "飲みます"
+          ],
+          "audio_text": "お茶もコーヒーも飲みます。",
+          "notes": "Both items take も.",
+          "position": 12
+        },
+        {
+          "japanese": "父も母も元気です。",
+          "japanese_with_blank": "父[___]母も元気です。",
+          "english": "Both father and mother are well.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Both...and",
+          "scramble_blocks": [
+            "父",
+            "も",
+            "母",
+            "も",
+            "元気です"
+          ],
+          "audio_text": "父も母も元気です。",
+          "notes": "AもBも for people.",
+          "position": 13
+        },
+        {
+          "japanese": "パンもご飯も食べます。",
+          "japanese_with_blank": "パン[___]ご飯も食べます。",
+          "english": "I eat both bread and rice.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Both...and",
+          "scramble_blocks": [
+            "パン",
+            "も",
+            "ご飯",
+            "も",
+            "食べます"
+          ],
+          "audio_text": "パンもご飯も食べます。",
+          "notes": "Both A and B listed.",
+          "position": 14
+        },
+        {
+          "japanese": "日本語も英語も話します。",
+          "japanese_with_blank": "日本語[___]英語も話します。",
+          "english": "I speak both Japanese and English.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Both...and",
+          "scramble_blocks": [
+            "日本語",
+            "も",
+            "英語",
+            "も",
+            "話します"
+          ],
+          "audio_text": "日本語も英語も話します。",
+          "notes": "Both languages.",
+          "position": 15
+        },
+        {
+          "japanese": "本も雑誌も読みます。",
+          "japanese_with_blank": "本[___]雑誌も読みます。",
+          "english": "I read both books and magazines.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Both...and",
+          "scramble_blocks": [
+            "本",
+            "も",
+            "雑誌",
+            "も",
+            "読みます"
+          ],
+          "audio_text": "本も雑誌も読みます。",
+          "notes": "Both types of reading material.",
+          "position": 16
+        },
+        {
+          "japanese": "兄も姉もいます。",
+          "japanese_with_blank": "兄[___]姉もいます。",
+          "english": "I have both an older brother and older sister.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Both...and",
+          "scramble_blocks": [
+            "兄",
+            "も",
+            "姉",
+            "も",
+            "います"
+          ],
+          "audio_text": "兄も姉もいます。",
+          "notes": "AもBも for family members.",
+          "position": 17
+        },
+        {
+          "japanese": "肉も魚も好きです。",
+          "japanese_with_blank": "肉[___]魚も好きです。",
+          "english": "I like both meat and fish.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Both...and",
+          "scramble_blocks": [
+            "肉",
+            "も",
+            "魚",
+            "も",
+            "好きです"
+          ],
+          "audio_text": "肉も魚も好きです。",
+          "notes": "Both food types.",
+          "position": 18
+        },
+        {
+          "japanese": "映画も音楽も好きです。",
+          "japanese_with_blank": "映画[___]音楽も好きです。",
+          "english": "I like both movies and music.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Both...and",
+          "scramble_blocks": [
+            "映画",
+            "も",
+            "音楽",
+            "も",
+            "好きです"
+          ],
+          "audio_text": "映画も音楽も好きです。",
+          "notes": "Both entertainment types.",
+          "position": 19
+        },
+        {
+          "japanese": "昨日も今日も暑いです。",
+          "japanese_with_blank": "昨日[___]今日も暑いです。",
+          "english": "Both yesterday and today are hot.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Both...and",
+          "scramble_blocks": [
+            "昨日",
+            "も",
+            "今日",
+            "も",
+            "暑いです"
+          ],
+          "audio_text": "昨日も今日も暑いです。",
+          "notes": "AもBも for time.",
+          "position": 20
+        }
+      ]
+    }
+  ]
+}

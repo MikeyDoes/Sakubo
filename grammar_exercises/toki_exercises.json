@@ -1,0 +1,172 @@
+{
+  "grammar_point": "とき",
+  "entry_id": 325502,
+  "categories": [
+    {
+      "id": "when",
+      "label": "When / At The Time",
+      "sentences": [
+        {
+          "japanese": "食べるとき手を洗います。",
+          "japanese_with_blank": "食べる[___]手を洗います。",
+          "english": "When I eat, I wash my hands.",
+          "target_answer": "とき",
+          "alternative_answers": [],
+          "hint": "When",
+          "scramble_blocks": [
+            "食べる",
+            "とき",
+            "手を洗います"
+          ],
+          "audio_text": "食べるとき手を洗います。",
+          "notes": "とき means \"when\" or \"at the time of.\"",
+          "position": 1
+        },
+        {
+          "japanese": "寝るとき電気を消します。",
+          "japanese_with_blank": "寝る[___]電気を消します。",
+          "english": "When I sleep, I turn off the light.",
+          "target_answer": "とき",
+          "alternative_answers": [],
+          "hint": "When",
+          "scramble_blocks": [
+            "寝る",
+            "とき",
+            "電気を消します"
+          ],
+          "audio_text": "寝るとき電気を消します。",
+          "notes": "Bedtime routine.",
+          "position": 2
+        },
+        {
+          "japanese": "暑いとき水を飲みます。",
+          "japanese_with_blank": "暑い[___]水を飲みます。",
+          "english": "When it is hot, I drink water.",
+          "target_answer": "とき",
+          "alternative_answers": [],
+          "hint": "When",
+          "scramble_blocks": [
+            "暑い",
+            "とき",
+            "水を飲みます"
+          ],
+          "audio_text": "暑いとき水を飲みます。",
+          "notes": "とき with い-adjective.",
+          "position": 3
+        },
+        {
+          "japanese": "静かなとき勉強します。",
+          "japanese_with_blank": "静かな[___]勉強します。",
+          "english": "When it is quiet, I study.",
+          "target_answer": "とき",
+          "alternative_answers": [],
+          "hint": "When",
+          "scramble_blocks": [
+            "静かな",
+            "とき",
+            "勉強します"
+          ],
+          "audio_text": "静かなとき勉強します。",
+          "notes": "とき with な-adjective.",
+          "position": 4
+        },
+        {
+          "japanese": "行くとき友達に会います。",
+          "japanese_with_blank": "行く[___]友達に会います。",
+          "english": "When I go, I meet my friend.",
+          "target_answer": "とき",
+          "alternative_answers": [],
+          "hint": "When",
+          "scramble_blocks": [
+            "行く",
+            "とき",
+            "友達に会います"
+          ],
+          "audio_text": "行くとき友達に会います。",
+          "notes": "Event condition.",
+          "position": 5
+        },
+        {
+          "japanese": "帰るとき買い物をします。",
+          "japanese_with_blank": "帰る[___]買い物をします。",
+          "english": "When I go home, I shop.",
+          "target_answer": "とき",
+          "alternative_answers": [],
+          "hint": "When",
+          "scramble_blocks": [
+            "帰る",
+            "とき",
+            "買い物をします"
+          ],
+          "audio_text": "帰るとき買い物をします。",
+          "notes": "Return routine.",
+          "position": 6
+        },
+        {
+          "japanese": "暇なとき本を読みます。",
+          "japanese_with_blank": "暇な[___]本を読みます。",
+          "english": "When I am free, I read books.",
+          "target_answer": "とき",
+          "alternative_answers": [],
+          "hint": "When",
+          "scramble_blocks": [
+            "暇な",
+            "とき",
+            "本を読みます"
+          ],
+          "audio_text": "暇なとき本を読みます。",
+          "notes": "Free time activity.",
+          "position": 7
+        },
+        {
+          "japanese": "元気なとき走ります。",
+          "japanese_with_blank": "元気な[___]走ります。",
+          "english": "When I am well, I run.",
+          "target_answer": "とき",
+          "alternative_answers": [],
+          "hint": "When",
+          "scramble_blocks": [
+            "元気な",
+            "とき",
+            "走ります"
+          ],
+          "audio_text": "元気なとき走ります。",
+          "notes": "Health condition.",
+          "position": 8
+        },
+        {
+          "japanese": "寒いとき家にいます。",
+          "japanese_with_blank": "寒い[___]家にいます。",
+          "english": "When it is cold, I stay home.",
+          "target_answer": "とき",
+          "alternative_answers": [],
+          "hint": "When",
+          "scramble_blocks": [
+            "寒い",
+            "とき",
+            "家にいます"
+          ],
+          "audio_text": "寒いとき家にいます。",
+          "notes": "Weather response.",
+          "position": 9
+        },
+        {
+          "japanese": "休みのとき旅行します。",
+          "japanese_with_blank": "休みの[___]旅行します。",
+          "english": "When it is a holiday, I travel.",
+          "target_answer": "とき",
+          "alternative_answers": [],
+          "hint": "When",
+          "scramble_blocks": [
+            "休みの",
+            "とき",
+            "旅行します"
+          ],
+          "audio_text": "休みのとき旅行します。",
+          "notes": "Occasion.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

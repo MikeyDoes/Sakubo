@@ -1,0 +1,162 @@
+{
+  "grammar_point": "一緒に",
+  "entry_id": 325496,
+  "categories": [
+    {
+      "id": "together",
+      "label": "Together",
+      "sentences": [
+        {
+          "japanese": "一緒に食べましょう。",
+          "japanese_with_blank": "[___]食べましょう。",
+          "english": "Let's eat together.",
+          "target_answer": "一緒に",
+          "alternative_answers": [],
+          "hint": "Together",
+          "scramble_blocks": [
+            "一緒に",
+            "食べましょう"
+          ],
+          "audio_text": "一緒に食べましょう。",
+          "notes": "一緒に means \"together.\"",
+          "position": 1
+        },
+        {
+          "japanese": "一緒に行きましょう。",
+          "japanese_with_blank": "[___]行きましょう。",
+          "english": "Let's go together.",
+          "target_answer": "一緒に",
+          "alternative_answers": [],
+          "hint": "Together",
+          "scramble_blocks": [
+            "一緒に",
+            "行きましょう"
+          ],
+          "audio_text": "一緒に行きましょう。",
+          "notes": "Joint movement.",
+          "position": 2
+        },
+        {
+          "japanese": "一緒に勉強しましょう。",
+          "japanese_with_blank": "[___]勉強しましょう。",
+          "english": "Let's study together.",
+          "target_answer": "一緒に",
+          "alternative_answers": [],
+          "hint": "Together",
+          "scramble_blocks": [
+            "一緒に",
+            "勉強しましょう"
+          ],
+          "audio_text": "一緒に勉強しましょう。",
+          "notes": "Joint study.",
+          "position": 3
+        },
+        {
+          "japanese": "一緒に飲みましょう。",
+          "japanese_with_blank": "[___]飲みましょう。",
+          "english": "Let's drink together.",
+          "target_answer": "一緒に",
+          "alternative_answers": [],
+          "hint": "Together",
+          "scramble_blocks": [
+            "一緒に",
+            "飲みましょう"
+          ],
+          "audio_text": "一緒に飲みましょう。",
+          "notes": "Joint drinking.",
+          "position": 4
+        },
+        {
+          "japanese": "一緒に帰りましょう。",
+          "japanese_with_blank": "[___]帰りましょう。",
+          "english": "Let's go home together.",
+          "target_answer": "一緒に",
+          "alternative_answers": [],
+          "hint": "Together",
+          "scramble_blocks": [
+            "一緒に",
+            "帰りましょう"
+          ],
+          "audio_text": "一緒に帰りましょう。",
+          "notes": "Joint departure.",
+          "position": 5
+        },
+        {
+          "japanese": "一緒に見ましょう。",
+          "japanese_with_blank": "[___]見ましょう。",
+          "english": "Let's watch together.",
+          "target_answer": "一緒に",
+          "alternative_answers": [],
+          "hint": "Together",
+          "scramble_blocks": [
+            "一緒に",
+            "見ましょう"
+          ],
+          "audio_text": "一緒に見ましょう。",
+          "notes": "Joint viewing.",
+          "position": 6
+        },
+        {
+          "japanese": "一緒に話しましょう。",
+          "japanese_with_blank": "[___]話しましょう。",
+          "english": "Let's talk together.",
+          "target_answer": "一緒に",
+          "alternative_answers": [],
+          "hint": "Together",
+          "scramble_blocks": [
+            "一緒に",
+            "話しましょう"
+          ],
+          "audio_text": "一緒に話しましょう。",
+          "notes": "Joint conversation.",
+          "position": 7
+        },
+        {
+          "japanese": "一緒に遊びましょう。",
+          "japanese_with_blank": "[___]遊びましょう。",
+          "english": "Let's play together.",
+          "target_answer": "一緒に",
+          "alternative_answers": [],
+          "hint": "Together",
+          "scramble_blocks": [
+            "一緒に",
+            "遊びましょう"
+          ],
+          "audio_text": "一緒に遊びましょう。",
+          "notes": "Joint play.",
+          "position": 8
+        },
+        {
+          "japanese": "一緒に住んでいます。",
+          "japanese_with_blank": "[___]住んでいます。",
+          "english": "We live together.",
+          "target_answer": "一緒に",
+          "alternative_answers": [],
+          "hint": "Together",
+          "scramble_blocks": [
+            "一緒に",
+            "住んでいます"
+          ],
+          "audio_text": "一緒に住んでいます。",
+          "notes": "Living together.",
+          "position": 9
+        },
+        {
+          "japanese": "一緒に働いています。",
+          "japanese_with_blank": "[___]働いています。",
+          "english": "We work together.",
+          "target_answer": "一緒に",
+          "alternative_answers": [],
+          "hint": "Together",
+          "scramble_blocks": [
+            "一緒に",
+            "働いています"
+          ],
+          "audio_text": "一緒に働いています。",
+          "notes": "Working together.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

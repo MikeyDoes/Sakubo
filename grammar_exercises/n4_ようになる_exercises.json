@@ -1,0 +1,99 @@
+{
+  "grammar_point": "ようになる",
+  "entry_id": 325599,
+  "categories": [
+    {
+      "id": "gradual_change",
+      "label": "Gradual Change",
+      "sentences": [
+        {
+          "japanese": "日本語が話せるようになりました。",
+          "japanese_with_blank": "日本語が話せる[___]。",
+          "english": "I've come to be able to speak Japanese.",
+          "target_answer": "ようになりました",
+          "alternative_answers": [],
+          "hint": "came to be",
+          "scramble_blocks": [
+            "日本語",
+            "が",
+            "話せる",
+            "ようになりました"
+          ],
+          "audio_text": "日本語が話せるようになりました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "毎日運動するようになりました。",
+          "japanese_with_blank": "毎日運動する[___]。",
+          "english": "I've started exercising every day.",
+          "target_answer": "ようになりました",
+          "alternative_answers": [],
+          "hint": "came to be",
+          "scramble_blocks": [
+            "毎日",
+            "運動する",
+            "ようになりました"
+          ],
+          "audio_text": "毎日運動するようになりました。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "朝早く起きるようになりました。",
+          "japanese_with_blank": "朝早く起きる[___]。",
+          "english": "I've started waking up early in the morning.",
+          "target_answer": "ようになりました",
+          "alternative_answers": [],
+          "hint": "came to be",
+          "scramble_blocks": [
+            "朝",
+            "早く",
+            "起きる",
+            "ようになりました"
+          ],
+          "audio_text": "朝早く起きるようになりました。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "漢字が読めるようになりたいです。",
+          "japanese_with_blank": "漢字が読める[___]です。",
+          "english": "I want to become able to read kanji.",
+          "target_answer": "ようになりたい",
+          "alternative_answers": [],
+          "hint": "want to come to",
+          "scramble_blocks": [
+            "漢字",
+            "が",
+            "読める",
+            "ようになりたい",
+            "です"
+          ],
+          "audio_text": "漢字が読めるようになりたいです。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "日本の食べ物が好きになるようになりました。",
+          "japanese_with_blank": "日本の食べ物が好きになる[___]。",
+          "english": "I came to like Japanese food.",
+          "target_answer": "ようになりました",
+          "alternative_answers": [],
+          "hint": "came to be",
+          "scramble_blocks": [
+            "日本",
+            "の",
+            "食べ物",
+            "が",
+            "好きになる",
+            "ようになりました"
+          ],
+          "audio_text": "日本の食べ物が好きになるようになりました。",
+          "notes": "",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

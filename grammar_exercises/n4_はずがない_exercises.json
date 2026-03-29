@@ -1,0 +1,80 @@
+{
+  "grammar_point": "はずがない",
+  "entry_id": 325579,
+  "categories": [
+    {
+      "id": "impossibility",
+      "label": "Cannot Be That",
+      "sentences": [
+        {
+          "japanese": "彼がそんなことをするはずがありません。",
+          "japanese_with_blank": "彼がそんなことをする[___]。",
+          "english": "There's no way he would do such a thing.",
+          "target_answer": "はずがありません",
+          "alternative_answers": [],
+          "hint": "can't be",
+          "scramble_blocks": [
+            "彼",
+            "が",
+            "そんな",
+            "こと",
+            "を",
+            "する",
+            "はずがありません"
+          ],
+          "audio_text": "彼がそんなことをするはずがありません。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "こんなに高いはずがありません。",
+          "japanese_with_blank": "こんなに高い[___]。",
+          "english": "It can't possibly be this expensive.",
+          "target_answer": "はずがありません",
+          "alternative_answers": [],
+          "hint": "can't be",
+          "scramble_blocks": [
+            "こんなに",
+            "高い",
+            "はずがありません"
+          ],
+          "audio_text": "こんなに高いはずがありません。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "忘れたはずがありません。",
+          "japanese_with_blank": "忘れた[___]。",
+          "english": "There's no way I forgot.",
+          "target_answer": "はずがありません",
+          "alternative_answers": [],
+          "hint": "can't be",
+          "scramble_blocks": [
+            "忘れた",
+            "はずがありません"
+          ],
+          "audio_text": "忘れたはずがありません。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "田中さんが知らないはずがありません。",
+          "japanese_with_blank": "田中さんが知らない[___]。",
+          "english": "There's no way Tanaka-san doesn't know.",
+          "target_answer": "はずがありません",
+          "alternative_answers": [],
+          "hint": "can't be",
+          "scramble_blocks": [
+            "田中さん",
+            "が",
+            "知らない",
+            "はずがありません"
+          ],
+          "audio_text": "田中さんが知らないはずがありません。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

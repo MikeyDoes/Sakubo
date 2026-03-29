@@ -1,0 +1,172 @@
+{
+  "grammar_point": "前に",
+  "entry_id": 325451,
+  "categories": [
+    {
+      "id": "before",
+      "label": "Before Doing",
+      "sentences": [
+        {
+          "japanese": "食べる前に手を洗います。",
+          "japanese_with_blank": "食べる[___]手を洗います。",
+          "english": "Before eating, I wash my hands.",
+          "target_answer": "前に",
+          "alternative_answers": [],
+          "hint": "Before",
+          "scramble_blocks": [
+            "食べる",
+            "前に",
+            "手を洗います"
+          ],
+          "audio_text": "食べる前に手を洗います。",
+          "notes": "前に means \"before doing.\"",
+          "position": 1
+        },
+        {
+          "japanese": "寝る前に本を読みます。",
+          "japanese_with_blank": "寝る[___]本を読みます。",
+          "english": "Before sleeping, I read a book.",
+          "target_answer": "前に",
+          "alternative_answers": [],
+          "hint": "Before",
+          "scramble_blocks": [
+            "寝る",
+            "前に",
+            "本を読みます"
+          ],
+          "audio_text": "寝る前に本を読みます。",
+          "notes": "Pre-sleep routine.",
+          "position": 2
+        },
+        {
+          "japanese": "行く前に電話をします。",
+          "japanese_with_blank": "行く[___]電話をします。",
+          "english": "Before going, I make a call.",
+          "target_answer": "前に",
+          "alternative_answers": [],
+          "hint": "Before",
+          "scramble_blocks": [
+            "行く",
+            "前に",
+            "電話をします"
+          ],
+          "audio_text": "行く前に電話をします。",
+          "notes": "Before departure action.",
+          "position": 3
+        },
+        {
+          "japanese": "書く前に読みます。",
+          "japanese_with_blank": "書く[___]読みます。",
+          "english": "Before writing, I read.",
+          "target_answer": "前に",
+          "alternative_answers": [],
+          "hint": "Before",
+          "scramble_blocks": [
+            "書く",
+            "前に",
+            "読みます"
+          ],
+          "audio_text": "書く前に読みます。",
+          "notes": "Preparation sequence.",
+          "position": 4
+        },
+        {
+          "japanese": "帰る前に買い物をします。",
+          "japanese_with_blank": "帰る[___]買い物をします。",
+          "english": "Before going home, I shop.",
+          "target_answer": "前に",
+          "alternative_answers": [],
+          "hint": "Before",
+          "scramble_blocks": [
+            "帰る",
+            "前に",
+            "買い物をします"
+          ],
+          "audio_text": "帰る前に買い物をします。",
+          "notes": "Pre-return activity.",
+          "position": 5
+        },
+        {
+          "japanese": "飲む前に食べます。",
+          "japanese_with_blank": "飲む[___]食べます。",
+          "english": "Before drinking, I eat.",
+          "target_answer": "前に",
+          "alternative_answers": [],
+          "hint": "Before",
+          "scramble_blocks": [
+            "飲む",
+            "前に",
+            "食べます"
+          ],
+          "audio_text": "飲む前に食べます。",
+          "notes": "Eating before drinking.",
+          "position": 6
+        },
+        {
+          "japanese": "見る前に食べます。",
+          "japanese_with_blank": "見る[___]食べます。",
+          "english": "Before watching, I eat.",
+          "target_answer": "前に",
+          "alternative_answers": [],
+          "hint": "Before",
+          "scramble_blocks": [
+            "見る",
+            "前に",
+            "食べます"
+          ],
+          "audio_text": "見る前に食べます。",
+          "notes": "Pre-activity meal.",
+          "position": 7
+        },
+        {
+          "japanese": "起きる前に寝ます。",
+          "japanese_with_blank": "起きる[___]寝ます。",
+          "english": "Before waking up... I sleep.",
+          "target_answer": "前に",
+          "alternative_answers": [],
+          "hint": "Before",
+          "scramble_blocks": [
+            "起きる",
+            "前に",
+            "寝ます"
+          ],
+          "audio_text": "起きる前に寝ます。",
+          "notes": "Obvious but grammatical.",
+          "position": 8
+        },
+        {
+          "japanese": "勉強する前に食べます。",
+          "japanese_with_blank": "勉強する[___]食べます。",
+          "english": "Before studying, I eat.",
+          "target_answer": "前に",
+          "alternative_answers": [],
+          "hint": "Before",
+          "scramble_blocks": [
+            "勉強する",
+            "前に",
+            "食べます"
+          ],
+          "audio_text": "勉強する前に食べます。",
+          "notes": "Pre-study meal.",
+          "position": 9
+        },
+        {
+          "japanese": "来る前に電話をしました。",
+          "japanese_with_blank": "来る[___]電話をしました。",
+          "english": "Before coming, I called.",
+          "target_answer": "前に",
+          "alternative_answers": [],
+          "hint": "Before",
+          "scramble_blocks": [
+            "来る",
+            "前に",
+            "電話をしました"
+          ],
+          "audio_text": "来る前に電話をしました。",
+          "notes": "Pre-arrival action.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

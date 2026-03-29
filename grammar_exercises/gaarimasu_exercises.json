@@ -1,0 +1,178 @@
+{
+  "grammar_point": "があります",
+  "entry_id": 325455,
+  "categories": [
+    {
+      "id": "existence_nonliving",
+      "label": "Existence (Non-Living)",
+      "sentences": [
+        {
+          "japanese": "部屋に本があります。",
+          "japanese_with_blank": "部屋に本[___]。",
+          "english": "There is a book in the room.",
+          "target_answer": "があります",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "部屋",
+            "に",
+            "本",
+            "があります"
+          ],
+          "audio_text": "部屋に本があります。",
+          "notes": "があります expresses existence of non-living things.",
+          "position": 1
+        },
+        {
+          "japanese": "机にペンがあります。",
+          "japanese_with_blank": "机にペン[___]。",
+          "english": "There is a pen on the desk.",
+          "target_answer": "があります",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "机",
+            "に",
+            "ペン",
+            "があります"
+          ],
+          "audio_text": "机にペンがあります。",
+          "notes": "Existence with location.",
+          "position": 2
+        },
+        {
+          "japanese": "冷蔵庫に水があります。",
+          "japanese_with_blank": "冷蔵庫に水[___]。",
+          "english": "There is water in the fridge.",
+          "target_answer": "があります",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "冷蔵庫",
+            "に",
+            "水",
+            "があります"
+          ],
+          "audio_text": "冷蔵庫に水があります。",
+          "notes": "Non-living existence.",
+          "position": 3
+        },
+        {
+          "japanese": "ここに学校があります。",
+          "japanese_with_blank": "ここに学校[___]。",
+          "english": "There is a school here.",
+          "target_answer": "があります",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "ここ",
+            "に",
+            "学校",
+            "があります"
+          ],
+          "audio_text": "ここに学校があります。",
+          "notes": "Building existence.",
+          "position": 4
+        },
+        {
+          "japanese": "家の近くに店があります。",
+          "japanese_with_blank": "家の近くに店[___]。",
+          "english": "There is a shop near my house.",
+          "target_answer": "があります",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "家の近く",
+            "に",
+            "店",
+            "があります"
+          ],
+          "audio_text": "家の近くに店があります。",
+          "notes": "Nearby existence.",
+          "position": 5
+        },
+        {
+          "japanese": "部屋に電話があります。",
+          "japanese_with_blank": "部屋に電話[___]。",
+          "english": "There is a phone in the room.",
+          "target_answer": "があります",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "部屋",
+            "に",
+            "電話",
+            "があります"
+          ],
+          "audio_text": "部屋に電話があります。",
+          "notes": "Object existence.",
+          "position": 6
+        },
+        {
+          "japanese": "部屋にテレビがあります。",
+          "japanese_with_blank": "部屋にテレビ[___]。",
+          "english": "There is a TV in the room.",
+          "target_answer": "があります",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "部屋",
+            "に",
+            "テレビ",
+            "があります"
+          ],
+          "audio_text": "部屋にテレビがあります。",
+          "notes": "Appliance existence.",
+          "position": 7
+        },
+        {
+          "japanese": "家に車があります。",
+          "japanese_with_blank": "家に車[___]。",
+          "english": "There is a car at the house.",
+          "target_answer": "があります",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "家",
+            "に",
+            "車",
+            "があります"
+          ],
+          "audio_text": "家に車があります。",
+          "notes": "Vehicle existence.",
+          "position": 8
+        },
+        {
+          "japanese": "時間があります。",
+          "japanese_with_blank": "時間[___]。",
+          "english": "I have time.",
+          "target_answer": "があります",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "時間",
+            "があります"
+          ],
+          "audio_text": "時間があります。",
+          "notes": "Abstract existence (having time).",
+          "position": 9
+        },
+        {
+          "japanese": "お金があります。",
+          "japanese_with_blank": "お金[___]。",
+          "english": "I have money.",
+          "target_answer": "があります",
+          "alternative_answers": [],
+          "hint": "Existence",
+          "scramble_blocks": [
+            "お金",
+            "があります"
+          ],
+          "audio_text": "お金があります。",
+          "notes": "Abstract possession.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "grammar_point": "し",
+  "entry_id": 325548,
+  "categories": [
+    {
+      "id": "listing_reasons",
+      "label": "Listing Reasons",
+      "sentences": [
+        {
+          "japanese": "この店は安いし、おいしいです。",
+          "japanese_with_blank": "この店は安い[___]おいしいです。",
+          "english": "This shop is cheap, and the food is delicious.",
+          "target_answer": "し、",
+          "alternative_answers": [
+            "し"
+          ],
+          "hint": "and moreover",
+          "scramble_blocks": [
+            "この",
+            "店",
+            "は",
+            "安い",
+            "し",
+            "おいしいです"
+          ],
+          "audio_text": "この店は安いし、おいしいです。",
+          "notes": "い-adj + し = listing reasons.",
+          "position": 1
+        },
+        {
+          "japanese": "天気もいいし、出かけましょう。",
+          "japanese_with_blank": "天気もいい[___]出かけましょう。",
+          "english": "The weather is nice too, so let's go out.",
+          "target_answer": "し、",
+          "alternative_answers": [
+            "し"
+          ],
+          "hint": "and moreover",
+          "scramble_blocks": [
+            "天気",
+            "も",
+            "いい",
+            "し",
+            "出かけましょう"
+          ],
+          "audio_text": "天気もいいし、出かけましょう。",
+          "notes": "Reason + suggestion.",
+          "position": 2
+        },
+        {
+          "japanese": "あの人は優しいし、面白いです。",
+          "japanese_with_blank": "あの人は優しい[___]面白いです。",
+          "english": "That person is kind, and funny.",
+          "target_answer": "し、",
+          "alternative_answers": [
+            "し"
+          ],
+          "hint": "and moreover",
+          "scramble_blocks": [
+            "あの",
+            "人",
+            "は",
+            "優しい",
+            "し",
+            "面白いです"
+          ],
+          "audio_text": "あの人は優しいし、面白いです。",
+          "notes": "い-adj + し + い-adj.",
+          "position": 3
+        },
+        {
+          "japanese": "時間もあるし、散歩しましょう。",
+          "japanese_with_blank": "時間もある[___]散歩しましょう。",
+          "english": "We have time too, so let's take a walk.",
+          "target_answer": "し、",
+          "alternative_answers": [
+            "し"
+          ],
+          "hint": "and moreover",
+          "scramble_blocks": [
+            "時間",
+            "も",
+            "ある",
+            "し",
+            "散歩しましょう"
+          ],
+          "audio_text": "時間もあるし、散歩しましょう。",
+          "notes": "Verb + し.",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

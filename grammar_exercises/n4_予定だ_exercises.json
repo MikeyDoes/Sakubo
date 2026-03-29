@@ -1,0 +1,81 @@
+{
+  "grammar_point": "予定だ",
+  "entry_id": 325587,
+  "categories": [
+    {
+      "id": "plan",
+      "label": "Plan To; Intend To",
+      "sentences": [
+        {
+          "japanese": "来月日本に行く予定です。",
+          "japanese_with_blank": "来月日本に行く[___]。",
+          "english": "I plan to go to Japan next month.",
+          "target_answer": "予定です",
+          "alternative_answers": [],
+          "hint": "plan to",
+          "scramble_blocks": [
+            "来月",
+            "日本",
+            "に",
+            "行く",
+            "予定です"
+          ],
+          "audio_text": "来月日本に行く予定です。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "明日会議がある予定です。",
+          "japanese_with_blank": "明日会議がある[___]。",
+          "english": "There's a meeting planned for tomorrow.",
+          "target_answer": "予定です",
+          "alternative_answers": [],
+          "hint": "plan to",
+          "scramble_blocks": [
+            "明日",
+            "会議",
+            "が",
+            "ある",
+            "予定です"
+          ],
+          "audio_text": "明日会議がある予定です。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "来年結婚する予定です。",
+          "japanese_with_blank": "来年結婚する[___]。",
+          "english": "I plan to get married next year.",
+          "target_answer": "予定です",
+          "alternative_answers": [],
+          "hint": "plan to",
+          "scramble_blocks": [
+            "来年",
+            "結婚する",
+            "予定です"
+          ],
+          "audio_text": "来年結婚する予定です。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "今週中に終わる予定です。",
+          "japanese_with_blank": "今週中に終わる[___]。",
+          "english": "It's planned to finish within this week.",
+          "target_answer": "予定です",
+          "alternative_answers": [],
+          "hint": "plan to",
+          "scramble_blocks": [
+            "今週中",
+            "に",
+            "終わる",
+            "予定です"
+          ],
+          "audio_text": "今週中に終わる予定です。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

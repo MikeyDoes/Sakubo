@@ -1,0 +1,97 @@
+{
+  "grammar_point": "ば",
+  "entry_id": 325606,
+  "categories": [
+    {
+      "id": "hypothetical_if",
+      "label": "If (Hypothetical)",
+      "sentences": [
+        {
+          "japanese": "安ければ買います。",
+          "japanese_with_blank": "安けれ[___]買います。",
+          "english": "If it's cheap, I'll buy it.",
+          "target_answer": "ば",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "安けれ",
+            "ば",
+            "買います"
+          ],
+          "audio_text": "安ければ買います。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "天気がよければ散歩しましょう。",
+          "japanese_with_blank": "天気がよけれ[___]散歩しましょう。",
+          "english": "If the weather is nice, let's take a walk.",
+          "target_answer": "ば",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "天気",
+            "が",
+            "よけれ",
+            "ば",
+            "散歩しましょう"
+          ],
+          "audio_text": "天気がよければ散歩しましょう。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "聞けば分かります。",
+          "japanese_with_blank": "聞け[___]分かります。",
+          "english": "If you ask, you'll understand.",
+          "target_answer": "ば",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "聞け",
+            "ば",
+            "分かります"
+          ],
+          "audio_text": "聞けば分かります。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "食べればおいしいですよ。",
+          "japanese_with_blank": "食べれ[___]おいしいですよ。",
+          "english": "If you try eating it, it's delicious.",
+          "target_answer": "ば",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "食べれ",
+            "ば",
+            "おいしい",
+            "です",
+            "よ"
+          ],
+          "audio_text": "食べればおいしいですよ。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "早く起きれば間に合います。",
+          "japanese_with_blank": "早く起きれ[___]間に合います。",
+          "english": "If you wake up early, you'll make it in time.",
+          "target_answer": "ば",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "早く",
+            "起きれ",
+            "ば",
+            "間に合います"
+          ],
+          "audio_text": "早く起きれば間に合います。",
+          "notes": "",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

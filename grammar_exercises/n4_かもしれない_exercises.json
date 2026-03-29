@@ -1,0 +1,95 @@
+{
+  "grammar_point": "かもしれない",
+  "entry_id": 326784,
+  "categories": [
+    {
+      "id": "possibility",
+      "label": "Might; Perhaps",
+      "sentences": [
+        {
+          "japanese": "明日は雨かもしれません。",
+          "japanese_with_blank": "明日は雨[___]。",
+          "english": "It might rain tomorrow.",
+          "target_answer": "かもしれません",
+          "alternative_answers": [],
+          "hint": "might",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "雨",
+            "かもしれません"
+          ],
+          "audio_text": "明日は雨かもしれません。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "彼は来ないかもしれません。",
+          "japanese_with_blank": "彼は来ない[___]。",
+          "english": "He might not come.",
+          "target_answer": "かもしれません",
+          "alternative_answers": [],
+          "hint": "might",
+          "scramble_blocks": [
+            "彼",
+            "は",
+            "来ない",
+            "かもしれません"
+          ],
+          "audio_text": "彼は来ないかもしれません。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "この仕事は難しいかもしれません。",
+          "japanese_with_blank": "この仕事は難しい[___]。",
+          "english": "This job might be difficult.",
+          "target_answer": "かもしれません",
+          "alternative_answers": [],
+          "hint": "might",
+          "scramble_blocks": [
+            "この",
+            "仕事",
+            "は",
+            "難しい",
+            "かもしれません"
+          ],
+          "audio_text": "この仕事は難しいかもしれません。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "遅れるかもしれません。",
+          "japanese_with_blank": "遅れる[___]。",
+          "english": "I might be late.",
+          "target_answer": "かもしれません",
+          "alternative_answers": [],
+          "hint": "might",
+          "scramble_blocks": [
+            "遅れる",
+            "かもしれません"
+          ],
+          "audio_text": "遅れるかもしれません。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "もう終わったかもしれません。",
+          "japanese_with_blank": "もう終わった[___]。",
+          "english": "It might already be over.",
+          "target_answer": "かもしれません",
+          "alternative_answers": [],
+          "hint": "might",
+          "scramble_blocks": [
+            "もう",
+            "終わった",
+            "かもしれません"
+          ],
+          "audio_text": "もう終わったかもしれません。",
+          "notes": "",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

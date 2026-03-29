@@ -1,0 +1,358 @@
+{
+  "grammar_point": "ます",
+  "entry_id": 326759,
+  "categories": [
+    {
+      "id": "ru_verb",
+      "label": "る-Verbs (Ichidan)",
+      "sentences": [
+        {
+          "japanese": "私は食べます。",
+          "japanese_with_blank": "私は食べ[___]。",
+          "english": "I eat.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "食べ",
+            "ます"
+          ],
+          "audio_text": "私は食べます。",
+          "notes": "る-verb: drop る, add ます.",
+          "position": 1
+        },
+        {
+          "japanese": "猫は寝ます。",
+          "japanese_with_blank": "猫は寝[___]。",
+          "english": "The cat sleeps.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "猫",
+            "は",
+            "寝",
+            "ます"
+          ],
+          "audio_text": "猫は寝ます。",
+          "notes": "Intransitive る-verb with ます.",
+          "position": 2
+        },
+        {
+          "japanese": "起きます。",
+          "japanese_with_blank": "起き[___]。",
+          "english": "I wake up.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "起き",
+            "ます"
+          ],
+          "audio_text": "起きます。",
+          "notes": "Intransitive る-verb: 起き + ます.",
+          "position": 3
+        },
+        {
+          "japanese": "学生が見ます。",
+          "japanese_with_blank": "学生が見[___]。",
+          "english": "The student watches.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "学生",
+            "が",
+            "見",
+            "ます"
+          ],
+          "audio_text": "学生が見ます。",
+          "notes": "る-verb: 見 + ます = 見ます.",
+          "position": 4
+        },
+        {
+          "japanese": "子供は起きます。",
+          "japanese_with_blank": "子供は起き[___]。",
+          "english": "The child wakes up.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "子供",
+            "は",
+            "起き",
+            "ます"
+          ],
+          "audio_text": "子供は起きます。",
+          "notes": "る-verb with は topic marker.",
+          "position": 5
+        },
+        {
+          "japanese": "先生は教えます。",
+          "japanese_with_blank": "先生は教え[___]。",
+          "english": "The teacher teaches.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "教え",
+            "ます"
+          ],
+          "audio_text": "先生は教えます。",
+          "notes": "る-verb: 教え + ます.",
+          "position": 6
+        },
+        {
+          "japanese": "私は忘れます。",
+          "japanese_with_blank": "私は忘れ[___]。",
+          "english": "I forget.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "忘れ",
+            "ます"
+          ],
+          "audio_text": "私は忘れます。",
+          "notes": "る-verb: 忘れ + ます.",
+          "position": 7
+        },
+        {
+          "japanese": "友達が出ます。",
+          "japanese_with_blank": "友達が出[___]。",
+          "english": "My friend goes out.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "出",
+            "ます"
+          ],
+          "audio_text": "友達が出ます。",
+          "notes": "る-verb: 出 + ます.",
+          "position": 8
+        },
+        {
+          "japanese": "動物は食べます。",
+          "japanese_with_blank": "動物は食べ[___]。",
+          "english": "The animal eats.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "動物",
+            "は",
+            "食べ",
+            "ます"
+          ],
+          "audio_text": "動物は食べます。",
+          "notes": "Using a noun subject with る-verb.",
+          "position": 9
+        },
+        {
+          "japanese": "犬が寝ます。",
+          "japanese_with_blank": "犬が寝[___]。",
+          "english": "The dog sleeps.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "犬",
+            "が",
+            "寝",
+            "ます"
+          ],
+          "audio_text": "犬が寝ます。",
+          "notes": "る-verb with が subject marker.",
+          "position": 10
+        }
+      ]
+    },
+    {
+      "id": "u_verb",
+      "label": "う-Verbs (Godan)",
+      "sentences": [
+        {
+          "japanese": "先生は行きます。",
+          "japanese_with_blank": "先生は行き[___]。",
+          "english": "The teacher goes.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "行き",
+            "ます"
+          ],
+          "audio_text": "先生は行きます。",
+          "notes": "う-verb: く→き. 行き + ます.",
+          "position": 11
+        },
+        {
+          "japanese": "私は書きます。",
+          "japanese_with_blank": "私は書き[___]。",
+          "english": "I write.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "書き",
+            "ます"
+          ],
+          "audio_text": "私は書きます。",
+          "notes": "う-verb: く→き. 書き + ます.",
+          "position": 12
+        },
+        {
+          "japanese": "学生は読みます。",
+          "japanese_with_blank": "学生は読み[___]。",
+          "english": "The student reads.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "学生",
+            "は",
+            "読み",
+            "ます"
+          ],
+          "audio_text": "学生は読みます。",
+          "notes": "う-verb: む→み. 読み + ます.",
+          "position": 13
+        },
+        {
+          "japanese": "聞きます。",
+          "japanese_with_blank": "聞き[___]。",
+          "english": "I listen.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "聞き",
+            "ます"
+          ],
+          "audio_text": "聞きます。",
+          "notes": "う-verb: く→き. 聞き + ます.",
+          "position": 14
+        },
+        {
+          "japanese": "友達は話します。",
+          "japanese_with_blank": "友達は話し[___]。",
+          "english": "My friend talks.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "話し",
+            "ます"
+          ],
+          "audio_text": "友達は話します。",
+          "notes": "う-verb: す→し. 話し + ます.",
+          "position": 15
+        },
+        {
+          "japanese": "私は飲みます。",
+          "japanese_with_blank": "私は飲み[___]。",
+          "english": "I drink.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "飲み",
+            "ます"
+          ],
+          "audio_text": "私は飲みます。",
+          "notes": "う-verb: む→み. 飲み + ます.",
+          "position": 16
+        },
+        {
+          "japanese": "子供は待ちます。",
+          "japanese_with_blank": "子供は待ち[___]。",
+          "english": "The child waits.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "子供",
+            "は",
+            "待ち",
+            "ます"
+          ],
+          "audio_text": "子供は待ちます。",
+          "notes": "う-verb: つ→ち. 待ち + ます.",
+          "position": 17
+        },
+        {
+          "japanese": "女は買います。",
+          "japanese_with_blank": "女は買い[___]。",
+          "english": "The woman buys.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "女",
+            "は",
+            "買い",
+            "ます"
+          ],
+          "audio_text": "女は買います。",
+          "notes": "う-verb: う→い. 買い + ます.",
+          "position": 18
+        }
+      ]
+    },
+    {
+      "id": "irregular",
+      "label": "Irregular Verbs",
+      "sentences": [
+        {
+          "japanese": "友達が来ます。",
+          "japanese_with_blank": "友達が来[___]。",
+          "english": "My friend comes.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "来ます"
+          ],
+          "audio_text": "友達が来ます。",
+          "notes": "来る → きます. Irregular verb.",
+          "position": 19
+        },
+        {
+          "japanese": "先生が来ます。",
+          "japanese_with_blank": "先生が来[___]。",
+          "english": "The teacher comes.",
+          "target_answer": "ます",
+          "alternative_answers": [],
+          "hint": "Polite present",
+          "scramble_blocks": [
+            "先生",
+            "が",
+            "来ます"
+          ],
+          "audio_text": "先生が来ます。",
+          "notes": "来る (くる) → きます. Irregular conjugation.",
+          "position": 20
+        }
+      ]
+    }
+  ]
+}

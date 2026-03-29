@@ -1,0 +1,81 @@
+{
+  "grammar_point": "たばかり",
+  "entry_id": 325555,
+  "categories": [
+    {
+      "id": "just_did",
+      "label": "Just Finished Doing",
+      "sentences": [
+        {
+          "japanese": "今食べたばかりです。",
+          "japanese_with_blank": "今食べ[___]です。",
+          "english": "I just ate.",
+          "target_answer": "たばかり",
+          "alternative_answers": [],
+          "hint": "just did",
+          "scramble_blocks": [
+            "今",
+            "食べ",
+            "たばかり",
+            "です"
+          ],
+          "audio_text": "今食べたばかりです。",
+          "notes": "た-form + ばかり = just did.",
+          "position": 1
+        },
+        {
+          "japanese": "日本に来たばかりです。",
+          "japanese_with_blank": "日本に来[___]です。",
+          "english": "I just came to Japan.",
+          "target_answer": "たばかり",
+          "alternative_answers": [],
+          "hint": "just did",
+          "scramble_blocks": [
+            "日本",
+            "に",
+            "来",
+            "たばかり",
+            "です"
+          ],
+          "audio_text": "日本に来たばかりです。",
+          "notes": "来る → 来たばかり.",
+          "position": 2
+        },
+        {
+          "japanese": "起きたばかりです。",
+          "japanese_with_blank": "起き[___]です。",
+          "english": "I just woke up.",
+          "target_answer": "たばかり",
+          "alternative_answers": [],
+          "hint": "just did",
+          "scramble_blocks": [
+            "起き",
+            "たばかり",
+            "です"
+          ],
+          "audio_text": "起きたばかりです。",
+          "notes": "起きる → 起きたばかり.",
+          "position": 3
+        },
+        {
+          "japanese": "勉強を始めたばかりです。",
+          "japanese_with_blank": "勉強を始め[___]です。",
+          "english": "I just started studying.",
+          "target_answer": "たばかり",
+          "alternative_answers": [],
+          "hint": "just did",
+          "scramble_blocks": [
+            "勉強",
+            "を",
+            "始め",
+            "たばかり",
+            "です"
+          ],
+          "audio_text": "勉強を始めたばかりです。",
+          "notes": "始める → 始めたばかり.",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

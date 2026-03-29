@@ -1,0 +1,80 @@
+{
+  "grammar_point": "に気がつく",
+  "entry_id": 325575,
+  "categories": [
+    {
+      "id": "notice",
+      "label": "To Notice; To Realize",
+      "sentences": [
+        {
+          "japanese": "間違いに気がつきました。",
+          "japanese_with_blank": "間違い[___]。",
+          "english": "I noticed the mistake.",
+          "target_answer": "に気がつきました",
+          "alternative_answers": [],
+          "hint": "noticed",
+          "scramble_blocks": [
+            "間違い",
+            "に気がつきました"
+          ],
+          "audio_text": "間違いに気がつきました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "時間がないことに気がつきました。",
+          "japanese_with_blank": "時間がないこと[___]。",
+          "english": "I realized there was no time.",
+          "target_answer": "に気がつきました",
+          "alternative_answers": [],
+          "hint": "realized",
+          "scramble_blocks": [
+            "時間",
+            "が",
+            "ない",
+            "こと",
+            "に気がつきました"
+          ],
+          "audio_text": "時間がないことに気がつきました。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "彼がいないことに気がつきました。",
+          "japanese_with_blank": "彼がいないこと[___]。",
+          "english": "I noticed that he wasn't there.",
+          "target_answer": "に気がつきました",
+          "alternative_answers": [],
+          "hint": "noticed",
+          "scramble_blocks": [
+            "彼",
+            "が",
+            "いない",
+            "こと",
+            "に気がつきました"
+          ],
+          "audio_text": "彼がいないことに気がつきました。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "自分の間違いに気がつきませんでした。",
+          "japanese_with_blank": "自分の間違い[___]。",
+          "english": "I didn't notice my own mistake.",
+          "target_answer": "に気がつきませんでした",
+          "alternative_answers": [],
+          "hint": "didn't notice",
+          "scramble_blocks": [
+            "自分",
+            "の",
+            "間違い",
+            "に気がつきませんでした"
+          ],
+          "audio_text": "自分の間違いに気がつきませんでした。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

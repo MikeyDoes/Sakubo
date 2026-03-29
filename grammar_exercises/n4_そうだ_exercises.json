@@ -1,0 +1,177 @@
+{
+  "grammar_point": "そうだ",
+  "entry_id": 325611,
+  "categories": [
+    {
+      "id": "appearance",
+      "label": "Looks Like (Appearance)",
+      "sentences": [
+        {
+          "japanese": "雨が降りそうです。",
+          "japanese_with_blank": "雨が降り[___]。",
+          "english": "It looks like it's going to rain.",
+          "target_answer": "そうです",
+          "alternative_answers": [],
+          "hint": "looks like",
+          "scramble_blocks": [
+            "雨",
+            "が",
+            "降り",
+            "そうです"
+          ],
+          "audio_text": "雨が降りそうです。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "このケーキはおいしそうです。",
+          "japanese_with_blank": "このケーキはおいし[___]。",
+          "english": "This cake looks delicious.",
+          "target_answer": "そうです",
+          "alternative_answers": [],
+          "hint": "looks like",
+          "scramble_blocks": [
+            "この",
+            "ケーキ",
+            "は",
+            "おいし",
+            "そうです"
+          ],
+          "audio_text": "このケーキはおいしそうです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "あの人は優しそうです。",
+          "japanese_with_blank": "あの人は優し[___]。",
+          "english": "That person looks kind.",
+          "target_answer": "そうです",
+          "alternative_answers": [],
+          "hint": "seems",
+          "scramble_blocks": [
+            "あの",
+            "人",
+            "は",
+            "優し",
+            "そうです"
+          ],
+          "audio_text": "あの人は優しそうです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "もうすぐ雪が降りそうです。",
+          "japanese_with_blank": "もうすぐ雪が降り[___]。",
+          "english": "It looks like it'll snow soon.",
+          "target_answer": "そうです",
+          "alternative_answers": [],
+          "hint": "looks like",
+          "scramble_blocks": [
+            "もうすぐ",
+            "雪",
+            "が",
+            "降り",
+            "そうです"
+          ],
+          "audio_text": "もうすぐ雪が降りそうです。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "赤ちゃんが泣きそうです。",
+          "japanese_with_blank": "赤ちゃんが泣き[___]。",
+          "english": "The baby looks like they're about to cry.",
+          "target_answer": "そうです",
+          "alternative_answers": [],
+          "hint": "looks like",
+          "scramble_blocks": [
+            "赤ちゃん",
+            "が",
+            "泣き",
+            "そうです"
+          ],
+          "audio_text": "赤ちゃんが泣きそうです。",
+          "notes": "",
+          "position": 5
+        }
+      ]
+    },
+    {
+      "id": "hearsay",
+      "label": "I Heard That (Hearsay)",
+      "sentences": [
+        {
+          "japanese": "明日は寒いそうです。",
+          "japanese_with_blank": "明日は寒い[___]。",
+          "english": "I heard it will be cold tomorrow.",
+          "target_answer": "そうです",
+          "alternative_answers": [],
+          "hint": "I heard",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "寒い",
+            "そうです"
+          ],
+          "audio_text": "明日は寒いそうです。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "あの店は安いそうです。",
+          "japanese_with_blank": "あの店は安い[___]。",
+          "english": "I heard that shop is cheap.",
+          "target_answer": "そうです",
+          "alternative_answers": [],
+          "hint": "I heard",
+          "scramble_blocks": [
+            "あの",
+            "店",
+            "は",
+            "安い",
+            "そうです"
+          ],
+          "audio_text": "あの店は安いそうです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "田中さんは元気だそうです。",
+          "japanese_with_blank": "田中さんは元気だ[___]。",
+          "english": "I heard Tanaka-san is well.",
+          "target_answer": "そうです",
+          "alternative_answers": [],
+          "hint": "I heard",
+          "scramble_blocks": [
+            "田中さん",
+            "は",
+            "元気",
+            "だ",
+            "そうです"
+          ],
+          "audio_text": "田中さんは元気だそうです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "来週テストがあるそうです。",
+          "japanese_with_blank": "来週テストがある[___]。",
+          "english": "I heard there's a test next week.",
+          "target_answer": "そうです",
+          "alternative_answers": [],
+          "hint": "I heard",
+          "scramble_blocks": [
+            "来週",
+            "テスト",
+            "が",
+            "ある",
+            "そうです"
+          ],
+          "audio_text": "来週テストがあるそうです。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

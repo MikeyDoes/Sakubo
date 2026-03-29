@@ -1,0 +1,178 @@
+{
+  "grammar_point": "で (2)",
+  "entry_id": 325504,
+  "categories": [
+    {
+      "id": "cause",
+      "label": "Because Of",
+      "sentences": [
+        {
+          "japanese": "病気で休みました。",
+          "japanese_with_blank": "病気[___]休みました。",
+          "english": "I was absent due to illness.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Because of",
+          "scramble_blocks": [
+            "病気",
+            "で",
+            "休みました"
+          ],
+          "audio_text": "病気で休みました。",
+          "notes": "で for reason/cause.",
+          "position": 1
+        },
+        {
+          "japanese": "雨で行きませんでした。",
+          "japanese_with_blank": "雨[___]行きませんでした。",
+          "english": "I didn't go because of rain.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Because of",
+          "scramble_blocks": [
+            "雨",
+            "で",
+            "行きませんでした"
+          ],
+          "audio_text": "雨で行きませんでした。",
+          "notes": "Weather as cause.",
+          "position": 2
+        },
+        {
+          "japanese": "仕事で行けません。",
+          "japanese_with_blank": "仕事[___]行けません。",
+          "english": "I can't go due to work.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Because of",
+          "scramble_blocks": [
+            "仕事",
+            "で",
+            "行けません"
+          ],
+          "audio_text": "仕事で行けません。",
+          "notes": "Work obligation.",
+          "position": 3
+        },
+        {
+          "japanese": "風邪で寝ています。",
+          "japanese_with_blank": "風邪[___]寝ています。",
+          "english": "I'm in bed with a cold.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Because of",
+          "scramble_blocks": [
+            "風邪",
+            "で",
+            "寝ています"
+          ],
+          "audio_text": "風邪で寝ています。",
+          "notes": "Illness as cause.",
+          "position": 4
+        },
+        {
+          "japanese": "地震で起きました。",
+          "japanese_with_blank": "地震[___]起きました。",
+          "english": "I woke up due to the earthquake.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Because of",
+          "scramble_blocks": [
+            "地震",
+            "で",
+            "起きました"
+          ],
+          "audio_text": "地震で起きました。",
+          "notes": "Event cause.",
+          "position": 5
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "label": "Scope / Material",
+      "sentences": [
+        {
+          "japanese": "三人で行きます。",
+          "japanese_with_blank": "三人[___]行きます。",
+          "english": "We go with three people.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "With/In",
+          "scramble_blocks": [
+            "三人",
+            "で",
+            "行きます"
+          ],
+          "audio_text": "三人で行きます。",
+          "notes": "で for group/scope.",
+          "position": 6
+        },
+        {
+          "japanese": "全部で千円です。",
+          "japanese_with_blank": "全部[___]千円です。",
+          "english": "In total it is 1000 yen.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "With/In",
+          "scramble_blocks": [
+            "全部",
+            "で",
+            "千円です"
+          ],
+          "audio_text": "全部で千円です。",
+          "notes": "で for total scope.",
+          "position": 7
+        },
+        {
+          "japanese": "木で作りました。",
+          "japanese_with_blank": "木[___]作りました。",
+          "english": "I made it from wood.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "With/In",
+          "scramble_blocks": [
+            "木",
+            "で",
+            "作りました"
+          ],
+          "audio_text": "木で作りました。",
+          "notes": "で for material.",
+          "position": 8
+        },
+        {
+          "japanese": "紙で作ります。",
+          "japanese_with_blank": "紙[___]作ります。",
+          "english": "I make it from paper.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "With/In",
+          "scramble_blocks": [
+            "紙",
+            "で",
+            "作ります"
+          ],
+          "audio_text": "紙で作ります。",
+          "notes": "Material で.",
+          "position": 9
+        },
+        {
+          "japanese": "みんなでやりましょう。",
+          "japanese_with_blank": "みんな[___]やりましょう。",
+          "english": "Let's do it with everyone.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "With/In",
+          "scramble_blocks": [
+            "みんな",
+            "で",
+            "やりましょう"
+          ],
+          "audio_text": "みんなでやりましょう。",
+          "notes": "Group scope.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

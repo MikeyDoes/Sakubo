@@ -1,0 +1,162 @@
+{
+  "grammar_point": "がほしい",
+  "entry_id": 325477,
+  "categories": [
+    {
+      "id": "want_thing",
+      "label": "Want Something",
+      "sentences": [
+        {
+          "japanese": "水がほしい。",
+          "japanese_with_blank": "水[___]。",
+          "english": "I want water.",
+          "target_answer": "がほしい",
+          "alternative_answers": [],
+          "hint": "Want thing",
+          "scramble_blocks": [
+            "水",
+            "がほしい"
+          ],
+          "audio_text": "水がほしい。",
+          "notes": "がほしい expresses desire for a thing.",
+          "position": 1
+        },
+        {
+          "japanese": "本がほしい。",
+          "japanese_with_blank": "本[___]。",
+          "english": "I want a book.",
+          "target_answer": "がほしい",
+          "alternative_answers": [],
+          "hint": "Want thing",
+          "scramble_blocks": [
+            "本",
+            "がほしい"
+          ],
+          "audio_text": "本がほしい。",
+          "notes": "Wanting an object.",
+          "position": 2
+        },
+        {
+          "japanese": "車がほしい。",
+          "japanese_with_blank": "車[___]。",
+          "english": "I want a car.",
+          "target_answer": "がほしい",
+          "alternative_answers": [],
+          "hint": "Want thing",
+          "scramble_blocks": [
+            "車",
+            "がほしい"
+          ],
+          "audio_text": "車がほしい。",
+          "notes": "Material desire.",
+          "position": 3
+        },
+        {
+          "japanese": "友達がほしい。",
+          "japanese_with_blank": "友達[___]。",
+          "english": "I want a friend.",
+          "target_answer": "がほしい",
+          "alternative_answers": [],
+          "hint": "Want thing",
+          "scramble_blocks": [
+            "友達",
+            "がほしい"
+          ],
+          "audio_text": "友達がほしい。",
+          "notes": "Social desire.",
+          "position": 4
+        },
+        {
+          "japanese": "ケーキがほしい。",
+          "japanese_with_blank": "ケーキ[___]。",
+          "english": "I want cake.",
+          "target_answer": "がほしい",
+          "alternative_answers": [],
+          "hint": "Want thing",
+          "scramble_blocks": [
+            "ケーキ",
+            "がほしい"
+          ],
+          "audio_text": "ケーキがほしい。",
+          "notes": "Food desire.",
+          "position": 5
+        },
+        {
+          "japanese": "コーヒーがほしい。",
+          "japanese_with_blank": "コーヒー[___]。",
+          "english": "I want coffee.",
+          "target_answer": "がほしい",
+          "alternative_answers": [],
+          "hint": "Want thing",
+          "scramble_blocks": [
+            "コーヒー",
+            "がほしい"
+          ],
+          "audio_text": "コーヒーがほしい。",
+          "notes": "Drink desire.",
+          "position": 6
+        },
+        {
+          "japanese": "電話がほしい。",
+          "japanese_with_blank": "電話[___]。",
+          "english": "I want a phone.",
+          "target_answer": "がほしい",
+          "alternative_answers": [],
+          "hint": "Want thing",
+          "scramble_blocks": [
+            "電話",
+            "がほしい"
+          ],
+          "audio_text": "電話がほしい。",
+          "notes": "Object desire.",
+          "position": 7
+        },
+        {
+          "japanese": "ペンがほしい。",
+          "japanese_with_blank": "ペン[___]。",
+          "english": "I want a pen.",
+          "target_answer": "がほしい",
+          "alternative_answers": [],
+          "hint": "Want thing",
+          "scramble_blocks": [
+            "ペン",
+            "がほしい"
+          ],
+          "audio_text": "ペンがほしい。",
+          "notes": "Tool desire.",
+          "position": 8
+        },
+        {
+          "japanese": "時間がほしい。",
+          "japanese_with_blank": "時間[___]。",
+          "english": "I want time.",
+          "target_answer": "がほしい",
+          "alternative_answers": [],
+          "hint": "Want thing",
+          "scramble_blocks": [
+            "時間",
+            "がほしい"
+          ],
+          "audio_text": "時間がほしい。",
+          "notes": "Abstract desire.",
+          "position": 9
+        },
+        {
+          "japanese": "お金がほしい。",
+          "japanese_with_blank": "お金[___]。",
+          "english": "I want money.",
+          "target_answer": "がほしい",
+          "alternative_answers": [],
+          "hint": "Want thing",
+          "scramble_blocks": [
+            "お金",
+            "がほしい"
+          ],
+          "audio_text": "お金がほしい。",
+          "notes": "Financial desire.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

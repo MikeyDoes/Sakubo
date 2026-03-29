@@ -1,0 +1,84 @@
+{
+  "grammar_point": "まま",
+  "entry_id": 325584,
+  "categories": [
+    {
+      "id": "unchanged_state",
+      "label": "As It Is; Left In State",
+      "sentences": [
+        {
+          "japanese": "窓を開けたまま寝ました。",
+          "japanese_with_blank": "窓を開けた[___]寝ました。",
+          "english": "I slept with the window open.",
+          "target_answer": "まま",
+          "alternative_answers": [],
+          "hint": "as is",
+          "scramble_blocks": [
+            "窓",
+            "を",
+            "開けた",
+            "まま",
+            "寝ました"
+          ],
+          "audio_text": "窓を開けたまま寝ました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "靴を履いたまま家に入りました。",
+          "japanese_with_blank": "靴を履いた[___]家に入りました。",
+          "english": "I entered the house with shoes on.",
+          "target_answer": "まま",
+          "alternative_answers": [],
+          "hint": "as is",
+          "scramble_blocks": [
+            "靴",
+            "を",
+            "履いた",
+            "まま",
+            "家",
+            "に",
+            "入りました"
+          ],
+          "audio_text": "靴を履いたまま家に入りました。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "電気をつけたまま出かけました。",
+          "japanese_with_blank": "電気をつけた[___]出かけました。",
+          "english": "I went out with the lights on.",
+          "target_answer": "まま",
+          "alternative_answers": [],
+          "hint": "as is",
+          "scramble_blocks": [
+            "電気",
+            "を",
+            "つけた",
+            "まま",
+            "出かけました"
+          ],
+          "audio_text": "電気をつけたまま出かけました。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "そのまま待ってください。",
+          "japanese_with_blank": "その[___]待ってください。",
+          "english": "Please wait as you are.",
+          "target_answer": "まま",
+          "alternative_answers": [],
+          "hint": "as is",
+          "scramble_blocks": [
+            "その",
+            "まま",
+            "待ってください"
+          ],
+          "audio_text": "そのまま待ってください。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

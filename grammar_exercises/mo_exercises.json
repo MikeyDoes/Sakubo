@@ -1,0 +1,172 @@
+{
+  "grammar_point": "も",
+  "entry_id": 325436,
+  "categories": [
+    {
+      "id": "also",
+      "label": "Also / Too",
+      "sentences": [
+        {
+          "japanese": "猫も好きです。",
+          "japanese_with_blank": "猫[___]好きです。",
+          "english": "I also like cats.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Also",
+          "scramble_blocks": [
+            "猫",
+            "も",
+            "好きです"
+          ],
+          "audio_text": "猫も好きです。",
+          "notes": "も replaces は/が to mean \"also.\"",
+          "position": 1
+        },
+        {
+          "japanese": "犬も好きです。",
+          "japanese_with_blank": "犬[___]好きです。",
+          "english": "I also like dogs.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Also",
+          "scramble_blocks": [
+            "犬",
+            "も",
+            "好きです"
+          ],
+          "audio_text": "犬も好きです。",
+          "notes": "も shows addition to something previously stated.",
+          "position": 2
+        },
+        {
+          "japanese": "先生も元気です。",
+          "japanese_with_blank": "先生[___]元気です。",
+          "english": "The teacher is also well.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Also",
+          "scramble_blocks": [
+            "先生",
+            "も",
+            "元気です"
+          ],
+          "audio_text": "先生も元気です。",
+          "notes": "も with な-adjective.",
+          "position": 3
+        },
+        {
+          "japanese": "友達も学生です。",
+          "japanese_with_blank": "友達[___]学生です。",
+          "english": "My friend is also a student.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Also",
+          "scramble_blocks": [
+            "友達",
+            "も",
+            "学生です"
+          ],
+          "audio_text": "友達も学生です。",
+          "notes": "も replacing は.",
+          "position": 4
+        },
+        {
+          "japanese": "水も飲みます。",
+          "japanese_with_blank": "水[___]飲みます。",
+          "english": "I also drink water.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Also",
+          "scramble_blocks": [
+            "水",
+            "も",
+            "飲みます"
+          ],
+          "audio_text": "水も飲みます。",
+          "notes": "も with a verb sentence.",
+          "position": 5
+        },
+        {
+          "japanese": "本も読みます。",
+          "japanese_with_blank": "本[___]読みます。",
+          "english": "I also read books.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Also",
+          "scramble_blocks": [
+            "本",
+            "も",
+            "読みます"
+          ],
+          "audio_text": "本も読みます。",
+          "notes": "も replacing を.",
+          "position": 6
+        },
+        {
+          "japanese": "ケーキも美味しいです。",
+          "japanese_with_blank": "ケーキ[___]美味しいです。",
+          "english": "The cake is also delicious.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Also",
+          "scramble_blocks": [
+            "ケーキ",
+            "も",
+            "美味しいです"
+          ],
+          "audio_text": "ケーキも美味しいです。",
+          "notes": "も with い-adjective.",
+          "position": 7
+        },
+        {
+          "japanese": "コーヒーも好きです。",
+          "japanese_with_blank": "コーヒー[___]好きです。",
+          "english": "I also like coffee.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Also",
+          "scramble_blocks": [
+            "コーヒー",
+            "も",
+            "好きです"
+          ],
+          "audio_text": "コーヒーも好きです。",
+          "notes": "Simple addition.",
+          "position": 8
+        },
+        {
+          "japanese": "ここも静かです。",
+          "japanese_with_blank": "ここ[___]静かです。",
+          "english": "This place is also quiet.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Also",
+          "scramble_blocks": [
+            "ここ",
+            "も",
+            "静かです"
+          ],
+          "audio_text": "ここも静かです。",
+          "notes": "も with な-adjective.",
+          "position": 9
+        },
+        {
+          "japanese": "テストも難しいです。",
+          "japanese_with_blank": "テスト[___]難しいです。",
+          "english": "The test is also difficult.",
+          "target_answer": "も",
+          "alternative_answers": [],
+          "hint": "Also",
+          "scramble_blocks": [
+            "テスト",
+            "も",
+            "難しいです"
+          ],
+          "audio_text": "テストも難しいです。",
+          "notes": "も with い-adjective.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

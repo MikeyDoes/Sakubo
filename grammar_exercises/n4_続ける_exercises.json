@@ -1,0 +1,77 @@
+{
+  "grammar_point": "続ける",
+  "entry_id": 325594,
+  "categories": [
+    {
+      "id": "continue_compound",
+      "label": "Continue Doing (V+続ける)",
+      "sentences": [
+        {
+          "japanese": "日本語を勉強し続けています。",
+          "japanese_with_blank": "日本語を勉強し[___]。",
+          "english": "I continue studying Japanese.",
+          "target_answer": "続けています",
+          "alternative_answers": [],
+          "hint": "continue",
+          "scramble_blocks": [
+            "日本語",
+            "を",
+            "勉強し",
+            "続けています"
+          ],
+          "audio_text": "日本語を勉強し続けています。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "走り続けました。",
+          "japanese_with_blank": "走り[___]。",
+          "english": "I kept running.",
+          "target_answer": "続けました",
+          "alternative_answers": [],
+          "hint": "continued",
+          "scramble_blocks": [
+            "走り",
+            "続けました"
+          ],
+          "audio_text": "走り続けました。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "毎日歩き続けています。",
+          "japanese_with_blank": "毎日歩き[___]。",
+          "english": "I keep walking every day.",
+          "target_answer": "続けています",
+          "alternative_answers": [],
+          "hint": "continue",
+          "scramble_blocks": [
+            "毎日",
+            "歩き",
+            "続けています"
+          ],
+          "audio_text": "毎日歩き続けています。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "本を読み続けました。",
+          "japanese_with_blank": "本を読み[___]。",
+          "english": "I continued reading the book.",
+          "target_answer": "続けました",
+          "alternative_answers": [],
+          "hint": "continued",
+          "scramble_blocks": [
+            "本",
+            "を",
+            "読み",
+            "続けました"
+          ],
+          "audio_text": "本を読み続けました。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

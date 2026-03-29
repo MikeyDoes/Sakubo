@@ -1,0 +1,101 @@
+{
+  "grammar_point": "てくれる",
+  "entry_id": 325609,
+  "categories": [
+    {
+      "id": "receiving_help",
+      "label": "Receiving Help from Others",
+      "sentences": [
+        {
+          "japanese": "友達が手伝ってくれました。",
+          "japanese_with_blank": "友達が手伝っ[___]。",
+          "english": "My friend helped me.",
+          "target_answer": "てくれました",
+          "alternative_answers": [],
+          "hint": "did for me (past)",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "手伝っ",
+            "てくれました"
+          ],
+          "audio_text": "友達が手伝ってくれました。",
+          "notes": "て-form + くれる = did for me.",
+          "position": 1
+        },
+        {
+          "japanese": "先生が教えてくれます。",
+          "japanese_with_blank": "先生が教え[___]。",
+          "english": "The teacher teaches me.",
+          "target_answer": "てくれます",
+          "alternative_answers": [],
+          "hint": "does for me",
+          "scramble_blocks": [
+            "先生",
+            "が",
+            "教え",
+            "てくれます"
+          ],
+          "audio_text": "先生が教えてくれます。",
+          "notes": "Receiving a benefit.",
+          "position": 2
+        },
+        {
+          "japanese": "母が作ってくれた料理です。",
+          "japanese_with_blank": "母が作っ[___]料理です。",
+          "english": "It's a dish my mother made for me.",
+          "target_answer": "てくれた",
+          "alternative_answers": [],
+          "hint": "did for me (plain past)",
+          "scramble_blocks": [
+            "母",
+            "が",
+            "作っ",
+            "てくれた",
+            "料理",
+            "です"
+          ],
+          "audio_text": "母が作ってくれた料理です。",
+          "notes": "てくれた modifying a noun.",
+          "position": 3
+        },
+        {
+          "japanese": "兄が本を買ってくれました。",
+          "japanese_with_blank": "兄が本を買っ[___]。",
+          "english": "My older brother bought me a book.",
+          "target_answer": "てくれました",
+          "alternative_answers": [],
+          "hint": "did for me (past)",
+          "scramble_blocks": [
+            "兄",
+            "が",
+            "本",
+            "を",
+            "買っ",
+            "てくれました"
+          ],
+          "audio_text": "兄が本を買ってくれました。",
+          "notes": "買う → 買ってくれる.",
+          "position": 4
+        },
+        {
+          "japanese": "姉が起こしてくれます。",
+          "japanese_with_blank": "姉が起こし[___]。",
+          "english": "My older sister wakes me up.",
+          "target_answer": "てくれます",
+          "alternative_answers": [],
+          "hint": "does for me",
+          "scramble_blocks": [
+            "姉",
+            "が",
+            "起こし",
+            "てくれます"
+          ],
+          "audio_text": "姉が起こしてくれます。",
+          "notes": "起こす → 起こしてくれる.",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

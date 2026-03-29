@@ -1,0 +1,105 @@
+{
+  "grammar_point": "ように",
+  "entry_id": 325617,
+  "categories": [
+    {
+      "id": "purpose",
+      "label": "In Order To / So That",
+      "sentences": [
+        {
+          "japanese": "忘れないように書きました。",
+          "japanese_with_blank": "忘れない[___]書きました。",
+          "english": "I wrote it down so I wouldn't forget.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "so that",
+          "scramble_blocks": [
+            "忘れない",
+            "ように",
+            "書きました"
+          ],
+          "audio_text": "忘れないように書きました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "遅れないように早く出ました。",
+          "japanese_with_blank": "遅れない[___]早く出ました。",
+          "english": "I left early so I wouldn't be late.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "so that",
+          "scramble_blocks": [
+            "遅れない",
+            "ように",
+            "早く",
+            "出ました"
+          ],
+          "audio_text": "遅れないように早く出ました。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "聞こえるように大きい声で話してください。",
+          "japanese_with_blank": "聞こえる[___]大きい声で話してください。",
+          "english": "Please speak in a loud voice so it can be heard.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "so that",
+          "scramble_blocks": [
+            "聞こえる",
+            "ように",
+            "大きい",
+            "声",
+            "で",
+            "話してください"
+          ],
+          "audio_text": "聞こえるように大きい声で話してください。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "分かるようにゆっくり話します。",
+          "japanese_with_blank": "分かる[___]ゆっくり話します。",
+          "english": "I'll speak slowly so you can understand.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "so that",
+          "scramble_blocks": [
+            "分かる",
+            "ように",
+            "ゆっくり",
+            "話します"
+          ],
+          "audio_text": "分かるようにゆっくり話します。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "manner",
+      "label": "In the Manner Of",
+      "sentences": [
+        {
+          "japanese": "先生が言ったようにしてください。",
+          "japanese_with_blank": "先生が言った[___]してください。",
+          "english": "Please do as the teacher said.",
+          "target_answer": "ように",
+          "alternative_answers": [],
+          "hint": "as; like",
+          "scramble_blocks": [
+            "先生",
+            "が",
+            "言った",
+            "ように",
+            "してください"
+          ],
+          "audio_text": "先生が言ったようにしてください。",
+          "notes": "",
+          "position": 1
+        }
+      ]
+    }
+  ]
+}

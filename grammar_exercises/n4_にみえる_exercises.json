@@ -1,0 +1,81 @@
+{
+  "grammar_point": "にみえる",
+  "entry_id": 325574,
+  "categories": [
+    {
+      "id": "looks_like",
+      "label": "Looks Like; Appears",
+      "sentences": [
+        {
+          "japanese": "若く見えますね。",
+          "japanese_with_blank": "若く[___]ね。",
+          "english": "You look young.",
+          "target_answer": "見えます",
+          "alternative_answers": [],
+          "hint": "looks",
+          "scramble_blocks": [
+            "若く",
+            "見えます",
+            "ね"
+          ],
+          "audio_text": "若く見えますね。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "元気に見えます。",
+          "japanese_with_blank": "元気に[___]。",
+          "english": "You look well.",
+          "target_answer": "見えます",
+          "alternative_answers": [],
+          "hint": "looks",
+          "scramble_blocks": [
+            "元気",
+            "に",
+            "見えます"
+          ],
+          "audio_text": "元気に見えます。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "この服は高く見えます。",
+          "japanese_with_blank": "この服は高く[___]。",
+          "english": "These clothes look expensive.",
+          "target_answer": "見えます",
+          "alternative_answers": [],
+          "hint": "looks",
+          "scramble_blocks": [
+            "この",
+            "服",
+            "は",
+            "高く",
+            "見えます"
+          ],
+          "audio_text": "この服は高く見えます。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "あの人は学生に見えます。",
+          "japanese_with_blank": "あの人は学生に[___]。",
+          "english": "That person looks like a student.",
+          "target_answer": "見えます",
+          "alternative_answers": [],
+          "hint": "looks like",
+          "scramble_blocks": [
+            "あの",
+            "人",
+            "は",
+            "学生",
+            "に",
+            "見えます"
+          ],
+          "audio_text": "あの人は学生に見えます。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

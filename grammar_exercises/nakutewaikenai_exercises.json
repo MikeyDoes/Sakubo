@@ -1,0 +1,162 @@
+{
+  "grammar_point": "なくてはいけない",
+  "entry_id": 325470,
+  "categories": [
+    {
+      "id": "obligation",
+      "label": "Must Do",
+      "sentences": [
+        {
+          "japanese": "食べなくてはいけない。",
+          "japanese_with_blank": "食べ[___]。",
+          "english": "I must eat.",
+          "target_answer": "なくてはいけない",
+          "alternative_answers": [],
+          "hint": "Obligation",
+          "scramble_blocks": [
+            "食べ",
+            "なくてはいけない"
+          ],
+          "audio_text": "食べなくてはいけない。",
+          "notes": "なくてはいけない expresses obligation.",
+          "position": 1
+        },
+        {
+          "japanese": "見なくてはいけない。",
+          "japanese_with_blank": "見[___]。",
+          "english": "I must look.",
+          "target_answer": "なくてはいけない",
+          "alternative_answers": [],
+          "hint": "Obligation",
+          "scramble_blocks": [
+            "見",
+            "なくてはいけない"
+          ],
+          "audio_text": "見なくてはいけない。",
+          "notes": "Obligation form.",
+          "position": 2
+        },
+        {
+          "japanese": "読まなくてはいけない。",
+          "japanese_with_blank": "読ま[___]。",
+          "english": "I must read.",
+          "target_answer": "なくてはいけない",
+          "alternative_answers": [],
+          "hint": "Obligation",
+          "scramble_blocks": [
+            "読ま",
+            "なくてはいけない"
+          ],
+          "audio_text": "読まなくてはいけない。",
+          "notes": "う-verb obligation.",
+          "position": 3
+        },
+        {
+          "japanese": "書かなくてはいけない。",
+          "japanese_with_blank": "書か[___]。",
+          "english": "I must write.",
+          "target_answer": "なくてはいけない",
+          "alternative_answers": [],
+          "hint": "Obligation",
+          "scramble_blocks": [
+            "書か",
+            "なくてはいけない"
+          ],
+          "audio_text": "書かなくてはいけない。",
+          "notes": "Writing obligation.",
+          "position": 4
+        },
+        {
+          "japanese": "行かなくてはいけない。",
+          "japanese_with_blank": "行か[___]。",
+          "english": "I must go.",
+          "target_answer": "なくてはいけない",
+          "alternative_answers": [],
+          "hint": "Obligation",
+          "scramble_blocks": [
+            "行か",
+            "なくてはいけない"
+          ],
+          "audio_text": "行かなくてはいけない。",
+          "notes": "Going obligation.",
+          "position": 5
+        },
+        {
+          "japanese": "起きなくてはいけない。",
+          "japanese_with_blank": "起き[___]。",
+          "english": "I must wake up.",
+          "target_answer": "なくてはいけない",
+          "alternative_answers": [],
+          "hint": "Obligation",
+          "scramble_blocks": [
+            "起き",
+            "なくてはいけない"
+          ],
+          "audio_text": "起きなくてはいけない。",
+          "notes": "Morning obligation.",
+          "position": 6
+        },
+        {
+          "japanese": "飲まなくてはいけない。",
+          "japanese_with_blank": "飲ま[___]。",
+          "english": "I must drink.",
+          "target_answer": "なくてはいけない",
+          "alternative_answers": [],
+          "hint": "Obligation",
+          "scramble_blocks": [
+            "飲ま",
+            "なくてはいけない"
+          ],
+          "audio_text": "飲まなくてはいけない。",
+          "notes": "Drinking obligation.",
+          "position": 7
+        },
+        {
+          "japanese": "しなくてはいけない。",
+          "japanese_with_blank": "し[___]。",
+          "english": "I must do it.",
+          "target_answer": "なくてはいけない",
+          "alternative_answers": [],
+          "hint": "Obligation",
+          "scramble_blocks": [
+            "し",
+            "なくてはいけない"
+          ],
+          "audio_text": "しなくてはいけない。",
+          "notes": "Irregular: しなくてはいけない.",
+          "position": 8
+        },
+        {
+          "japanese": "来なくてはいけない。",
+          "japanese_with_blank": "来[___]。",
+          "english": "I must come.",
+          "target_answer": "なくてはいけない",
+          "alternative_answers": [],
+          "hint": "Obligation",
+          "scramble_blocks": [
+            "来",
+            "なくてはいけない"
+          ],
+          "audio_text": "来なくてはいけない。",
+          "notes": "Coming obligation.",
+          "position": 9
+        },
+        {
+          "japanese": "話さなくてはいけない。",
+          "japanese_with_blank": "話さ[___]。",
+          "english": "I must speak.",
+          "target_answer": "なくてはいけない",
+          "alternative_answers": [],
+          "hint": "Obligation",
+          "scramble_blocks": [
+            "話さ",
+            "なくてはいけない"
+          ],
+          "audio_text": "話さなくてはいけない。",
+          "notes": "Speaking obligation.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

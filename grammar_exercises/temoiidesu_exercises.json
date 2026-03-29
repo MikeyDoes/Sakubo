@@ -1,0 +1,162 @@
+{
+  "grammar_point": "てもいいです",
+  "entry_id": 325467,
+  "categories": [
+    {
+      "id": "permission",
+      "label": "Permission",
+      "sentences": [
+        {
+          "japanese": "食べてもいいです。",
+          "japanese_with_blank": "食べて[___]。",
+          "english": "You may eat.",
+          "target_answer": "もいいです",
+          "alternative_answers": [],
+          "hint": "Permission",
+          "scramble_blocks": [
+            "食べて",
+            "もいいです"
+          ],
+          "audio_text": "食べてもいいです。",
+          "notes": "てもいいです grants permission.",
+          "position": 1
+        },
+        {
+          "japanese": "見てもいいです。",
+          "japanese_with_blank": "見て[___]。",
+          "english": "You may look.",
+          "target_answer": "もいいです",
+          "alternative_answers": [],
+          "hint": "Permission",
+          "scramble_blocks": [
+            "見て",
+            "もいいです"
+          ],
+          "audio_text": "見てもいいです。",
+          "notes": "Permission to observe.",
+          "position": 2
+        },
+        {
+          "japanese": "読んでもいいです。",
+          "japanese_with_blank": "読んで[___]。",
+          "english": "You may read.",
+          "target_answer": "もいいです",
+          "alternative_answers": [],
+          "hint": "Permission",
+          "scramble_blocks": [
+            "読んで",
+            "もいいです"
+          ],
+          "audio_text": "読んでもいいです。",
+          "notes": "Permission form.",
+          "position": 3
+        },
+        {
+          "japanese": "書いてもいいです。",
+          "japanese_with_blank": "書いて[___]。",
+          "english": "You may write.",
+          "target_answer": "もいいです",
+          "alternative_answers": [],
+          "hint": "Permission",
+          "scramble_blocks": [
+            "書いて",
+            "もいいです"
+          ],
+          "audio_text": "書いてもいいです。",
+          "notes": "Permission to write.",
+          "position": 4
+        },
+        {
+          "japanese": "飲んでもいいです。",
+          "japanese_with_blank": "飲んで[___]。",
+          "english": "You may drink.",
+          "target_answer": "もいいです",
+          "alternative_answers": [],
+          "hint": "Permission",
+          "scramble_blocks": [
+            "飲んで",
+            "もいいです"
+          ],
+          "audio_text": "飲んでもいいです。",
+          "notes": "Permission to drink.",
+          "position": 5
+        },
+        {
+          "japanese": "行ってもいいです。",
+          "japanese_with_blank": "行って[___]。",
+          "english": "You may go.",
+          "target_answer": "もいいです",
+          "alternative_answers": [],
+          "hint": "Permission",
+          "scramble_blocks": [
+            "行って",
+            "もいいです"
+          ],
+          "audio_text": "行ってもいいです。",
+          "notes": "Permission to leave.",
+          "position": 6
+        },
+        {
+          "japanese": "帰ってもいいです。",
+          "japanese_with_blank": "帰って[___]。",
+          "english": "You may go home.",
+          "target_answer": "もいいです",
+          "alternative_answers": [],
+          "hint": "Permission",
+          "scramble_blocks": [
+            "帰って",
+            "もいいです"
+          ],
+          "audio_text": "帰ってもいいです。",
+          "notes": "Permission to return.",
+          "position": 7
+        },
+        {
+          "japanese": "聞いてもいいです。",
+          "japanese_with_blank": "聞いて[___]。",
+          "english": "You may ask.",
+          "target_answer": "もいいです",
+          "alternative_answers": [],
+          "hint": "Permission",
+          "scramble_blocks": [
+            "聞いて",
+            "もいいです"
+          ],
+          "audio_text": "聞いてもいいです。",
+          "notes": "Permission to inquire.",
+          "position": 8
+        },
+        {
+          "japanese": "話してもいいです。",
+          "japanese_with_blank": "話して[___]。",
+          "english": "You may speak.",
+          "target_answer": "もいいです",
+          "alternative_answers": [],
+          "hint": "Permission",
+          "scramble_blocks": [
+            "話して",
+            "もいいです"
+          ],
+          "audio_text": "話してもいいです。",
+          "notes": "Permission to talk.",
+          "position": 9
+        },
+        {
+          "japanese": "来てもいいです。",
+          "japanese_with_blank": "来て[___]。",
+          "english": "You may come.",
+          "target_answer": "もいいです",
+          "alternative_answers": [],
+          "hint": "Permission",
+          "scramble_blocks": [
+            "来て",
+            "もいいです"
+          ],
+          "audio_text": "来てもいいです。",
+          "notes": "Permission to come.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

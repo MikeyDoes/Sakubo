@@ -1,0 +1,98 @@
+{
+  "grammar_point": "の中で",
+  "entry_id": 325578,
+  "categories": [
+    {
+      "id": "among",
+      "label": "In; Among",
+      "sentences": [
+        {
+          "japanese": "日本の食べ物の中で寿司が一番好きです。",
+          "japanese_with_blank": "日本の食べ物[___]寿司が一番好きです。",
+          "english": "Among Japanese foods, I like sushi the most.",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "among",
+          "scramble_blocks": [
+            "日本",
+            "の",
+            "食べ物",
+            "の中で",
+            "寿司",
+            "が",
+            "一番",
+            "好き",
+            "です"
+          ],
+          "audio_text": "日本の食べ物の中で寿司が一番好きです。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "この本の中でどれが面白いですか。",
+          "japanese_with_blank": "この本[___]どれが面白いですか。",
+          "english": "Which among these books is interesting?",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "among",
+          "scramble_blocks": [
+            "この",
+            "本",
+            "の中で",
+            "どれ",
+            "が",
+            "面白い",
+            "です",
+            "か"
+          ],
+          "audio_text": "この本の中でどれが面白いですか。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "クラスの中で誰が一番背が高いですか。",
+          "japanese_with_blank": "クラス[___]誰が一番背が高いですか。",
+          "english": "Who is the tallest in the class?",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "among",
+          "scramble_blocks": [
+            "クラス",
+            "の中で",
+            "誰",
+            "が",
+            "一番",
+            "背",
+            "が",
+            "高い",
+            "です",
+            "か"
+          ],
+          "audio_text": "クラスの中で誰が一番背が高いですか。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "季節の中で春が一番好きです。",
+          "japanese_with_blank": "季節[___]春が一番好きです。",
+          "english": "Among the seasons, I like spring the most.",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "among",
+          "scramble_blocks": [
+            "季節",
+            "の中で",
+            "春",
+            "が",
+            "一番",
+            "好き",
+            "です"
+          ],
+          "audio_text": "季節の中で春が一番好きです。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

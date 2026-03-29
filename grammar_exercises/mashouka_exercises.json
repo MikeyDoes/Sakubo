@@ -1,0 +1,172 @@
+{
+  "grammar_point": "ましょうか",
+  "entry_id": 325495,
+  "categories": [
+    {
+      "id": "shall_we",
+      "label": "Shall We?",
+      "sentences": [
+        {
+          "japanese": "ケーキを食べましょうか。",
+          "japanese_with_blank": "ケーキを食べ[___]。",
+          "english": "Shall we eat cake?",
+          "target_answer": "ましょうか",
+          "alternative_answers": [],
+          "hint": "Shall we",
+          "scramble_blocks": [
+            "ケーキ",
+            "を",
+            "食べ",
+            "ましょうか"
+          ],
+          "audio_text": "ケーキを食べましょうか。",
+          "notes": "ましょうか asks \"shall we?\"",
+          "position": 1
+        },
+        {
+          "japanese": "コーヒーを飲みましょうか。",
+          "japanese_with_blank": "コーヒーを飲み[___]。",
+          "english": "Shall we drink coffee?",
+          "target_answer": "ましょうか",
+          "alternative_answers": [],
+          "hint": "Shall we",
+          "scramble_blocks": [
+            "コーヒー",
+            "を",
+            "飲み",
+            "ましょうか"
+          ],
+          "audio_text": "コーヒーを飲みましょうか。",
+          "notes": "Polite group suggestion.",
+          "position": 2
+        },
+        {
+          "japanese": "学校に行きましょうか。",
+          "japanese_with_blank": "学校に行き[___]。",
+          "english": "Shall we go to school?",
+          "target_answer": "ましょうか",
+          "alternative_answers": [],
+          "hint": "Shall we",
+          "scramble_blocks": [
+            "学校",
+            "に",
+            "行き",
+            "ましょうか"
+          ],
+          "audio_text": "学校に行きましょうか。",
+          "notes": "Movement proposal.",
+          "position": 3
+        },
+        {
+          "japanese": "テレビを見ましょうか。",
+          "japanese_with_blank": "テレビを見[___]。",
+          "english": "Shall we watch TV?",
+          "target_answer": "ましょうか",
+          "alternative_answers": [],
+          "hint": "Shall we",
+          "scramble_blocks": [
+            "テレビ",
+            "を",
+            "見",
+            "ましょうか"
+          ],
+          "audio_text": "テレビを見ましょうか。",
+          "notes": "Viewing proposal.",
+          "position": 4
+        },
+        {
+          "japanese": "本を読みましょうか。",
+          "japanese_with_blank": "本を読み[___]。",
+          "english": "Shall we read?",
+          "target_answer": "ましょうか",
+          "alternative_answers": [],
+          "hint": "Shall we",
+          "scramble_blocks": [
+            "本",
+            "を",
+            "読み",
+            "ましょうか"
+          ],
+          "audio_text": "本を読みましょうか。",
+          "notes": "Reading proposal.",
+          "position": 5
+        },
+        {
+          "japanese": "書きましょうか。",
+          "japanese_with_blank": "書き[___]。",
+          "english": "Shall we write?",
+          "target_answer": "ましょうか",
+          "alternative_answers": [],
+          "hint": "Shall we",
+          "scramble_blocks": [
+            "書き",
+            "ましょうか"
+          ],
+          "audio_text": "書きましょうか。",
+          "notes": "Writing proposal.",
+          "position": 6
+        },
+        {
+          "japanese": "話しましょうか。",
+          "japanese_with_blank": "話し[___]。",
+          "english": "Shall we talk?",
+          "target_answer": "ましょうか",
+          "alternative_answers": [],
+          "hint": "Shall we",
+          "scramble_blocks": [
+            "話し",
+            "ましょうか"
+          ],
+          "audio_text": "話しましょうか。",
+          "notes": "Conversation proposal.",
+          "position": 7
+        },
+        {
+          "japanese": "帰りましょうか。",
+          "japanese_with_blank": "帰り[___]。",
+          "english": "Shall we go home?",
+          "target_answer": "ましょうか",
+          "alternative_answers": [],
+          "hint": "Shall we",
+          "scramble_blocks": [
+            "帰り",
+            "ましょうか"
+          ],
+          "audio_text": "帰りましょうか。",
+          "notes": "Departure proposal.",
+          "position": 8
+        },
+        {
+          "japanese": "始めましょうか。",
+          "japanese_with_blank": "始め[___]。",
+          "english": "Shall we begin?",
+          "target_answer": "ましょうか",
+          "alternative_answers": [],
+          "hint": "Shall we",
+          "scramble_blocks": [
+            "始め",
+            "ましょうか"
+          ],
+          "audio_text": "始めましょうか。",
+          "notes": "Starting proposal.",
+          "position": 9
+        },
+        {
+          "japanese": "しましょうか。",
+          "japanese_with_blank": "し[___]。",
+          "english": "Shall we do it?",
+          "target_answer": "ましょうか",
+          "alternative_answers": [],
+          "hint": "Shall we",
+          "scramble_blocks": [
+            "し",
+            "ましょうか"
+          ],
+          "audio_text": "しましょうか。",
+          "notes": "Action proposal.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

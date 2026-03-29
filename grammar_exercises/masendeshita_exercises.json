@@ -1,0 +1,182 @@
+{
+  "grammar_point": "ませんでした",
+  "entry_id": 326762,
+  "categories": [
+    {
+      "id": "ru_verb_past_neg",
+      "label": "る-Verb Past Negative",
+      "sentences": [
+        {
+          "japanese": "私は食べませんでした。",
+          "japanese_with_blank": "私は食べ[___]。",
+          "english": "I did not eat.",
+          "target_answer": "ませんでした",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "食べ",
+            "ませんでした"
+          ],
+          "audio_text": "私は食べませんでした。",
+          "notes": "る-verb past neg: 食べ + ませんでした.",
+          "position": 1
+        },
+        {
+          "japanese": "猫は寝ませんでした。",
+          "japanese_with_blank": "猫は寝[___]。",
+          "english": "The cat did not sleep.",
+          "target_answer": "ませんでした",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "猫",
+            "は",
+            "寝",
+            "ませんでした"
+          ],
+          "audio_text": "猫は寝ませんでした。",
+          "notes": "る-verb past negative.",
+          "position": 2
+        },
+        {
+          "japanese": "起きませんでした。",
+          "japanese_with_blank": "起き[___]。",
+          "english": "I did not wake up.",
+          "target_answer": "ませんでした",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "起き",
+            "ませんでした"
+          ],
+          "audio_text": "起きませんでした。",
+          "notes": "Intransitive past negative.",
+          "position": 3
+        },
+        {
+          "japanese": "寝ませんでした。",
+          "japanese_with_blank": "寝[___]。",
+          "english": "I did not sleep.",
+          "target_answer": "ませんでした",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "寝",
+            "ませんでした"
+          ],
+          "audio_text": "寝ませんでした。",
+          "notes": "Past negative for routine.",
+          "position": 4
+        },
+        {
+          "japanese": "友達は見ませんでした。",
+          "japanese_with_blank": "友達は見[___]。",
+          "english": "My friend did not watch.",
+          "target_answer": "ませんでした",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "見",
+            "ませんでした"
+          ],
+          "audio_text": "友達は見ませんでした。",
+          "notes": "る-verb past negative with topic.",
+          "position": 5
+        }
+      ]
+    },
+    {
+      "id": "u_verb_past_neg",
+      "label": "う-Verb Past Negative",
+      "sentences": [
+        {
+          "japanese": "先生は行きませんでした。",
+          "japanese_with_blank": "先生は行き[___]。",
+          "english": "The teacher did not go.",
+          "target_answer": "ませんでした",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "行き",
+            "ませんでした"
+          ],
+          "audio_text": "先生は行きませんでした。",
+          "notes": "う-verb: 行き + ませんでした.",
+          "position": 6
+        },
+        {
+          "japanese": "学生は読みませんでした。",
+          "japanese_with_blank": "学生は読み[___]。",
+          "english": "The student did not read.",
+          "target_answer": "ませんでした",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "学生",
+            "は",
+            "読み",
+            "ませんでした"
+          ],
+          "audio_text": "学生は読みませんでした。",
+          "notes": "う-verb: 読み + ませんでした.",
+          "position": 7
+        },
+        {
+          "japanese": "私は書きませんでした。",
+          "japanese_with_blank": "私は書き[___]。",
+          "english": "I did not write.",
+          "target_answer": "ませんでした",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "書き",
+            "ませんでした"
+          ],
+          "audio_text": "私は書きませんでした。",
+          "notes": "う-verb: 書き + ませんでした.",
+          "position": 8
+        },
+        {
+          "japanese": "子供は走りませんでした。",
+          "japanese_with_blank": "子供は走り[___]。",
+          "english": "The child did not run.",
+          "target_answer": "ませんでした",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "子供",
+            "は",
+            "走り",
+            "ませんでした"
+          ],
+          "audio_text": "子供は走りませんでした。",
+          "notes": "う-verb: 走り + ませんでした.",
+          "position": 9
+        },
+        {
+          "japanese": "聞きませんでした。",
+          "japanese_with_blank": "聞き[___]。",
+          "english": "I did not listen.",
+          "target_answer": "ませんでした",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "聞き",
+            "ませんでした"
+          ],
+          "audio_text": "聞きませんでした。",
+          "notes": "Intransitive past negative.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

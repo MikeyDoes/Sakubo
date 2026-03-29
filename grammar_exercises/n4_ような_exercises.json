@@ -1,0 +1,86 @@
+{
+  "grammar_point": "ような",
+  "entry_id": 325616,
+  "categories": [
+    {
+      "id": "like_adj",
+      "label": "Like; Similar To",
+      "sentences": [
+        {
+          "japanese": "夢のような話です。",
+          "japanese_with_blank": "夢の[___]話です。",
+          "english": "It's a dream-like story.",
+          "target_answer": "ような",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "夢",
+            "の",
+            "ような",
+            "話",
+            "です"
+          ],
+          "audio_text": "夢のような話です。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "子供のような人ですね。",
+          "japanese_with_blank": "子供の[___]人ですね。",
+          "english": "They're a child-like person, aren't they.",
+          "target_answer": "ような",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "子供",
+            "の",
+            "ような",
+            "人",
+            "です",
+            "ね"
+          ],
+          "audio_text": "子供のような人ですね。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "春のような天気です。",
+          "japanese_with_blank": "春の[___]天気です。",
+          "english": "It's spring-like weather.",
+          "target_answer": "ような",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "春",
+            "の",
+            "ような",
+            "天気",
+            "です"
+          ],
+          "audio_text": "春のような天気です。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "花のような色ですね。",
+          "japanese_with_blank": "花の[___]色ですね。",
+          "english": "It's a flower-like color, isn't it.",
+          "target_answer": "ような",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "花",
+            "の",
+            "ような",
+            "色",
+            "です",
+            "ね"
+          ],
+          "audio_text": "花のような色ですね。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

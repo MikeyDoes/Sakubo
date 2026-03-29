@@ -1,0 +1,98 @@
+{
+  "grammar_point": "は〜が…は",
+  "entry_id": 325636,
+  "categories": [
+    {
+      "id": "contrast_comparison",
+      "label": "A but B; Comparison with は～が",
+      "sentences": [
+        {
+          "japanese": "日本語は話せますが、漢字は読めません。",
+          "japanese_with_blank": "日本語は話せます[___]漢字は読めません。",
+          "english": "I can speak Japanese, but I can't read kanji.",
+          "target_answer": "が、",
+          "alternative_answers": [],
+          "hint": "but",
+          "scramble_blocks": [
+            "日本語",
+            "は",
+            "話せます",
+            "が、",
+            "漢字",
+            "は",
+            "読めません"
+          ],
+          "audio_text": "日本語は話せますが、漢字は読めません。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "肉は好きですが、魚は食べません。",
+          "japanese_with_blank": "肉は好きです[___]魚は食べません。",
+          "english": "I like meat, but I don't eat fish.",
+          "target_answer": "が、",
+          "alternative_answers": [],
+          "hint": "but",
+          "scramble_blocks": [
+            "肉",
+            "は",
+            "好き",
+            "です",
+            "が、",
+            "魚",
+            "は",
+            "食べません"
+          ],
+          "audio_text": "肉は好きですが、魚は食べません。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "春は暖かいですが、冬は寒いです。",
+          "japanese_with_blank": "春は暖かいです[___]冬は寒いです。",
+          "english": "Spring is warm, but winter is cold.",
+          "target_answer": "が、",
+          "alternative_answers": [],
+          "hint": "but",
+          "scramble_blocks": [
+            "春",
+            "は",
+            "暖かい",
+            "です",
+            "が、",
+            "冬",
+            "は",
+            "寒い",
+            "です"
+          ],
+          "audio_text": "春は暖かいですが、冬は寒いです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "東京は大きいですが、この町は小さいです。",
+          "japanese_with_blank": "東京は大きいです[___]この町は小さいです。",
+          "english": "Tokyo is big, but this town is small.",
+          "target_answer": "が、",
+          "alternative_answers": [],
+          "hint": "but",
+          "scramble_blocks": [
+            "東京",
+            "は",
+            "大きい",
+            "です",
+            "が、",
+            "この",
+            "町",
+            "は",
+            "小さい",
+            "です"
+          ],
+          "audio_text": "東京は大きいですが、この町は小さいです。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

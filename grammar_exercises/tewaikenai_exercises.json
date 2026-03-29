@@ -1,0 +1,162 @@
+{
+  "grammar_point": "てはいけない",
+  "entry_id": 325469,
+  "categories": [
+    {
+      "id": "prohibition",
+      "label": "Prohibition",
+      "sentences": [
+        {
+          "japanese": "食べてはいけない。",
+          "japanese_with_blank": "食べて[___]。",
+          "english": "You must not eat.",
+          "target_answer": "はいけない",
+          "alternative_answers": [],
+          "hint": "Prohibition",
+          "scramble_blocks": [
+            "食べて",
+            "はいけない"
+          ],
+          "audio_text": "食べてはいけない。",
+          "notes": "てはいけない expresses prohibition.",
+          "position": 1
+        },
+        {
+          "japanese": "見てはいけない。",
+          "japanese_with_blank": "見て[___]。",
+          "english": "You must not look.",
+          "target_answer": "はいけない",
+          "alternative_answers": [],
+          "hint": "Prohibition",
+          "scramble_blocks": [
+            "見て",
+            "はいけない"
+          ],
+          "audio_text": "見てはいけない。",
+          "notes": "Prohibition form.",
+          "position": 2
+        },
+        {
+          "japanese": "読んではいけない。",
+          "japanese_with_blank": "読んで[___]。",
+          "english": "You must not read.",
+          "target_answer": "はいけない",
+          "alternative_answers": [],
+          "hint": "Prohibition",
+          "scramble_blocks": [
+            "読んで",
+            "はいけない"
+          ],
+          "audio_text": "読んではいけない。",
+          "notes": "Forbidden action.",
+          "position": 3
+        },
+        {
+          "japanese": "行ってはいけない。",
+          "japanese_with_blank": "行って[___]。",
+          "english": "You must not go.",
+          "target_answer": "はいけない",
+          "alternative_answers": [],
+          "hint": "Prohibition",
+          "scramble_blocks": [
+            "行って",
+            "はいけない"
+          ],
+          "audio_text": "行ってはいけない。",
+          "notes": "Prohibition of movement.",
+          "position": 4
+        },
+        {
+          "japanese": "飲んではいけない。",
+          "japanese_with_blank": "飲んで[___]。",
+          "english": "You must not drink.",
+          "target_answer": "はいけない",
+          "alternative_answers": [],
+          "hint": "Prohibition",
+          "scramble_blocks": [
+            "飲んで",
+            "はいけない"
+          ],
+          "audio_text": "飲んではいけない。",
+          "notes": "Drinking prohibition.",
+          "position": 5
+        },
+        {
+          "japanese": "書いてはいけない。",
+          "japanese_with_blank": "書いて[___]。",
+          "english": "You must not write.",
+          "target_answer": "はいけない",
+          "alternative_answers": [],
+          "hint": "Prohibition",
+          "scramble_blocks": [
+            "書いて",
+            "はいけない"
+          ],
+          "audio_text": "書いてはいけない。",
+          "notes": "Writing prohibition.",
+          "position": 6
+        },
+        {
+          "japanese": "話してはいけない。",
+          "japanese_with_blank": "話して[___]。",
+          "english": "You must not speak.",
+          "target_answer": "はいけない",
+          "alternative_answers": [],
+          "hint": "Prohibition",
+          "scramble_blocks": [
+            "話して",
+            "はいけない"
+          ],
+          "audio_text": "話してはいけない。",
+          "notes": "Speaking prohibition.",
+          "position": 7
+        },
+        {
+          "japanese": "来てはいけない。",
+          "japanese_with_blank": "来て[___]。",
+          "english": "You must not come.",
+          "target_answer": "はいけない",
+          "alternative_answers": [],
+          "hint": "Prohibition",
+          "scramble_blocks": [
+            "来て",
+            "はいけない"
+          ],
+          "audio_text": "来てはいけない。",
+          "notes": "Coming prohibition.",
+          "position": 8
+        },
+        {
+          "japanese": "してはいけない。",
+          "japanese_with_blank": "して[___]。",
+          "english": "You must not do it.",
+          "target_answer": "はいけない",
+          "alternative_answers": [],
+          "hint": "Prohibition",
+          "scramble_blocks": [
+            "して",
+            "はいけない"
+          ],
+          "audio_text": "してはいけない。",
+          "notes": "Doing prohibition.",
+          "position": 9
+        },
+        {
+          "japanese": "触ってはいけない。",
+          "japanese_with_blank": "触って[___]。",
+          "english": "You must not touch.",
+          "target_answer": "はいけない",
+          "alternative_answers": [],
+          "hint": "Prohibition",
+          "scramble_blocks": [
+            "触って",
+            "はいけない"
+          ],
+          "audio_text": "触ってはいけない。",
+          "notes": "Touching prohibition.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

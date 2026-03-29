@@ -1,0 +1,80 @@
+{
+  "grammar_point": "なければならない",
+  "entry_id": 325635,
+  "categories": [
+    {
+      "id": "must_formal",
+      "label": "Have To; Must (Formal)",
+      "sentences": [
+        {
+          "japanese": "毎日勉強しなければなりません。",
+          "japanese_with_blank": "毎日勉強し[___]。",
+          "english": "I must study every day.",
+          "target_answer": "なければなりません",
+          "alternative_answers": [],
+          "hint": "must",
+          "scramble_blocks": [
+            "毎日",
+            "勉強し",
+            "なければなりません"
+          ],
+          "audio_text": "毎日勉強しなければなりません。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "ルールを守らなければなりません。",
+          "japanese_with_blank": "ルールを守ら[___]。",
+          "english": "You must follow the rules.",
+          "target_answer": "なければなりません",
+          "alternative_answers": [],
+          "hint": "must",
+          "scramble_blocks": [
+            "ルール",
+            "を",
+            "守ら",
+            "なければなりません"
+          ],
+          "audio_text": "ルールを守らなければなりません。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "時間を大切にしなければなりません。",
+          "japanese_with_blank": "時間を大切にし[___]。",
+          "english": "We must value time.",
+          "target_answer": "なければなりません",
+          "alternative_answers": [],
+          "hint": "must",
+          "scramble_blocks": [
+            "時間",
+            "を",
+            "大切に",
+            "し",
+            "なければなりません"
+          ],
+          "audio_text": "時間を大切にしなければなりません。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "自分で決めなければなりません。",
+          "japanese_with_blank": "自分で決め[___]。",
+          "english": "I must decide by myself.",
+          "target_answer": "なければなりません",
+          "alternative_answers": [],
+          "hint": "must",
+          "scramble_blocks": [
+            "自分",
+            "で",
+            "決め",
+            "なければなりません"
+          ],
+          "audio_text": "自分で決めなければなりません。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

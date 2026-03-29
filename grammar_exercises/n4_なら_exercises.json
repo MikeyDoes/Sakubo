@@ -1,0 +1,105 @@
+{
+  "grammar_point": "なら",
+  "entry_id": 325605,
+  "categories": [
+    {
+      "id": "contextual_if",
+      "label": "If (Contextual)",
+      "sentences": [
+        {
+          "japanese": "日本に行くなら春がいいです。",
+          "japanese_with_blank": "日本に行く[___]春がいいです。",
+          "english": "If you're going to Japan, spring is good.",
+          "target_answer": "なら",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "日本",
+            "に",
+            "行く",
+            "なら",
+            "春",
+            "が",
+            "いい",
+            "です"
+          ],
+          "audio_text": "日本に行くなら春がいいです。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "安いなら買いたいです。",
+          "japanese_with_blank": "安い[___]買いたいです。",
+          "english": "If it's cheap, I want to buy it.",
+          "target_answer": "なら",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "安い",
+            "なら",
+            "買いたい",
+            "です"
+          ],
+          "audio_text": "安いなら買いたいです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "明日なら大丈夫です。",
+          "japanese_with_blank": "明日[___]大丈夫です。",
+          "english": "If it's tomorrow, it's fine.",
+          "target_answer": "なら",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "明日",
+            "なら",
+            "大丈夫",
+            "です"
+          ],
+          "audio_text": "明日なら大丈夫です。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "魚なら何でも好きです。",
+          "japanese_with_blank": "魚[___]何でも好きです。",
+          "english": "If it's fish, I like anything.",
+          "target_answer": "なら",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "魚",
+            "なら",
+            "何でも",
+            "好き",
+            "です"
+          ],
+          "audio_text": "魚なら何でも好きです。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "あなたが行くなら私も行きます。",
+          "japanese_with_blank": "あなたが行く[___]私も行きます。",
+          "english": "If you're going, I'll go too.",
+          "target_answer": "なら",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "あなた",
+            "が",
+            "行く",
+            "なら",
+            "私",
+            "も",
+            "行きます"
+          ],
+          "audio_text": "あなたが行くなら私も行きます。",
+          "notes": "",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

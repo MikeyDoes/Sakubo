@@ -1,0 +1,182 @@
+{
+  "grammar_point": "たい",
+  "entry_id": 325478,
+  "categories": [
+    {
+      "id": "want_to",
+      "label": "Want To Do",
+      "sentences": [
+        {
+          "japanese": "ケーキを食べたい。",
+          "japanese_with_blank": "ケーキを食べ[___]。",
+          "english": "I want to eat cake.",
+          "target_answer": "たい",
+          "alternative_answers": [],
+          "hint": "Want to",
+          "scramble_blocks": [
+            "ケーキ",
+            "を",
+            "食べ",
+            "たい"
+          ],
+          "audio_text": "ケーキを食べたい。",
+          "notes": "たい attaches to the masu-stem.",
+          "position": 1
+        },
+        {
+          "japanese": "テレビを見たい。",
+          "japanese_with_blank": "テレビを見[___]。",
+          "english": "I want to watch TV.",
+          "target_answer": "たい",
+          "alternative_answers": [],
+          "hint": "Want to",
+          "scramble_blocks": [
+            "テレビ",
+            "を",
+            "見",
+            "たい"
+          ],
+          "audio_text": "テレビを見たい。",
+          "notes": "Want to do: 見 + たい.",
+          "position": 2
+        },
+        {
+          "japanese": "本を読みたい。",
+          "japanese_with_blank": "本を読み[___]。",
+          "english": "I want to read a book.",
+          "target_answer": "たい",
+          "alternative_answers": [],
+          "hint": "Want to",
+          "scramble_blocks": [
+            "本",
+            "を",
+            "読み",
+            "たい"
+          ],
+          "audio_text": "本を読みたい。",
+          "notes": "う-verb: 読み + たい.",
+          "position": 3
+        },
+        {
+          "japanese": "学校に行きたい。",
+          "japanese_with_blank": "学校に行き[___]。",
+          "english": "I want to go to school.",
+          "target_answer": "たい",
+          "alternative_answers": [],
+          "hint": "Want to",
+          "scramble_blocks": [
+            "学校",
+            "に",
+            "行き",
+            "たい"
+          ],
+          "audio_text": "学校に行きたい。",
+          "notes": "Movement desire.",
+          "position": 4
+        },
+        {
+          "japanese": "水を飲みたい。",
+          "japanese_with_blank": "水を飲み[___]。",
+          "english": "I want to drink water.",
+          "target_answer": "たい",
+          "alternative_answers": [],
+          "hint": "Want to",
+          "scramble_blocks": [
+            "水",
+            "を",
+            "飲み",
+            "たい"
+          ],
+          "audio_text": "水を飲みたい。",
+          "notes": "Thirst expression.",
+          "position": 5
+        },
+        {
+          "japanese": "名前を書きたい。",
+          "japanese_with_blank": "名前を書き[___]。",
+          "english": "I want to write a name.",
+          "target_answer": "たい",
+          "alternative_answers": [],
+          "hint": "Want to",
+          "scramble_blocks": [
+            "名前",
+            "を",
+            "書き",
+            "たい"
+          ],
+          "audio_text": "名前を書きたい。",
+          "notes": "Writing desire.",
+          "position": 6
+        },
+        {
+          "japanese": "車を買いたい。",
+          "japanese_with_blank": "車を買い[___]。",
+          "english": "I want to buy a car.",
+          "target_answer": "たい",
+          "alternative_answers": [],
+          "hint": "Want to",
+          "scramble_blocks": [
+            "車",
+            "を",
+            "買い",
+            "たい"
+          ],
+          "audio_text": "車を買いたい。",
+          "notes": "Purchase desire.",
+          "position": 7
+        },
+        {
+          "japanese": "話を聞きたい。",
+          "japanese_with_blank": "話を聞き[___]。",
+          "english": "I want to hear the story.",
+          "target_answer": "たい",
+          "alternative_answers": [],
+          "hint": "Want to",
+          "scramble_blocks": [
+            "話",
+            "を",
+            "聞き",
+            "たい"
+          ],
+          "audio_text": "話を聞きたい。",
+          "notes": "Hearing desire.",
+          "position": 8
+        },
+        {
+          "japanese": "仕事をしたい。",
+          "japanese_with_blank": "仕事をし[___]。",
+          "english": "I want to do the work.",
+          "target_answer": "たい",
+          "alternative_answers": [],
+          "hint": "Want to",
+          "scramble_blocks": [
+            "仕事",
+            "を",
+            "し",
+            "たい"
+          ],
+          "audio_text": "仕事をしたい。",
+          "notes": "する: し + たい.",
+          "position": 9
+        },
+        {
+          "japanese": "家に帰りたい。",
+          "japanese_with_blank": "家に帰り[___]。",
+          "english": "I want to go home.",
+          "target_answer": "たい",
+          "alternative_answers": [],
+          "hint": "Want to",
+          "scramble_blocks": [
+            "家",
+            "に",
+            "帰り",
+            "たい"
+          ],
+          "audio_text": "家に帰りたい。",
+          "notes": "Common desire expression.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

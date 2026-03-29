@@ -1,0 +1,81 @@
+{
+  "grammar_point": "かどうか",
+  "entry_id": 325607,
+  "categories": [
+    {
+      "id": "indirect_question",
+      "label": "Whether or Not",
+      "sentences": [
+        {
+          "japanese": "行くかどうか分かりません。",
+          "japanese_with_blank": "行く[___]分かりません。",
+          "english": "I don't know whether I'll go or not.",
+          "target_answer": "かどうか",
+          "alternative_answers": [],
+          "hint": "whether or not",
+          "scramble_blocks": [
+            "行く",
+            "かどうか",
+            "分かりません"
+          ],
+          "audio_text": "行くかどうか分かりません。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "おいしいかどうか食べてみましょう。",
+          "japanese_with_blank": "おいしい[___]食べてみましょう。",
+          "english": "Let's try eating it to see whether it's good or not.",
+          "target_answer": "かどうか",
+          "alternative_answers": [],
+          "hint": "whether or not",
+          "scramble_blocks": [
+            "おいしい",
+            "かどうか",
+            "食べてみましょう"
+          ],
+          "audio_text": "おいしいかどうか食べてみましょう。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "彼が来るかどうか聞いてください。",
+          "japanese_with_blank": "彼が来る[___]聞いてください。",
+          "english": "Please ask whether he's coming or not.",
+          "target_answer": "かどうか",
+          "alternative_answers": [],
+          "hint": "whether or not",
+          "scramble_blocks": [
+            "彼",
+            "が",
+            "来る",
+            "かどうか",
+            "聞いてください"
+          ],
+          "audio_text": "彼が来るかどうか聞いてください。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "この答えが正しいかどうか分かりません。",
+          "japanese_with_blank": "この答えが正しい[___]分かりません。",
+          "english": "I don't know whether this answer is correct or not.",
+          "target_answer": "かどうか",
+          "alternative_answers": [],
+          "hint": "whether or not",
+          "scramble_blocks": [
+            "この",
+            "答え",
+            "が",
+            "正しい",
+            "かどうか",
+            "分かりません"
+          ],
+          "audio_text": "この答えが正しいかどうか分かりません。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

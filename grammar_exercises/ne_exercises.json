@@ -1,0 +1,162 @@
+{
+  "grammar_point": "ね",
+  "entry_id": 325434,
+  "categories": [
+    {
+      "id": "agreement",
+      "label": "Agreement / Confirmation",
+      "sentences": [
+        {
+          "japanese": "美味しいですね。",
+          "japanese_with_blank": "美味しいです[___]。",
+          "english": "It is delicious, isn't it?",
+          "target_answer": "ね",
+          "alternative_answers": [],
+          "hint": "Agreement",
+          "scramble_blocks": [
+            "美味しいです",
+            "ね"
+          ],
+          "audio_text": "美味しいですね。",
+          "notes": "ね seeks agreement or confirmation.",
+          "position": 1
+        },
+        {
+          "japanese": "いいですね。",
+          "japanese_with_blank": "いいです[___]。",
+          "english": "It is nice, isn't it?",
+          "target_answer": "ね",
+          "alternative_answers": [],
+          "hint": "Agreement",
+          "scramble_blocks": [
+            "いいです",
+            "ね"
+          ],
+          "audio_text": "いいですね。",
+          "notes": "ね confirms shared feeling.",
+          "position": 2
+        },
+        {
+          "japanese": "面白いですね。",
+          "japanese_with_blank": "面白いです[___]。",
+          "english": "It is interesting, right?",
+          "target_answer": "ね",
+          "alternative_answers": [],
+          "hint": "Agreement",
+          "scramble_blocks": [
+            "面白いです",
+            "ね"
+          ],
+          "audio_text": "面白いですね。",
+          "notes": "Seeking agreement about something.",
+          "position": 3
+        },
+        {
+          "japanese": "静かですね。",
+          "japanese_with_blank": "静かです[___]。",
+          "english": "It is quiet, isn't it?",
+          "target_answer": "ね",
+          "alternative_answers": [],
+          "hint": "Agreement",
+          "scramble_blocks": [
+            "静かです",
+            "ね"
+          ],
+          "audio_text": "静かですね。",
+          "notes": "Confirming an observation.",
+          "position": 4
+        },
+        {
+          "japanese": "元気ですね。",
+          "japanese_with_blank": "元気です[___]。",
+          "english": "You are well, aren't you?",
+          "target_answer": "ね",
+          "alternative_answers": [],
+          "hint": "Agreement",
+          "scramble_blocks": [
+            "元気です",
+            "ね"
+          ],
+          "audio_text": "元気ですね。",
+          "notes": "Confirming someone's condition.",
+          "position": 5
+        },
+        {
+          "japanese": "大きいですね。",
+          "japanese_with_blank": "大きいです[___]。",
+          "english": "It is big, isn't it?",
+          "target_answer": "ね",
+          "alternative_answers": [],
+          "hint": "Agreement",
+          "scramble_blocks": [
+            "大きいです",
+            "ね"
+          ],
+          "audio_text": "大きいですね。",
+          "notes": "Shared observation.",
+          "position": 6
+        },
+        {
+          "japanese": "新しいですね。",
+          "japanese_with_blank": "新しいです[___]。",
+          "english": "It is new, right?",
+          "target_answer": "ね",
+          "alternative_answers": [],
+          "hint": "Agreement",
+          "scramble_blocks": [
+            "新しいです",
+            "ね"
+          ],
+          "audio_text": "新しいですね。",
+          "notes": "ね for shared impression.",
+          "position": 7
+        },
+        {
+          "japanese": "難しいですね。",
+          "japanese_with_blank": "難しいです[___]。",
+          "english": "It is difficult, isn't it?",
+          "target_answer": "ね",
+          "alternative_answers": [],
+          "hint": "Agreement",
+          "scramble_blocks": [
+            "難しいです",
+            "ね"
+          ],
+          "audio_text": "難しいですね。",
+          "notes": "Sympathetic agreement.",
+          "position": 8
+        },
+        {
+          "japanese": "高いですね。",
+          "japanese_with_blank": "高いです[___]。",
+          "english": "It is expensive, isn't it?",
+          "target_answer": "ね",
+          "alternative_answers": [],
+          "hint": "Agreement",
+          "scramble_blocks": [
+            "高いです",
+            "ね"
+          ],
+          "audio_text": "高いですね。",
+          "notes": "Confirming a shared observation.",
+          "position": 9
+        },
+        {
+          "japanese": "暑いですね。",
+          "japanese_with_blank": "暑いです[___]。",
+          "english": "It is hot, isn't it?",
+          "target_answer": "ね",
+          "alternative_answers": [],
+          "hint": "Agreement",
+          "scramble_blocks": [
+            "暑いです",
+            "ね"
+          ],
+          "audio_text": "暑いですね。",
+          "notes": "Weather observation seeking agreement.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

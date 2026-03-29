@@ -1,0 +1,72 @@
+{
+  "grammar_point": "たがる",
+  "entry_id": 325553,
+  "categories": [
+    {
+      "id": "eager_to",
+      "label": "Eager / Wanting To (3rd Person)",
+      "sentences": [
+        {
+          "japanese": "子供はお菓子を食べたがります。",
+          "japanese_with_blank": "子供はお菓子を食べ[___]。",
+          "english": "Children want to eat sweets.",
+          "target_answer": "たがります",
+          "alternative_answers": [],
+          "hint": "want to (3rd person)",
+          "scramble_blocks": [
+            "子供",
+            "は",
+            "お菓子",
+            "を",
+            "食べ",
+            "たがります"
+          ],
+          "audio_text": "子供はお菓子を食べたがります。",
+          "notes": "masu-stem + たがる = 3rd person want.",
+          "position": 1
+        },
+        {
+          "japanese": "彼は日本に行きたがっています。",
+          "japanese_with_blank": "彼は日本に行き[___]います。",
+          "english": "He wants to go to Japan.",
+          "target_answer": "たがって",
+          "alternative_answers": [],
+          "hint": "wanting to (3rd person)",
+          "scramble_blocks": [
+            "彼",
+            "は",
+            "日本",
+            "に",
+            "行き",
+            "たがって",
+            "います"
+          ],
+          "audio_text": "彼は日本に行きたがっています。",
+          "notes": "行く → 行きたがる.",
+          "position": 2
+        },
+        {
+          "japanese": "妹は新しい服を買いたがっています。",
+          "japanese_with_blank": "妹は新しい服を買い[___]います。",
+          "english": "My younger sister wants to buy new clothes.",
+          "target_answer": "たがって",
+          "alternative_answers": [],
+          "hint": "wanting to (3rd person)",
+          "scramble_blocks": [
+            "妹",
+            "は",
+            "新しい",
+            "服",
+            "を",
+            "買い",
+            "たがって",
+            "います"
+          ],
+          "audio_text": "妹は新しい服を買いたがっています。",
+          "notes": "買う → 買いたがる.",
+          "position": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "grammar_point": "か",
+  "entry_id": 325432,
+  "categories": [
+    {
+      "id": "yes_no",
+      "label": "Yes/No Questions",
+      "sentences": [
+        {
+          "japanese": "これは本ですか。",
+          "japanese_with_blank": "これは本です[___]。",
+          "english": "Is this a book?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "これ",
+            "は",
+            "本",
+            "です",
+            "か"
+          ],
+          "audio_text": "これは本ですか。",
+          "notes": "Yes/no question formed by adding か to です.",
+          "position": 1
+        },
+        {
+          "japanese": "それは水ですか。",
+          "japanese_with_blank": "それは水です[___]。",
+          "english": "Is that water?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "それ",
+            "は",
+            "水",
+            "です",
+            "か"
+          ],
+          "audio_text": "それは水ですか。",
+          "notes": "か turns a statement into a question.",
+          "position": 2
+        },
+        {
+          "japanese": "あれは学校ですか。",
+          "japanese_with_blank": "あれは学校です[___]。",
+          "english": "Is that over there a school?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "あれ",
+            "は",
+            "学校",
+            "です",
+            "か"
+          ],
+          "audio_text": "あれは学校ですか。",
+          "notes": "Distance demonstrative in a question.",
+          "position": 3
+        },
+        {
+          "japanese": "友達は学生ですか。",
+          "japanese_with_blank": "友達は学生です[___]。",
+          "english": "Is your friend a student?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "学生",
+            "です",
+            "か"
+          ],
+          "audio_text": "友達は学生ですか。",
+          "notes": "Asking about someone's identity.",
+          "position": 4
+        },
+        {
+          "japanese": "先生は男ですか。",
+          "japanese_with_blank": "先生は男です[___]。",
+          "english": "Is the teacher a man?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "男",
+            "です",
+            "か"
+          ],
+          "audio_text": "先生は男ですか。",
+          "notes": "Asking about a characteristic.",
+          "position": 5
+        },
+        {
+          "japanese": "ここは店ですか。",
+          "japanese_with_blank": "ここは店です[___]。",
+          "english": "Is this place a shop?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "ここ",
+            "は",
+            "店",
+            "です",
+            "か"
+          ],
+          "audio_text": "ここは店ですか。",
+          "notes": "Asking about a location.",
+          "position": 6
+        },
+        {
+          "japanese": "それは電話ですか。",
+          "japanese_with_blank": "それは電話です[___]。",
+          "english": "Is that a telephone?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "それ",
+            "は",
+            "電話",
+            "です",
+            "か"
+          ],
+          "audio_text": "それは電話ですか。",
+          "notes": "Confirming an object's identity.",
+          "position": 7
+        },
+        {
+          "japanese": "あれは犬ですか。",
+          "japanese_with_blank": "あれは犬です[___]。",
+          "english": "Is that over there a dog?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "あれ",
+            "は",
+            "犬",
+            "です",
+            "か"
+          ],
+          "audio_text": "あれは犬ですか。",
+          "notes": "Asking about an animal at a distance.",
+          "position": 8
+        },
+        {
+          "japanese": "これはペンですか。",
+          "japanese_with_blank": "これはペンです[___]。",
+          "english": "Is this a pen?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "これ",
+            "は",
+            "ペン",
+            "です",
+            "か"
+          ],
+          "audio_text": "これはペンですか。",
+          "notes": "Simple object identification question.",
+          "position": 9
+        },
+        {
+          "japanese": "そこはホテルですか。",
+          "japanese_with_blank": "そこはホテルです[___]。",
+          "english": "Is that place a hotel?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "そこ",
+            "は",
+            "ホテル",
+            "です",
+            "か"
+          ],
+          "audio_text": "そこはホテルですか。",
+          "notes": "Asking about a building.",
+          "position": 10
+        }
+      ]
+    },
+    {
+      "id": "question_word",
+      "label": "Question-Word Questions",
+      "sentences": [
+        {
+          "japanese": "これは何ですか。",
+          "japanese_with_blank": "これは何です[___]。",
+          "english": "What is this?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "これ",
+            "は",
+            "何",
+            "です",
+            "か"
+          ],
+          "audio_text": "これは何ですか。",
+          "notes": "Using 何 (what) with か.",
+          "position": 11
+        },
+        {
+          "japanese": "それは何ですか。",
+          "japanese_with_blank": "それは何です[___]。",
+          "english": "What is that?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "それ",
+            "は",
+            "何",
+            "です",
+            "か"
+          ],
+          "audio_text": "それは何ですか。",
+          "notes": "何ですか is a very common pattern.",
+          "position": 12
+        },
+        {
+          "japanese": "名前は何ですか。",
+          "japanese_with_blank": "名前は何です[___]。",
+          "english": "What is your name?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "名前",
+            "は",
+            "何",
+            "です",
+            "か"
+          ],
+          "audio_text": "名前は何ですか。",
+          "notes": "Asking for a name with 何.",
+          "position": 13
+        },
+        {
+          "japanese": "あなたは学生ですか。",
+          "japanese_with_blank": "あなたは学生です[___]。",
+          "english": "Are you a student?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "あなた",
+            "は",
+            "学生",
+            "です",
+            "か"
+          ],
+          "audio_text": "あなたは学生ですか。",
+          "notes": "Asking directly with あなた.",
+          "position": 14
+        },
+        {
+          "japanese": "友達は先生ですか。",
+          "japanese_with_blank": "友達は先生です[___]。",
+          "english": "Is your friend a teacher?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "先生",
+            "です",
+            "か"
+          ],
+          "audio_text": "友達は先生ですか。",
+          "notes": "Asking about someone's role.",
+          "position": 15
+        },
+        {
+          "japanese": "ここは何ですか。",
+          "japanese_with_blank": "ここは何です[___]。",
+          "english": "What is this place?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "ここ",
+            "は",
+            "何",
+            "です",
+            "か"
+          ],
+          "audio_text": "ここは何ですか。",
+          "notes": "Asking about the current location.",
+          "position": 16
+        },
+        {
+          "japanese": "あれは何ですか。",
+          "japanese_with_blank": "あれは何です[___]。",
+          "english": "What is that over there?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "あれ",
+            "は",
+            "何",
+            "です",
+            "か"
+          ],
+          "audio_text": "あれは何ですか。",
+          "notes": "Asking about something far away.",
+          "position": 17
+        },
+        {
+          "japanese": "学校はどこですか。",
+          "japanese_with_blank": "学校はどこです[___]。",
+          "english": "Where is the school?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "学校",
+            "は",
+            "どこ",
+            "です",
+            "か"
+          ],
+          "audio_text": "学校はどこですか。",
+          "notes": "Using どこ to ask about location.",
+          "position": 18
+        },
+        {
+          "japanese": "これはテストですか。",
+          "japanese_with_blank": "これはテストです[___]。",
+          "english": "Is this a test?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "これ",
+            "は",
+            "テスト",
+            "です",
+            "か"
+          ],
+          "audio_text": "これはテストですか。",
+          "notes": "Confirming context with か.",
+          "position": 19
+        },
+        {
+          "japanese": "どなたが先生ですか。",
+          "japanese_with_blank": "どなたが先生です[___]。",
+          "english": "Who is the teacher?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Question",
+          "scramble_blocks": [
+            "どなた",
+            "が",
+            "先生",
+            "です",
+            "か"
+          ],
+          "audio_text": "どなたが先生ですか。",
+          "notes": "Using the polite who (どなた).",
+          "position": 20
+        }
+      ]
+    }
+  ]
+}

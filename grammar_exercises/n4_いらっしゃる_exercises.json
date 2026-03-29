@@ -1,0 +1,81 @@
+{
+  "grammar_point": "いらっしゃる",
+  "entry_id": 326783,
+  "categories": [
+    {
+      "id": "honorific_be",
+      "label": "To Be / Go / Come (Honorific)",
+      "sentences": [
+        {
+          "japanese": "先生はいらっしゃいますか。",
+          "japanese_with_blank": "先生は[___]か。",
+          "english": "Is the teacher here? (honorific)",
+          "target_answer": "いらっしゃいます",
+          "alternative_answers": [],
+          "hint": "is (hon.)",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "いらっしゃいます",
+            "か"
+          ],
+          "audio_text": "先生はいらっしゃいますか。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "社長はどちらにいらっしゃいますか。",
+          "japanese_with_blank": "社長はどちらに[___]か。",
+          "english": "Where is the president? (honorific)",
+          "target_answer": "いらっしゃいます",
+          "alternative_answers": [],
+          "hint": "is (hon.)",
+          "scramble_blocks": [
+            "社長",
+            "は",
+            "どちら",
+            "に",
+            "いらっしゃいます",
+            "か"
+          ],
+          "audio_text": "社長はどちらにいらっしゃいますか。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "明日いらっしゃいますか。",
+          "japanese_with_blank": "明日[___]か。",
+          "english": "Will you come tomorrow? (honorific)",
+          "target_answer": "いらっしゃいます",
+          "alternative_answers": [],
+          "hint": "come (hon.)",
+          "scramble_blocks": [
+            "明日",
+            "いらっしゃいます",
+            "か"
+          ],
+          "audio_text": "明日いらっしゃいますか。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "お元気でいらっしゃいますか。",
+          "japanese_with_blank": "お元気で[___]か。",
+          "english": "Are you well? (honorific)",
+          "target_answer": "いらっしゃいます",
+          "alternative_answers": [],
+          "hint": "are (hon.)",
+          "scramble_blocks": [
+            "お元気",
+            "で",
+            "いらっしゃいます",
+            "か"
+          ],
+          "audio_text": "お元気でいらっしゃいますか。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

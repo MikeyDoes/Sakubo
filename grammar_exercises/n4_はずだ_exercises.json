@@ -1,0 +1,84 @@
+{
+  "grammar_point": "はずだ",
+  "entry_id": 325580,
+  "categories": [
+    {
+      "id": "expectation",
+      "label": "Supposed To; Expected To",
+      "sentences": [
+        {
+          "japanese": "彼は来るはずです。",
+          "japanese_with_blank": "彼は来る[___]。",
+          "english": "He is supposed to come.",
+          "target_answer": "はずです",
+          "alternative_answers": [],
+          "hint": "supposed to",
+          "scramble_blocks": [
+            "彼",
+            "は",
+            "来る",
+            "はずです"
+          ],
+          "audio_text": "彼は来るはずです。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "もう届いたはずです。",
+          "japanese_with_blank": "もう届いた[___]。",
+          "english": "It should have already arrived.",
+          "target_answer": "はずです",
+          "alternative_answers": [],
+          "hint": "should have",
+          "scramble_blocks": [
+            "もう",
+            "届いた",
+            "はずです"
+          ],
+          "audio_text": "もう届いたはずです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "この店は安いはずです。",
+          "japanese_with_blank": "この店は安い[___]。",
+          "english": "This shop should be cheap.",
+          "target_answer": "はずです",
+          "alternative_answers": [],
+          "hint": "should be",
+          "scramble_blocks": [
+            "この",
+            "店",
+            "は",
+            "安い",
+            "はずです"
+          ],
+          "audio_text": "この店は安いはずです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "鍵はかばんの中にあるはずです。",
+          "japanese_with_blank": "鍵はかばんの中にある[___]。",
+          "english": "The key should be in the bag.",
+          "target_answer": "はずです",
+          "alternative_answers": [],
+          "hint": "should be",
+          "scramble_blocks": [
+            "鍵",
+            "は",
+            "かばん",
+            "の",
+            "中",
+            "に",
+            "ある",
+            "はずです"
+          ],
+          "audio_text": "鍵はかばんの中にあるはずです。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

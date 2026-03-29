@@ -1,0 +1,202 @@
+{
+  "grammar_point": "の中で[A]が一番",
+  "entry_id": 325481,
+  "categories": [
+    {
+      "id": "group_superlative",
+      "label": "Best In Group",
+      "sentences": [
+        {
+          "japanese": "飲み物の中で水が一番好きです。",
+          "japanese_with_blank": "飲み物[___]水が一番好きです。",
+          "english": "Among drinks, I like water the most.",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "Group superlative",
+          "scramble_blocks": [
+            "飲み物",
+            "の中で",
+            "水",
+            "が一番",
+            "好き",
+            "です"
+          ],
+          "audio_text": "飲み物の中で水が一番好きです。",
+          "notes": "の中で...が一番 is the superlative in a group.",
+          "position": 1
+        },
+        {
+          "japanese": "動物の中で犬が一番好きです。",
+          "japanese_with_blank": "動物[___]犬が一番好きです。",
+          "english": "Among animals, I like dogs the most.",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "Group superlative",
+          "scramble_blocks": [
+            "動物",
+            "の中で",
+            "犬",
+            "が一番",
+            "好き",
+            "です"
+          ],
+          "audio_text": "動物の中で犬が一番好きです。",
+          "notes": "Group superlative.",
+          "position": 2
+        },
+        {
+          "japanese": "食べ物の中でケーキが一番美味しいです。",
+          "japanese_with_blank": "食べ物[___]ケーキが一番美味しいです。",
+          "english": "Among foods, cake is the most delicious.",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "Group superlative",
+          "scramble_blocks": [
+            "食べ物",
+            "の中で",
+            "ケーキ",
+            "が一番",
+            "美味しい",
+            "です"
+          ],
+          "audio_text": "食べ物の中でケーキが一番美味しいです。",
+          "notes": "Food ranking.",
+          "position": 3
+        },
+        {
+          "japanese": "友達の中で先生が一番有名です。",
+          "japanese_with_blank": "友達[___]先生が一番有名です。",
+          "english": "Among my acquaintances, the teacher is the most famous.",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "Group superlative",
+          "scramble_blocks": [
+            "友達",
+            "の中で",
+            "先生",
+            "が一番",
+            "有名",
+            "です"
+          ],
+          "audio_text": "友達の中で先生が一番有名です。",
+          "notes": "People ranking.",
+          "position": 4
+        },
+        {
+          "japanese": "部屋の中で家が一番大きいです。",
+          "japanese_with_blank": "部屋[___]家が一番大きいです。",
+          "english": "Among rooms, the house is the biggest.",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "Group superlative",
+          "scramble_blocks": [
+            "部屋",
+            "の中で",
+            "家",
+            "が一番",
+            "大きい",
+            "です"
+          ],
+          "audio_text": "部屋の中で家が一番大きいです。",
+          "notes": "Size ranking.",
+          "position": 5
+        },
+        {
+          "japanese": "季節の中で夏が一番暑いです。",
+          "japanese_with_blank": "季節[___]夏が一番暑いです。",
+          "english": "Among seasons, summer is the hottest.",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "Group superlative",
+          "scramble_blocks": [
+            "季節",
+            "の中で",
+            "夏",
+            "が一番",
+            "暑い",
+            "です"
+          ],
+          "audio_text": "季節の中で夏が一番暑いです。",
+          "notes": "Season superlative.",
+          "position": 6
+        },
+        {
+          "japanese": "飲み物の中でコーヒーが一番好きです。",
+          "japanese_with_blank": "飲み物[___]コーヒーが一番好きです。",
+          "english": "Among drinks, I like coffee the most.",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "Group superlative",
+          "scramble_blocks": [
+            "飲み物",
+            "の中で",
+            "コーヒー",
+            "が一番",
+            "好き",
+            "です"
+          ],
+          "audio_text": "飲み物の中でコーヒーが一番好きです。",
+          "notes": "Drink preference.",
+          "position": 7
+        },
+        {
+          "japanese": "本の中でこの本が一番面白いです。",
+          "japanese_with_blank": "本[___]この本が一番面白いです。",
+          "english": "Among books, this book is the most interesting.",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "Group superlative",
+          "scramble_blocks": [
+            "本",
+            "の中で",
+            "この本",
+            "が一番",
+            "面白い",
+            "です"
+          ],
+          "audio_text": "本の中でこの本が一番面白いです。",
+          "notes": "Book ranking.",
+          "position": 8
+        },
+        {
+          "japanese": "動物の中で猫が一番小さいです。",
+          "japanese_with_blank": "動物[___]猫が一番小さいです。",
+          "english": "Among animals, cats are the smallest.",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "Group superlative",
+          "scramble_blocks": [
+            "動物",
+            "の中で",
+            "猫",
+            "が一番",
+            "小さい",
+            "です"
+          ],
+          "audio_text": "動物の中で猫が一番小さいです。",
+          "notes": "Animal size ranking.",
+          "position": 9
+        },
+        {
+          "japanese": "食べ物の中でパンが一番好きです。",
+          "japanese_with_blank": "食べ物[___]パンが一番好きです。",
+          "english": "Among foods, I like bread the most.",
+          "target_answer": "の中で",
+          "alternative_answers": [],
+          "hint": "Group superlative",
+          "scramble_blocks": [
+            "食べ物",
+            "の中で",
+            "パン",
+            "が一番",
+            "好き",
+            "です"
+          ],
+          "audio_text": "食べ物の中でパンが一番好きです。",
+          "notes": "Food preference.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

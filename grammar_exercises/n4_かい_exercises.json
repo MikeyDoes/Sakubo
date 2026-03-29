@@ -1,0 +1,73 @@
+{
+  "grammar_point": "かい",
+  "entry_id": 325535,
+  "categories": [
+    {
+      "id": "casual_question",
+      "label": "Casual Question",
+      "sentences": [
+        {
+          "japanese": "元気かい。",
+          "japanese_with_blank": "元気[___]。",
+          "english": "Are you well? (casual)",
+          "target_answer": "かい",
+          "alternative_answers": [],
+          "hint": "question (casual)",
+          "scramble_blocks": [
+            "元気",
+            "かい"
+          ],
+          "audio_text": "元気かい。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "分かったかい。",
+          "japanese_with_blank": "分かった[___]。",
+          "english": "Did you understand? (casual)",
+          "target_answer": "かい",
+          "alternative_answers": [],
+          "hint": "question (casual)",
+          "scramble_blocks": [
+            "分かった",
+            "かい"
+          ],
+          "audio_text": "分かったかい。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "明日来るかい。",
+          "japanese_with_blank": "明日来る[___]。",
+          "english": "Are you coming tomorrow? (casual)",
+          "target_answer": "かい",
+          "alternative_answers": [],
+          "hint": "question (casual)",
+          "scramble_blocks": [
+            "明日",
+            "来る",
+            "かい"
+          ],
+          "audio_text": "明日来るかい。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "大丈夫かい。",
+          "japanese_with_blank": "大丈夫[___]。",
+          "english": "Are you okay? (casual)",
+          "target_answer": "かい",
+          "alternative_answers": [],
+          "hint": "question (casual)",
+          "scramble_blocks": [
+            "大丈夫",
+            "かい"
+          ],
+          "audio_text": "大丈夫かい。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

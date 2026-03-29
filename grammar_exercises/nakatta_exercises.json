@@ -1,0 +1,162 @@
+{
+  "grammar_point": "なかった",
+  "entry_id": 326765,
+  "categories": [
+    {
+      "id": "plain_past_neg",
+      "label": "Plain Past Negative",
+      "sentences": [
+        {
+          "japanese": "食べなかった。",
+          "japanese_with_blank": "食べ[___]。",
+          "english": "I didn't eat.",
+          "target_answer": "なかった",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "食べ",
+            "なかった"
+          ],
+          "audio_text": "食べなかった。",
+          "notes": "る-verb: 食べ + なかった.",
+          "position": 1
+        },
+        {
+          "japanese": "見なかった。",
+          "japanese_with_blank": "見[___]。",
+          "english": "I didn't see.",
+          "target_answer": "なかった",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "見",
+            "なかった"
+          ],
+          "audio_text": "見なかった。",
+          "notes": "る-verb: 見 + なかった.",
+          "position": 2
+        },
+        {
+          "japanese": "行かなかった。",
+          "japanese_with_blank": "行か[___]。",
+          "english": "I didn't go.",
+          "target_answer": "なかった",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "行か",
+            "なかった"
+          ],
+          "audio_text": "行かなかった。",
+          "notes": "う-verb: 行く → 行かなかった.",
+          "position": 3
+        },
+        {
+          "japanese": "読まなかった。",
+          "japanese_with_blank": "読ま[___]。",
+          "english": "I didn't read.",
+          "target_answer": "なかった",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "読ま",
+            "なかった"
+          ],
+          "audio_text": "読まなかった。",
+          "notes": "う-verb: 読む → 読まなかった.",
+          "position": 4
+        },
+        {
+          "japanese": "書かなかった。",
+          "japanese_with_blank": "書か[___]。",
+          "english": "I didn't write.",
+          "target_answer": "なかった",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "書か",
+            "なかった"
+          ],
+          "audio_text": "書かなかった。",
+          "notes": "う-verb: 書く → 書かなかった.",
+          "position": 5
+        },
+        {
+          "japanese": "飲まなかった。",
+          "japanese_with_blank": "飲ま[___]。",
+          "english": "I didn't drink.",
+          "target_answer": "なかった",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "飲ま",
+            "なかった"
+          ],
+          "audio_text": "飲まなかった。",
+          "notes": "う-verb: 飲む → 飲まなかった.",
+          "position": 6
+        },
+        {
+          "japanese": "話さなかった。",
+          "japanese_with_blank": "話さ[___]。",
+          "english": "I didn't speak.",
+          "target_answer": "なかった",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "話さ",
+            "なかった"
+          ],
+          "audio_text": "話さなかった。",
+          "notes": "う-verb: 話す → 話さなかった.",
+          "position": 7
+        },
+        {
+          "japanese": "しなかった。",
+          "japanese_with_blank": "し[___]。",
+          "english": "I didn't do.",
+          "target_answer": "なかった",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "し",
+            "なかった"
+          ],
+          "audio_text": "しなかった。",
+          "notes": "Irregular: する → しなかった.",
+          "position": 8
+        },
+        {
+          "japanese": "来なかった。",
+          "japanese_with_blank": "来[___]。",
+          "english": "He didn't come.",
+          "target_answer": "なかった",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "来",
+            "なかった"
+          ],
+          "audio_text": "来なかった。",
+          "notes": "Irregular: 来る → 来なかった (こなかった).",
+          "position": 9
+        },
+        {
+          "japanese": "起きなかった。",
+          "japanese_with_blank": "起き[___]。",
+          "english": "I didn't wake up.",
+          "target_answer": "なかった",
+          "alternative_answers": [],
+          "hint": "Past neg",
+          "scramble_blocks": [
+            "起き",
+            "なかった"
+          ],
+          "audio_text": "起きなかった。",
+          "notes": "る-verb: 起き + なかった.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

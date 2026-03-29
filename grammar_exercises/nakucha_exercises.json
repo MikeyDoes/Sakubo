@@ -1,0 +1,162 @@
+{
+  "grammar_point": "なくちゃ",
+  "entry_id": 325475,
+  "categories": [
+    {
+      "id": "casual_must",
+      "label": "Casual Must",
+      "sentences": [
+        {
+          "japanese": "食べなくちゃ。",
+          "japanese_with_blank": "食べ[___]。",
+          "english": "I gotta eat.",
+          "target_answer": "なくちゃ",
+          "alternative_answers": [],
+          "hint": "Casual must",
+          "scramble_blocks": [
+            "食べ",
+            "なくちゃ"
+          ],
+          "audio_text": "食べなくちゃ。",
+          "notes": "なくちゃ is casual for \"must\" / \"gotta.\"",
+          "position": 1
+        },
+        {
+          "japanese": "見なくちゃ。",
+          "japanese_with_blank": "見[___]。",
+          "english": "I gotta look.",
+          "target_answer": "なくちゃ",
+          "alternative_answers": [],
+          "hint": "Casual must",
+          "scramble_blocks": [
+            "見",
+            "なくちゃ"
+          ],
+          "audio_text": "見なくちゃ。",
+          "notes": "Casual obligation.",
+          "position": 2
+        },
+        {
+          "japanese": "読まなくちゃ。",
+          "japanese_with_blank": "読ま[___]。",
+          "english": "I gotta read.",
+          "target_answer": "なくちゃ",
+          "alternative_answers": [],
+          "hint": "Casual must",
+          "scramble_blocks": [
+            "読ま",
+            "なくちゃ"
+          ],
+          "audio_text": "読まなくちゃ。",
+          "notes": "Casual: 読まなくちゃ.",
+          "position": 3
+        },
+        {
+          "japanese": "書かなくちゃ。",
+          "japanese_with_blank": "書か[___]。",
+          "english": "I gotta write.",
+          "target_answer": "なくちゃ",
+          "alternative_answers": [],
+          "hint": "Casual must",
+          "scramble_blocks": [
+            "書か",
+            "なくちゃ"
+          ],
+          "audio_text": "書かなくちゃ。",
+          "notes": "Casual shorthand.",
+          "position": 4
+        },
+        {
+          "japanese": "行かなくちゃ。",
+          "japanese_with_blank": "行か[___]。",
+          "english": "I gotta go.",
+          "target_answer": "なくちゃ",
+          "alternative_answers": [],
+          "hint": "Casual must",
+          "scramble_blocks": [
+            "行か",
+            "なくちゃ"
+          ],
+          "audio_text": "行かなくちゃ。",
+          "notes": "Very common casual obligation.",
+          "position": 5
+        },
+        {
+          "japanese": "起きなくちゃ。",
+          "japanese_with_blank": "起き[___]。",
+          "english": "I gotta wake up.",
+          "target_answer": "なくちゃ",
+          "alternative_answers": [],
+          "hint": "Casual must",
+          "scramble_blocks": [
+            "起き",
+            "なくちゃ"
+          ],
+          "audio_text": "起きなくちゃ。",
+          "notes": "Morning casual obligation.",
+          "position": 6
+        },
+        {
+          "japanese": "しなくちゃ。",
+          "japanese_with_blank": "し[___]。",
+          "english": "I gotta do it.",
+          "target_answer": "なくちゃ",
+          "alternative_answers": [],
+          "hint": "Casual must",
+          "scramble_blocks": [
+            "し",
+            "なくちゃ"
+          ],
+          "audio_text": "しなくちゃ。",
+          "notes": "Casual: しなくちゃ.",
+          "position": 7
+        },
+        {
+          "japanese": "来なくちゃ。",
+          "japanese_with_blank": "来[___]。",
+          "english": "I gotta come.",
+          "target_answer": "なくちゃ",
+          "alternative_answers": [],
+          "hint": "Casual must",
+          "scramble_blocks": [
+            "来",
+            "なくちゃ"
+          ],
+          "audio_text": "来なくちゃ。",
+          "notes": "Casual: 来なくちゃ.",
+          "position": 8
+        },
+        {
+          "japanese": "飲まなくちゃ。",
+          "japanese_with_blank": "飲ま[___]。",
+          "english": "I gotta drink.",
+          "target_answer": "なくちゃ",
+          "alternative_answers": [],
+          "hint": "Casual must",
+          "scramble_blocks": [
+            "飲ま",
+            "なくちゃ"
+          ],
+          "audio_text": "飲まなくちゃ。",
+          "notes": "Casual obligation.",
+          "position": 9
+        },
+        {
+          "japanese": "帰らなくちゃ。",
+          "japanese_with_blank": "帰ら[___]。",
+          "english": "I gotta go home.",
+          "target_answer": "なくちゃ",
+          "alternative_answers": [],
+          "hint": "Casual must",
+          "scramble_blocks": [
+            "帰ら",
+            "なくちゃ"
+          ],
+          "audio_text": "帰らなくちゃ。",
+          "notes": "Common expression.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "grammar_point": "なかなか～ない",
+  "entry_id": 325633,
+  "categories": [
+    {
+      "id": "not_easily",
+      "label": "Not Easily; Struggling To",
+      "sentences": [
+        {
+          "japanese": "なかなか覚えられません。",
+          "japanese_with_blank": "[___]覚えられません。",
+          "english": "I can't easily remember.",
+          "target_answer": "なかなか",
+          "alternative_answers": [],
+          "hint": "not easily",
+          "scramble_blocks": [
+            "なかなか",
+            "覚えられません"
+          ],
+          "audio_text": "なかなか覚えられません。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "なかなか眠れません。",
+          "japanese_with_blank": "[___]眠れません。",
+          "english": "I can't easily fall asleep.",
+          "target_answer": "なかなか",
+          "alternative_answers": [],
+          "hint": "not easily",
+          "scramble_blocks": [
+            "なかなか",
+            "眠れません"
+          ],
+          "audio_text": "なかなか眠れません。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "バスがなかなか来ません。",
+          "japanese_with_blank": "バスが[___]来ません。",
+          "english": "The bus doesn't easily come.",
+          "target_answer": "なかなか",
+          "alternative_answers": [],
+          "hint": "not easily",
+          "scramble_blocks": [
+            "バス",
+            "が",
+            "なかなか",
+            "来ません"
+          ],
+          "audio_text": "バスがなかなか来ません。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "なかなか上手になりません。",
+          "japanese_with_blank": "[___]上手になりません。",
+          "english": "I'm struggling to improve.",
+          "target_answer": "なかなか",
+          "alternative_answers": [],
+          "hint": "not easily",
+          "scramble_blocks": [
+            "なかなか",
+            "上手",
+            "に",
+            "なりません"
+          ],
+          "audio_text": "なかなか上手になりません。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

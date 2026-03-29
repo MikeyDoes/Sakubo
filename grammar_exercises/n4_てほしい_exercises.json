@@ -1,0 +1,156 @@
+{
+  "grammar_point": "てほしい",
+  "entry_id": 326773,
+  "categories": [
+    {
+      "id": "requests",
+      "label": "Wanting Someone to Do Something",
+      "sentences": [
+        {
+          "japanese": "友達に来てほしいです。",
+          "japanese_with_blank": "友達に来[___]です。",
+          "english": "I want my friend to come.",
+          "target_answer": "てほしい",
+          "alternative_answers": [],
+          "hint": "want someone to",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "来",
+            "てほしい",
+            "です"
+          ],
+          "audio_text": "友達に来てほしいです。",
+          "notes": "て-form + ほしい = want someone to do.",
+          "position": 1
+        },
+        {
+          "japanese": "母に分かってほしいです。",
+          "japanese_with_blank": "母に分かっ[___]です。",
+          "english": "I want my mother to understand.",
+          "target_answer": "てほしい",
+          "alternative_answers": [],
+          "hint": "want someone to",
+          "scramble_blocks": [
+            "母",
+            "に",
+            "分かっ",
+            "てほしい",
+            "です"
+          ],
+          "audio_text": "母に分かってほしいです。",
+          "notes": "分かる → 分かってほしい.",
+          "position": 2
+        },
+        {
+          "japanese": "先生に教えてほしいです。",
+          "japanese_with_blank": "先生に教え[___]です。",
+          "english": "I want the teacher to teach me.",
+          "target_answer": "てほしい",
+          "alternative_answers": [],
+          "hint": "want someone to",
+          "scramble_blocks": [
+            "先生",
+            "に",
+            "教え",
+            "てほしい",
+            "です"
+          ],
+          "audio_text": "先生に教えてほしいです。",
+          "notes": "教える → 教えてほしい.",
+          "position": 3
+        },
+        {
+          "japanese": "早く起きてほしいです。",
+          "japanese_with_blank": "早く起き[___]です。",
+          "english": "I want you to wake up early.",
+          "target_answer": "てほしい",
+          "alternative_answers": [],
+          "hint": "want someone to",
+          "scramble_blocks": [
+            "早く",
+            "起き",
+            "てほしい",
+            "です"
+          ],
+          "audio_text": "早く起きてほしいです。",
+          "notes": "起きる → 起きてほしい.",
+          "position": 4
+        },
+        {
+          "japanese": "もっと話してほしいです。",
+          "japanese_with_blank": "もっと話し[___]です。",
+          "english": "I want you to talk more.",
+          "target_answer": "てほしい",
+          "alternative_answers": [],
+          "hint": "want someone to",
+          "scramble_blocks": [
+            "もっと",
+            "話し",
+            "てほしい",
+            "です"
+          ],
+          "audio_text": "もっと話してほしいです。",
+          "notes": "話す → 話してほしい.",
+          "position": 5
+        }
+      ]
+    },
+    {
+      "id": "negative_requests",
+      "label": "Wanting Someone NOT to Do",
+      "sentences": [
+        {
+          "japanese": "ここで走らないでほしいです。",
+          "japanese_with_blank": "ここで走ら[___]です。",
+          "english": "I don't want you to run here.",
+          "target_answer": "ないでほしい",
+          "alternative_answers": [],
+          "hint": "want someone not to",
+          "scramble_blocks": [
+            "ここ",
+            "で",
+            "走ら",
+            "ないでほしい",
+            "です"
+          ],
+          "audio_text": "ここで走らないでほしいです。",
+          "notes": "ない-form + でほしい.",
+          "position": 1
+        },
+        {
+          "japanese": "心配しないでほしいです。",
+          "japanese_with_blank": "心配し[___]です。",
+          "english": "I don't want you to worry.",
+          "target_answer": "ないでほしい",
+          "alternative_answers": [],
+          "hint": "want someone not to",
+          "scramble_blocks": [
+            "心配し",
+            "ないでほしい",
+            "です"
+          ],
+          "audio_text": "心配しないでほしいです。",
+          "notes": "する → しないでほしい.",
+          "position": 2
+        },
+        {
+          "japanese": "遅れないでほしいです。",
+          "japanese_with_blank": "遅れ[___]です。",
+          "english": "I don't want you to be late.",
+          "target_answer": "ないでほしい",
+          "alternative_answers": [],
+          "hint": "want someone not to",
+          "scramble_blocks": [
+            "遅れ",
+            "ないでほしい",
+            "です"
+          ],
+          "audio_text": "遅れないでほしいです。",
+          "notes": "遅れる → 遅れないでほしい.",
+          "position": 3
+        }
+      ]
+    }
+  ]
+}

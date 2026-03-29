@@ -1,0 +1,184 @@
+{
+  "grammar_point": "ても",
+  "entry_id": 325561,
+  "categories": [
+    {
+      "id": "concession_verb",
+      "label": "Concession with Verbs",
+      "sentences": [
+        {
+          "japanese": "雨が降っても行きます。",
+          "japanese_with_blank": "雨が降っ[___]行きます。",
+          "english": "Even if it rains, I will go.",
+          "target_answer": "ても",
+          "alternative_answers": [],
+          "hint": "even if",
+          "scramble_blocks": [
+            "雨",
+            "が",
+            "降っ",
+            "ても",
+            "行きます"
+          ],
+          "audio_text": "雨が降っても行きます。",
+          "notes": "て-form + も = even if",
+          "position": 1
+        },
+        {
+          "japanese": "食べても食べてもお腹がすきます。",
+          "japanese_with_blank": "食べ[___]食べ[___]お腹がすきます。",
+          "english": "No matter how much I eat, I get hungry.",
+          "target_answer": "ても",
+          "alternative_answers": [],
+          "hint": "even if (repeated)",
+          "scramble_blocks": [
+            "食べても",
+            "食べても",
+            "お腹",
+            "が",
+            "すきます"
+          ],
+          "audio_text": "食べても食べてもお腹がすきます。",
+          "notes": "Repeated ても for emphasis.",
+          "position": 2
+        },
+        {
+          "japanese": "走っても間に合いません。",
+          "japanese_with_blank": "走っ[___]間に合いません。",
+          "english": "Even if I run, I won't make it in time.",
+          "target_answer": "ても",
+          "alternative_answers": [],
+          "hint": "even if",
+          "scramble_blocks": [
+            "走っ",
+            "ても",
+            "間に合いません"
+          ],
+          "audio_text": "走っても間に合いません。",
+          "notes": "Verb て-form + も.",
+          "position": 3
+        },
+        {
+          "japanese": "聞いても分かりません。",
+          "japanese_with_blank": "聞い[___]分かりません。",
+          "english": "Even if I ask, I don't understand.",
+          "target_answer": "ても",
+          "alternative_answers": [],
+          "hint": "even if",
+          "scramble_blocks": [
+            "聞い",
+            "ても",
+            "分かりません"
+          ],
+          "audio_text": "聞いても分かりません。",
+          "notes": "Godan verb + ても.",
+          "position": 4
+        },
+        {
+          "japanese": "薬を飲んでも治りません。",
+          "japanese_with_blank": "薬を飲ん[___]治りません。",
+          "english": "Even if I take medicine, it won't get better.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "even if (voiced)",
+          "scramble_blocks": [
+            "薬",
+            "を",
+            "飲ん",
+            "でも",
+            "治りません"
+          ],
+          "audio_text": "薬を飲んでも治りません。",
+          "notes": "飲む → 飲んでも (voiced).",
+          "position": 5
+        }
+      ]
+    },
+    {
+      "id": "concession_adj",
+      "label": "Concession with Adjectives",
+      "sentences": [
+        {
+          "japanese": "高くても買います。",
+          "japanese_with_blank": "高[___]買います。",
+          "english": "Even if it's expensive, I'll buy it.",
+          "target_answer": "くても",
+          "alternative_answers": [],
+          "hint": "i-adj + even if",
+          "scramble_blocks": [
+            "高",
+            "くても",
+            "買います"
+          ],
+          "audio_text": "高くても買います。",
+          "notes": "い-adj: drop い, add くても.",
+          "position": 1
+        },
+        {
+          "japanese": "寒くても泳ぎます。",
+          "japanese_with_blank": "寒[___]泳ぎます。",
+          "english": "Even if it's cold, I'll swim.",
+          "target_answer": "くても",
+          "alternative_answers": [],
+          "hint": "i-adj + even if",
+          "scramble_blocks": [
+            "寒",
+            "くても",
+            "泳ぎます"
+          ],
+          "audio_text": "寒くても泳ぎます。",
+          "notes": "い-adj concession.",
+          "position": 2
+        },
+        {
+          "japanese": "暇でも出かけません。",
+          "japanese_with_blank": "暇[___]出かけません。",
+          "english": "Even if I'm free, I won't go out.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "na-adj + even if",
+          "scramble_blocks": [
+            "暇",
+            "でも",
+            "出かけません"
+          ],
+          "audio_text": "暇でも出かけません。",
+          "notes": "な-adj: + でも.",
+          "position": 3
+        },
+        {
+          "japanese": "遠くても歩きます。",
+          "japanese_with_blank": "遠[___]歩きます。",
+          "english": "Even if it's far, I'll walk.",
+          "target_answer": "くても",
+          "alternative_answers": [],
+          "hint": "i-adj + even if",
+          "scramble_blocks": [
+            "遠",
+            "くても",
+            "歩きます"
+          ],
+          "audio_text": "遠くても歩きます。",
+          "notes": "Distance concession.",
+          "position": 4
+        },
+        {
+          "japanese": "静かでも寝られません。",
+          "japanese_with_blank": "静か[___]寝られません。",
+          "english": "Even if it's quiet, I can't sleep.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "na-adj + even if",
+          "scramble_blocks": [
+            "静か",
+            "でも",
+            "寝られません"
+          ],
+          "audio_text": "静かでも寝られません。",
+          "notes": "な-adj concession.",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

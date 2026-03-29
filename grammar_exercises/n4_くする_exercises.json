@@ -1,0 +1,99 @@
+{
+  "grammar_point": "くする",
+  "entry_id": 325543,
+  "categories": [
+    {
+      "id": "make_adj",
+      "label": "Make Something ~",
+      "sentences": [
+        {
+          "japanese": "部屋をきれいにしてください。",
+          "japanese_with_blank": "部屋をきれい[___]ください。",
+          "english": "Please make the room clean.",
+          "target_answer": "にして",
+          "alternative_answers": [],
+          "hint": "make ~",
+          "scramble_blocks": [
+            "部屋",
+            "を",
+            "きれい",
+            "にして",
+            "ください"
+          ],
+          "audio_text": "部屋をきれいにしてください。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "音を小さくしてください。",
+          "japanese_with_blank": "音を小さ[___]ください。",
+          "english": "Please make the sound quieter.",
+          "target_answer": "くして",
+          "alternative_answers": [],
+          "hint": "make ~",
+          "scramble_blocks": [
+            "音",
+            "を",
+            "小さ",
+            "くして",
+            "ください"
+          ],
+          "audio_text": "音を小さくしてください。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "もっと大きくしてください。",
+          "japanese_with_blank": "もっと大き[___]ください。",
+          "english": "Please make it bigger.",
+          "target_answer": "くして",
+          "alternative_answers": [],
+          "hint": "make ~",
+          "scramble_blocks": [
+            "もっと",
+            "大き",
+            "くして",
+            "ください"
+          ],
+          "audio_text": "もっと大きくしてください。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "部屋を暗くしました。",
+          "japanese_with_blank": "部屋を暗[___]。",
+          "english": "I made the room dark.",
+          "target_answer": "くしました",
+          "alternative_answers": [],
+          "hint": "made ~",
+          "scramble_blocks": [
+            "部屋",
+            "を",
+            "暗",
+            "くしました"
+          ],
+          "audio_text": "部屋を暗くしました。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "髪を短くしました。",
+          "japanese_with_blank": "髪を短[___]。",
+          "english": "I made my hair short.",
+          "target_answer": "くしました",
+          "alternative_answers": [],
+          "hint": "made ~",
+          "scramble_blocks": [
+            "髪",
+            "を",
+            "短",
+            "くしました"
+          ],
+          "audio_text": "髪を短くしました。",
+          "notes": "",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

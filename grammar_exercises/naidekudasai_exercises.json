@@ -1,0 +1,162 @@
+{
+  "grammar_point": "ないでください",
+  "entry_id": 325473,
+  "categories": [
+    {
+      "id": "negative_request",
+      "label": "Please Don't",
+      "sentences": [
+        {
+          "japanese": "食べないでください。",
+          "japanese_with_blank": "食べ[___]。",
+          "english": "Please don't eat.",
+          "target_answer": "ないでください",
+          "alternative_answers": [],
+          "hint": "Neg request",
+          "scramble_blocks": [
+            "食べ",
+            "ないでください"
+          ],
+          "audio_text": "食べないでください。",
+          "notes": "ないでください is a polite negative request.",
+          "position": 1
+        },
+        {
+          "japanese": "見ないでください。",
+          "japanese_with_blank": "見[___]。",
+          "english": "Please don't look.",
+          "target_answer": "ないでください",
+          "alternative_answers": [],
+          "hint": "Neg request",
+          "scramble_blocks": [
+            "見",
+            "ないでください"
+          ],
+          "audio_text": "見ないでください。",
+          "notes": "Negative request form.",
+          "position": 2
+        },
+        {
+          "japanese": "読まないでください。",
+          "japanese_with_blank": "読ま[___]。",
+          "english": "Please don't read.",
+          "target_answer": "ないでください",
+          "alternative_answers": [],
+          "hint": "Neg request",
+          "scramble_blocks": [
+            "読ま",
+            "ないでください"
+          ],
+          "audio_text": "読まないでください。",
+          "notes": "う-verb: 読まないでください.",
+          "position": 3
+        },
+        {
+          "japanese": "行かないでください。",
+          "japanese_with_blank": "行か[___]。",
+          "english": "Please don't go.",
+          "target_answer": "ないでください",
+          "alternative_answers": [],
+          "hint": "Neg request",
+          "scramble_blocks": [
+            "行か",
+            "ないでください"
+          ],
+          "audio_text": "行かないでください。",
+          "notes": "Negative movement request.",
+          "position": 4
+        },
+        {
+          "japanese": "飲まないでください。",
+          "japanese_with_blank": "飲ま[___]。",
+          "english": "Please don't drink.",
+          "target_answer": "ないでください",
+          "alternative_answers": [],
+          "hint": "Neg request",
+          "scramble_blocks": [
+            "飲ま",
+            "ないでください"
+          ],
+          "audio_text": "飲まないでください。",
+          "notes": "Negative drinking request.",
+          "position": 5
+        },
+        {
+          "japanese": "書かないでください。",
+          "japanese_with_blank": "書か[___]。",
+          "english": "Please don't write.",
+          "target_answer": "ないでください",
+          "alternative_answers": [],
+          "hint": "Neg request",
+          "scramble_blocks": [
+            "書か",
+            "ないでください"
+          ],
+          "audio_text": "書かないでください。",
+          "notes": "Negative writing request.",
+          "position": 6
+        },
+        {
+          "japanese": "話さないでください。",
+          "japanese_with_blank": "話さ[___]。",
+          "english": "Please don't speak.",
+          "target_answer": "ないでください",
+          "alternative_answers": [],
+          "hint": "Neg request",
+          "scramble_blocks": [
+            "話さ",
+            "ないでください"
+          ],
+          "audio_text": "話さないでください。",
+          "notes": "Negative speaking request.",
+          "position": 7
+        },
+        {
+          "japanese": "しないでください。",
+          "japanese_with_blank": "し[___]。",
+          "english": "Please don't do it.",
+          "target_answer": "ないでください",
+          "alternative_answers": [],
+          "hint": "Neg request",
+          "scramble_blocks": [
+            "し",
+            "ないでください"
+          ],
+          "audio_text": "しないでください。",
+          "notes": "Irregular: しないでください.",
+          "position": 8
+        },
+        {
+          "japanese": "来ないでください。",
+          "japanese_with_blank": "来[___]。",
+          "english": "Please don't come.",
+          "target_answer": "ないでください",
+          "alternative_answers": [],
+          "hint": "Neg request",
+          "scramble_blocks": [
+            "来",
+            "ないでください"
+          ],
+          "audio_text": "来ないでください。",
+          "notes": "Irregular: 来ないでください.",
+          "position": 9
+        },
+        {
+          "japanese": "触らないでください。",
+          "japanese_with_blank": "触ら[___]。",
+          "english": "Please don't touch.",
+          "target_answer": "ないでください",
+          "alternative_answers": [],
+          "hint": "Neg request",
+          "scramble_blocks": [
+            "触ら",
+            "ないでください"
+          ],
+          "audio_text": "触らないでください。",
+          "notes": "Negative touching request.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

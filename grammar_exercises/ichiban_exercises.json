@@ -1,0 +1,172 @@
+{
+  "grammar_point": "いちばん",
+  "entry_id": 325453,
+  "categories": [
+    {
+      "id": "superlative",
+      "label": "Superlative",
+      "sentences": [
+        {
+          "japanese": "いちばん大きいです。",
+          "japanese_with_blank": "[___]大きいです。",
+          "english": "It is the biggest.",
+          "target_answer": "いちばん",
+          "alternative_answers": [],
+          "hint": "Superlative",
+          "scramble_blocks": [
+            "いちばん",
+            "大きい",
+            "です"
+          ],
+          "audio_text": "いちばん大きいです。",
+          "notes": "いちばん + adjective = superlative.",
+          "position": 1
+        },
+        {
+          "japanese": "いちばん小さいです。",
+          "japanese_with_blank": "[___]小さいです。",
+          "english": "It is the smallest.",
+          "target_answer": "いちばん",
+          "alternative_answers": [],
+          "hint": "Superlative",
+          "scramble_blocks": [
+            "いちばん",
+            "小さい",
+            "です"
+          ],
+          "audio_text": "いちばん小さいです。",
+          "notes": "Superlative form.",
+          "position": 2
+        },
+        {
+          "japanese": "いちばん美味しいです。",
+          "japanese_with_blank": "[___]美味しいです。",
+          "english": "It is the most delicious.",
+          "target_answer": "いちばん",
+          "alternative_answers": [],
+          "hint": "Superlative",
+          "scramble_blocks": [
+            "いちばん",
+            "美味しい",
+            "です"
+          ],
+          "audio_text": "いちばん美味しいです。",
+          "notes": "Food superlative.",
+          "position": 3
+        },
+        {
+          "japanese": "いちばん面白いです。",
+          "japanese_with_blank": "[___]面白いです。",
+          "english": "It is the most interesting.",
+          "target_answer": "いちばん",
+          "alternative_answers": [],
+          "hint": "Superlative",
+          "scramble_blocks": [
+            "いちばん",
+            "面白い",
+            "です"
+          ],
+          "audio_text": "いちばん面白いです。",
+          "notes": "Entertainment superlative.",
+          "position": 4
+        },
+        {
+          "japanese": "いちばん高いです。",
+          "japanese_with_blank": "[___]高いです。",
+          "english": "It is the most expensive.",
+          "target_answer": "いちばん",
+          "alternative_answers": [],
+          "hint": "Superlative",
+          "scramble_blocks": [
+            "いちばん",
+            "高い",
+            "です"
+          ],
+          "audio_text": "いちばん高いです。",
+          "notes": "Price superlative.",
+          "position": 5
+        },
+        {
+          "japanese": "いちばん新しいです。",
+          "japanese_with_blank": "[___]新しいです。",
+          "english": "It is the newest.",
+          "target_answer": "いちばん",
+          "alternative_answers": [],
+          "hint": "Superlative",
+          "scramble_blocks": [
+            "いちばん",
+            "新しい",
+            "です"
+          ],
+          "audio_text": "いちばん新しいです。",
+          "notes": "Newness superlative.",
+          "position": 6
+        },
+        {
+          "japanese": "いちばん難しいです。",
+          "japanese_with_blank": "[___]難しいです。",
+          "english": "It is the most difficult.",
+          "target_answer": "いちばん",
+          "alternative_answers": [],
+          "hint": "Superlative",
+          "scramble_blocks": [
+            "いちばん",
+            "難しい",
+            "です"
+          ],
+          "audio_text": "いちばん難しいです。",
+          "notes": "Difficulty superlative.",
+          "position": 7
+        },
+        {
+          "japanese": "いちばん好きです。",
+          "japanese_with_blank": "[___]好きです。",
+          "english": "It is the most liked.",
+          "target_answer": "いちばん",
+          "alternative_answers": [],
+          "hint": "Superlative",
+          "scramble_blocks": [
+            "いちばん",
+            "好き",
+            "です"
+          ],
+          "audio_text": "いちばん好きです。",
+          "notes": "Preference superlative.",
+          "position": 8
+        },
+        {
+          "japanese": "いちばん有名です。",
+          "japanese_with_blank": "[___]有名です。",
+          "english": "It is the most famous.",
+          "target_answer": "いちばん",
+          "alternative_answers": [],
+          "hint": "Superlative",
+          "scramble_blocks": [
+            "いちばん",
+            "有名",
+            "です"
+          ],
+          "audio_text": "いちばん有名です。",
+          "notes": "Fame superlative.",
+          "position": 9
+        },
+        {
+          "japanese": "いちばん元気です。",
+          "japanese_with_blank": "[___]元気です。",
+          "english": "It is the most energetic.",
+          "target_answer": "いちばん",
+          "alternative_answers": [],
+          "hint": "Superlative",
+          "scramble_blocks": [
+            "いちばん",
+            "元気",
+            "です"
+          ],
+          "audio_text": "いちばん元気です。",
+          "notes": "Energy superlative.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

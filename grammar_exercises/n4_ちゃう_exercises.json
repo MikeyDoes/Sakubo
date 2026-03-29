@@ -1,0 +1,88 @@
+{
+  "grammar_point": "ちゃう",
+  "entry_id": 325600,
+  "categories": [
+    {
+      "id": "casual_completion",
+      "label": "Casual Completion / Regret",
+      "sentences": [
+        {
+          "japanese": "全部食べちゃった。",
+          "japanese_with_blank": "全部食べ[___]。",
+          "english": "I ate it all up.",
+          "target_answer": "ちゃった",
+          "alternative_answers": [],
+          "hint": "finished (casual)",
+          "scramble_blocks": [
+            "全部",
+            "食べ",
+            "ちゃった"
+          ],
+          "audio_text": "全部食べちゃった。",
+          "notes": "てしまった → ちゃった.",
+          "position": 1
+        },
+        {
+          "japanese": "忘れちゃった。",
+          "japanese_with_blank": "忘れ[___]。",
+          "english": "I forgot (oops).",
+          "target_answer": "ちゃった",
+          "alternative_answers": [],
+          "hint": "accidentally (casual)",
+          "scramble_blocks": [
+            "忘れ",
+            "ちゃった"
+          ],
+          "audio_text": "忘れちゃった。",
+          "notes": "Casual regret.",
+          "position": 2
+        },
+        {
+          "japanese": "寝ちゃった。",
+          "japanese_with_blank": "寝[___]。",
+          "english": "I fell asleep (accidentally).",
+          "target_answer": "ちゃった",
+          "alternative_answers": [],
+          "hint": "accidentally (casual)",
+          "scramble_blocks": [
+            "寝",
+            "ちゃった"
+          ],
+          "audio_text": "寝ちゃった。",
+          "notes": "寝る → 寝ちゃう.",
+          "position": 3
+        },
+        {
+          "japanese": "壊れちゃった。",
+          "japanese_with_blank": "壊れ[___]。",
+          "english": "It broke (unfortunately).",
+          "target_answer": "ちゃった",
+          "alternative_answers": [],
+          "hint": "unfortunately (casual)",
+          "scramble_blocks": [
+            "壊れ",
+            "ちゃった"
+          ],
+          "audio_text": "壊れちゃった。",
+          "notes": "壊れる → 壊れちゃう.",
+          "position": 4
+        },
+        {
+          "japanese": "飲んじゃった。",
+          "japanese_with_blank": "飲ん[___]。",
+          "english": "I drank it all up.",
+          "target_answer": "じゃった",
+          "alternative_answers": [],
+          "hint": "finished (casual voiced)",
+          "scramble_blocks": [
+            "飲ん",
+            "じゃった"
+          ],
+          "audio_text": "飲んじゃった。",
+          "notes": "でしまった → じゃった.",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

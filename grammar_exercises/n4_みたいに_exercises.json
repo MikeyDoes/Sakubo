@@ -1,0 +1,81 @@
+{
+  "grammar_point": "みたいに",
+  "entry_id": 326778,
+  "categories": [
+    {
+      "id": "casual_like_adv",
+      "label": "Like (Casual Adverb)",
+      "sentences": [
+        {
+          "japanese": "子供みたいに遊びました。",
+          "japanese_with_blank": "子供[___]遊びました。",
+          "english": "I played like a child.",
+          "target_answer": "みたいに",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "子供",
+            "みたいに",
+            "遊びました"
+          ],
+          "audio_text": "子供みたいに遊びました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "鳥みたいに飛びたいです。",
+          "japanese_with_blank": "鳥[___]飛びたいです。",
+          "english": "I want to fly like a bird.",
+          "target_answer": "みたいに",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "鳥",
+            "みたいに",
+            "飛びたい",
+            "です"
+          ],
+          "audio_text": "鳥みたいに飛びたいです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "日本人みたいに話したいです。",
+          "japanese_with_blank": "日本人[___]話したいです。",
+          "english": "I want to speak like a Japanese person.",
+          "target_answer": "みたいに",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "日本人",
+            "みたいに",
+            "話したい",
+            "です"
+          ],
+          "audio_text": "日本人みたいに話したいです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "先生みたいに上手になりたいです。",
+          "japanese_with_blank": "先生[___]上手になりたいです。",
+          "english": "I want to become skilled like my teacher.",
+          "target_answer": "みたいに",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "先生",
+            "みたいに",
+            "上手",
+            "に",
+            "なりたい",
+            "です"
+          ],
+          "audio_text": "先生みたいに上手になりたいです。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

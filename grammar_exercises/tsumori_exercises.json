@@ -1,0 +1,172 @@
+{
+  "grammar_point": "つもり",
+  "entry_id": 326766,
+  "categories": [
+    {
+      "id": "intention",
+      "label": "Intention",
+      "sentences": [
+        {
+          "japanese": "行くつもりです。",
+          "japanese_with_blank": "行く[___]です。",
+          "english": "I intend to go.",
+          "target_answer": "つもり",
+          "alternative_answers": [],
+          "hint": "Intend to",
+          "scramble_blocks": [
+            "行く",
+            "つもり",
+            "です"
+          ],
+          "audio_text": "行くつもりです。",
+          "notes": "つもり expresses intention.",
+          "position": 1
+        },
+        {
+          "japanese": "食べるつもりです。",
+          "japanese_with_blank": "食べる[___]です。",
+          "english": "I intend to eat.",
+          "target_answer": "つもり",
+          "alternative_answers": [],
+          "hint": "Intend to",
+          "scramble_blocks": [
+            "食べる",
+            "つもり",
+            "です"
+          ],
+          "audio_text": "食べるつもりです。",
+          "notes": "Eating intention.",
+          "position": 2
+        },
+        {
+          "japanese": "勉強するつもりです。",
+          "japanese_with_blank": "勉強する[___]です。",
+          "english": "I intend to study.",
+          "target_answer": "つもり",
+          "alternative_answers": [],
+          "hint": "Intend to",
+          "scramble_blocks": [
+            "勉強する",
+            "つもり",
+            "です"
+          ],
+          "audio_text": "勉強するつもりです。",
+          "notes": "Study intention.",
+          "position": 3
+        },
+        {
+          "japanese": "帰るつもりです。",
+          "japanese_with_blank": "帰る[___]です。",
+          "english": "I intend to go home.",
+          "target_answer": "つもり",
+          "alternative_answers": [],
+          "hint": "Intend to",
+          "scramble_blocks": [
+            "帰る",
+            "つもり",
+            "です"
+          ],
+          "audio_text": "帰るつもりです。",
+          "notes": "Return intention.",
+          "position": 4
+        },
+        {
+          "japanese": "買うつもりです。",
+          "japanese_with_blank": "買う[___]です。",
+          "english": "I intend to buy.",
+          "target_answer": "つもり",
+          "alternative_answers": [],
+          "hint": "Intend to",
+          "scramble_blocks": [
+            "買う",
+            "つもり",
+            "です"
+          ],
+          "audio_text": "買うつもりです。",
+          "notes": "Purchase intention.",
+          "position": 5
+        },
+        {
+          "japanese": "読むつもりです。",
+          "japanese_with_blank": "読む[___]です。",
+          "english": "I intend to read.",
+          "target_answer": "つもり",
+          "alternative_answers": [],
+          "hint": "Intend to",
+          "scramble_blocks": [
+            "読む",
+            "つもり",
+            "です"
+          ],
+          "audio_text": "読むつもりです。",
+          "notes": "Reading intention.",
+          "position": 6
+        },
+        {
+          "japanese": "書くつもりです。",
+          "japanese_with_blank": "書く[___]です。",
+          "english": "I intend to write.",
+          "target_answer": "つもり",
+          "alternative_answers": [],
+          "hint": "Intend to",
+          "scramble_blocks": [
+            "書く",
+            "つもり",
+            "です"
+          ],
+          "audio_text": "書くつもりです。",
+          "notes": "Writing intention.",
+          "position": 7
+        },
+        {
+          "japanese": "見るつもりです。",
+          "japanese_with_blank": "見る[___]です。",
+          "english": "I intend to watch.",
+          "target_answer": "つもり",
+          "alternative_answers": [],
+          "hint": "Intend to",
+          "scramble_blocks": [
+            "見る",
+            "つもり",
+            "です"
+          ],
+          "audio_text": "見るつもりです。",
+          "notes": "Viewing intention.",
+          "position": 8
+        },
+        {
+          "japanese": "来るつもりです。",
+          "japanese_with_blank": "来る[___]です。",
+          "english": "I intend to come.",
+          "target_answer": "つもり",
+          "alternative_answers": [],
+          "hint": "Intend to",
+          "scramble_blocks": [
+            "来る",
+            "つもり",
+            "です"
+          ],
+          "audio_text": "来るつもりです。",
+          "notes": "Coming intention.",
+          "position": 9
+        },
+        {
+          "japanese": "飲むつもりです。",
+          "japanese_with_blank": "飲む[___]です。",
+          "english": "I intend to drink.",
+          "target_answer": "つもり",
+          "alternative_answers": [],
+          "hint": "Intend to",
+          "scramble_blocks": [
+            "飲む",
+            "つもり",
+            "です"
+          ],
+          "audio_text": "飲むつもりです。",
+          "notes": "Drinking intention.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

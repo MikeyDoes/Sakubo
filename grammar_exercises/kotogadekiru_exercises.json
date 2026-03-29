@@ -1,0 +1,182 @@
+{
+  "grammar_point": "ことができる",
+  "entry_id": 326767,
+  "categories": [
+    {
+      "id": "ability",
+      "label": "Can Do / Ability",
+      "sentences": [
+        {
+          "japanese": "泳ぐことができます。",
+          "japanese_with_blank": "泳ぐ[___]。",
+          "english": "I can swim.",
+          "target_answer": "ことができます",
+          "alternative_answers": [
+            "ことができる"
+          ],
+          "hint": "Can do",
+          "scramble_blocks": [
+            "泳ぐ",
+            "ことができます"
+          ],
+          "audio_text": "泳ぐことができます。",
+          "notes": "ことができる expresses ability.",
+          "position": 1
+        },
+        {
+          "japanese": "読むことができます。",
+          "japanese_with_blank": "読む[___]。",
+          "english": "I can read.",
+          "target_answer": "ことができます",
+          "alternative_answers": [
+            "ことができる"
+          ],
+          "hint": "Can do",
+          "scramble_blocks": [
+            "読む",
+            "ことができます"
+          ],
+          "audio_text": "読むことができます。",
+          "notes": "Reading ability.",
+          "position": 2
+        },
+        {
+          "japanese": "書くことができます。",
+          "japanese_with_blank": "書く[___]。",
+          "english": "I can write.",
+          "target_answer": "ことができます",
+          "alternative_answers": [
+            "ことができる"
+          ],
+          "hint": "Can do",
+          "scramble_blocks": [
+            "書く",
+            "ことができます"
+          ],
+          "audio_text": "書くことができます。",
+          "notes": "Writing ability.",
+          "position": 3
+        },
+        {
+          "japanese": "話すことができます。",
+          "japanese_with_blank": "話す[___]。",
+          "english": "I can speak.",
+          "target_answer": "ことができます",
+          "alternative_answers": [
+            "ことができる"
+          ],
+          "hint": "Can do",
+          "scramble_blocks": [
+            "話す",
+            "ことができます"
+          ],
+          "audio_text": "話すことができます。",
+          "notes": "Speaking ability.",
+          "position": 4
+        },
+        {
+          "japanese": "食べることができます。",
+          "japanese_with_blank": "食べる[___]。",
+          "english": "I can eat.",
+          "target_answer": "ことができます",
+          "alternative_answers": [
+            "ことができる"
+          ],
+          "hint": "Can do",
+          "scramble_blocks": [
+            "食べる",
+            "ことができます"
+          ],
+          "audio_text": "食べることができます。",
+          "notes": "Eating ability.",
+          "position": 5
+        },
+        {
+          "japanese": "走ることができます。",
+          "japanese_with_blank": "走る[___]。",
+          "english": "I can run.",
+          "target_answer": "ことができます",
+          "alternative_answers": [
+            "ことができる"
+          ],
+          "hint": "Can do",
+          "scramble_blocks": [
+            "走る",
+            "ことができます"
+          ],
+          "audio_text": "走ることができます。",
+          "notes": "Running ability.",
+          "position": 6
+        },
+        {
+          "japanese": "見ることができます。",
+          "japanese_with_blank": "見る[___]。",
+          "english": "I can see.",
+          "target_answer": "ことができます",
+          "alternative_answers": [
+            "ことができる"
+          ],
+          "hint": "Can do",
+          "scramble_blocks": [
+            "見る",
+            "ことができます"
+          ],
+          "audio_text": "見ることができます。",
+          "notes": "Seeing ability.",
+          "position": 7
+        },
+        {
+          "japanese": "料理することができます。",
+          "japanese_with_blank": "料理する[___]。",
+          "english": "I can cook.",
+          "target_answer": "ことができます",
+          "alternative_answers": [
+            "ことができる"
+          ],
+          "hint": "Can do",
+          "scramble_blocks": [
+            "料理する",
+            "ことができます"
+          ],
+          "audio_text": "料理することができます。",
+          "notes": "Cooking ability.",
+          "position": 8
+        },
+        {
+          "japanese": "歌うことができます。",
+          "japanese_with_blank": "歌う[___]。",
+          "english": "I can sing.",
+          "target_answer": "ことができます",
+          "alternative_answers": [
+            "ことができる"
+          ],
+          "hint": "Can do",
+          "scramble_blocks": [
+            "歌う",
+            "ことができます"
+          ],
+          "audio_text": "歌うことができます。",
+          "notes": "Singing ability.",
+          "position": 9
+        },
+        {
+          "japanese": "来ることができます。",
+          "japanese_with_blank": "来る[___]。",
+          "english": "I can come.",
+          "target_answer": "ことができます",
+          "alternative_answers": [
+            "ことができる"
+          ],
+          "hint": "Can do",
+          "scramble_blocks": [
+            "来る",
+            "ことができます"
+          ],
+          "audio_text": "来ることができます。",
+          "notes": "Coming ability.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

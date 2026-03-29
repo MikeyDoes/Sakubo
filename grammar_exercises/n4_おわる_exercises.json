@@ -1,0 +1,79 @@
+{
+  "grammar_point": "おわる",
+  "entry_id": 325593,
+  "categories": [
+    {
+      "id": "finish_compound",
+      "label": "Finish Doing (V+終わる)",
+      "sentences": [
+        {
+          "japanese": "本を読み終わりました。",
+          "japanese_with_blank": "本を読み[___]。",
+          "english": "I finished reading the book.",
+          "target_answer": "終わりました",
+          "alternative_answers": [],
+          "hint": "finished",
+          "scramble_blocks": [
+            "本",
+            "を",
+            "読み",
+            "終わりました"
+          ],
+          "audio_text": "本を読み終わりました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "宿題を書き終わりました。",
+          "japanese_with_blank": "宿題を書き[___]。",
+          "english": "I finished writing my homework.",
+          "target_answer": "終わりました",
+          "alternative_answers": [],
+          "hint": "finished",
+          "scramble_blocks": [
+            "宿題",
+            "を",
+            "書き",
+            "終わりました"
+          ],
+          "audio_text": "宿題を書き終わりました。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "食べ終わったら出かけましょう。",
+          "japanese_with_blank": "食べ[___]出かけましょう。",
+          "english": "Let's go out after we finish eating.",
+          "target_answer": "終わったら",
+          "alternative_answers": [],
+          "hint": "after finishing",
+          "scramble_blocks": [
+            "食べ",
+            "終わったら",
+            "出かけましょう"
+          ],
+          "audio_text": "食べ終わったら出かけましょう。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "仕事が終わったら電話します。",
+          "japanese_with_blank": "仕事が[___]電話します。",
+          "english": "I'll call when work is finished.",
+          "target_answer": "終わったら",
+          "alternative_answers": [],
+          "hint": "after finishing",
+          "scramble_blocks": [
+            "仕事",
+            "が",
+            "終わったら",
+            "電話します"
+          ],
+          "audio_text": "仕事が終わったら電話します。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "grammar_point": "んです",
+  "entry_id": 325488,
+  "categories": [
+    {
+      "id": "spoken_explanation",
+      "label": "Casual Explanatory",
+      "sentences": [
+        {
+          "japanese": "忙しいんです。",
+          "japanese_with_blank": "忙しい[___]。",
+          "english": "The thing is, I'm busy.",
+          "target_answer": "んです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "忙しい",
+            "んです"
+          ],
+          "audio_text": "忙しいんです。",
+          "notes": "んです is the spoken form of のです.",
+          "position": 1
+        },
+        {
+          "japanese": "行くんです。",
+          "japanese_with_blank": "行く[___]。",
+          "english": "I'm going, you see.",
+          "target_answer": "んです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "行く",
+            "んです"
+          ],
+          "audio_text": "行くんです。",
+          "notes": "Casual explanatory.",
+          "position": 2
+        },
+        {
+          "japanese": "食べないんです。",
+          "japanese_with_blank": "食べない[___]。",
+          "english": "I'm not eating, you see.",
+          "target_answer": "んです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "食べない",
+            "んです"
+          ],
+          "audio_text": "食べないんです。",
+          "notes": "Negative explanation.",
+          "position": 3
+        },
+        {
+          "japanese": "好きなんです。",
+          "japanese_with_blank": "好きな[___]。",
+          "english": "I like it, you see.",
+          "target_answer": "んです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "好きな",
+            "んです"
+          ],
+          "audio_text": "好きなんです。",
+          "notes": "Casual な-adj explanation.",
+          "position": 4
+        },
+        {
+          "japanese": "元気なんです。",
+          "japanese_with_blank": "元気な[___]。",
+          "english": "I'm fine, you see.",
+          "target_answer": "んです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "元気な",
+            "んです"
+          ],
+          "audio_text": "元気なんです。",
+          "notes": "Health explanation.",
+          "position": 5
+        },
+        {
+          "japanese": "難しいんです。",
+          "japanese_with_blank": "難しい[___]。",
+          "english": "It's hard, you see.",
+          "target_answer": "んです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "難しい",
+            "んです"
+          ],
+          "audio_text": "難しいんです。",
+          "notes": "Difficulty explanation.",
+          "position": 6
+        },
+        {
+          "japanese": "高いんです。",
+          "japanese_with_blank": "高い[___]。",
+          "english": "It's expensive, you see.",
+          "target_answer": "んです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "高い",
+            "んです"
+          ],
+          "audio_text": "高いんです。",
+          "notes": "Price explanation.",
+          "position": 7
+        },
+        {
+          "japanese": "寒いんです。",
+          "japanese_with_blank": "寒い[___]。",
+          "english": "It's cold, you see.",
+          "target_answer": "んです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "寒い",
+            "んです"
+          ],
+          "audio_text": "寒いんです。",
+          "notes": "Weather explanation.",
+          "position": 8
+        },
+        {
+          "japanese": "帰るんです。",
+          "japanese_with_blank": "帰る[___]。",
+          "english": "I'm going home, you see.",
+          "target_answer": "んです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "帰る",
+            "んです"
+          ],
+          "audio_text": "帰るんです。",
+          "notes": "Departure explanation.",
+          "position": 9
+        },
+        {
+          "japanese": "分からないんです。",
+          "japanese_with_blank": "分からない[___]。",
+          "english": "I don't understand, you see.",
+          "target_answer": "んです",
+          "alternative_answers": [],
+          "hint": "Explanation",
+          "scramble_blocks": [
+            "分からない",
+            "んです"
+          ],
+          "audio_text": "分からないんです。",
+          "notes": "Comprehension explanation.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "grammar_point": "ない",
+  "entry_id": 326764,
+  "categories": [
+    {
+      "id": "plain_negative",
+      "label": "Plain Negative",
+      "sentences": [
+        {
+          "japanese": "食べない。",
+          "japanese_with_blank": "食べ[___]。",
+          "english": "I don't eat.",
+          "target_answer": "ない",
+          "alternative_answers": [],
+          "hint": "Plain neg",
+          "scramble_blocks": [
+            "食べ",
+            "ない"
+          ],
+          "audio_text": "食べない。",
+          "notes": "る-verb: 食べ + ない.",
+          "position": 1
+        },
+        {
+          "japanese": "見ない。",
+          "japanese_with_blank": "見[___]。",
+          "english": "I don't see.",
+          "target_answer": "ない",
+          "alternative_answers": [],
+          "hint": "Plain neg",
+          "scramble_blocks": [
+            "見",
+            "ない"
+          ],
+          "audio_text": "見ない。",
+          "notes": "る-verb: 見 + ない.",
+          "position": 2
+        },
+        {
+          "japanese": "起きない。",
+          "japanese_with_blank": "起き[___]。",
+          "english": "I don't wake up.",
+          "target_answer": "ない",
+          "alternative_answers": [],
+          "hint": "Plain neg",
+          "scramble_blocks": [
+            "起き",
+            "ない"
+          ],
+          "audio_text": "起きない。",
+          "notes": "る-verb: 起き + ない.",
+          "position": 3
+        },
+        {
+          "japanese": "行かない。",
+          "japanese_with_blank": "行か[___]。",
+          "english": "I don't go.",
+          "target_answer": "ない",
+          "alternative_answers": [],
+          "hint": "Plain neg",
+          "scramble_blocks": [
+            "行か",
+            "ない"
+          ],
+          "audio_text": "行かない。",
+          "notes": "う-verb: 行く → 行かない.",
+          "position": 4
+        },
+        {
+          "japanese": "読まない。",
+          "japanese_with_blank": "読ま[___]。",
+          "english": "I don't read.",
+          "target_answer": "ない",
+          "alternative_answers": [],
+          "hint": "Plain neg",
+          "scramble_blocks": [
+            "読ま",
+            "ない"
+          ],
+          "audio_text": "読まない。",
+          "notes": "う-verb: 読む → 読まない.",
+          "position": 5
+        },
+        {
+          "japanese": "書かない。",
+          "japanese_with_blank": "書か[___]。",
+          "english": "I don't write.",
+          "target_answer": "ない",
+          "alternative_answers": [],
+          "hint": "Plain neg",
+          "scramble_blocks": [
+            "書か",
+            "ない"
+          ],
+          "audio_text": "書かない。",
+          "notes": "う-verb: 書く → 書かない.",
+          "position": 6
+        },
+        {
+          "japanese": "飲まない。",
+          "japanese_with_blank": "飲ま[___]。",
+          "english": "I don't drink.",
+          "target_answer": "ない",
+          "alternative_answers": [],
+          "hint": "Plain neg",
+          "scramble_blocks": [
+            "飲ま",
+            "ない"
+          ],
+          "audio_text": "飲まない。",
+          "notes": "う-verb: 飲む → 飲まない.",
+          "position": 7
+        },
+        {
+          "japanese": "話さない。",
+          "japanese_with_blank": "話さ[___]。",
+          "english": "I don't speak.",
+          "target_answer": "ない",
+          "alternative_answers": [],
+          "hint": "Plain neg",
+          "scramble_blocks": [
+            "話さ",
+            "ない"
+          ],
+          "audio_text": "話さない。",
+          "notes": "う-verb: 話す → 話さない.",
+          "position": 8
+        },
+        {
+          "japanese": "しない。",
+          "japanese_with_blank": "し[___]。",
+          "english": "I don't do.",
+          "target_answer": "ない",
+          "alternative_answers": [],
+          "hint": "Plain neg",
+          "scramble_blocks": [
+            "し",
+            "ない"
+          ],
+          "audio_text": "しない。",
+          "notes": "Irregular: する → しない.",
+          "position": 9
+        },
+        {
+          "japanese": "来ない。",
+          "japanese_with_blank": "来[___]。",
+          "english": "He doesn't come.",
+          "target_answer": "ない",
+          "alternative_answers": [],
+          "hint": "Plain neg",
+          "scramble_blocks": [
+            "来",
+            "ない"
+          ],
+          "audio_text": "来ない。",
+          "notes": "Irregular: 来る → 来ない (こない).",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

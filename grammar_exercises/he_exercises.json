@@ -1,0 +1,192 @@
+{
+  "grammar_point": "へ",
+  "entry_id": 325430,
+  "categories": [
+    {
+      "id": "direction",
+      "label": "Direction of Movement",
+      "sentences": [
+        {
+          "japanese": "学校へ行きます。",
+          "japanese_with_blank": "学校[___]行きます。",
+          "english": "I go toward the school.",
+          "target_answer": "へ",
+          "alternative_answers": [
+            "に"
+          ],
+          "hint": "Direction",
+          "scramble_blocks": [
+            "学校",
+            "へ",
+            "行きます"
+          ],
+          "audio_text": "学校へ行きます。",
+          "notes": "へ marks direction of movement.",
+          "position": 1
+        },
+        {
+          "japanese": "家へ帰ります。",
+          "japanese_with_blank": "家[___]帰ります。",
+          "english": "I head home.",
+          "target_answer": "へ",
+          "alternative_answers": [
+            "に"
+          ],
+          "hint": "Direction",
+          "scramble_blocks": [
+            "家",
+            "へ",
+            "帰ります"
+          ],
+          "audio_text": "家へ帰ります。",
+          "notes": "へ emphasizes direction rather than arrival.",
+          "position": 2
+        },
+        {
+          "japanese": "店へ行きました。",
+          "japanese_with_blank": "店[___]行きました。",
+          "english": "I went toward the shop.",
+          "target_answer": "へ",
+          "alternative_answers": [
+            "に"
+          ],
+          "hint": "Direction",
+          "scramble_blocks": [
+            "店",
+            "へ",
+            "行きました"
+          ],
+          "audio_text": "店へ行きました。",
+          "notes": "Past direction with へ.",
+          "position": 3
+        },
+        {
+          "japanese": "ホテルへ行きます。",
+          "japanese_with_blank": "ホテル[___]行きます。",
+          "english": "I head to the hotel.",
+          "target_answer": "へ",
+          "alternative_answers": [
+            "に"
+          ],
+          "hint": "Direction",
+          "scramble_blocks": [
+            "ホテル",
+            "へ",
+            "行きます"
+          ],
+          "audio_text": "ホテルへ行きます。",
+          "notes": "へ stresses direction, not destination.",
+          "position": 4
+        },
+        {
+          "japanese": "レストランへ行きます。",
+          "japanese_with_blank": "レストラン[___]行きます。",
+          "english": "I head to the restaurant.",
+          "target_answer": "へ",
+          "alternative_answers": [
+            "に"
+          ],
+          "hint": "Direction",
+          "scramble_blocks": [
+            "レストラン",
+            "へ",
+            "行きます"
+          ],
+          "audio_text": "レストランへ行きます。",
+          "notes": "Direction of travel.",
+          "position": 5
+        },
+        {
+          "japanese": "プールへ行きました。",
+          "japanese_with_blank": "プール[___]行きました。",
+          "english": "I headed to the pool.",
+          "target_answer": "へ",
+          "alternative_answers": [
+            "に"
+          ],
+          "hint": "Direction",
+          "scramble_blocks": [
+            "プール",
+            "へ",
+            "行きました"
+          ],
+          "audio_text": "プールへ行きました。",
+          "notes": "Past direction.",
+          "position": 6
+        },
+        {
+          "japanese": "トイレへ行きます。",
+          "japanese_with_blank": "トイレ[___]行きます。",
+          "english": "I head to the bathroom.",
+          "target_answer": "へ",
+          "alternative_answers": [
+            "に"
+          ],
+          "hint": "Direction",
+          "scramble_blocks": [
+            "トイレ",
+            "へ",
+            "行きます"
+          ],
+          "audio_text": "トイレへ行きます。",
+          "notes": "Everyday direction.",
+          "position": 7
+        },
+        {
+          "japanese": "学校へ来ました。",
+          "japanese_with_blank": "学校[___]来ました。",
+          "english": "I came toward the school.",
+          "target_answer": "へ",
+          "alternative_answers": [
+            "に"
+          ],
+          "hint": "Direction",
+          "scramble_blocks": [
+            "学校",
+            "へ",
+            "来ました"
+          ],
+          "audio_text": "学校へ来ました。",
+          "notes": "へ with 来ます.",
+          "position": 8
+        },
+        {
+          "japanese": "家へ来ます。",
+          "japanese_with_blank": "家[___]来ます。",
+          "english": "Someone comes toward my house.",
+          "target_answer": "へ",
+          "alternative_answers": [
+            "に"
+          ],
+          "hint": "Direction",
+          "scramble_blocks": [
+            "家",
+            "へ",
+            "来ます"
+          ],
+          "audio_text": "家へ来ます。",
+          "notes": "へ used for direction of approach.",
+          "position": 9
+        },
+        {
+          "japanese": "部屋へ行きます。",
+          "japanese_with_blank": "部屋[___]行きます。",
+          "english": "I head to the room.",
+          "target_answer": "へ",
+          "alternative_answers": [
+            "に"
+          ],
+          "hint": "Direction",
+          "scramble_blocks": [
+            "部屋",
+            "へ",
+            "行きます"
+          ],
+          "audio_text": "部屋へ行きます。",
+          "notes": "Direction to a specific room.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

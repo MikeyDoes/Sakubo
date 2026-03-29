@@ -1,0 +1,105 @@
+{
+  "grammar_point": "ていく",
+  "entry_id": 325602,
+  "categories": [
+    {
+      "id": "gradual_change",
+      "label": "Gradual Change (Away)",
+      "sentences": [
+        {
+          "japanese": "これから暖かくなっていきます。",
+          "japanese_with_blank": "これから暖かくなっ[___]。",
+          "english": "It will gradually get warmer from now on.",
+          "target_answer": "ていきます",
+          "alternative_answers": [],
+          "hint": "gradually (away)",
+          "scramble_blocks": [
+            "これから",
+            "暖かく",
+            "なっ",
+            "ていきます"
+          ],
+          "audio_text": "これから暖かくなっていきます。",
+          "notes": "て-form + いく = gradually (future).",
+          "position": 1
+        },
+        {
+          "japanese": "人が減っていきます。",
+          "japanese_with_blank": "人が減っ[___]。",
+          "english": "The number of people will decrease.",
+          "target_answer": "ていきます",
+          "alternative_answers": [],
+          "hint": "gradually (away)",
+          "scramble_blocks": [
+            "人",
+            "が",
+            "減っ",
+            "ていきます"
+          ],
+          "audio_text": "人が減っていきます。",
+          "notes": "Gradual decrease.",
+          "position": 2
+        },
+        {
+          "japanese": "日本語が上手になっていきました。",
+          "japanese_with_blank": "日本語が上手になっ[___]。",
+          "english": "My Japanese gradually got better.",
+          "target_answer": "ていきました",
+          "alternative_answers": [],
+          "hint": "gradually (past)",
+          "scramble_blocks": [
+            "日本語",
+            "が",
+            "上手に",
+            "なっ",
+            "ていきました"
+          ],
+          "audio_text": "日本語が上手になっていきました。",
+          "notes": "Past gradual change.",
+          "position": 3
+        }
+      ]
+    },
+    {
+      "id": "take_along",
+      "label": "Taking Along",
+      "sentences": [
+        {
+          "japanese": "お弁当を持っていきます。",
+          "japanese_with_blank": "お弁当を持っ[___]。",
+          "english": "I'll take a lunch box.",
+          "target_answer": "ていきます",
+          "alternative_answers": [],
+          "hint": "take (away)",
+          "scramble_blocks": [
+            "お弁当",
+            "を",
+            "持っ",
+            "ていきます"
+          ],
+          "audio_text": "お弁当を持っていきます。",
+          "notes": "持つ + ていく = take along.",
+          "position": 1
+        },
+        {
+          "japanese": "傘を持っていってください。",
+          "japanese_with_blank": "傘を持っ[___]ください。",
+          "english": "Please take an umbrella.",
+          "target_answer": "ていって",
+          "alternative_answers": [],
+          "hint": "take (request)",
+          "scramble_blocks": [
+            "傘",
+            "を",
+            "持っ",
+            "ていって",
+            "ください"
+          ],
+          "audio_text": "傘を持っていってください。",
+          "notes": "持っていってください.",
+          "position": 2
+        }
+      ]
+    }
+  ]
+}

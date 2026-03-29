@@ -1,0 +1,172 @@
+{
+  "grammar_point": "より",
+  "entry_id": 325512,
+  "categories": [
+    {
+      "id": "than",
+      "label": "Than (Comparison)",
+      "sentences": [
+        {
+          "japanese": "猫より犬が大きいです。",
+          "japanese_with_blank": "猫[___]犬が大きいです。",
+          "english": "Dogs are bigger than cats.",
+          "target_answer": "より",
+          "alternative_answers": [],
+          "hint": "Than",
+          "scramble_blocks": [
+            "猫",
+            "より",
+            "犬が大きいです"
+          ],
+          "audio_text": "猫より犬が大きいです。",
+          "notes": "より means \"than\" in comparisons.",
+          "position": 1
+        },
+        {
+          "japanese": "バスより車が高いです。",
+          "japanese_with_blank": "バス[___]車が高いです。",
+          "english": "Cars are more expensive than buses.",
+          "target_answer": "より",
+          "alternative_answers": [],
+          "hint": "Than",
+          "scramble_blocks": [
+            "バス",
+            "より",
+            "車が高いです"
+          ],
+          "audio_text": "バスより車が高いです。",
+          "notes": "より comparison.",
+          "position": 2
+        },
+        {
+          "japanese": "水よりコーヒーが美味しいです。",
+          "japanese_with_blank": "水[___]コーヒーが美味しいです。",
+          "english": "Coffee is tastier than water.",
+          "target_answer": "より",
+          "alternative_answers": [],
+          "hint": "Than",
+          "scramble_blocks": [
+            "水",
+            "より",
+            "コーヒーが美味しいです"
+          ],
+          "audio_text": "水よりコーヒーが美味しいです。",
+          "notes": "Taste comparison.",
+          "position": 3
+        },
+        {
+          "japanese": "学校より家が小さいです。",
+          "japanese_with_blank": "学校[___]家が小さいです。",
+          "english": "Home is smaller than school.",
+          "target_answer": "より",
+          "alternative_answers": [],
+          "hint": "Than",
+          "scramble_blocks": [
+            "学校",
+            "より",
+            "家が小さいです"
+          ],
+          "audio_text": "学校より家が小さいです。",
+          "notes": "Size comparison.",
+          "position": 4
+        },
+        {
+          "japanese": "テレビより本が面白いです。",
+          "japanese_with_blank": "テレビ[___]本が面白いです。",
+          "english": "Books are more interesting than TV.",
+          "target_answer": "より",
+          "alternative_answers": [],
+          "hint": "Than",
+          "scramble_blocks": [
+            "テレビ",
+            "より",
+            "本が面白いです"
+          ],
+          "audio_text": "テレビより本が面白いです。",
+          "notes": "Interest comparison.",
+          "position": 5
+        },
+        {
+          "japanese": "昨日より今日が暑いです。",
+          "japanese_with_blank": "昨日[___]今日が暑いです。",
+          "english": "Today is hotter than yesterday.",
+          "target_answer": "より",
+          "alternative_answers": [],
+          "hint": "Than",
+          "scramble_blocks": [
+            "昨日",
+            "より",
+            "今日が暑いです"
+          ],
+          "audio_text": "昨日より今日が暑いです。",
+          "notes": "Time comparison.",
+          "position": 6
+        },
+        {
+          "japanese": "夏より冬が寒いです。",
+          "japanese_with_blank": "夏[___]冬が寒いです。",
+          "english": "Winter is colder than summer.",
+          "target_answer": "より",
+          "alternative_answers": [],
+          "hint": "Than",
+          "scramble_blocks": [
+            "夏",
+            "より",
+            "冬が寒いです"
+          ],
+          "audio_text": "夏より冬が寒いです。",
+          "notes": "Season comparison.",
+          "position": 7
+        },
+        {
+          "japanese": "本よりテストが難しいです。",
+          "japanese_with_blank": "本[___]テストが難しいです。",
+          "english": "Tests are harder than books.",
+          "target_answer": "より",
+          "alternative_answers": [],
+          "hint": "Than",
+          "scramble_blocks": [
+            "本",
+            "より",
+            "テストが難しいです"
+          ],
+          "audio_text": "本よりテストが難しいです。",
+          "notes": "Difficulty comparison.",
+          "position": 8
+        },
+        {
+          "japanese": "友達より先生がやさしいです。",
+          "japanese_with_blank": "友達[___]先生がやさしいです。",
+          "english": "The teacher is kinder than my friend.",
+          "target_answer": "より",
+          "alternative_answers": [],
+          "hint": "Than",
+          "scramble_blocks": [
+            "友達",
+            "より",
+            "先生がやさしいです"
+          ],
+          "audio_text": "友達より先生がやさしいです。",
+          "notes": "People comparison.",
+          "position": 9
+        },
+        {
+          "japanese": "犬より猫が小さいです。",
+          "japanese_with_blank": "犬[___]猫が小さいです。",
+          "english": "Cats are smaller than dogs.",
+          "target_answer": "より",
+          "alternative_answers": [],
+          "hint": "Than",
+          "scramble_blocks": [
+            "犬",
+            "より",
+            "猫が小さいです"
+          ],
+          "audio_text": "犬より猫が小さいです。",
+          "notes": "Animal size.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

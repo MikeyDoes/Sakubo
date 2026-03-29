@@ -1,0 +1,172 @@
+{
+  "grammar_point": "まだ〜ていません",
+  "entry_id": 325458,
+  "categories": [
+    {
+      "id": "not_yet",
+      "label": "Have Not Yet",
+      "sentences": [
+        {
+          "japanese": "まだ食べていません。",
+          "japanese_with_blank": "[___]食べていません。",
+          "english": "I have not eaten yet.",
+          "target_answer": "まだ",
+          "alternative_answers": [],
+          "hint": "Not yet",
+          "scramble_blocks": [
+            "まだ",
+            "食べて",
+            "いません"
+          ],
+          "audio_text": "まだ食べていません。",
+          "notes": "まだ〜ていません means \"not yet done.\"",
+          "position": 1
+        },
+        {
+          "japanese": "まだ見ていません。",
+          "japanese_with_blank": "[___]見ていません。",
+          "english": "I have not watched yet.",
+          "target_answer": "まだ",
+          "alternative_answers": [],
+          "hint": "Not yet",
+          "scramble_blocks": [
+            "まだ",
+            "見て",
+            "いません"
+          ],
+          "audio_text": "まだ見ていません。",
+          "notes": "Not yet completed.",
+          "position": 2
+        },
+        {
+          "japanese": "まだ読んでいません。",
+          "japanese_with_blank": "[___]読んでいません。",
+          "english": "I have not read yet.",
+          "target_answer": "まだ",
+          "alternative_answers": [],
+          "hint": "Not yet",
+          "scramble_blocks": [
+            "まだ",
+            "読んで",
+            "いません"
+          ],
+          "audio_text": "まだ読んでいません。",
+          "notes": "Not yet started reading.",
+          "position": 3
+        },
+        {
+          "japanese": "まだ行っていません。",
+          "japanese_with_blank": "[___]行っていません。",
+          "english": "I have not gone yet.",
+          "target_answer": "まだ",
+          "alternative_answers": [],
+          "hint": "Not yet",
+          "scramble_blocks": [
+            "まだ",
+            "行って",
+            "いません"
+          ],
+          "audio_text": "まだ行っていません。",
+          "notes": "Not yet departed.",
+          "position": 4
+        },
+        {
+          "japanese": "まだ飲んでいません。",
+          "japanese_with_blank": "[___]飲んでいません。",
+          "english": "I have not drunk yet.",
+          "target_answer": "まだ",
+          "alternative_answers": [],
+          "hint": "Not yet",
+          "scramble_blocks": [
+            "まだ",
+            "飲んで",
+            "いません"
+          ],
+          "audio_text": "まだ飲んでいません。",
+          "notes": "Not yet consumed.",
+          "position": 5
+        },
+        {
+          "japanese": "まだ書いていません。",
+          "japanese_with_blank": "[___]書いていません。",
+          "english": "I have not written yet.",
+          "target_answer": "まだ",
+          "alternative_answers": [],
+          "hint": "Not yet",
+          "scramble_blocks": [
+            "まだ",
+            "書いて",
+            "いません"
+          ],
+          "audio_text": "まだ書いていません。",
+          "notes": "Not yet written.",
+          "position": 6
+        },
+        {
+          "japanese": "まだ帰っていません。",
+          "japanese_with_blank": "[___]帰っていません。",
+          "english": "I have not gone home yet.",
+          "target_answer": "まだ",
+          "alternative_answers": [],
+          "hint": "Not yet",
+          "scramble_blocks": [
+            "まだ",
+            "帰って",
+            "いません"
+          ],
+          "audio_text": "まだ帰っていません。",
+          "notes": "Not yet returned.",
+          "position": 7
+        },
+        {
+          "japanese": "まだ話していません。",
+          "japanese_with_blank": "[___]話していません。",
+          "english": "I have not spoken yet.",
+          "target_answer": "まだ",
+          "alternative_answers": [],
+          "hint": "Not yet",
+          "scramble_blocks": [
+            "まだ",
+            "話して",
+            "いません"
+          ],
+          "audio_text": "まだ話していません。",
+          "notes": "Not yet spoken.",
+          "position": 8
+        },
+        {
+          "japanese": "まだ来ていません。",
+          "japanese_with_blank": "[___]来ていません。",
+          "english": "He has not come yet.",
+          "target_answer": "まだ",
+          "alternative_answers": [],
+          "hint": "Not yet",
+          "scramble_blocks": [
+            "まだ",
+            "来て",
+            "いません"
+          ],
+          "audio_text": "まだ来ていません。",
+          "notes": "Not yet arrived.",
+          "position": 9
+        },
+        {
+          "japanese": "まだしていません。",
+          "japanese_with_blank": "[___]していません。",
+          "english": "I have not done it yet.",
+          "target_answer": "まだ",
+          "alternative_answers": [],
+          "hint": "Not yet",
+          "scramble_blocks": [
+            "まだ",
+            "して",
+            "いません"
+          ],
+          "audio_text": "まだしていません。",
+          "notes": "Not yet completed.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

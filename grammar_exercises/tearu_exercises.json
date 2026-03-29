@@ -1,0 +1,172 @@
+{
+  "grammar_point": "てある",
+  "entry_id": 325464,
+  "categories": [
+    {
+      "id": "resulting_state",
+      "label": "Resulting State",
+      "sentences": [
+        {
+          "japanese": "名前が書いてある。",
+          "japanese_with_blank": "名前が書いて[___]。",
+          "english": "The name is written.",
+          "target_answer": "ある",
+          "alternative_answers": [],
+          "hint": "Resulting state",
+          "scramble_blocks": [
+            "名前",
+            "が",
+            "書いてある"
+          ],
+          "audio_text": "名前が書いてある。",
+          "notes": "てある shows a resulting state from someone's action.",
+          "position": 1
+        },
+        {
+          "japanese": "窓が開けてある。",
+          "japanese_with_blank": "窓が開けて[___]。",
+          "english": "The window is open (someone opened it).",
+          "target_answer": "ある",
+          "alternative_answers": [],
+          "hint": "Resulting state",
+          "scramble_blocks": [
+            "窓",
+            "が",
+            "開けてある"
+          ],
+          "audio_text": "窓が開けてある。",
+          "notes": "Resulting state of an action.",
+          "position": 2
+        },
+        {
+          "japanese": "ドアが閉めてある。",
+          "japanese_with_blank": "ドアが閉めて[___]。",
+          "english": "The door is closed.",
+          "target_answer": "ある",
+          "alternative_answers": [],
+          "hint": "Resulting state",
+          "scramble_blocks": [
+            "ドア",
+            "が",
+            "閉めてある"
+          ],
+          "audio_text": "ドアが閉めてある。",
+          "notes": "てある implies intentional result.",
+          "position": 3
+        },
+        {
+          "japanese": "本が置いてある。",
+          "japanese_with_blank": "本が置いて[___]。",
+          "english": "The book has been placed.",
+          "target_answer": "ある",
+          "alternative_answers": [],
+          "hint": "Resulting state",
+          "scramble_blocks": [
+            "本",
+            "が",
+            "置いてある"
+          ],
+          "audio_text": "本が置いてある。",
+          "notes": "Resulting state of placing.",
+          "position": 4
+        },
+        {
+          "japanese": "本が書いてある。",
+          "japanese_with_blank": "本が書いて[___]。",
+          "english": "It is written in the book.",
+          "target_answer": "ある",
+          "alternative_answers": [],
+          "hint": "Resulting state",
+          "scramble_blocks": [
+            "本",
+            "が",
+            "書いてある"
+          ],
+          "audio_text": "本が書いてある。",
+          "notes": "Written content result.",
+          "position": 5
+        },
+        {
+          "japanese": "食べ物が準備してある。",
+          "japanese_with_blank": "食べ物が準備して[___]。",
+          "english": "The food has been prepared.",
+          "target_answer": "ある",
+          "alternative_answers": [],
+          "hint": "Resulting state",
+          "scramble_blocks": [
+            "食べ物",
+            "が",
+            "準備してある"
+          ],
+          "audio_text": "食べ物が準備してある。",
+          "notes": "Preparation result.",
+          "position": 6
+        },
+        {
+          "japanese": "ペンが書いてある。",
+          "japanese_with_blank": "ペンが書いて[___]。",
+          "english": "The pen has been written with.",
+          "target_answer": "ある",
+          "alternative_answers": [],
+          "hint": "Resulting state",
+          "scramble_blocks": [
+            "ペン",
+            "が",
+            "書いてある"
+          ],
+          "audio_text": "ペンが書いてある。",
+          "notes": "Resulting use state.",
+          "position": 7
+        },
+        {
+          "japanese": "水が入れてある。",
+          "japanese_with_blank": "水が入れて[___]。",
+          "english": "The water has been put in.",
+          "target_answer": "ある",
+          "alternative_answers": [],
+          "hint": "Resulting state",
+          "scramble_blocks": [
+            "水",
+            "が",
+            "入れてある"
+          ],
+          "audio_text": "水が入れてある。",
+          "notes": "Resulting state of filling.",
+          "position": 8
+        },
+        {
+          "japanese": "ペンが置いてある。",
+          "japanese_with_blank": "ペンが置いて[___]。",
+          "english": "The pen has been placed.",
+          "target_answer": "ある",
+          "alternative_answers": [],
+          "hint": "Resulting state",
+          "scramble_blocks": [
+            "ペン",
+            "が",
+            "置いてある"
+          ],
+          "audio_text": "ペンが置いてある。",
+          "notes": "Object placement result.",
+          "position": 9
+        },
+        {
+          "japanese": "電話が書いてある。",
+          "japanese_with_blank": "電話が書いて[___]。",
+          "english": "The phone number is written.",
+          "target_answer": "ある",
+          "alternative_answers": [],
+          "hint": "Resulting state",
+          "scramble_blocks": [
+            "電話",
+            "が",
+            "書いてある"
+          ],
+          "audio_text": "電話が書いてある。",
+          "notes": "Written info result.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

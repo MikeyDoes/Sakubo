@@ -1,0 +1,189 @@
+{
+  "grammar_point": "と",
+  "entry_id": 325431,
+  "categories": [
+    {
+      "id": "companion",
+      "label": "With (Companion)",
+      "sentences": [
+        {
+          "japanese": "友達と学校に行きます。",
+          "japanese_with_blank": "友達[___]学校に行きます。",
+          "english": "I go to school with my friend.",
+          "target_answer": "と",
+          "alternative_answers": [],
+          "hint": "Companion",
+          "scramble_blocks": [
+            "友達",
+            "と",
+            "学校",
+            "に",
+            "行きます"
+          ],
+          "audio_text": "友達と学校に行きます。",
+          "notes": "と means \"with\" + a person.",
+          "position": 1
+        },
+        {
+          "japanese": "先生と話します。",
+          "japanese_with_blank": "先生[___]話します。",
+          "english": "I talk with the teacher.",
+          "target_answer": "と",
+          "alternative_answers": [],
+          "hint": "Companion",
+          "scramble_blocks": [
+            "先生",
+            "と",
+            "話します"
+          ],
+          "audio_text": "先生と話します。",
+          "notes": "と marks the companion.",
+          "position": 2
+        },
+        {
+          "japanese": "友達と食べます。",
+          "japanese_with_blank": "友達[___]食べます。",
+          "english": "I eat with my friend.",
+          "target_answer": "と",
+          "alternative_answers": [],
+          "hint": "Companion",
+          "scramble_blocks": [
+            "友達",
+            "と",
+            "食べます"
+          ],
+          "audio_text": "友達と食べます。",
+          "notes": "Doing an activity together.",
+          "position": 3
+        },
+        {
+          "japanese": "子供と学校に来ました。",
+          "japanese_with_blank": "子供[___]学校に来ました。",
+          "english": "I came to school with the child.",
+          "target_answer": "と",
+          "alternative_answers": [],
+          "hint": "Companion",
+          "scramble_blocks": [
+            "子供",
+            "と",
+            "学校",
+            "に",
+            "来ました"
+          ],
+          "audio_text": "子供と学校に来ました。",
+          "notes": "Past with companion.",
+          "position": 4
+        },
+        {
+          "japanese": "友達と店に行きます。",
+          "japanese_with_blank": "友達[___]店に行きます。",
+          "english": "I go to the shop with my friend.",
+          "target_answer": "と",
+          "alternative_answers": [],
+          "hint": "Companion",
+          "scramble_blocks": [
+            "友達",
+            "と",
+            "店",
+            "に",
+            "行きます"
+          ],
+          "audio_text": "友達と店に行きます。",
+          "notes": "と for companionship.",
+          "position": 5
+        }
+      ]
+    },
+    {
+      "id": "listing",
+      "label": "And (Exhaustive List)",
+      "sentences": [
+        {
+          "japanese": "猫と犬が好きです。",
+          "japanese_with_blank": "猫[___]犬が好きです。",
+          "english": "I like cats and dogs.",
+          "target_answer": "と",
+          "alternative_answers": [],
+          "hint": "Listing",
+          "scramble_blocks": [
+            "猫",
+            "と",
+            "犬",
+            "が好きです"
+          ],
+          "audio_text": "猫と犬が好きです。",
+          "notes": "と links two nouns (exhaustive list).",
+          "position": 6
+        },
+        {
+          "japanese": "本とペンがあります。",
+          "japanese_with_blank": "本[___]ペンがあります。",
+          "english": "There is a book and a pen.",
+          "target_answer": "と",
+          "alternative_answers": [],
+          "hint": "Listing",
+          "scramble_blocks": [
+            "本",
+            "と",
+            "ペン",
+            "があります"
+          ],
+          "audio_text": "本とペンがあります。",
+          "notes": "と connects items.",
+          "position": 7
+        },
+        {
+          "japanese": "水とコーヒーを飲みます。",
+          "japanese_with_blank": "水[___]コーヒーを飲みます。",
+          "english": "I drink water and coffee.",
+          "target_answer": "と",
+          "alternative_answers": [],
+          "hint": "Listing",
+          "scramble_blocks": [
+            "水",
+            "と",
+            "コーヒー",
+            "を飲みます"
+          ],
+          "audio_text": "水とコーヒーを飲みます。",
+          "notes": "Listing things to drink.",
+          "position": 8
+        },
+        {
+          "japanese": "パンとケーキを食べます。",
+          "japanese_with_blank": "パン[___]ケーキを食べます。",
+          "english": "I eat bread and cake.",
+          "target_answer": "と",
+          "alternative_answers": [],
+          "hint": "Listing",
+          "scramble_blocks": [
+            "パン",
+            "と",
+            "ケーキ",
+            "を食べます"
+          ],
+          "audio_text": "パンとケーキを食べます。",
+          "notes": "Listing food items.",
+          "position": 9
+        },
+        {
+          "japanese": "先生と学生です。",
+          "japanese_with_blank": "先生[___]学生です。",
+          "english": "They are a teacher and a student.",
+          "target_answer": "と",
+          "alternative_answers": [],
+          "hint": "Listing",
+          "scramble_blocks": [
+            "先生",
+            "と",
+            "学生",
+            "です"
+          ],
+          "audio_text": "先生と学生です。",
+          "notes": "Listing people with と.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

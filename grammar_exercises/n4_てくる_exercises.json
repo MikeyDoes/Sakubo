@@ -1,0 +1,120 @@
+{
+  "grammar_point": "てくる",
+  "entry_id": 325603,
+  "categories": [
+    {
+      "id": "gradual_toward",
+      "label": "Gradual Change (Toward Present)",
+      "sentences": [
+        {
+          "japanese": "寒くなってきました。",
+          "japanese_with_blank": "寒くなっ[___]。",
+          "english": "It has gotten cold.",
+          "target_answer": "てきました",
+          "alternative_answers": [],
+          "hint": "has become",
+          "scramble_blocks": [
+            "寒く",
+            "なっ",
+            "てきました"
+          ],
+          "audio_text": "寒くなってきました。",
+          "notes": "て-form + くる = change toward now.",
+          "position": 1
+        },
+        {
+          "japanese": "日本語が分かってきました。",
+          "japanese_with_blank": "日本語が分かっ[___]。",
+          "english": "I've been getting to understand Japanese.",
+          "target_answer": "てきました",
+          "alternative_answers": [],
+          "hint": "has been becoming",
+          "scramble_blocks": [
+            "日本語",
+            "が",
+            "分かっ",
+            "てきました"
+          ],
+          "audio_text": "日本語が分かってきました。",
+          "notes": "Gradual understanding.",
+          "position": 2
+        },
+        {
+          "japanese": "雨が降ってきました。",
+          "japanese_with_blank": "雨が降っ[___]。",
+          "english": "It started raining.",
+          "target_answer": "てきました",
+          "alternative_answers": [],
+          "hint": "started to",
+          "scramble_blocks": [
+            "雨",
+            "が",
+            "降っ",
+            "てきました"
+          ],
+          "audio_text": "雨が降ってきました。",
+          "notes": "Onset of action.",
+          "position": 3
+        },
+        {
+          "japanese": "お腹がすいてきました。",
+          "japanese_with_blank": "お腹がすい[___]。",
+          "english": "I've been getting hungry.",
+          "target_answer": "てきました",
+          "alternative_answers": [],
+          "hint": "has been becoming",
+          "scramble_blocks": [
+            "お腹",
+            "が",
+            "すい",
+            "てきました"
+          ],
+          "audio_text": "お腹がすいてきました。",
+          "notes": "Physical sensation onset.",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "bring_back",
+      "label": "Bringing / Coming Back",
+      "sentences": [
+        {
+          "japanese": "お土産を買ってきました。",
+          "japanese_with_blank": "お土産を買っ[___]。",
+          "english": "I went and bought souvenirs.",
+          "target_answer": "てきました",
+          "alternative_answers": [],
+          "hint": "went and did",
+          "scramble_blocks": [
+            "お土産",
+            "を",
+            "買っ",
+            "てきました"
+          ],
+          "audio_text": "お土産を買ってきました。",
+          "notes": "Go + do + come back.",
+          "position": 1
+        },
+        {
+          "japanese": "水を持ってきてください。",
+          "japanese_with_blank": "水を持っ[___]ください。",
+          "english": "Please bring water.",
+          "target_answer": "てきて",
+          "alternative_answers": [],
+          "hint": "bring (request)",
+          "scramble_blocks": [
+            "水",
+            "を",
+            "持っ",
+            "てきて",
+            "ください"
+          ],
+          "audio_text": "水を持ってきてください。",
+          "notes": "持ってくる = bring.",
+          "position": 2
+        }
+      ]
+    }
+  ]
+}

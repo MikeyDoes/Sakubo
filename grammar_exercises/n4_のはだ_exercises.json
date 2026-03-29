@@ -1,0 +1,91 @@
+{
+  "grammar_point": "のは〜だ",
+  "entry_id": 325577,
+  "categories": [
+    {
+      "id": "reason_structure",
+      "label": "The Reason Is / A Is B",
+      "sentences": [
+        {
+          "japanese": "遅れたのは電車が止まったからです。",
+          "japanese_with_blank": "遅れた[___]電車が止まったからです。",
+          "english": "The reason I was late is that the train stopped.",
+          "target_answer": "のは",
+          "alternative_answers": [],
+          "hint": "the reason",
+          "scramble_blocks": [
+            "遅れた",
+            "のは",
+            "電車",
+            "が",
+            "止まった",
+            "から",
+            "です"
+          ],
+          "audio_text": "遅れたのは電車が止まったからです。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "好きなのは日本の食べ物です。",
+          "japanese_with_blank": "好きな[___]日本の食べ物です。",
+          "english": "What I like is Japanese food.",
+          "target_answer": "のは",
+          "alternative_answers": [],
+          "hint": "what ~",
+          "scramble_blocks": [
+            "好きな",
+            "のは",
+            "日本",
+            "の",
+            "食べ物",
+            "です"
+          ],
+          "audio_text": "好きなのは日本の食べ物です。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "大変なのは漢字を覚えることです。",
+          "japanese_with_blank": "大変な[___]漢字を覚えることです。",
+          "english": "What's difficult is memorizing kanji.",
+          "target_answer": "のは",
+          "alternative_answers": [],
+          "hint": "what ~",
+          "scramble_blocks": [
+            "大変な",
+            "のは",
+            "漢字",
+            "を",
+            "覚える",
+            "こと",
+            "です"
+          ],
+          "audio_text": "大変なのは漢字を覚えることです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "楽しいのは友達と話すことです。",
+          "japanese_with_blank": "楽しい[___]友達と話すことです。",
+          "english": "What's fun is talking with friends.",
+          "target_answer": "のは",
+          "alternative_answers": [],
+          "hint": "what ~",
+          "scramble_blocks": [
+            "楽しい",
+            "のは",
+            "友達",
+            "と",
+            "話す",
+            "こと",
+            "です"
+          ],
+          "audio_text": "楽しいのは友達と話すことです。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "grammar_point": "のが好き",
+  "entry_id": 325486,
+  "categories": [
+    {
+      "id": "like_doing",
+      "label": "Like Doing",
+      "sentences": [
+        {
+          "japanese": "食べるのが好きです。",
+          "japanese_with_blank": "食べる[___]です。",
+          "english": "I like eating.",
+          "target_answer": "のが好き",
+          "alternative_answers": [],
+          "hint": "Like doing",
+          "scramble_blocks": [
+            "食べる",
+            "のが好き",
+            "です"
+          ],
+          "audio_text": "食べるのが好きです。",
+          "notes": "のが好き = \"like [verb]-ing.\"",
+          "position": 1
+        },
+        {
+          "japanese": "読むのが好きです。",
+          "japanese_with_blank": "読む[___]です。",
+          "english": "I like reading.",
+          "target_answer": "のが好き",
+          "alternative_answers": [],
+          "hint": "Like doing",
+          "scramble_blocks": [
+            "読む",
+            "のが好き",
+            "です"
+          ],
+          "audio_text": "読むのが好きです。",
+          "notes": "Hobby: reading.",
+          "position": 2
+        },
+        {
+          "japanese": "書くのが好きです。",
+          "japanese_with_blank": "書く[___]です。",
+          "english": "I like writing.",
+          "target_answer": "のが好き",
+          "alternative_answers": [],
+          "hint": "Like doing",
+          "scramble_blocks": [
+            "書く",
+            "のが好き",
+            "です"
+          ],
+          "audio_text": "書くのが好きです。",
+          "notes": "Hobby: writing.",
+          "position": 3
+        },
+        {
+          "japanese": "見るのが好きです。",
+          "japanese_with_blank": "見る[___]です。",
+          "english": "I like watching.",
+          "target_answer": "のが好き",
+          "alternative_answers": [],
+          "hint": "Like doing",
+          "scramble_blocks": [
+            "見る",
+            "のが好き",
+            "です"
+          ],
+          "audio_text": "見るのが好きです。",
+          "notes": "Hobby: viewing.",
+          "position": 4
+        },
+        {
+          "japanese": "走るのが好きです。",
+          "japanese_with_blank": "走る[___]です。",
+          "english": "I like running.",
+          "target_answer": "のが好き",
+          "alternative_answers": [],
+          "hint": "Like doing",
+          "scramble_blocks": [
+            "走る",
+            "のが好き",
+            "です"
+          ],
+          "audio_text": "走るのが好きです。",
+          "notes": "Athletic hobby.",
+          "position": 5
+        },
+        {
+          "japanese": "泳ぐのが好きです。",
+          "japanese_with_blank": "泳ぐ[___]です。",
+          "english": "I like swimming.",
+          "target_answer": "のが好き",
+          "alternative_answers": [],
+          "hint": "Like doing",
+          "scramble_blocks": [
+            "泳ぐ",
+            "のが好き",
+            "です"
+          ],
+          "audio_text": "泳ぐのが好きです。",
+          "notes": "Swimming hobby.",
+          "position": 6
+        },
+        {
+          "japanese": "話すのが好きです。",
+          "japanese_with_blank": "話す[___]です。",
+          "english": "I like talking.",
+          "target_answer": "のが好き",
+          "alternative_answers": [],
+          "hint": "Like doing",
+          "scramble_blocks": [
+            "話す",
+            "のが好き",
+            "です"
+          ],
+          "audio_text": "話すのが好きです。",
+          "notes": "Social hobby.",
+          "position": 7
+        },
+        {
+          "japanese": "聞くのが好きです。",
+          "japanese_with_blank": "聞く[___]です。",
+          "english": "I like listening.",
+          "target_answer": "のが好き",
+          "alternative_answers": [],
+          "hint": "Like doing",
+          "scramble_blocks": [
+            "聞く",
+            "のが好き",
+            "です"
+          ],
+          "audio_text": "聞くのが好きです。",
+          "notes": "Listening hobby.",
+          "position": 8
+        },
+        {
+          "japanese": "料理するのが好きです。",
+          "japanese_with_blank": "料理する[___]です。",
+          "english": "I like cooking.",
+          "target_answer": "のが好き",
+          "alternative_answers": [],
+          "hint": "Like doing",
+          "scramble_blocks": [
+            "料理する",
+            "のが好き",
+            "です"
+          ],
+          "audio_text": "料理するのが好きです。",
+          "notes": "Cooking hobby.",
+          "position": 9
+        },
+        {
+          "japanese": "歌うのが好きです。",
+          "japanese_with_blank": "歌う[___]です。",
+          "english": "I like singing.",
+          "target_answer": "のが好き",
+          "alternative_answers": [],
+          "hint": "Like doing",
+          "scramble_blocks": [
+            "歌う",
+            "のが好き",
+            "です"
+          ],
+          "audio_text": "歌うのが好きです。",
+          "notes": "Singing hobby.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

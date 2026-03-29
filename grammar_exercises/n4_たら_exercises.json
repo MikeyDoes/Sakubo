@@ -1,0 +1,102 @@
+{
+  "grammar_point": "たら",
+  "entry_id": 325604,
+  "categories": [
+    {
+      "id": "conditional_if",
+      "label": "If / When",
+      "sentences": [
+        {
+          "japanese": "雨が降ったら家にいます。",
+          "japanese_with_blank": "雨が降っ[___]家にいます。",
+          "english": "If it rains, I'll stay home.",
+          "target_answer": "たら",
+          "alternative_answers": [],
+          "hint": "if/when",
+          "scramble_blocks": [
+            "雨",
+            "が",
+            "降っ",
+            "たら",
+            "家",
+            "に",
+            "います"
+          ],
+          "audio_text": "雨が降ったら家にいます。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "安かったら買います。",
+          "japanese_with_blank": "安かっ[___]買います。",
+          "english": "If it's cheap, I'll buy it.",
+          "target_answer": "たら",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "安かっ",
+            "たら",
+            "買います"
+          ],
+          "audio_text": "安かったら買います。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "駅に着いたら電話してください。",
+          "japanese_with_blank": "駅に着い[___]電話してください。",
+          "english": "When you arrive at the station, please call.",
+          "target_answer": "たら",
+          "alternative_answers": [],
+          "hint": "when",
+          "scramble_blocks": [
+            "駅",
+            "に",
+            "着い",
+            "たら",
+            "電話してください"
+          ],
+          "audio_text": "駅に着いたら電話してください。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "時間があったら遊びましょう。",
+          "japanese_with_blank": "時間があっ[___]遊びましょう。",
+          "english": "If we have time, let's hang out.",
+          "target_answer": "たら",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "時間",
+            "が",
+            "あっ",
+            "たら",
+            "遊びましょう"
+          ],
+          "audio_text": "時間があったら遊びましょう。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "暑かったら窓を開けてください。",
+          "japanese_with_blank": "暑かっ[___]窓を開けてください。",
+          "english": "If it's hot, please open the window.",
+          "target_answer": "たら",
+          "alternative_answers": [],
+          "hint": "if",
+          "scramble_blocks": [
+            "暑かっ",
+            "たら",
+            "窓",
+            "を",
+            "開けてください"
+          ],
+          "audio_text": "暑かったら窓を開けてください。",
+          "notes": "",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

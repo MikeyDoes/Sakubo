@@ -1,0 +1,83 @@
+{
+  "grammar_point": "たらどう",
+  "entry_id": 325556,
+  "categories": [
+    {
+      "id": "suggestion",
+      "label": "Giving Suggestions",
+      "sentences": [
+        {
+          "japanese": "病院に行ったらどうですか。",
+          "japanese_with_blank": "病院に行っ[___]ですか。",
+          "english": "Why don't you go to the hospital?",
+          "target_answer": "たらどう",
+          "alternative_answers": [],
+          "hint": "why don't you",
+          "scramble_blocks": [
+            "病院",
+            "に",
+            "行っ",
+            "たらどう",
+            "ですか"
+          ],
+          "audio_text": "病院に行ったらどうですか。",
+          "notes": "た-form + らどう = suggestion.",
+          "position": 1
+        },
+        {
+          "japanese": "少し休んだらどうですか。",
+          "japanese_with_blank": "少し休ん[___]ですか。",
+          "english": "Why don't you rest a bit?",
+          "target_answer": "だらどう",
+          "alternative_answers": [],
+          "hint": "why don't you",
+          "scramble_blocks": [
+            "少し",
+            "休ん",
+            "だらどう",
+            "ですか"
+          ],
+          "audio_text": "少し休んだらどうですか。",
+          "notes": "休む → 休んだらどう.",
+          "position": 2
+        },
+        {
+          "japanese": "先生に聞いたらどうですか。",
+          "japanese_with_blank": "先生に聞い[___]ですか。",
+          "english": "Why don't you ask the teacher?",
+          "target_answer": "たらどう",
+          "alternative_answers": [],
+          "hint": "why don't you",
+          "scramble_blocks": [
+            "先生",
+            "に",
+            "聞い",
+            "たらどう",
+            "ですか"
+          ],
+          "audio_text": "先生に聞いたらどうですか。",
+          "notes": "聞く → 聞いたらどう.",
+          "position": 3
+        },
+        {
+          "japanese": "薬を飲んだらどうですか。",
+          "japanese_with_blank": "薬を飲ん[___]ですか。",
+          "english": "Why don't you take some medicine?",
+          "target_answer": "だらどう",
+          "alternative_answers": [],
+          "hint": "why don't you",
+          "scramble_blocks": [
+            "薬",
+            "を",
+            "飲ん",
+            "だらどう",
+            "ですか"
+          ],
+          "audio_text": "薬を飲んだらどうですか。",
+          "notes": "飲む → 飲んだらどう.",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

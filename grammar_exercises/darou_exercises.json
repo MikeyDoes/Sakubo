@@ -1,0 +1,162 @@
+{
+  "grammar_point": "だろう",
+  "entry_id": 325492,
+  "categories": [
+    {
+      "id": "probably",
+      "label": "Probably (Casual)",
+      "sentences": [
+        {
+          "japanese": "明日は暑いだろう。",
+          "japanese_with_blank": "明日は暑い[___]。",
+          "english": "It will probably be hot tomorrow.",
+          "target_answer": "だろう",
+          "alternative_answers": [],
+          "hint": "Probably",
+          "scramble_blocks": [
+            "明日は暑い",
+            "だろう"
+          ],
+          "audio_text": "明日は暑いだろう。",
+          "notes": "だろう expresses probability (casual).",
+          "position": 1
+        },
+        {
+          "japanese": "あの人は先生だろう。",
+          "japanese_with_blank": "あの人は先生[___]。",
+          "english": "That person is probably a teacher.",
+          "target_answer": "だろう",
+          "alternative_answers": [],
+          "hint": "Probably",
+          "scramble_blocks": [
+            "あの人は先生",
+            "だろう"
+          ],
+          "audio_text": "あの人は先生だろう。",
+          "notes": "Guessing identity.",
+          "position": 2
+        },
+        {
+          "japanese": "明日は雨だろう。",
+          "japanese_with_blank": "明日は雨[___]。",
+          "english": "It will probably rain tomorrow.",
+          "target_answer": "だろう",
+          "alternative_answers": [],
+          "hint": "Probably",
+          "scramble_blocks": [
+            "明日は雨",
+            "だろう"
+          ],
+          "audio_text": "明日は雨だろう。",
+          "notes": "Weather guess.",
+          "position": 3
+        },
+        {
+          "japanese": "高いだろう。",
+          "japanese_with_blank": "高い[___]。",
+          "english": "It is probably expensive.",
+          "target_answer": "だろう",
+          "alternative_answers": [],
+          "hint": "Probably",
+          "scramble_blocks": [
+            "高い",
+            "だろう"
+          ],
+          "audio_text": "高いだろう。",
+          "notes": "Price guess.",
+          "position": 4
+        },
+        {
+          "japanese": "面白いだろう。",
+          "japanese_with_blank": "面白い[___]。",
+          "english": "It is probably interesting.",
+          "target_answer": "だろう",
+          "alternative_answers": [],
+          "hint": "Probably",
+          "scramble_blocks": [
+            "面白い",
+            "だろう"
+          ],
+          "audio_text": "面白いだろう。",
+          "notes": "Interest guess.",
+          "position": 5
+        },
+        {
+          "japanese": "大丈夫だろう。",
+          "japanese_with_blank": "大丈夫[___]。",
+          "english": "It will probably be fine.",
+          "target_answer": "だろう",
+          "alternative_answers": [],
+          "hint": "Probably",
+          "scramble_blocks": [
+            "大丈夫",
+            "だろう"
+          ],
+          "audio_text": "大丈夫だろう。",
+          "notes": "Reassurance.",
+          "position": 6
+        },
+        {
+          "japanese": "忙しいだろう。",
+          "japanese_with_blank": "忙しい[___]。",
+          "english": "He is probably busy.",
+          "target_answer": "だろう",
+          "alternative_answers": [],
+          "hint": "Probably",
+          "scramble_blocks": [
+            "忙しい",
+            "だろう"
+          ],
+          "audio_text": "忙しいだろう。",
+          "notes": "Guessing state.",
+          "position": 7
+        },
+        {
+          "japanese": "来るだろう。",
+          "japanese_with_blank": "来る[___]。",
+          "english": "He will probably come.",
+          "target_answer": "だろう",
+          "alternative_answers": [],
+          "hint": "Probably",
+          "scramble_blocks": [
+            "来る",
+            "だろう"
+          ],
+          "audio_text": "来るだろう。",
+          "notes": "Arrival guess.",
+          "position": 8
+        },
+        {
+          "japanese": "美味しいだろう。",
+          "japanese_with_blank": "美味しい[___]。",
+          "english": "It is probably delicious.",
+          "target_answer": "だろう",
+          "alternative_answers": [],
+          "hint": "Probably",
+          "scramble_blocks": [
+            "美味しい",
+            "だろう"
+          ],
+          "audio_text": "美味しいだろう。",
+          "notes": "Taste guess.",
+          "position": 9
+        },
+        {
+          "japanese": "元気だろう。",
+          "japanese_with_blank": "元気[___]。",
+          "english": "He is probably well.",
+          "target_answer": "だろう",
+          "alternative_answers": [],
+          "hint": "Probably",
+          "scramble_blocks": [
+            "元気",
+            "だろう"
+          ],
+          "audio_text": "元気だろう。",
+          "notes": "Health guess.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "grammar_point": "他動詞 & 自動詞",
+  "entry_id": 325637,
+  "categories": [
+    {
+      "id": "transitive",
+      "label": "Transitive Verbs",
+      "sentences": [
+        {
+          "japanese": "ドアを開けました。",
+          "japanese_with_blank": "ドア[___]。",
+          "english": "I opened the door.",
+          "target_answer": "を開けました",
+          "alternative_answers": [],
+          "hint": "opened (trans.)",
+          "scramble_blocks": [
+            "ドア",
+            "を開けました"
+          ],
+          "audio_text": "ドアを開けました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "電気をつけてください。",
+          "japanese_with_blank": "電気[___]ください。",
+          "english": "Please turn on the light.",
+          "target_answer": "をつけて",
+          "alternative_answers": [],
+          "hint": "turn on (trans.)",
+          "scramble_blocks": [
+            "電気",
+            "をつけて",
+            "ください"
+          ],
+          "audio_text": "電気をつけてください。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "窓を閉めました。",
+          "japanese_with_blank": "窓[___]。",
+          "english": "I closed the window.",
+          "target_answer": "を閉めました",
+          "alternative_answers": [],
+          "hint": "closed (trans.)",
+          "scramble_blocks": [
+            "窓",
+            "を閉めました"
+          ],
+          "audio_text": "窓を閉めました。",
+          "notes": "",
+          "position": 3
+        }
+      ]
+    },
+    {
+      "id": "intransitive",
+      "label": "Intransitive Verbs",
+      "sentences": [
+        {
+          "japanese": "ドアが開きました。",
+          "japanese_with_blank": "ドア[___]。",
+          "english": "The door opened.",
+          "target_answer": "が開きました",
+          "alternative_answers": [],
+          "hint": "opened (intrans.)",
+          "scramble_blocks": [
+            "ドア",
+            "が開きました"
+          ],
+          "audio_text": "ドアが開きました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "電気がつきました。",
+          "japanese_with_blank": "電気[___]。",
+          "english": "The light turned on.",
+          "target_answer": "がつきました",
+          "alternative_answers": [],
+          "hint": "turned on (intrans.)",
+          "scramble_blocks": [
+            "電気",
+            "がつきました"
+          ],
+          "audio_text": "電気がつきました。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "窓が閉まりました。",
+          "japanese_with_blank": "窓[___]。",
+          "english": "The window closed.",
+          "target_answer": "が閉まりました",
+          "alternative_answers": [],
+          "hint": "closed (intrans.)",
+          "scramble_blocks": [
+            "窓",
+            "が閉まりました"
+          ],
+          "audio_text": "窓が閉まりました。",
+          "notes": "",
+          "position": 3
+        }
+      ]
+    },
+    {
+      "id": "pairs",
+      "label": "Transitive/Intransitive Pairs",
+      "sentences": [
+        {
+          "japanese": "授業が始まりました。",
+          "japanese_with_blank": "授業[___]。",
+          "english": "The class started. (intransitive)",
+          "target_answer": "が始まりました",
+          "alternative_answers": [],
+          "hint": "started (intrans.)",
+          "scramble_blocks": [
+            "授業",
+            "が始まりました"
+          ],
+          "audio_text": "授業が始まりました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "先生が授業を始めました。",
+          "japanese_with_blank": "先生が授業[___]。",
+          "english": "The teacher started the class. (transitive)",
+          "target_answer": "を始めました",
+          "alternative_answers": [],
+          "hint": "started (trans.)",
+          "scramble_blocks": [
+            "先生",
+            "が",
+            "授業",
+            "を始めました"
+          ],
+          "audio_text": "先生が授業を始めました。",
+          "notes": "",
+          "position": 2
+        }
+      ]
+    }
+  ]
+}

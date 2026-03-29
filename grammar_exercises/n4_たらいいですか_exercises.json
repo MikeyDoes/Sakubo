@@ -1,0 +1,80 @@
+{
+  "grammar_point": "たらいいですか",
+  "entry_id": 325630,
+  "categories": [
+    {
+      "id": "seeking_advice",
+      "label": "Seeking Advice",
+      "sentences": [
+        {
+          "japanese": "何を買ったらいいですか。",
+          "japanese_with_blank": "何を買っ[___]。",
+          "english": "What should I buy?",
+          "target_answer": "たらいいですか",
+          "alternative_answers": [],
+          "hint": "what should I",
+          "scramble_blocks": [
+            "何",
+            "を",
+            "買っ",
+            "たらいいですか"
+          ],
+          "audio_text": "何を買ったらいいですか。",
+          "notes": "た-form + らいいですか = what should I.",
+          "position": 1
+        },
+        {
+          "japanese": "どこに行ったらいいですか。",
+          "japanese_with_blank": "どこに行っ[___]。",
+          "english": "Where should I go?",
+          "target_answer": "たらいいですか",
+          "alternative_answers": [],
+          "hint": "what should I",
+          "scramble_blocks": [
+            "どこ",
+            "に",
+            "行っ",
+            "たらいいですか"
+          ],
+          "audio_text": "どこに行ったらいいですか。",
+          "notes": "行く → 行ったらいいですか.",
+          "position": 2
+        },
+        {
+          "japanese": "何時に起きたらいいですか。",
+          "japanese_with_blank": "何時に起き[___]。",
+          "english": "What time should I wake up?",
+          "target_answer": "たらいいですか",
+          "alternative_answers": [],
+          "hint": "what should I",
+          "scramble_blocks": [
+            "何時",
+            "に",
+            "起き",
+            "たらいいですか"
+          ],
+          "audio_text": "何時に起きたらいいですか。",
+          "notes": "起きる → 起きたらいいですか.",
+          "position": 3
+        },
+        {
+          "japanese": "何を食べたらいいですか。",
+          "japanese_with_blank": "何を食べ[___]。",
+          "english": "What should I eat?",
+          "target_answer": "たらいいですか",
+          "alternative_answers": [],
+          "hint": "what should I",
+          "scramble_blocks": [
+            "何",
+            "を",
+            "食べ",
+            "たらいいですか"
+          ],
+          "audio_text": "何を食べたらいいですか。",
+          "notes": "食べる → 食べたらいいですか.",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

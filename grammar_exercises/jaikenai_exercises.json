@@ -1,0 +1,162 @@
+{
+  "grammar_point": "じゃいけない",
+  "entry_id": 325471,
+  "categories": [
+    {
+      "id": "casual_prohibition",
+      "label": "Casual Prohibition",
+      "sentences": [
+        {
+          "japanese": "食べちゃいけない。",
+          "japanese_with_blank": "食べちゃ[___]。",
+          "english": "You must not eat.",
+          "target_answer": "いけない",
+          "alternative_answers": [],
+          "hint": "Casual prohibition",
+          "scramble_blocks": [
+            "食べちゃ",
+            "いけない"
+          ],
+          "audio_text": "食べちゃいけない。",
+          "notes": "じゃいけない is casual prohibition.",
+          "position": 1
+        },
+        {
+          "japanese": "見ちゃいけない。",
+          "japanese_with_blank": "見ちゃ[___]。",
+          "english": "You must not look.",
+          "target_answer": "いけない",
+          "alternative_answers": [],
+          "hint": "Casual prohibition",
+          "scramble_blocks": [
+            "見ちゃ",
+            "いけない"
+          ],
+          "audio_text": "見ちゃいけない。",
+          "notes": "Casual prohibition.",
+          "position": 2
+        },
+        {
+          "japanese": "読んじゃいけない。",
+          "japanese_with_blank": "読んじゃ[___]。",
+          "english": "You must not read.",
+          "target_answer": "いけない",
+          "alternative_answers": [],
+          "hint": "Casual prohibition",
+          "scramble_blocks": [
+            "読んじゃ",
+            "いけない"
+          ],
+          "audio_text": "読んじゃいけない。",
+          "notes": "Casual negative.",
+          "position": 3
+        },
+        {
+          "japanese": "行っちゃいけない。",
+          "japanese_with_blank": "行っちゃ[___]。",
+          "english": "You must not go.",
+          "target_answer": "いけない",
+          "alternative_answers": [],
+          "hint": "Casual prohibition",
+          "scramble_blocks": [
+            "行っちゃ",
+            "いけない"
+          ],
+          "audio_text": "行っちゃいけない。",
+          "notes": "Casual: 行く + じゃいけない.",
+          "position": 4
+        },
+        {
+          "japanese": "飲んじゃいけない。",
+          "japanese_with_blank": "飲んじゃ[___]。",
+          "english": "You must not drink.",
+          "target_answer": "いけない",
+          "alternative_answers": [],
+          "hint": "Casual prohibition",
+          "scramble_blocks": [
+            "飲んじゃ",
+            "いけない"
+          ],
+          "audio_text": "飲んじゃいけない。",
+          "notes": "Casual drinking prohibition.",
+          "position": 5
+        },
+        {
+          "japanese": "書いちゃいけない。",
+          "japanese_with_blank": "書いちゃ[___]。",
+          "english": "You must not write.",
+          "target_answer": "いけない",
+          "alternative_answers": [],
+          "hint": "Casual prohibition",
+          "scramble_blocks": [
+            "書いちゃ",
+            "いけない"
+          ],
+          "audio_text": "書いちゃいけない。",
+          "notes": "Casual writing prohibition.",
+          "position": 6
+        },
+        {
+          "japanese": "話しちゃいけない。",
+          "japanese_with_blank": "話しちゃ[___]。",
+          "english": "You must not speak.",
+          "target_answer": "いけない",
+          "alternative_answers": [],
+          "hint": "Casual prohibition",
+          "scramble_blocks": [
+            "話しちゃ",
+            "いけない"
+          ],
+          "audio_text": "話しちゃいけない。",
+          "notes": "Casual speaking prohibition.",
+          "position": 7
+        },
+        {
+          "japanese": "しちゃいけない。",
+          "japanese_with_blank": "しちゃ[___]。",
+          "english": "You must not do it.",
+          "target_answer": "いけない",
+          "alternative_answers": [],
+          "hint": "Casual prohibition",
+          "scramble_blocks": [
+            "しちゃ",
+            "いけない"
+          ],
+          "audio_text": "しちゃいけない。",
+          "notes": "Casual doing prohibition.",
+          "position": 8
+        },
+        {
+          "japanese": "来ちゃいけない。",
+          "japanese_with_blank": "来ちゃ[___]。",
+          "english": "You must not come.",
+          "target_answer": "いけない",
+          "alternative_answers": [],
+          "hint": "Casual prohibition",
+          "scramble_blocks": [
+            "来ちゃ",
+            "いけない"
+          ],
+          "audio_text": "来ちゃいけない。",
+          "notes": "Casual coming prohibition.",
+          "position": 9
+        },
+        {
+          "japanese": "触っちゃいけない。",
+          "japanese_with_blank": "触っちゃ[___]。",
+          "english": "You must not touch.",
+          "target_answer": "いけない",
+          "alternative_answers": [],
+          "hint": "Casual prohibition",
+          "scramble_blocks": [
+            "触っちゃ",
+            "いけない"
+          ],
+          "audio_text": "触っちゃいけない。",
+          "notes": "Casual touching prohibition.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

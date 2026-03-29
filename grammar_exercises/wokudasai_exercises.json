@@ -1,0 +1,162 @@
+{
+  "grammar_point": "をください",
+  "entry_id": 325500,
+  "categories": [
+    {
+      "id": "give_me",
+      "label": "Please Give Me",
+      "sentences": [
+        {
+          "japanese": "水をください。",
+          "japanese_with_blank": "水[___]。",
+          "english": "Water, please.",
+          "target_answer": "をください",
+          "alternative_answers": [],
+          "hint": "Please give me",
+          "scramble_blocks": [
+            "水",
+            "をください"
+          ],
+          "audio_text": "水をください。",
+          "notes": "をください is used to ask for something politely.",
+          "position": 1
+        },
+        {
+          "japanese": "コーヒーをください。",
+          "japanese_with_blank": "コーヒー[___]。",
+          "english": "Coffee, please.",
+          "target_answer": "をください",
+          "alternative_answers": [],
+          "hint": "Please give me",
+          "scramble_blocks": [
+            "コーヒー",
+            "をください"
+          ],
+          "audio_text": "コーヒーをください。",
+          "notes": "Ordering a drink.",
+          "position": 2
+        },
+        {
+          "japanese": "パンをください。",
+          "japanese_with_blank": "パン[___]。",
+          "english": "Bread, please.",
+          "target_answer": "をください",
+          "alternative_answers": [],
+          "hint": "Please give me",
+          "scramble_blocks": [
+            "パン",
+            "をください"
+          ],
+          "audio_text": "パンをください。",
+          "notes": "Ordering food.",
+          "position": 3
+        },
+        {
+          "japanese": "本をください。",
+          "japanese_with_blank": "本[___]。",
+          "english": "A book, please.",
+          "target_answer": "をください",
+          "alternative_answers": [],
+          "hint": "Please give me",
+          "scramble_blocks": [
+            "本",
+            "をください"
+          ],
+          "audio_text": "本をください。",
+          "notes": "Requesting an item.",
+          "position": 4
+        },
+        {
+          "japanese": "ケーキをください。",
+          "japanese_with_blank": "ケーキ[___]。",
+          "english": "Cake, please.",
+          "target_answer": "をください",
+          "alternative_answers": [],
+          "hint": "Please give me",
+          "scramble_blocks": [
+            "ケーキ",
+            "をください"
+          ],
+          "audio_text": "ケーキをください。",
+          "notes": "Ordering dessert.",
+          "position": 5
+        },
+        {
+          "japanese": "お茶をください。",
+          "japanese_with_blank": "お茶[___]。",
+          "english": "Tea, please.",
+          "target_answer": "をください",
+          "alternative_answers": [],
+          "hint": "Please give me",
+          "scramble_blocks": [
+            "お茶",
+            "をください"
+          ],
+          "audio_text": "お茶をください。",
+          "notes": "Ordering tea.",
+          "position": 6
+        },
+        {
+          "japanese": "切符をください。",
+          "japanese_with_blank": "切符[___]。",
+          "english": "A ticket, please.",
+          "target_answer": "をください",
+          "alternative_answers": [],
+          "hint": "Please give me",
+          "scramble_blocks": [
+            "切符",
+            "をください"
+          ],
+          "audio_text": "切符をください。",
+          "notes": "Requesting a ticket.",
+          "position": 7
+        },
+        {
+          "japanese": "牛乳をください。",
+          "japanese_with_blank": "牛乳[___]。",
+          "english": "Milk, please.",
+          "target_answer": "をください",
+          "alternative_answers": [],
+          "hint": "Please give me",
+          "scramble_blocks": [
+            "牛乳",
+            "をください"
+          ],
+          "audio_text": "牛乳をください。",
+          "notes": "Ordering milk.",
+          "position": 8
+        },
+        {
+          "japanese": "お金をください。",
+          "japanese_with_blank": "お金[___]。",
+          "english": "Money, please.",
+          "target_answer": "をください",
+          "alternative_answers": [],
+          "hint": "Please give me",
+          "scramble_blocks": [
+            "お金",
+            "をください"
+          ],
+          "audio_text": "お金をください。",
+          "notes": "Requesting money.",
+          "position": 9
+        },
+        {
+          "japanese": "鍵をください。",
+          "japanese_with_blank": "鍵[___]。",
+          "english": "The key, please.",
+          "target_answer": "をください",
+          "alternative_answers": [],
+          "hint": "Please give me",
+          "scramble_blocks": [
+            "鍵",
+            "をください"
+          ],
+          "audio_text": "鍵をください。",
+          "notes": "Requesting a key.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "grammar_point": "たり〜たり",
+  "entry_id": 325498,
+  "categories": [
+    {
+      "id": "listing_activities",
+      "label": "Activities Like A and B",
+      "sentences": [
+        {
+          "japanese": "食べたり飲んだりします。",
+          "japanese_with_blank": "食べ[___]飲んだりします。",
+          "english": "I do things like eating and drinking.",
+          "target_answer": "たり",
+          "alternative_answers": [],
+          "hint": "Listing acts",
+          "scramble_blocks": [
+            "食べたり",
+            "飲んだりします"
+          ],
+          "audio_text": "食べたり飲んだりします。",
+          "notes": "たり〜たりする lists non-exhaustive activities.",
+          "position": 1
+        },
+        {
+          "japanese": "読んだり書いたりします。",
+          "japanese_with_blank": "読んだり書い[___]します。",
+          "english": "I do things like reading and writing.",
+          "target_answer": "たり",
+          "alternative_answers": [],
+          "hint": "Listing acts",
+          "scramble_blocks": [
+            "読んだり",
+            "書いたりします"
+          ],
+          "audio_text": "読んだり書いたりします。",
+          "notes": "Activity listing.",
+          "position": 2
+        },
+        {
+          "japanese": "見たり聞いたりします。",
+          "japanese_with_blank": "見[___]聞いたりします。",
+          "english": "I do things like watching and listening.",
+          "target_answer": "たり",
+          "alternative_answers": [],
+          "hint": "Listing acts",
+          "scramble_blocks": [
+            "見たり",
+            "聞いたりします"
+          ],
+          "audio_text": "見たり聞いたりします。",
+          "notes": "Media activities.",
+          "position": 3
+        },
+        {
+          "japanese": "行ったり来たりします。",
+          "japanese_with_blank": "行っ[___]来たりします。",
+          "english": "I go back and forth.",
+          "target_answer": "たり",
+          "alternative_answers": [],
+          "hint": "Listing acts",
+          "scramble_blocks": [
+            "行ったり",
+            "来たりします"
+          ],
+          "audio_text": "行ったり来たりします。",
+          "notes": "Movement pattern.",
+          "position": 4
+        },
+        {
+          "japanese": "走ったり歩いたりします。",
+          "japanese_with_blank": "走っ[___]歩いたりします。",
+          "english": "I do things like running and walking.",
+          "target_answer": "たり",
+          "alternative_answers": [],
+          "hint": "Listing acts",
+          "scramble_blocks": [
+            "走ったり",
+            "歩いたりします"
+          ],
+          "audio_text": "走ったり歩いたりします。",
+          "notes": "Exercise activities.",
+          "position": 5
+        },
+        {
+          "japanese": "話したり聞いたりします。",
+          "japanese_with_blank": "話し[___]聞いたりします。",
+          "english": "I do things like talking and listening.",
+          "target_answer": "たり",
+          "alternative_answers": [],
+          "hint": "Listing acts",
+          "scramble_blocks": [
+            "話したり",
+            "聞いたりします"
+          ],
+          "audio_text": "話したり聞いたりします。",
+          "notes": "Conversation pattern.",
+          "position": 6
+        },
+        {
+          "japanese": "買ったり飲んだりします。",
+          "japanese_with_blank": "買っ[___]飲んだりします。",
+          "english": "I do things like shopping and drinking.",
+          "target_answer": "たり",
+          "alternative_answers": [],
+          "hint": "Listing acts",
+          "scramble_blocks": [
+            "買ったり",
+            "飲んだりします"
+          ],
+          "audio_text": "買ったり飲んだりします。",
+          "notes": "Leisure activities.",
+          "position": 7
+        },
+        {
+          "japanese": "寝たり起きたりします。",
+          "japanese_with_blank": "寝[___]起きたりします。",
+          "english": "I sleep and wake up repeatedly.",
+          "target_answer": "たり",
+          "alternative_answers": [],
+          "hint": "Listing acts",
+          "scramble_blocks": [
+            "寝たり",
+            "起きたりします"
+          ],
+          "audio_text": "寝たり起きたりします。",
+          "notes": "Repeated pattern.",
+          "position": 8
+        },
+        {
+          "japanese": "読んだり見たりします。",
+          "japanese_with_blank": "読んだり見[___]します。",
+          "english": "I do things like reading and watching.",
+          "target_answer": "たり",
+          "alternative_answers": [],
+          "hint": "Listing acts",
+          "scramble_blocks": [
+            "読んだり",
+            "見たりします"
+          ],
+          "audio_text": "読んだり見たりします。",
+          "notes": "Entertainment activities.",
+          "position": 9
+        },
+        {
+          "japanese": "書いたり話したりします。",
+          "japanese_with_blank": "書い[___]話したりします。",
+          "english": "I do things like writing and talking.",
+          "target_answer": "たり",
+          "alternative_answers": [],
+          "hint": "Listing acts",
+          "scramble_blocks": [
+            "書いたり",
+            "話したりします"
+          ],
+          "audio_text": "書いたり話したりします。",
+          "notes": "Communication pattern.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

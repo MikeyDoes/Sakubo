@@ -1,0 +1,192 @@
+{
+  "grammar_point": "か〜か",
+  "entry_id": 325490,
+  "categories": [
+    {
+      "id": "or",
+      "label": "A or B",
+      "sentences": [
+        {
+          "japanese": "コーヒーかお茶か飲みますか",
+          "japanese_with_blank": "コーヒー[___]お茶か飲みますか",
+          "english": "Do you drink coffee or tea?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Or",
+          "scramble_blocks": [
+            "コーヒー",
+            "か",
+            "お茶",
+            "か",
+            "飲みますか"
+          ],
+          "audio_text": "コーヒーかお茶か飲みますか",
+          "notes": "か〜か presents alternatives.",
+          "position": 1
+        },
+        {
+          "japanese": "犬か猫か好きですか",
+          "japanese_with_blank": "犬[___]猫か好きですか",
+          "english": "Do you like dogs or cats?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Or",
+          "scramble_blocks": [
+            "犬",
+            "か",
+            "猫",
+            "か",
+            "好きですか"
+          ],
+          "audio_text": "犬か猫か好きですか",
+          "notes": "Preference question.",
+          "position": 2
+        },
+        {
+          "japanese": "朝か夜か勉強しますか",
+          "japanese_with_blank": "朝[___]夜か勉強しますか",
+          "english": "Do you study in the morning or at night?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Or",
+          "scramble_blocks": [
+            "朝",
+            "か",
+            "夜",
+            "か",
+            "勉強しますか"
+          ],
+          "audio_text": "朝か夜か勉強しますか",
+          "notes": "Time preference.",
+          "position": 3
+        },
+        {
+          "japanese": "バスか電車か使いますか",
+          "japanese_with_blank": "バス[___]電車か使いますか",
+          "english": "Do you use the bus or train?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Or",
+          "scramble_blocks": [
+            "バス",
+            "か",
+            "電車",
+            "か",
+            "使いますか"
+          ],
+          "audio_text": "バスか電車か使いますか",
+          "notes": "Transport preference.",
+          "position": 4
+        },
+        {
+          "japanese": "肉か魚か食べますか",
+          "japanese_with_blank": "肉[___]魚か食べますか",
+          "english": "Do you eat meat or fish?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Or",
+          "scramble_blocks": [
+            "肉",
+            "か",
+            "魚",
+            "か",
+            "食べますか"
+          ],
+          "audio_text": "肉か魚か食べますか",
+          "notes": "Food preference.",
+          "position": 5
+        },
+        {
+          "japanese": "本か映画か好きですか",
+          "japanese_with_blank": "本[___]映画か好きですか",
+          "english": "Do you like books or movies?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Or",
+          "scramble_blocks": [
+            "本",
+            "か",
+            "映画",
+            "か",
+            "好きですか"
+          ],
+          "audio_text": "本か映画か好きですか",
+          "notes": "Entertainment preference.",
+          "position": 6
+        },
+        {
+          "japanese": "赤か青か好きですか",
+          "japanese_with_blank": "赤[___]青か好きですか",
+          "english": "Do you like red or blue?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Or",
+          "scramble_blocks": [
+            "赤",
+            "か",
+            "青",
+            "か",
+            "好きですか"
+          ],
+          "audio_text": "赤か青か好きですか",
+          "notes": "Color preference.",
+          "position": 7
+        },
+        {
+          "japanese": "月曜日か火曜日か行きますか",
+          "japanese_with_blank": "月曜日[___]火曜日か行きますか",
+          "english": "Do you go on Monday or Tuesday?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Or",
+          "scramble_blocks": [
+            "月曜日",
+            "か",
+            "火曜日",
+            "か",
+            "行きますか"
+          ],
+          "audio_text": "月曜日か火曜日か行きますか",
+          "notes": "Day preference.",
+          "position": 8
+        },
+        {
+          "japanese": "ここかそこか食べますか",
+          "japanese_with_blank": "ここ[___]そこか食べますか",
+          "english": "Do we eat here or there?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Or",
+          "scramble_blocks": [
+            "ここ",
+            "か",
+            "そこ",
+            "か",
+            "食べますか"
+          ],
+          "audio_text": "ここかそこか食べますか",
+          "notes": "Location preference.",
+          "position": 9
+        },
+        {
+          "japanese": "今日か明日か来ますか",
+          "japanese_with_blank": "今日[___]明日か来ますか",
+          "english": "Do you come today or tomorrow?",
+          "target_answer": "か",
+          "alternative_answers": [],
+          "hint": "Or",
+          "scramble_blocks": [
+            "今日",
+            "か",
+            "明日",
+            "か",
+            "来ますか"
+          ],
+          "audio_text": "今日か明日か来ますか",
+          "notes": "Time choice.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

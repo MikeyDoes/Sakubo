@@ -1,0 +1,133 @@
+{
+  "grammar_point": "という",
+  "entry_id": 325621,
+  "categories": [
+    {
+      "id": "naming",
+      "label": "Called / Named",
+      "sentences": [
+        {
+          "japanese": "これは寿司という食べ物です。",
+          "japanese_with_blank": "これは寿司[___]食べ物です。",
+          "english": "This is a food called sushi.",
+          "target_answer": "という",
+          "alternative_answers": [],
+          "hint": "called",
+          "scramble_blocks": [
+            "これ",
+            "は",
+            "寿司",
+            "という",
+            "食べ物",
+            "です"
+          ],
+          "audio_text": "これは寿司という食べ物です。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "「ありがとう」という言葉が好きです。",
+          "japanese_with_blank": "「ありがとう」[___]言葉が好きです。",
+          "english": "I like the word 'arigatou'.",
+          "target_answer": "という",
+          "alternative_answers": [],
+          "hint": "called",
+          "scramble_blocks": [
+            "ありがとう",
+            "という",
+            "言葉",
+            "が",
+            "好き",
+            "です"
+          ],
+          "audio_text": "「ありがとう」という言葉が好きです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "東京という町に住んでいます。",
+          "japanese_with_blank": "東京[___]町に住んでいます。",
+          "english": "I live in a city called Tokyo.",
+          "target_answer": "という",
+          "alternative_answers": [],
+          "hint": "called",
+          "scramble_blocks": [
+            "東京",
+            "という",
+            "町",
+            "に",
+            "住んでいます"
+          ],
+          "audio_text": "東京という町に住んでいます。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "田中という人を知っていますか。",
+          "japanese_with_blank": "田中[___]人を知っていますか。",
+          "english": "Do you know a person called Tanaka?",
+          "target_answer": "という",
+          "alternative_answers": [],
+          "hint": "called",
+          "scramble_blocks": [
+            "田中",
+            "という",
+            "人",
+            "を",
+            "知っていますか"
+          ],
+          "audio_text": "田中という人を知っていますか。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "that_meaning",
+      "label": "That (Content)",
+      "sentences": [
+        {
+          "japanese": "日本語は難しいという人が多いです。",
+          "japanese_with_blank": "日本語は難しい[___]人が多いです。",
+          "english": "Many people say that Japanese is difficult.",
+          "target_answer": "という",
+          "alternative_answers": [],
+          "hint": "that",
+          "scramble_blocks": [
+            "日本語",
+            "は",
+            "難しい",
+            "という",
+            "人",
+            "が",
+            "多い",
+            "です"
+          ],
+          "audio_text": "日本語は難しいという人が多いです。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "明日テストがあるということを忘れていました。",
+          "japanese_with_blank": "明日テストがある[___]を忘れていました。",
+          "english": "I forgot that there's a test tomorrow.",
+          "target_answer": "ということ",
+          "alternative_answers": [],
+          "hint": "that (fact)",
+          "scramble_blocks": [
+            "明日",
+            "テスト",
+            "が",
+            "ある",
+            "ということ",
+            "を",
+            "忘れていました"
+          ],
+          "audio_text": "明日テストがあるということを忘れていました。",
+          "notes": "",
+          "position": 2
+        }
+      ]
+    }
+  ]
+}

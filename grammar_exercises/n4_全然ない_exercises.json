@@ -1,0 +1,74 @@
+{
+  "grammar_point": "全然～ない",
+  "entry_id": 325588,
+  "categories": [
+    {
+      "id": "not_at_all",
+      "label": "Not At All",
+      "sentences": [
+        {
+          "japanese": "全然分かりません。",
+          "japanese_with_blank": "[___]分かりません。",
+          "english": "I don't understand at all.",
+          "target_answer": "全然",
+          "alternative_answers": [],
+          "hint": "not at all",
+          "scramble_blocks": [
+            "全然",
+            "分かりません"
+          ],
+          "audio_text": "全然分かりません。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "全然食べませんでした。",
+          "japanese_with_blank": "[___]食べませんでした。",
+          "english": "I didn't eat at all.",
+          "target_answer": "全然",
+          "alternative_answers": [],
+          "hint": "not at all",
+          "scramble_blocks": [
+            "全然",
+            "食べませんでした"
+          ],
+          "audio_text": "全然食べませんでした。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "全然眠くないです。",
+          "japanese_with_blank": "[___]眠くないです。",
+          "english": "I'm not sleepy at all.",
+          "target_answer": "全然",
+          "alternative_answers": [],
+          "hint": "not at all",
+          "scramble_blocks": [
+            "全然",
+            "眠くない",
+            "です"
+          ],
+          "audio_text": "全然眠くないです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "全然大丈夫です。",
+          "japanese_with_blank": "[___]大丈夫です。",
+          "english": "It's totally fine.",
+          "target_answer": "全然",
+          "alternative_answers": [],
+          "hint": "not at all / totally",
+          "scramble_blocks": [
+            "全然",
+            "大丈夫",
+            "です"
+          ],
+          "audio_text": "全然大丈夫です。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

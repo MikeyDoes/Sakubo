@@ -1,0 +1,80 @@
+{
+  "grammar_point": "それでも",
+  "entry_id": 325551,
+  "categories": [
+    {
+      "id": "nevertheless",
+      "label": "But Still; Nevertheless",
+      "sentences": [
+        {
+          "japanese": "雨でした。それでも出かけました。",
+          "japanese_with_blank": "雨でした。[___]出かけました。",
+          "english": "It was rainy. But still, I went out.",
+          "target_answer": "それでも",
+          "alternative_answers": [],
+          "hint": "but still",
+          "scramble_blocks": [
+            "雨",
+            "でした",
+            "それでも",
+            "出かけました"
+          ],
+          "audio_text": "雨でした。それでも出かけました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "難しいです。それでも頑張ります。",
+          "japanese_with_blank": "難しいです。[___]頑張ります。",
+          "english": "It's difficult. But still, I'll do my best.",
+          "target_answer": "それでも",
+          "alternative_answers": [],
+          "hint": "but still",
+          "scramble_blocks": [
+            "難しい",
+            "です",
+            "それでも",
+            "頑張ります"
+          ],
+          "audio_text": "難しいです。それでも頑張ります。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "高いです。それでも買いたいです。",
+          "japanese_with_blank": "高いです。[___]買いたいです。",
+          "english": "It's expensive. But still, I want to buy it.",
+          "target_answer": "それでも",
+          "alternative_answers": [],
+          "hint": "but still",
+          "scramble_blocks": [
+            "高い",
+            "です",
+            "それでも",
+            "買いたい",
+            "です"
+          ],
+          "audio_text": "高いです。それでも買いたいです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "疲れました。それでも続けます。",
+          "japanese_with_blank": "疲れました。[___]続けます。",
+          "english": "I'm tired. But still, I'll continue.",
+          "target_answer": "それでも",
+          "alternative_answers": [],
+          "hint": "but still",
+          "scramble_blocks": [
+            "疲れました",
+            "それでも",
+            "続けます"
+          ],
+          "audio_text": "疲れました。それでも続けます。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "grammar_point": "かしら",
+  "entry_id": 325536,
+  "categories": [
+    {
+      "id": "wonder_feminine",
+      "label": "I Wonder (Feminine)",
+      "sentences": [
+        {
+          "japanese": "明日は晴れるかしら。",
+          "japanese_with_blank": "明日は晴れる[___]。",
+          "english": "I wonder if it'll be sunny tomorrow.",
+          "target_answer": "かしら",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "晴れる",
+            "かしら"
+          ],
+          "audio_text": "明日は晴れるかしら。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "この色はいいかしら。",
+          "japanese_with_blank": "この色はいい[___]。",
+          "english": "I wonder if this color is good.",
+          "target_answer": "かしら",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "この",
+            "色",
+            "は",
+            "いい",
+            "かしら"
+          ],
+          "audio_text": "この色はいいかしら。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "彼は来るかしら。",
+          "japanese_with_blank": "彼は来る[___]。",
+          "english": "I wonder if he'll come.",
+          "target_answer": "かしら",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "彼",
+            "は",
+            "来る",
+            "かしら"
+          ],
+          "audio_text": "彼は来るかしら。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "間に合うかしら。",
+          "japanese_with_blank": "間に合う[___]。",
+          "english": "I wonder if I'll make it in time.",
+          "target_answer": "かしら",
+          "alternative_answers": [],
+          "hint": "I wonder",
+          "scramble_blocks": [
+            "間に合う",
+            "かしら"
+          ],
+          "audio_text": "間に合うかしら。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

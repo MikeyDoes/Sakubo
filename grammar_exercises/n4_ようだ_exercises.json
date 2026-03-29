@@ -1,0 +1,79 @@
+{
+  "grammar_point": "ようだ",
+  "entry_id": 325614,
+  "categories": [
+    {
+      "id": "appearance_seem",
+      "label": "Appears; Seems",
+      "sentences": [
+        {
+          "japanese": "雨が降るようです。",
+          "japanese_with_blank": "雨が降る[___]。",
+          "english": "It seems like it will rain.",
+          "target_answer": "ようです",
+          "alternative_answers": [],
+          "hint": "seems",
+          "scramble_blocks": [
+            "雨",
+            "が",
+            "降る",
+            "ようです"
+          ],
+          "audio_text": "雨が降るようです。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "彼は忙しいようです。",
+          "japanese_with_blank": "彼は忙しい[___]。",
+          "english": "He seems busy.",
+          "target_answer": "ようです",
+          "alternative_answers": [],
+          "hint": "seems",
+          "scramble_blocks": [
+            "彼",
+            "は",
+            "忙しい",
+            "ようです"
+          ],
+          "audio_text": "彼は忙しいようです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "もう終わったようです。",
+          "japanese_with_blank": "もう終わった[___]。",
+          "english": "It seems like it's already over.",
+          "target_answer": "ようです",
+          "alternative_answers": [],
+          "hint": "seems",
+          "scramble_blocks": [
+            "もう",
+            "終わった",
+            "ようです"
+          ],
+          "audio_text": "もう終わったようです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "田中さんは来ないようです。",
+          "japanese_with_blank": "田中さんは来ない[___]。",
+          "english": "It seems like Tanaka-san won't come.",
+          "target_answer": "ようです",
+          "alternative_answers": [],
+          "hint": "seems",
+          "scramble_blocks": [
+            "田中さん",
+            "は",
+            "来ない",
+            "ようです"
+          ],
+          "audio_text": "田中さんは来ないようです。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "grammar_point": "な-adjectives",
+  "entry_id": 325424,
+  "categories": [
+    {
+      "id": "predicate",
+      "label": "As Predicate",
+      "sentences": [
+        {
+          "japanese": "友達は元気です。",
+          "japanese_with_blank": "友達は[___]です。",
+          "english": "My friend is well/healthy.",
+          "target_answer": "元気",
+          "alternative_answers": [],
+          "hint": "な-adjective",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "元気",
+            "です"
+          ],
+          "audio_text": "友達は元気です。",
+          "notes": "な-adjective predicate. No な before です.",
+          "position": 1
+        },
+        {
+          "japanese": "ここは静かです。",
+          "japanese_with_blank": "ここは[___]です。",
+          "english": "This place is quiet.",
+          "target_answer": "静か",
+          "alternative_answers": [],
+          "hint": "な-adjective",
+          "scramble_blocks": [
+            "ここ",
+            "は",
+            "静か",
+            "です"
+          ],
+          "audio_text": "ここは静かです。",
+          "notes": "Describing a place with な-adjective.",
+          "position": 2
+        },
+        {
+          "japanese": "犬は好きです。",
+          "japanese_with_blank": "犬は[___]です。",
+          "english": "I like dogs.",
+          "target_answer": "好き",
+          "alternative_answers": [],
+          "hint": "な-adjective",
+          "scramble_blocks": [
+            "犬",
+            "は",
+            "好き",
+            "です"
+          ],
+          "audio_text": "犬は好きです。",
+          "notes": "好き as predicate means \"is liked.\" Topic is the liked thing.",
+          "position": 3
+        },
+        {
+          "japanese": "猫は嫌いです。",
+          "japanese_with_blank": "猫は[___]です。",
+          "english": "I dislike cats.",
+          "target_answer": "嫌い",
+          "alternative_answers": [],
+          "hint": "な-adjective",
+          "scramble_blocks": [
+            "猫",
+            "は",
+            "嫌い",
+            "です"
+          ],
+          "audio_text": "猫は嫌いです。",
+          "notes": "嫌い is used like 好き — topic is the disliked thing.",
+          "position": 4
+        },
+        {
+          "japanese": "先生は有名です。",
+          "japanese_with_blank": "先生は[___]です。",
+          "english": "The teacher is famous.",
+          "target_answer": "有名",
+          "alternative_answers": [],
+          "hint": "な-adjective",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "有名",
+            "です"
+          ],
+          "audio_text": "先生は有名です。",
+          "notes": "Describing a person with な-adjective.",
+          "position": 5
+        },
+        {
+          "japanese": "電話は便利です。",
+          "japanese_with_blank": "電話は[___]です。",
+          "english": "Phones are convenient.",
+          "target_answer": "便利",
+          "alternative_answers": [],
+          "hint": "な-adjective",
+          "scramble_blocks": [
+            "電話",
+            "は",
+            "便利",
+            "です"
+          ],
+          "audio_text": "電話は便利です。",
+          "notes": "Describing a useful object.",
+          "position": 6
+        },
+        {
+          "japanese": "子供は元気です。",
+          "japanese_with_blank": "子供は[___]です。",
+          "english": "The children are lively.",
+          "target_answer": "元気",
+          "alternative_answers": [],
+          "hint": "な-adjective",
+          "scramble_blocks": [
+            "子供",
+            "は",
+            "元気",
+            "です"
+          ],
+          "audio_text": "子供は元気です。",
+          "notes": "元気 describes health or energy.",
+          "position": 7
+        },
+        {
+          "japanese": "仕事は大切です。",
+          "japanese_with_blank": "仕事は[___]です。",
+          "english": "Work is important.",
+          "target_answer": "大切",
+          "alternative_answers": [],
+          "hint": "な-adjective",
+          "scramble_blocks": [
+            "仕事",
+            "は",
+            "大切",
+            "です"
+          ],
+          "audio_text": "仕事は大切です。",
+          "notes": "Describing value with な-adjective.",
+          "position": 8
+        },
+        {
+          "japanese": "名前は大切です。",
+          "japanese_with_blank": "名前は[___]です。",
+          "english": "Names are important.",
+          "target_answer": "大切",
+          "alternative_answers": [],
+          "hint": "な-adjective",
+          "scramble_blocks": [
+            "名前",
+            "は",
+            "大切",
+            "です"
+          ],
+          "audio_text": "名前は大切です。",
+          "notes": "大切 for something valued.",
+          "position": 9
+        },
+        {
+          "japanese": "部屋は静かです。",
+          "japanese_with_blank": "部屋は[___]です。",
+          "english": "The room is quiet.",
+          "target_answer": "静か",
+          "alternative_answers": [],
+          "hint": "な-adjective",
+          "scramble_blocks": [
+            "部屋",
+            "は",
+            "静か",
+            "です"
+          ],
+          "audio_text": "部屋は静かです。",
+          "notes": "Describing a quiet space.",
+          "position": 10
+        }
+      ]
+    },
+    {
+      "id": "modifier",
+      "label": "As Modifier (な + Noun)",
+      "sentences": [
+        {
+          "japanese": "静かな部屋です。",
+          "japanese_with_blank": "静か[___]部屋です。",
+          "english": "It is a quiet room.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Modifier",
+          "scramble_blocks": [
+            "静か",
+            "な",
+            "部屋",
+            "です"
+          ],
+          "audio_text": "静かな部屋です。",
+          "notes": "な is required between な-adj and noun.",
+          "position": 11
+        },
+        {
+          "japanese": "元気な子供です。",
+          "japanese_with_blank": "元気[___]子供です。",
+          "english": "It is a lively child.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Modifier",
+          "scramble_blocks": [
+            "元気",
+            "な",
+            "子供",
+            "です"
+          ],
+          "audio_text": "元気な子供です。",
+          "notes": "な links the adjective to the noun.",
+          "position": 12
+        },
+        {
+          "japanese": "有名な先生です。",
+          "japanese_with_blank": "有名[___]先生です。",
+          "english": "It is a famous teacher.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Modifier",
+          "scramble_blocks": [
+            "有名",
+            "な",
+            "先生",
+            "です"
+          ],
+          "audio_text": "有名な先生です。",
+          "notes": "Modifying a person noun.",
+          "position": 13
+        },
+        {
+          "japanese": "便利な電話です。",
+          "japanese_with_blank": "便利[___]電話です。",
+          "english": "It is a convenient phone.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Modifier",
+          "scramble_blocks": [
+            "便利",
+            "な",
+            "電話",
+            "です"
+          ],
+          "audio_text": "便利な電話です。",
+          "notes": "Modifying an object noun.",
+          "position": 14
+        },
+        {
+          "japanese": "大切な本です。",
+          "japanese_with_blank": "大切[___]本です。",
+          "english": "It is an important book.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Modifier",
+          "scramble_blocks": [
+            "大切",
+            "な",
+            "本",
+            "です"
+          ],
+          "audio_text": "大切な本です。",
+          "notes": "な-adj + な + noun for modification.",
+          "position": 15
+        },
+        {
+          "japanese": "有名な学校です。",
+          "japanese_with_blank": "有名[___]学校です。",
+          "english": "It is a famous school.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Modifier",
+          "scramble_blocks": [
+            "有名",
+            "な",
+            "学校",
+            "です"
+          ],
+          "audio_text": "有名な学校です。",
+          "notes": "Modifying a place noun.",
+          "position": 16
+        },
+        {
+          "japanese": "静かな店です。",
+          "japanese_with_blank": "静か[___]店です。",
+          "english": "It is a quiet shop.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Modifier",
+          "scramble_blocks": [
+            "静か",
+            "な",
+            "店",
+            "です"
+          ],
+          "audio_text": "静かな店です。",
+          "notes": "Describing the quality of a place.",
+          "position": 17
+        },
+        {
+          "japanese": "便利なホテルです。",
+          "japanese_with_blank": "便利[___]ホテルです。",
+          "english": "It is a convenient hotel.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Modifier",
+          "scramble_blocks": [
+            "便利",
+            "な",
+            "ホテル",
+            "です"
+          ],
+          "audio_text": "便利なホテルです。",
+          "notes": "Katakana noun modified by な-adj.",
+          "position": 18
+        },
+        {
+          "japanese": "元気な友達です。",
+          "japanese_with_blank": "元気[___]友達です。",
+          "english": "It is a lively friend.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Modifier",
+          "scramble_blocks": [
+            "元気",
+            "な",
+            "友達",
+            "です"
+          ],
+          "audio_text": "元気な友達です。",
+          "notes": "Describing a person's energy.",
+          "position": 19
+        },
+        {
+          "japanese": "大切な友達です。",
+          "japanese_with_blank": "大切[___]友達です。",
+          "english": "It is an important friend.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Modifier",
+          "scramble_blocks": [
+            "大切",
+            "な",
+            "友達",
+            "です"
+          ],
+          "audio_text": "大切な友達です。",
+          "notes": "Conveying a valued relationship.",
+          "position": 20
+        }
+      ]
+    }
+  ]
+}

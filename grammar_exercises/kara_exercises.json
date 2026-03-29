@@ -1,0 +1,350 @@
+{
+  "grammar_point": "から",
+  "entry_id": 325449,
+  "categories": [
+    {
+      "id": "reason",
+      "label": "Because / Reason",
+      "sentences": [
+        {
+          "japanese": "暑いですから水を飲みます。",
+          "japanese_with_blank": "暑いです[___]水を飲みます。",
+          "english": "Because it is hot, I drink water.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "Because",
+          "scramble_blocks": [
+            "暑いです",
+            "から",
+            "水を飲みます"
+          ],
+          "audio_text": "暑いですから水を飲みます。",
+          "notes": "から gives a reason.",
+          "position": 1
+        },
+        {
+          "japanese": "美味しいですから食べます。",
+          "japanese_with_blank": "美味しいです[___]食べます。",
+          "english": "Because it is delicious, I eat it.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "Because",
+          "scramble_blocks": [
+            "美味しいです",
+            "から",
+            "食べます"
+          ],
+          "audio_text": "美味しいですから食べます。",
+          "notes": "Reason + result.",
+          "position": 2
+        },
+        {
+          "japanese": "好きですから買いました。",
+          "japanese_with_blank": "好きです[___]買いました。",
+          "english": "Because I like it, I bought it.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "Because",
+          "scramble_blocks": [
+            "好きです",
+            "から",
+            "買いました"
+          ],
+          "audio_text": "好きですから買いました。",
+          "notes": "Preference as reason.",
+          "position": 3
+        },
+        {
+          "japanese": "難しいですから勉強します。",
+          "japanese_with_blank": "難しいです[___]勉強します。",
+          "english": "Because it is hard, I study.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "Because",
+          "scramble_blocks": [
+            "難しいです",
+            "から",
+            "勉強します"
+          ],
+          "audio_text": "難しいですから勉強します。",
+          "notes": "Difficulty motivates study.",
+          "position": 4
+        },
+        {
+          "japanese": "元気ですから行きます。",
+          "japanese_with_blank": "元気です[___]行きます。",
+          "english": "Because I am well, I will go.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "Because",
+          "scramble_blocks": [
+            "元気です",
+            "から",
+            "行きます"
+          ],
+          "audio_text": "元気ですから行きます。",
+          "notes": "Health as reason.",
+          "position": 5
+        },
+        {
+          "japanese": "忙しいですから帰ります。",
+          "japanese_with_blank": "忙しいです[___]帰ります。",
+          "english": "Because I am busy, I go home.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "Because",
+          "scramble_blocks": [
+            "忙しいです",
+            "から",
+            "帰ります"
+          ],
+          "audio_text": "忙しいですから帰ります。",
+          "notes": "Busyness as reason.",
+          "position": 6
+        },
+        {
+          "japanese": "寒いですから家にいます。",
+          "japanese_with_blank": "寒いです[___]家にいます。",
+          "english": "Because it is cold, I stay home.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "Because",
+          "scramble_blocks": [
+            "寒いです",
+            "から",
+            "家にいます"
+          ],
+          "audio_text": "寒いですから家にいます。",
+          "notes": "Weather reason.",
+          "position": 7
+        },
+        {
+          "japanese": "面白いですから見ます。",
+          "japanese_with_blank": "面白いです[___]見ます。",
+          "english": "Because it is interesting, I watch it.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "Because",
+          "scramble_blocks": [
+            "面白いです",
+            "から",
+            "見ます"
+          ],
+          "audio_text": "面白いですから見ます。",
+          "notes": "Interest as motivation.",
+          "position": 8
+        },
+        {
+          "japanese": "高いですから買いません。",
+          "japanese_with_blank": "高いです[___]買いません。",
+          "english": "Because it is expensive, I won't buy it.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "Because",
+          "scramble_blocks": [
+            "高いです",
+            "から",
+            "買いません"
+          ],
+          "audio_text": "高いですから買いません。",
+          "notes": "Price as deterrent.",
+          "position": 9
+        },
+        {
+          "japanese": "静かですから好きです。",
+          "japanese_with_blank": "静かです[___]好きです。",
+          "english": "Because it is quiet, I like it.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "Because",
+          "scramble_blocks": [
+            "静かです",
+            "から",
+            "好きです"
+          ],
+          "audio_text": "静かですから好きです。",
+          "notes": "Quality as reason.",
+          "position": 10
+        }
+      ]
+    },
+    {
+      "id": "from",
+      "label": "From (Place/Time)",
+      "sentences": [
+        {
+          "japanese": "家から学校まで歩きます。",
+          "japanese_with_blank": "家[___]学校まで歩きます。",
+          "english": "I walk from home to school.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "From",
+          "scramble_blocks": [
+            "家",
+            "から",
+            "学校",
+            "まで",
+            "歩きます"
+          ],
+          "audio_text": "家から学校まで歩きます。",
+          "notes": "から indicates the starting point.",
+          "position": 1
+        },
+        {
+          "japanese": "日本から来ました。",
+          "japanese_with_blank": "日本[___]来ました。",
+          "english": "I came from Japan.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "From",
+          "scramble_blocks": [
+            "日本",
+            "から",
+            "来ました"
+          ],
+          "audio_text": "日本から来ました。",
+          "notes": "から marks origin.",
+          "position": 2
+        },
+        {
+          "japanese": "九時から勉強します。",
+          "japanese_with_blank": "九時[___]勉強します。",
+          "english": "I study from nine o'clock.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "From",
+          "scramble_blocks": [
+            "九時",
+            "から",
+            "勉強します"
+          ],
+          "audio_text": "九時から勉強します。",
+          "notes": "から with time = starting time.",
+          "position": 3
+        },
+        {
+          "japanese": "駅から歩きます。",
+          "japanese_with_blank": "駅[___]歩きます。",
+          "english": "I walk from the station.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "From",
+          "scramble_blocks": [
+            "駅",
+            "から",
+            "歩きます"
+          ],
+          "audio_text": "駅から歩きます。",
+          "notes": "から marks place of departure.",
+          "position": 4
+        },
+        {
+          "japanese": "朝から晩まで働きます。",
+          "japanese_with_blank": "朝[___]晩まで働きます。",
+          "english": "I work from morning to evening.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "From",
+          "scramble_blocks": [
+            "朝",
+            "から",
+            "晩",
+            "まで",
+            "働きます"
+          ],
+          "audio_text": "朝から晩まで働きます。",
+          "notes": "から...まで = from...to (time range).",
+          "position": 5
+        },
+        {
+          "japanese": "ここから近いです。",
+          "japanese_with_blank": "ここ[___]近いです。",
+          "english": "It is close from here.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "From",
+          "scramble_blocks": [
+            "ここ",
+            "から",
+            "近いです"
+          ],
+          "audio_text": "ここから近いです。",
+          "notes": "から marks reference point.",
+          "position": 6
+        },
+        {
+          "japanese": "友達から手紙をもらいました。",
+          "japanese_with_blank": "友達[___]手紙をもらいました。",
+          "english": "I received a letter from a friend.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "From",
+          "scramble_blocks": [
+            "友達",
+            "から",
+            "手紙",
+            "を",
+            "もらいました"
+          ],
+          "audio_text": "友達から手紙をもらいました。",
+          "notes": "から marks the source/giver.",
+          "position": 7
+        },
+        {
+          "japanese": "何時から始まりますか。",
+          "japanese_with_blank": "何時[___]始まりますか。",
+          "english": "What time does it start from?",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "From",
+          "scramble_blocks": [
+            "何時",
+            "から",
+            "始まります",
+            "か"
+          ],
+          "audio_text": "何時から始まりますか。",
+          "notes": "Asking about start time.",
+          "position": 8
+        },
+        {
+          "japanese": "学校から家まで十分です。",
+          "japanese_with_blank": "学校[___]家まで十分です。",
+          "english": "It's ten minutes from school to home.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "From",
+          "scramble_blocks": [
+            "学校",
+            "から",
+            "家",
+            "まで",
+            "十分です"
+          ],
+          "audio_text": "学校から家まで十分です。",
+          "notes": "から...まで for distance/duration.",
+          "position": 9
+        },
+        {
+          "japanese": "月曜日から金曜日まで学校があります。",
+          "japanese_with_blank": "月曜日[___]金曜日まで学校があります。",
+          "english": "There is school from Monday to Friday.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "From",
+          "scramble_blocks": [
+            "月曜日",
+            "から",
+            "金曜日",
+            "まで",
+            "学校",
+            "があります"
+          ],
+          "audio_text": "月曜日から金曜日まで学校があります。",
+          "notes": "から...まで for day range.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

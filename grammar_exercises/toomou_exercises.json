@@ -1,0 +1,182 @@
+{
+  "grammar_point": "と思う",
+  "entry_id": 326768,
+  "categories": [
+    {
+      "id": "think",
+      "label": "I Think That",
+      "sentences": [
+        {
+          "japanese": "美味しいと思います。",
+          "japanese_with_blank": "美味しい[___]。",
+          "english": "I think it is delicious.",
+          "target_answer": "と思います",
+          "alternative_answers": [
+            "と思う"
+          ],
+          "hint": "I think",
+          "scramble_blocks": [
+            "美味しい",
+            "と思います"
+          ],
+          "audio_text": "美味しいと思います。",
+          "notes": "と思う expresses personal opinion.",
+          "position": 1
+        },
+        {
+          "japanese": "面白いと思います。",
+          "japanese_with_blank": "面白い[___]。",
+          "english": "I think it is interesting.",
+          "target_answer": "と思います",
+          "alternative_answers": [
+            "と思う"
+          ],
+          "hint": "I think",
+          "scramble_blocks": [
+            "面白い",
+            "と思います"
+          ],
+          "audio_text": "面白いと思います。",
+          "notes": "Opinion expression.",
+          "position": 2
+        },
+        {
+          "japanese": "難しいと思います。",
+          "japanese_with_blank": "難しい[___]。",
+          "english": "I think it is difficult.",
+          "target_answer": "と思います",
+          "alternative_answers": [
+            "と思う"
+          ],
+          "hint": "I think",
+          "scramble_blocks": [
+            "難しい",
+            "と思います"
+          ],
+          "audio_text": "難しいと思います。",
+          "notes": "Difficulty opinion.",
+          "position": 3
+        },
+        {
+          "japanese": "高いと思います。",
+          "japanese_with_blank": "高い[___]。",
+          "english": "I think it is expensive.",
+          "target_answer": "と思います",
+          "alternative_answers": [
+            "と思う"
+          ],
+          "hint": "I think",
+          "scramble_blocks": [
+            "高い",
+            "と思います"
+          ],
+          "audio_text": "高いと思います。",
+          "notes": "Price opinion.",
+          "position": 4
+        },
+        {
+          "japanese": "いいと思います。",
+          "japanese_with_blank": "いい[___]。",
+          "english": "I think it is good.",
+          "target_answer": "と思います",
+          "alternative_answers": [
+            "と思う"
+          ],
+          "hint": "I think",
+          "scramble_blocks": [
+            "いい",
+            "と思います"
+          ],
+          "audio_text": "いいと思います。",
+          "notes": "Positive opinion.",
+          "position": 5
+        },
+        {
+          "japanese": "行くと思います。",
+          "japanese_with_blank": "行く[___]。",
+          "english": "I think I will go.",
+          "target_answer": "と思います",
+          "alternative_answers": [
+            "と思う"
+          ],
+          "hint": "I think",
+          "scramble_blocks": [
+            "行く",
+            "と思います"
+          ],
+          "audio_text": "行くと思います。",
+          "notes": "Intention/plan.",
+          "position": 6
+        },
+        {
+          "japanese": "来ると思います。",
+          "japanese_with_blank": "来る[___]。",
+          "english": "I think he will come.",
+          "target_answer": "と思います",
+          "alternative_answers": [
+            "と思う"
+          ],
+          "hint": "I think",
+          "scramble_blocks": [
+            "来る",
+            "と思います"
+          ],
+          "audio_text": "来ると思います。",
+          "notes": "Expectation.",
+          "position": 7
+        },
+        {
+          "japanese": "大丈夫だと思います。",
+          "japanese_with_blank": "大丈夫だ[___]。",
+          "english": "I think it is fine.",
+          "target_answer": "と思います",
+          "alternative_answers": [
+            "と思う"
+          ],
+          "hint": "I think",
+          "scramble_blocks": [
+            "大丈夫だ",
+            "と思います"
+          ],
+          "audio_text": "大丈夫だと思います。",
+          "notes": "Reassurance opinion.",
+          "position": 8
+        },
+        {
+          "japanese": "元気だと思います。",
+          "japanese_with_blank": "元気だ[___]。",
+          "english": "I think he is well.",
+          "target_answer": "と思います",
+          "alternative_answers": [
+            "と思う"
+          ],
+          "hint": "I think",
+          "scramble_blocks": [
+            "元気だ",
+            "と思います"
+          ],
+          "audio_text": "元気だと思います。",
+          "notes": "Health opinion.",
+          "position": 9
+        },
+        {
+          "japanese": "好きだと思います。",
+          "japanese_with_blank": "好きだ[___]。",
+          "english": "I think I like it.",
+          "target_answer": "と思います",
+          "alternative_answers": [
+            "と思う"
+          ],
+          "hint": "I think",
+          "scramble_blocks": [
+            "好きだ",
+            "と思います"
+          ],
+          "audio_text": "好きだと思います。",
+          "notes": "Preference opinion.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

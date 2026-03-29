@@ -1,0 +1,165 @@
+{
+  "grammar_point": "でございます",
+  "entry_id": 325515,
+  "categories": [
+    {
+      "id": "polite_desu",
+      "label": "Polite です",
+      "sentences": [
+        {
+          "japanese": "こちらはお部屋でございます。",
+          "japanese_with_blank": "こちらはお部屋[___]。",
+          "english": "This is your room.",
+          "target_answer": "でございます",
+          "alternative_answers": [],
+          "hint": "Polite です",
+          "scramble_blocks": [
+            "こちらはお部屋",
+            "でございます"
+          ],
+          "audio_text": "こちらはお部屋でございます。",
+          "notes": "でございます is the honorific form of です.",
+          "position": 1
+        },
+        {
+          "japanese": "こちらはメニューでございます。",
+          "japanese_with_blank": "こちらはメニュー[___]。",
+          "english": "This is the menu.",
+          "target_answer": "でございます",
+          "alternative_answers": [],
+          "hint": "Polite です",
+          "scramble_blocks": [
+            "こちらはメニュー",
+            "でございます"
+          ],
+          "audio_text": "こちらはメニューでございます。",
+          "notes": "Presenting a menu.",
+          "position": 2
+        },
+        {
+          "japanese": "私は田中でございます。",
+          "japanese_with_blank": "私は田中[___]。",
+          "english": "I am Tanaka.",
+          "target_answer": "でございます",
+          "alternative_answers": [],
+          "hint": "Polite です",
+          "scramble_blocks": [
+            "私は田中",
+            "でございます"
+          ],
+          "audio_text": "私は田中でございます。",
+          "notes": "Polite self-introduction.",
+          "position": 3
+        },
+        {
+          "japanese": "お値段は千円でございます。",
+          "japanese_with_blank": "お値段は千円[___]。",
+          "english": "The price is 1000 yen.",
+          "target_answer": "でございます",
+          "alternative_answers": [],
+          "hint": "Polite です",
+          "scramble_blocks": [
+            "お値段は千円",
+            "でございます"
+          ],
+          "audio_text": "お値段は千円でございます。",
+          "notes": "Polite pricing.",
+          "position": 4
+        },
+        {
+          "japanese": "こちらは受付でございます。",
+          "japanese_with_blank": "こちらは受付[___]。",
+          "english": "This is the reception.",
+          "target_answer": "でございます",
+          "alternative_answers": [],
+          "hint": "Polite です",
+          "scramble_blocks": [
+            "こちらは受付",
+            "でございます"
+          ],
+          "audio_text": "こちらは受付でございます。",
+          "notes": "Polite place indication.",
+          "position": 5
+        },
+        {
+          "japanese": "こちらはお席でございます。",
+          "japanese_with_blank": "こちらはお席[___]。",
+          "english": "This is your seat.",
+          "target_answer": "でございます",
+          "alternative_answers": [],
+          "hint": "Polite です",
+          "scramble_blocks": [
+            "こちらはお席",
+            "でございます"
+          ],
+          "audio_text": "こちらはお席でございます。",
+          "notes": "Polite seat assignment.",
+          "position": 6
+        },
+        {
+          "japanese": "お時間は三時でございます。",
+          "japanese_with_blank": "お時間は三時[___]。",
+          "english": "The time is 3 o'clock.",
+          "target_answer": "でございます",
+          "alternative_answers": [],
+          "hint": "Polite です",
+          "scramble_blocks": [
+            "お時間は三時",
+            "でございます"
+          ],
+          "audio_text": "お時間は三時でございます。",
+          "notes": "Polite time.",
+          "position": 7
+        },
+        {
+          "japanese": "お名前は何でございますか。",
+          "japanese_with_blank": "お名前は何[___]か。",
+          "english": "What is your name?",
+          "target_answer": "でございます",
+          "alternative_answers": [],
+          "hint": "Polite です",
+          "scramble_blocks": [
+            "お名前",
+            "は",
+            "何",
+            "でございます",
+            "か"
+          ],
+          "audio_text": "お名前は何でございますか。",
+          "notes": "Polite name inquiry.",
+          "position": 8
+        },
+        {
+          "japanese": "こちらはお手洗いでございます。",
+          "japanese_with_blank": "こちらはお手洗い[___]。",
+          "english": "This is the restroom.",
+          "target_answer": "でございます",
+          "alternative_answers": [],
+          "hint": "Polite です",
+          "scramble_blocks": [
+            "こちらはお手洗い",
+            "でございます"
+          ],
+          "audio_text": "こちらはお手洗いでございます。",
+          "notes": "Polite restroom indication.",
+          "position": 9
+        },
+        {
+          "japanese": "全部で千円でございます。",
+          "japanese_with_blank": "全部で千円[___]。",
+          "english": "The total is 1000 yen.",
+          "target_answer": "でございます",
+          "alternative_answers": [],
+          "hint": "Polite です",
+          "scramble_blocks": [
+            "全部で千円",
+            "でございます"
+          ],
+          "audio_text": "全部で千円でございます。",
+          "notes": "Polite total.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

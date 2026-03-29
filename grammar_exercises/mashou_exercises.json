@@ -1,0 +1,172 @@
+{
+  "grammar_point": "ましょう",
+  "entry_id": 325494,
+  "categories": [
+    {
+      "id": "lets",
+      "label": "Let's Do",
+      "sentences": [
+        {
+          "japanese": "ケーキを食べましょう。",
+          "japanese_with_blank": "ケーキを食べ[___]。",
+          "english": "Let's eat cake.",
+          "target_answer": "ましょう",
+          "alternative_answers": [],
+          "hint": "Let's",
+          "scramble_blocks": [
+            "ケーキ",
+            "を",
+            "食べ",
+            "ましょう"
+          ],
+          "audio_text": "ケーキを食べましょう。",
+          "notes": "ましょう proposes a joint action.",
+          "position": 1
+        },
+        {
+          "japanese": "コーヒーを飲みましょう。",
+          "japanese_with_blank": "コーヒーを飲み[___]。",
+          "english": "Let's drink coffee.",
+          "target_answer": "ましょう",
+          "alternative_answers": [],
+          "hint": "Let's",
+          "scramble_blocks": [
+            "コーヒー",
+            "を",
+            "飲み",
+            "ましょう"
+          ],
+          "audio_text": "コーヒーを飲みましょう。",
+          "notes": "Joint drinking proposal.",
+          "position": 2
+        },
+        {
+          "japanese": "学校に行きましょう。",
+          "japanese_with_blank": "学校に行き[___]。",
+          "english": "Let's go to school.",
+          "target_answer": "ましょう",
+          "alternative_answers": [],
+          "hint": "Let's",
+          "scramble_blocks": [
+            "学校",
+            "に",
+            "行き",
+            "ましょう"
+          ],
+          "audio_text": "学校に行きましょう。",
+          "notes": "Joint movement.",
+          "position": 3
+        },
+        {
+          "japanese": "テレビを見ましょう。",
+          "japanese_with_blank": "テレビを見[___]。",
+          "english": "Let's watch TV.",
+          "target_answer": "ましょう",
+          "alternative_answers": [],
+          "hint": "Let's",
+          "scramble_blocks": [
+            "テレビ",
+            "を",
+            "見",
+            "ましょう"
+          ],
+          "audio_text": "テレビを見ましょう。",
+          "notes": "Joint viewing.",
+          "position": 4
+        },
+        {
+          "japanese": "本を読みましょう。",
+          "japanese_with_blank": "本を読み[___]。",
+          "english": "Let's read books.",
+          "target_answer": "ましょう",
+          "alternative_answers": [],
+          "hint": "Let's",
+          "scramble_blocks": [
+            "本",
+            "を",
+            "読み",
+            "ましょう"
+          ],
+          "audio_text": "本を読みましょう。",
+          "notes": "Joint reading.",
+          "position": 5
+        },
+        {
+          "japanese": "書きましょう。",
+          "japanese_with_blank": "書き[___]。",
+          "english": "Let's write.",
+          "target_answer": "ましょう",
+          "alternative_answers": [],
+          "hint": "Let's",
+          "scramble_blocks": [
+            "書き",
+            "ましょう"
+          ],
+          "audio_text": "書きましょう。",
+          "notes": "Joint writing.",
+          "position": 6
+        },
+        {
+          "japanese": "話しましょう。",
+          "japanese_with_blank": "話し[___]。",
+          "english": "Let's talk.",
+          "target_answer": "ましょう",
+          "alternative_answers": [],
+          "hint": "Let's",
+          "scramble_blocks": [
+            "話し",
+            "ましょう"
+          ],
+          "audio_text": "話しましょう。",
+          "notes": "Joint conversation.",
+          "position": 7
+        },
+        {
+          "japanese": "帰りましょう。",
+          "japanese_with_blank": "帰り[___]。",
+          "english": "Let's go home.",
+          "target_answer": "ましょう",
+          "alternative_answers": [],
+          "hint": "Let's",
+          "scramble_blocks": [
+            "帰り",
+            "ましょう"
+          ],
+          "audio_text": "帰りましょう。",
+          "notes": "Joint departure.",
+          "position": 8
+        },
+        {
+          "japanese": "始めましょう。",
+          "japanese_with_blank": "始め[___]。",
+          "english": "Let's begin.",
+          "target_answer": "ましょう",
+          "alternative_answers": [],
+          "hint": "Let's",
+          "scramble_blocks": [
+            "始め",
+            "ましょう"
+          ],
+          "audio_text": "始めましょう。",
+          "notes": "Starting together.",
+          "position": 9
+        },
+        {
+          "japanese": "しましょう。",
+          "japanese_with_blank": "し[___]。",
+          "english": "Let's do it.",
+          "target_answer": "ましょう",
+          "alternative_answers": [],
+          "hint": "Let's",
+          "scramble_blocks": [
+            "し",
+            "ましょう"
+          ],
+          "audio_text": "しましょう。",
+          "notes": "Joint action.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

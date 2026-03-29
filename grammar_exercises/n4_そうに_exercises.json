@@ -1,0 +1,78 @@
+{
+  "grammar_point": "そうに",
+  "entry_id": 325613,
+  "categories": [
+    {
+      "id": "adv_appearance",
+      "label": "Seeming (Adverb)",
+      "sentences": [
+        {
+          "japanese": "子供が楽しそうに遊んでいます。",
+          "japanese_with_blank": "子供が楽し[___]遊んでいます。",
+          "english": "The children are playing happily.",
+          "target_answer": "そうに",
+          "alternative_answers": [],
+          "hint": "seeming (adv)",
+          "scramble_blocks": [
+            "子供",
+            "が",
+            "楽し",
+            "そうに",
+            "遊んでいます"
+          ],
+          "audio_text": "子供が楽しそうに遊んでいます。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "おいしそうに食べています。",
+          "japanese_with_blank": "おいし[___]食べています。",
+          "english": "They're eating as if it's delicious.",
+          "target_answer": "そうに",
+          "alternative_answers": [],
+          "hint": "seeming (adv)",
+          "scramble_blocks": [
+            "おいし",
+            "そうに",
+            "食べています"
+          ],
+          "audio_text": "おいしそうに食べています。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "嬉しそうに笑いました。",
+          "japanese_with_blank": "嬉し[___]笑いました。",
+          "english": "They laughed happily.",
+          "target_answer": "そうに",
+          "alternative_answers": [],
+          "hint": "seeming (adv)",
+          "scramble_blocks": [
+            "嬉し",
+            "そうに",
+            "笑いました"
+          ],
+          "audio_text": "嬉しそうに笑いました。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "寒そうに歩いています。",
+          "japanese_with_blank": "寒[___]歩いています。",
+          "english": "They're walking as if they're cold.",
+          "target_answer": "そうに",
+          "alternative_answers": [],
+          "hint": "seeming (adv)",
+          "scramble_blocks": [
+            "寒",
+            "そうに",
+            "歩いています"
+          ],
+          "audio_text": "寒そうに歩いています。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

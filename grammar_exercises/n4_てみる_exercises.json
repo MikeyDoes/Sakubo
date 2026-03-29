@@ -1,0 +1,180 @@
+{
+  "grammar_point": "てみる",
+  "entry_id": 325560,
+  "categories": [
+    {
+      "id": "try_food",
+      "label": "Trying Food & Drink",
+      "sentences": [
+        {
+          "japanese": "この料理を食べてみます。",
+          "japanese_with_blank": "この料理を食べ[___]。",
+          "english": "I'll try eating this dish.",
+          "target_answer": "てみます",
+          "alternative_answers": [],
+          "hint": "try doing",
+          "scramble_blocks": [
+            "この",
+            "料理",
+            "を",
+            "食べ",
+            "てみます"
+          ],
+          "audio_text": "この料理を食べてみます。",
+          "notes": "て-form + みる = try doing.",
+          "position": 1
+        },
+        {
+          "japanese": "新しいお茶を飲んでみました。",
+          "japanese_with_blank": "新しいお茶を飲ん[___]。",
+          "english": "I tried drinking a new tea.",
+          "target_answer": "でみました",
+          "alternative_answers": [],
+          "hint": "tried doing (past)",
+          "scramble_blocks": [
+            "新しい",
+            "お茶",
+            "を",
+            "飲ん",
+            "でみました"
+          ],
+          "audio_text": "新しいお茶を飲んでみました。",
+          "notes": "Past form: てみました.",
+          "position": 2
+        },
+        {
+          "japanese": "一度作ってみてください。",
+          "japanese_with_blank": "一度作っ[___]ください。",
+          "english": "Please try making it once.",
+          "target_answer": "てみて",
+          "alternative_answers": [],
+          "hint": "try doing (request)",
+          "scramble_blocks": [
+            "一度",
+            "作っ",
+            "てみて",
+            "ください"
+          ],
+          "audio_text": "一度作ってみてください。",
+          "notes": "てみてください = please try.",
+          "position": 3
+        },
+        {
+          "japanese": "日本の食べ物を食べてみたいです。",
+          "japanese_with_blank": "日本の食べ物を食べ[___]です。",
+          "english": "I want to try eating Japanese food.",
+          "target_answer": "てみたい",
+          "alternative_answers": [],
+          "hint": "want to try",
+          "scramble_blocks": [
+            "日本",
+            "の",
+            "食べ物",
+            "を",
+            "食べ",
+            "てみたい",
+            "です"
+          ],
+          "audio_text": "日本の食べ物を食べてみたいです。",
+          "notes": "てみたい = want to try.",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "try_experience",
+      "label": "Trying New Experiences",
+      "sentences": [
+        {
+          "japanese": "日本語で話してみます。",
+          "japanese_with_blank": "日本語で話し[___]。",
+          "english": "I'll try speaking in Japanese.",
+          "target_answer": "てみます",
+          "alternative_answers": [],
+          "hint": "try doing",
+          "scramble_blocks": [
+            "日本語",
+            "で",
+            "話し",
+            "てみます"
+          ],
+          "audio_text": "日本語で話してみます。",
+          "notes": "Trying a new skill.",
+          "position": 1
+        },
+        {
+          "japanese": "あの店に行ってみましょう。",
+          "japanese_with_blank": "あの店に行っ[___]。",
+          "english": "Let's try going to that shop.",
+          "target_answer": "てみましょう",
+          "alternative_answers": [],
+          "hint": "let's try",
+          "scramble_blocks": [
+            "あの",
+            "店",
+            "に",
+            "行っ",
+            "てみましょう"
+          ],
+          "audio_text": "あの店に行ってみましょう。",
+          "notes": "てみましょう = let's try.",
+          "position": 2
+        },
+        {
+          "japanese": "この本を読んでみてください。",
+          "japanese_with_blank": "この本を読ん[___]ください。",
+          "english": "Please try reading this book.",
+          "target_answer": "でみて",
+          "alternative_answers": [],
+          "hint": "try doing (request)",
+          "scramble_blocks": [
+            "この",
+            "本",
+            "を",
+            "読ん",
+            "でみて",
+            "ください"
+          ],
+          "audio_text": "この本を読んでみてください。",
+          "notes": "読む → 読んでみて.",
+          "position": 3
+        },
+        {
+          "japanese": "一人で歩いてみました。",
+          "japanese_with_blank": "一人で歩い[___]。",
+          "english": "I tried walking alone.",
+          "target_answer": "てみました",
+          "alternative_answers": [],
+          "hint": "tried (past)",
+          "scramble_blocks": [
+            "一人",
+            "で",
+            "歩い",
+            "てみました"
+          ],
+          "audio_text": "一人で歩いてみました。",
+          "notes": "Past tense of てみる.",
+          "position": 4
+        },
+        {
+          "japanese": "新しい歌を聞いてみました。",
+          "japanese_with_blank": "新しい歌を聞い[___]。",
+          "english": "I tried listening to a new song.",
+          "target_answer": "てみました",
+          "alternative_answers": [],
+          "hint": "tried (past)",
+          "scramble_blocks": [
+            "新しい",
+            "歌",
+            "を",
+            "聞い",
+            "てみました"
+          ],
+          "audio_text": "新しい歌を聞いてみました。",
+          "notes": "聞く → 聞いてみました.",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "grammar_point": "必要がある",
+  "entry_id": 326786,
+  "categories": [
+    {
+      "id": "need_to",
+      "label": "There Is a Need To",
+      "sentences": [
+        {
+          "japanese": "もっと勉強する必要があります。",
+          "japanese_with_blank": "もっと勉強する[___]。",
+          "english": "There is a need to study more.",
+          "target_answer": "必要があります",
+          "alternative_answers": [],
+          "hint": "need to",
+          "scramble_blocks": [
+            "もっと",
+            "勉強する",
+            "必要があります"
+          ],
+          "audio_text": "もっと勉強する必要があります。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "早く起きる必要があります。",
+          "japanese_with_blank": "早く起きる[___]。",
+          "english": "There is a need to wake up early.",
+          "target_answer": "必要があります",
+          "alternative_answers": [],
+          "hint": "need to",
+          "scramble_blocks": [
+            "早く",
+            "起きる",
+            "必要があります"
+          ],
+          "audio_text": "早く起きる必要があります。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "病院に行く必要があります。",
+          "japanese_with_blank": "病院に行く[___]。",
+          "english": "There is a need to go to the hospital.",
+          "target_answer": "必要があります",
+          "alternative_answers": [],
+          "hint": "need to",
+          "scramble_blocks": [
+            "病院",
+            "に",
+            "行く",
+            "必要があります"
+          ],
+          "audio_text": "病院に行く必要があります。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "もう一度確認する必要があります。",
+          "japanese_with_blank": "もう一度確認する[___]。",
+          "english": "There is a need to confirm once more.",
+          "target_answer": "必要があります",
+          "alternative_answers": [],
+          "hint": "need to",
+          "scramble_blocks": [
+            "もう一度",
+            "確認する",
+            "必要があります"
+          ],
+          "audio_text": "もう一度確認する必要があります。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

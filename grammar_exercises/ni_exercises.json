@@ -1,0 +1,266 @@
+{
+  "grammar_point": "に",
+  "entry_id": 325428,
+  "categories": [
+    {
+      "id": "destination",
+      "label": "Destination / Location",
+      "sentences": [
+        {
+          "japanese": "学校に行きます。",
+          "japanese_with_blank": "学校[___]行きます。",
+          "english": "I go to school.",
+          "target_answer": "に",
+          "alternative_answers": [],
+          "hint": "Target/location",
+          "scramble_blocks": [
+            "学校",
+            "に",
+            "行きます"
+          ],
+          "audio_text": "学校に行きます。",
+          "notes": "に marks destination with movement verbs.",
+          "position": 1
+        },
+        {
+          "japanese": "家に帰ります。",
+          "japanese_with_blank": "家[___]帰ります。",
+          "english": "I return home.",
+          "target_answer": "に",
+          "alternative_answers": [],
+          "hint": "Target/location",
+          "scramble_blocks": [
+            "家",
+            "に",
+            "帰ります"
+          ],
+          "audio_text": "家に帰ります。",
+          "notes": "に for the destination of returning.",
+          "position": 2
+        },
+        {
+          "japanese": "店に行きました。",
+          "japanese_with_blank": "店[___]行きました。",
+          "english": "I went to the shop.",
+          "target_answer": "に",
+          "alternative_answers": [],
+          "hint": "Target/location",
+          "scramble_blocks": [
+            "店",
+            "に",
+            "行きました"
+          ],
+          "audio_text": "店に行きました。",
+          "notes": "Past tense with に destination.",
+          "position": 3
+        },
+        {
+          "japanese": "ホテルに行きます。",
+          "japanese_with_blank": "ホテル[___]行きます。",
+          "english": "I go to the hotel.",
+          "target_answer": "に",
+          "alternative_answers": [],
+          "hint": "Target/location",
+          "scramble_blocks": [
+            "ホテル",
+            "に",
+            "行きます"
+          ],
+          "audio_text": "ホテルに行きます。",
+          "notes": "に with a place noun.",
+          "position": 4
+        },
+        {
+          "japanese": "部屋に入ります。",
+          "japanese_with_blank": "部屋[___]入ります。",
+          "english": "I enter the room.",
+          "target_answer": "に",
+          "alternative_answers": [],
+          "hint": "Target/location",
+          "scramble_blocks": [
+            "部屋",
+            "に",
+            "入ります"
+          ],
+          "audio_text": "部屋に入ります。",
+          "notes": "に marks where you enter.",
+          "position": 5
+        },
+        {
+          "japanese": "トイレに行きます。",
+          "japanese_with_blank": "トイレ[___]行きます。",
+          "english": "I go to the bathroom.",
+          "target_answer": "に",
+          "alternative_answers": [],
+          "hint": "Target/location",
+          "scramble_blocks": [
+            "トイレ",
+            "に",
+            "行きます"
+          ],
+          "audio_text": "トイレに行きます。",
+          "notes": "Common everyday destination.",
+          "position": 6
+        },
+        {
+          "japanese": "プールに行きました。",
+          "japanese_with_blank": "プール[___]行きました。",
+          "english": "I went to the pool.",
+          "target_answer": "に",
+          "alternative_answers": [],
+          "hint": "Target/location",
+          "scramble_blocks": [
+            "プール",
+            "に",
+            "行きました"
+          ],
+          "audio_text": "プールに行きました。",
+          "notes": "Past movement with に.",
+          "position": 7
+        },
+        {
+          "japanese": "家に来ます。",
+          "japanese_with_blank": "家[___]来ます。",
+          "english": "Someone comes to my house.",
+          "target_answer": "に",
+          "alternative_answers": [],
+          "hint": "Target/location",
+          "scramble_blocks": [
+            "家",
+            "に",
+            "来ます"
+          ],
+          "audio_text": "家に来ます。",
+          "notes": "に with 来る (to come).",
+          "position": 8
+        },
+        {
+          "japanese": "学校に来ました。",
+          "japanese_with_blank": "学校[___]来ました。",
+          "english": "I came to school.",
+          "target_answer": "に",
+          "alternative_answers": [],
+          "hint": "Target/location",
+          "scramble_blocks": [
+            "学校",
+            "に",
+            "来ました"
+          ],
+          "audio_text": "学校に来ました。",
+          "notes": "Past tense with 来ます.",
+          "position": 9
+        },
+        {
+          "japanese": "レストランに行きます。",
+          "japanese_with_blank": "レストラン[___]行きます。",
+          "english": "I go to the restaurant.",
+          "target_answer": "に",
+          "alternative_answers": [],
+          "hint": "Target/location",
+          "scramble_blocks": [
+            "レストラン",
+            "に",
+            "行きます"
+          ],
+          "audio_text": "レストランに行きます。",
+          "notes": "に for restaurant destination.",
+          "position": 10
+        }
+      ]
+    },
+    {
+      "id": "indirect_object",
+      "label": "Indirect Object",
+      "sentences": [
+        {
+          "japanese": "友達に本をあげます。",
+          "japanese_with_blank": "友達[___]本をあげます。",
+          "english": "I give a book to my friend.",
+          "target_answer": "に",
+          "alternative_answers": [],
+          "hint": "Indirect object",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "本",
+            "を",
+            "あげます"
+          ],
+          "audio_text": "友達に本をあげます。",
+          "notes": "に marks the indirect object (recipient).",
+          "position": 11
+        },
+        {
+          "japanese": "先生に聞きます。",
+          "japanese_with_blank": "先生[___]聞きます。",
+          "english": "I ask the teacher.",
+          "target_answer": "に",
+          "alternative_answers": [],
+          "hint": "Indirect object",
+          "scramble_blocks": [
+            "先生",
+            "に",
+            "聞きます"
+          ],
+          "audio_text": "先生に聞きます。",
+          "notes": "に marks the person asked.",
+          "position": 12
+        },
+        {
+          "japanese": "友達に電話をします。",
+          "japanese_with_blank": "友達[___]電話をします。",
+          "english": "I make a phone call to my friend.",
+          "target_answer": "に",
+          "alternative_answers": [],
+          "hint": "Indirect object",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "電話",
+            "を",
+            "します"
+          ],
+          "audio_text": "友達に電話をします。",
+          "notes": "に marks the person contacted.",
+          "position": 13
+        },
+        {
+          "japanese": "子供にケーキをあげます。",
+          "japanese_with_blank": "子供[___]ケーキをあげます。",
+          "english": "I give cake to the child.",
+          "target_answer": "に",
+          "alternative_answers": [],
+          "hint": "Indirect object",
+          "scramble_blocks": [
+            "子供",
+            "に",
+            "ケーキ",
+            "を",
+            "あげます"
+          ],
+          "audio_text": "子供にケーキをあげます。",
+          "notes": "に for the recipient of giving.",
+          "position": 14
+        },
+        {
+          "japanese": "先生に名前を言います。",
+          "japanese_with_blank": "先生[___]名前を言います。",
+          "english": "I tell the teacher my name.",
+          "target_answer": "に",
+          "alternative_answers": [],
+          "hint": "Indirect object",
+          "scramble_blocks": [
+            "先生",
+            "に",
+            "名前",
+            "を",
+            "言います"
+          ],
+          "audio_text": "先生に名前を言います。",
+          "notes": "Telling someone something.",
+          "position": 15
+        }
+      ]
+    }
+  ]
+}

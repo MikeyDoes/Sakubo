@@ -1,0 +1,308 @@
+{
+  "grammar_point": "な",
+  "entry_id": 325507,
+  "categories": [
+    {
+      "id": "prohibition",
+      "label": "Don't! (Casual)",
+      "sentences": [
+        {
+          "japanese": "行くな。",
+          "japanese_with_blank": "行く[___]。",
+          "english": "Don't go!",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Don't",
+          "scramble_blocks": [
+            "行く",
+            "な"
+          ],
+          "audio_text": "行くな。",
+          "notes": "な after dictionary form = prohibition.",
+          "position": 1
+        },
+        {
+          "japanese": "食べるな。",
+          "japanese_with_blank": "食べる[___]。",
+          "english": "Don't eat!",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Don't",
+          "scramble_blocks": [
+            "食べる",
+            "な"
+          ],
+          "audio_text": "食べるな。",
+          "notes": "Strong prohibition.",
+          "position": 2
+        },
+        {
+          "japanese": "飲むな。",
+          "japanese_with_blank": "飲む[___]。",
+          "english": "Don't drink!",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Don't",
+          "scramble_blocks": [
+            "飲む",
+            "な"
+          ],
+          "audio_text": "飲むな。",
+          "notes": "Drinking prohibition.",
+          "position": 3
+        },
+        {
+          "japanese": "見るな。",
+          "japanese_with_blank": "見る[___]。",
+          "english": "Don't look!",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Don't",
+          "scramble_blocks": [
+            "見る",
+            "な"
+          ],
+          "audio_text": "見るな。",
+          "notes": "Looking prohibition.",
+          "position": 4
+        },
+        {
+          "japanese": "来るな。",
+          "japanese_with_blank": "来る[___]。",
+          "english": "Don't come!",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Don't",
+          "scramble_blocks": [
+            "来る",
+            "な"
+          ],
+          "audio_text": "来るな。",
+          "notes": "Coming prohibition.",
+          "position": 5
+        },
+        {
+          "japanese": "走るな。",
+          "japanese_with_blank": "走る[___]。",
+          "english": "Don't run!",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Don't",
+          "scramble_blocks": [
+            "走る",
+            "な"
+          ],
+          "audio_text": "走るな。",
+          "notes": "Running prohibition.",
+          "position": 6
+        },
+        {
+          "japanese": "触るな。",
+          "japanese_with_blank": "触る[___]。",
+          "english": "Don't touch!",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Don't",
+          "scramble_blocks": [
+            "触る",
+            "な"
+          ],
+          "audio_text": "触るな。",
+          "notes": "Touching prohibition.",
+          "position": 7
+        },
+        {
+          "japanese": "話すな。",
+          "japanese_with_blank": "話す[___]。",
+          "english": "Don't talk!",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Don't",
+          "scramble_blocks": [
+            "話す",
+            "な"
+          ],
+          "audio_text": "話すな。",
+          "notes": "Speaking prohibition.",
+          "position": 8
+        },
+        {
+          "japanese": "泣くな。",
+          "japanese_with_blank": "泣く[___]。",
+          "english": "Don't cry!",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Don't",
+          "scramble_blocks": [
+            "泣く",
+            "な"
+          ],
+          "audio_text": "泣くな。",
+          "notes": "Crying prohibition.",
+          "position": 9
+        },
+        {
+          "japanese": "笑うな。",
+          "japanese_with_blank": "笑う[___]。",
+          "english": "Don't laugh!",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Don't",
+          "scramble_blocks": [
+            "笑う",
+            "な"
+          ],
+          "audio_text": "笑うな。",
+          "notes": "Laughing prohibition.",
+          "position": 10
+        }
+      ]
+    },
+    {
+      "id": "musing",
+      "label": "Musing",
+      "sentences": [
+        {
+          "japanese": "いいな。",
+          "japanese_with_blank": "いい[___]。",
+          "english": "That's nice.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "いいな"
+          ],
+          "audio_text": "いいな。",
+          "notes": "な for musing/wish (softer than なあ).",
+          "position": 6
+        },
+        {
+          "japanese": "すごいな。",
+          "japanese_with_blank": "すごい[___]。",
+          "english": "That's amazing.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "すごいな"
+          ],
+          "audio_text": "すごいな。",
+          "notes": "Admiration.",
+          "position": 7
+        },
+        {
+          "japanese": "面白いな。",
+          "japanese_with_blank": "面白い[___]。",
+          "english": "That's interesting.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "面白いな"
+          ],
+          "audio_text": "面白いな。",
+          "notes": "Interest musing.",
+          "position": 8
+        },
+        {
+          "japanese": "大きいな。",
+          "japanese_with_blank": "大きい[___]。",
+          "english": "That's big.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "大きいな"
+          ],
+          "audio_text": "大きいな。",
+          "notes": "Size observation.",
+          "position": 9
+        },
+        {
+          "japanese": "美味しいな。",
+          "japanese_with_blank": "美味しい[___]。",
+          "english": "That's delicious.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "美味しいな"
+          ],
+          "audio_text": "美味しいな。",
+          "notes": "Taste observation.",
+          "position": 10
+        },
+        {
+          "japanese": "楽しいな。",
+          "japanese_with_blank": "楽しい[___]。",
+          "english": "That's fun.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "楽しいな"
+          ],
+          "audio_text": "楽しいな。",
+          "notes": "Fun observation.",
+          "position": 11
+        },
+        {
+          "japanese": "暑いな。",
+          "japanese_with_blank": "暑い[___]。",
+          "english": "It's hot.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "暑いな"
+          ],
+          "audio_text": "暑いな。",
+          "notes": "Weather musing.",
+          "position": 12
+        },
+        {
+          "japanese": "寒いな。",
+          "japanese_with_blank": "寒い[___]。",
+          "english": "It's cold.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "寒いな"
+          ],
+          "audio_text": "寒いな。",
+          "notes": "Weather musing.",
+          "position": 13
+        },
+        {
+          "japanese": "高いな。",
+          "japanese_with_blank": "高い[___]。",
+          "english": "That's expensive.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "高いな"
+          ],
+          "audio_text": "高いな。",
+          "notes": "Price observation.",
+          "position": 14
+        },
+        {
+          "japanese": "きれいだな。",
+          "japanese_with_blank": "きれいだ[___]。",
+          "english": "That's pretty.",
+          "target_answer": "な",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "きれいだな"
+          ],
+          "audio_text": "きれいだな。",
+          "notes": "Beauty observation.",
+          "position": 15
+        }
+      ]
+    }
+  ]
+}

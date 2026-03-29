@@ -1,0 +1,80 @@
+{
+  "grammar_point": "出す",
+  "entry_id": 325589,
+  "categories": [
+    {
+      "id": "sudden_start",
+      "label": "Start Suddenly (V+出す)",
+      "sentences": [
+        {
+          "japanese": "急に雨が降り出しました。",
+          "japanese_with_blank": "急に雨が降り[___]。",
+          "english": "It suddenly started raining.",
+          "target_answer": "出しました",
+          "alternative_answers": [],
+          "hint": "burst out",
+          "scramble_blocks": [
+            "急に",
+            "雨",
+            "が",
+            "降り",
+            "出しました"
+          ],
+          "audio_text": "急に雨が降り出しました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "子供が泣き出しました。",
+          "japanese_with_blank": "子供が泣き[___]。",
+          "english": "The child burst out crying.",
+          "target_answer": "出しました",
+          "alternative_answers": [],
+          "hint": "burst out",
+          "scramble_blocks": [
+            "子供",
+            "が",
+            "泣き",
+            "出しました"
+          ],
+          "audio_text": "子供が泣き出しました。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "みんなが笑い出しました。",
+          "japanese_with_blank": "みんなが笑い[___]。",
+          "english": "Everyone burst out laughing.",
+          "target_answer": "出しました",
+          "alternative_answers": [],
+          "hint": "burst out",
+          "scramble_blocks": [
+            "みんな",
+            "が",
+            "笑い",
+            "出しました"
+          ],
+          "audio_text": "みんなが笑い出しました。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "急に走り出しました。",
+          "japanese_with_blank": "急に走り[___]。",
+          "english": "They suddenly started running.",
+          "target_answer": "出しました",
+          "alternative_answers": [],
+          "hint": "burst out",
+          "scramble_blocks": [
+            "急に",
+            "走り",
+            "出しました"
+          ],
+          "audio_text": "急に走り出しました。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

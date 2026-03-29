@@ -1,0 +1,358 @@
+{
+  "grammar_point": "じゃない",
+  "entry_id": 325459,
+  "categories": [
+    {
+      "id": "noun_negation",
+      "label": "Noun Negation",
+      "sentences": [
+        {
+          "japanese": "これは本じゃない。",
+          "japanese_with_blank": "これは本[___]。",
+          "english": "This is not a book.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "これ",
+            "は",
+            "本",
+            "じゃない"
+          ],
+          "audio_text": "これは本じゃない。",
+          "notes": "Basic negation of a noun.",
+          "position": 1
+        },
+        {
+          "japanese": "それは水じゃない。",
+          "japanese_with_blank": "それは水[___]。",
+          "english": "That is not water.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "それ",
+            "は",
+            "水",
+            "じゃない"
+          ],
+          "audio_text": "それは水じゃない。",
+          "notes": "Negating noun identification.",
+          "position": 2
+        },
+        {
+          "japanese": "あれは学校じゃない。",
+          "japanese_with_blank": "あれは学校[___]。",
+          "english": "That over there is not a school.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "あれ",
+            "は",
+            "学校",
+            "じゃない"
+          ],
+          "audio_text": "あれは学校じゃない。",
+          "notes": "Distance demonstrative + negation.",
+          "position": 3
+        },
+        {
+          "japanese": "友達は先生じゃない。",
+          "japanese_with_blank": "友達は先生[___]。",
+          "english": "My friend is not a teacher.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "先生",
+            "じゃない"
+          ],
+          "audio_text": "友達は先生じゃない。",
+          "notes": "Negating a description of a person.",
+          "position": 4
+        },
+        {
+          "japanese": "ここは店じゃない。",
+          "japanese_with_blank": "ここは店[___]。",
+          "english": "This place is not a shop.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "ここ",
+            "は",
+            "店",
+            "じゃない"
+          ],
+          "audio_text": "ここは店じゃない。",
+          "notes": "Negating a place identification.",
+          "position": 5
+        },
+        {
+          "japanese": "子供は学生じゃない。",
+          "japanese_with_blank": "子供は学生[___]。",
+          "english": "The child is not a student.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "子供",
+            "は",
+            "学生",
+            "じゃない"
+          ],
+          "audio_text": "子供は学生じゃない。",
+          "notes": "Negating an identity.",
+          "position": 6
+        },
+        {
+          "japanese": "私は男じゃない。",
+          "japanese_with_blank": "私は男[___]。",
+          "english": "I am not a man.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "男",
+            "じゃない"
+          ],
+          "audio_text": "私は男じゃない。",
+          "notes": "Self-description negation.",
+          "position": 7
+        },
+        {
+          "japanese": "あれは猫じゃない。",
+          "japanese_with_blank": "あれは猫[___]。",
+          "english": "That over there is not a cat.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "あれ",
+            "は",
+            "猫",
+            "じゃない"
+          ],
+          "audio_text": "あれは猫じゃない。",
+          "notes": "Negating animal identification.",
+          "position": 8
+        },
+        {
+          "japanese": "これは電話じゃない。",
+          "japanese_with_blank": "これは電話[___]。",
+          "english": "This is not a phone.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "これ",
+            "は",
+            "電話",
+            "じゃない"
+          ],
+          "audio_text": "これは電話じゃない。",
+          "notes": "Negating object identification.",
+          "position": 9
+        },
+        {
+          "japanese": "そこは部屋じゃない。",
+          "japanese_with_blank": "そこは部屋[___]。",
+          "english": "That place is not a room.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "そこ",
+            "は",
+            "部屋",
+            "じゃない"
+          ],
+          "audio_text": "そこは部屋じゃない。",
+          "notes": "Negating location identity.",
+          "position": 10
+        }
+      ]
+    },
+    {
+      "id": "object_negation",
+      "label": "Negating Things",
+      "sentences": [
+        {
+          "japanese": "これはコーヒーじゃない。",
+          "japanese_with_blank": "これはコーヒー[___]。",
+          "english": "This is not coffee.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "これ",
+            "は",
+            "コーヒー",
+            "じゃない"
+          ],
+          "audio_text": "これはコーヒーじゃない。",
+          "notes": "Casual negation of a drink.",
+          "position": 11
+        },
+        {
+          "japanese": "それはケーキじゃない。",
+          "japanese_with_blank": "それはケーキ[___]。",
+          "english": "That is not a cake.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "それ",
+            "は",
+            "ケーキ",
+            "じゃない"
+          ],
+          "audio_text": "それはケーキじゃない。",
+          "notes": "Negating food identification.",
+          "position": 12
+        },
+        {
+          "japanese": "あれはホテルじゃない。",
+          "japanese_with_blank": "あれはホテル[___]。",
+          "english": "That over there is not a hotel.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "あれ",
+            "は",
+            "ホテル",
+            "じゃない"
+          ],
+          "audio_text": "あれはホテルじゃない。",
+          "notes": "Negating building identification.",
+          "position": 13
+        },
+        {
+          "japanese": "これはテレビじゃない。",
+          "japanese_with_blank": "これはテレビ[___]。",
+          "english": "This is not a television.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "これ",
+            "は",
+            "テレビ",
+            "じゃない"
+          ],
+          "audio_text": "これはテレビじゃない。",
+          "notes": "Negating object identification.",
+          "position": 14
+        },
+        {
+          "japanese": "ここはレストランじゃない。",
+          "japanese_with_blank": "ここはレストラン[___]。",
+          "english": "This place is not a restaurant.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "ここ",
+            "は",
+            "レストラン",
+            "じゃない"
+          ],
+          "audio_text": "ここはレストランじゃない。",
+          "notes": "Negating location.",
+          "position": 15
+        },
+        {
+          "japanese": "それはカメラじゃない。",
+          "japanese_with_blank": "それはカメラ[___]。",
+          "english": "That is not a camera.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "それ",
+            "は",
+            "カメラ",
+            "じゃない"
+          ],
+          "audio_text": "それはカメラじゃない。",
+          "notes": "Negating object near listener.",
+          "position": 16
+        },
+        {
+          "japanese": "これはパンじゃない。",
+          "japanese_with_blank": "これはパン[___]。",
+          "english": "This is not bread.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "これ",
+            "は",
+            "パン",
+            "じゃない"
+          ],
+          "audio_text": "これはパンじゃない。",
+          "notes": "Negating food.",
+          "position": 17
+        },
+        {
+          "japanese": "あれはバスじゃない。",
+          "japanese_with_blank": "あれはバス[___]。",
+          "english": "That over there is not a bus.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "あれ",
+            "は",
+            "バス",
+            "じゃない"
+          ],
+          "audio_text": "あれはバスじゃない。",
+          "notes": "Negating vehicle identification.",
+          "position": 18
+        },
+        {
+          "japanese": "それはペンじゃない。",
+          "japanese_with_blank": "それはペン[___]。",
+          "english": "That is not a pen.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "それ",
+            "は",
+            "ペン",
+            "じゃない"
+          ],
+          "audio_text": "それはペンじゃない。",
+          "notes": "Negating stationery identification.",
+          "position": 19
+        },
+        {
+          "japanese": "ここはプールじゃない。",
+          "japanese_with_blank": "ここはプール[___]。",
+          "english": "This place is not a pool.",
+          "target_answer": "じゃない",
+          "alternative_answers": [],
+          "hint": "Casual negative",
+          "scramble_blocks": [
+            "ここ",
+            "は",
+            "プール",
+            "じゃない"
+          ],
+          "audio_text": "ここはプールじゃない。",
+          "notes": "Negating a place description.",
+          "position": 20
+        }
+      ]
+    }
+  ]
+}

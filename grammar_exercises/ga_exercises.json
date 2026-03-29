@@ -1,0 +1,358 @@
+{
+  "grammar_point": "が",
+  "entry_id": 325426,
+  "categories": [
+    {
+      "id": "subject",
+      "label": "Subject Marker",
+      "sentences": [
+        {
+          "japanese": "犬が大きいです。",
+          "japanese_with_blank": "犬[___]大きいです。",
+          "english": "The dog is big.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Subject",
+          "scramble_blocks": [
+            "犬",
+            "が",
+            "大きい",
+            "です"
+          ],
+          "audio_text": "犬が大きいです。",
+          "notes": "が marks the subject (new information). The dog specifically.",
+          "position": 1
+        },
+        {
+          "japanese": "猫が小さいです。",
+          "japanese_with_blank": "猫[___]小さいです。",
+          "english": "The cat is small.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Subject",
+          "scramble_blocks": [
+            "猫",
+            "が",
+            "小さい",
+            "です"
+          ],
+          "audio_text": "猫が小さいです。",
+          "notes": "が highlights which animal is small.",
+          "position": 2
+        },
+        {
+          "japanese": "先生が有名です。",
+          "japanese_with_blank": "先生[___]有名です。",
+          "english": "The teacher is famous.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Subject",
+          "scramble_blocks": [
+            "先生",
+            "が",
+            "有名",
+            "です"
+          ],
+          "audio_text": "先生が有名です。",
+          "notes": "が emphasizes who is famous.",
+          "position": 3
+        },
+        {
+          "japanese": "子供が元気です。",
+          "japanese_with_blank": "子供[___]元気です。",
+          "english": "The child is lively.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Subject",
+          "scramble_blocks": [
+            "子供",
+            "が",
+            "元気",
+            "です"
+          ],
+          "audio_text": "子供が元気です。",
+          "notes": "が marks who is lively.",
+          "position": 4
+        },
+        {
+          "japanese": "学校が新しいです。",
+          "japanese_with_blank": "学校[___]新しいです。",
+          "english": "The school is new.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Subject",
+          "scramble_blocks": [
+            "学校",
+            "が",
+            "新しい",
+            "です"
+          ],
+          "audio_text": "学校が新しいです。",
+          "notes": "Subject focus: which one is new? The school.",
+          "position": 5
+        },
+        {
+          "japanese": "本が面白いです。",
+          "japanese_with_blank": "本[___]面白いです。",
+          "english": "The book is interesting.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Subject",
+          "scramble_blocks": [
+            "本",
+            "が",
+            "面白い",
+            "です"
+          ],
+          "audio_text": "本が面白いです。",
+          "notes": "が singles out the book as interesting.",
+          "position": 6
+        },
+        {
+          "japanese": "部屋が静かです。",
+          "japanese_with_blank": "部屋[___]静かです。",
+          "english": "The room is quiet.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Subject",
+          "scramble_blocks": [
+            "部屋",
+            "が",
+            "静か",
+            "です"
+          ],
+          "audio_text": "部屋が静かです。",
+          "notes": "が focuses on the room as subject.",
+          "position": 7
+        },
+        {
+          "japanese": "水がいいです。",
+          "japanese_with_blank": "水[___]いいです。",
+          "english": "The water is good.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Subject",
+          "scramble_blocks": [
+            "水",
+            "が",
+            "いい",
+            "です"
+          ],
+          "audio_text": "水がいいです。",
+          "notes": "Simple subject marking.",
+          "position": 8
+        },
+        {
+          "japanese": "テストが難しいです。",
+          "japanese_with_blank": "テスト[___]難しいです。",
+          "english": "The test is difficult.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Subject",
+          "scramble_blocks": [
+            "テスト",
+            "が",
+            "難しい",
+            "です"
+          ],
+          "audio_text": "テストが難しいです。",
+          "notes": "が marks the specific test.",
+          "position": 9
+        },
+        {
+          "japanese": "電話が便利です。",
+          "japanese_with_blank": "電話[___]便利です。",
+          "english": "The phone is convenient.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Subject",
+          "scramble_blocks": [
+            "電話",
+            "が",
+            "便利",
+            "です"
+          ],
+          "audio_text": "電話が便利です。",
+          "notes": "Subject focus with な-adjective.",
+          "position": 10
+        }
+      ]
+    },
+    {
+      "id": "preference",
+      "label": "Preference (好き/嫌い)",
+      "sentences": [
+        {
+          "japanese": "猫が好きです。",
+          "japanese_with_blank": "猫[___]好きです。",
+          "english": "I like cats.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Preference",
+          "scramble_blocks": [
+            "猫",
+            "が",
+            "好き",
+            "です"
+          ],
+          "audio_text": "猫が好きです。",
+          "notes": "が marks what is liked. Topic (私) is implied.",
+          "position": 11
+        },
+        {
+          "japanese": "犬が好きです。",
+          "japanese_with_blank": "犬[___]好きです。",
+          "english": "I like dogs.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Preference",
+          "scramble_blocks": [
+            "犬",
+            "が",
+            "好き",
+            "です"
+          ],
+          "audio_text": "犬が好きです。",
+          "notes": "好き takes が for the liked object.",
+          "position": 12
+        },
+        {
+          "japanese": "本が好きです。",
+          "japanese_with_blank": "本[___]好きです。",
+          "english": "I like books.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Preference",
+          "scramble_blocks": [
+            "本",
+            "が",
+            "好き",
+            "です"
+          ],
+          "audio_text": "本が好きです。",
+          "notes": "Expressing a preference for things.",
+          "position": 13
+        },
+        {
+          "japanese": "水が好きです。",
+          "japanese_with_blank": "水[___]好きです。",
+          "english": "I like water.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Preference",
+          "scramble_blocks": [
+            "水",
+            "が",
+            "好き",
+            "です"
+          ],
+          "audio_text": "水が好きです。",
+          "notes": "Simple preference statement.",
+          "position": 14
+        },
+        {
+          "japanese": "コーヒーが好きです。",
+          "japanese_with_blank": "コーヒー[___]好きです。",
+          "english": "I like coffee.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Preference",
+          "scramble_blocks": [
+            "コーヒー",
+            "が",
+            "好き",
+            "です"
+          ],
+          "audio_text": "コーヒーが好きです。",
+          "notes": "Katakana noun with 好き.",
+          "position": 15
+        },
+        {
+          "japanese": "猫が嫌いです。",
+          "japanese_with_blank": "猫[___]嫌いです。",
+          "english": "I dislike cats.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Preference",
+          "scramble_blocks": [
+            "猫",
+            "が",
+            "嫌い",
+            "です"
+          ],
+          "audio_text": "猫が嫌いです。",
+          "notes": "嫌い also takes が like 好き.",
+          "position": 16
+        },
+        {
+          "japanese": "テストが嫌いです。",
+          "japanese_with_blank": "テスト[___]嫌いです。",
+          "english": "I dislike tests.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Preference",
+          "scramble_blocks": [
+            "テスト",
+            "が",
+            "嫌い",
+            "です"
+          ],
+          "audio_text": "テストが嫌いです。",
+          "notes": "Expressing dislike with が.",
+          "position": 17
+        },
+        {
+          "japanese": "ケーキが好きです。",
+          "japanese_with_blank": "ケーキ[___]好きです。",
+          "english": "I like cake.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Preference",
+          "scramble_blocks": [
+            "ケーキ",
+            "が",
+            "好き",
+            "です"
+          ],
+          "audio_text": "ケーキが好きです。",
+          "notes": "Sweet food preference.",
+          "position": 18
+        },
+        {
+          "japanese": "ここが好きです。",
+          "japanese_with_blank": "ここ[___]好きです。",
+          "english": "I like this place.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Preference",
+          "scramble_blocks": [
+            "ここ",
+            "が",
+            "好き",
+            "です"
+          ],
+          "audio_text": "ここが好きです。",
+          "notes": "Place as the liked thing.",
+          "position": 19
+        },
+        {
+          "japanese": "先生が好きです。",
+          "japanese_with_blank": "先生[___]好きです。",
+          "english": "I like the teacher.",
+          "target_answer": "が",
+          "alternative_answers": [],
+          "hint": "Preference",
+          "scramble_blocks": [
+            "先生",
+            "が",
+            "好き",
+            "です"
+          ],
+          "audio_text": "先生が好きです。",
+          "notes": "Person as the liked subject.",
+          "position": 20
+        }
+      ]
+    }
+  ]
+}

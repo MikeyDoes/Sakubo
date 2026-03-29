@@ -1,0 +1,182 @@
+{
+  "grammar_point": "ではありませんでした",
+  "entry_id": 326355,
+  "categories": [
+    {
+      "id": "formal_past_neg",
+      "label": "Formal Past Negative",
+      "sentences": [
+        {
+          "japanese": "学生ではありませんでした。",
+          "japanese_with_blank": "学生[___]。",
+          "english": "I was not a student.",
+          "target_answer": "ではありませんでした",
+          "alternative_answers": [
+            "じゃありませんでした"
+          ],
+          "hint": "Formal past neg",
+          "scramble_blocks": [
+            "学生",
+            "ではありませんでした"
+          ],
+          "audio_text": "学生ではありませんでした。",
+          "notes": "ではありませんでした is the formal past polite negative.",
+          "position": 1
+        },
+        {
+          "japanese": "先生ではありませんでした。",
+          "japanese_with_blank": "先生[___]。",
+          "english": "He was not a teacher.",
+          "target_answer": "ではありませんでした",
+          "alternative_answers": [
+            "じゃありませんでした"
+          ],
+          "hint": "Formal past neg",
+          "scramble_blocks": [
+            "先生",
+            "ではありませんでした"
+          ],
+          "audio_text": "先生ではありませんでした。",
+          "notes": "Formal past polite neg.",
+          "position": 2
+        },
+        {
+          "japanese": "元気ではありませんでした。",
+          "japanese_with_blank": "元気[___]。",
+          "english": "I was not well.",
+          "target_answer": "ではありませんでした",
+          "alternative_answers": [
+            "じゃありませんでした"
+          ],
+          "hint": "Formal past neg",
+          "scramble_blocks": [
+            "元気",
+            "ではありませんでした"
+          ],
+          "audio_text": "元気ではありませんでした。",
+          "notes": "Formal past polite neg な-adj.",
+          "position": 3
+        },
+        {
+          "japanese": "静かではありませんでした。",
+          "japanese_with_blank": "静か[___]。",
+          "english": "It was not quiet.",
+          "target_answer": "ではありませんでした",
+          "alternative_answers": [
+            "じゃありませんでした"
+          ],
+          "hint": "Formal past neg",
+          "scramble_blocks": [
+            "静か",
+            "ではありませんでした"
+          ],
+          "audio_text": "静かではありませんでした。",
+          "notes": "Formal past polite neg.",
+          "position": 4
+        },
+        {
+          "japanese": "有名ではありませんでした。",
+          "japanese_with_blank": "有名[___]。",
+          "english": "It was not famous.",
+          "target_answer": "ではありませんでした",
+          "alternative_answers": [
+            "じゃありませんでした"
+          ],
+          "hint": "Formal past neg",
+          "scramble_blocks": [
+            "有名",
+            "ではありませんでした"
+          ],
+          "audio_text": "有名ではありませんでした。",
+          "notes": "Formal past polite neg.",
+          "position": 5
+        },
+        {
+          "japanese": "便利ではありませんでした。",
+          "japanese_with_blank": "便利[___]。",
+          "english": "It was not convenient.",
+          "target_answer": "ではありませんでした",
+          "alternative_answers": [
+            "じゃありませんでした"
+          ],
+          "hint": "Formal past neg",
+          "scramble_blocks": [
+            "便利",
+            "ではありませんでした"
+          ],
+          "audio_text": "便利ではありませんでした。",
+          "notes": "Formal past polite neg utility.",
+          "position": 6
+        },
+        {
+          "japanese": "好きではありませんでした。",
+          "japanese_with_blank": "好き[___]。",
+          "english": "I did not like it.",
+          "target_answer": "ではありませんでした",
+          "alternative_answers": [
+            "じゃありませんでした"
+          ],
+          "hint": "Formal past neg",
+          "scramble_blocks": [
+            "好き",
+            "ではありませんでした"
+          ],
+          "audio_text": "好きではありませんでした。",
+          "notes": "Formal past polite neg preference.",
+          "position": 7
+        },
+        {
+          "japanese": "犬ではありませんでした。",
+          "japanese_with_blank": "犬[___]。",
+          "english": "It was not a dog.",
+          "target_answer": "ではありませんでした",
+          "alternative_answers": [
+            "じゃありませんでした"
+          ],
+          "hint": "Formal past neg",
+          "scramble_blocks": [
+            "犬",
+            "ではありませんでした"
+          ],
+          "audio_text": "犬ではありませんでした。",
+          "notes": "Formal past polite negation.",
+          "position": 8
+        },
+        {
+          "japanese": "大切ではありませんでした。",
+          "japanese_with_blank": "大切[___]。",
+          "english": "It was not important.",
+          "target_answer": "ではありませんでした",
+          "alternative_answers": [
+            "じゃありませんでした"
+          ],
+          "hint": "Formal past neg",
+          "scramble_blocks": [
+            "大切",
+            "ではありませんでした"
+          ],
+          "audio_text": "大切ではありませんでした。",
+          "notes": "Formal past polite neg value.",
+          "position": 9
+        },
+        {
+          "japanese": "本ではありませんでした。",
+          "japanese_with_blank": "本[___]。",
+          "english": "It was not a book.",
+          "target_answer": "ではありませんでした",
+          "alternative_answers": [
+            "じゃありませんでした"
+          ],
+          "hint": "Formal past neg",
+          "scramble_blocks": [
+            "本",
+            "ではありませんでした"
+          ],
+          "audio_text": "本ではありませんでした。",
+          "notes": "Formal past polite negation.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

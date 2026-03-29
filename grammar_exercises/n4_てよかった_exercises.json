@@ -1,0 +1,95 @@
+{
+  "grammar_point": "てよかった",
+  "entry_id": 325563,
+  "categories": [
+    {
+      "id": "relief",
+      "label": "Relief & Gratitude",
+      "sentences": [
+        {
+          "japanese": "会えてよかったです。",
+          "japanese_with_blank": "会え[___]です。",
+          "english": "I'm glad I could meet you.",
+          "target_answer": "てよかった",
+          "alternative_answers": [],
+          "hint": "glad that",
+          "scramble_blocks": [
+            "会え",
+            "てよかった",
+            "です"
+          ],
+          "audio_text": "会えてよかったです。",
+          "notes": "会える → 会えてよかった.",
+          "position": 1
+        },
+        {
+          "japanese": "来てよかったです。",
+          "japanese_with_blank": "来[___]です。",
+          "english": "I'm glad I came.",
+          "target_answer": "てよかった",
+          "alternative_answers": [],
+          "hint": "glad that",
+          "scramble_blocks": [
+            "来",
+            "てよかった",
+            "です"
+          ],
+          "audio_text": "来てよかったです。",
+          "notes": "来る → 来てよかった.",
+          "position": 2
+        },
+        {
+          "japanese": "日本語を勉強してよかったです。",
+          "japanese_with_blank": "日本語を勉強し[___]です。",
+          "english": "I'm glad I studied Japanese.",
+          "target_answer": "てよかった",
+          "alternative_answers": [],
+          "hint": "glad that",
+          "scramble_blocks": [
+            "日本語",
+            "を",
+            "勉強し",
+            "てよかった",
+            "です"
+          ],
+          "audio_text": "日本語を勉強してよかったです。",
+          "notes": "する → してよかった.",
+          "position": 3
+        },
+        {
+          "japanese": "早く起きてよかったです。",
+          "japanese_with_blank": "早く起き[___]です。",
+          "english": "I'm glad I woke up early.",
+          "target_answer": "てよかった",
+          "alternative_answers": [],
+          "hint": "glad that",
+          "scramble_blocks": [
+            "早く",
+            "起き",
+            "てよかった",
+            "です"
+          ],
+          "audio_text": "早く起きてよかったです。",
+          "notes": "起きる → 起きてよかった.",
+          "position": 4
+        },
+        {
+          "japanese": "聞いてよかったです。",
+          "japanese_with_blank": "聞い[___]です。",
+          "english": "I'm glad I asked.",
+          "target_answer": "てよかった",
+          "alternative_answers": [],
+          "hint": "glad that",
+          "scramble_blocks": [
+            "聞い",
+            "てよかった",
+            "です"
+          ],
+          "audio_text": "聞いてよかったです。",
+          "notes": "聞く → 聞いてよかった.",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

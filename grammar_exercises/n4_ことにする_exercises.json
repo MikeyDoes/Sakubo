@@ -1,0 +1,79 @@
+{
+  "grammar_point": "ことにする",
+  "entry_id": 326771,
+  "categories": [
+    {
+      "id": "decide",
+      "label": "Decide To",
+      "sentences": [
+        {
+          "japanese": "日本に行くことにしました。",
+          "japanese_with_blank": "日本に行く[___]。",
+          "english": "I decided to go to Japan.",
+          "target_answer": "ことにしました",
+          "alternative_answers": [],
+          "hint": "decided to",
+          "scramble_blocks": [
+            "日本",
+            "に",
+            "行く",
+            "ことにしました"
+          ],
+          "audio_text": "日本に行くことにしました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "毎日運動することにしました。",
+          "japanese_with_blank": "毎日運動する[___]。",
+          "english": "I decided to exercise every day.",
+          "target_answer": "ことにしました",
+          "alternative_answers": [],
+          "hint": "decided to",
+          "scramble_blocks": [
+            "毎日",
+            "運動する",
+            "ことにしました"
+          ],
+          "audio_text": "毎日運動することにしました。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "来年結婚することにしました。",
+          "japanese_with_blank": "来年結婚する[___]。",
+          "english": "We decided to get married next year.",
+          "target_answer": "ことにしました",
+          "alternative_answers": [],
+          "hint": "decided to",
+          "scramble_blocks": [
+            "来年",
+            "結婚する",
+            "ことにしました"
+          ],
+          "audio_text": "来年結婚することにしました。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "甘い物を食べないことにしました。",
+          "japanese_with_blank": "甘い物を食べない[___]。",
+          "english": "I decided not to eat sweets.",
+          "target_answer": "ことにしました",
+          "alternative_answers": [],
+          "hint": "decided to",
+          "scramble_blocks": [
+            "甘い",
+            "物",
+            "を",
+            "食べない",
+            "ことにしました"
+          ],
+          "audio_text": "甘い物を食べないことにしました。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

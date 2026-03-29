@@ -1,0 +1,84 @@
+{
+  "grammar_point": "ているところ",
+  "entry_id": 325631,
+  "categories": [
+    {
+      "id": "in_process",
+      "label": "In the Process of Doing",
+      "sentences": [
+        {
+          "japanese": "今ご飯を食べているところです。",
+          "japanese_with_blank": "今ご飯を食べ[___]です。",
+          "english": "I'm in the middle of eating right now.",
+          "target_answer": "ているところ",
+          "alternative_answers": [],
+          "hint": "in the process of",
+          "scramble_blocks": [
+            "今",
+            "ご飯",
+            "を",
+            "食べ",
+            "ているところ",
+            "です"
+          ],
+          "audio_text": "今ご飯を食べているところです。",
+          "notes": "ている + ところ = in the process.",
+          "position": 1
+        },
+        {
+          "japanese": "今勉強しているところです。",
+          "japanese_with_blank": "今勉強し[___]です。",
+          "english": "I'm in the middle of studying right now.",
+          "target_answer": "ているところ",
+          "alternative_answers": [],
+          "hint": "in the process of",
+          "scramble_blocks": [
+            "今",
+            "勉強し",
+            "ているところ",
+            "です"
+          ],
+          "audio_text": "今勉強しているところです。",
+          "notes": "する → しているところ.",
+          "position": 2
+        },
+        {
+          "japanese": "今出かけるところです。",
+          "japanese_with_blank": "今出かける[___]です。",
+          "english": "I'm about to go out right now.",
+          "target_answer": "ところ",
+          "alternative_answers": [],
+          "hint": "about to",
+          "scramble_blocks": [
+            "今",
+            "出かける",
+            "ところ",
+            "です"
+          ],
+          "audio_text": "今出かけるところです。",
+          "notes": "Dict form + ところ = about to.",
+          "position": 3
+        },
+        {
+          "japanese": "今本を読んでいるところです。",
+          "japanese_with_blank": "今本を読ん[___]です。",
+          "english": "I'm in the middle of reading a book.",
+          "target_answer": "でいるところ",
+          "alternative_answers": [],
+          "hint": "in the process of",
+          "scramble_blocks": [
+            "今",
+            "本",
+            "を",
+            "読ん",
+            "でいるところ",
+            "です"
+          ],
+          "audio_text": "今本を読んでいるところです。",
+          "notes": "読む → 読んでいるところ.",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

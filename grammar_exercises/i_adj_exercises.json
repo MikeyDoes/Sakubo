@@ -1,0 +1,358 @@
+{
+  "grammar_point": "い-adjectives",
+  "entry_id": 325423,
+  "categories": [
+    {
+      "id": "predicate",
+      "label": "As Predicate",
+      "sentences": [
+        {
+          "japanese": "犬は大きいです。",
+          "japanese_with_blank": "犬は[___]です。",
+          "english": "The dog is big.",
+          "target_answer": "大きい",
+          "alternative_answers": [],
+          "hint": "い-adjective",
+          "scramble_blocks": [
+            "犬",
+            "は",
+            "大きい",
+            "です"
+          ],
+          "audio_text": "犬は大きいです。",
+          "notes": "い-adjective as predicate. Keep い before です.",
+          "position": 1
+        },
+        {
+          "japanese": "猫は小さいです。",
+          "japanese_with_blank": "猫は[___]です。",
+          "english": "The cat is small.",
+          "target_answer": "小さい",
+          "alternative_answers": [],
+          "hint": "い-adjective",
+          "scramble_blocks": [
+            "猫",
+            "は",
+            "小さい",
+            "です"
+          ],
+          "audio_text": "猫は小さいです。",
+          "notes": "Size adjective describing an animal.",
+          "position": 2
+        },
+        {
+          "japanese": "学校は新しいです。",
+          "japanese_with_blank": "学校は[___]です。",
+          "english": "The school is new.",
+          "target_answer": "新しい",
+          "alternative_answers": [],
+          "hint": "い-adjective",
+          "scramble_blocks": [
+            "学校",
+            "は",
+            "新しい",
+            "です"
+          ],
+          "audio_text": "学校は新しいです。",
+          "notes": "い-adjective describing a building.",
+          "position": 3
+        },
+        {
+          "japanese": "本は古いです。",
+          "japanese_with_blank": "本は[___]です。",
+          "english": "The book is old.",
+          "target_answer": "古い",
+          "alternative_answers": [],
+          "hint": "い-adjective",
+          "scramble_blocks": [
+            "本",
+            "は",
+            "古い",
+            "です"
+          ],
+          "audio_text": "本は古いです。",
+          "notes": "Describing an object with い-adjective.",
+          "position": 4
+        },
+        {
+          "japanese": "ケーキは美味しいです。",
+          "japanese_with_blank": "ケーキは[___]です。",
+          "english": "The cake is delicious.",
+          "target_answer": "美味しい",
+          "alternative_answers": [],
+          "hint": "い-adjective",
+          "scramble_blocks": [
+            "ケーキ",
+            "は",
+            "美味しい",
+            "です"
+          ],
+          "audio_text": "ケーキは美味しいです。",
+          "notes": "美味しい keeps its い before です.",
+          "position": 5
+        },
+        {
+          "japanese": "車は高いです。",
+          "japanese_with_blank": "車は[___]です。",
+          "english": "The car is expensive.",
+          "target_answer": "高い",
+          "alternative_answers": [],
+          "hint": "い-adjective",
+          "scramble_blocks": [
+            "車",
+            "は",
+            "高い",
+            "です"
+          ],
+          "audio_text": "車は高いです。",
+          "notes": "高い can mean tall or expensive.",
+          "position": 6
+        },
+        {
+          "japanese": "テストは難しいです。",
+          "japanese_with_blank": "テストは[___]です。",
+          "english": "The test is difficult.",
+          "target_answer": "難しい",
+          "alternative_answers": [],
+          "hint": "い-adjective",
+          "scramble_blocks": [
+            "テスト",
+            "は",
+            "難しい",
+            "です"
+          ],
+          "audio_text": "テストは難しいです。",
+          "notes": "Describing difficulty.",
+          "position": 7
+        },
+        {
+          "japanese": "ここは暑いです。",
+          "japanese_with_blank": "ここは[___]です。",
+          "english": "It is hot here.",
+          "target_answer": "暑い",
+          "alternative_answers": [],
+          "hint": "い-adjective",
+          "scramble_blocks": [
+            "ここ",
+            "は",
+            "暑い",
+            "です"
+          ],
+          "audio_text": "ここは暑いです。",
+          "notes": "Weather/temperature adjective.",
+          "position": 8
+        },
+        {
+          "japanese": "先生はやさしいです。",
+          "japanese_with_blank": "先生は[___]です。",
+          "english": "The teacher is kind.",
+          "target_answer": "やさしい",
+          "alternative_answers": [],
+          "hint": "い-adjective",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "やさしい",
+            "です"
+          ],
+          "audio_text": "先生はやさしいです。",
+          "notes": "Describing a person's character.",
+          "position": 9
+        },
+        {
+          "japanese": "コーヒーはいいです。",
+          "japanese_with_blank": "コーヒーは[___]です。",
+          "english": "The coffee is good.",
+          "target_answer": "いい",
+          "alternative_answers": [],
+          "hint": "い-adjective",
+          "scramble_blocks": [
+            "コーヒー",
+            "は",
+            "いい",
+            "です"
+          ],
+          "audio_text": "コーヒーはいいです。",
+          "notes": "いい is an irregular い-adjective.",
+          "position": 10
+        }
+      ]
+    },
+    {
+      "id": "negative",
+      "label": "Negative Form",
+      "sentences": [
+        {
+          "japanese": "猫は大きくない。",
+          "japanese_with_blank": "猫は大き[___]。",
+          "english": "The cat is not big.",
+          "target_answer": "くない",
+          "alternative_answers": [],
+          "hint": "Negative",
+          "scramble_blocks": [
+            "猫",
+            "は",
+            "大き",
+            "くない"
+          ],
+          "audio_text": "猫は大きくない。",
+          "notes": "Remove い, add くない for negation.",
+          "position": 11
+        },
+        {
+          "japanese": "学校は新しくない。",
+          "japanese_with_blank": "学校は新し[___]。",
+          "english": "The school is not new.",
+          "target_answer": "くない",
+          "alternative_answers": [],
+          "hint": "Negative",
+          "scramble_blocks": [
+            "学校",
+            "は",
+            "新し",
+            "くない"
+          ],
+          "audio_text": "学校は新しくない。",
+          "notes": "い → くない is the negative pattern.",
+          "position": 12
+        },
+        {
+          "japanese": "水は美味しくない。",
+          "japanese_with_blank": "水は美味し[___]。",
+          "english": "The water is not delicious.",
+          "target_answer": "くない",
+          "alternative_answers": [],
+          "hint": "Negative",
+          "scramble_blocks": [
+            "水",
+            "は",
+            "美味し",
+            "くない"
+          ],
+          "audio_text": "水は美味しくない。",
+          "notes": "Negative form of taste adjective.",
+          "position": 13
+        },
+        {
+          "japanese": "車は古くない。",
+          "japanese_with_blank": "車は古[___]。",
+          "english": "The car is not old.",
+          "target_answer": "くない",
+          "alternative_answers": [],
+          "hint": "Negative",
+          "scramble_blocks": [
+            "車",
+            "は",
+            "古",
+            "くない"
+          ],
+          "audio_text": "車は古くない。",
+          "notes": "Negating a description.",
+          "position": 14
+        },
+        {
+          "japanese": "テストは難しくない。",
+          "japanese_with_blank": "テストは難し[___]。",
+          "english": "The test is not difficult.",
+          "target_answer": "くない",
+          "alternative_answers": [],
+          "hint": "Negative",
+          "scramble_blocks": [
+            "テスト",
+            "は",
+            "難し",
+            "くない"
+          ],
+          "audio_text": "テストは難しくない。",
+          "notes": "Negative of difficulty.",
+          "position": 15
+        },
+        {
+          "japanese": "ここは寒くない。",
+          "japanese_with_blank": "ここは寒[___]。",
+          "english": "It is not cold here.",
+          "target_answer": "くない",
+          "alternative_answers": [],
+          "hint": "Negative",
+          "scramble_blocks": [
+            "ここ",
+            "は",
+            "寒",
+            "くない"
+          ],
+          "audio_text": "ここは寒くない。",
+          "notes": "Negating temperature.",
+          "position": 16
+        },
+        {
+          "japanese": "本は面白くない。",
+          "japanese_with_blank": "本は面白[___]。",
+          "english": "The book is not interesting.",
+          "target_answer": "くない",
+          "alternative_answers": [],
+          "hint": "Negative",
+          "scramble_blocks": [
+            "本",
+            "は",
+            "面白",
+            "くない"
+          ],
+          "audio_text": "本は面白くない。",
+          "notes": "Negating interest.",
+          "position": 17
+        },
+        {
+          "japanese": "ケーキは高くない。",
+          "japanese_with_blank": "ケーキは高[___]。",
+          "english": "The cake is not expensive.",
+          "target_answer": "くない",
+          "alternative_answers": [],
+          "hint": "Negative",
+          "scramble_blocks": [
+            "ケーキ",
+            "は",
+            "高",
+            "くない"
+          ],
+          "audio_text": "ケーキは高くない。",
+          "notes": "Negating price.",
+          "position": 18
+        },
+        {
+          "japanese": "先生は悪くない。",
+          "japanese_with_blank": "先生は悪[___]。",
+          "english": "The teacher is not bad.",
+          "target_answer": "くない",
+          "alternative_answers": [],
+          "hint": "Negative",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "悪",
+            "くない"
+          ],
+          "audio_text": "先生は悪くない。",
+          "notes": "Negating character.",
+          "position": 19
+        },
+        {
+          "japanese": "ホテルはやすくない。",
+          "japanese_with_blank": "ホテルはやす[___]。",
+          "english": "The hotel is not cheap.",
+          "target_answer": "くない",
+          "alternative_answers": [],
+          "hint": "Negative",
+          "scramble_blocks": [
+            "ホテル",
+            "は",
+            "やす",
+            "くない"
+          ],
+          "audio_text": "ホテルはやすくない。",
+          "notes": "Negating price adjective.",
+          "position": 20
+        }
+      ]
+    }
+  ]
+}

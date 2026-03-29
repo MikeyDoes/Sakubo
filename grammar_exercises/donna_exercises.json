@@ -1,0 +1,172 @@
+{
+  "grammar_point": "どんな",
+  "entry_id": 325441,
+  "categories": [
+    {
+      "id": "what_kind",
+      "label": "What Kind Of",
+      "sentences": [
+        {
+          "japanese": "どんな食べ物が好きですか",
+          "japanese_with_blank": "[___]食べ物が好きですか",
+          "english": "What kind of food do you like?",
+          "target_answer": "どんな",
+          "alternative_answers": [],
+          "hint": "What kind",
+          "scramble_blocks": [
+            "どんな",
+            "食べ物",
+            "が好きですか"
+          ],
+          "audio_text": "どんな食べ物が好きですか",
+          "notes": "どんな asks \"what kind of.\"",
+          "position": 1
+        },
+        {
+          "japanese": "どんな本を読みますか",
+          "japanese_with_blank": "[___]本を読みますか",
+          "english": "What kind of books do you read?",
+          "target_answer": "どんな",
+          "alternative_answers": [],
+          "hint": "What kind",
+          "scramble_blocks": [
+            "どんな",
+            "本",
+            "を読みますか"
+          ],
+          "audio_text": "どんな本を読みますか",
+          "notes": "Asking preference.",
+          "position": 2
+        },
+        {
+          "japanese": "どんな音楽が好きですか",
+          "japanese_with_blank": "[___]音楽が好きですか",
+          "english": "What kind of music do you like?",
+          "target_answer": "どんな",
+          "alternative_answers": [],
+          "hint": "What kind",
+          "scramble_blocks": [
+            "どんな",
+            "音楽",
+            "が好きですか"
+          ],
+          "audio_text": "どんな音楽が好きですか",
+          "notes": "Music preference.",
+          "position": 3
+        },
+        {
+          "japanese": "どんな人ですか",
+          "japanese_with_blank": "[___]人ですか",
+          "english": "What kind of person is he?",
+          "target_answer": "どんな",
+          "alternative_answers": [],
+          "hint": "What kind",
+          "scramble_blocks": [
+            "どんな",
+            "人",
+            "ですか"
+          ],
+          "audio_text": "どんな人ですか",
+          "notes": "Describing a person.",
+          "position": 4
+        },
+        {
+          "japanese": "どんな町ですか",
+          "japanese_with_blank": "[___]町ですか",
+          "english": "What kind of town is it?",
+          "target_answer": "どんな",
+          "alternative_answers": [],
+          "hint": "What kind",
+          "scramble_blocks": [
+            "どんな",
+            "町",
+            "ですか"
+          ],
+          "audio_text": "どんな町ですか",
+          "notes": "Describing a place.",
+          "position": 5
+        },
+        {
+          "japanese": "どんな映画が好きですか",
+          "japanese_with_blank": "[___]映画が好きですか",
+          "english": "What kind of movies do you like?",
+          "target_answer": "どんな",
+          "alternative_answers": [],
+          "hint": "What kind",
+          "scramble_blocks": [
+            "どんな",
+            "映画",
+            "が好きですか"
+          ],
+          "audio_text": "どんな映画が好きですか",
+          "notes": "Movie preference.",
+          "position": 6
+        },
+        {
+          "japanese": "どんな仕事ですか",
+          "japanese_with_blank": "[___]仕事ですか",
+          "english": "What kind of work is it?",
+          "target_answer": "どんな",
+          "alternative_answers": [],
+          "hint": "What kind",
+          "scramble_blocks": [
+            "どんな",
+            "仕事",
+            "ですか"
+          ],
+          "audio_text": "どんな仕事ですか",
+          "notes": "Asking about work.",
+          "position": 7
+        },
+        {
+          "japanese": "どんな店ですか",
+          "japanese_with_blank": "[___]店ですか",
+          "english": "What kind of shop is it?",
+          "target_answer": "どんな",
+          "alternative_answers": [],
+          "hint": "What kind",
+          "scramble_blocks": [
+            "どんな",
+            "店",
+            "ですか"
+          ],
+          "audio_text": "どんな店ですか",
+          "notes": "Describing a shop.",
+          "position": 8
+        },
+        {
+          "japanese": "どんな動物が好きですか",
+          "japanese_with_blank": "[___]動物が好きですか",
+          "english": "What kind of animals do you like?",
+          "target_answer": "どんな",
+          "alternative_answers": [],
+          "hint": "What kind",
+          "scramble_blocks": [
+            "どんな",
+            "動物",
+            "が好きですか"
+          ],
+          "audio_text": "どんな動物が好きですか",
+          "notes": "Animal preference.",
+          "position": 9
+        },
+        {
+          "japanese": "どんな飲み物が好きですか",
+          "japanese_with_blank": "[___]飲み物が好きですか",
+          "english": "What kind of drinks do you like?",
+          "target_answer": "どんな",
+          "alternative_answers": [],
+          "hint": "What kind",
+          "scramble_blocks": [
+            "どんな",
+            "飲み物",
+            "が好きですか"
+          ],
+          "audio_text": "どんな飲み物が好きですか",
+          "notes": "Drink preference.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

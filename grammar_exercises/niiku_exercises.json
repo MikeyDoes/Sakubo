@@ -1,0 +1,182 @@
+{
+  "grammar_point": "にいく",
+  "entry_id": 325482,
+  "categories": [
+    {
+      "id": "go_to_do",
+      "label": "Go To Do",
+      "sentences": [
+        {
+          "japanese": "レストランに食べに行きます。",
+          "japanese_with_blank": "レストランに食べ[___]。",
+          "english": "I go to a restaurant to eat.",
+          "target_answer": "に行きます",
+          "alternative_answers": [],
+          "hint": "Go to do",
+          "scramble_blocks": [
+            "レストラン",
+            "に",
+            "食べ",
+            "に行きます"
+          ],
+          "audio_text": "レストランに食べに行きます。",
+          "notes": "にいく = go to do something.",
+          "position": 1
+        },
+        {
+          "japanese": "学校に見に行きます。",
+          "japanese_with_blank": "学校に見[___]。",
+          "english": "I go to school to see.",
+          "target_answer": "に行きます",
+          "alternative_answers": [],
+          "hint": "Go to do",
+          "scramble_blocks": [
+            "学校",
+            "に",
+            "見",
+            "に行きます"
+          ],
+          "audio_text": "学校に見に行きます。",
+          "notes": "Purpose of going.",
+          "position": 2
+        },
+        {
+          "japanese": "店に買いに行きます。",
+          "japanese_with_blank": "店に買い[___]。",
+          "english": "I go to the shop to buy.",
+          "target_answer": "に行きます",
+          "alternative_answers": [],
+          "hint": "Go to do",
+          "scramble_blocks": [
+            "店",
+            "に",
+            "買い",
+            "に行きます"
+          ],
+          "audio_text": "店に買いに行きます。",
+          "notes": "Shopping purpose.",
+          "position": 3
+        },
+        {
+          "japanese": "カフェに飲みに行きます。",
+          "japanese_with_blank": "カフェに飲み[___]。",
+          "english": "I go to a cafe to drink.",
+          "target_answer": "に行きます",
+          "alternative_answers": [],
+          "hint": "Go to do",
+          "scramble_blocks": [
+            "カフェ",
+            "に",
+            "飲み",
+            "に行きます"
+          ],
+          "audio_text": "カフェに飲みに行きます。",
+          "notes": "Drinking purpose.",
+          "position": 4
+        },
+        {
+          "japanese": "プールに泳ぎに行きます。",
+          "japanese_with_blank": "プールに泳ぎ[___]。",
+          "english": "I go to the pool to swim.",
+          "target_answer": "に行きます",
+          "alternative_answers": [],
+          "hint": "Go to do",
+          "scramble_blocks": [
+            "プール",
+            "に",
+            "泳ぎ",
+            "に行きます"
+          ],
+          "audio_text": "プールに泳ぎに行きます。",
+          "notes": "Swimming purpose.",
+          "position": 5
+        },
+        {
+          "japanese": "図書館に読みに行きます。",
+          "japanese_with_blank": "図書館に読み[___]。",
+          "english": "I go to the library to read.",
+          "target_answer": "に行きます",
+          "alternative_answers": [],
+          "hint": "Go to do",
+          "scramble_blocks": [
+            "図書館",
+            "に",
+            "読み",
+            "に行きます"
+          ],
+          "audio_text": "図書館に読みに行きます。",
+          "notes": "Reading purpose.",
+          "position": 6
+        },
+        {
+          "japanese": "公園に遊びに行きます。",
+          "japanese_with_blank": "公園に遊び[___]。",
+          "english": "I go to the park to play.",
+          "target_answer": "に行きます",
+          "alternative_answers": [],
+          "hint": "Go to do",
+          "scramble_blocks": [
+            "公園",
+            "に",
+            "遊び",
+            "に行きます"
+          ],
+          "audio_text": "公園に遊びに行きます。",
+          "notes": "Play purpose.",
+          "position": 7
+        },
+        {
+          "japanese": "学校に聞きに行きます。",
+          "japanese_with_blank": "学校に聞き[___]。",
+          "english": "I go to school to listen.",
+          "target_answer": "に行きます",
+          "alternative_answers": [],
+          "hint": "Go to do",
+          "scramble_blocks": [
+            "学校",
+            "に",
+            "聞き",
+            "に行きます"
+          ],
+          "audio_text": "学校に聞きに行きます。",
+          "notes": "Learning purpose.",
+          "position": 8
+        },
+        {
+          "japanese": "公園に走りに行きます。",
+          "japanese_with_blank": "公園に走り[___]。",
+          "english": "I go to the park to run.",
+          "target_answer": "に行きます",
+          "alternative_answers": [],
+          "hint": "Go to do",
+          "scramble_blocks": [
+            "公園",
+            "に",
+            "走り",
+            "に行きます"
+          ],
+          "audio_text": "公園に走りに行きます。",
+          "notes": "Exercise purpose.",
+          "position": 9
+        },
+        {
+          "japanese": "学校にしに行きます。",
+          "japanese_with_blank": "学校にし[___]。",
+          "english": "I go to school to do it.",
+          "target_answer": "に行きます",
+          "alternative_answers": [],
+          "hint": "Go to do",
+          "scramble_blocks": [
+            "学校",
+            "に",
+            "し",
+            "に行きます"
+          ],
+          "audio_text": "学校にしに行きます。",
+          "notes": "General purpose.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

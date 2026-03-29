@@ -1,0 +1,122 @@
+{
+  "grammar_point": "ことがある",
+  "entry_id": 326770,
+  "categories": [
+    {
+      "id": "experience",
+      "label": "Have Experienced",
+      "sentences": [
+        {
+          "japanese": "日本に行ったことがあります。",
+          "japanese_with_blank": "日本に行った[___]。",
+          "english": "I have been to Japan.",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "have experienced",
+          "scramble_blocks": [
+            "日本",
+            "に",
+            "行った",
+            "ことがあります"
+          ],
+          "audio_text": "日本に行ったことがあります。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "寿司を食べたことがありますか。",
+          "japanese_with_blank": "寿司を食べた[___]か。",
+          "english": "Have you ever eaten sushi?",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "have experienced",
+          "scramble_blocks": [
+            "寿司",
+            "を",
+            "食べた",
+            "ことがあります",
+            "か"
+          ],
+          "audio_text": "寿司を食べたことがありますか。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "富士山を見たことがあります。",
+          "japanese_with_blank": "富士山を見た[___]。",
+          "english": "I have seen Mt. Fuji.",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "have experienced",
+          "scramble_blocks": [
+            "富士山",
+            "を",
+            "見た",
+            "ことがあります"
+          ],
+          "audio_text": "富士山を見たことがあります。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "この映画を見たことがありません。",
+          "japanese_with_blank": "この映画を見た[___]。",
+          "english": "I have never seen this movie.",
+          "target_answer": "ことがありません",
+          "alternative_answers": [],
+          "hint": "have not experienced",
+          "scramble_blocks": [
+            "この",
+            "映画",
+            "を",
+            "見た",
+            "ことがありません"
+          ],
+          "audio_text": "この映画を見たことがありません。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "sometimes",
+      "label": "There Are Times When",
+      "sentences": [
+        {
+          "japanese": "朝ご飯を食べないことがあります。",
+          "japanese_with_blank": "朝ご飯を食べない[___]。",
+          "english": "There are times when I don't eat breakfast.",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "sometimes",
+          "scramble_blocks": [
+            "朝ご飯",
+            "を",
+            "食べない",
+            "ことがあります"
+          ],
+          "audio_text": "朝ご飯を食べないことがあります。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "電車が遅れることがあります。",
+          "japanese_with_blank": "電車が遅れる[___]。",
+          "english": "There are times when the train is late.",
+          "target_answer": "ことがあります",
+          "alternative_answers": [],
+          "hint": "sometimes",
+          "scramble_blocks": [
+            "電車",
+            "が",
+            "遅れる",
+            "ことがあります"
+          ],
+          "audio_text": "電車が遅れることがあります。",
+          "notes": "",
+          "position": 2
+        }
+      ]
+    }
+  ]
+}

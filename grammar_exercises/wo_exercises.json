@@ -1,0 +1,536 @@
+{
+  "grammar_point": "を",
+  "entry_id": 325427,
+  "categories": [
+    {
+      "id": "direct_object",
+      "label": "Direct Object",
+      "sentences": [
+        {
+          "japanese": "ご飯を食べます。",
+          "japanese_with_blank": "ご飯[___]食べます。",
+          "english": "I eat rice.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Direct object",
+          "scramble_blocks": [
+            "ご飯",
+            "を",
+            "食べます"
+          ],
+          "audio_text": "ご飯を食べます。",
+          "notes": "を marks the direct object of a verb.",
+          "position": 1
+        },
+        {
+          "japanese": "テレビを見ます。",
+          "japanese_with_blank": "テレビ[___]見ます。",
+          "english": "I watch TV.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Direct object",
+          "scramble_blocks": [
+            "テレビ",
+            "を",
+            "見ます"
+          ],
+          "audio_text": "テレビを見ます。",
+          "notes": "テレビを見る is a common phrase.",
+          "position": 2
+        },
+        {
+          "japanese": "本を読みます。",
+          "japanese_with_blank": "本[___]読みます。",
+          "english": "I read a book.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Direct object",
+          "scramble_blocks": [
+            "本",
+            "を",
+            "読みます"
+          ],
+          "audio_text": "本を読みます。",
+          "notes": "を marks what is being read.",
+          "position": 3
+        },
+        {
+          "japanese": "水を飲みます。",
+          "japanese_with_blank": "水[___]飲みます。",
+          "english": "I drink water.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Direct object",
+          "scramble_blocks": [
+            "水",
+            "を",
+            "飲みます"
+          ],
+          "audio_text": "水を飲みます。",
+          "notes": "を marks what is being drunk.",
+          "position": 4
+        },
+        {
+          "japanese": "お茶を飲みます。",
+          "japanese_with_blank": "お茶[___]飲みます。",
+          "english": "I drink tea.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Direct object",
+          "scramble_blocks": [
+            "お茶",
+            "を",
+            "飲みます"
+          ],
+          "audio_text": "お茶を飲みます。",
+          "notes": "お茶 as direct object.",
+          "position": 5
+        },
+        {
+          "japanese": "名前を書きます。",
+          "japanese_with_blank": "名前[___]書きます。",
+          "english": "I write my name.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Direct object",
+          "scramble_blocks": [
+            "名前",
+            "を",
+            "書きます"
+          ],
+          "audio_text": "名前を書きます。",
+          "notes": "を marks what is being written.",
+          "position": 6
+        },
+        {
+          "japanese": "ケーキを食べます。",
+          "japanese_with_blank": "ケーキ[___]食べます。",
+          "english": "I eat cake.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Direct object",
+          "scramble_blocks": [
+            "ケーキ",
+            "を",
+            "食べます"
+          ],
+          "audio_text": "ケーキを食べます。",
+          "notes": "Katakana noun as direct object.",
+          "position": 7
+        },
+        {
+          "japanese": "コーヒーを飲みます。",
+          "japanese_with_blank": "コーヒー[___]飲みます。",
+          "english": "I drink coffee.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Direct object",
+          "scramble_blocks": [
+            "コーヒー",
+            "を",
+            "飲みます"
+          ],
+          "audio_text": "コーヒーを飲みます。",
+          "notes": "Katakana drink as direct object.",
+          "position": 8
+        },
+        {
+          "japanese": "犬を見ます。",
+          "japanese_with_blank": "犬[___]見ます。",
+          "english": "I look at the dog.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Direct object",
+          "scramble_blocks": [
+            "犬",
+            "を",
+            "見ます"
+          ],
+          "audio_text": "犬を見ます。",
+          "notes": "を with 見る for observing.",
+          "position": 9
+        },
+        {
+          "japanese": "パンを食べます。",
+          "japanese_with_blank": "パン[___]食べます。",
+          "english": "I eat bread.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Direct object",
+          "scramble_blocks": [
+            "パン",
+            "を",
+            "食べます"
+          ],
+          "audio_text": "パンを食べます。",
+          "notes": "Katakana food as object.",
+          "position": 10
+        }
+      ]
+    },
+    {
+      "id": "movement",
+      "label": "Movement/Departure",
+      "sentences": [
+        {
+          "japanese": "家を出ます。",
+          "japanese_with_blank": "家[___]出ます。",
+          "english": "I leave the house.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Movement/departure",
+          "scramble_blocks": [
+            "家",
+            "を",
+            "出ます"
+          ],
+          "audio_text": "家を出ます。",
+          "notes": "を with 出る for departing a place.",
+          "position": 11
+        },
+        {
+          "japanese": "学校を出ます。",
+          "japanese_with_blank": "学校[___]出ます。",
+          "english": "I leave school.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Movement/departure",
+          "scramble_blocks": [
+            "学校",
+            "を",
+            "出ます"
+          ],
+          "audio_text": "学校を出ます。",
+          "notes": "を marks the place being departed.",
+          "position": 12
+        },
+        {
+          "japanese": "部屋を出ます。",
+          "japanese_with_blank": "部屋[___]出ます。",
+          "english": "I leave the room.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Movement/departure",
+          "scramble_blocks": [
+            "部屋",
+            "を",
+            "出ます"
+          ],
+          "audio_text": "部屋を出ます。",
+          "notes": "を with movement verb 出る.",
+          "position": 13
+        },
+        {
+          "japanese": "店を出ます。",
+          "japanese_with_blank": "店[___]出ます。",
+          "english": "I leave the shop.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Movement/departure",
+          "scramble_blocks": [
+            "店",
+            "を",
+            "出ます"
+          ],
+          "audio_text": "店を出ます。",
+          "notes": "Departing from a shop.",
+          "position": 14
+        }
+      ]
+    },
+    {
+      "id": "full_sentence",
+      "label": "Combined Practice",
+      "sentences": [
+        {
+          "japanese": "私はご飯を食べます。",
+          "japanese_with_blank": "私はご飯[___]食べます。",
+          "english": "I eat rice.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Object in context",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "ご飯",
+            "を",
+            "食べます"
+          ],
+          "audio_text": "私はご飯を食べます。",
+          "notes": "Full sentence with topic and object.",
+          "position": 15
+        },
+        {
+          "japanese": "友達は本を読みます。",
+          "japanese_with_blank": "友達は本[___]読みます。",
+          "english": "My friend reads a book.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Object in context",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "本",
+            "を",
+            "読みます"
+          ],
+          "audio_text": "友達は本を読みます。",
+          "notes": "Third person topic with を.",
+          "position": 16
+        },
+        {
+          "japanese": "先生はお茶を飲みます。",
+          "japanese_with_blank": "先生はお茶[___]飲みます。",
+          "english": "The teacher drinks tea.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Object in context",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "お茶",
+            "を",
+            "飲みます"
+          ],
+          "audio_text": "先生はお茶を飲みます。",
+          "notes": "Another person as topic.",
+          "position": 17
+        },
+        {
+          "japanese": "子供はケーキを食べます。",
+          "japanese_with_blank": "子供はケーキ[___]食べます。",
+          "english": "The child eats cake.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Object in context",
+          "scramble_blocks": [
+            "子供",
+            "は",
+            "ケーキ",
+            "を",
+            "食べます"
+          ],
+          "audio_text": "子供はケーキを食べます。",
+          "notes": "Child as topic with を.",
+          "position": 18
+        },
+        {
+          "japanese": "私はコーヒーを飲みます。",
+          "japanese_with_blank": "私はコーヒー[___]飲みます。",
+          "english": "I drink coffee.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Object in context",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "コーヒー",
+            "を",
+            "飲みます"
+          ],
+          "audio_text": "私はコーヒーを飲みます。",
+          "notes": "Topic + katakana object + verb.",
+          "position": 19
+        },
+        {
+          "japanese": "学生は水を飲みます。",
+          "japanese_with_blank": "学生は水[___]飲みます。",
+          "english": "The student drinks water.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Object in context",
+          "scramble_blocks": [
+            "学生",
+            "は",
+            "水",
+            "を",
+            "飲みます"
+          ],
+          "audio_text": "学生は水を飲みます。",
+          "notes": "Student as topic.",
+          "position": 20
+        },
+        {
+          "japanese": "友達はテレビを見ます。",
+          "japanese_with_blank": "友達はテレビ[___]見ます。",
+          "english": "My friend watches TV.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Object in context",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "テレビ",
+            "を",
+            "見ます"
+          ],
+          "audio_text": "友達はテレビを見ます。",
+          "notes": "Watching as the action.",
+          "position": 21
+        },
+        {
+          "japanese": "先生は名前を書きます。",
+          "japanese_with_blank": "先生は名前[___]書きます。",
+          "english": "The teacher writes the name.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Object in context",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "名前",
+            "を",
+            "書きます"
+          ],
+          "audio_text": "先生は名前を書きます。",
+          "notes": "Writing as the action.",
+          "position": 22
+        },
+        {
+          "japanese": "私はパンを食べます。",
+          "japanese_with_blank": "私はパン[___]食べます。",
+          "english": "I eat bread.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Object in context",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "パン",
+            "を",
+            "食べます"
+          ],
+          "audio_text": "私はパンを食べます。",
+          "notes": "Simple food sentence.",
+          "position": 23
+        },
+        {
+          "japanese": "男はお茶を飲みます。",
+          "japanese_with_blank": "男はお茶[___]飲みます。",
+          "english": "The man drinks tea.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Object in context",
+          "scramble_blocks": [
+            "男",
+            "は",
+            "お茶",
+            "を",
+            "飲みます"
+          ],
+          "audio_text": "男はお茶を飲みます。",
+          "notes": "Specific person as topic.",
+          "position": 24
+        },
+        {
+          "japanese": "女は本を読みます。",
+          "japanese_with_blank": "女は本[___]読みます。",
+          "english": "The woman reads a book.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Object in context",
+          "scramble_blocks": [
+            "女",
+            "は",
+            "本",
+            "を",
+            "読みます"
+          ],
+          "audio_text": "女は本を読みます。",
+          "notes": "Reading with person topic.",
+          "position": 25
+        },
+        {
+          "japanese": "子供は水を飲みます。",
+          "japanese_with_blank": "子供は水[___]飲みます。",
+          "english": "The child drinks water.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Object in context",
+          "scramble_blocks": [
+            "子供",
+            "は",
+            "水",
+            "を",
+            "飲みます"
+          ],
+          "audio_text": "子供は水を飲みます。",
+          "notes": "Simple direct object pattern.",
+          "position": 26
+        },
+        {
+          "japanese": "学生はノートを読みます。",
+          "japanese_with_blank": "学生はノート[___]読みます。",
+          "english": "The student reads the notebook.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Object in context",
+          "scramble_blocks": [
+            "学生",
+            "は",
+            "ノート",
+            "を",
+            "読みます"
+          ],
+          "audio_text": "学生はノートを読みます。",
+          "notes": "Katakana object.",
+          "position": 27
+        },
+        {
+          "japanese": "友達はカレーを食べます。",
+          "japanese_with_blank": "友達はカレー[___]食べます。",
+          "english": "My friend eats curry.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Object in context",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "カレー",
+            "を",
+            "食べます"
+          ],
+          "audio_text": "友達はカレーを食べます。",
+          "notes": "Katakana food.",
+          "position": 28
+        },
+        {
+          "japanese": "私はペンを持ちます。",
+          "japanese_with_blank": "私はペン[___]持ちます。",
+          "english": "I hold a pen.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Object in context",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "ペン",
+            "を",
+            "持ちます"
+          ],
+          "audio_text": "私はペンを持ちます。",
+          "notes": "を with 持つ (to hold).",
+          "position": 29
+        },
+        {
+          "japanese": "先生はご飯を作ります。",
+          "japanese_with_blank": "先生はご飯[___]作ります。",
+          "english": "The teacher makes rice.",
+          "target_answer": "を",
+          "alternative_answers": [],
+          "hint": "Object in context",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "ご飯",
+            "を",
+            "作ります"
+          ],
+          "audio_text": "先生はご飯を作ります。",
+          "notes": "を with 作る (to make).",
+          "position": 30
+        }
+      ]
+    }
+  ]
+}

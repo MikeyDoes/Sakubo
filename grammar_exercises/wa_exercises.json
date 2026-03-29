@@ -1,0 +1,172 @@
+{
+  "grammar_point": "は",
+  "entry_id": 325425,
+  "categories": [
+    {
+      "id": "topic",
+      "label": "Topic Marking",
+      "sentences": [
+        {
+          "japanese": "猫は小さい。",
+          "japanese_with_blank": "猫[___]小さい。",
+          "english": "The cat is small.",
+          "target_answer": "は",
+          "alternative_answers": [],
+          "hint": "Topic marker",
+          "scramble_blocks": [
+            "猫",
+            "は",
+            "小さい"
+          ],
+          "audio_text": "猫は小さい。",
+          "notes": "は marks the topic — what we are talking about.",
+          "position": 1
+        },
+        {
+          "japanese": "犬は大きい。",
+          "japanese_with_blank": "犬[___]大きい。",
+          "english": "The dog is big.",
+          "target_answer": "は",
+          "alternative_answers": [],
+          "hint": "Topic marker",
+          "scramble_blocks": [
+            "犬",
+            "は",
+            "大きい"
+          ],
+          "audio_text": "犬は大きい。",
+          "notes": "Topic + い-adjective predicate.",
+          "position": 2
+        },
+        {
+          "japanese": "本は古い。",
+          "japanese_with_blank": "本[___]古い。",
+          "english": "The book is old.",
+          "target_answer": "は",
+          "alternative_answers": [],
+          "hint": "Topic marker",
+          "scramble_blocks": [
+            "本",
+            "は",
+            "古い"
+          ],
+          "audio_text": "本は古い。",
+          "notes": "Describing an object with topic は.",
+          "position": 3
+        },
+        {
+          "japanese": "学校は新しい。",
+          "japanese_with_blank": "学校[___]新しい。",
+          "english": "The school is new.",
+          "target_answer": "は",
+          "alternative_answers": [],
+          "hint": "Topic marker",
+          "scramble_blocks": [
+            "学校",
+            "は",
+            "新しい"
+          ],
+          "audio_text": "学校は新しい。",
+          "notes": "Topic is a place, predicate is い-adjective.",
+          "position": 4
+        },
+        {
+          "japanese": "車は高い。",
+          "japanese_with_blank": "車[___]高い。",
+          "english": "The car is expensive.",
+          "target_answer": "は",
+          "alternative_answers": [],
+          "hint": "Topic marker",
+          "scramble_blocks": [
+            "車",
+            "は",
+            "高い"
+          ],
+          "audio_text": "車は高い。",
+          "notes": "は marks what we are talking about.",
+          "position": 5
+        },
+        {
+          "japanese": "コーヒーはいい。",
+          "japanese_with_blank": "コーヒー[___]いい。",
+          "english": "The coffee is good.",
+          "target_answer": "は",
+          "alternative_answers": [],
+          "hint": "Topic marker",
+          "scramble_blocks": [
+            "コーヒー",
+            "は",
+            "いい"
+          ],
+          "audio_text": "コーヒーはいい。",
+          "notes": "Kana noun as topic with いい.",
+          "position": 6
+        },
+        {
+          "japanese": "家は大きい。",
+          "japanese_with_blank": "家[___]大きい。",
+          "english": "The house is big.",
+          "target_answer": "は",
+          "alternative_answers": [],
+          "hint": "Topic marker",
+          "scramble_blocks": [
+            "家",
+            "は",
+            "大きい"
+          ],
+          "audio_text": "家は大きい。",
+          "notes": "Topic is a building, predicate is い-adjective.",
+          "position": 7
+        },
+        {
+          "japanese": "電話は新しい。",
+          "japanese_with_blank": "電話[___]新しい。",
+          "english": "The phone is new.",
+          "target_answer": "は",
+          "alternative_answers": [],
+          "hint": "Topic marker",
+          "scramble_blocks": [
+            "電話",
+            "は",
+            "新しい"
+          ],
+          "audio_text": "電話は新しい。",
+          "notes": "Everyday object as topic.",
+          "position": 8
+        },
+        {
+          "japanese": "電車は古い。",
+          "japanese_with_blank": "電車[___]古い。",
+          "english": "The train is old.",
+          "target_answer": "は",
+          "alternative_answers": [],
+          "hint": "Topic marker",
+          "scramble_blocks": [
+            "電車",
+            "は",
+            "古い"
+          ],
+          "audio_text": "電車は古い。",
+          "notes": "Transport noun as topic.",
+          "position": 9
+        },
+        {
+          "japanese": "ケーキはいい。",
+          "japanese_with_blank": "ケーキ[___]いい。",
+          "english": "The cake is good.",
+          "target_answer": "は",
+          "alternative_answers": [],
+          "hint": "Topic marker",
+          "scramble_blocks": [
+            "ケーキ",
+            "は",
+            "いい"
+          ],
+          "audio_text": "ケーキはいい。",
+          "notes": "Kana noun as topic.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

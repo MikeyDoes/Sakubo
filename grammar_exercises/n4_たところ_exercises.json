@@ -1,0 +1,64 @@
+{
+  "grammar_point": "たところ",
+  "entry_id": 325554,
+  "categories": [
+    {
+      "id": "just_finished",
+      "label": "Just Finished Doing",
+      "sentences": [
+        {
+          "japanese": "今帰ったところです。",
+          "japanese_with_blank": "今帰っ[___]です。",
+          "english": "I just got home.",
+          "target_answer": "たところ",
+          "alternative_answers": [],
+          "hint": "just finished",
+          "scramble_blocks": [
+            "今",
+            "帰っ",
+            "たところ",
+            "です"
+          ],
+          "audio_text": "今帰ったところです。",
+          "notes": "た-form + ところ = just finished.",
+          "position": 1
+        },
+        {
+          "japanese": "今食べたところです。",
+          "japanese_with_blank": "今食べ[___]です。",
+          "english": "I just finished eating.",
+          "target_answer": "たところ",
+          "alternative_answers": [],
+          "hint": "just finished",
+          "scramble_blocks": [
+            "今",
+            "食べ",
+            "たところ",
+            "です"
+          ],
+          "audio_text": "今食べたところです。",
+          "notes": "食べる → 食べたところ.",
+          "position": 2
+        },
+        {
+          "japanese": "宿題をしたところです。",
+          "japanese_with_blank": "宿題をし[___]です。",
+          "english": "I just finished the homework.",
+          "target_answer": "たところ",
+          "alternative_answers": [],
+          "hint": "just finished",
+          "scramble_blocks": [
+            "宿題",
+            "を",
+            "し",
+            "たところ",
+            "です"
+          ],
+          "audio_text": "宿題をしたところです。",
+          "notes": "する → したところ.",
+          "position": 3
+        }
+      ]
+    }
+  ]
+}

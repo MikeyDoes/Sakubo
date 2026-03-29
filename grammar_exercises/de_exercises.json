@@ -1,0 +1,258 @@
+{
+  "grammar_point": "で",
+  "entry_id": 325429,
+  "categories": [
+    {
+      "id": "location",
+      "label": "Location of Action",
+      "sentences": [
+        {
+          "japanese": "家で食べます。",
+          "japanese_with_blank": "家[___]食べます。",
+          "english": "I eat at home.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Location",
+          "scramble_blocks": [
+            "家",
+            "で",
+            "食べます"
+          ],
+          "audio_text": "家で食べます。",
+          "notes": "で marks where an action takes place.",
+          "position": 1
+        },
+        {
+          "japanese": "学校で読みます。",
+          "japanese_with_blank": "学校[___]読みます。",
+          "english": "I read at school.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Location",
+          "scramble_blocks": [
+            "学校",
+            "で",
+            "読みます"
+          ],
+          "audio_text": "学校で読みます。",
+          "notes": "で for the location of the action.",
+          "position": 2
+        },
+        {
+          "japanese": "店で買います。",
+          "japanese_with_blank": "店[___]買います。",
+          "english": "I buy it at the shop.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Location",
+          "scramble_blocks": [
+            "店",
+            "で",
+            "買います"
+          ],
+          "audio_text": "店で買います。",
+          "notes": "で marks the place of purchase.",
+          "position": 3
+        },
+        {
+          "japanese": "部屋で寝ます。",
+          "japanese_with_blank": "部屋[___]寝ます。",
+          "english": "I sleep in the room.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Location",
+          "scramble_blocks": [
+            "部屋",
+            "で",
+            "寝ます"
+          ],
+          "audio_text": "部屋で寝ます。",
+          "notes": "で for where the sleeping happens.",
+          "position": 4
+        },
+        {
+          "japanese": "レストランで食べます。",
+          "japanese_with_blank": "レストラン[___]食べます。",
+          "english": "I eat at the restaurant.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Location",
+          "scramble_blocks": [
+            "レストラン",
+            "で",
+            "食べます"
+          ],
+          "audio_text": "レストランで食べます。",
+          "notes": "で for dining location.",
+          "position": 5
+        },
+        {
+          "japanese": "家で勉強します。",
+          "japanese_with_blank": "家[___]勉強します。",
+          "english": "I study at home.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Location",
+          "scramble_blocks": [
+            "家",
+            "で",
+            "勉強します"
+          ],
+          "audio_text": "家で勉強します。",
+          "notes": "で with する verb.",
+          "position": 6
+        },
+        {
+          "japanese": "学校で書きます。",
+          "japanese_with_blank": "学校[___]書きます。",
+          "english": "I write at school.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Location",
+          "scramble_blocks": [
+            "学校",
+            "で",
+            "書きます"
+          ],
+          "audio_text": "学校で書きます。",
+          "notes": "Location of the writing action.",
+          "position": 7
+        },
+        {
+          "japanese": "プールで泳ぎます。",
+          "japanese_with_blank": "プール[___]泳ぎます。",
+          "english": "I swim at the pool.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Location",
+          "scramble_blocks": [
+            "プール",
+            "で",
+            "泳ぎます"
+          ],
+          "audio_text": "プールで泳ぎます。",
+          "notes": "で for activity location.",
+          "position": 8
+        },
+        {
+          "japanese": "ホテルで寝ました。",
+          "japanese_with_blank": "ホテル[___]寝ました。",
+          "english": "I slept at the hotel.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Location",
+          "scramble_blocks": [
+            "ホテル",
+            "で",
+            "寝ました"
+          ],
+          "audio_text": "ホテルで寝ました。",
+          "notes": "Past tense with で.",
+          "position": 9
+        },
+        {
+          "japanese": "部屋で見ます。",
+          "japanese_with_blank": "部屋[___]見ます。",
+          "english": "I watch in the room.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Location",
+          "scramble_blocks": [
+            "部屋",
+            "で",
+            "見ます"
+          ],
+          "audio_text": "部屋で見ます。",
+          "notes": "Activity in a specific room.",
+          "position": 10
+        }
+      ]
+    },
+    {
+      "id": "means",
+      "label": "Means / Instrument",
+      "sentences": [
+        {
+          "japanese": "バスで行きます。",
+          "japanese_with_blank": "バス[___]行きます。",
+          "english": "I go by bus.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Means",
+          "scramble_blocks": [
+            "バス",
+            "で",
+            "行きます"
+          ],
+          "audio_text": "バスで行きます。",
+          "notes": "で marks the means of transportation.",
+          "position": 11
+        },
+        {
+          "japanese": "電車で行きます。",
+          "japanese_with_blank": "電車[___]行きます。",
+          "english": "I go by train.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Means",
+          "scramble_blocks": [
+            "電車",
+            "で",
+            "行きます"
+          ],
+          "audio_text": "電車で行きます。",
+          "notes": "で for the method of travel.",
+          "position": 12
+        },
+        {
+          "japanese": "車で来ました。",
+          "japanese_with_blank": "車[___]来ました。",
+          "english": "I came by car.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Means",
+          "scramble_blocks": [
+            "車",
+            "で",
+            "来ました"
+          ],
+          "audio_text": "車で来ました。",
+          "notes": "Past with means of transport.",
+          "position": 13
+        },
+        {
+          "japanese": "ペンで書きます。",
+          "japanese_with_blank": "ペン[___]書きます。",
+          "english": "I write with a pen.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Means",
+          "scramble_blocks": [
+            "ペン",
+            "で",
+            "書きます"
+          ],
+          "audio_text": "ペンで書きます。",
+          "notes": "で marks the instrument used.",
+          "position": 14
+        },
+        {
+          "japanese": "電話で話します。",
+          "japanese_with_blank": "電話[___]話します。",
+          "english": "I talk by phone.",
+          "target_answer": "で",
+          "alternative_answers": [],
+          "hint": "Means",
+          "scramble_blocks": [
+            "電話",
+            "で",
+            "話します"
+          ],
+          "audio_text": "電話で話します。",
+          "notes": "で for the tool of communication.",
+          "position": 15
+        }
+      ]
+    }
+  ]
+}

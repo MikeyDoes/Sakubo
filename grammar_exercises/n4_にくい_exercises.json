@@ -1,0 +1,86 @@
+{
+  "grammar_point": "にくい",
+  "entry_id": 326788,
+  "categories": [
+    {
+      "id": "hard_to",
+      "label": "Hard To Do",
+      "sentences": [
+        {
+          "japanese": "この漢字は読みにくいです。",
+          "japanese_with_blank": "この漢字は読み[___]です。",
+          "english": "This kanji is hard to read.",
+          "target_answer": "にくい",
+          "alternative_answers": [],
+          "hint": "hard to",
+          "scramble_blocks": [
+            "この",
+            "漢字",
+            "は",
+            "読み",
+            "にくい",
+            "です"
+          ],
+          "audio_text": "この漢字は読みにくいです。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "この道は歩きにくいです。",
+          "japanese_with_blank": "この道は歩き[___]です。",
+          "english": "This road is hard to walk on.",
+          "target_answer": "にくい",
+          "alternative_answers": [],
+          "hint": "hard to",
+          "scramble_blocks": [
+            "この",
+            "道",
+            "は",
+            "歩き",
+            "にくい",
+            "です"
+          ],
+          "audio_text": "この道は歩きにくいです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "この言葉は覚えにくいです。",
+          "japanese_with_blank": "この言葉は覚え[___]です。",
+          "english": "This word is hard to remember.",
+          "target_answer": "にくい",
+          "alternative_answers": [],
+          "hint": "hard to",
+          "scramble_blocks": [
+            "この",
+            "言葉",
+            "は",
+            "覚え",
+            "にくい",
+            "です"
+          ],
+          "audio_text": "この言葉は覚えにくいです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "分かりにくい説明でした。",
+          "japanese_with_blank": "分かり[___]説明でした。",
+          "english": "It was a hard-to-understand explanation.",
+          "target_answer": "にくい",
+          "alternative_answers": [],
+          "hint": "hard to",
+          "scramble_blocks": [
+            "分かり",
+            "にくい",
+            "説明",
+            "でした"
+          ],
+          "audio_text": "分かりにくい説明でした。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "grammar_point": "だけで",
+  "entry_id": 325557,
+  "categories": [
+    {
+      "id": "just_by",
+      "label": "Just By Doing",
+      "sentences": [
+        {
+          "japanese": "見るだけで分かります。",
+          "japanese_with_blank": "見る[___]分かります。",
+          "english": "I can tell just by looking.",
+          "target_answer": "だけで",
+          "alternative_answers": [],
+          "hint": "just by",
+          "scramble_blocks": [
+            "見る",
+            "だけで",
+            "分かります"
+          ],
+          "audio_text": "見るだけで分かります。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "話すだけで楽しいです。",
+          "japanese_with_blank": "話す[___]楽しいです。",
+          "english": "It's fun just by talking.",
+          "target_answer": "だけで",
+          "alternative_answers": [],
+          "hint": "just by",
+          "scramble_blocks": [
+            "話す",
+            "だけで",
+            "楽しい",
+            "です"
+          ],
+          "audio_text": "話すだけで楽しいです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "聞くだけで覚えられます。",
+          "japanese_with_blank": "聞く[___]覚えられます。",
+          "english": "I can remember just by listening.",
+          "target_answer": "だけで",
+          "alternative_answers": [],
+          "hint": "just by",
+          "scramble_blocks": [
+            "聞く",
+            "だけで",
+            "覚えられます"
+          ],
+          "audio_text": "聞くだけで覚えられます。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "一回読むだけで分かりました。",
+          "japanese_with_blank": "一回読む[___]分かりました。",
+          "english": "I understood just by reading it once.",
+          "target_answer": "だけで",
+          "alternative_answers": [],
+          "hint": "just by",
+          "scramble_blocks": [
+            "一回",
+            "読む",
+            "だけで",
+            "分かりました"
+          ],
+          "audio_text": "一回読むだけで分かりました。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

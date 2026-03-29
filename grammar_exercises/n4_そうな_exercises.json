@@ -1,0 +1,84 @@
+{
+  "grammar_point": "そうな",
+  "entry_id": 325612,
+  "categories": [
+    {
+      "id": "adj_appearance",
+      "label": "Seeming (Adjective)",
+      "sentences": [
+        {
+          "japanese": "おいしそうなケーキを買いました。",
+          "japanese_with_blank": "おいし[___]ケーキを買いました。",
+          "english": "I bought a delicious-looking cake.",
+          "target_answer": "そうな",
+          "alternative_answers": [],
+          "hint": "seeming",
+          "scramble_blocks": [
+            "おいし",
+            "そうな",
+            "ケーキ",
+            "を",
+            "買いました"
+          ],
+          "audio_text": "おいしそうなケーキを買いました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "楽しそうな人ですね。",
+          "japanese_with_blank": "楽し[___]人ですね。",
+          "english": "That's a fun-looking person, isn't it.",
+          "target_answer": "そうな",
+          "alternative_answers": [],
+          "hint": "seeming",
+          "scramble_blocks": [
+            "楽し",
+            "そうな",
+            "人",
+            "です",
+            "ね"
+          ],
+          "audio_text": "楽しそうな人ですね。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "難しそうな本を読んでいます。",
+          "japanese_with_blank": "難し[___]本を読んでいます。",
+          "english": "They're reading a difficult-looking book.",
+          "target_answer": "そうな",
+          "alternative_answers": [],
+          "hint": "seeming",
+          "scramble_blocks": [
+            "難し",
+            "そうな",
+            "本",
+            "を",
+            "読んでいます"
+          ],
+          "audio_text": "難しそうな本を読んでいます。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "元気そうな子供が遊んでいます。",
+          "japanese_with_blank": "元気[___]子供が遊んでいます。",
+          "english": "Energetic-looking children are playing.",
+          "target_answer": "そうな",
+          "alternative_answers": [],
+          "hint": "seeming",
+          "scramble_blocks": [
+            "元気",
+            "そうな",
+            "子供",
+            "が",
+            "遊んでいます"
+          ],
+          "audio_text": "元気そうな子供が遊んでいます。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

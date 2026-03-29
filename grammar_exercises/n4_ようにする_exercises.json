@@ -1,0 +1,93 @@
+{
+  "grammar_point": "ようにする",
+  "entry_id": 326772,
+  "categories": [
+    {
+      "id": "effort",
+      "label": "Try To / Make Sure To",
+      "sentences": [
+        {
+          "japanese": "毎日日本語を勉強するようにしています。",
+          "japanese_with_blank": "毎日日本語を勉強する[___]。",
+          "english": "I try to study Japanese every day.",
+          "target_answer": "ようにしています",
+          "alternative_answers": [],
+          "hint": "try to",
+          "scramble_blocks": [
+            "毎日",
+            "日本語",
+            "を",
+            "勉強する",
+            "ようにしています"
+          ],
+          "audio_text": "毎日日本語を勉強するようにしています。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "野菜を食べるようにしています。",
+          "japanese_with_blank": "野菜を食べる[___]。",
+          "english": "I try to eat vegetables.",
+          "target_answer": "ようにしています",
+          "alternative_answers": [],
+          "hint": "try to",
+          "scramble_blocks": [
+            "野菜",
+            "を",
+            "食べる",
+            "ようにしています"
+          ],
+          "audio_text": "野菜を食べるようにしています。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "遅れないようにしてください。",
+          "japanese_with_blank": "遅れない[___]。",
+          "english": "Please make sure not to be late.",
+          "target_answer": "ようにしてください",
+          "alternative_answers": [],
+          "hint": "make sure to",
+          "scramble_blocks": [
+            "遅れない",
+            "ようにしてください"
+          ],
+          "audio_text": "遅れないようにしてください。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "早く寝るようにします。",
+          "japanese_with_blank": "早く寝る[___]。",
+          "english": "I'll try to go to bed early.",
+          "target_answer": "ようにします",
+          "alternative_answers": [],
+          "hint": "will try to",
+          "scramble_blocks": [
+            "早く",
+            "寝る",
+            "ようにします"
+          ],
+          "audio_text": "早く寝るようにします。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "忘れないようにしましょう。",
+          "japanese_with_blank": "忘れない[___]。",
+          "english": "Let's make sure not to forget.",
+          "target_answer": "ようにしましょう",
+          "alternative_answers": [],
+          "hint": "let's make sure",
+          "scramble_blocks": [
+            "忘れない",
+            "ようにしましょう"
+          ],
+          "audio_text": "忘れないようにしましょう。",
+          "notes": "",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

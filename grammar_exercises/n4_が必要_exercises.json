@@ -1,0 +1,73 @@
+{
+  "grammar_point": "が必要",
+  "entry_id": 325541,
+  "categories": [
+    {
+      "id": "necessary",
+      "label": "Need; Necessary",
+      "sentences": [
+        {
+          "japanese": "パスポートが必要です。",
+          "japanese_with_blank": "パスポート[___]。",
+          "english": "A passport is necessary.",
+          "target_answer": "が必要です",
+          "alternative_answers": [],
+          "hint": "is necessary",
+          "scramble_blocks": [
+            "パスポート",
+            "が必要です"
+          ],
+          "audio_text": "パスポートが必要です。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "お金が必要です。",
+          "japanese_with_blank": "お金[___]。",
+          "english": "Money is needed.",
+          "target_answer": "が必要です",
+          "alternative_answers": [],
+          "hint": "is necessary",
+          "scramble_blocks": [
+            "お金",
+            "が必要です"
+          ],
+          "audio_text": "お金が必要です。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "練習が必要です。",
+          "japanese_with_blank": "練習[___]。",
+          "english": "Practice is necessary.",
+          "target_answer": "が必要です",
+          "alternative_answers": [],
+          "hint": "is necessary",
+          "scramble_blocks": [
+            "練習",
+            "が必要です"
+          ],
+          "audio_text": "練習が必要です。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "もっと時間が必要です。",
+          "japanese_with_blank": "もっと時間[___]。",
+          "english": "More time is needed.",
+          "target_answer": "が必要です",
+          "alternative_answers": [],
+          "hint": "is necessary",
+          "scramble_blocks": [
+            "もっと",
+            "時間",
+            "が必要です"
+          ],
+          "audio_text": "もっと時間が必要です。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

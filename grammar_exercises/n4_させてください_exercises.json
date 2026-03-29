@@ -1,0 +1,90 @@
+{
+  "grammar_point": "させてください",
+  "entry_id": 325629,
+  "categories": [
+    {
+      "id": "let_me",
+      "label": "Please Let Me Do",
+      "sentences": [
+        {
+          "japanese": "少し休ませてください。",
+          "japanese_with_blank": "少し休ませてください。",
+          "english": "Please let me rest a little.",
+          "target_answer": "させてください",
+          "alternative_answers": [],
+          "hint": "please let me",
+          "scramble_blocks": [
+            "少し",
+            "休ま",
+            "させてください"
+          ],
+          "audio_text": "少し休ませてください。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "考えさせてください。",
+          "japanese_with_blank": "考え[___]。",
+          "english": "Please let me think.",
+          "target_answer": "させてください",
+          "alternative_answers": [],
+          "hint": "please let me",
+          "scramble_blocks": [
+            "考え",
+            "させてください"
+          ],
+          "audio_text": "考えさせてください。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "私にやらせてください。",
+          "japanese_with_blank": "私にやらせてください。",
+          "english": "Please let me do it.",
+          "target_answer": "させてください",
+          "alternative_answers": [],
+          "hint": "please let me",
+          "scramble_blocks": [
+            "私",
+            "に",
+            "やら",
+            "させてください"
+          ],
+          "audio_text": "私にやらせてください。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "自己紹介させてください。",
+          "japanese_with_blank": "自己紹介[___]。",
+          "english": "Please let me introduce myself.",
+          "target_answer": "させてください",
+          "alternative_answers": [],
+          "hint": "please let me",
+          "scramble_blocks": [
+            "自己紹介",
+            "させてください"
+          ],
+          "audio_text": "自己紹介させてください。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "説明させてください。",
+          "japanese_with_blank": "説明[___]。",
+          "english": "Please let me explain.",
+          "target_answer": "させてください",
+          "alternative_answers": [],
+          "hint": "please let me",
+          "scramble_blocks": [
+            "説明",
+            "させてください"
+          ],
+          "audio_text": "説明させてください。",
+          "notes": "",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

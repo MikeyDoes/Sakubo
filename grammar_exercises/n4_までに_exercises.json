@@ -1,0 +1,78 @@
+{
+  "grammar_point": "までに",
+  "entry_id": 325583,
+  "categories": [
+    {
+      "id": "deadline",
+      "label": "By (Time Limit)",
+      "sentences": [
+        {
+          "japanese": "金曜日までにレポートを出してください。",
+          "japanese_with_blank": "金曜日[___]レポートを出してください。",
+          "english": "Please submit the report by Friday.",
+          "target_answer": "までに",
+          "alternative_answers": [],
+          "hint": "by",
+          "scramble_blocks": [
+            "金曜日",
+            "までに",
+            "レポート",
+            "を",
+            "出してください"
+          ],
+          "audio_text": "金曜日までにレポートを出してください。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "三時までに来てください。",
+          "japanese_with_blank": "三時[___]来てください。",
+          "english": "Please come by 3 o'clock.",
+          "target_answer": "までに",
+          "alternative_answers": [],
+          "hint": "by",
+          "scramble_blocks": [
+            "三時",
+            "までに",
+            "来てください"
+          ],
+          "audio_text": "三時までに来てください。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "来週までに終わらせます。",
+          "japanese_with_blank": "来週[___]終わらせます。",
+          "english": "I'll finish it by next week.",
+          "target_answer": "までに",
+          "alternative_answers": [],
+          "hint": "by",
+          "scramble_blocks": [
+            "来週",
+            "までに",
+            "終わらせます"
+          ],
+          "audio_text": "来週までに終わらせます。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "明日までに連絡してください。",
+          "japanese_with_blank": "明日[___]連絡してください。",
+          "english": "Please contact us by tomorrow.",
+          "target_answer": "までに",
+          "alternative_answers": [],
+          "hint": "by",
+          "scramble_blocks": [
+            "明日",
+            "までに",
+            "連絡してください"
+          ],
+          "audio_text": "明日までに連絡してください。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

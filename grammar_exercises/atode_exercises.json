@@ -1,0 +1,172 @@
+{
+  "grammar_point": "後で",
+  "entry_id": 325510,
+  "categories": [
+    {
+      "id": "after",
+      "label": "After Doing",
+      "sentences": [
+        {
+          "japanese": "食べた後で散歩します。",
+          "japanese_with_blank": "食べた[___]散歩します。",
+          "english": "After eating, I take a walk.",
+          "target_answer": "後で",
+          "alternative_answers": [],
+          "hint": "After",
+          "scramble_blocks": [
+            "食べた",
+            "後で",
+            "散歩します"
+          ],
+          "audio_text": "食べた後で散歩します。",
+          "notes": "後で means \"after doing.\"",
+          "position": 1
+        },
+        {
+          "japanese": "寝た後で起きました。",
+          "japanese_with_blank": "寝た[___]起きました。",
+          "english": "After sleeping, I woke up.",
+          "target_answer": "後で",
+          "alternative_answers": [],
+          "hint": "After",
+          "scramble_blocks": [
+            "寝た",
+            "後で",
+            "起きました"
+          ],
+          "audio_text": "寝た後で起きました。",
+          "notes": "After sleep.",
+          "position": 2
+        },
+        {
+          "japanese": "読んだ後で書きます。",
+          "japanese_with_blank": "読んだ[___]書きます。",
+          "english": "After reading, I write.",
+          "target_answer": "後で",
+          "alternative_answers": [],
+          "hint": "After",
+          "scramble_blocks": [
+            "読んだ",
+            "後で",
+            "書きます"
+          ],
+          "audio_text": "読んだ後で書きます。",
+          "notes": "Sequential activities.",
+          "position": 3
+        },
+        {
+          "japanese": "行った後で帰りました。",
+          "japanese_with_blank": "行った[___]帰りました。",
+          "english": "After going, I came back.",
+          "target_answer": "後で",
+          "alternative_answers": [],
+          "hint": "After",
+          "scramble_blocks": [
+            "行った",
+            "後で",
+            "帰りました"
+          ],
+          "audio_text": "行った後で帰りました。",
+          "notes": "Trip then return.",
+          "position": 4
+        },
+        {
+          "japanese": "飲んだ後で帰ります。",
+          "japanese_with_blank": "飲んだ[___]帰ります。",
+          "english": "After drinking, I go home.",
+          "target_answer": "後で",
+          "alternative_answers": [],
+          "hint": "After",
+          "scramble_blocks": [
+            "飲んだ",
+            "後で",
+            "帰ります"
+          ],
+          "audio_text": "飲んだ後で帰ります。",
+          "notes": "After-drink departure.",
+          "position": 5
+        },
+        {
+          "japanese": "見た後で話します。",
+          "japanese_with_blank": "見た[___]話します。",
+          "english": "After watching, I talk about it.",
+          "target_answer": "後で",
+          "alternative_answers": [],
+          "hint": "After",
+          "scramble_blocks": [
+            "見た",
+            "後で",
+            "話します"
+          ],
+          "audio_text": "見た後で話します。",
+          "notes": "Post-viewing discussion.",
+          "position": 6
+        },
+        {
+          "japanese": "書いた後で見せます。",
+          "japanese_with_blank": "書いた[___]見せます。",
+          "english": "After writing, I show it.",
+          "target_answer": "後で",
+          "alternative_answers": [],
+          "hint": "After",
+          "scramble_blocks": [
+            "書いた",
+            "後で",
+            "見せます"
+          ],
+          "audio_text": "書いた後で見せます。",
+          "notes": "Write then present.",
+          "position": 7
+        },
+        {
+          "japanese": "聞いた後で話します。",
+          "japanese_with_blank": "聞いた[___]話します。",
+          "english": "After listening, I speak.",
+          "target_answer": "後で",
+          "alternative_answers": [],
+          "hint": "After",
+          "scramble_blocks": [
+            "聞いた",
+            "後で",
+            "話します"
+          ],
+          "audio_text": "聞いた後で話します。",
+          "notes": "Listen then respond.",
+          "position": 8
+        },
+        {
+          "japanese": "買った後で帰ります。",
+          "japanese_with_blank": "買った[___]帰ります。",
+          "english": "After buying, I go home.",
+          "target_answer": "後で",
+          "alternative_answers": [],
+          "hint": "After",
+          "scramble_blocks": [
+            "買った",
+            "後で",
+            "帰ります"
+          ],
+          "audio_text": "買った後で帰ります。",
+          "notes": "Post-shopping.",
+          "position": 9
+        },
+        {
+          "japanese": "した後で休みます。",
+          "japanese_with_blank": "した[___]休みます。",
+          "english": "After doing it, I rest.",
+          "target_answer": "後で",
+          "alternative_answers": [],
+          "hint": "After",
+          "scramble_blocks": [
+            "した",
+            "後で",
+            "休みます"
+          ],
+          "audio_text": "した後で休みます。",
+          "notes": "Post-action rest.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

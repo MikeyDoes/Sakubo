@@ -1,0 +1,68 @@
+{
+  "grammar_point": "がっている",
+  "entry_id": 325619,
+  "categories": [
+    {
+      "id": "ongoing_signs",
+      "label": "Ongoing Display of Emotion",
+      "sentences": [
+        {
+          "japanese": "弟が新しいゲームを欲しがっている。",
+          "japanese_with_blank": "弟が新しいゲームを欲し[___]。",
+          "english": "My brother is wanting a new game.",
+          "target_answer": "がっている",
+          "alternative_answers": [],
+          "hint": "showing want",
+          "scramble_blocks": [
+            "弟",
+            "が",
+            "新しい",
+            "ゲーム",
+            "を",
+            "欲し",
+            "がっている"
+          ],
+          "audio_text": "弟が新しいゲームを欲しがっている。",
+          "notes": "ほしい → ほしがっている (3rd person).",
+          "position": 1
+        },
+        {
+          "japanese": "猫が外に出たがっている。",
+          "japanese_with_blank": "猫が外に出[___]。",
+          "english": "The cat wants to go outside.",
+          "target_answer": "たがっている",
+          "alternative_answers": [],
+          "hint": "showing desire",
+          "scramble_blocks": [
+            "猫",
+            "が",
+            "外",
+            "に",
+            "出",
+            "たがっている"
+          ],
+          "audio_text": "猫が外に出たがっている。",
+          "notes": "出る + たがっている.",
+          "position": 2
+        },
+        {
+          "japanese": "子供が遊びたがっている。",
+          "japanese_with_blank": "子供が遊び[___]。",
+          "english": "The child wants to play.",
+          "target_answer": "たがっている",
+          "alternative_answers": [],
+          "hint": "showing desire",
+          "scramble_blocks": [
+            "子供",
+            "が",
+            "遊び",
+            "たがっている"
+          ],
+          "audio_text": "子供が遊びたがっている。",
+          "notes": "遊ぶ → 遊びたがっている.",
+          "position": 3
+        }
+      ]
+    }
+  ]
+}

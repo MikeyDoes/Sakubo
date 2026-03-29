@@ -1,0 +1,162 @@
+{
+  "grammar_point": "いたします",
+  "entry_id": 325513,
+  "categories": [
+    {
+      "id": "humble",
+      "label": "Humble します",
+      "sentences": [
+        {
+          "japanese": "電話いたします。",
+          "japanese_with_blank": "電話[___]。",
+          "english": "I will (humbly) make a call.",
+          "target_answer": "いたします",
+          "alternative_answers": [],
+          "hint": "Humble",
+          "scramble_blocks": [
+            "電話",
+            "いたします"
+          ],
+          "audio_text": "電話いたします。",
+          "notes": "いたします is the humble form of します.",
+          "position": 1
+        },
+        {
+          "japanese": "案内いたします。",
+          "japanese_with_blank": "案内[___]。",
+          "english": "I will (humbly) guide you.",
+          "target_answer": "いたします",
+          "alternative_answers": [],
+          "hint": "Humble",
+          "scramble_blocks": [
+            "案内",
+            "いたします"
+          ],
+          "audio_text": "案内いたします。",
+          "notes": "Humble guidance.",
+          "position": 2
+        },
+        {
+          "japanese": "説明いたします。",
+          "japanese_with_blank": "説明[___]。",
+          "english": "I will (humbly) explain.",
+          "target_answer": "いたします",
+          "alternative_answers": [],
+          "hint": "Humble",
+          "scramble_blocks": [
+            "説明",
+            "いたします"
+          ],
+          "audio_text": "説明いたします。",
+          "notes": "Humble explanation.",
+          "position": 3
+        },
+        {
+          "japanese": "確認いたします。",
+          "japanese_with_blank": "確認[___]。",
+          "english": "I will (humbly) confirm.",
+          "target_answer": "いたします",
+          "alternative_answers": [],
+          "hint": "Humble",
+          "scramble_blocks": [
+            "確認",
+            "いたします"
+          ],
+          "audio_text": "確認いたします。",
+          "notes": "Humble confirmation.",
+          "position": 4
+        },
+        {
+          "japanese": "お待ちいたします。",
+          "japanese_with_blank": "お待ち[___]。",
+          "english": "I will (humbly) wait.",
+          "target_answer": "いたします",
+          "alternative_answers": [],
+          "hint": "Humble",
+          "scramble_blocks": [
+            "お待ち",
+            "いたします"
+          ],
+          "audio_text": "お待ちいたします。",
+          "notes": "Humble waiting.",
+          "position": 5
+        },
+        {
+          "japanese": "お願いいたします。",
+          "japanese_with_blank": "お願い[___]。",
+          "english": "I (humbly) ask a favor.",
+          "target_answer": "いたします",
+          "alternative_answers": [],
+          "hint": "Humble",
+          "scramble_blocks": [
+            "お願い",
+            "いたします"
+          ],
+          "audio_text": "お願いいたします。",
+          "notes": "Humble request.",
+          "position": 6
+        },
+        {
+          "japanese": "準備いたします。",
+          "japanese_with_blank": "準備[___]。",
+          "english": "I will (humbly) prepare.",
+          "target_answer": "いたします",
+          "alternative_answers": [],
+          "hint": "Humble",
+          "scramble_blocks": [
+            "準備",
+            "いたします"
+          ],
+          "audio_text": "準備いたします。",
+          "notes": "Humble preparation.",
+          "position": 7
+        },
+        {
+          "japanese": "連絡いたします。",
+          "japanese_with_blank": "連絡[___]。",
+          "english": "I will (humbly) contact you.",
+          "target_answer": "いたします",
+          "alternative_answers": [],
+          "hint": "Humble",
+          "scramble_blocks": [
+            "連絡",
+            "いたします"
+          ],
+          "audio_text": "連絡いたします。",
+          "notes": "Humble contact.",
+          "position": 8
+        },
+        {
+          "japanese": "失礼いたします。",
+          "japanese_with_blank": "失礼[___]。",
+          "english": "I will (humbly) excuse myself.",
+          "target_answer": "いたします",
+          "alternative_answers": [],
+          "hint": "Humble",
+          "scramble_blocks": [
+            "失礼",
+            "いたします"
+          ],
+          "audio_text": "失礼いたします。",
+          "notes": "Polite exit.",
+          "position": 9
+        },
+        {
+          "japanese": "用意いたします。",
+          "japanese_with_blank": "用意[___]。",
+          "english": "I will (humbly) get it ready.",
+          "target_answer": "いたします",
+          "alternative_answers": [],
+          "hint": "Humble",
+          "scramble_blocks": [
+            "用意",
+            "いたします"
+          ],
+          "audio_text": "用意いたします。",
+          "notes": "Humble provision.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

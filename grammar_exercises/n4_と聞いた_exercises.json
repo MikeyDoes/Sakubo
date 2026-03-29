@@ -1,0 +1,82 @@
+{
+  "grammar_point": "と聞いた",
+  "entry_id": 325568,
+  "categories": [
+    {
+      "id": "hearsay",
+      "label": "Reporting What You Heard",
+      "sentences": [
+        {
+          "japanese": "明日は雨だと聞きました。",
+          "japanese_with_blank": "明日は雨だ[___]。",
+          "english": "I heard it will rain tomorrow.",
+          "target_answer": "と聞きました",
+          "alternative_answers": [],
+          "hint": "I heard that",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "雨",
+            "だ",
+            "と聞きました"
+          ],
+          "audio_text": "明日は雨だと聞きました。",
+          "notes": "Plain form + と聞いた.",
+          "position": 1
+        },
+        {
+          "japanese": "あの店は安いと聞きました。",
+          "japanese_with_blank": "あの店は安い[___]。",
+          "english": "I heard that shop is cheap.",
+          "target_answer": "と聞きました",
+          "alternative_answers": [],
+          "hint": "I heard that",
+          "scramble_blocks": [
+            "あの",
+            "店",
+            "は",
+            "安い",
+            "と聞きました"
+          ],
+          "audio_text": "あの店は安いと聞きました。",
+          "notes": "い-adj + と聞いた.",
+          "position": 2
+        },
+        {
+          "japanese": "先生は来ないと聞きました。",
+          "japanese_with_blank": "先生は来ない[___]。",
+          "english": "I heard the teacher isn't coming.",
+          "target_answer": "と聞きました",
+          "alternative_answers": [],
+          "hint": "I heard that",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "来ない",
+            "と聞きました"
+          ],
+          "audio_text": "先生は来ないと聞きました。",
+          "notes": "Negative + と聞いた.",
+          "position": 3
+        },
+        {
+          "japanese": "テストは難しいと聞きました。",
+          "japanese_with_blank": "テストは難しい[___]。",
+          "english": "I heard the test is difficult.",
+          "target_answer": "と聞きました",
+          "alternative_answers": [],
+          "hint": "I heard that",
+          "scramble_blocks": [
+            "テスト",
+            "は",
+            "難しい",
+            "と聞きました"
+          ],
+          "audio_text": "テストは難しいと聞きました。",
+          "notes": "い-adj + と聞いた.",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

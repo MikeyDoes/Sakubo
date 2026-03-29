@@ -1,0 +1,172 @@
+{
+  "grammar_point": "だけ",
+  "entry_id": 325491,
+  "categories": [
+    {
+      "id": "only",
+      "label": "Only / Just",
+      "sentences": [
+        {
+          "japanese": "水だけ飲みます。",
+          "japanese_with_blank": "水[___]飲みます。",
+          "english": "I drink only water.",
+          "target_answer": "だけ",
+          "alternative_answers": [],
+          "hint": "Only",
+          "scramble_blocks": [
+            "水",
+            "だけ",
+            "飲みます"
+          ],
+          "audio_text": "水だけ飲みます。",
+          "notes": "だけ means \"only\" or \"just.\"",
+          "position": 1
+        },
+        {
+          "japanese": "一つだけあります。",
+          "japanese_with_blank": "一つ[___]あります。",
+          "english": "There is only one.",
+          "target_answer": "だけ",
+          "alternative_answers": [],
+          "hint": "Only",
+          "scramble_blocks": [
+            "一つ",
+            "だけ",
+            "あります"
+          ],
+          "audio_text": "一つだけあります。",
+          "notes": "Quantity limitation.",
+          "position": 2
+        },
+        {
+          "japanese": "少しだけ食べます。",
+          "japanese_with_blank": "少し[___]食べます。",
+          "english": "I eat just a little.",
+          "target_answer": "だけ",
+          "alternative_answers": [],
+          "hint": "Only",
+          "scramble_blocks": [
+            "少し",
+            "だけ",
+            "食べます"
+          ],
+          "audio_text": "少しだけ食べます。",
+          "notes": "Small amount.",
+          "position": 3
+        },
+        {
+          "japanese": "友達だけ来ました。",
+          "japanese_with_blank": "友達[___]来ました。",
+          "english": "Only my friend came.",
+          "target_answer": "だけ",
+          "alternative_answers": [],
+          "hint": "Only",
+          "scramble_blocks": [
+            "友達",
+            "だけ",
+            "来ました"
+          ],
+          "audio_text": "友達だけ来ました。",
+          "notes": "Only one person.",
+          "position": 4
+        },
+        {
+          "japanese": "日曜日だけ休みます。",
+          "japanese_with_blank": "日曜日[___]休みます。",
+          "english": "I rest only on Sunday.",
+          "target_answer": "だけ",
+          "alternative_answers": [],
+          "hint": "Only",
+          "scramble_blocks": [
+            "日曜日",
+            "だけ",
+            "休みます"
+          ],
+          "audio_text": "日曜日だけ休みます。",
+          "notes": "Time limitation.",
+          "position": 5
+        },
+        {
+          "japanese": "朝だけ勉強します。",
+          "japanese_with_blank": "朝[___]勉強します。",
+          "english": "I study only in the morning.",
+          "target_answer": "だけ",
+          "alternative_answers": [],
+          "hint": "Only",
+          "scramble_blocks": [
+            "朝",
+            "だけ",
+            "勉強します"
+          ],
+          "audio_text": "朝だけ勉強します。",
+          "notes": "Morning only.",
+          "position": 6
+        },
+        {
+          "japanese": "本だけ読みます。",
+          "japanese_with_blank": "本[___]読みます。",
+          "english": "I only read books.",
+          "target_answer": "だけ",
+          "alternative_answers": [],
+          "hint": "Only",
+          "scramble_blocks": [
+            "本",
+            "だけ",
+            "読みます"
+          ],
+          "audio_text": "本だけ読みます。",
+          "notes": "Activity limitation.",
+          "position": 7
+        },
+        {
+          "japanese": "コーヒーだけ飲みます。",
+          "japanese_with_blank": "コーヒー[___]飲みます。",
+          "english": "I drink only coffee.",
+          "target_answer": "だけ",
+          "alternative_answers": [],
+          "hint": "Only",
+          "scramble_blocks": [
+            "コーヒー",
+            "だけ",
+            "飲みます"
+          ],
+          "audio_text": "コーヒーだけ飲みます。",
+          "notes": "Drink limitation.",
+          "position": 8
+        },
+        {
+          "japanese": "私だけ知っています。",
+          "japanese_with_blank": "私[___]知っています。",
+          "english": "Only I know.",
+          "target_answer": "だけ",
+          "alternative_answers": [],
+          "hint": "Only",
+          "scramble_blocks": [
+            "私",
+            "だけ",
+            "知っています"
+          ],
+          "audio_text": "私だけ知っています。",
+          "notes": "Knowledge limitation.",
+          "position": 9
+        },
+        {
+          "japanese": "一回だけ行きました。",
+          "japanese_with_blank": "一回[___]行きました。",
+          "english": "I went only once.",
+          "target_answer": "だけ",
+          "alternative_answers": [],
+          "hint": "Only",
+          "scramble_blocks": [
+            "一回",
+            "だけ",
+            "行きました"
+          ],
+          "audio_text": "一回だけ行きました。",
+          "notes": "Frequency limitation.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

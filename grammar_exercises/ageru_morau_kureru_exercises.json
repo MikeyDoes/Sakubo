@@ -1,0 +1,194 @@
+{
+  "grammar_point": "あげる・もらう・くれる",
+  "entry_id": 326769,
+  "categories": [
+    {
+      "id": "ageru",
+      "label": "あげる (Give)",
+      "sentences": [
+        {
+          "japanese": "友達に本をあげます。",
+          "japanese_with_blank": "友達に本を[___]。",
+          "english": "I give a book to my friend.",
+          "target_answer": "あげます",
+          "alternative_answers": [],
+          "hint": "Give",
+          "scramble_blocks": [
+            "友達に",
+            "本",
+            "を",
+            "あげます"
+          ],
+          "audio_text": "友達に本をあげます。",
+          "notes": "あげる = give (from me to others).",
+          "position": 1
+        },
+        {
+          "japanese": "母に花をあげます。",
+          "japanese_with_blank": "母に花を[___]。",
+          "english": "I give flowers to my mother.",
+          "target_answer": "あげます",
+          "alternative_answers": [],
+          "hint": "Give",
+          "scramble_blocks": [
+            "母に",
+            "花",
+            "を",
+            "あげます"
+          ],
+          "audio_text": "母に花をあげます。",
+          "notes": "Giving to family.",
+          "position": 2
+        },
+        {
+          "japanese": "先生にプレゼントをあげます。",
+          "japanese_with_blank": "先生にプレゼントを[___]。",
+          "english": "I give a present to the teacher.",
+          "target_answer": "あげます",
+          "alternative_answers": [],
+          "hint": "Give",
+          "scramble_blocks": [
+            "先生に",
+            "プレゼント",
+            "を",
+            "あげます"
+          ],
+          "audio_text": "先生にプレゼントをあげます。",
+          "notes": "Giving to teacher.",
+          "position": 3
+        },
+        {
+          "japanese": "弟にお金をあげます。",
+          "japanese_with_blank": "弟にお金を[___]。",
+          "english": "I give money to my younger brother.",
+          "target_answer": "あげます",
+          "alternative_answers": [],
+          "hint": "Give",
+          "scramble_blocks": [
+            "弟に",
+            "お金",
+            "を",
+            "あげます"
+          ],
+          "audio_text": "弟にお金をあげます。",
+          "notes": "Giving to sibling.",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "morau",
+      "label": "もらう (Receive)",
+      "sentences": [
+        {
+          "japanese": "友達に本をもらいます。",
+          "japanese_with_blank": "友達に本を[___]。",
+          "english": "I receive a book from my friend.",
+          "target_answer": "もらいます",
+          "alternative_answers": [],
+          "hint": "Receive",
+          "scramble_blocks": [
+            "友達に",
+            "本",
+            "を",
+            "もらいます"
+          ],
+          "audio_text": "友達に本をもらいます。",
+          "notes": "もらう = receive (from others to me).",
+          "position": 5
+        },
+        {
+          "japanese": "母にプレゼントをもらいます。",
+          "japanese_with_blank": "母にプレゼントを[___]。",
+          "english": "I receive a present from my mother.",
+          "target_answer": "もらいます",
+          "alternative_answers": [],
+          "hint": "Receive",
+          "scramble_blocks": [
+            "母に",
+            "プレゼント",
+            "を",
+            "もらいます"
+          ],
+          "audio_text": "母にプレゼントをもらいます。",
+          "notes": "Receiving from family.",
+          "position": 6
+        },
+        {
+          "japanese": "先生に手紙をもらいます。",
+          "japanese_with_blank": "先生に手紙を[___]。",
+          "english": "I receive a letter from the teacher.",
+          "target_answer": "もらいます",
+          "alternative_answers": [],
+          "hint": "Receive",
+          "scramble_blocks": [
+            "先生に",
+            "手紙",
+            "を",
+            "もらいます"
+          ],
+          "audio_text": "先生に手紙をもらいます。",
+          "notes": "Receiving from teacher.",
+          "position": 7
+        }
+      ]
+    },
+    {
+      "id": "kureru",
+      "label": "くれる (Give to me)",
+      "sentences": [
+        {
+          "japanese": "友達が本をくれます。",
+          "japanese_with_blank": "友達が本を[___]。",
+          "english": "My friend gives me a book.",
+          "target_answer": "くれます",
+          "alternative_answers": [],
+          "hint": "Gives me",
+          "scramble_blocks": [
+            "友達が",
+            "本",
+            "を",
+            "くれます"
+          ],
+          "audio_text": "友達が本をくれます。",
+          "notes": "くれる = someone gives to me.",
+          "position": 8
+        },
+        {
+          "japanese": "母がプレゼントをくれます。",
+          "japanese_with_blank": "母がプレゼントを[___]。",
+          "english": "My mother gives me a present.",
+          "target_answer": "くれます",
+          "alternative_answers": [],
+          "hint": "Gives me",
+          "scramble_blocks": [
+            "母が",
+            "プレゼント",
+            "を",
+            "くれます"
+          ],
+          "audio_text": "母がプレゼントをくれます。",
+          "notes": "Family gives to me.",
+          "position": 9
+        },
+        {
+          "japanese": "先生が手紙をくれます。",
+          "japanese_with_blank": "先生が手紙を[___]。",
+          "english": "The teacher gives me a letter.",
+          "target_answer": "くれます",
+          "alternative_answers": [],
+          "hint": "Gives me",
+          "scramble_blocks": [
+            "先生が",
+            "手紙",
+            "を",
+            "くれます"
+          ],
+          "audio_text": "先生が手紙をくれます。",
+          "notes": "Teacher gives to me.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

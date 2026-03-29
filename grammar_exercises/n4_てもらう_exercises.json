@@ -1,0 +1,82 @@
+{
+  "grammar_point": "てもらう",
+  "entry_id": 325610,
+  "categories": [
+    {
+      "id": "getting_help",
+      "label": "Getting Someone to Do Something",
+      "sentences": [
+        {
+          "japanese": "友達に教えてもらいました。",
+          "japanese_with_blank": "友達に教え[___]。",
+          "english": "I had my friend teach me.",
+          "target_answer": "てもらいました",
+          "alternative_answers": [],
+          "hint": "had someone do (past)",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "教え",
+            "てもらいました"
+          ],
+          "audio_text": "友達に教えてもらいました。",
+          "notes": "て-form + もらう = have someone do.",
+          "position": 1
+        },
+        {
+          "japanese": "先生に見てもらいます。",
+          "japanese_with_blank": "先生に見[___]。",
+          "english": "I'll have the teacher look at it.",
+          "target_answer": "てもらいます",
+          "alternative_answers": [],
+          "hint": "have someone do",
+          "scramble_blocks": [
+            "先生",
+            "に",
+            "見",
+            "てもらいます"
+          ],
+          "audio_text": "先生に見てもらいます。",
+          "notes": "見る → 見てもらう.",
+          "position": 2
+        },
+        {
+          "japanese": "母に作ってもらった料理です。",
+          "japanese_with_blank": "母に作っ[___]料理です。",
+          "english": "It's a dish I had my mother make.",
+          "target_answer": "てもらった",
+          "alternative_answers": [],
+          "hint": "had someone do (plain)",
+          "scramble_blocks": [
+            "母",
+            "に",
+            "作っ",
+            "てもらった",
+            "料理",
+            "です"
+          ],
+          "audio_text": "母に作ってもらった料理です。",
+          "notes": "てもらった modifying a noun.",
+          "position": 3
+        },
+        {
+          "japanese": "兄に送ってもらいました。",
+          "japanese_with_blank": "兄に送っ[___]。",
+          "english": "I had my brother take me.",
+          "target_answer": "てもらいました",
+          "alternative_answers": [],
+          "hint": "had someone do (past)",
+          "scramble_blocks": [
+            "兄",
+            "に",
+            "送っ",
+            "てもらいました"
+          ],
+          "audio_text": "兄に送ってもらいました。",
+          "notes": "送る → 送ってもらう.",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

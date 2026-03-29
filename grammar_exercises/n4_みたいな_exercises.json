@@ -1,0 +1,84 @@
+{
+  "grammar_point": "みたいな",
+  "entry_id": 326777,
+  "categories": [
+    {
+      "id": "casual_like_adj",
+      "label": "Like (Casual Adjective)",
+      "sentences": [
+        {
+          "japanese": "子供みたいな人ですね。",
+          "japanese_with_blank": "子供[___]人ですね。",
+          "english": "They're a child-like person.",
+          "target_answer": "みたいな",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "子供",
+            "みたいな",
+            "人",
+            "です",
+            "ね"
+          ],
+          "audio_text": "子供みたいな人ですね。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "夢みたいな話です。",
+          "japanese_with_blank": "夢[___]話です。",
+          "english": "It's a dream-like story.",
+          "target_answer": "みたいな",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "夢",
+            "みたいな",
+            "話",
+            "です"
+          ],
+          "audio_text": "夢みたいな話です。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "先生みたいな人になりたいです。",
+          "japanese_with_blank": "先生[___]人になりたいです。",
+          "english": "I want to become a person like my teacher.",
+          "target_answer": "みたいな",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "先生",
+            "みたいな",
+            "人",
+            "に",
+            "なりたい",
+            "です"
+          ],
+          "audio_text": "先生みたいな人になりたいです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "映画みたいな景色ですね。",
+          "japanese_with_blank": "映画[___]景色ですね。",
+          "english": "It's a movie-like scenery.",
+          "target_answer": "みたいな",
+          "alternative_answers": [],
+          "hint": "like",
+          "scramble_blocks": [
+            "映画",
+            "みたいな",
+            "景色",
+            "です",
+            "ね"
+          ],
+          "audio_text": "映画みたいな景色ですね。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

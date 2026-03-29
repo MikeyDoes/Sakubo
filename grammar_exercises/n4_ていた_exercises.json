@@ -1,0 +1,99 @@
+{
+  "grammar_point": "ていた",
+  "entry_id": 326779,
+  "categories": [
+    {
+      "id": "past_progressive",
+      "label": "Past Progressive Actions",
+      "sentences": [
+        {
+          "japanese": "昨日テレビを見ていました。",
+          "japanese_with_blank": "昨日テレビを見[___]。",
+          "english": "I was watching TV yesterday.",
+          "target_answer": "ていました",
+          "alternative_answers": [],
+          "hint": "was doing",
+          "scramble_blocks": [
+            "昨日",
+            "テレビ",
+            "を",
+            "見",
+            "ていました"
+          ],
+          "audio_text": "昨日テレビを見ていました。",
+          "notes": "て-form + いた = was doing.",
+          "position": 1
+        },
+        {
+          "japanese": "朝ご飯を食べていました。",
+          "japanese_with_blank": "朝ご飯を食べ[___]。",
+          "english": "I was eating breakfast.",
+          "target_answer": "ていました",
+          "alternative_answers": [],
+          "hint": "was doing",
+          "scramble_blocks": [
+            "朝ご飯",
+            "を",
+            "食べ",
+            "ていました"
+          ],
+          "audio_text": "朝ご飯を食べていました。",
+          "notes": "Past continuous eating.",
+          "position": 2
+        },
+        {
+          "japanese": "友達と話していました。",
+          "japanese_with_blank": "友達と話し[___]。",
+          "english": "I was talking with a friend.",
+          "target_answer": "ていました",
+          "alternative_answers": [],
+          "hint": "was doing",
+          "scramble_blocks": [
+            "友達",
+            "と",
+            "話し",
+            "ていました"
+          ],
+          "audio_text": "友達と話していました。",
+          "notes": "Past continuous.",
+          "position": 3
+        },
+        {
+          "japanese": "その時勉強していました。",
+          "japanese_with_blank": "その時勉強し[___]。",
+          "english": "I was studying at that time.",
+          "target_answer": "ていました",
+          "alternative_answers": [],
+          "hint": "was doing",
+          "scramble_blocks": [
+            "その",
+            "時",
+            "勉強し",
+            "ていました"
+          ],
+          "audio_text": "その時勉強していました。",
+          "notes": "する → していた.",
+          "position": 4
+        },
+        {
+          "japanese": "子供の時泳いでいました。",
+          "japanese_with_blank": "子供の時泳い[___]。",
+          "english": "I used to swim when I was a child.",
+          "target_answer": "でいました",
+          "alternative_answers": [],
+          "hint": "was doing / used to",
+          "scramble_blocks": [
+            "子供",
+            "の",
+            "時",
+            "泳い",
+            "でいました"
+          ],
+          "audio_text": "子供の時泳いでいました。",
+          "notes": "泳ぐ → 泳いでいた (voiced).",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

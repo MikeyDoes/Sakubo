@@ -1,0 +1,93 @@
+{
+  "grammar_point": "なさい",
+  "entry_id": 325570,
+  "categories": [
+    {
+      "id": "command",
+      "label": "Soft/Firm Command",
+      "sentences": [
+        {
+          "japanese": "早く起きなさい。",
+          "japanese_with_blank": "早く起き[___]。",
+          "english": "Wake up early.",
+          "target_answer": "なさい",
+          "alternative_answers": [],
+          "hint": "do (command)",
+          "scramble_blocks": [
+            "早く",
+            "起き",
+            "なさい"
+          ],
+          "audio_text": "早く起きなさい。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "座りなさい。",
+          "japanese_with_blank": "座り[___]。",
+          "english": "Sit down.",
+          "target_answer": "なさい",
+          "alternative_answers": [],
+          "hint": "do (command)",
+          "scramble_blocks": [
+            "座り",
+            "なさい"
+          ],
+          "audio_text": "座りなさい。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "静かにしなさい。",
+          "japanese_with_blank": "静かにし[___]。",
+          "english": "Be quiet.",
+          "target_answer": "なさい",
+          "alternative_answers": [],
+          "hint": "do (command)",
+          "scramble_blocks": [
+            "静かに",
+            "し",
+            "なさい"
+          ],
+          "audio_text": "静かにしなさい。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "宿題をしなさい。",
+          "japanese_with_blank": "宿題をし[___]。",
+          "english": "Do your homework.",
+          "target_answer": "なさい",
+          "alternative_answers": [],
+          "hint": "do (command)",
+          "scramble_blocks": [
+            "宿題",
+            "を",
+            "し",
+            "なさい"
+          ],
+          "audio_text": "宿題をしなさい。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "野菜を食べなさい。",
+          "japanese_with_blank": "野菜を食べ[___]。",
+          "english": "Eat your vegetables.",
+          "target_answer": "なさい",
+          "alternative_answers": [],
+          "hint": "do (command)",
+          "scramble_blocks": [
+            "野菜",
+            "を",
+            "食べ",
+            "なさい"
+          ],
+          "audio_text": "野菜を食べなさい。",
+          "notes": "",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

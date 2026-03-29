@@ -1,0 +1,76 @@
+{
+  "grammar_point": "そんなに",
+  "entry_id": 325552,
+  "categories": [
+    {
+      "id": "that_much",
+      "label": "That Much; So",
+      "sentences": [
+        {
+          "japanese": "そんなに高くないです。",
+          "japanese_with_blank": "[___]高くないです。",
+          "english": "It's not that expensive.",
+          "target_answer": "そんなに",
+          "alternative_answers": [],
+          "hint": "that much",
+          "scramble_blocks": [
+            "そんなに",
+            "高くない",
+            "です"
+          ],
+          "audio_text": "そんなに高くないです。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "そんなに難しくないです。",
+          "japanese_with_blank": "[___]難しくないです。",
+          "english": "It's not that difficult.",
+          "target_answer": "そんなに",
+          "alternative_answers": [],
+          "hint": "that much",
+          "scramble_blocks": [
+            "そんなに",
+            "難しくない",
+            "です"
+          ],
+          "audio_text": "そんなに難しくないです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "そんなに食べないでください。",
+          "japanese_with_blank": "[___]食べないでください。",
+          "english": "Please don't eat that much.",
+          "target_answer": "そんなに",
+          "alternative_answers": [],
+          "hint": "that much",
+          "scramble_blocks": [
+            "そんなに",
+            "食べないでください"
+          ],
+          "audio_text": "そんなに食べないでください。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "そんなに急がなくてもいいです。",
+          "japanese_with_blank": "[___]急がなくてもいいです。",
+          "english": "You don't have to hurry that much.",
+          "target_answer": "そんなに",
+          "alternative_answers": [],
+          "hint": "that much",
+          "scramble_blocks": [
+            "そんなに",
+            "急がなくても",
+            "いい",
+            "です"
+          ],
+          "audio_text": "そんなに急がなくてもいいです。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

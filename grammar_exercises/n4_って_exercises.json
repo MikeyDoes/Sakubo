@@ -1,0 +1,102 @@
+{
+  "grammar_point": "って",
+  "entry_id": 325620,
+  "categories": [
+    {
+      "id": "casual_quote",
+      "label": "Casual Quoting",
+      "sentences": [
+        {
+          "japanese": "田中さんは来ないって。",
+          "japanese_with_blank": "田中さんは来ない[___]。",
+          "english": "Tanaka-san said they won't come.",
+          "target_answer": "って",
+          "alternative_answers": [],
+          "hint": "said that",
+          "scramble_blocks": [
+            "田中さん",
+            "は",
+            "来ない",
+            "って"
+          ],
+          "audio_text": "田中さんは来ないって。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "明日は雨だって。",
+          "japanese_with_blank": "明日は雨だ[___]。",
+          "english": "They say it'll rain tomorrow.",
+          "target_answer": "って",
+          "alternative_answers": [],
+          "hint": "said that",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "雨",
+            "だ",
+            "って"
+          ],
+          "audio_text": "明日は雨だって。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "この店はおいしいって聞きました。",
+          "japanese_with_blank": "この店はおいしい[___]聞きました。",
+          "english": "I heard this shop is delicious.",
+          "target_answer": "って",
+          "alternative_answers": [],
+          "hint": "that (quote)",
+          "scramble_blocks": [
+            "この",
+            "店",
+            "は",
+            "おいしい",
+            "って",
+            "聞きました"
+          ],
+          "audio_text": "この店はおいしいって聞きました。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "先生は元気だって。",
+          "japanese_with_blank": "先生は元気だ[___]。",
+          "english": "The teacher said they're fine.",
+          "target_answer": "って",
+          "alternative_answers": [],
+          "hint": "said that",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "元気",
+            "だ",
+            "って"
+          ],
+          "audio_text": "先生は元気だって。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "あの映画は面白いって。",
+          "japanese_with_blank": "あの映画は面白い[___]。",
+          "english": "They say that movie is interesting.",
+          "target_answer": "って",
+          "alternative_answers": [],
+          "hint": "said that",
+          "scramble_blocks": [
+            "あの",
+            "映画",
+            "は",
+            "面白い",
+            "って"
+          ],
+          "audio_text": "あの映画は面白いって。",
+          "notes": "",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

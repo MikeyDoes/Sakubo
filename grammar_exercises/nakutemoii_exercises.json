@@ -1,0 +1,162 @@
+{
+  "grammar_point": "なくてもいい",
+  "entry_id": 325468,
+  "categories": [
+    {
+      "id": "no_need",
+      "label": "Don't Need To",
+      "sentences": [
+        {
+          "japanese": "食べなくてもいい。",
+          "japanese_with_blank": "食べ[___]。",
+          "english": "You don't need to eat.",
+          "target_answer": "なくてもいい",
+          "alternative_answers": [],
+          "hint": "No need",
+          "scramble_blocks": [
+            "食べ",
+            "なくてもいい"
+          ],
+          "audio_text": "食べなくてもいい。",
+          "notes": "なくてもいい means \"don't have to.\"",
+          "position": 1
+        },
+        {
+          "japanese": "見なくてもいい。",
+          "japanese_with_blank": "見[___]。",
+          "english": "You don't need to look.",
+          "target_answer": "なくてもいい",
+          "alternative_answers": [],
+          "hint": "No need",
+          "scramble_blocks": [
+            "見",
+            "なくてもいい"
+          ],
+          "audio_text": "見なくてもいい。",
+          "notes": "No obligation form.",
+          "position": 2
+        },
+        {
+          "japanese": "読まなくてもいい。",
+          "japanese_with_blank": "読ま[___]。",
+          "english": "You don't need to read.",
+          "target_answer": "なくてもいい",
+          "alternative_answers": [],
+          "hint": "No need",
+          "scramble_blocks": [
+            "読ま",
+            "なくてもいい"
+          ],
+          "audio_text": "読まなくてもいい。",
+          "notes": "う-verb: 読まなくてもいい.",
+          "position": 3
+        },
+        {
+          "japanese": "書かなくてもいい。",
+          "japanese_with_blank": "書か[___]。",
+          "english": "You don't need to write.",
+          "target_answer": "なくてもいい",
+          "alternative_answers": [],
+          "hint": "No need",
+          "scramble_blocks": [
+            "書か",
+            "なくてもいい"
+          ],
+          "audio_text": "書かなくてもいい。",
+          "notes": "No obligation to write.",
+          "position": 4
+        },
+        {
+          "japanese": "行かなくてもいい。",
+          "japanese_with_blank": "行か[___]。",
+          "english": "You don't need to go.",
+          "target_answer": "なくてもいい",
+          "alternative_answers": [],
+          "hint": "No need",
+          "scramble_blocks": [
+            "行か",
+            "なくてもいい"
+          ],
+          "audio_text": "行かなくてもいい。",
+          "notes": "No need to go.",
+          "position": 5
+        },
+        {
+          "japanese": "起きなくてもいい。",
+          "japanese_with_blank": "起き[___]。",
+          "english": "You don't need to wake up.",
+          "target_answer": "なくてもいい",
+          "alternative_answers": [],
+          "hint": "No need",
+          "scramble_blocks": [
+            "起き",
+            "なくてもいい"
+          ],
+          "audio_text": "起きなくてもいい。",
+          "notes": "No obligation.",
+          "position": 6
+        },
+        {
+          "japanese": "飲まなくてもいい。",
+          "japanese_with_blank": "飲ま[___]。",
+          "english": "You don't need to drink.",
+          "target_answer": "なくてもいい",
+          "alternative_answers": [],
+          "hint": "No need",
+          "scramble_blocks": [
+            "飲ま",
+            "なくてもいい"
+          ],
+          "audio_text": "飲まなくてもいい。",
+          "notes": "No need to drink.",
+          "position": 7
+        },
+        {
+          "japanese": "来なくてもいい。",
+          "japanese_with_blank": "来[___]。",
+          "english": "You don't need to come.",
+          "target_answer": "なくてもいい",
+          "alternative_answers": [],
+          "hint": "No need",
+          "scramble_blocks": [
+            "来",
+            "なくてもいい"
+          ],
+          "audio_text": "来なくてもいい。",
+          "notes": "Irregular: 来なくてもいい.",
+          "position": 8
+        },
+        {
+          "japanese": "しなくてもいい。",
+          "japanese_with_blank": "し[___]。",
+          "english": "You don't need to do it.",
+          "target_answer": "なくてもいい",
+          "alternative_answers": [],
+          "hint": "No need",
+          "scramble_blocks": [
+            "し",
+            "なくてもいい"
+          ],
+          "audio_text": "しなくてもいい。",
+          "notes": "Irregular: しなくてもいい.",
+          "position": 9
+        },
+        {
+          "japanese": "話さなくてもいい。",
+          "japanese_with_blank": "話さ[___]。",
+          "english": "You don't need to speak.",
+          "target_answer": "なくてもいい",
+          "alternative_answers": [],
+          "hint": "No need",
+          "scramble_blocks": [
+            "話さ",
+            "なくてもいい"
+          ],
+          "audio_text": "話さなくてもいい。",
+          "notes": "No obligation to speak.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

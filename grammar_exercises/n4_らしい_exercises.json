@@ -1,0 +1,130 @@
+{
+  "grammar_point": "らしい",
+  "entry_id": 325618,
+  "categories": [
+    {
+      "id": "conjecture",
+      "label": "Apparently; Seems",
+      "sentences": [
+        {
+          "japanese": "明日は雨らしいです。",
+          "japanese_with_blank": "明日は雨[___]です。",
+          "english": "Apparently it'll rain tomorrow.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "apparently",
+          "scramble_blocks": [
+            "明日",
+            "は",
+            "雨",
+            "らしい",
+            "です"
+          ],
+          "audio_text": "明日は雨らしいです。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "あの店は高いらしいです。",
+          "japanese_with_blank": "あの店は高い[___]です。",
+          "english": "That shop is apparently expensive.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "apparently",
+          "scramble_blocks": [
+            "あの",
+            "店",
+            "は",
+            "高い",
+            "らしい",
+            "です"
+          ],
+          "audio_text": "あの店は高いらしいです。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "田中さんは引っ越したらしいです。",
+          "japanese_with_blank": "田中さんは引っ越した[___]です。",
+          "english": "Apparently Tanaka-san moved.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "apparently",
+          "scramble_blocks": [
+            "田中さん",
+            "は",
+            "引っ越した",
+            "らしい",
+            "です"
+          ],
+          "audio_text": "田中さんは引っ越したらしいです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "来週は忙しいらしいです。",
+          "japanese_with_blank": "来週は忙しい[___]です。",
+          "english": "Next week is apparently busy.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "apparently",
+          "scramble_blocks": [
+            "来週",
+            "は",
+            "忙しい",
+            "らしい",
+            "です"
+          ],
+          "audio_text": "来週は忙しいらしいです。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "id": "typical",
+      "label": "Typical Of; -like",
+      "sentences": [
+        {
+          "japanese": "今日は春らしい天気ですね。",
+          "japanese_with_blank": "今日は春[___]天気ですね。",
+          "english": "Today is spring-like weather.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "-like; typical",
+          "scramble_blocks": [
+            "今日",
+            "は",
+            "春",
+            "らしい",
+            "天気",
+            "です",
+            "ね"
+          ],
+          "audio_text": "今日は春らしい天気ですね。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "男らしい人が好きです。",
+          "japanese_with_blank": "男[___]人が好きです。",
+          "english": "I like manly people.",
+          "target_answer": "らしい",
+          "alternative_answers": [],
+          "hint": "-like; typical",
+          "scramble_blocks": [
+            "男",
+            "らしい",
+            "人",
+            "が",
+            "好き",
+            "です"
+          ],
+          "audio_text": "男らしい人が好きです。",
+          "notes": "",
+          "position": 2
+        }
+      ]
+    }
+  ]
+}

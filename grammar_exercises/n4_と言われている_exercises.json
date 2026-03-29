@@ -1,0 +1,87 @@
+{
+  "grammar_point": "と言われている",
+  "entry_id": 325632,
+  "categories": [
+    {
+      "id": "general_hearsay",
+      "label": "It Is Said That",
+      "sentences": [
+        {
+          "japanese": "日本の食べ物はおいしいと言われています。",
+          "japanese_with_blank": "日本の食べ物はおいしい[___]。",
+          "english": "It is said that Japanese food is delicious.",
+          "target_answer": "と言われています",
+          "alternative_answers": [],
+          "hint": "it is said",
+          "scramble_blocks": [
+            "日本",
+            "の",
+            "食べ物",
+            "は",
+            "おいしい",
+            "と言われています"
+          ],
+          "audio_text": "日本の食べ物はおいしいと言われています。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "この山は危ないと言われています。",
+          "japanese_with_blank": "この山は危ない[___]。",
+          "english": "It is said that this mountain is dangerous.",
+          "target_answer": "と言われています",
+          "alternative_answers": [],
+          "hint": "it is said",
+          "scramble_blocks": [
+            "この",
+            "山",
+            "は",
+            "危ない",
+            "と言われています"
+          ],
+          "audio_text": "この山は危ないと言われています。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "朝ご飯は大切だと言われています。",
+          "japanese_with_blank": "朝ご飯は大切だ[___]。",
+          "english": "It is said that breakfast is important.",
+          "target_answer": "と言われています",
+          "alternative_answers": [],
+          "hint": "it is said",
+          "scramble_blocks": [
+            "朝ご飯",
+            "は",
+            "大切",
+            "だ",
+            "と言われています"
+          ],
+          "audio_text": "朝ご飯は大切だと言われています。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "水をたくさん飲むといいと言われています。",
+          "japanese_with_blank": "水をたくさん飲むといい[___]。",
+          "english": "It is said that drinking a lot of water is good.",
+          "target_answer": "と言われています",
+          "alternative_answers": [],
+          "hint": "it is said",
+          "scramble_blocks": [
+            "水",
+            "を",
+            "たくさん",
+            "飲む",
+            "と",
+            "いい",
+            "と言われています"
+          ],
+          "audio_text": "水をたくさん飲むといいと言われています。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

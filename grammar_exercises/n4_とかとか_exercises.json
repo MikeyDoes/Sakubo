@@ -1,0 +1,94 @@
+{
+  "grammar_point": "とか～とか",
+  "entry_id": 325565,
+  "categories": [
+    {
+      "id": "listing_examples",
+      "label": "Listing Examples",
+      "sentences": [
+        {
+          "japanese": "りんごとかみかんとかを買いました。",
+          "japanese_with_blank": "りんご[___]みかんとかを買いました。",
+          "english": "I bought things like apples and oranges.",
+          "target_answer": "とか",
+          "alternative_answers": [],
+          "hint": "such as",
+          "scramble_blocks": [
+            "りんご",
+            "とか",
+            "みかん",
+            "とか",
+            "を",
+            "買いました"
+          ],
+          "audio_text": "りんごとかみかんとかを買いました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "日曜日は映画を見るとか散歩するとかします。",
+          "japanese_with_blank": "日曜日は映画を見る[___]散歩するとかします。",
+          "english": "On Sunday I do things like watch movies and take walks.",
+          "target_answer": "とか",
+          "alternative_answers": [],
+          "hint": "such as",
+          "scramble_blocks": [
+            "日曜日",
+            "は",
+            "映画",
+            "を",
+            "見る",
+            "とか",
+            "散歩する",
+            "とか",
+            "します"
+          ],
+          "audio_text": "日曜日は映画を見るとか散歩するとかします。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "テニスとかサッカーとかが好きです。",
+          "japanese_with_blank": "テニス[___]サッカーとかが好きです。",
+          "english": "I like things like tennis and soccer.",
+          "target_answer": "とか",
+          "alternative_answers": [],
+          "hint": "such as",
+          "scramble_blocks": [
+            "テニス",
+            "とか",
+            "サッカー",
+            "とか",
+            "が",
+            "好き",
+            "です"
+          ],
+          "audio_text": "テニスとかサッカーとかが好きです。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "朝はパンとかご飯とかを食べます。",
+          "japanese_with_blank": "朝はパン[___]ご飯とかを食べます。",
+          "english": "In the morning I eat things like bread and rice.",
+          "target_answer": "とか",
+          "alternative_answers": [],
+          "hint": "such as",
+          "scramble_blocks": [
+            "朝",
+            "は",
+            "パン",
+            "とか",
+            "ご飯",
+            "とか",
+            "を",
+            "食べます"
+          ],
+          "audio_text": "朝はパンとかご飯とかを食べます。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

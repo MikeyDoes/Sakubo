@@ -1,0 +1,186 @@
+{
+  "grammar_point": "ました",
+  "entry_id": 326761,
+  "categories": [
+    {
+      "id": "ru_verb_past",
+      "label": "る-Verb Past",
+      "sentences": [
+        {
+          "japanese": "私は食べました。",
+          "japanese_with_blank": "私は食べ[___]。",
+          "english": "I ate.",
+          "target_answer": "ました",
+          "alternative_answers": [],
+          "hint": "Past polite",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "食べ",
+            "ました"
+          ],
+          "audio_text": "私は食べました。",
+          "notes": "る-verb past: 食べ + ました.",
+          "position": 1
+        },
+        {
+          "japanese": "猫は寝ました。",
+          "japanese_with_blank": "猫は寝[___]。",
+          "english": "The cat slept.",
+          "target_answer": "ました",
+          "alternative_answers": [],
+          "hint": "Past polite",
+          "scramble_blocks": [
+            "猫",
+            "は",
+            "寝",
+            "ました"
+          ],
+          "audio_text": "猫は寝ました。",
+          "notes": "る-verb past for routine.",
+          "position": 2
+        },
+        {
+          "japanese": "起きました。",
+          "japanese_with_blank": "起き[___]。",
+          "english": "I woke up.",
+          "target_answer": "ました",
+          "alternative_answers": [],
+          "hint": "Past polite",
+          "scramble_blocks": [
+            "起き",
+            "ました"
+          ],
+          "audio_text": "起きました。",
+          "notes": "Intransitive る-verb in past polite.",
+          "position": 3
+        },
+        {
+          "japanese": "学生が見ました。",
+          "japanese_with_blank": "学生が見[___]。",
+          "english": "The student watched.",
+          "target_answer": "ました",
+          "alternative_answers": [],
+          "hint": "Past polite",
+          "scramble_blocks": [
+            "学生",
+            "が",
+            "見",
+            "ました"
+          ],
+          "audio_text": "学生が見ました。",
+          "notes": "る-verb past: 見 + ました.",
+          "position": 4
+        },
+        {
+          "japanese": "友達が出ました。",
+          "japanese_with_blank": "友達が出[___]。",
+          "english": "My friend went out.",
+          "target_answer": "ました",
+          "alternative_answers": [],
+          "hint": "Past polite",
+          "scramble_blocks": [
+            "友達",
+            "が",
+            "出",
+            "ました"
+          ],
+          "audio_text": "友達が出ました。",
+          "notes": "る-verb past with subject.",
+          "position": 5
+        }
+      ]
+    },
+    {
+      "id": "u_verb_past",
+      "label": "う-Verb Past",
+      "sentences": [
+        {
+          "japanese": "先生は行きました。",
+          "japanese_with_blank": "先生は行き[___]。",
+          "english": "The teacher went.",
+          "target_answer": "ました",
+          "alternative_answers": [],
+          "hint": "Past polite",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "行き",
+            "ました"
+          ],
+          "audio_text": "先生は行きました。",
+          "notes": "う-verb past: 行き + ました.",
+          "position": 6
+        },
+        {
+          "japanese": "学生は読みました。",
+          "japanese_with_blank": "学生は読み[___]。",
+          "english": "The student read.",
+          "target_answer": "ました",
+          "alternative_answers": [],
+          "hint": "Past polite",
+          "scramble_blocks": [
+            "学生",
+            "は",
+            "読み",
+            "ました"
+          ],
+          "audio_text": "学生は読みました。",
+          "notes": "う-verb past: 読み + ました.",
+          "position": 7
+        },
+        {
+          "japanese": "私は書きました。",
+          "japanese_with_blank": "私は書き[___]。",
+          "english": "I wrote.",
+          "target_answer": "ました",
+          "alternative_answers": [],
+          "hint": "Past polite",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "書き",
+            "ました"
+          ],
+          "audio_text": "私は書きました。",
+          "notes": "う-verb past: 書き + ました.",
+          "position": 8
+        },
+        {
+          "japanese": "子供は飲みました。",
+          "japanese_with_blank": "子供は飲み[___]。",
+          "english": "The child drank.",
+          "target_answer": "ました",
+          "alternative_answers": [],
+          "hint": "Past polite",
+          "scramble_blocks": [
+            "子供",
+            "は",
+            "飲み",
+            "ました"
+          ],
+          "audio_text": "子供は飲みました。",
+          "notes": "う-verb past: 飲み + ました.",
+          "position": 9
+        },
+        {
+          "japanese": "女は歩きました。",
+          "japanese_with_blank": "女は歩き[___]。",
+          "english": "The woman walked.",
+          "target_answer": "ました",
+          "alternative_answers": [],
+          "hint": "Past polite",
+          "scramble_blocks": [
+            "女",
+            "は",
+            "歩き",
+            "ました"
+          ],
+          "audio_text": "女は歩きました。",
+          "notes": "う-verb past: 歩き + ました.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

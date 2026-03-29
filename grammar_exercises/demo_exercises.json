@@ -1,0 +1,172 @@
+{
+  "grammar_point": "でも",
+  "entry_id": 325445,
+  "categories": [
+    {
+      "id": "but",
+      "label": "But (Sentence)",
+      "sentences": [
+        {
+          "japanese": "大きいです。でも高いです。",
+          "japanese_with_blank": "大きいです。[___]高いです。",
+          "english": "It is big. But it is expensive.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "大きいです。",
+            "でも",
+            "高いです"
+          ],
+          "audio_text": "大きいです。でも高いです。",
+          "notes": "でも starts a new sentence meaning \"but.\"",
+          "position": 1
+        },
+        {
+          "japanese": "好きです。でも難しいです。",
+          "japanese_with_blank": "好きです。[___]難しいです。",
+          "english": "I like it. But it is hard.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "好きです。",
+            "でも",
+            "難しいです"
+          ],
+          "audio_text": "好きです。でも難しいです。",
+          "notes": "Sentence-level contrast.",
+          "position": 2
+        },
+        {
+          "japanese": "行きました。でも食べませんでした。",
+          "japanese_with_blank": "行きました。[___]食べませんでした。",
+          "english": "I went. But I didn't eat.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "行きました。",
+            "でも",
+            "食べませんでした"
+          ],
+          "audio_text": "行きました。でも食べませんでした。",
+          "notes": "Action contrast.",
+          "position": 3
+        },
+        {
+          "japanese": "読みました。でも面白くないです。",
+          "japanese_with_blank": "読みました。[___]面白くないです。",
+          "english": "I read it. But it wasn't interesting.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "読みました。",
+            "でも",
+            "面白くないです"
+          ],
+          "audio_text": "読みました。でも面白くないです。",
+          "notes": "Effort vs result.",
+          "position": 4
+        },
+        {
+          "japanese": "美味しいです。でも高いです。",
+          "japanese_with_blank": "美味しいです。[___]高いです。",
+          "english": "It is tasty. But it is expensive.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "美味しいです。",
+            "でも",
+            "高いです"
+          ],
+          "audio_text": "美味しいです。でも高いです。",
+          "notes": "Quality vs price.",
+          "position": 5
+        },
+        {
+          "japanese": "元気です。でも忙しいです。",
+          "japanese_with_blank": "元気です。[___]忙しいです。",
+          "english": "I am well. But I am busy.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "元気です。",
+            "でも",
+            "忙しいです"
+          ],
+          "audio_text": "元気です。でも忙しいです。",
+          "notes": "Condition contrast.",
+          "position": 6
+        },
+        {
+          "japanese": "静かです。でも暗いです。",
+          "japanese_with_blank": "静かです。[___]暗いです。",
+          "english": "It is quiet. But it is dark.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "静かです。",
+            "でも",
+            "暗いです"
+          ],
+          "audio_text": "静かです。でも暗いです。",
+          "notes": "Quality contrast.",
+          "position": 7
+        },
+        {
+          "japanese": "やすいです。でも古いです。",
+          "japanese_with_blank": "やすいです。[___]古いです。",
+          "english": "It is cheap. But old.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "やすいです。",
+            "でも",
+            "古いです"
+          ],
+          "audio_text": "やすいです。でも古いです。",
+          "notes": "Price vs quality.",
+          "position": 8
+        },
+        {
+          "japanese": "見ました。でも分かりませんでした。",
+          "japanese_with_blank": "見ました。[___]分かりませんでした。",
+          "english": "I saw it. But I didn't get it.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "見ました。",
+            "でも",
+            "分かりませんでした"
+          ],
+          "audio_text": "見ました。でも分かりませんでした。",
+          "notes": "Comprehension gap.",
+          "position": 9
+        },
+        {
+          "japanese": "来ました。でも帰りました。",
+          "japanese_with_blank": "来ました。[___]帰りました。",
+          "english": "He came. But he went home.",
+          "target_answer": "でも",
+          "alternative_answers": [],
+          "hint": "But",
+          "scramble_blocks": [
+            "来ました。",
+            "でも",
+            "帰りました"
+          ],
+          "audio_text": "来ました。でも帰りました。",
+          "notes": "Coming and leaving.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

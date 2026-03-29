@@ -1,0 +1,100 @@
+{
+  "grammar_point": "ながら",
+  "entry_id": 325569,
+  "categories": [
+    {
+      "id": "while_verb",
+      "label": "While Doing",
+      "sentences": [
+        {
+          "japanese": "音楽を聞きながら勉強します。",
+          "japanese_with_blank": "音楽を聞き[___]勉強します。",
+          "english": "I study while listening to music.",
+          "target_answer": "ながら",
+          "alternative_answers": [],
+          "hint": "while",
+          "scramble_blocks": [
+            "音楽",
+            "を",
+            "聞き",
+            "ながら",
+            "勉強します"
+          ],
+          "audio_text": "音楽を聞きながら勉強します。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "歩きながら話しましょう。",
+          "japanese_with_blank": "歩き[___]話しましょう。",
+          "english": "Let's talk while walking.",
+          "target_answer": "ながら",
+          "alternative_answers": [],
+          "hint": "while",
+          "scramble_blocks": [
+            "歩き",
+            "ながら",
+            "話しましょう"
+          ],
+          "audio_text": "歩きながら話しましょう。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "テレビを見ながら食べます。",
+          "japanese_with_blank": "テレビを見[___]食べます。",
+          "english": "I eat while watching TV.",
+          "target_answer": "ながら",
+          "alternative_answers": [],
+          "hint": "while",
+          "scramble_blocks": [
+            "テレビ",
+            "を",
+            "見",
+            "ながら",
+            "食べます"
+          ],
+          "audio_text": "テレビを見ながら食べます。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "コーヒーを飲みながら本を読みます。",
+          "japanese_with_blank": "コーヒーを飲み[___]本を読みます。",
+          "english": "I read a book while drinking coffee.",
+          "target_answer": "ながら",
+          "alternative_answers": [],
+          "hint": "while",
+          "scramble_blocks": [
+            "コーヒー",
+            "を",
+            "飲み",
+            "ながら",
+            "本",
+            "を",
+            "読みます"
+          ],
+          "audio_text": "コーヒーを飲みながら本を読みます。",
+          "notes": "",
+          "position": 4
+        },
+        {
+          "japanese": "走りながら考えました。",
+          "japanese_with_blank": "走り[___]考えました。",
+          "english": "I thought while running.",
+          "target_answer": "ながら",
+          "alternative_answers": [],
+          "hint": "while",
+          "scramble_blocks": [
+            "走り",
+            "ながら",
+            "考えました"
+          ],
+          "audio_text": "走りながら考えました。",
+          "notes": "",
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

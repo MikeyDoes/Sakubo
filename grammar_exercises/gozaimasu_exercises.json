@@ -1,0 +1,162 @@
+{
+  "grammar_point": "ございます",
+  "entry_id": 325514,
+  "categories": [
+    {
+      "id": "polite_aru",
+      "label": "Polite ある",
+      "sentences": [
+        {
+          "japanese": "お手洗いはこちらにございます。",
+          "japanese_with_blank": "お手洗いはこちらに[___]。",
+          "english": "The restroom is here.",
+          "target_answer": "ございます",
+          "alternative_answers": [],
+          "hint": "Polite ある",
+          "scramble_blocks": [
+            "お手洗いはこちらに",
+            "ございます"
+          ],
+          "audio_text": "お手洗いはこちらにございます。",
+          "notes": "ございます is the polite form of あります.",
+          "position": 1
+        },
+        {
+          "japanese": "会議室はあちらにございます。",
+          "japanese_with_blank": "会議室はあちらに[___]。",
+          "english": "The meeting room is over there.",
+          "target_answer": "ございます",
+          "alternative_answers": [],
+          "hint": "Polite ある",
+          "scramble_blocks": [
+            "会議室はあちらに",
+            "ございます"
+          ],
+          "audio_text": "会議室はあちらにございます。",
+          "notes": "Polite location.",
+          "position": 2
+        },
+        {
+          "japanese": "お部屋は二階にございます。",
+          "japanese_with_blank": "お部屋は二階に[___]。",
+          "english": "Your room is on the second floor.",
+          "target_answer": "ございます",
+          "alternative_answers": [],
+          "hint": "Polite ある",
+          "scramble_blocks": [
+            "お部屋は二階に",
+            "ございます"
+          ],
+          "audio_text": "お部屋は二階にございます。",
+          "notes": "Room location.",
+          "position": 3
+        },
+        {
+          "japanese": "お席はこちらにございます。",
+          "japanese_with_blank": "お席はこちらに[___]。",
+          "english": "Your seat is here.",
+          "target_answer": "ございます",
+          "alternative_answers": [],
+          "hint": "Polite ある",
+          "scramble_blocks": [
+            "お席はこちらに",
+            "ございます"
+          ],
+          "audio_text": "お席はこちらにございます。",
+          "notes": "Seat location.",
+          "position": 4
+        },
+        {
+          "japanese": "お荷物はそちらにございます。",
+          "japanese_with_blank": "お荷物はそちらに[___]。",
+          "english": "Your luggage is there.",
+          "target_answer": "ございます",
+          "alternative_answers": [],
+          "hint": "Polite ある",
+          "scramble_blocks": [
+            "お荷物はそちらに",
+            "ございます"
+          ],
+          "audio_text": "お荷物はそちらにございます。",
+          "notes": "Item location.",
+          "position": 5
+        },
+        {
+          "japanese": "エレベーターはあちらにございます。",
+          "japanese_with_blank": "エレベーターはあちらに[___]。",
+          "english": "The elevator is over there.",
+          "target_answer": "ございます",
+          "alternative_answers": [],
+          "hint": "Polite ある",
+          "scramble_blocks": [
+            "エレベーターはあちらに",
+            "ございます"
+          ],
+          "audio_text": "エレベーターはあちらにございます。",
+          "notes": "Elevator location.",
+          "position": 6
+        },
+        {
+          "japanese": "お店は駅の前にございます。",
+          "japanese_with_blank": "お店は駅の前に[___]。",
+          "english": "The shop is in front of the station.",
+          "target_answer": "ございます",
+          "alternative_answers": [],
+          "hint": "Polite ある",
+          "scramble_blocks": [
+            "お店は駅の前に",
+            "ございます"
+          ],
+          "audio_text": "お店は駅の前にございます。",
+          "notes": "Shop location.",
+          "position": 7
+        },
+        {
+          "japanese": "受付はこちらにございます。",
+          "japanese_with_blank": "受付はこちらに[___]。",
+          "english": "The reception is here.",
+          "target_answer": "ございます",
+          "alternative_answers": [],
+          "hint": "Polite ある",
+          "scramble_blocks": [
+            "受付はこちらに",
+            "ございます"
+          ],
+          "audio_text": "受付はこちらにございます。",
+          "notes": "Reception area.",
+          "position": 8
+        },
+        {
+          "japanese": "出口はあちらにございます。",
+          "japanese_with_blank": "出口はあちらに[___]。",
+          "english": "The exit is over there.",
+          "target_answer": "ございます",
+          "alternative_answers": [],
+          "hint": "Polite ある",
+          "scramble_blocks": [
+            "出口はあちらに",
+            "ございます"
+          ],
+          "audio_text": "出口はあちらにございます。",
+          "notes": "Exit location.",
+          "position": 9
+        },
+        {
+          "japanese": "メニューはこちらにございます。",
+          "japanese_with_blank": "メニューはこちらに[___]。",
+          "english": "The menu is here.",
+          "target_answer": "ございます",
+          "alternative_answers": [],
+          "hint": "Polite ある",
+          "scramble_blocks": [
+            "メニューはこちらに",
+            "ございます"
+          ],
+          "audio_text": "メニューはこちらにございます。",
+          "notes": "Menu location.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

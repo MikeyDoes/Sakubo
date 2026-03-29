@@ -1,0 +1,86 @@
+{
+  "grammar_point": "てあげる",
+  "entry_id": 325608,
+  "categories": [
+    {
+      "id": "giving_help",
+      "label": "Helping Others",
+      "sentences": [
+        {
+          "japanese": "友達に教えてあげました。",
+          "japanese_with_blank": "友達に教え[___]。",
+          "english": "I taught my friend.",
+          "target_answer": "てあげました",
+          "alternative_answers": [],
+          "hint": "did for someone",
+          "scramble_blocks": [
+            "友達",
+            "に",
+            "教え",
+            "てあげました"
+          ],
+          "audio_text": "友達に教えてあげました。",
+          "notes": "て-form + あげる = do for (polite).",
+          "position": 1
+        },
+        {
+          "japanese": "母の荷物を持ってあげます。",
+          "japanese_with_blank": "母の荷物を持っ[___]。",
+          "english": "I'll carry my mother's luggage.",
+          "target_answer": "てあげます",
+          "alternative_answers": [],
+          "hint": "do for someone",
+          "scramble_blocks": [
+            "母",
+            "の",
+            "荷物",
+            "を",
+            "持っ",
+            "てあげます"
+          ],
+          "audio_text": "母の荷物を持ってあげます。",
+          "notes": "Polite giving of help.",
+          "position": 2
+        },
+        {
+          "japanese": "妹に写真を撮ってあげました。",
+          "japanese_with_blank": "妹に写真を撮っ[___]。",
+          "english": "I took a photo for my younger sister.",
+          "target_answer": "てあげました",
+          "alternative_answers": [],
+          "hint": "did for someone (past)",
+          "scramble_blocks": [
+            "妹",
+            "に",
+            "写真",
+            "を",
+            "撮っ",
+            "てあげました"
+          ],
+          "audio_text": "妹に写真を撮ってあげました。",
+          "notes": "撮る → 撮ってあげる.",
+          "position": 3
+        },
+        {
+          "japanese": "おばあさんに道を教えてあげました。",
+          "japanese_with_blank": "おばあさんに道を教え[___]。",
+          "english": "I showed the old lady the way.",
+          "target_answer": "てあげました",
+          "alternative_answers": [],
+          "hint": "did for someone (past)",
+          "scramble_blocks": [
+            "おばあさん",
+            "に",
+            "道",
+            "を",
+            "教え",
+            "てあげました"
+          ],
+          "audio_text": "おばあさんに道を教えてあげました。",
+          "notes": "Helping a stranger.",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

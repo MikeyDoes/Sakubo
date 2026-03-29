@@ -1,0 +1,162 @@
+{
+  "grammar_point": "にする",
+  "entry_id": 325483,
+  "categories": [
+    {
+      "id": "decide_on",
+      "label": "Decide On",
+      "sentences": [
+        {
+          "japanese": "コーヒーにします。",
+          "japanese_with_blank": "コーヒー[___]。",
+          "english": "I'll have coffee.",
+          "target_answer": "にします",
+          "alternative_answers": [],
+          "hint": "Decide on",
+          "scramble_blocks": [
+            "コーヒー",
+            "にします"
+          ],
+          "audio_text": "コーヒーにします。",
+          "notes": "にする means \"decide on\" or \"make it.\"",
+          "position": 1
+        },
+        {
+          "japanese": "水にします。",
+          "japanese_with_blank": "水[___]。",
+          "english": "I'll go with water.",
+          "target_answer": "にします",
+          "alternative_answers": [],
+          "hint": "Decide on",
+          "scramble_blocks": [
+            "水",
+            "にします"
+          ],
+          "audio_text": "水にします。",
+          "notes": "Choosing a drink.",
+          "position": 2
+        },
+        {
+          "japanese": "ケーキにします。",
+          "japanese_with_blank": "ケーキ[___]。",
+          "english": "I'll have cake.",
+          "target_answer": "にします",
+          "alternative_answers": [],
+          "hint": "Decide on",
+          "scramble_blocks": [
+            "ケーキ",
+            "にします"
+          ],
+          "audio_text": "ケーキにします。",
+          "notes": "Choosing food.",
+          "position": 3
+        },
+        {
+          "japanese": "本にします。",
+          "japanese_with_blank": "本[___]。",
+          "english": "I'll go with the book.",
+          "target_answer": "にします",
+          "alternative_answers": [],
+          "hint": "Decide on",
+          "scramble_blocks": [
+            "本",
+            "にします"
+          ],
+          "audio_text": "本にします。",
+          "notes": "Choosing an item.",
+          "position": 4
+        },
+        {
+          "japanese": "パンにします。",
+          "japanese_with_blank": "パン[___]。",
+          "english": "I'll have bread.",
+          "target_answer": "にします",
+          "alternative_answers": [],
+          "hint": "Decide on",
+          "scramble_blocks": [
+            "パン",
+            "にします"
+          ],
+          "audio_text": "パンにします。",
+          "notes": "Choosing breakfast.",
+          "position": 5
+        },
+        {
+          "japanese": "学校にします。",
+          "japanese_with_blank": "学校[___]。",
+          "english": "I'll decide on the school.",
+          "target_answer": "にします",
+          "alternative_answers": [],
+          "hint": "Decide on",
+          "scramble_blocks": [
+            "学校",
+            "にします"
+          ],
+          "audio_text": "学校にします。",
+          "notes": "Choosing a place.",
+          "position": 6
+        },
+        {
+          "japanese": "犬にします。",
+          "japanese_with_blank": "犬[___]。",
+          "english": "I'll go with a dog.",
+          "target_answer": "にします",
+          "alternative_answers": [],
+          "hint": "Decide on",
+          "scramble_blocks": [
+            "犬",
+            "にします"
+          ],
+          "audio_text": "犬にします。",
+          "notes": "Choosing a pet.",
+          "position": 7
+        },
+        {
+          "japanese": "車にします。",
+          "japanese_with_blank": "車[___]。",
+          "english": "I'll go with the car.",
+          "target_answer": "にします",
+          "alternative_answers": [],
+          "hint": "Decide on",
+          "scramble_blocks": [
+            "車",
+            "にします"
+          ],
+          "audio_text": "車にします。",
+          "notes": "Choosing transport.",
+          "position": 8
+        },
+        {
+          "japanese": "赤にします。",
+          "japanese_with_blank": "赤[___]。",
+          "english": "I'll go with red.",
+          "target_answer": "にします",
+          "alternative_answers": [],
+          "hint": "Decide on",
+          "scramble_blocks": [
+            "赤",
+            "にします"
+          ],
+          "audio_text": "赤にします。",
+          "notes": "Choosing a color.",
+          "position": 9
+        },
+        {
+          "japanese": "ホテルにします。",
+          "japanese_with_blank": "ホテル[___]。",
+          "english": "I'll go with this hotel.",
+          "target_answer": "にします",
+          "alternative_answers": [],
+          "hint": "Decide on",
+          "scramble_blocks": [
+            "ホテル",
+            "にします"
+          ],
+          "audio_text": "ホテルにします。",
+          "notes": "Choosing accommodation.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "grammar_point": "てください",
+  "entry_id": 325466,
+  "categories": [
+    {
+      "id": "request",
+      "label": "Polite Request",
+      "sentences": [
+        {
+          "japanese": "食べてください。",
+          "japanese_with_blank": "食べて[___]。",
+          "english": "Please eat.",
+          "target_answer": "ください",
+          "alternative_answers": [],
+          "hint": "Request",
+          "scramble_blocks": [
+            "食べて",
+            "ください"
+          ],
+          "audio_text": "食べてください。",
+          "notes": "てください is a polite request.",
+          "position": 1
+        },
+        {
+          "japanese": "見てください。",
+          "japanese_with_blank": "見て[___]。",
+          "english": "Please look.",
+          "target_answer": "ください",
+          "alternative_answers": [],
+          "hint": "Request",
+          "scramble_blocks": [
+            "見て",
+            "ください"
+          ],
+          "audio_text": "見てください。",
+          "notes": "る-verb request.",
+          "position": 2
+        },
+        {
+          "japanese": "読んでください。",
+          "japanese_with_blank": "読んで[___]。",
+          "english": "Please read.",
+          "target_answer": "ください",
+          "alternative_answers": [],
+          "hint": "Request",
+          "scramble_blocks": [
+            "読んで",
+            "ください"
+          ],
+          "audio_text": "読んでください。",
+          "notes": "う-verb request with んで.",
+          "position": 3
+        },
+        {
+          "japanese": "書いてください。",
+          "japanese_with_blank": "書いて[___]。",
+          "english": "Please write.",
+          "target_answer": "ください",
+          "alternative_answers": [],
+          "hint": "Request",
+          "scramble_blocks": [
+            "書いて",
+            "ください"
+          ],
+          "audio_text": "書いてください。",
+          "notes": "う-verb request with いて.",
+          "position": 4
+        },
+        {
+          "japanese": "聞いてください。",
+          "japanese_with_blank": "聞いて[___]。",
+          "english": "Please listen.",
+          "target_answer": "ください",
+          "alternative_answers": [],
+          "hint": "Request",
+          "scramble_blocks": [
+            "聞いて",
+            "ください"
+          ],
+          "audio_text": "聞いてください。",
+          "notes": "Request to listen.",
+          "position": 5
+        },
+        {
+          "japanese": "待ってください。",
+          "japanese_with_blank": "待って[___]。",
+          "english": "Please wait.",
+          "target_answer": "ください",
+          "alternative_answers": [],
+          "hint": "Request",
+          "scramble_blocks": [
+            "待って",
+            "ください"
+          ],
+          "audio_text": "待ってください。",
+          "notes": "Request to wait.",
+          "position": 6
+        },
+        {
+          "japanese": "話してください。",
+          "japanese_with_blank": "話して[___]。",
+          "english": "Please speak.",
+          "target_answer": "ください",
+          "alternative_answers": [],
+          "hint": "Request",
+          "scramble_blocks": [
+            "話して",
+            "ください"
+          ],
+          "audio_text": "話してください。",
+          "notes": "Request to talk.",
+          "position": 7
+        },
+        {
+          "japanese": "来てください。",
+          "japanese_with_blank": "来て[___]。",
+          "english": "Please come.",
+          "target_answer": "ください",
+          "alternative_answers": [],
+          "hint": "Request",
+          "scramble_blocks": [
+            "来て",
+            "ください"
+          ],
+          "audio_text": "来てください。",
+          "notes": "Irregular: 来る → 来て.",
+          "position": 8
+        },
+        {
+          "japanese": "起きてください。",
+          "japanese_with_blank": "起きて[___]。",
+          "english": "Please wake up.",
+          "target_answer": "ください",
+          "alternative_answers": [],
+          "hint": "Request",
+          "scramble_blocks": [
+            "起きて",
+            "ください"
+          ],
+          "audio_text": "起きてください。",
+          "notes": "Request for morning.",
+          "position": 9
+        },
+        {
+          "japanese": "飲んでください。",
+          "japanese_with_blank": "飲んで[___]。",
+          "english": "Please drink.",
+          "target_answer": "ください",
+          "alternative_answers": [],
+          "hint": "Request",
+          "scramble_blocks": [
+            "飲んで",
+            "ください"
+          ],
+          "audio_text": "飲んでください。",
+          "notes": "Request to drink.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

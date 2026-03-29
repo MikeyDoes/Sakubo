@@ -1,0 +1,202 @@
+{
+  "grammar_point": "より〜ほうが",
+  "entry_id": 325480,
+  "categories": [
+    {
+      "id": "comparison_alt",
+      "label": "B Is More Than A",
+      "sentences": [
+        {
+          "japanese": "猫より犬のほうが小さいです。",
+          "japanese_with_blank": "猫より犬[___]小さいです。",
+          "english": "Dogs are smaller than cats.",
+          "target_answer": "のほうが",
+          "alternative_answers": [],
+          "hint": "Comparison",
+          "scramble_blocks": [
+            "猫",
+            "より",
+            "犬",
+            "のほうが",
+            "小さい",
+            "です"
+          ],
+          "audio_text": "猫より犬のほうが小さいです。",
+          "notes": "より〜ほうが emphasizes B over A.",
+          "position": 1
+        },
+        {
+          "japanese": "バスより車のほうがやすいです。",
+          "japanese_with_blank": "バスより車[___]やすいです。",
+          "english": "Cars are cheaper than buses.",
+          "target_answer": "のほうが",
+          "alternative_answers": [],
+          "hint": "Comparison",
+          "scramble_blocks": [
+            "バス",
+            "より",
+            "車",
+            "のほうが",
+            "やすい",
+            "です"
+          ],
+          "audio_text": "バスより車のほうがやすいです。",
+          "notes": "Cost comparison.",
+          "position": 2
+        },
+        {
+          "japanese": "家より学校のほうが小さいです。",
+          "japanese_with_blank": "家より学校[___]小さいです。",
+          "english": "School is smaller than home.",
+          "target_answer": "のほうが",
+          "alternative_answers": [],
+          "hint": "Comparison",
+          "scramble_blocks": [
+            "家",
+            "より",
+            "学校",
+            "のほうが",
+            "小さい",
+            "です"
+          ],
+          "audio_text": "家より学校のほうが小さいです。",
+          "notes": "Size comparison.",
+          "position": 3
+        },
+        {
+          "japanese": "水よりコーヒーのほうがやすいです。",
+          "japanese_with_blank": "水よりコーヒー[___]やすいです。",
+          "english": "Coffee is cheaper than water.",
+          "target_answer": "のほうが",
+          "alternative_answers": [],
+          "hint": "Comparison",
+          "scramble_blocks": [
+            "水",
+            "より",
+            "コーヒー",
+            "のほうが",
+            "やすい",
+            "です"
+          ],
+          "audio_text": "水よりコーヒーのほうがやすいです。",
+          "notes": "Price comparison.",
+          "position": 4
+        },
+        {
+          "japanese": "テレビより本のほうが面白いです。",
+          "japanese_with_blank": "テレビより本[___]面白いです。",
+          "english": "Books are more interesting than TV.",
+          "target_answer": "のほうが",
+          "alternative_answers": [],
+          "hint": "Comparison",
+          "scramble_blocks": [
+            "テレビ",
+            "より",
+            "本",
+            "のほうが",
+            "面白い",
+            "です"
+          ],
+          "audio_text": "テレビより本のほうが面白いです。",
+          "notes": "Entertainment comparison.",
+          "position": 5
+        },
+        {
+          "japanese": "冬より夏のほうが暑いです。",
+          "japanese_with_blank": "冬より夏[___]暑いです。",
+          "english": "Summer is hotter than winter.",
+          "target_answer": "のほうが",
+          "alternative_answers": [],
+          "hint": "Comparison",
+          "scramble_blocks": [
+            "冬",
+            "より",
+            "夏",
+            "のほうが",
+            "暑い",
+            "です"
+          ],
+          "audio_text": "冬より夏のほうが暑いです。",
+          "notes": "Temperature comparison.",
+          "position": 6
+        },
+        {
+          "japanese": "犬より猫のほうが大きいです。",
+          "japanese_with_blank": "犬より猫[___]大きいです。",
+          "english": "Cats are bigger than dogs.",
+          "target_answer": "のほうが",
+          "alternative_answers": [],
+          "hint": "Comparison",
+          "scramble_blocks": [
+            "犬",
+            "より",
+            "猫",
+            "のほうが",
+            "大きい",
+            "です"
+          ],
+          "audio_text": "犬より猫のほうが大きいです。",
+          "notes": "Size one more time.",
+          "position": 7
+        },
+        {
+          "japanese": "先生より学生のほうが有名です。",
+          "japanese_with_blank": "先生より学生[___]有名です。",
+          "english": "The student is more famous than the teacher.",
+          "target_answer": "のほうが",
+          "alternative_answers": [],
+          "hint": "Comparison",
+          "scramble_blocks": [
+            "先生",
+            "より",
+            "学生",
+            "のほうが",
+            "有名",
+            "です"
+          ],
+          "audio_text": "先生より学生のほうが有名です。",
+          "notes": "People comparison.",
+          "position": 8
+        },
+        {
+          "japanese": "本よりテストのほうがやさしいです。",
+          "japanese_with_blank": "本よりテスト[___]やさしいです。",
+          "english": "Tests are easier than books.",
+          "target_answer": "のほうが",
+          "alternative_answers": [],
+          "hint": "Comparison",
+          "scramble_blocks": [
+            "本",
+            "より",
+            "テスト",
+            "のほうが",
+            "やさしい",
+            "です"
+          ],
+          "audio_text": "本よりテストのほうがやさしいです。",
+          "notes": "Difficulty comparison.",
+          "position": 9
+        },
+        {
+          "japanese": "古い車より新しい車のほうがやすいです。",
+          "japanese_with_blank": "古い車より新しい車[___]やすいです。",
+          "english": "New cars are cheaper than old cars.",
+          "target_answer": "のほうが",
+          "alternative_answers": [],
+          "hint": "Comparison",
+          "scramble_blocks": [
+            "古い車",
+            "より",
+            "新しい車",
+            "のほうが",
+            "やすい",
+            "です"
+          ],
+          "audio_text": "古い車より新しい車のほうがやすいです。",
+          "notes": "Price comparison.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "grammar_point": "なくてはならない",
+  "entry_id": 325474,
+  "categories": [
+    {
+      "id": "formal_obligation",
+      "label": "Formal Obligation",
+      "sentences": [
+        {
+          "japanese": "食べなくてはならない。",
+          "japanese_with_blank": "食べ[___]。",
+          "english": "I must eat.",
+          "target_answer": "なくてはならない",
+          "alternative_answers": [],
+          "hint": "Formal obligation",
+          "scramble_blocks": [
+            "食べ",
+            "なくてはならない"
+          ],
+          "audio_text": "食べなくてはならない。",
+          "notes": "なくてはならない is formal obligation.",
+          "position": 1
+        },
+        {
+          "japanese": "見なくてはならない。",
+          "japanese_with_blank": "見[___]。",
+          "english": "I must look.",
+          "target_answer": "なくてはならない",
+          "alternative_answers": [],
+          "hint": "Formal obligation",
+          "scramble_blocks": [
+            "見",
+            "なくてはならない"
+          ],
+          "audio_text": "見なくてはならない。",
+          "notes": "Formal obligation.",
+          "position": 2
+        },
+        {
+          "japanese": "読まなくてはならない。",
+          "japanese_with_blank": "読ま[___]。",
+          "english": "I must read.",
+          "target_answer": "なくてはならない",
+          "alternative_answers": [],
+          "hint": "Formal obligation",
+          "scramble_blocks": [
+            "読ま",
+            "なくてはならない"
+          ],
+          "audio_text": "読まなくてはならない。",
+          "notes": "Formal reading obligation.",
+          "position": 3
+        },
+        {
+          "japanese": "書かなくてはならない。",
+          "japanese_with_blank": "書か[___]。",
+          "english": "I must write.",
+          "target_answer": "なくてはならない",
+          "alternative_answers": [],
+          "hint": "Formal obligation",
+          "scramble_blocks": [
+            "書か",
+            "なくてはならない"
+          ],
+          "audio_text": "書かなくてはならない。",
+          "notes": "Formal writing obligation.",
+          "position": 4
+        },
+        {
+          "japanese": "行かなくてはならない。",
+          "japanese_with_blank": "行か[___]。",
+          "english": "I must go.",
+          "target_answer": "なくてはならない",
+          "alternative_answers": [],
+          "hint": "Formal obligation",
+          "scramble_blocks": [
+            "行か",
+            "なくてはならない"
+          ],
+          "audio_text": "行かなくてはならない。",
+          "notes": "Formal going obligation.",
+          "position": 5
+        },
+        {
+          "japanese": "起きなくてはならない。",
+          "japanese_with_blank": "起き[___]。",
+          "english": "I must wake up.",
+          "target_answer": "なくてはならない",
+          "alternative_answers": [],
+          "hint": "Formal obligation",
+          "scramble_blocks": [
+            "起き",
+            "なくてはならない"
+          ],
+          "audio_text": "起きなくてはならない。",
+          "notes": "Formal morning obligation.",
+          "position": 6
+        },
+        {
+          "japanese": "しなくてはならない。",
+          "japanese_with_blank": "し[___]。",
+          "english": "I must do it.",
+          "target_answer": "なくてはならない",
+          "alternative_answers": [],
+          "hint": "Formal obligation",
+          "scramble_blocks": [
+            "し",
+            "なくてはならない"
+          ],
+          "audio_text": "しなくてはならない。",
+          "notes": "Formal: しなくてはならない.",
+          "position": 7
+        },
+        {
+          "japanese": "来なくてはならない。",
+          "japanese_with_blank": "来[___]。",
+          "english": "I must come.",
+          "target_answer": "なくてはならない",
+          "alternative_answers": [],
+          "hint": "Formal obligation",
+          "scramble_blocks": [
+            "来",
+            "なくてはならない"
+          ],
+          "audio_text": "来なくてはならない。",
+          "notes": "Formal: 来なくてはならない.",
+          "position": 8
+        },
+        {
+          "japanese": "飲まなくてはならない。",
+          "japanese_with_blank": "飲ま[___]。",
+          "english": "I must drink.",
+          "target_answer": "なくてはならない",
+          "alternative_answers": [],
+          "hint": "Formal obligation",
+          "scramble_blocks": [
+            "飲ま",
+            "なくてはならない"
+          ],
+          "audio_text": "飲まなくてはならない。",
+          "notes": "Formal drinking obligation.",
+          "position": 9
+        },
+        {
+          "japanese": "話さなくてはならない。",
+          "japanese_with_blank": "話さ[___]。",
+          "english": "I must speak.",
+          "target_answer": "なくてはならない",
+          "alternative_answers": [],
+          "hint": "Formal obligation",
+          "scramble_blocks": [
+            "話さ",
+            "なくてはならない"
+          ],
+          "audio_text": "話さなくてはならない。",
+          "notes": "Formal speaking obligation.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

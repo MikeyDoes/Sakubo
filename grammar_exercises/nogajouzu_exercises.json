@@ -1,0 +1,172 @@
+{
+  "grammar_point": "のが上手",
+  "entry_id": 325484,
+  "categories": [
+    {
+      "id": "good_at",
+      "label": "Good At",
+      "sentences": [
+        {
+          "japanese": "食べるのが上手です。",
+          "japanese_with_blank": "食べる[___]です。",
+          "english": "I am good at eating.",
+          "target_answer": "のが上手",
+          "alternative_answers": [],
+          "hint": "Good at",
+          "scramble_blocks": [
+            "食べる",
+            "のが上手",
+            "です"
+          ],
+          "audio_text": "食べるのが上手です。",
+          "notes": "のが上手 = \"good at [verb]-ing.\"",
+          "position": 1
+        },
+        {
+          "japanese": "書くのが上手です。",
+          "japanese_with_blank": "書く[___]です。",
+          "english": "I am good at writing.",
+          "target_answer": "のが上手",
+          "alternative_answers": [],
+          "hint": "Good at",
+          "scramble_blocks": [
+            "書く",
+            "のが上手",
+            "です"
+          ],
+          "audio_text": "書くのが上手です。",
+          "notes": "Skill: writing.",
+          "position": 2
+        },
+        {
+          "japanese": "読むのが上手です。",
+          "japanese_with_blank": "読む[___]です。",
+          "english": "I am good at reading.",
+          "target_answer": "のが上手",
+          "alternative_answers": [],
+          "hint": "Good at",
+          "scramble_blocks": [
+            "読む",
+            "のが上手",
+            "です"
+          ],
+          "audio_text": "読むのが上手です。",
+          "notes": "Skill: reading.",
+          "position": 3
+        },
+        {
+          "japanese": "話すのが上手です。",
+          "japanese_with_blank": "話す[___]です。",
+          "english": "I am good at speaking.",
+          "target_answer": "のが上手",
+          "alternative_answers": [],
+          "hint": "Good at",
+          "scramble_blocks": [
+            "話す",
+            "のが上手",
+            "です"
+          ],
+          "audio_text": "話すのが上手です。",
+          "notes": "Skill: speaking.",
+          "position": 4
+        },
+        {
+          "japanese": "飲むのが上手です。",
+          "japanese_with_blank": "飲む[___]です。",
+          "english": "I am good at drinking.",
+          "target_answer": "のが上手",
+          "alternative_answers": [],
+          "hint": "Good at",
+          "scramble_blocks": [
+            "飲む",
+            "のが上手",
+            "です"
+          ],
+          "audio_text": "飲むのが上手です。",
+          "notes": "Skill: drinking.",
+          "position": 5
+        },
+        {
+          "japanese": "走るのが上手です。",
+          "japanese_with_blank": "走る[___]です。",
+          "english": "I am good at running.",
+          "target_answer": "のが上手",
+          "alternative_answers": [],
+          "hint": "Good at",
+          "scramble_blocks": [
+            "走る",
+            "のが上手",
+            "です"
+          ],
+          "audio_text": "走るのが上手です。",
+          "notes": "Athletic skill.",
+          "position": 6
+        },
+        {
+          "japanese": "泳ぐのが上手です。",
+          "japanese_with_blank": "泳ぐ[___]です。",
+          "english": "I am good at swimming.",
+          "target_answer": "のが上手",
+          "alternative_answers": [],
+          "hint": "Good at",
+          "scramble_blocks": [
+            "泳ぐ",
+            "のが上手",
+            "です"
+          ],
+          "audio_text": "泳ぐのが上手です。",
+          "notes": "Swimming skill.",
+          "position": 7
+        },
+        {
+          "japanese": "聞くのが上手です。",
+          "japanese_with_blank": "聞く[___]です。",
+          "english": "I am good at listening.",
+          "target_answer": "のが上手",
+          "alternative_answers": [],
+          "hint": "Good at",
+          "scramble_blocks": [
+            "聞く",
+            "のが上手",
+            "です"
+          ],
+          "audio_text": "聞くのが上手です。",
+          "notes": "Listening skill.",
+          "position": 8
+        },
+        {
+          "japanese": "料理するのが上手です。",
+          "japanese_with_blank": "料理する[___]です。",
+          "english": "I am good at cooking.",
+          "target_answer": "のが上手",
+          "alternative_answers": [],
+          "hint": "Good at",
+          "scramble_blocks": [
+            "料理する",
+            "のが上手",
+            "です"
+          ],
+          "audio_text": "料理するのが上手です。",
+          "notes": "Cooking skill.",
+          "position": 9
+        },
+        {
+          "japanese": "歌うのが上手です。",
+          "japanese_with_blank": "歌う[___]です。",
+          "english": "I am good at singing.",
+          "target_answer": "のが上手",
+          "alternative_answers": [],
+          "hint": "Good at",
+          "scramble_blocks": [
+            "歌う",
+            "のが上手",
+            "です"
+          ],
+          "audio_text": "歌うのが上手です。",
+          "notes": "Singing skill.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

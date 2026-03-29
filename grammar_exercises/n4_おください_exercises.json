@@ -1,0 +1,68 @@
+{
+  "grammar_point": "お～ください",
+  "entry_id": 325627,
+  "categories": [
+    {
+      "id": "honorific_request",
+      "label": "Please Do (Honorific)",
+      "sentences": [
+        {
+          "japanese": "お座りください。",
+          "japanese_with_blank": "[___]。",
+          "english": "Please have a seat. (honorific)",
+          "target_answer": "お座りください",
+          "alternative_answers": [],
+          "hint": "please (hon.)",
+          "scramble_blocks": [
+            "お座りください"
+          ],
+          "audio_text": "お座りください。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "お待ちください。",
+          "japanese_with_blank": "[___]。",
+          "english": "Please wait. (honorific)",
+          "target_answer": "お待ちください",
+          "alternative_answers": [],
+          "hint": "please (hon.)",
+          "scramble_blocks": [
+            "お待ちください"
+          ],
+          "audio_text": "お待ちください。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "お入りください。",
+          "japanese_with_blank": "[___]。",
+          "english": "Please come in. (honorific)",
+          "target_answer": "お入りください",
+          "alternative_answers": [],
+          "hint": "please (hon.)",
+          "scramble_blocks": [
+            "お入りください"
+          ],
+          "audio_text": "お入りください。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "お気をつけてください。",
+          "japanese_with_blank": "[___]。",
+          "english": "Please be careful. (honorific)",
+          "target_answer": "お気をつけてください",
+          "alternative_answers": [],
+          "hint": "please (hon.)",
+          "scramble_blocks": [
+            "お気をつけてください"
+          ],
+          "audio_text": "お気をつけてください。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

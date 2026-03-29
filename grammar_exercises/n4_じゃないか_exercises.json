@@ -1,0 +1,79 @@
+{
+  "grammar_point": "じゃないか",
+  "entry_id": 325549,
+  "categories": [
+    {
+      "id": "confirmation",
+      "label": "Seeking Confirmation",
+      "sentences": [
+        {
+          "japanese": "いい天気じゃないですか。",
+          "japanese_with_blank": "いい天気[___]。",
+          "english": "Isn't it nice weather?",
+          "target_answer": "じゃないですか",
+          "alternative_answers": [
+            "じゃないか"
+          ],
+          "hint": "isn't it?",
+          "scramble_blocks": [
+            "いい",
+            "天気",
+            "じゃないですか"
+          ],
+          "audio_text": "いい天気じゃないですか。",
+          "notes": "じゃないか = confirmation seeking.",
+          "position": 1
+        },
+        {
+          "japanese": "この花、きれいじゃないですか。",
+          "japanese_with_blank": "この花、きれい[___]。",
+          "english": "Isn't this flower pretty?",
+          "target_answer": "じゃないですか",
+          "alternative_answers": [],
+          "hint": "isn't it?",
+          "scramble_blocks": [
+            "この",
+            "花",
+            "きれい",
+            "じゃないですか"
+          ],
+          "audio_text": "この花、きれいじゃないですか。",
+          "notes": "な-adj + じゃないか.",
+          "position": 2
+        },
+        {
+          "japanese": "これ、面白いじゃないですか。",
+          "japanese_with_blank": "これ、面白い[___]。",
+          "english": "This is interesting, isn't it?",
+          "target_answer": "じゃないですか",
+          "alternative_answers": [],
+          "hint": "isn't it?",
+          "scramble_blocks": [
+            "これ",
+            "面白い",
+            "じゃないですか"
+          ],
+          "audio_text": "これ、面白いじゃないですか。",
+          "notes": "い-adj + じゃないか.",
+          "position": 3
+        },
+        {
+          "japanese": "もう遅いじゃないですか。",
+          "japanese_with_blank": "もう遅い[___]。",
+          "english": "It's already late, isn't it?",
+          "target_answer": "じゃないですか",
+          "alternative_answers": [],
+          "hint": "isn't it?",
+          "scramble_blocks": [
+            "もう",
+            "遅い",
+            "じゃないですか"
+          ],
+          "audio_text": "もう遅いじゃないですか。",
+          "notes": "Seeking agreement.",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "grammar_point": "おきに",
+  "entry_id": 326790,
+  "categories": [
+    {
+      "id": "every_interval",
+      "label": "Every; At Intervals Of",
+      "sentences": [
+        {
+          "japanese": "二時間おきに薬を飲みます。",
+          "japanese_with_blank": "二時間[___]薬を飲みます。",
+          "english": "I take medicine every two hours.",
+          "target_answer": "おきに",
+          "alternative_answers": [],
+          "hint": "every",
+          "scramble_blocks": [
+            "二時間",
+            "おきに",
+            "薬",
+            "を",
+            "飲みます"
+          ],
+          "audio_text": "二時間おきに薬を飲みます。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "三十分おきにバスが来ます。",
+          "japanese_with_blank": "三十分[___]バスが来ます。",
+          "english": "A bus comes every 30 minutes.",
+          "target_answer": "おきに",
+          "alternative_answers": [],
+          "hint": "every",
+          "scramble_blocks": [
+            "三十分",
+            "おきに",
+            "バス",
+            "が",
+            "来ます"
+          ],
+          "audio_text": "三十分おきにバスが来ます。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "一日おきに運動しています。",
+          "japanese_with_blank": "一日[___]運動しています。",
+          "english": "I exercise every other day.",
+          "target_answer": "おきに",
+          "alternative_answers": [],
+          "hint": "every other",
+          "scramble_blocks": [
+            "一日",
+            "おきに",
+            "運動しています"
+          ],
+          "audio_text": "一日おきに運動しています。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "五分おきに電車が来ます。",
+          "japanese_with_blank": "五分[___]電車が来ます。",
+          "english": "A train comes every 5 minutes.",
+          "target_answer": "おきに",
+          "alternative_answers": [],
+          "hint": "every",
+          "scramble_blocks": [
+            "五分",
+            "おきに",
+            "電車",
+            "が",
+            "来ます"
+          ],
+          "audio_text": "五分おきに電車が来ます。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

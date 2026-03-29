@@ -1,0 +1,86 @@
+{
+  "grammar_point": "間に",
+  "entry_id": 325595,
+  "categories": [
+    {
+      "id": "while_during",
+      "label": "While / During (Something Happened)",
+      "sentences": [
+        {
+          "japanese": "寝ている間に雨が降りました。",
+          "japanese_with_blank": "寝ている[___]雨が降りました。",
+          "english": "It rained while I was sleeping.",
+          "target_answer": "間に",
+          "alternative_answers": [],
+          "hint": "while",
+          "scramble_blocks": [
+            "寝ている",
+            "間に",
+            "雨",
+            "が",
+            "降りました"
+          ],
+          "audio_text": "寝ている間に雨が降りました。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "旅行している間に荷物が届きました。",
+          "japanese_with_blank": "旅行している[___]荷物が届きました。",
+          "english": "A package arrived while I was traveling.",
+          "target_answer": "間に",
+          "alternative_answers": [],
+          "hint": "while",
+          "scramble_blocks": [
+            "旅行している",
+            "間に",
+            "荷物",
+            "が",
+            "届きました"
+          ],
+          "audio_text": "旅行している間に荷物が届きました。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "待っている間に本を読みました。",
+          "japanese_with_blank": "待っている[___]本を読みました。",
+          "english": "I read a book while waiting.",
+          "target_answer": "間に",
+          "alternative_answers": [],
+          "hint": "while",
+          "scramble_blocks": [
+            "待っている",
+            "間に",
+            "本",
+            "を",
+            "読みました"
+          ],
+          "audio_text": "待っている間に本を読みました。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "夏休みの間にたくさん本を読みました。",
+          "japanese_with_blank": "夏休みの[___]たくさん本を読みました。",
+          "english": "I read many books during summer vacation.",
+          "target_answer": "間に",
+          "alternative_answers": [],
+          "hint": "during",
+          "scramble_blocks": [
+            "夏休み",
+            "の",
+            "間に",
+            "たくさん",
+            "本",
+            "を",
+            "読みました"
+          ],
+          "audio_text": "夏休みの間にたくさん本を読みました。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

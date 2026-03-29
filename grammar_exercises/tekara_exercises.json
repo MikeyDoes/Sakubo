@@ -1,0 +1,162 @@
+{
+  "grammar_point": "てから",
+  "entry_id": 325465,
+  "categories": [
+    {
+      "id": "after_doing",
+      "label": "After Doing",
+      "sentences": [
+        {
+          "japanese": "食べてから行きます。",
+          "japanese_with_blank": "食べて[___]行きます。",
+          "english": "After eating, I go.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "After doing",
+          "scramble_blocks": [
+            "食べてから",
+            "行きます"
+          ],
+          "audio_text": "食べてから行きます。",
+          "notes": "てから marks \"after doing X.\"",
+          "position": 1
+        },
+        {
+          "japanese": "読んでから寝ます。",
+          "japanese_with_blank": "読んで[___]寝ます。",
+          "english": "After reading, I sleep.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "After doing",
+          "scramble_blocks": [
+            "読んでから",
+            "寝ます"
+          ],
+          "audio_text": "読んでから寝ます。",
+          "notes": "Sequence with てから.",
+          "position": 2
+        },
+        {
+          "japanese": "起きてから食べます。",
+          "japanese_with_blank": "起きて[___]食べます。",
+          "english": "After waking up, I eat.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "After doing",
+          "scramble_blocks": [
+            "起きてから",
+            "食べます"
+          ],
+          "audio_text": "起きてから食べます。",
+          "notes": "Morning routine with てから.",
+          "position": 3
+        },
+        {
+          "japanese": "書いてから見せます。",
+          "japanese_with_blank": "書いて[___]見せます。",
+          "english": "After writing, I show.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "After doing",
+          "scramble_blocks": [
+            "書いてから",
+            "見せます"
+          ],
+          "audio_text": "書いてから見せます。",
+          "notes": "Sequential with てから.",
+          "position": 4
+        },
+        {
+          "japanese": "飲んでから帰ります。",
+          "japanese_with_blank": "飲んで[___]帰ります。",
+          "english": "After drinking, I go home.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "After doing",
+          "scramble_blocks": [
+            "飲んでから",
+            "帰ります"
+          ],
+          "audio_text": "飲んでから帰ります。",
+          "notes": "After-action sequence.",
+          "position": 5
+        },
+        {
+          "japanese": "見てから話します。",
+          "japanese_with_blank": "見て[___]話します。",
+          "english": "After watching, I talk.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "After doing",
+          "scramble_blocks": [
+            "見てから",
+            "話します"
+          ],
+          "audio_text": "見てから話します。",
+          "notes": "Two actions in order.",
+          "position": 6
+        },
+        {
+          "japanese": "聞いてから書きます。",
+          "japanese_with_blank": "聞いて[___]書きます。",
+          "english": "After listening, I write.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "After doing",
+          "scramble_blocks": [
+            "聞いてから",
+            "書きます"
+          ],
+          "audio_text": "聞いてから書きます。",
+          "notes": "Learning sequence.",
+          "position": 7
+        },
+        {
+          "japanese": "買ってから帰ります。",
+          "japanese_with_blank": "買って[___]帰ります。",
+          "english": "After buying, I go home.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "After doing",
+          "scramble_blocks": [
+            "買ってから",
+            "帰ります"
+          ],
+          "audio_text": "買ってから帰ります。",
+          "notes": "Shopping sequence.",
+          "position": 8
+        },
+        {
+          "japanese": "話してから食べます。",
+          "japanese_with_blank": "話して[___]食べます。",
+          "english": "After talking, I eat.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "After doing",
+          "scramble_blocks": [
+            "話してから",
+            "食べます"
+          ],
+          "audio_text": "話してから食べます。",
+          "notes": "Social then eating.",
+          "position": 9
+        },
+        {
+          "japanese": "来てから食べます。",
+          "japanese_with_blank": "来て[___]食べます。",
+          "english": "After coming, I eat.",
+          "target_answer": "から",
+          "alternative_answers": [],
+          "hint": "After doing",
+          "scramble_blocks": [
+            "来てから",
+            "食べます"
+          ],
+          "audio_text": "来てから食べます。",
+          "notes": "Arrival then action.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

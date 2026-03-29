@@ -1,0 +1,358 @@
+{
+  "grammar_point": "です",
+  "entry_id": 325422,
+  "categories": [
+    {
+      "id": "noun_predicate",
+      "label": "Noun Predicate",
+      "sentences": [
+        {
+          "japanese": "私は学生です。",
+          "japanese_with_blank": "私は学生[___]。",
+          "english": "I am a student.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "私",
+            "は",
+            "学生",
+            "です"
+          ],
+          "audio_text": "私は学生です。",
+          "notes": "Self-introduction with です.",
+          "position": 1
+        },
+        {
+          "japanese": "先生は女です。",
+          "japanese_with_blank": "先生は女[___]。",
+          "english": "The teacher is a woman.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "先生",
+            "は",
+            "女",
+            "です"
+          ],
+          "audio_text": "先生は女です。",
+          "notes": "Describing a person with a noun predicate.",
+          "position": 2
+        },
+        {
+          "japanese": "これは本です。",
+          "japanese_with_blank": "これは本[___]。",
+          "english": "This is a book.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "これ",
+            "は",
+            "本",
+            "です"
+          ],
+          "audio_text": "これは本です。",
+          "notes": "Identifying an object with これ.",
+          "position": 3
+        },
+        {
+          "japanese": "それは水です。",
+          "japanese_with_blank": "それは水[___]。",
+          "english": "That is water.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "それ",
+            "は",
+            "水",
+            "です"
+          ],
+          "audio_text": "それは水です。",
+          "notes": "Identifying something near the listener.",
+          "position": 4
+        },
+        {
+          "japanese": "あれは学校です。",
+          "japanese_with_blank": "あれは学校[___]。",
+          "english": "That over there is a school.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "あれ",
+            "は",
+            "学校",
+            "です"
+          ],
+          "audio_text": "あれは学校です。",
+          "notes": "Identifying something far from both speakers.",
+          "position": 5
+        },
+        {
+          "japanese": "友達は先生です。",
+          "japanese_with_blank": "友達は先生[___]。",
+          "english": "My friend is a teacher.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "友達",
+            "は",
+            "先生",
+            "です"
+          ],
+          "audio_text": "友達は先生です。",
+          "notes": "Linking two nouns with です.",
+          "position": 6
+        },
+        {
+          "japanese": "ここは店です。",
+          "japanese_with_blank": "ここは店[___]。",
+          "english": "This place is a shop.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "ここ",
+            "は",
+            "店",
+            "です"
+          ],
+          "audio_text": "ここは店です。",
+          "notes": "Identifying a location.",
+          "position": 7
+        },
+        {
+          "japanese": "名前は何です。",
+          "japanese_with_blank": "名前は何[___]。",
+          "english": "What is your name?",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "名前",
+            "は",
+            "何",
+            "です"
+          ],
+          "audio_text": "名前は何です。",
+          "notes": "Question using 何 with です. Often used with か.",
+          "position": 8
+        },
+        {
+          "japanese": "子供は男です。",
+          "japanese_with_blank": "子供は男[___]。",
+          "english": "The child is a boy.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "子供",
+            "は",
+            "男",
+            "です"
+          ],
+          "audio_text": "子供は男です。",
+          "notes": "Describing a person with a noun predicate.",
+          "position": 9
+        },
+        {
+          "japanese": "あれは犬です。",
+          "japanese_with_blank": "あれは犬[___]。",
+          "english": "That over there is a dog.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "あれ",
+            "は",
+            "犬",
+            "です"
+          ],
+          "audio_text": "あれは犬です。",
+          "notes": "Identifying an animal at a distance.",
+          "position": 10
+        }
+      ]
+    },
+    {
+      "id": "identifying_objects",
+      "label": "Identifying Things",
+      "sentences": [
+        {
+          "japanese": "これはケーキです。",
+          "japanese_with_blank": "これはケーキ[___]。",
+          "english": "This is a cake.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "これ",
+            "は",
+            "ケーキ",
+            "です"
+          ],
+          "audio_text": "これはケーキです。",
+          "notes": "Identifying food with です.",
+          "position": 11
+        },
+        {
+          "japanese": "それはカメラです。",
+          "japanese_with_blank": "それはカメラ[___]。",
+          "english": "That is a camera.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "それ",
+            "は",
+            "カメラ",
+            "です"
+          ],
+          "audio_text": "それはカメラです。",
+          "notes": "Identifying an object near the listener.",
+          "position": 12
+        },
+        {
+          "japanese": "あれはホテルです。",
+          "japanese_with_blank": "あれはホテル[___]。",
+          "english": "That over there is a hotel.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "あれ",
+            "は",
+            "ホテル",
+            "です"
+          ],
+          "audio_text": "あれはホテルです。",
+          "notes": "Identifying a building at a distance.",
+          "position": 13
+        },
+        {
+          "japanese": "これはコーヒーです。",
+          "japanese_with_blank": "これはコーヒー[___]。",
+          "english": "This is coffee.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "これ",
+            "は",
+            "コーヒー",
+            "です"
+          ],
+          "audio_text": "これはコーヒーです。",
+          "notes": "Identifying a drink.",
+          "position": 14
+        },
+        {
+          "japanese": "それはテレビです。",
+          "japanese_with_blank": "それはテレビ[___]。",
+          "english": "That is a television.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "それ",
+            "は",
+            "テレビ",
+            "です"
+          ],
+          "audio_text": "それはテレビです。",
+          "notes": "Identifying an appliance.",
+          "position": 15
+        },
+        {
+          "japanese": "あれはレストランです。",
+          "japanese_with_blank": "あれはレストラン[___]。",
+          "english": "That over there is a restaurant.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "あれ",
+            "は",
+            "レストラン",
+            "です"
+          ],
+          "audio_text": "あれはレストランです。",
+          "notes": "Identifying a place to eat.",
+          "position": 16
+        },
+        {
+          "japanese": "これはペンです。",
+          "japanese_with_blank": "これはペン[___]。",
+          "english": "This is a pen.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "これ",
+            "は",
+            "ペン",
+            "です"
+          ],
+          "audio_text": "これはペンです。",
+          "notes": "Identifying a writing tool.",
+          "position": 17
+        },
+        {
+          "japanese": "ここはデパートです。",
+          "japanese_with_blank": "ここはデパート[___]。",
+          "english": "This place is a department store.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "ここ",
+            "は",
+            "デパート",
+            "です"
+          ],
+          "audio_text": "ここはデパートです。",
+          "notes": "Identifying a location.",
+          "position": 18
+        },
+        {
+          "japanese": "それはノートです。",
+          "japanese_with_blank": "それはノート[___]。",
+          "english": "That is a notebook.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "それ",
+            "は",
+            "ノート",
+            "です"
+          ],
+          "audio_text": "それはノートです。",
+          "notes": "Identifying a study item.",
+          "position": 19
+        },
+        {
+          "japanese": "ここはプールです。",
+          "japanese_with_blank": "ここはプール[___]。",
+          "english": "This place is a pool.",
+          "target_answer": "です",
+          "alternative_answers": [],
+          "hint": "Polite",
+          "scramble_blocks": [
+            "ここ",
+            "は",
+            "プール",
+            "です"
+          ],
+          "audio_text": "ここはプールです。",
+          "notes": "Identifying a recreation area.",
+          "position": 20
+        }
+      ]
+    }
+  ]
+}

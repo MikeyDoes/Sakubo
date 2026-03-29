@@ -1,0 +1,168 @@
+{
+  "grammar_point": "なる",
+  "entry_id": 325497,
+  "categories": [
+    {
+      "id": "i_adj_become",
+      "label": "い-adj: くなる",
+      "sentences": [
+        {
+          "japanese": "大きくなりました。",
+          "japanese_with_blank": "大きく[___]。",
+          "english": "It became big.",
+          "target_answer": "なりました",
+          "alternative_answers": [],
+          "hint": "Became",
+          "scramble_blocks": [
+            "大きく",
+            "なりました"
+          ],
+          "audio_text": "大きくなりました。",
+          "notes": "い-adj → くなる to express becoming.",
+          "position": 1
+        },
+        {
+          "japanese": "小さくなりました。",
+          "japanese_with_blank": "小さく[___]。",
+          "english": "It became small.",
+          "target_answer": "なりました",
+          "alternative_answers": [],
+          "hint": "Became",
+          "scramble_blocks": [
+            "小さく",
+            "なりました"
+          ],
+          "audio_text": "小さくなりました。",
+          "notes": "Size change.",
+          "position": 2
+        },
+        {
+          "japanese": "高くなりました。",
+          "japanese_with_blank": "高く[___]。",
+          "english": "It became expensive.",
+          "target_answer": "なりました",
+          "alternative_answers": [],
+          "hint": "Became",
+          "scramble_blocks": [
+            "高く",
+            "なりました"
+          ],
+          "audio_text": "高くなりました。",
+          "notes": "Price increase.",
+          "position": 3
+        },
+        {
+          "japanese": "安くなりました。",
+          "japanese_with_blank": "安く[___]。",
+          "english": "It became cheap.",
+          "target_answer": "なりました",
+          "alternative_answers": [],
+          "hint": "Became",
+          "scramble_blocks": [
+            "安く",
+            "なりました"
+          ],
+          "audio_text": "安くなりました。",
+          "notes": "Price decrease.",
+          "position": 4
+        },
+        {
+          "japanese": "暑くなりました。",
+          "japanese_with_blank": "暑く[___]。",
+          "english": "It became hot.",
+          "target_answer": "なりました",
+          "alternative_answers": [],
+          "hint": "Became",
+          "scramble_blocks": [
+            "暑く",
+            "なりました"
+          ],
+          "audio_text": "暑くなりました。",
+          "notes": "Temperature increase.",
+          "position": 5
+        }
+      ]
+    },
+    {
+      "id": "na_noun_become",
+      "label": "な-adj/Noun: になる",
+      "sentences": [
+        {
+          "japanese": "元気になりました。",
+          "japanese_with_blank": "元気に[___]。",
+          "english": "I became well.",
+          "target_answer": "なりました",
+          "alternative_answers": [],
+          "hint": "Became",
+          "scramble_blocks": [
+            "元気に",
+            "なりました"
+          ],
+          "audio_text": "元気になりました。",
+          "notes": "な-adj → になる to express change.",
+          "position": 6
+        },
+        {
+          "japanese": "静かになりました。",
+          "japanese_with_blank": "静かに[___]。",
+          "english": "It became quiet.",
+          "target_answer": "なりました",
+          "alternative_answers": [],
+          "hint": "Became",
+          "scramble_blocks": [
+            "静かに",
+            "なりました"
+          ],
+          "audio_text": "静かになりました。",
+          "notes": "Atmosphere change.",
+          "position": 7
+        },
+        {
+          "japanese": "上手になりました。",
+          "japanese_with_blank": "上手に[___]。",
+          "english": "I became good at it.",
+          "target_answer": "なりました",
+          "alternative_answers": [],
+          "hint": "Became",
+          "scramble_blocks": [
+            "上手に",
+            "なりました"
+          ],
+          "audio_text": "上手になりました。",
+          "notes": "Skill improvement.",
+          "position": 8
+        },
+        {
+          "japanese": "先生になりました。",
+          "japanese_with_blank": "先生に[___]。",
+          "english": "He became a teacher.",
+          "target_answer": "なりました",
+          "alternative_answers": [],
+          "hint": "Became",
+          "scramble_blocks": [
+            "先生に",
+            "なりました"
+          ],
+          "audio_text": "先生になりました。",
+          "notes": "Noun + になる for role change.",
+          "position": 9
+        },
+        {
+          "japanese": "大人になりました。",
+          "japanese_with_blank": "大人に[___]。",
+          "english": "He became an adult.",
+          "target_answer": "なりました",
+          "alternative_answers": [],
+          "hint": "Became",
+          "scramble_blocks": [
+            "大人に",
+            "なりました"
+          ],
+          "audio_text": "大人になりました。",
+          "notes": "Life stage change.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

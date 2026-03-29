@@ -1,0 +1,162 @@
+{
+  "grammar_point": "なあ",
+  "entry_id": 325433,
+  "categories": [
+    {
+      "id": "musing",
+      "label": "Musing / Feeling",
+      "sentences": [
+        {
+          "japanese": "いい天気だなあ。",
+          "japanese_with_blank": "いい天気だ[___]。",
+          "english": "What nice weather, huh.",
+          "target_answer": "なあ",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "いい天気だ",
+            "なあ"
+          ],
+          "audio_text": "いい天気だなあ。",
+          "notes": "なあ expresses musing or soft emotion.",
+          "position": 1
+        },
+        {
+          "japanese": "美味しいなあ。",
+          "japanese_with_blank": "美味しい[___]。",
+          "english": "That's delicious, hmm.",
+          "target_answer": "なあ",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "美味しい",
+            "なあ"
+          ],
+          "audio_text": "美味しいなあ。",
+          "notes": "Savoring expression.",
+          "position": 2
+        },
+        {
+          "japanese": "面白いなあ。",
+          "japanese_with_blank": "面白い[___]。",
+          "english": "That's interesting, huh.",
+          "target_answer": "なあ",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "面白い",
+            "なあ"
+          ],
+          "audio_text": "面白いなあ。",
+          "notes": "Interest musing.",
+          "position": 3
+        },
+        {
+          "japanese": "大きいなあ。",
+          "japanese_with_blank": "大きい[___]。",
+          "english": "That's big, huh.",
+          "target_answer": "なあ",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "大きい",
+            "なあ"
+          ],
+          "audio_text": "大きいなあ。",
+          "notes": "Size musing.",
+          "position": 4
+        },
+        {
+          "japanese": "高いなあ。",
+          "japanese_with_blank": "高い[___]。",
+          "english": "That's expensive, hmm.",
+          "target_answer": "なあ",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "高い",
+            "なあ"
+          ],
+          "audio_text": "高いなあ。",
+          "notes": "Price musing.",
+          "position": 5
+        },
+        {
+          "japanese": "忙しいなあ。",
+          "japanese_with_blank": "忙しい[___]。",
+          "english": "I'm busy, huh.",
+          "target_answer": "なあ",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "忙しい",
+            "なあ"
+          ],
+          "audio_text": "忙しいなあ。",
+          "notes": "Self-reflection.",
+          "position": 6
+        },
+        {
+          "japanese": "寒いなあ。",
+          "japanese_with_blank": "寒い[___]。",
+          "english": "It's cold, huh.",
+          "target_answer": "なあ",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "寒い",
+            "なあ"
+          ],
+          "audio_text": "寒いなあ。",
+          "notes": "Weather musing.",
+          "position": 7
+        },
+        {
+          "japanese": "行きたいなあ。",
+          "japanese_with_blank": "行きたい[___]。",
+          "english": "I want to go, hmm.",
+          "target_answer": "なあ",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "行きたい",
+            "なあ"
+          ],
+          "audio_text": "行きたいなあ。",
+          "notes": "Desire musing.",
+          "position": 8
+        },
+        {
+          "japanese": "食べたいなあ。",
+          "japanese_with_blank": "食べたい[___]。",
+          "english": "I want to eat, hmm.",
+          "target_answer": "なあ",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "食べたい",
+            "なあ"
+          ],
+          "audio_text": "食べたいなあ。",
+          "notes": "Hunger musing.",
+          "position": 9
+        },
+        {
+          "japanese": "眠いなあ。",
+          "japanese_with_blank": "眠い[___]。",
+          "english": "I'm sleepy, huh.",
+          "target_answer": "なあ",
+          "alternative_answers": [],
+          "hint": "Musing",
+          "scramble_blocks": [
+            "眠い",
+            "なあ"
+          ],
+          "audio_text": "眠いなあ。",
+          "notes": "Tiredness musing.",
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

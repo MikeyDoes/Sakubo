@@ -1,0 +1,84 @@
+{
+  "grammar_point": "ようと思う",
+  "entry_id": 325615,
+  "categories": [
+    {
+      "id": "planning",
+      "label": "Thinking of Doing",
+      "sentences": [
+        {
+          "japanese": "来年日本に行こうと思っています。",
+          "japanese_with_blank": "来年日本に行こう[___]。",
+          "english": "I'm thinking of going to Japan next year.",
+          "target_answer": "と思っています",
+          "alternative_answers": [],
+          "hint": "thinking of",
+          "scramble_blocks": [
+            "来年",
+            "日本",
+            "に",
+            "行こう",
+            "と思っています"
+          ],
+          "audio_text": "来年日本に行こうと思っています。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "新しい仕事を探そうと思います。",
+          "japanese_with_blank": "新しい仕事を探そう[___]。",
+          "english": "I'm thinking of looking for a new job.",
+          "target_answer": "と思います",
+          "alternative_answers": [],
+          "hint": "thinking of",
+          "scramble_blocks": [
+            "新しい",
+            "仕事",
+            "を",
+            "探そう",
+            "と思います"
+          ],
+          "audio_text": "新しい仕事を探そうと思います。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "明日から運動しようと思います。",
+          "japanese_with_blank": "明日から運動しよう[___]。",
+          "english": "I'm thinking of exercising starting tomorrow.",
+          "target_answer": "と思います",
+          "alternative_answers": [],
+          "hint": "thinking of",
+          "scramble_blocks": [
+            "明日",
+            "から",
+            "運動しよう",
+            "と思います"
+          ],
+          "audio_text": "明日から運動しようと思います。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "日本語の本を読もうと思っています。",
+          "japanese_with_blank": "日本語の本を読もう[___]。",
+          "english": "I'm thinking of reading a Japanese book.",
+          "target_answer": "と思っています",
+          "alternative_answers": [],
+          "hint": "thinking of",
+          "scramble_blocks": [
+            "日本語",
+            "の",
+            "本",
+            "を",
+            "読もう",
+            "と思っています"
+          ],
+          "audio_text": "日本語の本を読もうと思っています。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}

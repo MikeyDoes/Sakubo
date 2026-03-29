@@ -1,0 +1,84 @@
+{
+  "grammar_point": "頃",
+  "entry_id": 326789,
+  "categories": [
+    {
+      "id": "approximate_time",
+      "label": "Around; About (Time)",
+      "sentences": [
+        {
+          "japanese": "六時頃に起きます。",
+          "japanese_with_blank": "六時[___]に起きます。",
+          "english": "I wake up around 6 o'clock.",
+          "target_answer": "頃",
+          "alternative_answers": [],
+          "hint": "around",
+          "scramble_blocks": [
+            "六時",
+            "頃",
+            "に",
+            "起きます"
+          ],
+          "audio_text": "六時頃に起きます。",
+          "notes": "",
+          "position": 1
+        },
+        {
+          "japanese": "三時頃に会いましょう。",
+          "japanese_with_blank": "三時[___]に会いましょう。",
+          "english": "Let's meet around 3 o'clock.",
+          "target_answer": "頃",
+          "alternative_answers": [],
+          "hint": "around",
+          "scramble_blocks": [
+            "三時",
+            "頃",
+            "に",
+            "会いましょう"
+          ],
+          "audio_text": "三時頃に会いましょう。",
+          "notes": "",
+          "position": 2
+        },
+        {
+          "japanese": "子供の頃よく遊びました。",
+          "japanese_with_blank": "子供の[___]よく遊びました。",
+          "english": "I played a lot when I was a child.",
+          "target_answer": "頃",
+          "alternative_answers": [],
+          "hint": "around (time)",
+          "scramble_blocks": [
+            "子供",
+            "の",
+            "頃",
+            "よく",
+            "遊びました"
+          ],
+          "audio_text": "子供の頃よく遊びました。",
+          "notes": "",
+          "position": 3
+        },
+        {
+          "japanese": "来週の月曜日頃届く予定です。",
+          "japanese_with_blank": "来週の月曜日[___]届く予定です。",
+          "english": "It's expected to arrive around next Monday.",
+          "target_answer": "頃",
+          "alternative_answers": [],
+          "hint": "around",
+          "scramble_blocks": [
+            "来週",
+            "の",
+            "月曜日",
+            "頃",
+            "届く",
+            "予定",
+            "です"
+          ],
+          "audio_text": "来週の月曜日頃届く予定です。",
+          "notes": "",
+          "position": 4
+        }
+      ]
+    }
+  ]
+}
