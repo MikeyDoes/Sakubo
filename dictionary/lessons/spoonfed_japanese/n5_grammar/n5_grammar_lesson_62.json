@@ -7,5 +7,12 @@
     {
       "entry_id": 325501
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Soft Reason: ので",
+      "body": "ので expresses reason softly and politely — 'because / since / so.'\n\nPattern: [plain/polite clause]ので, [result]\n\n• 疲れているので、早く帰ります。\n(Since I'm tired, I'll go home early.)\n• 明日試験があるので、今日は勉強します。\n(I have an exam tomorrow, so I'll study today.)\n\nな/の before ので:\n• 静かなので (because it's quiet — な-adj)\n• 先生なので (because I'm a teacher — noun)\n\nKey difference:\n• ので — polite, objective reason\n• から — direct, personal reason; more casual"
+    }
   ]
 }

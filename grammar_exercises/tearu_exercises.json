@@ -73,7 +73,7 @@
         {
           "japanese": "本が書いてある。",
           "japanese_with_blank": "本が書いて[___]。",
-          "english": "It is written in the book.",
+          "english": "The book has been written.",
           "target_answer": "ある",
           "alternative_answers": [],
           "hint": "Resulting state",
@@ -103,19 +103,19 @@
           "position": 6
         },
         {
-          "japanese": "ペンが書いてある。",
-          "japanese_with_blank": "ペンが書いて[___]。",
-          "english": "The pen has been written with.",
+          "japanese": "手紙が書いてある。",
+          "japanese_with_blank": "手紙が書いて[___]。",
+          "english": "A letter has been written.",
           "target_answer": "ある",
           "alternative_answers": [],
           "hint": "Resulting state",
           "scramble_blocks": [
-            "ペン",
+            "手紙",
             "が",
             "書いてある"
           ],
-          "audio_text": "ペンが書いてある。",
-          "notes": "Resulting use state.",
+          "audio_text": "手紙が書いてある。",
+          "notes": "Resulting state of writing.",
           "position": 7
         },
         {

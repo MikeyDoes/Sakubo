@@ -242,7 +242,7 @@
             "です",
             "か"
           ],
-          "audio_text": "名前は何ですか。",
+          "audio_text": "名前はなんですか。",
           "notes": "Asking for a name with 何.",
           "position": 13
         },
@@ -283,21 +283,21 @@
           "position": 15
         },
         {
-          "japanese": "ここは何ですか。",
-          "japanese_with_blank": "ここは何です[___]。",
-          "english": "What is this place?",
+          "japanese": "これは何ですか。",
+          "japanese_with_blank": "これは何です[___]。",
+          "english": "What is this?",
           "target_answer": "か",
           "alternative_answers": [],
           "hint": "Question",
           "scramble_blocks": [
-            "ここ",
+            "これ",
             "は",
             "何",
             "です",
             "か"
           ],
-          "audio_text": "ここは何ですか。",
-          "notes": "Asking about the current location.",
+          "audio_text": "これはなんですか。",
+          "notes": "Asking about an object with 何.",
           "position": 16
         },
         {

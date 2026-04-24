@@ -119,19 +119,19 @@
           "position": 7
         },
         {
-          "japanese": "起きる前に寝ます。",
-          "japanese_with_blank": "起きる[___]寝ます。",
-          "english": "Before waking up... I sleep.",
+          "japanese": "出かける前に食べます。",
+          "japanese_with_blank": "出かける[___]食べます。",
+          "english": "Before going out, I eat.",
           "target_answer": "前に",
           "alternative_answers": [],
           "hint": "Before",
           "scramble_blocks": [
-            "起きる",
+            "出かける",
             "前に",
-            "寝ます"
+            "食べます"
           ],
-          "audio_text": "起きる前に寝ます。",
-          "notes": "Obvious but grammatical.",
+          "audio_text": "出かける前に食べます。",
+          "notes": "Pre-outing meal.",
           "position": 8
         },
         {

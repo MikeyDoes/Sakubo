@@ -7,5 +7,12 @@
     {
       "entry_id": 325462
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Progressive Tense: ている",
+      "body": "ている (polite: ています) has two key meanings:\n\n1. Action in progress (like English '-ing'):\n• 今、食べています。(I am eating right now.)\n• 雨が降っている。(It is raining.)\n\n2. Resulting state (from a completed action):\n• 結婚しています。(I am married — result of marrying)\n• 窓が開いている。(The window is open — result of opening)\n• 知っている。(I know — result of having learned)\n\nIn casual speech, ている often contracts:\n• 食べている → 食べてる • しています → してます"
+    }
   ]
 }

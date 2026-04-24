@@ -7,5 +7,12 @@
     {
       "entry_id": 326761
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Polite Past: ました",
+      "body": "ました is the polite past affirmative verb ending.\n\nFormation: [verb stem] + ました\n• 食べました (ate) • 話しました (spoke) • しました (did) • きました (came)\n\n• 昨日映画を見ました。(I watched a movie yesterday.)\n• 東京に行きました。(I went to Tokyo.)\n\nPast negative: ませんでした\n• 昨日は来ませんでした。(I didn't come yesterday.)\n\nNote: Japanese past doesn't distinguish 'I ate' vs 'I have eaten' — context clarifies."
+    }
   ]
 }

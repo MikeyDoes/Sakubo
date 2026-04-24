@@ -7,32 +7,32 @@
       "label": "Casual Assertion",
       "sentences": [
         {
-          "japanese": "大丈夫ださ。",
-          "japanese_with_blank": "大丈夫だ[___]。",
+          "japanese": "大丈夫さ。",
+          "japanese_with_blank": "大丈夫[___]。",
           "english": "It's fine, you know.",
           "target_answer": "さ",
           "alternative_answers": [],
           "hint": "Y'know",
           "scramble_blocks": [
-            "大丈夫だ",
+            "大丈夫",
             "さ"
           ],
-          "audio_text": "大丈夫ださ。",
-          "notes": "さ adds casual assertion.",
+          "audio_text": "大丈夫さ。",
+          "notes": "さ replaces だ for casual assertion.",
           "position": 1
         },
         {
-          "japanese": "行くよさ。",
-          "japanese_with_blank": "行くよ[___]。",
+          "japanese": "行くさ。",
+          "japanese_with_blank": "行く[___]。",
           "english": "I'm going, y'know.",
           "target_answer": "さ",
           "alternative_answers": [],
           "hint": "Y'know",
           "scramble_blocks": [
-            "行くよ",
+            "行く",
             "さ"
           ],
-          "audio_text": "行くよさ。",
+          "audio_text": "行くさ。",
           "notes": "Casual departure.",
           "position": 2
         },
@@ -82,47 +82,47 @@
           "position": 5
         },
         {
-          "japanese": "簡単ださ。",
-          "japanese_with_blank": "簡単だ[___]。",
+          "japanese": "簡単さ。",
+          "japanese_with_blank": "簡単[___]。",
           "english": "It's easy, y'know.",
           "target_answer": "さ",
           "alternative_answers": [],
           "hint": "Y'know",
           "scramble_blocks": [
-            "簡単だ",
+            "簡単",
             "さ"
           ],
-          "audio_text": "簡単ださ。",
+          "audio_text": "簡単さ。",
           "notes": "Casual assessment.",
           "position": 6
         },
         {
-          "japanese": "本当ださ。",
-          "japanese_with_blank": "本当だ[___]。",
+          "japanese": "本当さ。",
+          "japanese_with_blank": "本当[___]。",
           "english": "It's true, y'know.",
           "target_answer": "さ",
           "alternative_answers": [],
           "hint": "Y'know",
           "scramble_blocks": [
-            "本当だ",
+            "本当",
             "さ"
           ],
-          "audio_text": "本当ださ。",
+          "audio_text": "本当さ。",
           "notes": "Casual truth.",
           "position": 7
         },
         {
-          "japanese": "好きださ。",
-          "japanese_with_blank": "好きだ[___]。",
+          "japanese": "好きさ。",
+          "japanese_with_blank": "好き[___]。",
           "english": "I like it, y'know.",
           "target_answer": "さ",
           "alternative_answers": [],
           "hint": "Y'know",
           "scramble_blocks": [
-            "好きだ",
+            "好き",
             "さ"
           ],
-          "audio_text": "好きださ。",
+          "audio_text": "好きさ。",
           "notes": "Casual preference.",
           "position": 8
         },
@@ -142,17 +142,17 @@
           "position": 9
         },
         {
-          "japanese": "いいよさ。",
-          "japanese_with_blank": "いいよ[___]。",
+          "japanese": "いいさ。",
+          "japanese_with_blank": "いい[___]。",
           "english": "It's good, y'know.",
           "target_answer": "さ",
           "alternative_answers": [],
           "hint": "Y'know",
           "scramble_blocks": [
-            "いいよ",
+            "いい",
             "さ"
           ],
-          "audio_text": "いいよさ。",
+          "audio_text": "いいさ。",
           "notes": "Casual approval.",
           "position": 10
         }

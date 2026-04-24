@@ -7,5 +7,12 @@
     {
       "entry_id": 325421
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Plain Copula: だ",
+      "body": "だ is the plain/casual form of です — used in informal speech and as base for many grammar patterns.\n\n• これは本だ。(This is a book.)\n• 彼は先生だ。(He is a teacher.)\n\nPlain form chart for nouns/な-adj:\n• Present: だ / Negative: じゃない\n• Past: だった / Past neg: じゃなかった\n\nNote: だ sounds direct/blunt. Use です for polite speech.\nだ is required before certain particles:\n• 静かだから (because it's quiet)\n• 元気なの？(Are you well? — note: な before の/か)"
+    }
   ]
 }

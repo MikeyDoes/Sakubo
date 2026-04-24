@@ -1,13 +1,6 @@
 {
   "title": "Lesson 18: (Kana) - Lesson 18: (Hiragana) \"や, ゆ, よ\"",
   "lesson_type": "kana",
-  "intro_cards": [
-    {
-      "card_type": "teaching",
-      "title": "Combination Sounds (Yōon)",
-      "body": "Small versions of や, ゆ, よ combine with characters ending in an 'i' sound to form new syllables:\n\nき + ゃ = きゃ (kya)\nし + ゅ = しゅ (shu)\nち + ょ = ちょ (cho)\n\nThis works with: き, し, ち, に, ひ, み, り — and their dakuten forms (ぎ, じ, び, ぴ).\n\nThe small ゃ, ゅ, ょ are written smaller than normal. Each combination counts as one syllable."
-    }
-  ],
   "items": [
     {
       "entry_id": 325168,

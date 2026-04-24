@@ -7,5 +7,12 @@
     {
       "entry_id": 325500
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Requesting Items: をください",
+      "body": "をください politely asks someone to give you something.\n\nPattern: [thing]をください\n\n• 水をください。(Water, please.)\n• メニューをください。(Can I have a menu?)\n• 領収書をください。(A receipt, please.)\n\nIn restaurants/shops:\n• コーヒーを一つください。(One coffee, please.)\n• これをください。(I'll take this one, please.)\n\nMore polite: をいただけますか\n\nNote: ください alone (after te-form) = 'please (do)': 来てください"
+    }
   ]
 }

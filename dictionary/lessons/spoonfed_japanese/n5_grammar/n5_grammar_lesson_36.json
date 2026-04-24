@@ -7,5 +7,12 @@
     {
       "entry_id": 325465
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Sequential Action: てから",
+      "body": "てから means 'after doing ~' — one action is completed before the next.\n\nPattern: [verb て-form] + から + [next action]\n\n• 手を洗ってから食べます。\n(I will eat after washing my hands.)\n• 宿題をしてから遊びます。\n(I will play after doing homework.)\n\n前に vs てから:\n• 食べる前に手を洗う (wash hands BEFORE eating)\n• 手を洗ってから食べる (eat AFTER washing hands)\n\nNote: The action after てから must come second in real time."
+    }
   ]
 }

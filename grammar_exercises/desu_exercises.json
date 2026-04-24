@@ -126,8 +126,8 @@
           "position": 7
         },
         {
-          "japanese": "名前は何です。",
-          "japanese_with_blank": "名前は何[___]。",
+          "japanese": "名前は何ですか。",
+          "japanese_with_blank": "名前は何[___]か。",
           "english": "What is your name?",
           "target_answer": "です",
           "alternative_answers": [],
@@ -136,10 +136,11 @@
             "名前",
             "は",
             "何",
-            "です"
+            "です",
+            "か"
           ],
-          "audio_text": "名前は何です。",
-          "notes": "Question using 何 with です. Often used with か.",
+          "audio_text": "名前はなんですか。",
+          "notes": "Question using 何 with ですか.",
           "position": 8
         },
         {

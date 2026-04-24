@@ -7,5 +7,12 @@
     {
       "entry_id": 325506
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Casual Assertion: さ",
+      "body": "さ is a casual sentence-final particle that lightly asserts or softens a statement.\n\n• 大丈夫さ。(It'll be fine.)\n• 別にいいさ。(It doesn't matter, really.)\n• そんなもんさ。(That's just how it is.)\n\nさ mid-sentence can be a filler ('you know' / 'well'):\n• それでさ、彼が来たんだよ。(And so, like, he showed up.)\n\nさ can also be a noun-forming suffix for い-adjectives:\n• 大きさ (bigness / size) • 高さ (height)\n\nContext tells these apart."
+    }
   ]
 }

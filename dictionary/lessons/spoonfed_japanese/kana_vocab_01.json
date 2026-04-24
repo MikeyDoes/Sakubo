@@ -10,6 +10,18 @@
   ],
   "items": [
     {
+      "entry_id": 282148,
+      "kana": "いい",
+      "gloss": "good; excellent; fine; nice; pleasant",
+      "card_type": "vocab"
+    },
+    {
+      "entry_id": 36352,
+      "kana": "ええ",
+      "gloss": "yes (relaxed); that is correct; right",
+      "card_type": "vocab"
+    },
+    {
       "entry_id": 326648,
       "kana": "ここ",
       "gloss": "here; this place",
@@ -31,18 +43,6 @@
       "entry_id": 326336,
       "kana": "いいえ",
       "gloss": "no; nay",
-      "card_type": "vocab"
-    },
-    {
-      "entry_id": 36352,
-      "kana": "ええ",
-      "gloss": "yes (relaxed); that is correct; right",
-      "card_type": "vocab"
-    },
-    {
-      "entry_id": 282148,
-      "kana": "いい",
-      "gloss": "good; excellent; fine; nice; pleasant",
       "card_type": "vocab"
     }
   ],

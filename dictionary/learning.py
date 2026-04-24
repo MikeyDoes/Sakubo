@@ -32,6 +32,8 @@ from datetime import datetime, timedelta
 import json
 import uuid
 import random
+import logging
+_log = logging.getLogger('LessonDrill')
 from . import db as dict_db
 
 DEFAULT_SLOTS = 7
@@ -658,8 +660,10 @@ def make_grammar_cloze_vectors(entry_id: int, grammar_point: str,
     An initial ``exercise_data`` is populated so the first display already has
     content, but ``_load_current_drill`` will swap it on each subsequent show.
     """
-    categories = list(exercise_pool.keys())
-    random.shuffle(categories)
+    # Sort categories for deterministic slot assignment — this keeps vector IDs
+    # stable across sessions so SRS promotion look-ups always match.
+    # Variety comes from pick_fresh_grammar_exercise rotating exercises at display time.
+    categories = sorted(exercise_pool.keys())
 
     # Round-robin to choose which categories get slots
     slots: List[str] = []  # ordered list of category names
@@ -709,8 +713,7 @@ def make_grammar_translate_vectors(entry_id: int, grammar_point: str,
     The user sees the English translation and must type the full Japanese
     sentence.  Mirrors :func:`make_grammar_cloze_vectors` layout.
     """
-    categories = list(exercise_pool.keys())
-    random.shuffle(categories)
+    categories = sorted(exercise_pool.keys())
 
     slots: List[str] = []
     cat_counts: Dict[str, int] = {c: 0 for c in categories}
@@ -758,8 +761,7 @@ def make_grammar_dictation_vectors(entry_id: int, grammar_point: str,
     The user hears the Japanese sentence via TTS and must type it.
     Mirrors :func:`make_grammar_translate_vectors` layout.
     """
-    categories = list(exercise_pool.keys())
-    random.shuffle(categories)
+    categories = sorted(exercise_pool.keys())
 
     slots: List[str] = []
     cat_counts: Dict[str, int] = {c: 0 for c in categories}
@@ -829,8 +831,7 @@ def make_grammar_scramble_vectors(entry_id: int, grammar_point: str,
     sentence (joined blocks, punctuation stripped).  Shuffling happens at
     display time so repeated views get different orderings.
     """
-    categories = list(exercise_pool.keys())
-    random.shuffle(categories)
+    categories = sorted(exercise_pool.keys())
 
     slots: List[str] = []
     cat_counts: Dict[str, int] = {c: 0 for c in categories}
@@ -1181,7 +1182,8 @@ MAX_ACTIVE_ENTRIES = 7  # Maximum entries "in the bunch" at once
 
 def create_session(conn, entry_ids: List[int], kind: str, created_by: str = 'user',
                    filter_vector_type: str = None, exclude_vector_type: str = None,
-                   enable_batched_info: bool = False) -> int:
+                   enable_batched_info: bool = False,
+                   initial_batch_size: int = None) -> int:
     """Create a drill/learning session.
 
     When *enable_batched_info* is True (lesson drills), the session uses a
@@ -1212,9 +1214,12 @@ def create_session(conn, entry_ids: List[int], kind: str, created_by: str = 'use
         for v in all_vectors:
             vectors_by_entry.setdefault(v['entry_id'], []).append(v)
 
-        # Determine initial entries (first INITIAL_BATCH_SIZE)
-        initial_entry_ids = entry_ids[:INITIAL_BATCH_SIZE]
-        remaining_entry_ids = entry_ids[INITIAL_BATCH_SIZE:]
+        # Determine initial entries (first lesson batch, or INITIAL_BATCH_SIZE if not specified)
+        _batch = initial_batch_size if initial_batch_size else INITIAL_BATCH_SIZE
+        initial_entry_ids = entry_ids[:_batch]
+        remaining_entry_ids = entry_ids[_batch:]
+        _log.info('create_session: total=%d batch=%d initial=%s remaining_count=%d',
+                  len(entry_ids), _batch, initial_entry_ids, len(remaining_entry_ids))
 
         # Initial info cards to show
         initial_info = [info_by_entry[eid] for eid in initial_entry_ids if eid in info_by_entry]
@@ -1487,6 +1492,8 @@ def submit_vector_result(conn, session_id: int, vector_id: str, correct: bool) -
                 if remaining_info:
                     active_entry_ids = set(data.get('active_entry_ids', []))
                     next_entry_id = remaining_info[0]['entry_id']
+                    _log.info('progressive_unlock (drain): entry_id=%s remaining_after=%d',
+                              next_entry_id, len(remaining_info) - 1)
                     drain_cards = []
                     while remaining_info and remaining_info[0].get('entry_id') == next_entry_id:
                         drain_cards.append(remaining_info.pop(0))
@@ -1504,6 +1511,19 @@ def submit_vector_result(conn, session_id: int, vector_id: str, correct: bool) -
                     data['pending'] = pending
                     data['pending_info_card'] = drain_cards if len(drain_cards) > 1 else drain_cards[0]
                     drain_unlocked = True
+                else:
+                    # No more entries to unlock via info cards, but deferred vectors
+                    # (e.g. grammar scramble/translate/dictation from a previous session
+                    # where fill-blank was already promoted) may still be waiting.
+                    remaining_vectors = data.get('remaining_vectors', [])
+                    if remaining_vectors:
+                        _log.info('progressive_unlock (deferred-inject): injecting %d remaining vectors',
+                                  len(remaining_vectors))
+                        for rv in remaining_vectors:
+                            pos = random.randint(0, len(pending)) if pending else 0
+                            pending.insert(pos, rv)
+                        data['remaining_vectors'] = []
+                        data['pending'] = pending
 
         # pull replacement (skip redrill-scheduled pending)
         replacement = None
@@ -1572,6 +1592,8 @@ def submit_vector_result(conn, session_id: int, vector_id: str, correct: bool) -
                 if len(active_entry_ids) < MAX_ACTIVE_ENTRIES and remaining_info:
                     # Unlock the next entry: pop all cards for this entry (teaching + info)
                     next_entry_id = remaining_info[0]['entry_id']
+                    _log.info('progressive_unlock (correct): entry_id=%s active=%d remaining_after=%d',
+                              next_entry_id, len(active_entry_ids), len(remaining_info) - 1)
                     pending_cards = []
                     while remaining_info and remaining_info[0].get('entry_id') == next_entry_id:
                         pending_cards.append(remaining_info.pop(0))

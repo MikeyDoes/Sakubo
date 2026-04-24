@@ -7,5 +7,12 @@
     {
       "entry_id": 326759
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Polite Verb Ending: ます",
+      "body": "ます attaches to the verb stem for polite present/future tense.\n\nGroup 1 (u-verbs): change final う-sound to い-row + ます\n• 書く → 書きます • 話す → 話します • 飲む → 飲みます\n\nGroup 2 (ru-verbs): drop る, add ます\n• 食べる → 食べます • 見る → 見ます\n\nIrregulars: する → します • くる → きます\n\nThe ます stem also builds:\nません (negative) • ました (past) • ませんでした (past neg) • たい (want to)"
+    }
   ]
 }

@@ -7,5 +7,12 @@
     {
       "entry_id": 325430
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Direction Particle: へ",
+      "body": "へ (pronounced 'e' as a particle) indicates direction of movement.\n\n• 東京へ行きます。(I'm going to Tokyo.)\n• 家へ帰ります。(I'm going home.)\n\nへ vs に for destinations:\n• Both can express destination and are often interchangeable\n• に emphasizes arrival at a specific point\n• へ emphasizes the direction of travel\n\n• 東京に行く = going TO Tokyo (arrival point)\n• 東京へ行く = going TOWARD Tokyo (direction)\n\nIn practice, they're mostly interchangeable for travel."
+    }
   ]
 }

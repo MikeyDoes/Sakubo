@@ -96,15 +96,15 @@
           "position": 5
         },
         {
-          "japanese": "勉強したのに分かりませんでした。",
-          "japanese_with_blank": "勉強した[___]分かりませんでした。",
-          "english": "I studied, yet didn't understand.",
+          "japanese": "買ったのに使いませんでした。",
+          "japanese_with_blank": "買った[___]使いませんでした。",
+          "english": "Even though I bought it, I didn't use it.",
           "target_answer": "のに",
           "hint": "although",
           "scramble_blocks": [
-            "勉強した",
+            "買った",
             "のに",
-            "分かりませんでした"
+            "使いませんでした"
           ],
           "notes": "",
           "position": 6,
@@ -128,15 +128,16 @@
           "position": 7
         },
         {
-          "japanese": "高いのにおいしくないです。",
-          "japanese_with_blank": "高い[___]おいしくないです。",
-          "english": "Expensive, yet not tasty.",
+          "japanese": "新しいのにもう壊れました。",
+          "japanese_with_blank": "新しい[___]もう壊れました。",
+          "english": "Even though it's new, it already broke.",
           "target_answer": "のに",
           "hint": "although",
           "scramble_blocks": [
-            "高い",
+            "新しい",
             "のに",
-            "おいしくないです"
+            "もう",
+            "壊れました"
           ],
           "notes": "",
           "position": 8,

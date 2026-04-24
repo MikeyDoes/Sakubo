@@ -59,20 +59,23 @@
           "position": 3
         },
         {
-          "japanese": "来月日本に行く予定です。",
-          "japanese_with_blank": "来月日本に行く[___]。",
-          "english": "I plan to go to Japan next month.",
+          "japanese": "今年の夏は海に行く予定です。",
+          "japanese_with_blank": "今年の夏は海に行く[___]。",
+          "english": "I'm planning to go to the beach this summer.",
           "target_answer": "予定です",
           "alternative_answers": [],
           "hint": "plan to",
           "scramble_blocks": [
-            "来月",
-            "日本",
+            "今年",
+            "の",
+            "夏",
+            "は",
+            "海",
             "に",
             "行く",
             "予定です"
           ],
-          "audio_text": "来月日本に行く予定です。",
+          "audio_text": "今年の夏は海に行く予定です。",
           "notes": "",
           "position": 4
         },

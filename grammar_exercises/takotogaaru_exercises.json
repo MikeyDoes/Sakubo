@@ -26,7 +26,7 @@
         {
           "japanese": "テレビを見たことがある。",
           "japanese_with_blank": "テレビを見た[___]。",
-          "english": "I have watched that TV show before.",
+          "english": "I have watched TV before.",
           "target_answer": "ことがある",
           "alternative_answers": [],
           "hint": "Experience",
@@ -43,7 +43,7 @@
         {
           "japanese": "本を読んだことがある。",
           "japanese_with_blank": "本を読んだ[___]。",
-          "english": "I have read that book before.",
+          "english": "I have read a book before.",
           "target_answer": "ことがある",
           "alternative_answers": [],
           "hint": "Experience",
@@ -77,7 +77,7 @@
         {
           "japanese": "コーヒーを飲んだことがある。",
           "japanese_with_blank": "コーヒーを飲んだ[___]。",
-          "english": "I have drunk that coffee before.",
+          "english": "I have drunk coffee before.",
           "target_answer": "ことがある",
           "alternative_answers": [],
           "hint": "Experience",
@@ -94,7 +94,7 @@
         {
           "japanese": "名前を書いたことがある。",
           "japanese_with_blank": "名前を書いた[___]。",
-          "english": "I have written that name before.",
+          "english": "I have written a name before.",
           "target_answer": "ことがある",
           "alternative_answers": [],
           "hint": "Experience",

@@ -7,5 +7,12 @@
     {
       "entry_id": 325473
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Negative Request: ないでください",
+      "body": "ないでください politely requests NOT to do something — 'please don't ~.'\n\nPattern: [ない form] + でください\n\n• 写真を撮らないでください。(Please don't take photos.)\n• ここに入らないでください。(Please don't enter here.)\n• 心配しないでください。(Please don't worry.)\n\nMore forceful alternatives:\n• てはいけません (prohibition — rule-based)\n• な (very blunt command: 行くな！)\n\nCasual version:\n• ないで！(Don't! — direct but not harsh)"
+    }
   ]
 }

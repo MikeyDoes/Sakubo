@@ -15,6 +15,7 @@ cp "$WIN_SRC/dictionary/tts.py" "$SAKUBO_SRC/dictionary/tts.py"
 cp "$WIN_SRC/dictionary/learning.py" "$SAKUBO_SRC/dictionary/learning.py"
 cp "$WIN_SRC/dictionary/db.py" "$SAKUBO_SRC/dictionary/db.py"
 cp "$WIN_SRC/dictionary/dictionary.db" "$SAKUBO_SRC/dictionary/dictionary.db"
+cp "$WIN_SRC/dictionary/kanji_segments_cache.json" "$SAKUBO_SRC/dictionary/kanji_segments_cache.json"
 cp "$WIN_SRC/reading/translation.py" "$SAKUBO_SRC/reading/translation.py"
 cp "$WIN_SRC/reading/processor.py" "$SAKUBO_SRC/reading/processor.py"
 cp "$WIN_SRC/reading/dictation.py" "$SAKUBO_SRC/reading/dictation.py"
@@ -296,6 +297,10 @@ echo "  Recompiling dictionary/learning.pyc..."
 cp $SRC/dictionary/learning.py $WORKDIR/dictionary/learning.py
 $HP -c "import py_compile; py_compile.compile('dictionary/learning.py', 'dictionary/learning.pyc', doraise=True)"
 rm -f $WORKDIR/dictionary/learning.py
+
+# Copy kanji segments cache (pre-computed for Android where pykakasi is unavailable)
+echo "  Copying kanji_segments_cache.json..."
+cp $SRC/dictionary/kanji_segments_cache.json $WORKDIR/dictionary/kanji_segments_cache.json
 
 # Recompile dictionary/db.pyc
 echo "  Recompiling dictionary/db.pyc..."

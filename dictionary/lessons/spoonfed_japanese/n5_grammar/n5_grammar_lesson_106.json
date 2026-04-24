@@ -7,5 +7,12 @@
     {
       "entry_id": 326769
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Giving & Receiving: あげる・もらう・くれる",
+      "body": "Japanese has three verbs for giving/receiving based on who gives and who receives:\n\nあげる — I/we give to someone else:\n• 友達にプレゼントをあげました。\n(I gave a present to my friend.)\n\nもらう — I/we receive from someone:\n• 友達にプレゼントをもらいました。\n(I received a present from my friend.)\n\nくれる — someone gives to me/my in-group:\n• 友達がプレゼントをくれました。\n(My friend gave me a present.)\n\nKey: the speaker is always the reference point.\nThese extend to te-form: てあげる / てもらう / てくれる."
+    }
   ]
 }

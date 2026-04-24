@@ -7,5 +7,12 @@
     {
       "entry_id": 325451
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Before: 前に",
+      "body": "前に (まえに) means 'before doing ~' with a verb, or 'before [time/event]' with a noun.\n\nWith a verb (always plain non-past form):\n• 寝る前に歯を磨きます。(I brush my teeth before sleeping.)\n• 食べる前に手を洗います。(I wash my hands before eating.)\n\nWith a noun:\n• 食事の前に (before the meal)\n• 会議の前に (before the meeting)\n\nContrast with てから ('after'):\n• 食べる前に手を洗う (wash BEFORE eating)\n• 手を洗ってから食べる (eat AFTER washing)\n\n⚠ Always use plain non-past before 前に, regardless of sentence tense."
+    }
   ]
 }

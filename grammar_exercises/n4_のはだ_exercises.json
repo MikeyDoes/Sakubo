@@ -84,20 +84,21 @@
           "position": 4
         },
         {
-          "japanese": "遅れたのは朝寝たからです。",
-          "japanese_with_blank": "遅れたのは朝寝たからです。",
-          "english": "The reason I was late is that I overslept.",
+          "japanese": "行かなかったのは時間がなかったからです。",
+          "japanese_with_blank": "行かなかったのは時間がなかったからです。",
+          "english": "The reason I didn't go is that I didn't have time.",
           "target_answer": "のは～からです",
           "alternative_answers": [],
           "hint": "the reason is",
           "scramble_blocks": [
-            "遅れた",
+            "行かなかった",
             "のは",
-            "朝",
-            "寝た",
+            "時間",
+            "が",
+            "なかった",
             "からです"
           ],
-          "audio_text": "遅れたのは朝寝たからです。",
+          "audio_text": "行かなかったのは時間がなかったからです。",
           "notes": "",
           "position": 5
         },

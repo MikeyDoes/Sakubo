@@ -7,5 +7,12 @@
     {
       "entry_id": 325516
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Formal Request: ていただけませんか",
+      "body": "ていただけませんか is a very polite request — 'Would you be so kind as to ~?'\n\nPattern: [verb て-form] + いただけませんか\n\n• もう一度言っていただけませんか。\n(Would you please say that again?)\n• こちらに来ていただけませんか。\n(Could you please come this way?)\n\nFormality ladder (most → least polite):\n• ていただけませんか → ていただけますか\n• てくださいませんか → てください\n\nいただく is the humble form of もらう ('to receive')."
+    }
   ]
 }

@@ -7,5 +7,12 @@
     {
       "entry_id": 325464
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Resultant State: てある",
+      "body": "てある (te-form + ある) describes a state resulting from a deliberate action.\n\nPattern: [transitive verb te-form] + ある\n\n• 窓が開けてある。(The window has been opened — and stays open.)\n• 料理が作ってある。(The food has been made — and is ready.)\n• 名前が書いてある。(A name is written there — someone wrote it.)\n\nてある vs ている:\n• ている — ongoing state or action (often intransitive)\n• てある — intentional preparation by someone\n\n窓が開いている (window is open — state)\n窓が開けてある (window was opened — intentionally, by someone)"
+    }
   ]
 }

@@ -7,5 +7,12 @@
     {
       "entry_id": 326764
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Plain Negative: ない",
+      "body": "ない forms the plain (casual) present negative of verbs.\n\nFormation:\n• u-verbs: change final う-sound to あ-row + ない\n  書く→書かない, 話す→話さない, 飲む→飲まない\n  買う→買わない (う→わ, not あ!)\n• ru-verbs: drop る, add ない\n  食べる→食べない, 見る→見ない\n• Irregulars: する→しない, くる→こない\n\n⚠ ある (exist) → ない (not あらない!)\n\n• 肉を食べない。(I don't eat meat.)\nPolite equivalent: ません"
+    }
   ]
 }

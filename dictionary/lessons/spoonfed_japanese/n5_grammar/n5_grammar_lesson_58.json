@@ -7,5 +7,12 @@
     {
       "entry_id": 325512
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Comparison Particle: より",
+      "body": "より on its own means 'than' in comparisons, or 'from' in formal/written Japanese.\n\n1. Comparison ('than'):\n• 猫より犬が好きです。(I prefer dogs to cats.)\n• 昨日より今日のほうが暖かい。\n(Today is warmer than yesterday.)\n\n2. Starting point (formal/written only):\n• 午後3時より開始します。(Starts from 3 PM.)\n• 東京より参りました。(I've come from Tokyo.)\n\nNote: In everyday speech, use から for 'from.'\nより as 'from' appears only in formal written announcements."
+    }
   ]
 }

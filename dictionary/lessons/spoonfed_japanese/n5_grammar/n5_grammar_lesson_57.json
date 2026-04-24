@@ -7,5 +7,12 @@
     {
       "entry_id": 325481
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Superlative in a Group: の中で〜が一番",
+      "body": "の中で〜が一番 means '[X] is the most ~ among [group].'\n\nPattern: [group]の中で [X]が一番 [adj]\n\n• 三人の中で田中さんが一番背が高い。\n(Among the three, Tanaka is the tallest.)\n• 全部の中でこれが一番好きです。\n(Among all of them, I like this one the most.)\n\nExpanding the scope:\n• クラスで一番 • 世界で一番 • 家族の中で一番\n\nFull superlative question:\nAとBとCの中で、どれが一番〜ですか？"
+    }
   ]
 }

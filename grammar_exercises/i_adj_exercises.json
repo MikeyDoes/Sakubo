@@ -12,7 +12,7 @@
           "english": "The dog is big.",
           "target_answer": "大きい",
           "alternative_answers": [],
-          "hint": "い-adjective",
+          "hint": "(polite)",
           "scramble_blocks": [
             "犬",
             "は",
@@ -29,7 +29,7 @@
           "english": "The cat is small.",
           "target_answer": "小さい",
           "alternative_answers": [],
-          "hint": "い-adjective",
+          "hint": "(polite)",
           "scramble_blocks": [
             "猫",
             "は",
@@ -46,7 +46,7 @@
           "english": "The school is new.",
           "target_answer": "新しい",
           "alternative_answers": [],
-          "hint": "い-adjective",
+          "hint": "(polite)",
           "scramble_blocks": [
             "学校",
             "は",
@@ -63,7 +63,7 @@
           "english": "The book is old.",
           "target_answer": "古い",
           "alternative_answers": [],
-          "hint": "い-adjective",
+          "hint": "(polite)",
           "scramble_blocks": [
             "本",
             "は",
@@ -80,7 +80,7 @@
           "english": "The cake is delicious.",
           "target_answer": "美味しい",
           "alternative_answers": [],
-          "hint": "い-adjective",
+          "hint": "(polite)",
           "scramble_blocks": [
             "ケーキ",
             "は",
@@ -97,7 +97,7 @@
           "english": "The car is expensive.",
           "target_answer": "高い",
           "alternative_answers": [],
-          "hint": "い-adjective",
+          "hint": "(polite)",
           "scramble_blocks": [
             "車",
             "は",
@@ -114,7 +114,7 @@
           "english": "The test is difficult.",
           "target_answer": "難しい",
           "alternative_answers": [],
-          "hint": "い-adjective",
+          "hint": "(polite)",
           "scramble_blocks": [
             "テスト",
             "は",
@@ -131,7 +131,7 @@
           "english": "It is hot here.",
           "target_answer": "暑い",
           "alternative_answers": [],
-          "hint": "い-adjective",
+          "hint": "(polite)",
           "scramble_blocks": [
             "ここ",
             "は",
@@ -148,7 +148,7 @@
           "english": "The teacher is kind.",
           "target_answer": "やさしい",
           "alternative_answers": [],
-          "hint": "い-adjective",
+          "hint": "(polite)",
           "scramble_blocks": [
             "先生",
             "は",
@@ -165,7 +165,7 @@
           "english": "The coffee is good.",
           "target_answer": "いい",
           "alternative_answers": [],
-          "hint": "い-adjective",
+          "hint": "(polite)",
           "scramble_blocks": [
             "コーヒー",
             "は",

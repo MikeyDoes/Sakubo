@@ -7,5 +7,12 @@
     {
       "entry_id": 325429
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Particle で: Location & Means",
+      "body": "で marks where an action happens, or the means used.\n\n1. Where an action takes place:\n• 図書館で勉強します。(I study at the library.)\n• 公園で遊びます。(I play in the park.)\n\n2. Means or instrument:\n• バスで行きます。(I go by bus.)\n• 箸で食べます。(I eat with chopsticks.)\n• 日本語で話します。(I speak in Japanese.)\n\nで vs に for location:\n• 公園に犬がいる — the dog IS there (static existence)\n• 公園で遊ぶ — playing HAPPENS there (action)"
+    }
   ]
 }

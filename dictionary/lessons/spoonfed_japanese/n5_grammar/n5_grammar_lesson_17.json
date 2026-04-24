@@ -7,5 +7,12 @@
     {
       "entry_id": 325435
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Particle の: Possessive & Linking",
+      "body": "の connects nouns to show possession or relationship.\n\n1. Possession:\n• 私の本 (my book) • 先生の車 (the teacher's car)\n\n2. Describing/qualifying a noun:\n• 日本語の本 (a Japanese-language book)\n• 先生の部屋 (the teacher's room)\n\n3. の as placeholder noun ('the one that is ~'):\n• 大きいのが好き。(I like the big one.)\n• 赤いのを買った。(I bought the red one.)\n\n4. の to nominalize verbs:\n• 泳ぐのが好きです。(I like swimming.)"
+    }
   ]
 }

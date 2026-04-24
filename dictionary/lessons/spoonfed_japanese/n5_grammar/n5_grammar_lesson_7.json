@@ -7,5 +7,12 @@
     {
       "entry_id": 325426
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Subject Marker: が",
+      "body": "が marks the grammatical subject — the thing performing the action or having the state.\n\n• これがいいです。(This one is good.)\n• 私が学生です。(It is I who am the student.)\n\nは vs が:\n• は (topic) sets what the sentence is 'about' — often known info\n• が (subject) highlights who/what — often new info\n\n• 田中さんは先生です。(Tanaka is a teacher. — topic: Tanaka)\n• 田中さんが先生です。(It's Tanaka who is the teacher. — identifying)"
+    }
   ]
 }

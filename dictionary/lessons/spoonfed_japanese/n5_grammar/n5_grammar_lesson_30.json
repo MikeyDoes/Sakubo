@@ -7,5 +7,12 @@
     {
       "entry_id": 326763
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Plain Past Tense: た",
+      "body": "た is the plain past verb ending — casual equivalent of ました.\n\nFormation rules (by verb's final sound):\n• く → いた: 書く→書いた • ぐ → いだ: 泳ぐ→泳いだ\n• す → した: 話す→話した\n• つ・う・る → った: 持つ→持った, 買う→買った, 取る→取った\n• ぬ・む・ぶ → んだ: 飲む→飲んだ, 遊ぶ→遊んだ\n• る-verbs: drop る, add た: 食べ→食べた, 見→見た\n• Irregulars: する→した, くる→きた\n\n⚠ Exception: 行く→行った (not 行いた!)"
+    }
   ]
 }

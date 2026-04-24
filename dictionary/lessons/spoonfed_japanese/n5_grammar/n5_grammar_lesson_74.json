@@ -7,5 +7,12 @@
     {
       "entry_id": 325498
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Listing Actions: たり〜たり",
+      "body": "たり〜たり lists multiple actions as examples (implying there are others not mentioned).\n\nPattern: [た-form] + り [た-form] + りする\n\n• 週末は映画を見たり、本を読んだりします。\n(On weekends I do things like watch movies and read books.)\n• 泣いたり笑ったりした。(I cried and laughed — back and forth.)\n\nKey: it's non-exhaustive — just examples among other activities.\n\nと vs たり〜たり:\n• と lists everything (exhaustive)\n• たり〜たり lists examples (non-exhaustive)"
+    }
   ]
 }

@@ -3,6 +3,13 @@
   "lesson_number": 64,
   "lesson_type": "grammar",
   "jlpt_level": "N5",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "い-Adjectives",
+      "body": "い-adjectives end in い and describe properties like size, temperature, and appearance.\n\nExamples:\n大きい (big) • 小さい (small)\n高い (tall/expensive) • 安い (cheap)\n暑い (hot) • 寒い (cold) • 新しい (new) • 古い (old)\n\nUsage:\n• Before a noun: 大きい犬 (a big dog)\n• As predicate: 犬は大きいです (The dog is big)\n\nConjugation:\n• Negative: 大きくない / 大きくないです\n• Past: 大きかった / 大きかったです\n• Past negative: 大きくなかった / 大きくなかったです\n\n⚠ Note: きれい ends in い but is actually a な-adjective!"
+    }
+  ],
   "items": [
     {
       "entry_id": 325423

@@ -66,7 +66,7 @@
         {
           "japanese": "友達の中で先生が一番有名です。",
           "japanese_with_blank": "友達[___]先生が一番有名です。",
-          "english": "Among my acquaintances, the teacher is the most famous.",
+          "english": "Among my friends, the teacher is the most famous.",
           "target_answer": "の中で",
           "alternative_answers": [],
           "hint": "Group superlative",
@@ -83,21 +83,21 @@
           "position": 4
         },
         {
-          "japanese": "部屋の中で家が一番大きいです。",
-          "japanese_with_blank": "部屋[___]家が一番大きいです。",
-          "english": "Among rooms, the house is the biggest.",
+          "japanese": "建物の中で家が一番大きいです。",
+          "japanese_with_blank": "建物[___]家が一番大きいです。",
+          "english": "Among buildings, the house is the biggest.",
           "target_answer": "の中で",
           "alternative_answers": [],
           "hint": "Group superlative",
           "scramble_blocks": [
-            "部屋",
+            "建物",
             "の中で",
             "家",
             "が一番",
             "大きい",
             "です"
           ],
-          "audio_text": "部屋の中で家が一番大きいです。",
+          "audio_text": "建物の中で家が一番大きいです。",
           "notes": "Size ranking.",
           "position": 5
         },

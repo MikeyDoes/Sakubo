@@ -7,5 +7,12 @@
     {
       "entry_id": 325450
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Extent Marker: まで",
+      "body": "まで means 'until' (time) or 'up to / as far as' (place/extent).\n\n1. Time ('until'):\n• 6時まで働きます。(I work until 6.)\n• 明日まで待ってください。(Please wait until tomorrow.)\n\n2. Place / distance:\n• 駅まで歩きます。(I'll walk to the station.)\n• ここまで来てください。(Please come this far.)\n\nから〜まで = from ~ to ~:\n• 月曜日から金曜日まで (from Monday to Friday)\n• 朝から晩まで (from morning to night)"
+    }
   ]
 }

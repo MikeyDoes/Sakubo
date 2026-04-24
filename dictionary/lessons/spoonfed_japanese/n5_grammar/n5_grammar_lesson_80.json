@@ -7,5 +7,12 @@
     {
       "entry_id": 325482
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Going to Do: に行く",
+      "body": "に行く expresses the purpose of going somewhere — 'go to do ~.'\n\nPattern: [verb stem / noun] + に行く\n\nWith verb stem:\n• 食べに行く。(Go to eat.)\n• 映画を見に行きます。(I'm going to see a movie.)\n\nWith verbal noun:\n• 買い物に行く。(Go shopping.)\n• 勉強しに行く。(Go to study.)\n\nSimilar patterns:\n• に来る — come to do\n• に帰る — go home to do\n\n• 友達に会いに東京に行きます。\n(I'm going to Tokyo to meet a friend.)"
+    }
   ]
 }

@@ -7,5 +7,12 @@
     {
       "entry_id": 326768
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Expressing Opinions: と思う",
+      "body": "と思う (と思います) means 'I think that ~' — expressing opinion or conjecture.\n\nPattern: [plain form clause] + と思います\n\n• おいしいと思います。(I think it's delicious.)\n• 明日は雨だと思う。(I think it will rain tomorrow.)\n• 彼は来ないと思います。(I don't think he'll come.)\n\n⚠ Use PLAIN form before と思う, not ます/です:\n• ✓ おいしいと思います\n• ✗ おいしいですと思います\n\nと思っている = ongoing belief:\n• 日本語は難しいと思っている。(I hold the view that Japanese is difficult.)"
+    }
   ]
 }

@@ -1,7 +1,20 @@
 {
   "title": "Lesson 24: (Vocab) - こちら, そちら, ただいま...",
   "lesson_type": "kana_vocab",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Combination Sounds (Yōon)",
+      "body": "Small versions of や, ゆ, よ combine with characters ending in an 'i' sound to form new syllables:\n\nき + ゃ = きゃ (kya)\nし + ゅ = しゅ (shu)\nち + ょ = ちょ (cho)\n\nThis works with: き, し, ち, に, ひ, み, り — and their dakuten forms (ぎ, じ, び, ぴ).\n\nThe small ゃ, ゅ, ょ are written smaller than normal. Each combination counts as one syllable, not two."
+    }
+  ],
   "items": [
+    {
+      "entry_id": 183134,
+      "kana": "いってらっしゃい",
+      "gloss": "have a good day; take care; see you",
+      "card_type": "vocab"
+    },
     {
       "entry_id": 326649,
       "kana": "こちら",
@@ -24,12 +37,6 @@
       "entry_id": 173774,
       "kana": "いってきます",
       "gloss": "I'll be back soon; I'm off; see you later; be back soon",
-      "card_type": "vocab"
-    },
-    {
-      "entry_id": 183134,
-      "kana": "いってらっしゃい",
-      "gloss": "have a good day; take care; see you",
       "card_type": "vocab"
     },
     {

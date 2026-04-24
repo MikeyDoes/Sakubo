@@ -23,18 +23,18 @@
           "position": 1
         },
         {
-          "japanese": "毎日勉強しなければなりません。",
-          "japanese_with_blank": "毎日勉強し[___]。",
-          "english": "I must study every day.",
+          "japanese": "早く起きなければなりません。",
+          "japanese_with_blank": "早く起き[___]。",
+          "english": "I must wake up early.",
           "target_answer": "なければなりません",
           "alternative_answers": [],
           "hint": "must",
           "scramble_blocks": [
-            "毎日",
-            "勉強し",
+            "早く",
+            "起き",
             "なければなりません"
           ],
-          "audio_text": "毎日勉強しなければなりません。",
+          "audio_text": "早く起きなければなりません。",
           "notes": "",
           "position": 2
         },
@@ -91,19 +91,19 @@
           "position": 5
         },
         {
-          "japanese": "時間を大切にしなければなりません。",
-          "japanese_with_blank": "時間を大切にし[___]。",
-          "english": "You must value time.",
+          "japanese": "薬を飲まなければなりません。",
+          "japanese_with_blank": "薬を飲ま[___]。",
+          "english": "I must take medicine.",
           "target_answer": "なければなりません",
           "alternative_answers": [],
           "hint": "must",
           "scramble_blocks": [
-            "時間",
+            "薬",
             "を",
-            "大切にし",
+            "飲ま",
             "なければなりません"
           ],
-          "audio_text": "時間を大切にしなければなりません。",
+          "audio_text": "薬を飲まなければなりません。",
           "notes": "",
           "position": 6
         },
@@ -123,18 +123,21 @@
           "alternative_answers": []
         },
         {
-          "japanese": "毎日練習しなければなりません。",
-          "japanese_with_blank": "毎日練習し[___]。",
-          "english": "I have to practice every day.",
+          "japanese": "明日までに本を読まなければなりません。",
+          "japanese_with_blank": "明日までに本を読ま[___]。",
+          "english": "I must read the book by tomorrow.",
           "target_answer": "なければなりません",
           "alternative_answers": [],
           "hint": "must",
           "scramble_blocks": [
-            "毎日",
-            "練習し",
+            "明日",
+            "までに",
+            "本",
+            "を",
+            "読ま",
             "なければなりません"
           ],
-          "audio_text": "毎日練習しなければなりません。",
+          "audio_text": "明日までに本を読まなければなりません。",
           "notes": "",
           "position": 8
         },

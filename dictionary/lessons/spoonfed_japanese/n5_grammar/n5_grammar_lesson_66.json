@@ -7,5 +7,12 @@
     {
       "entry_id": 325511
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Duration: 間",
+      "body": "間 (あいだ) means 'while' / 'during' — covering the entire overlapping period.\n\nPattern: [noun]の間 / [verb ている]間\n\n• 授業の間は静かにしてください。\n(Please be quiet during the class.)\n• 日本にいる間、毎日勉強した。\n(While I was in Japan, I studied every day.)\n\n間 vs とき:\n• 間 = throughout the entire period (continuous overlap)\n• とき = at the time of / when (point or general time)\n\n間に (with に) = something happens at some point WITHIN that period:\n• 待っている間に本を読んだ。(I read a book while waiting.)"
+    }
   ]
 }

@@ -7,5 +7,12 @@
     {
       "entry_id": 325432
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Question Particle: か",
+      "body": "か at the end of a sentence turns it into a yes/no question. In polite speech, no rising intonation is needed.\n\n• これは本ですか。(Is this a book?)\n• 日本語が話せますか。(Can you speak Japanese?)\n\nIn casual speech, か alone can sound harsh. Use rising intonation or の instead:\n• いくの？(Are you going?)\n\nか can also embed a question inside a sentence:\n• 何があるか知りません。(I don't know what there is.)"
+    }
   ]
 }

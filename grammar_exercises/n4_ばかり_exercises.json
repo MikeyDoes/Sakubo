@@ -88,30 +88,30 @@
           "position": 5
         },
         {
-          "japanese": "お菓子ばかり食べています。",
-          "japanese_with_blank": "お菓子[___]食べています。",
-          "english": "I eat nothing but sweets.",
+          "japanese": "ゲームばかりしています。",
+          "japanese_with_blank": "ゲーム[___]しています。",
+          "english": "I do nothing but play games.",
           "target_answer": "ばかり",
           "hint": "nothing but",
           "scramble_blocks": [
-            "お菓子",
+            "ゲーム",
             "ばかり",
-            "食べています"
+            "しています"
           ],
           "notes": "",
           "position": 6,
           "alternative_answers": []
         },
         {
-          "japanese": "テレビばかり見ています。",
-          "japanese_with_blank": "テレビ[___]見ています。",
-          "english": "I watch nothing but TV.",
+          "japanese": "寝てばかりいます。",
+          "japanese_with_blank": "寝て[___]います。",
+          "english": "I do nothing but sleep.",
           "target_answer": "ばかり",
           "hint": "nothing but",
           "scramble_blocks": [
-            "テレビ",
+            "寝て",
             "ばかり",
-            "見ています"
+            "います"
           ],
           "notes": "",
           "position": 7,

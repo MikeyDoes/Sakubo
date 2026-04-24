@@ -7,5 +7,12 @@
     {
       "entry_id": 325422
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Polite Copula: です",
+      "body": "です is the polite form of 'to be.' It links a subject to a noun or adjective.\n\nPattern: [Subject]は [Noun/Adjective]です\n\n• 私は学生です。(I am a student.)\n• 今日は月曜日です。(Today is Monday.)\n• 空は青いです。(The sky is blue.)\n\nNegative: じゃありません / ではありません\nPast: でした\nPast negative: じゃありませんでした\n\nNote: い-adjectives don't strictly need です — 空は青い is correct plain speech. Adding です makes it polite."
+    }
   ]
 }

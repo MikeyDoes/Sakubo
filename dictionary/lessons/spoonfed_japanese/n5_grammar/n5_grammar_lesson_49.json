@@ -7,5 +7,12 @@
     {
       "entry_id": 325455
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Existence: があります (Inanimate)",
+      "body": "あります (plain: ある) expresses existence of inanimate objects — 'there is / are.'\n\nPattern: [place]に [thing]があります\n\n• 机の上に本があります。(There is a book on the desk.)\n• 駅の近くにコンビニがあります。\n(There is a convenience store near the station.)\n\nあります also means 'to have' (inanimate possessions):\n• 時間があります。(I have time.)\n• お金がありません。(I don't have money.)\n\nRemember:\n• あります = inanimate (objects, plants, buildings)\n• います = animate beings (people, animals)"
+    }
   ]
 }

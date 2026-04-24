@@ -71,35 +71,35 @@
           "position": 4
         },
         {
-          "japanese": "車は高い。",
-          "japanese_with_blank": "車[___]高い。",
-          "english": "The car is expensive.",
+          "japanese": "車は古い。",
+          "japanese_with_blank": "車[___]古い。",
+          "english": "The car is old.",
           "target_answer": "は",
           "alternative_answers": [],
           "hint": "Topic marker",
           "scramble_blocks": [
             "車",
             "は",
-            "高い"
+            "古い"
           ],
-          "audio_text": "車は高い。",
+          "audio_text": "車は古い。",
           "notes": "は marks what we are talking about.",
           "position": 5
         },
         {
-          "japanese": "コーヒーはいい。",
-          "japanese_with_blank": "コーヒー[___]いい。",
-          "english": "The coffee is good.",
+          "japanese": "友達はいい。",
+          "japanese_with_blank": "友達[___]いい。",
+          "english": "Friends are great.",
           "target_answer": "は",
           "alternative_answers": [],
           "hint": "Topic marker",
           "scramble_blocks": [
-            "コーヒー",
+            "友達",
             "は",
             "いい"
           ],
-          "audio_text": "コーヒーはいい。",
-          "notes": "Kana noun as topic with いい.",
+          "audio_text": "友達はいい。",
+          "notes": "は marks the topic; いい expresses that something is good.",
           "position": 6
         },
         {
@@ -151,18 +151,18 @@
           "position": 9
         },
         {
-          "japanese": "ケーキはいい。",
-          "japanese_with_blank": "ケーキ[___]いい。",
-          "english": "The cake is good.",
+          "japanese": "部屋はいい。",
+          "japanese_with_blank": "部屋[___]いい。",
+          "english": "The room is nice.",
           "target_answer": "は",
           "alternative_answers": [],
           "hint": "Topic marker",
           "scramble_blocks": [
-            "ケーキ",
+            "部屋",
             "は",
             "いい"
           ],
-          "audio_text": "ケーキはいい。",
+          "audio_text": "部屋はいい。",
           "notes": "Kana noun as topic.",
           "position": 10
         }

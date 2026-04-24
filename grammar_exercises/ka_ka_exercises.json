@@ -7,8 +7,8 @@
       "label": "A or B",
       "sentences": [
         {
-          "japanese": "コーヒーかお茶か飲みますか",
-          "japanese_with_blank": "コーヒー[___]お茶か飲みますか",
+          "japanese": "コーヒーかお茶か飲みますか。",
+          "japanese_with_blank": "コーヒー[___]お茶か飲みますか。",
           "english": "Do you drink coffee or tea?",
           "target_answer": "か",
           "alternative_answers": [],
@@ -20,13 +20,13 @@
             "か",
             "飲みますか"
           ],
-          "audio_text": "コーヒーかお茶か飲みますか",
+          "audio_text": "コーヒーかお茶か飲みますか。",
           "notes": "か〜か presents alternatives.",
           "position": 1
         },
         {
-          "japanese": "犬か猫か好きですか",
-          "japanese_with_blank": "犬[___]猫か好きですか",
+          "japanese": "犬か猫か好きですか。",
+          "japanese_with_blank": "犬[___]猫か好きですか。",
           "english": "Do you like dogs or cats?",
           "target_answer": "か",
           "alternative_answers": [],
@@ -38,13 +38,13 @@
             "か",
             "好きですか"
           ],
-          "audio_text": "犬か猫か好きですか",
+          "audio_text": "犬か猫か好きですか。",
           "notes": "Preference question.",
           "position": 2
         },
         {
-          "japanese": "朝か夜か勉強しますか",
-          "japanese_with_blank": "朝[___]夜か勉強しますか",
+          "japanese": "朝か夜か勉強しますか。",
+          "japanese_with_blank": "朝[___]夜か勉強しますか。",
           "english": "Do you study in the morning or at night?",
           "target_answer": "か",
           "alternative_answers": [],
@@ -56,13 +56,13 @@
             "か",
             "勉強しますか"
           ],
-          "audio_text": "朝か夜か勉強しますか",
+          "audio_text": "朝か夜か勉強しますか。",
           "notes": "Time preference.",
           "position": 3
         },
         {
-          "japanese": "バスか電車か使いますか",
-          "japanese_with_blank": "バス[___]電車か使いますか",
+          "japanese": "バスか電車か使いますか。",
+          "japanese_with_blank": "バス[___]電車か使いますか。",
           "english": "Do you use the bus or train?",
           "target_answer": "か",
           "alternative_answers": [],
@@ -74,13 +74,13 @@
             "か",
             "使いますか"
           ],
-          "audio_text": "バスか電車か使いますか",
+          "audio_text": "バスか電車か使いますか。",
           "notes": "Transport preference.",
           "position": 4
         },
         {
-          "japanese": "肉か魚か食べますか",
-          "japanese_with_blank": "肉[___]魚か食べますか",
+          "japanese": "肉か魚か食べますか。",
+          "japanese_with_blank": "肉[___]魚か食べますか。",
           "english": "Do you eat meat or fish?",
           "target_answer": "か",
           "alternative_answers": [],
@@ -92,13 +92,13 @@
             "か",
             "食べますか"
           ],
-          "audio_text": "肉か魚か食べますか",
+          "audio_text": "肉か魚か食べますか。",
           "notes": "Food preference.",
           "position": 5
         },
         {
-          "japanese": "本か映画か好きですか",
-          "japanese_with_blank": "本[___]映画か好きですか",
+          "japanese": "本か映画か好きですか。",
+          "japanese_with_blank": "本[___]映画か好きですか。",
           "english": "Do you like books or movies?",
           "target_answer": "か",
           "alternative_answers": [],
@@ -110,13 +110,13 @@
             "か",
             "好きですか"
           ],
-          "audio_text": "本か映画か好きですか",
+          "audio_text": "本か映画か好きですか。",
           "notes": "Entertainment preference.",
           "position": 6
         },
         {
-          "japanese": "赤か青か好きですか",
-          "japanese_with_blank": "赤[___]青か好きですか",
+          "japanese": "赤か青か好きですか。",
+          "japanese_with_blank": "赤[___]青か好きですか。",
           "english": "Do you like red or blue?",
           "target_answer": "か",
           "alternative_answers": [],
@@ -128,13 +128,13 @@
             "か",
             "好きですか"
           ],
-          "audio_text": "赤か青か好きですか",
+          "audio_text": "赤か青か好きですか。",
           "notes": "Color preference.",
           "position": 7
         },
         {
-          "japanese": "月曜日か火曜日か行きますか",
-          "japanese_with_blank": "月曜日[___]火曜日か行きますか",
+          "japanese": "月曜日か火曜日か行きますか。",
+          "japanese_with_blank": "月曜日[___]火曜日か行きますか。",
           "english": "Do you go on Monday or Tuesday?",
           "target_answer": "か",
           "alternative_answers": [],
@@ -146,13 +146,13 @@
             "か",
             "行きますか"
           ],
-          "audio_text": "月曜日か火曜日か行きますか",
+          "audio_text": "月曜日か火曜日か行きますか。",
           "notes": "Day preference.",
           "position": 8
         },
         {
-          "japanese": "ここかそこか食べますか",
-          "japanese_with_blank": "ここ[___]そこか食べますか",
+          "japanese": "ここかそこか食べますか。",
+          "japanese_with_blank": "ここ[___]そこか食べますか。",
           "english": "Do we eat here or there?",
           "target_answer": "か",
           "alternative_answers": [],
@@ -164,13 +164,13 @@
             "か",
             "食べますか"
           ],
-          "audio_text": "ここかそこか食べますか",
+          "audio_text": "ここかそこか食べますか。",
           "notes": "Location preference.",
           "position": 9
         },
         {
-          "japanese": "今日か明日か来ますか",
-          "japanese_with_blank": "今日[___]明日か来ますか",
+          "japanese": "今日か明日か来ますか。",
+          "japanese_with_blank": "今日[___]明日か来ますか。",
           "english": "Do you come today or tomorrow?",
           "target_answer": "か",
           "alternative_answers": [],
@@ -182,7 +182,7 @@
             "か",
             "来ますか"
           ],
-          "audio_text": "今日か明日か来ますか",
+          "audio_text": "今日か明日か来ますか。",
           "notes": "Time choice.",
           "position": 10
         }

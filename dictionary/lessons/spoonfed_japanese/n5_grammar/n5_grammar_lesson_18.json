@@ -7,5 +7,12 @@
     {
       "entry_id": 325436
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Particle も: 'Also / Too / Even'",
+      "body": "も replaces は or が to mean 'also' or 'too.'\n\n• 私も学生です。(I am also a student.)\n• 猫もいます。(There's also a cat.)\n\nWith negatives, も = 'not either':\n• 私も行きません。(I won't go either.)\n\nも can stack:\n• 猫も犬もいます。(There are both cats and dogs.)\n• 猫も犬もいません。(There are neither cats nor dogs.)\n\nも emphasizing quantity ('a whole / as many as'):\n• 3時間も待った！(I waited a whole 3 hours!)"
+    }
   ]
 }

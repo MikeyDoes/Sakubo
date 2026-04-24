@@ -7,5 +7,12 @@
     {
       "entry_id": 325463
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Experience: たことがある",
+      "body": "たことがある expresses having done something before — past experience.\n\nPattern: [verb た form] + ことがある\n\n• 日本に行ったことがある。(I have been to Japan before.)\n• 寿司を食べたことがありますか？(Have you ever eaten sushi?)\n• 富士山に登ったことがない。(I have never climbed Mt. Fuji.)\n\nNegative: たことがない / たことがありません\n\nThis describes whether an experience has ever occurred — equivalent to English 'have ever done.'\nDifferent from ました, which is just a recent past action."
+    }
   ]
 }

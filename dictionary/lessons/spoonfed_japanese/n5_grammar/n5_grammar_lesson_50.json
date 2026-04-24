@@ -7,5 +7,12 @@
     {
       "entry_id": 325456
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Existence: がいます (Animate)",
+      "body": "います (plain: いる) expresses existence of animate beings — people and animals.\n\nPattern: [place]に [being]がいます\n\n• 公園に子供がいます。(There are children in the park.)\n• 家に猫がいます。(There's a cat at home.)\n\nいます also means 'to have' (people/animals):\n• 兄弟がいますか？(Do you have siblings?)\n• 友達がたくさんいます。(I have many friends.)\n\nRemember:\n• あります = inanimate (book, car, building)\n• います = animate (person, animal)\n\n⚠ Robots/fictional characters can go either way — context decides."
+    }
   ]
 }

@@ -3,6 +3,13 @@
   "lesson_number": 111,
   "lesson_type": "grammar",
   "jlpt_level": "N5",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "い-Adjective Past Tense (~かった)",
+      "body": "To form the past tense of an い-adjective, drop the final い and add かった.\n\nFormula: [stem] + かった\n\nExamples:\n大きい → 大きかった (was big)\n小さい → 小さかった (was small)\n高い → 高かった (was tall/expensive)\n暑い → 暑かった (was hot)\n楽しい → 楽しかった (was fun)\n\nPolite past: 大きかったです\nPast negative: 大きくなかった / 大きくなかったです\n\n⚠ Special: いい (good) is irregular — past tense is よかった, not いかった!"
+    }
+  ],
   "items": [
     {
       "entry_id": 326356

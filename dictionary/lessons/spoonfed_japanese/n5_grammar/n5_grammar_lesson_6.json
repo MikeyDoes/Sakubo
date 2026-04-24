@@ -3,6 +3,13 @@
   "lesson_number": 66,
   "lesson_type": "grammar",
   "jlpt_level": "N5",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "な-Adjectives",
+      "body": "な-adjectives add な when directly modifying a noun, but use です (not い) as a predicate ending.\n\nExamples:\n静か (quiet) • 元気 (healthy/lively)\nきれい (pretty/clean) • 便利 (convenient)\n有名 (famous) • 大切 (important)\n\nUsage:\n• Before a noun: 静かな部屋 (a quiet room)\n• As predicate: 部屋は静かです (The room is quiet)\n\nConjugation:\n• Negative: 静かじゃない / 静かじゃないです\n• Past: 静かでした\n• Past negative: 静かじゃなかったです\n\nNote: Some な-adjectives also work as nouns — 元気 can mean 'health' or 'energy.'"
+    }
+  ],
   "items": [
     {
       "entry_id": 325424

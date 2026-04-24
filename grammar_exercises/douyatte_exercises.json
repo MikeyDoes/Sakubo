@@ -7,8 +7,8 @@
       "label": "How / By What Means",
       "sentences": [
         {
-          "japanese": "どうやって行きますか",
-          "japanese_with_blank": "[___]行きますか",
+          "japanese": "どうやって行きますか。",
+          "japanese_with_blank": "[___]行きますか。",
           "english": "How do you go?",
           "target_answer": "どうやって",
           "alternative_answers": [],
@@ -17,13 +17,13 @@
             "どうやって",
             "行きますか"
           ],
-          "audio_text": "どうやって行きますか",
+          "audio_text": "どうやって行きますか。",
           "notes": "どうやって asks \"by what means.\"",
           "position": 1
         },
         {
-          "japanese": "どうやって食べますか",
-          "japanese_with_blank": "[___]食べますか",
+          "japanese": "どうやって食べますか。",
+          "japanese_with_blank": "[___]食べますか。",
           "english": "How do you eat this?",
           "target_answer": "どうやって",
           "alternative_answers": [],
@@ -32,13 +32,13 @@
             "どうやって",
             "食べますか"
           ],
-          "audio_text": "どうやって食べますか",
+          "audio_text": "どうやって食べますか。",
           "notes": "Asking for method.",
           "position": 2
         },
         {
-          "japanese": "どうやって作りますか",
-          "japanese_with_blank": "[___]作りますか",
+          "japanese": "どうやって作りますか。",
+          "japanese_with_blank": "[___]作りますか。",
           "english": "How do you make it?",
           "target_answer": "どうやって",
           "alternative_answers": [],
@@ -47,13 +47,13 @@
             "どうやって",
             "作りますか"
           ],
-          "audio_text": "どうやって作りますか",
+          "audio_text": "どうやって作りますか。",
           "notes": "Asking the process.",
           "position": 3
         },
         {
-          "japanese": "どうやって書きますか",
-          "japanese_with_blank": "[___]書きますか",
+          "japanese": "どうやって書きますか。",
+          "japanese_with_blank": "[___]書きますか。",
           "english": "How do you write it?",
           "target_answer": "どうやって",
           "alternative_answers": [],
@@ -62,13 +62,13 @@
             "どうやって",
             "書きますか"
           ],
-          "audio_text": "どうやって書きますか",
+          "audio_text": "どうやって書きますか。",
           "notes": "Asking the writing method.",
           "position": 4
         },
         {
-          "japanese": "どうやって読みますか",
-          "japanese_with_blank": "[___]読みますか",
+          "japanese": "どうやって読みますか。",
+          "japanese_with_blank": "[___]読みますか。",
           "english": "How do you read it?",
           "target_answer": "どうやって",
           "alternative_answers": [],
@@ -77,13 +77,13 @@
             "どうやって",
             "読みますか"
           ],
-          "audio_text": "どうやって読みますか",
+          "audio_text": "どうやって読みますか。",
           "notes": "Asking the reading method.",
           "position": 5
         },
         {
-          "japanese": "どうやって来ましたか",
-          "japanese_with_blank": "[___]来ましたか",
+          "japanese": "どうやって来ましたか。",
+          "japanese_with_blank": "[___]来ましたか。",
           "english": "How did you come?",
           "target_answer": "どうやって",
           "alternative_answers": [],
@@ -92,13 +92,13 @@
             "どうやって",
             "来ましたか"
           ],
-          "audio_text": "どうやって来ましたか",
+          "audio_text": "どうやって来ましたか。",
           "notes": "Asking method of arrival.",
           "position": 6
         },
         {
-          "japanese": "どうやって帰りますか",
-          "japanese_with_blank": "[___]帰りますか",
+          "japanese": "どうやって帰りますか。",
+          "japanese_with_blank": "[___]帰りますか。",
           "english": "How do you get home?",
           "target_answer": "どうやって",
           "alternative_answers": [],
@@ -107,13 +107,13 @@
             "どうやって",
             "帰りますか"
           ],
-          "audio_text": "どうやって帰りますか",
+          "audio_text": "どうやって帰りますか。",
           "notes": "Asking return method.",
           "position": 7
         },
         {
-          "japanese": "どうやって使いますか",
-          "japanese_with_blank": "[___]使いますか",
+          "japanese": "どうやって使いますか。",
+          "japanese_with_blank": "[___]使いますか。",
           "english": "How do you use it?",
           "target_answer": "どうやって",
           "alternative_answers": [],
@@ -122,13 +122,13 @@
             "どうやって",
             "使いますか"
           ],
-          "audio_text": "どうやって使いますか",
+          "audio_text": "どうやって使いますか。",
           "notes": "Asking usage method.",
           "position": 8
         },
         {
-          "japanese": "どうやって勉強しますか",
-          "japanese_with_blank": "[___]勉強しますか",
+          "japanese": "どうやって勉強しますか。",
+          "japanese_with_blank": "[___]勉強しますか。",
           "english": "How do you study?",
           "target_answer": "どうやって",
           "alternative_answers": [],
@@ -137,13 +137,13 @@
             "どうやって",
             "勉強しますか"
           ],
-          "audio_text": "どうやって勉強しますか",
+          "audio_text": "どうやって勉強しますか。",
           "notes": "Asking study method.",
           "position": 9
         },
         {
-          "japanese": "どうやって話しますか",
-          "japanese_with_blank": "[___]話しますか",
+          "japanese": "どうやって話しますか。",
+          "japanese_with_blank": "[___]話しますか。",
           "english": "How do you say it?",
           "target_answer": "どうやって",
           "alternative_answers": [],
@@ -152,7 +152,7 @@
             "どうやって",
             "話しますか"
           ],
-          "audio_text": "どうやって話しますか",
+          "audio_text": "どうやって話しますか。",
           "notes": "Asking speech method.",
           "position": 10
         }

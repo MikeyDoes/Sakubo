@@ -61,19 +61,19 @@
           "position": 3
         },
         {
-          "japanese": "先生がそうおっしゃいました。",
+          "japanese": "先生がそうなさいました。",
           "japanese_with_blank": "先生がそう[___]。",
-          "english": "The teacher said so. (honorific)",
-          "target_answer": "おっしゃいました",
+          "english": "The teacher did so. (honorific)",
+          "target_answer": "なさいました",
           "alternative_answers": [],
-          "hint": "said (hon.)",
+          "hint": "did (hon.)",
           "scramble_blocks": [
             "先生",
             "が",
             "そう",
-            "おっしゃいました"
+            "なさいました"
           ],
-          "audio_text": "先生がそうおっしゃいました。",
+          "audio_text": "先生がそうなさいました。",
           "notes": "",
           "position": 4
         },

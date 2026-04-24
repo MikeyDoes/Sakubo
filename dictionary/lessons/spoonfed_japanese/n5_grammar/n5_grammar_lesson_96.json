@@ -7,5 +7,12 @@
     {
       "entry_id": 325504
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Connecting Clauses: で (Te-Form of だ)",
+      "body": "で here is the te-form of だ — connecting two clauses describing the same subject.\n\nPattern: [noun/な-adj] + で + [continuation]\n\n• 彼女は学生で、とても頭がいいです。\n(She is a student and very smart.)\n• ここは公園で、子供たちが遊んでいます。\n(This is a park, and children are playing.)\n• 静かで、きれいなところです。\n(It's a quiet and beautiful place.)\n\nFor い-adjectives, the te-form is くて, not で:\n• 大きくて、きれい (big and beautiful)"
+    }
   ]
 }

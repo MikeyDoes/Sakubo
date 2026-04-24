@@ -88,14 +88,15 @@
           "position": 5
         },
         {
-          "japanese": "早く起きなさい。",
-          "japanese_with_blank": "早く起き[___]。",
-          "english": "Wake up early!",
+          "japanese": "手を洗いなさい。",
+          "japanese_with_blank": "手を洗い[___]。",
+          "english": "Wash your hands.",
           "target_answer": "なさい",
           "hint": "command",
           "scramble_blocks": [
-            "早く",
-            "起き",
+            "手",
+            "を",
+            "洗い",
             "なさい"
           ],
           "notes": "",
@@ -103,15 +104,14 @@
           "alternative_answers": []
         },
         {
-          "japanese": "宿題をしなさい。",
-          "japanese_with_blank": "宿題をし[___]。",
-          "english": "Do your homework!",
+          "japanese": "早く寝なさい。",
+          "japanese_with_blank": "早く寝[___]。",
+          "english": "Go to bed early.",
           "target_answer": "なさい",
           "hint": "command",
           "scramble_blocks": [
-            "宿題",
-            "を",
-            "し",
+            "早く",
+            "寝",
             "なさい"
           ],
           "notes": "",
@@ -119,15 +119,15 @@
           "alternative_answers": []
         },
         {
-          "japanese": "野菜を食べなさい。",
-          "japanese_with_blank": "野菜を食べ[___]。",
-          "english": "Eat your vegetables!",
+          "japanese": "薬を飲みなさい。",
+          "japanese_with_blank": "薬を飲み[___]。",
+          "english": "Take your medicine.",
           "target_answer": "なさい",
           "hint": "command",
           "scramble_blocks": [
-            "野菜",
+            "薬",
             "を",
-            "食べ",
+            "飲み",
             "なさい"
           ],
           "notes": "",
@@ -135,13 +135,15 @@
           "alternative_answers": []
         },
         {
-          "japanese": "静かにしなさい。",
-          "japanese_with_blank": "静かにし[___]。",
-          "english": "Be quiet!",
+          "japanese": "外で遊びなさい。",
+          "japanese_with_blank": "外で遊び[___]。",
+          "english": "Go play outside.",
           "target_answer": "なさい",
           "hint": "command",
           "scramble_blocks": [
-            "静かにし",
+            "外",
+            "で",
+            "遊び",
             "なさい"
           ],
           "notes": "",

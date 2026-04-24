@@ -77,17 +77,15 @@
           "position": 4
         },
         {
-          "japanese": "窓を開けたまま寝ました。",
-          "japanese_with_blank": "窓を開けた[___]寝ました。",
-          "english": "I slept with the window open.",
+          "japanese": "座ったまま話しました。",
+          "japanese_with_blank": "座った[___]話しました。",
+          "english": "I spoke while sitting down.",
           "target_answer": "まま",
           "hint": "as is",
           "scramble_blocks": [
-            "窓",
-            "を",
-            "開けた",
+            "座った",
             "まま",
-            "寝ました"
+            "話しました"
           ],
           "notes": "",
           "position": 5,
@@ -110,32 +108,34 @@
           "position": 6
         },
         {
-          "japanese": "電気をつけたまま出かけました。",
-          "japanese_with_blank": "電気をつけた[___]出かけました。",
-          "english": "I went out with lights on.",
+          "japanese": "コートを着たまま寝ました。",
+          "japanese_with_blank": "コートを着た[___]寝ました。",
+          "english": "I slept with my coat on.",
           "target_answer": "まま",
           "hint": "as is",
           "scramble_blocks": [
-            "電気",
+            "コート",
             "を",
-            "つけた",
+            "着た",
             "まま",
-            "出かけました"
+            "寝ました"
           ],
           "notes": "",
           "position": 7,
           "alternative_answers": []
         },
         {
-          "japanese": "立ったまま食べました。",
-          "japanese_with_blank": "立った[___]食べました。",
-          "english": "I ate standing up.",
+          "japanese": "ドアを開けたまま出かけました。",
+          "japanese_with_blank": "ドアを開けた[___]出かけました。",
+          "english": "I went out with the door open.",
           "target_answer": "まま",
           "hint": "as is",
           "scramble_blocks": [
-            "立った",
+            "ドア",
+            "を",
+            "開けた",
             "まま",
-            "食べました"
+            "出かけました"
           ],
           "notes": "",
           "position": 8,

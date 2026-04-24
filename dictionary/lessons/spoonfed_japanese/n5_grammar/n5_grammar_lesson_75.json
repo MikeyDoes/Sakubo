@@ -7,5 +7,12 @@
     {
       "entry_id": 325458
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Not Yet: まだ〜ていません",
+      "body": "まだ〜ていません means 'have not done yet' — an expected action hasn't happened.\n\nPattern: まだ + [verb て-form] + いません\n\n• まだ食べていません。(I haven't eaten yet.)\n• まだ決めていないんです。(I haven't decided yet.)\n\nまだ alone = 'still':\n• まだ食べています。(I'm still eating.)\n\nContrast:\n• もう〜ました = already did:\n  もう食べました。(I already ate.)\n• まだ〜ていません = not yet:\n  まだ食べていません。(Haven't eaten yet.)"
+    }
   ]
 }

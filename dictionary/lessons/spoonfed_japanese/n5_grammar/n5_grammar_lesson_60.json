@@ -7,5 +7,12 @@
     {
       "entry_id": 325445
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Conjunction: でも",
+      "body": "でも can mean 'but / however' or 'any ~' depending on context.\n\n1. 'But / However' (sentence connector):\n• 行きたかった。でも、時間がなかった。\n(I wanted to go. But I didn't have time.)\n\n2. 'Even / Any' (with question words):\n• 何でも食べます。(I'll eat anything.)\n• 誰でも入れます。(Anyone can enter.)\n• いつでもいいです。(Anytime is fine.)\n\n3. Approximate suggestion ('or something'):\n• コーヒーでも飲みませんか？\n(How about some coffee or something?)"
+    }
   ]
 }

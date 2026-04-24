@@ -43,7 +43,8 @@ class RomajiIMETextInput(TextInput):
     ime_enabled = BooleanProperty(False)
 
     _PUNCT_MAP = {',': '\u3001', '.': '\u3002', '?': '\uff1f', '!': '\uff01',
-                  ':': '\uff1a', ';': '\uff1b', '(': '\uff08', ')': '\uff09'}
+                  ':': '\uff1a', ';': '\uff1b', '(': '\uff08', ')': '\uff09',
+                  '-': '\u30fc'}
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -234,6 +235,10 @@ Builder.load_string('''
             shorten: True
             shorten_from: 'right'
             size_hint_x: 1.0
+            background_normal: ''
+            background_down: ''
+            background_color: (0.10, 0.10, 0.12, 1) if root.is_locked else (0.18, 0.20, 0.24, 1)
+            color: (0.40, 0.38, 0.36, 1) if root.is_locked else (0.90, 0.88, 0.85, 1)
             on_release: root.on_lesson_press()
 
         Button:
@@ -243,8 +248,8 @@ Builder.load_string('''
             font_name: 'fonts/NotoSansJP-Regular.ttf'
             background_normal: ''
             background_down: ''
-            background_color: (0.20, 0.45, 0.25, 1) if root.is_queued else (0.22, 0.22, 0.25, 1)
-            color: 0.90, 0.88, 0.85, 1
+            background_color: (0.12, 0.12, 0.14, 1) if root.is_locked else ((0.20, 0.45, 0.25, 1) if root.is_queued else (0.22, 0.22, 0.25, 1))
+            color: (0.35, 0.33, 0.31, 1) if root.is_locked else (0.90, 0.88, 0.85, 1)
             on_release: root.on_queue_press()
 
     BoxLayout:
@@ -288,17 +293,22 @@ class SakuboLessonRow(RecycleDataViewBehavior, BoxLayout):
     index = NumericProperty(0)
     is_reading = BooleanProperty(False)
     reading_filepath = StringProperty('')
+    is_locked = BooleanProperty(False)
 
     def refresh_view_attrs(self, rv, index, data):
         self.index = index
-        # Reset reading-specific properties to defaults before applying data
-        # (prevents stale values when RecycleView recycles a reading row for a lesson)
+        # Reset row-specific properties before applying data
+        # (prevents stale values when RecycleView recycles a row)
         self.is_reading = data.get('is_reading', False)
         self.reading_filepath = data.get('reading_filepath', '')
+        self.is_locked = data.get('is_locked', False)
         return super().refresh_view_attrs(rv, index, data)
 
     def on_lesson_press(self):
         app = App.get_running_app()
+        if self.is_locked:
+            app._show_handwriting_paywall()
+            return
         if self.is_reading and self.reading_filepath:
             app.root.ids.lessons_screen.open_graded_reading(self.reading_filepath)
         else:
@@ -306,6 +316,9 @@ class SakuboLessonRow(RecycleDataViewBehavior, BoxLayout):
 
     def on_queue_press(self):
         app = App.get_running_app()
+        if self.is_locked:
+            app._show_handwriting_paywall()
+            return
         if self.is_reading and self.reading_filepath:
             # Toggle graded reading queue using graded: prefix key
             q_key = f'graded:{self.reading_filepath}'
@@ -505,6 +518,9 @@ class LessonsScreen(BoxLayout):
             if view == 'kana_lessons':
                 self.show_kana_lessons(query=payload.get('query'), record_nav=False)
                 self._schedule_scroll_restore(payload.get('_scroll_y'))
+                return
+            if view == 'glossary':
+                self.show_glossary(query=payload.get('query'), record_nav=False)
                 return
             if view == 'n5_vocab_lessons':
                 self.show_n5_vocab_lessons(query=payload.get('query'), record_nav=False)
@@ -732,6 +748,328 @@ class LessonsScreen(BoxLayout):
             b.bind(on_release=lambda *_: on_press())
         return b
 
+    # ── Glossary View ────────────────────────────────────────────────────
+
+    def show_glossary(self, query: str | None = None, record_nav: bool = True):
+        """Show browsable/searchable glossary of linguistic terms."""
+        try:
+            if record_nav:
+                try:
+                    self._push_view_state()
+                except Exception:
+                    pass
+            self._current_lessons_view = 'glossary'
+            self._view_payload = {'query': (query or '').strip()}
+
+            qa = self._get_quick_area()
+            if qa is None:
+                return
+            qa.clear_widgets()
+
+            from kivy.uix.scrollview import ScrollView
+            from kivy.uix.textinput import TextInput
+            from kivy.uix.anchorlayout import AnchorLayout
+            from kivy.clock import Clock
+            import dictionary.db as dict_db
+
+            main_box = BoxLayout(orientation='vertical', spacing=0)
+
+            # ── Search bar ──
+            search_box = BoxLayout(size_hint_y=None, height=dp(44), padding=[dp(8), dp(4), dp(8), dp(4)])
+            search_input = TextInput(
+                hint_text='Search glossary...',
+                multiline=False,
+                size_hint=(1, 1),
+                font_size='16sp',
+                background_color=(0.18, 0.18, 0.20, 1),
+                foreground_color=(0.90, 0.88, 0.85, 1),
+                hint_text_color=(0.50, 0.50, 0.55, 1),
+                cursor_color=(0.70, 0.70, 0.75, 1),
+                padding=[dp(10), dp(8), dp(10), dp(8)],
+            )
+            try:
+                search_input.font_name = 'fonts/NotoSansJP-Regular.ttf'
+            except Exception:
+                pass
+            search_box.add_widget(search_input)
+            main_box.add_widget(search_box)
+
+            # ── Scrollable content ──
+            scroll = ScrollView(size_hint=(1, 1))
+            content = BoxLayout(orientation='vertical', size_hint_y=None, spacing=0, padding=[dp(8), dp(4), dp(8), dp(8)])
+            content.bind(minimum_height=content.setter('height'))
+            scroll.add_widget(content)
+            main_box.add_widget(scroll)
+
+            # Store refs for rebuild
+            self._glossary_content = content
+            self._glossary_scroll = scroll
+
+            def _rebuild(query_text=''):
+                content.clear_widgets()
+                db_path = get_db_path()
+                conn = dict_db.init_db(db_path)
+                dict_db.ensure_glossary_table(conn)
+                if query_text.strip():
+                    terms = dict_db.search_glossary(conn, query_text.strip())
+                else:
+                    terms = dict_db.get_all_glossary_terms(conn)
+                conn.close()
+
+                if not terms:
+                    no_lbl = Label(
+                        text='No matching terms.',
+                        font_size='15sp',
+                        color=(0.55, 0.55, 0.55, 1),
+                        size_hint_y=None, height=dp(40),
+                        halign='center',
+                    )
+                    no_lbl.bind(size=no_lbl.setter('text_size'))
+                    content.add_widget(no_lbl)
+                    return
+
+                if query_text.strip():
+                    # Flat list when searching
+                    for t in terms:
+                        content.add_widget(self._make_glossary_row(t))
+                else:
+                    # Alphabetical sections
+                    current_letter = None
+                    for t in terms:
+                        first = t['term_en'][0].upper() if t['term_en'] else '?'
+                        if first != current_letter:
+                            current_letter = first
+                            header = Label(
+                                text=f'[b]{current_letter}[/b]',
+                                markup=True,
+                                font_size='18sp',
+                                color=(0.60, 0.65, 0.80, 1),
+                                size_hint_y=None, height=dp(32),
+                                halign='left',
+                                valign='bottom',
+                                padding=[dp(4), 0],
+                            )
+                            header.bind(size=header.setter('text_size'))
+                            content.add_widget(header)
+                        content.add_widget(self._make_glossary_row(t))
+
+            # Debounced search
+            self._glossary_search_event = None
+            def _on_search_text(instance, value):
+                if self._glossary_search_event:
+                    self._glossary_search_event.cancel()
+                self._glossary_search_event = Clock.schedule_once(lambda dt: _rebuild(value), 0.3)
+            search_input.bind(text=_on_search_text)
+
+            anchor = AnchorLayout(anchor_x='center', anchor_y='top')
+            anchor.add_widget(main_box)
+            qa.add_widget(anchor)
+
+            # Initial build
+            _rebuild(query or '')
+            if query:
+                search_input.text = query
+
+        except Exception:
+            import traceback
+            traceback.print_exc()
+
+    def _make_glossary_row(self, term: dict):
+        """Build one tappable glossary row widget."""
+        row = BoxLayout(orientation='vertical', size_hint_y=None, padding=[dp(6), dp(6), dp(6), dp(6)], spacing=dp(2))
+
+        # Title line: English term + Japanese
+        title_parts = f'[b]{term["term_en"]}[/b]'
+        if term.get('term_ja'):
+            title_parts += f'   [color=8899aa]{term["term_ja"]}[/color]'
+
+        title = Label(
+            text=title_parts,
+            markup=True,
+            font_size='16sp',
+            color=(0.90, 0.88, 0.85, 1),
+            size_hint_y=None,
+            halign='left',
+            valign='top',
+        )
+        try:
+            title.font_name = 'fonts/NotoSansJP-Regular.ttf'
+        except Exception:
+            pass
+        title.bind(size=title.setter('text_size'))
+        title.texture_update()
+        title.height = max(title.texture_size[1] + dp(4), dp(24))
+        row.add_widget(title)
+
+        # Definition (truncated to 2 lines on browse, full on tap)
+        defn_text = term.get('definition', '')
+        defn = Label(
+            text=defn_text,
+            font_size='14sp',
+            color=(0.65, 0.63, 0.60, 1),
+            size_hint_y=None,
+            halign='left',
+            valign='top',
+            max_lines=2,
+            shorten=True,
+            shorten_from='right',
+        )
+        try:
+            defn.font_name = 'fonts/NotoSansJP-Regular.ttf'
+        except Exception:
+            pass
+        defn.bind(size=defn.setter('text_size'))
+        defn.texture_update()
+        defn.height = max(defn.texture_size[1] + dp(2), dp(18))
+        row.add_widget(defn)
+
+        row.height = title.height + defn.height + dp(14)
+
+        # Tap to show full popup
+        from kivy.uix.behaviors import ButtonBehavior
+        # We make the row tappable by binding on_touch_down
+        def _on_tap(instance, touch, t=term):
+            if instance.collide_point(*touch.pos):
+                self._show_glossary_popup(t)
+                return True
+        row.bind(on_touch_down=_on_tap)
+        return row
+
+    def _show_glossary_popup(self, term: dict):
+        """Show a detailed popup for a glossary term."""
+        from kivy.uix.popup import Popup
+        from kivy.uix.scrollview import ScrollView
+
+        # Approximate available width for text wrapping (88% of window minus padding)
+        avail_w = Window.width * 0.88 - dp(40)
+
+        inner = BoxLayout(orientation='vertical', spacing=dp(8), padding=dp(12),
+                          size_hint_y=None)
+        inner.bind(minimum_height=inner.setter('height'))
+
+        # Term header
+        header_text = f'[b]{term["term_en"]}[/b]'
+        if term.get('term_ja'):
+            header_text += f'\n[size=20sp]{term["term_ja"]}[/size]'
+        header = Label(
+            text=header_text,
+            markup=True,
+            font_size='24sp',
+            color=(0.92, 0.90, 0.87, 1),
+            size_hint_y=None,
+            halign='center',
+            text_size=(avail_w, None),
+        )
+        try:
+            header.font_name = 'fonts/NotoSansJP-Regular.ttf'
+        except Exception:
+            pass
+        header.texture_update()
+        header.height = header.texture_size[1] + dp(10)
+        inner.add_widget(header)
+
+        # Category badge
+        cat = term.get('category', 'general')
+        cat_label = Label(
+            text=cat.capitalize(),
+            font_size='13sp',
+            color=(0.55, 0.60, 0.70, 1),
+            size_hint_y=None, height=dp(20),
+            italic=True,
+        )
+        inner.add_widget(cat_label)
+
+        # Definition — use pre-set text_size for correct wrapping
+        defn = Label(
+            text=term.get('definition', ''),
+            font_size='16sp',
+            color=(0.82, 0.80, 0.77, 1),
+            size_hint_y=None,
+            halign='left',
+            valign='top',
+            text_size=(avail_w, None),
+        )
+        try:
+            defn.font_name = 'fonts/NotoSansJP-Regular.ttf'
+        except Exception:
+            pass
+        defn.texture_update()
+        defn.height = defn.texture_size[1] + dp(12)
+        inner.add_widget(defn)
+
+        # See also
+        if term.get('see_also'):
+            sa_label = Label(
+                text=f'[i]See also: {term["see_also"]}[/i]',
+                markup=True,
+                font_size='14sp',
+                color=(0.55, 0.60, 0.70, 1),
+                size_hint_y=None,
+                halign='left',
+                text_size=(avail_w, None),
+            )
+            try:
+                sa_label.font_name = 'fonts/NotoSansJP-Regular.ttf'
+            except Exception:
+                pass
+            sa_label.texture_update()
+            sa_label.height = sa_label.texture_size[1] + dp(6)
+            inner.add_widget(sa_label)
+
+        # Scrollable area for the content
+        sv = ScrollView(size_hint=(1, 1))
+        sv.add_widget(inner)
+
+        # Close button outside the scroll
+        outer = BoxLayout(orientation='vertical', spacing=dp(6))
+        outer.add_widget(sv)
+        close_btn = Button(
+            text='Close',
+            size_hint_y=None, height=dp(44),
+            background_normal='',
+            background_color=(0.30, 0.30, 0.35, 1),
+            color=(0.85, 0.83, 0.80, 1),
+        )
+        outer.add_widget(close_btn)
+
+        # Manually sum child heights since minimum_height hasn't fired yet
+        content_h = sum(c.height for c in inner.children) + inner.spacing * max(0, len(inner.children) - 1) + inner.padding[1] + inner.padding[3]
+        popup_h = min(content_h + dp(120), Window.height * 0.7)
+
+        popup = Popup(
+            title=term['term_en'],
+            title_font='fonts/NotoSansJP-Regular.ttf',
+            content=outer,
+            size_hint=(0.88, None),
+            height=popup_h,
+            auto_dismiss=True,
+        )
+        close_btn.bind(on_release=lambda *_: popup.dismiss())
+        popup.open()
+
+    @staticmethod
+    def _render_glossary_markup(text: str) -> str:
+        """Convert {glossary:term} tags in text to Kivy ref markup links."""
+        import re
+        def _repl(m):
+            term = m.group(1)
+            return f'[ref=g:{term}][color=6495ed]{term}[/color][/ref]'
+        return re.sub(r'\{glossary:([^}]+)\}', _repl, text)
+
+    def _on_glossary_ref_press(self, instance, ref_value):
+        """Handle tap on a glossary link in info card text."""
+        if not ref_value.startswith('g:'):
+            return
+        term_key = ref_value[2:]
+        import dictionary.db as dict_db
+        db_path = get_db_path()
+        conn = dict_db.init_db(db_path)
+        dict_db.ensure_glossary_table(conn)
+        term = dict_db.get_glossary_term(conn, term_key)
+        conn.close()
+        if term:
+            self._show_glossary_popup(term)
+
     def _build_sakubo_lessons_rv(self, header_widget, rv_data, back_handler, no_data_msg):
         """Build a RecycleView-based lessons screen with header, list, back button.
         
@@ -824,6 +1162,7 @@ class LessonsScreen(BoxLayout):
             container.add_widget(self._make_menu_button('My Queue', lambda: app.show_my_queue()))
             container.add_widget(self._make_menu_button('Lessons', lambda: self.show_lessons_submenu()))
             container.add_widget(self._make_menu_button('Reading', lambda: self.show_reading_submenu()))
+            # container.add_widget(self._make_menu_button('Glossary', lambda: self.show_glossary()))  # hidden until built
             anchor = AnchorLayout(anchor_x='center', anchor_y='top')
             anchor.add_widget(scroll)
             qa.add_widget(anchor)
@@ -2948,7 +3287,9 @@ class LessonsScreen(BoxLayout):
             self._dictation_ime_updating = False
 
     def _promote_dictation_kana(self, text, segments):
-        """Walk expected segments and promote matching kana to kanji/katakana."""
+        """Walk expected segments and promote matching kana to kanji/katakana.
+        Punctuation is treated as transparent — user-typed punct is passed through
+        and expected punct segments are skipped freely so promotion continues."""
         def _to_hira(s):
             return ''.join(chr(ord(c) - 0x60) if 0x30A1 <= ord(c) <= 0x30F6 else c for c in s)
         def _is_p(c):
@@ -2957,16 +3298,19 @@ class LessonsScreen(BoxLayout):
                 return False
             return c in '\u3002\u3001\uff01\uff1f\u300c\u300d\u300e\u300f\uff08\uff09\u301c\u2026\u30fb\u3000 \t\n' or unicodedata.category(c).startswith(('P', 'Z'))
 
+        # Build a list of content (non-punct) segments for matching
+        content_segs = [s for s in segments if not s['is_punct']]
+
         result = []
         t_idx = 0
-        for seg in segments:
-            if t_idx >= len(text):
-                break
-            if seg['is_punct']:
-                if t_idx < len(text) and _is_p(text[t_idx]):
-                    result.append(text[t_idx])
-                    t_idx += 1
+        seg_idx = 0
+        while t_idx < len(text) and seg_idx < len(content_segs):
+            # Pass through any user-typed punctuation
+            if _is_p(text[t_idx]):
+                result.append(text[t_idx])
+                t_idx += 1
                 continue
+            seg = content_segs[seg_idx]
             orig = seg['orig']
             reading = seg['reading']
             # Try exact surface match
@@ -2975,6 +3319,7 @@ class LessonsScreen(BoxLayout):
                 if _to_hira(chunk) == _to_hira(orig):
                     result.append(orig)
                     t_idx += len(orig)
+                    seg_idx += 1
                     continue
             # Try reading match (kana for kanji/katakana)
             if t_idx + len(reading) <= len(text):
@@ -2982,6 +3327,7 @@ class LessonsScreen(BoxLayout):
                 if _to_hira(chunk) == reading:
                     result.append(orig)
                     t_idx += len(reading)
+                    seg_idx += 1
                     continue
             # No complete match — stop promoting
             break
@@ -5475,7 +5821,7 @@ class LessonsScreen(BoxLayout):
             return self._graded_readings_cache[level]
         import json, glob
         from pathlib import Path
-        readings_dir = Path('readings') / level
+        readings_dir = Path(os.path.dirname(os.path.abspath(__file__))) / 'readings' / level
         if not readings_dir.exists():
             self._graded_readings_cache[level] = []
             return []
@@ -6941,7 +7287,7 @@ class LessonsScreen(BoxLayout):
             _overlay_event = Clock.schedule_once(_show_overlay, 0.3)
 
             q = (query or '').strip().lower()
-            has_readings = (level == 'n5')
+            has_readings = True
             range_start, range_end = lesson_range
 
             def _fetch_data():
@@ -6963,20 +7309,33 @@ class LessonsScreen(BoxLayout):
                                  if range_start <= int(k) <= range_end}
                 lesson_count = len(level_lessons)
 
+                # Premium gating: determine which lessons are free
+                from sync.subscription import has_premium_access
+                _has_premium = has_premium_access()
+                if level == 'n5':
+                    _free_threshold = 69  # up to lesson 69 (G008 reading) is free
+                elif level in ('n4', 'n3', 'n2', 'n1'):
+                    _sorted_keys = sorted(int(k) for k in level_lessons.keys())
+                    _free_threshold = _sorted_keys[4] if len(_sorted_keys) >= 5 else (_sorted_keys[-1] if _sorted_keys else 0)
+                else:
+                    _free_threshold = None  # kana — always free
+
                 _queue = getattr(app, '_lesson_queue', [])
                 any_in_queue = any(
                     _norm(v.get('vocab') or v.get('grammar') or list(v.values())[0]) in _queue
                     for v in level_lessons.values()
                 )
                 if has_readings:
+                    _rprefix_fwd = f'graded:readings/{level}/'
+                    _rprefix_bck = f'graded:readings\\{level}\\'
                     any_in_queue = any_in_queue or any(
-                        qi.startswith('graded:readings/n5/') or qi.startswith('graded:readings\\n5\\')
+                        qi.startswith(_rprefix_fwd) or qi.startswith(_rprefix_bck)
                         for qi in _queue if isinstance(qi, str)
                     )
 
                 progress_batch = app._get_sakubo_lessons_progress_batch(level)
 
-                # Graded readings (N5 only)
+                # Graded readings
                 _readings_by_lesson = {}
                 _reading_stats = {}
                 if has_readings:
@@ -7056,8 +7415,9 @@ class LessonsScreen(BoxLayout):
                         'in_srs_pct': in_srs_count / total if total > 0 else 0,
                         'unknown_pct': unknown_count / total if total > 0 else 0,
                         'has_progress': total > 0,
+                        'is_locked': not _has_premium and _free_threshold is not None and int(num) > _free_threshold,
                     })
-                    # Interleave graded readings for this lesson (N5 only)
+                    # Interleave graded readings for this lesson
                     if has_readings:
                         _num_int = int(num)
                         _lesson_readings = _readings_by_lesson.get(_num_int, [])
@@ -7099,6 +7459,7 @@ class LessonsScreen(BoxLayout):
                                 'in_srs_pct': 0,
                                 'unknown_pct': 1.0 - _r_known,
                                 'has_progress': True,
+                                'is_locked': not _has_premium and _free_threshold is not None and _rd.get('lesson_number', 0) > _free_threshold,
                             })
                 return {
                     'rv_data': rv_data,
@@ -7197,7 +7558,7 @@ class LessonsScreen(BoxLayout):
     def show_n1_vocab_lessons(self, query: str | None = None, record_nav: bool = True):
         """Show JLPT N1 vocabulary lessons."""
         self._show_level_vocab_lessons_async(
-            'n1', (1362, 2093), 'n1_vocab_lessons',
+            'n1', (1362, 2156), 'n1_vocab_lessons',
             'add_all_n1_vocab_to_queue', 'remove_all_n1_vocab_from_queue',
             query=query, record_nav=record_nav)
 
@@ -7434,6 +7795,7 @@ class LessonsScreen(BoxLayout):
                 with open(settings_file, 'r') as f:
                     settings = json.load(f)
             settings['reading_mode'] = mode
+            settings['_settings_dirty'] = True
             with open(settings_file, 'w') as f:
                 json.dump(settings, f, indent=2)
         except Exception:
@@ -9406,7 +9768,7 @@ class EntryDetailScreen(BoxLayout):
             readings = _parse_kanji_readings(kana)
             
             # Show kanji
-            kanji_box = self._create_clickable_text(kanji, font_size='48sp', height=dp(64))
+            kanji_box = self._create_clickable_text(kanji, font_size='48sp', height=dp(64), copy_text=kanji)
             content.add_widget(kanji_box)
             
             # Show formatted readings below kanji but above definitions
@@ -9480,13 +9842,17 @@ class EntryDetailScreen(BoxLayout):
 
                 if pitch_widget is not None:
                     # Combined pitch+kana widget replaces the plain kana row
+                    # Make it copyable: tap copies the kana
+                    self._make_widget_copyable(pitch_widget, text=kana)
                     content.add_widget(pitch_widget)
                 else:
-                    kana_box = self._create_clickable_text(kana, font_size='22sp', height=dp(32))
+                    kana_box = self._create_clickable_text(kana, font_size='22sp', height=dp(32),
+                                                           copy_text=kana)
                     content.add_widget(kana_box)
 
             if kanji and kanji != kana:
-                kanji_box = self._create_clickable_text(kanji, font_size='32sp', height=dp(44), char_width=dp(34))
+                kanji_box = self._create_clickable_text(kanji, font_size='32sp', height=dp(44), char_width=dp(34),
+                                                         copy_text=kanji)
                 content.add_widget(kanji_box)
         
         # Parse POS - semicolon-separated for multiple parts of speech
@@ -9937,7 +10303,7 @@ class EntryDetailScreen(BoxLayout):
                 container.add_widget(expl_label)
 
             # Sentences box for this category
-            cat_box = BoxLayout(orientation='vertical', size_hint_y=None, spacing=dp(4))
+            cat_box = BoxLayout(orientation='vertical', size_hint_y=None, spacing=dp(16))
             cat_box.bind(minimum_height=cat_box.setter('height'))
 
             for i, sent in enumerate(sentences[:INITIAL_SHOW]):
@@ -9980,60 +10346,124 @@ class EntryDetailScreen(BoxLayout):
         return container
 
     def _create_grammar_exercise_row(self, num, sentence, app):
-        """Create a single grammar exercise sentence row."""
+        """Create a single grammar exercise sentence row with clickable words, copy/translate/TTS buttons."""
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.label import Label
+        from kivy.uix.button import Button
+        from kivy.uix.widget import Widget
         from kivy.metrics import dp
 
-        row = BoxLayout(orientation='vertical', size_hint_y=None, spacing=dp(2),
-                        padding=[dp(4), dp(4), dp(4), dp(4)])
+        row = BoxLayout(orientation='vertical', size_hint_y=None, spacing=dp(2))
         row.bind(minimum_height=row.setter('height'))
 
-        # Japanese sentence
-        jp_label = Label(
-            text=f'{num}. {sentence["japanese"]}',
-            size_hint_y=None,
-            height=dp(28),
-            font_size='15sp',
-            font_name='fonts/NotoSansJP-Regular.ttf',
-            color=(0.95, 0.93, 0.90, 1) if app.dark_mode else (0.1, 0.1, 0.1, 1),
-            halign='left',
-            valign='middle',
-            padding=[dp(4), 0],
-            markup=True
-        )
-        jp_label.bind(size=jp_label.setter('text_size'))
-        row.add_widget(jp_label)
+        # Japanese sentence (clickable words)
+        japanese_text = sentence['japanese']
+        clickable_sentence = self._create_clickable_tatoeba_sentence(f'{num}. {japanese_text}', app)
+        row.add_widget(clickable_sentence)
 
-        # English translation (toggleable — hidden by default)
-        eng_label = Label(
-            text=sentence['english'],
-            size_hint_y=None,
-            height=dp(0),
-            opacity=0,
-            font_size='13sp',
-            font_name='fonts/NotoSansJP-Regular.ttf',
-            color=(0.6, 0.6, 0.6, 1) if app.dark_mode else (0.4, 0.4, 0.4, 1),
-            halign='left',
-            valign='middle',
-            padding=[dp(20), 0]
-        )
-        eng_label.bind(size=eng_label.setter('text_size'))
-        row.add_widget(eng_label)
+        # Translation container (hidden initially)
+        english_text = sentence.get('english', '')
+        translation_container = BoxLayout(orientation='vertical', size_hint_y=None, height=0, opacity=0)
 
-        # Tap to toggle English
-        def toggle_english(instance, touch):
-            if not instance.collide_point(*touch.pos):
-                return False
-            if eng_label.opacity == 0:
-                eng_label.opacity = 1
-                eng_label.height = dp(22)
+        if english_text:
+            eng_label = Label(
+                text=english_text,
+                size_hint_y=None,
+                font_size='13sp',
+                font_name='fonts/NotoSansJP-Regular.ttf',
+                color=(0.6, 0.6, 0.6, 1) if app.dark_mode else (0.4, 0.4, 0.4, 1),
+                halign='left',
+                valign='top'
+            )
+            eng_label.bind(
+                width=lambda inst, w: setattr(inst, 'text_size', (w, None)),
+                texture_size=lambda inst, ts: setattr(inst, 'height', ts[1])
+            )
+            translation_container.add_widget(eng_label)
+
+        # Centered action row: [spacer] [copy btn] [translate btn] [tts btn] [spacer]
+        action_row = BoxLayout(size_hint_y=None, height=dp(36), spacing=dp(8))
+        action_row.add_widget(Widget(size_hint_x=1))
+
+        # Copy button
+        copy_btn = Button(
+            text='\ue14d',  # content_copy icon
+            font_name='fonts/MaterialSymbolsOutlined.ttf',
+            font_size='18sp',
+            size_hint=(None, None),
+            size=(dp(36), dp(36)),
+            background_normal='',
+            background_color=(0.35, 0.35, 0.40, 1) if app.dark_mode else (0.55, 0.55, 0.60, 1),
+            color=(1, 1, 1, 1)
+        )
+
+        def copy_sentence(instance, text=japanese_text):
+            try:
+                from kivy.core.clipboard import Clipboard
+                Clipboard.copy(text)
+                app_instance = App.get_running_app()
+                if hasattr(app_instance, '_flash_opacity'):
+                    app_instance._flash_opacity(instance)
+            except Exception:
+                pass
+
+        copy_btn.bind(on_release=copy_sentence)
+        action_row.add_widget(copy_btn)
+
+        # Translate icon button
+        translate_btn = Button(
+            text='\ue8e2',  # translate icon
+            font_name='fonts/MaterialSymbolsOutlined.ttf',
+            font_size='18sp',
+            size_hint=(None, None),
+            size=(dp(36), dp(36)),
+            background_normal='',
+            background_color=(0.20, 0.30, 0.50, 1),
+            color=(1, 1, 1, 1)
+        )
+
+        def toggle_translation(instance, container=translation_container,
+                               eng_lbl=eng_label if english_text else None):
+            if container.opacity == 0:
+                container.opacity = 1
+                if eng_lbl:
+                    eng_lbl.texture_update()
+                    container.height = eng_lbl.texture_size[1] + dp(4)
+                instance.background_color = (0.15, 0.50, 0.30, 1)
             else:
-                eng_label.opacity = 0
-                eng_label.height = dp(0)
-            return True
+                container.opacity = 0
+                container.height = 0
+                instance.background_color = (0.20, 0.30, 0.50, 1)
 
-        jp_label.bind(on_touch_down=toggle_english)
+        translate_btn.bind(on_release=toggle_translation)
+        action_row.add_widget(translate_btn)
+
+        # TTS speaker button
+        speaker_btn = Button(
+            text='\ue050',  # volume_up icon
+            font_name='fonts/MaterialSymbolsOutlined.ttf',
+            font_size='18sp',
+            size_hint=(None, None),
+            size=(dp(36), dp(36)),
+            background_normal='',
+            background_color=(0.3, 0.5, 0.3, 1) if app.dark_mode else (0.4, 0.7, 0.4, 1),
+            color=(1, 1, 1, 1)
+        )
+
+        def speak_sentence(instance, text=japanese_text):
+            try:
+                app_instance = App.get_running_app()
+                if hasattr(app_instance, 'speak_text'):
+                    app_instance.speak_text(text, btn=instance)
+            except Exception as e:
+                Logger.error(f'TTS error: {e}')
+
+        speaker_btn.bind(on_release=speak_sentence)
+        action_row.add_widget(speaker_btn)
+        action_row.add_widget(Widget(size_hint_x=1))
+
+        row.add_widget(translation_container)
+        row.add_widget(action_row)
 
         return row
     
@@ -10072,9 +10502,34 @@ class EntryDetailScreen(BoxLayout):
             )
             translation_container.add_widget(eng_label)
         
-        # Centered action row: [spacer] [translate btn] [tts btn] [spacer]
+        # Centered action row: [spacer] [copy btn] [translate btn] [tts btn] [spacer]
         action_row = BoxLayout(size_hint_y=None, height=dp(36), spacing=dp(8))
         action_row.add_widget(Widget(size_hint_x=1))
+
+        # Copy button
+        copy_btn = Button(
+            text='\ue14d',  # content_copy icon
+            font_name='fonts/MaterialSymbolsOutlined.ttf',
+            font_size='18sp',
+            size_hint=(None, None),
+            size=(dp(36), dp(36)),
+            background_normal='',
+            background_color=(0.35, 0.35, 0.40, 1) if app.dark_mode else (0.55, 0.55, 0.60, 1),
+            color=(1, 1, 1, 1)
+        )
+
+        def copy_sentence(instance, text=japanese_text):
+            try:
+                from kivy.core.clipboard import Clipboard
+                Clipboard.copy(text)
+                app_instance = App.get_running_app()
+                if hasattr(app_instance, '_flash_opacity'):
+                    app_instance._flash_opacity(instance)
+            except Exception:
+                pass
+
+        copy_btn.bind(on_release=copy_sentence)
+        action_row.add_widget(copy_btn)
         
         # Translate icon button
         translate_btn = Button(
@@ -10359,9 +10814,9 @@ class EntryDetailScreen(BoxLayout):
                 height=dp(24),
                 halign='left',
                 valign='middle',
-                font_size='14sp',
+                font_size='13sp',
+                font_name='fonts/NotoSansJP-Regular.ttf',
                 color=(0.7, 0.7, 0.7, 1) if app.dark_mode else (0.3, 0.3, 0.3, 1),
-                bold=True
             )
             found_label.bind(width=lambda instance, value: setattr(instance, 'text_size', (value, None)))
             container.add_widget(found_label)
@@ -10382,14 +10837,13 @@ class EntryDetailScreen(BoxLayout):
             # Show more button if there are more than 5 words
             if len(words) > 5:
                 show_more_btn = Button(
-                    text='Show More',
+                    text=f'(show {len(words) - 5} more)',
                     size_hint_y=None,
-                    height=dp(32),
+                    height=dp(44),
+                    font_size='13sp',
                     background_normal='',
-                    background_color=(0.25, 0.35, 0.50, 1),
-                    color=(1, 1, 1, 1),
-                    font_name='fonts/NotoSansJP-Regular.ttf',
-                    font_size='12sp'
+                    background_color=(0, 0, 0, 0),
+                    color=(0.4, 0.7, 1, 1) if app.dark_mode else (0.2, 0.5, 0.9, 1)
                 )
                 show_more_btn.bind(on_release=lambda *_: self._show_all_found_in_words())
                 self._found_in_show_more_btn = show_more_btn
@@ -10427,28 +10881,45 @@ class EntryDetailScreen(BoxLayout):
             else:
                 word_text = f'{i}. {display_text}'
             
-            # Add JLPT level tag (jlpt is already in 'N5' format)
+            # Add JLPT level tag
             if jlpt:
                 word_text += f' [{jlpt}]'
             
-            # Word button (clickable)
-            word_btn = Button(
+            # Row container
+            row = BoxLayout(orientation='vertical', size_hint_y=None, spacing=dp(2))
+            row.bind(minimum_height=row.setter('height'))
+            
+            # Japanese word label (clickable via touch)
+            word_label = Label(
                 text=word_text,
                 size_hint_y=None,
-                height=dp(32),
+                height=dp(28),
                 halign='left',
                 valign='middle',
-                background_normal='',
-                background_color=(0.18, 0.18, 0.20, 1) if app.dark_mode else (0.93, 0.90, 0.83, 1),
-                color=(0.9, 0.9, 0.9, 1) if app.dark_mode else (0.1, 0.1, 0.1, 1),
                 font_name='fonts/NotoSansJP-Regular.ttf',
-                font_size='13sp'
+                font_size='14sp',
+                color=(0.9, 0.9, 0.9, 1) if app.dark_mode else (0.1, 0.1, 0.1, 1)
             )
-            word_btn.bind(
-                width=lambda instance, value: setattr(instance, 'text_size', (value - dp(16), None)),
+            word_label.bind(width=lambda instance, value: setattr(instance, 'text_size', (value - dp(8), None)))
+            
+            # Make it tappable by wrapping in a button with transparent bg
+            word_btn = Button(
+                size_hint_y=None,
+                height=dp(28),
+                background_normal='',
+                background_color=(0, 0, 0, 0),
                 on_release=lambda btn, wid=word_id, surface=display_text: self._show_found_in_word_popup(wid, surface)
             )
-            container.add_widget(word_btn)
+            
+            from kivy.uix.floatlayout import FloatLayout
+            tap_box = FloatLayout(size_hint_y=None, height=dp(28))
+            word_label.pos_hint = {'x': 0, 'y': 0}
+            word_label.size_hint = (1, 1)
+            word_btn.pos_hint = {'x': 0, 'y': 0}
+            word_btn.size_hint = (1, 1)
+            tap_box.add_widget(word_label)
+            tap_box.add_widget(word_btn)
+            row.add_widget(tap_box)
             
             # Definition label
             if first_def:
@@ -10465,7 +10936,9 @@ class EntryDetailScreen(BoxLayout):
                     width=lambda instance, value: setattr(instance, 'text_size', (value, None)),
                     texture_size=lambda instance, value: setattr(instance, 'height', value[1])
                 )
-                container.add_widget(def_label)
+                row.add_widget(def_label)
+            
+            container.add_widget(row)
     
     def _show_all_found_in_words(self):
         """Show all found in words (remove show more button)."""
@@ -10496,8 +10969,12 @@ class EntryDetailScreen(BoxLayout):
         except Exception as e:
             Logger.error(f'EntryDetailScreen: Error showing found-in word popup: {e}')
     
-    def _create_clickable_text(self, text, font_size='18sp', height=dp(40), char_width=None):
-        """Create a box with clickable characters."""
+    def _create_clickable_text(self, text, font_size='18sp', height=dp(40), char_width=None, copy_text=None):
+        """Create a box with clickable characters.
+        
+        If copy_text is provided, tapping any character copies copy_text to clipboard
+        instead of looking up the character.
+        """
         from kivy.uix.behaviors import ButtonBehavior
         app = App.get_running_app()
         text_color = (0.9, 0.9, 0.9, 1) if app.dark_mode else (0.1, 0.1, 0.1, 1)
@@ -10522,7 +10999,17 @@ class EntryDetailScreen(BoxLayout):
                 background_color=(0, 0, 0, 0),
                 color=text_color
             )
-            char_btn.bind(on_release=lambda btn, c=char: self._lookup_character(c))
+            if copy_text is not None:
+                def _copy_handler(btn, _text=copy_text, _grid=text_grid):
+                    try:
+                        from kivy.core.clipboard import Clipboard
+                        Clipboard.copy(_text)
+                    except Exception:
+                        pass
+                    self._flash_opacity(_grid)
+                char_btn.bind(on_release=_copy_handler)
+            else:
+                char_btn.bind(on_release=lambda btn, c=char: self._lookup_character(c))
             text_grid.add_widget(char_btn)
         
         container.add_widget(text_grid)
@@ -12720,6 +13207,10 @@ class EntryDetailScreen(BoxLayout):
                 self._refresh_srs_status()
             except Exception:
                 pass
+            try:
+                App.get_running_app()._lessons_needs_reload = True
+            except Exception:
+                pass
             
         except Exception as e:
             Logger.error(f'EntryDetailScreen: Error adding vectors to Known: {e}')
@@ -12910,6 +13401,10 @@ class EntryDetailScreen(BoxLayout):
             # Refresh SRS status display if on entry detail screen
             try:
                 self._refresh_srs_status()
+            except Exception:
+                pass
+            try:
+                App.get_running_app()._lessons_needs_reload = True
             except Exception:
                 pass
             
@@ -13469,7 +13964,7 @@ class SpoonfedApp(App):
     # Home screen preference: 'dictionary' (default) or 'study'
     home_screen = StringProperty('dictionary')
     # Auto TTS: automatically speak Japanese text after answering a card
-    auto_tts = BooleanProperty(False)
+    auto_tts = BooleanProperty(True)
     # Current screen for button state tracking
     current_screen = StringProperty('dictionary')
     # Dark mode
@@ -13489,6 +13984,8 @@ class SpoonfedApp(App):
         self._load_handwriting_mode_preference()
         # Load TTS voice preference
         self._load_tts_voice_preference()
+        # Register callback for missing Japanese TTS voice data
+        tts.set_on_japanese_unavailable(self._on_japanese_tts_unavailable)
         # Load study settings
         self._load_study_settings()
         # Initialize dev mode
@@ -13833,6 +14330,7 @@ class SpoonfedApp(App):
             settings['handwriting_mode'] = self.handwriting_mode
             settings['handwriting_only_mode'] = self.handwriting_only_mode
             settings['remember_my_stuff_position'] = getattr(self, '_remember_my_stuff_position', False)
+            settings['_settings_dirty'] = True
             with open(settings_file, 'w') as f:
                 json.dump(settings, f, indent=2)
         except Exception as e:
@@ -13926,7 +14424,7 @@ class SpoonfedApp(App):
 
         # Description
         desc = Label(
-            text='Unlock handwriting practice &\nALL Sakubo features.',
+            text='Unlock all lessons, levels,\nand handwriting practice.',
             font_name=FONT, font_size=sp(14),
             color=(0.72, 0.70, 0.67, 1), size_hint_y=None, height=dp(38),
             halign='center', valign='middle',
@@ -14443,6 +14941,7 @@ class SpoonfedApp(App):
             # Convert any Path objects to strings
             queue = getattr(self, '_lesson_queue', [])
             settings['lesson_queue'] = [str(item) if not isinstance(item, (int, str)) else item for item in queue]
+            settings['_queue_dirty'] = True
             with open(settings_file, 'w') as f:
                 json.dump(settings, f, indent=2)
             Logger.info(f'LessonQueue: Saved {len(queue)} items to disk')
@@ -14495,6 +14994,7 @@ class SpoonfedApp(App):
                 with open(settings_file, 'r') as f:
                     settings = json.load(f)
             settings['dark_mode'] = self.dark_mode
+            settings['_settings_dirty'] = True
             with open(settings_file, 'w') as f:
                 json.dump(settings, f, indent=2)
         except Exception as e:
@@ -14512,18 +15012,19 @@ class SpoonfedApp(App):
                     self.daily_new_items_limit = settings.get('daily_new_items_limit', 8)
                     self.study_max_low_stability_vectors = settings.get('study_max_low_stability_vectors', 125)
                     self.home_screen = settings.get('home_screen', 'dictionary')
-                    self.auto_tts = settings.get('auto_tts', False)
+                    self.auto_tts = settings.get('auto_tts', True)
+                    self.hide_review_counter = settings.get('hide_review_counter', False)
             else:
                 self.daily_new_items_limit = 8
                 self.study_max_low_stability_vectors = 125
                 self.home_screen = 'dictionary'
-                self.auto_tts = False
+                self.auto_tts = True
         except Exception as e:
             Logger.error(f'Settings: Error loading study settings: {e}')
             self.daily_new_items_limit = 8
             self.study_max_low_stability_vectors = 125
             self.home_screen = 'dictionary'
-            self.auto_tts = False
+            self.auto_tts = True
     
     def _save_study_settings(self):
         """Save study settings to settings file."""
@@ -14539,6 +15040,8 @@ class SpoonfedApp(App):
             settings['study_max_low_stability_vectors'] = int(self.study_max_low_stability_vectors)
             settings['home_screen'] = self.home_screen
             settings['auto_tts'] = bool(self.auto_tts)
+            settings['hide_review_counter'] = bool(self.hide_review_counter)
+            settings['_settings_dirty'] = True
             with open(settings_file, 'w') as f:
                 json.dump(settings, f, indent=2)
         except Exception as e:
@@ -14568,6 +15071,8 @@ class SpoonfedApp(App):
                 def bg():
                     ok, msg = run_full_sync()
                     Logger.info(f'Sync: post-login sync: {msg}')
+                    if ok:
+                        Clock.schedule_once(lambda dt: self._apply_synced_data(), 0)
                 threading.Thread(target=bg, daemon=True).start()
                 self._update_sync_btn_label()
 
@@ -14602,10 +15107,10 @@ class SpoonfedApp(App):
             padding=[dp(20), dp(16)],
             size_hint=(1, 1),
         )
-        from kivy.graphics import Color, RoundedRectangle
+        from kivy.graphics import Color, Rectangle
         with root.canvas.before:
             Color(0.14, 0.14, 0.16, 1)
-            _bg = RoundedRectangle(pos=root.pos, size=root.size, radius=[dp(16)])
+            _bg = Rectangle(pos=root.pos, size=root.size)
         root.bind(
             pos=lambda w, v: setattr(_bg, 'pos', w.pos),
             size=lambda w, v: setattr(_bg, 'size', w.size),
@@ -14821,12 +15326,128 @@ class SpoonfedApp(App):
                 with open(settings_file, 'r') as f:
                     settings = json.load(f)
             settings['tts_voice'] = self.tts_voice
+            settings['_settings_dirty'] = True
             with open(settings_file, 'w') as f:
                 json.dump(settings, f, indent=2)
         except Exception as e:
             Logger.error(f'Settings: Error saving tts_voice: {e}')
 
-    def speak_text(self, text: str, btn=None):
+    def _on_japanese_tts_unavailable(self, engine_name: str):
+        """Show a help popup when Android TTS can't speak Japanese."""
+        from kivy.uix.popup import Popup
+        from kivy.uix.scrollview import ScrollView
+
+        # Friendly engine name
+        if 'samsung' in engine_name.lower():
+            engine_label = 'Samsung TTS'
+            steps = (
+                '1. Open your phone\'s [b]Settings[/b]\n'
+                '2. Go to [b]General Management[/b]\n'
+                '3. Tap [b]Text-to-speech[/b]\n'
+                '4. Tap the ⚙ gear icon next to [b]Samsung TTS[/b]\n'
+                '5. Tap [b]Language[/b]\n'
+                '6. Find [b]Japanese[/b] and tap [b]Download[/b]\n'
+                '7. Restart this app'
+            )
+        elif 'google' in engine_name.lower():
+            engine_label = 'Google TTS'
+            steps = (
+                '1. Open your phone\'s [b]Settings[/b]\n'
+                '2. Search for [b]Text-to-speech[/b]\n'
+                '3. Tap [b]Google TTS[/b] (or the ⚙ gear icon)\n'
+                '4. Tap [b]Install voice data[/b]\n'
+                '5. Find [b]Japanese[/b] and download it\n'
+                '6. Restart this app'
+            )
+        else:
+            engine_label = engine_name.split('.')[-1] if engine_name else 'your TTS engine'
+            steps = (
+                '1. Open your phone\'s [b]Settings[/b]\n'
+                '2. Search for [b]Text-to-speech[/b]\n'
+                '3. Open your TTS engine settings\n'
+                '4. Find the language list and download [b]Japanese[/b]\n'
+                '5. Restart this app'
+            )
+
+        avail_w = Window.width * 0.88 - dp(40)
+
+        inner = BoxLayout(orientation='vertical', spacing=dp(10), padding=dp(14),
+                          size_hint_y=None)
+        inner.bind(minimum_height=inner.setter('height'))
+
+        # Explanation
+        msg = Label(
+            text=(
+                f'Your device uses [b]{engine_label}[/b] but the '
+                'Japanese voice data is not installed.\n\n'
+                'Without it, Sakubo cannot read words aloud.\n\n'
+                'To fix this:'
+            ),
+            markup=True,
+            font_size='15sp',
+            color=(0.88, 0.86, 0.83, 1),
+            size_hint_y=None,
+            halign='left',
+            valign='top',
+            text_size=(avail_w, None),
+        )
+        try:
+            msg.font_name = 'fonts/NotoSansJP-Regular.ttf'
+        except Exception:
+            pass
+        msg.texture_update()
+        msg.height = msg.texture_size[1] + dp(8)
+        inner.add_widget(msg)
+
+        # Steps
+        steps_label = Label(
+            text=steps,
+            markup=True,
+            font_size='15sp',
+            color=(0.80, 0.85, 0.95, 1),
+            size_hint_y=None,
+            halign='left',
+            valign='top',
+            text_size=(avail_w, None),
+        )
+        try:
+            steps_label.font_name = 'fonts/NotoSansJP-Regular.ttf'
+        except Exception:
+            pass
+        steps_label.texture_update()
+        steps_label.height = steps_label.texture_size[1] + dp(8)
+        inner.add_widget(steps_label)
+
+        sv = ScrollView(size_hint=(1, 1))
+        sv.add_widget(inner)
+
+        outer = BoxLayout(orientation='vertical', spacing=dp(6))
+        outer.add_widget(sv)
+
+        close_btn = Button(
+            text='Got it',
+            size_hint_y=None, height=dp(46),
+            background_normal='',
+            background_color=(0.25, 0.35, 0.50, 1),
+            color=(0.92, 0.90, 0.87, 1),
+            font_size='16sp',
+        )
+        outer.add_widget(close_btn)
+
+        content_h = sum(c.height for c in inner.children) + inner.spacing * max(0, len(inner.children) - 1) + inner.padding[1] + inner.padding[3]
+        popup_h = min(content_h + dp(140), Window.height * 0.75)
+
+        popup = Popup(
+            title='Japanese Voice Not Found',
+            content=outer,
+            size_hint=(0.9, None),
+            height=popup_h,
+            auto_dismiss=True,
+        )
+        close_btn.bind(on_release=lambda *_: popup.dismiss())
+        popup.open()
+
+    def speak_text(self, text: str, btn=None, queue_add: bool = False):
         """Speak Japanese text — used by all speaker buttons throughout the app.
         
         If btn is provided and TTS is still initialising on first use,
@@ -14849,13 +15470,13 @@ class SpoonfedApp(App):
 
             Clock.schedule_interval(_restore, 0.2)
         Logger.info(f'TTS: speak_text: {text[:40]}')
-        success = tts.speak_japanese(text.strip(), voice=self.tts_voice)
+        success = tts.speak_japanese(text.strip(), voice=self.tts_voice, queue_add=queue_add)
         if not success:
             Logger.error(f'TTS: speak_text failed for: {text[:40]}')
 
-    def play_audio(self, text: str, btn=None):
+    def play_audio(self, text: str, btn=None, queue_add: bool = False):
         """Play audio for the given Japanese text using system TTS."""
-        self.speak_text(text, btn=btn)
+        self.speak_text(text, btn=btn, queue_add=queue_add)
 
     def _auto_tts_after_answer(self, vector):
         """Play TTS for a vector's Japanese text after answering (if auto_tts enabled).
@@ -14872,9 +15493,11 @@ class SpoonfedApp(App):
         if kind == 'grammar':
             ex = getattr(self, '_current_grammar_exercise', None)
             if ex:
-                text = ex.get('japanese') or ex.get('correct_answer') or ''
+                # audio_text is the full sentence; correct_answer is just the target word
+                text = ex.get('audio_text') or ex.get('japanese') or ''
                 if text:
-                    Clock.schedule_once(lambda dt, t=text: self.speak_text(t), 0.3)
+                    ev = Clock.schedule_once(lambda dt, t=text: self.speak_text(t), 0.3)
+                    self._pending_answer_tts_event = ev
                     return
 
         # Kana vectors: answer or prompt is already kana/romaji
@@ -14906,7 +15529,8 @@ class SpoonfedApp(App):
                 pass
 
         if text:
-            Clock.schedule_once(lambda dt, t=text: self.speak_text(t), 0.3)
+            ev = Clock.schedule_once(lambda dt, t=text: self.speak_text(t), 0.3)
+            self._pending_answer_tts_event = ev
 
     def _get_screen_manager(self):
         try:
@@ -15424,6 +16048,11 @@ class SpoonfedApp(App):
                         if (len(gc) >= _GEPE and len(gs) >= _GEPE
                                 and len(gt) >= _GEPE and len(gd) >= _GEPE):
                             is_done = True
+                        elif not gc and not gs and not gt and not gd:
+                            # No grammar exercise IDs — entry used basic study vectors
+                            # (grammar entry without DB exercises). Fall back to basic type check.
+                            if filtered_types.issubset(promoted_set):
+                                is_done = True
                     elif filtered_types.issubset(promoted_set):
                         is_done = True
                     if is_done:
@@ -15956,6 +16585,10 @@ class SpoonfedApp(App):
     def _load_current_review(self):
         """Load the current review vector into the UI."""
         try:
+            # Consume the skip-rotation flag (set by undo to preserve the exact exercise)
+            skip_rotation = getattr(self, '_skip_exercise_rotation', False)
+            self._skip_exercise_rotation = False
+
             if self._review_index >= len(self._review_queue):
                 self._finish_review_session()
                 return
@@ -16075,7 +16708,7 @@ class SpoonfedApp(App):
                             self._grammar_exercise_pools[eid] = eid_pool
                     except Exception:
                         pass
-                if eid_pool and vector.get('grammar_category'):
+                if eid_pool and vector.get('grammar_category') and not skip_rotation:
                     learning.pick_fresh_grammar_exercise(vector, eid_pool)
 
                 exercise_data = vector.get('exercise_data', {})
@@ -16128,7 +16761,7 @@ class SpoonfedApp(App):
                             self._grammar_exercise_pools[eid] = eid_pool
                     except Exception:
                         pass
-                if eid_pool and vector.get('grammar_category'):
+                if eid_pool and vector.get('grammar_category') and not skip_rotation:
                     learning.pick_fresh_grammar_exercise(vector, eid_pool)
 
                 exercise_data = vector.get('exercise_data', {})
@@ -16183,7 +16816,7 @@ class SpoonfedApp(App):
                             self._grammar_exercise_pools[eid] = eid_pool
                     except Exception:
                         pass
-                if eid_pool and vector.get('grammar_category'):
+                if eid_pool and vector.get('grammar_category') and not skip_rotation:
                     learning.pick_fresh_grammar_exercise(vector, eid_pool)
 
                 exercise_data = vector.get('exercise_data', {})
@@ -16219,7 +16852,7 @@ class SpoonfedApp(App):
                             self._grammar_exercise_pools[eid] = eid_pool
                     except Exception:
                         pass
-                if eid_pool and vector.get('grammar_category'):
+                if eid_pool and vector.get('grammar_category') and not skip_rotation:
                     learning.pick_fresh_grammar_exercise(vector, eid_pool)
 
                 exercise_data = vector.get('exercise_data', {})
@@ -16233,8 +16866,9 @@ class SpoonfedApp(App):
                 prompt = '\ue050'  # Material Symbols volume_up icon
                 prompt_text = 'Write what you hear:'
 
-                # Auto-play TTS on load
-                Clock.schedule_once(lambda dt: self.play_audio(dictation_sentence), 0.3)
+                # Auto-play TTS on load — queue after any currently-playing
+                # after-answer TTS so the previous sentence finishes first.
+                Clock.schedule_once(lambda dt: self.play_audio(dictation_sentence, queue_add=True), 0.5)
 
             # Determine prompt text based on vector type
             elif vector_type == 'show_kana':
@@ -16250,18 +16884,25 @@ class SpoonfedApp(App):
                 prompt_text = 'Type the reading:'
             elif vector_type in ('orthography_to_meaning', 'kana_to_meaning'):
                 prompt_text = 'Type the meaning:'
-                # Extract parenthetical hint from first meaning if present
+                # Extract parenthetical hint from answer or use POS
                 import re as _re_hint
                 _answer_text = vector.get('answer', '') or ''
-                _first_meaning = _answer_text.split(';')[0].strip()
-                _hint_match = _re_hint.search(r'\(([^)]+)\)', _first_meaning)
+                # Search full answer text for parenthetical hint
+                _hint_match = _re_hint.search(r'\(([^)]+)\)', _answer_text)
                 if _hint_match:
                     prompt_text = f'Type the meaning: ({_hint_match.group(1)})'
-                elif vector_type == 'kana_to_meaning':
-                    # Add (katakana) hint if the prompt word is katakana
-                    kana_prompt = vector.get('prompt', '')
-                    if kana_prompt and all('\u30A0' <= c <= '\u30FF' or not c.strip() for c in kana_prompt):
-                        prompt_text = 'Type the meaning: (katakana)'
+                else:
+                    # Use simplified POS from entry as hint
+                    _pos = vector.get('pos', '') or ''
+                    if _pos:
+                        _pos_short = _pos.split(';')[0].strip()
+                        _pos_short = _re_hint.sub(r'\s*\([^)]*\)', '', _pos_short).strip()
+                        if _pos_short:
+                            prompt_text = f'Type the meaning: ({_pos_short})'
+                    elif vector_type == 'kana_to_meaning':
+                        kana_prompt = vector.get('prompt', '')
+                        if kana_prompt and all('\u30A0' <= c <= '\u30FF' or not c.strip() for c in kana_prompt):
+                            prompt_text = 'Type the meaning: (katakana)'
             else:
                 prompt_text = 'Type the answer:'
             
@@ -16434,10 +17075,31 @@ class SpoonfedApp(App):
         except Exception as e:
             Logger.error(f'Review: Error loading item: {e}')
     
+    def _load_kanji_segments_cache(self):
+        """Lazy-load the pre-computed kanji segments cache (for Android where pykakasi is unavailable)."""
+        if hasattr(self, '_kanji_segments_cache'):
+            return self._kanji_segments_cache
+        self._kanji_segments_cache = {}
+        try:
+            import json
+            import os
+            cache_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'dictionary', 'kanji_segments_cache.json')
+            Logger.info(f'Grammar IME: Cache path = {cache_path}, exists = {os.path.exists(cache_path)}')
+            if os.path.exists(cache_path):
+                with open(cache_path, 'r', encoding='utf-8') as f:
+                    raw = json.load(f)
+                # Convert lists back to tuples
+                self._kanji_segments_cache = {k: [(r, o) for r, o in v] for k, v in raw.items()}
+                Logger.info(f'Grammar IME: Loaded {len(self._kanji_segments_cache)} cached segment entries')
+        except Exception as e:
+            Logger.warning(f'Grammar IME: Failed to load segments cache: {e}')
+        return self._kanji_segments_cache
+
     def _build_grammar_kanji_segments(self, answer_text):
         """Build cumulative reading-to-original mapping for grammar kanji IME.
         Returns list of (cumulative_hiragana_reading, cumulative_original_text) tuples.
-        Splits pykakasi segments at character level so kanji boundaries appear early."""
+        Splits pykakasi segments at character level so kanji boundaries appear early.
+        Falls back to pre-computed cache when pykakasi is unavailable (Android)."""
         if not answer_text:
             return []
         try:
@@ -16452,7 +17114,36 @@ class SpoonfedApp(App):
 
             def _norm_kana(c):
                 o = ord(c)
+                if o == 0x30FC:  # ー katakana long vowel — expand separately
+                    return 'ー'
                 return chr(o - 0x60) if 0x30A0 <= o <= 0x30FF else c
+
+            # Map hiragana character → its vowel (for ー expansion)
+            _vowel_from_char = {}
+            for _chars, _v in [
+                ('あぁかがさざただなはばぱまやゃらわゎゔ', 'あ'),
+                ('いぃきぎしじちぢにひびぴみりゐ', 'い'),
+                ('うぅくぐすずつづぬふぶぷむゆゅるっ', 'う'),
+                ('えぇけげせぜてでねへべぺめれゑ', 'え'),
+                ('おぉこごそぞとどのほぼぽもよょろをゞ', 'お'),
+            ]:
+                for _c in _chars:
+                    _vowel_from_char[_c] = _v
+
+            def _expand_chouon(s):
+                """Expand ー (long vowel mark) to the appropriate hiragana vowel."""
+                out = []
+                for ch in s:
+                    if ch == 'ー':
+                        v = 'う'  # default fallback
+                        for j in range(len(out) - 1, -1, -1):
+                            if out[j] in _vowel_from_char:
+                                v = _vowel_from_char[out[j]]
+                                break
+                        out.append(v)
+                    else:
+                        out.append(ch)
+                return ''.join(out)
 
             cum_reading = ''
             cum_original = ''
@@ -16461,7 +17152,7 @@ class SpoonfedApp(App):
             for seg in word_segments:
                 orig = seg.get('orig', '')
                 hira = seg.get('hira', seg.get('orig', ''))
-                hira_norm = ''.join(_norm_kana(ch) for ch in hira)
+                hira_norm = _expand_chouon(''.join(_norm_kana(ch) for ch in hira))
                 chars = list(orig)
 
                 if len(chars) <= 1:
@@ -16510,6 +17201,16 @@ class SpoonfedApp(App):
                     result.append((cum_reading, cum_original))
 
             return result
+        except ImportError:
+            # pykakasi not available (Android) — use pre-computed cache
+            Logger.info(f'Grammar IME: pykakasi not available, using cache for: {repr(answer_text)[:40]}')
+            cache = self._load_kanji_segments_cache()
+            cached = cache.get(answer_text)
+            if cached:
+                Logger.info(f'Grammar IME: Cache HIT - {len(cached)} segments')
+                return cached
+            Logger.warning(f'Grammar IME: Cache MISS for: {answer_text!r}')
+            return []
         except Exception as e:
             Logger.error(f'Grammar IME: Error building kanji segments: {e}')
             return []
@@ -16653,9 +17354,12 @@ class SpoonfedApp(App):
                 return converted + remainder
             user_hira = _re.sub(r'[a-zA-Z]+', _convert_run, user_hira)
 
-        # Convert correct answer to full hiragana (handles kanji)
+        # Convert both to full hiragana (handles kanji in user input and correct answer).
+        # This lets users type 猫はちいさい and still match 猫は小さい, and also lets
+        # users who type kana match answers stored with kanji.
+        user_full_hira = self._text_to_hiragana(user_hira)
         correct_hira = self._text_to_hiragana(correct_clean)
-        if user_hira == correct_hira:
+        if user_full_hira == correct_hira:
             return True
 
         return False
@@ -17888,11 +18592,12 @@ class SpoonfedApp(App):
                         # User answered the wrong vector type
                         feedback_label = self.root.ids.get('review_feedback')
                         if feedback_label:
-                            # Determine what they typed vs what's asked
-                            other_type_name = 'reading' if 'reading' in other_vec['vector_type'] or other_vec['vector_type'] in ('show_kana', 'show_romaji') else 'meaning'
-                            current_type_name = 'reading' if 'reading' in vector_type or vector_type in ('show_kana', 'show_romaji') else 'meaning'
+                            # Determine what they typed based on content
+                            _has_jp = any(('\u3040' <= ch <= '\u30ff') or ('\u4e00' <= ch <= '\u9fff') for ch in user_answer)
+                            typed_type = 'reading' if _has_jp else 'meaning'
+                            asked_type = 'meaning' if typed_type == 'reading' else 'reading'
                             
-                            feedback_label.text = f"That's the {other_type_name}, this asks for the {current_type_name}"
+                            feedback_label.text = f"That's the {typed_type}, this asks for the {asked_type}"
                             feedback_label.color = (0.9, 0.6, 0.1, 1)  # Orange/warning color
                         
                         # Clear input and keep focus so user can try again immediately
@@ -18017,7 +18722,7 @@ class SpoonfedApp(App):
                     wrong_counts[vector_key] = 0
             
             # Save to history for undo
-            self._review_history.append({
+            _undo_entry = {
                 'entry_id': entry_id,
                 'vector_type': vector_type,
                 'grade': grade,
@@ -18025,7 +18730,12 @@ class SpoonfedApp(App):
                 'is_first_attempt': is_first_attempt,
                 'vector_key': vector_key,
                 'was_in_queue': not is_correct  # Track if we added it back to queue
-            })
+            }
+            # Preserve grammar exercise data so undo restores the exact question
+            if vector.get('exercise_data'):
+                import json as _ej
+                _undo_entry['exercise_data'] = _ej.loads(_ej.dumps(vector['exercise_data']))
+            self._review_history.append(_undo_entry)
             
             # Only apply SRS grade on first attempt
             if is_first_attempt:
@@ -18166,7 +18876,7 @@ class SpoonfedApp(App):
             grade = 1
             
             # Save to history for undo (include all fields for consistency with submit)
-            self._review_history.append({
+            _undo_entry_r = {
                 'entry_id': entry_id,
                 'vector_type': vector_type,
                 'grade': grade,
@@ -18174,7 +18884,12 @@ class SpoonfedApp(App):
                 'is_first_attempt': is_first_attempt,
                 'vector_key': vector_key,
                 'was_in_queue': True  # Revealed answers are always added back to queue
-            })
+            }
+            # Preserve grammar exercise data so undo restores the exact question
+            if vector.get('exercise_data'):
+                import json as _ej
+                _undo_entry_r['exercise_data'] = _ej.loads(_ej.dumps(vector['exercise_data']))
+            self._review_history.append(_undo_entry_r)
             
             # Only apply SRS grade on first attempt
             if is_first_attempt:
@@ -18310,6 +19025,11 @@ class SpoonfedApp(App):
                 self._undo_confirm = False
                 self._review_revealed = False
                 self._review_waiting_continue = False
+                # Restore the exact grammar exercise that was shown (skip random rotation)
+                if 'exercise_data' in last_action:
+                    vec_at_idx = self._review_queue[self._review_index]
+                    vec_at_idx['exercise_data'] = last_action['exercise_data']
+                self._skip_exercise_rotation = True
                 # Force text input back to editable before _load_current_review
                 # so Android doesn't keep a stale readonly/unfocused state.
                 _undo_ti = self.root.ids.get('review_input')
@@ -18546,6 +19266,8 @@ class SpoonfedApp(App):
             Logger.error(f'InfoCard: Error marking entry {entry_id} as known: {e}')
             import traceback; traceback.print_exc()
 
+        self._lessons_needs_reload = True
+
         # Remove from session and advance immediately
         self._skip_lesson_entry_from_session(entry_id)
 
@@ -18627,14 +19349,20 @@ class SpoonfedApp(App):
 
             # Also strip from flat info list
             if data.get('info'):
-                before_info = len(data['info'])
-                data['info'] = [c for c in data['info'] if c.get('entry_id') != entry_id]
+                info_list = data['info']
+                # Count how many of the removed cards appeared BEFORE current_info_index
+                removed_before = sum(
+                    1 for i, c in enumerate(info_list)
+                    if c.get('entry_id') == entry_id and i < current_info_index
+                )
+                data['info'] = [c for c in info_list if c.get('entry_id') != entry_id]
                 after_info = len(data['info'])
-                # Adjust info_index for flat info list too
-                if after_info < before_info:
-                    data['info_index'] = max(0, min(current_info_index, after_info - 1))
-                    if after_info == 0:
-                        data['info_index'] = 0
+                if after_info == 0:
+                    data['info_index'] = 0
+                else:
+                    # Shift index back by how many removed cards were before it
+                    new_idx = max(0, current_info_index - removed_before)
+                    data['info_index'] = min(new_idx, after_info - 1)
 
             # Reduce total_vectors so the progress counter stays accurate
             meta = data.get('meta', {})
@@ -18712,8 +19440,8 @@ class SpoonfedApp(App):
                         if _eid:
                             Clock.schedule_once(
                                 lambda dt, eid=_eid: self._show_info_card_action_popup(eid), 0.25)
-                            return
-                        pass
+                        # Teaching cards have no entry_id — nothing to add to known
+                        return
 
             if not hasattr(self, '_current_drill_vector') or not self._current_drill_vector:
                 return
@@ -18778,7 +19506,7 @@ class SpoonfedApp(App):
         vectors_btn.bind(on_release=lambda *_: (popup.dismiss(), self._show_vector_management_popup_during_session(entry_id, entry, session_type)))
         layout.add_widget(vectors_btn)
         
-        add_queue_btn.bind(on_release=lambda *_: self._add_entry_to_queue(entry_id, entry, popup))
+        add_queue_btn.bind(on_release=lambda *_: self._add_entry_to_queue_from_session(entry_id, entry, popup))
         layout.add_widget(add_queue_btn)
         
         add_lesson_btn.bind(on_release=lambda *_: (
@@ -18797,6 +19525,92 @@ class SpoonfedApp(App):
         
         popup.open()
     
+    def _add_entry_to_queue_from_session(self, entry_id, entry, popup):
+        """Add entry to queue from a study session popup (drill)."""
+        # Check if already in queue
+        if hasattr(self, '_lesson_queue') and entry_id in self._lesson_queue:
+            from kivy.uix.label import Label
+            message_content = BoxLayout(orientation='vertical', padding=dp(12), spacing=dp(8))
+            message_label = Label(
+                text='Already in SRS/Queue',
+                size_hint_y=None, height=dp(40),
+                halign='center', valign='middle', font_size='16sp'
+            )
+            message_label.bind(size=message_label.setter('text_size'))
+            message_content.add_widget(message_label)
+            ok_btn = Button(text='OK', size_hint_y=None, height=dp(40))
+            ok_btn.background_normal = ''
+            ok_btn.background_color = (0.5, 0.5, 0.5, 1)
+            ok_btn.color = (1, 1, 1, 1)
+            message_popup = Popup(
+                title='Already in Queue',
+                content=message_content,
+                size_hint=(0.7, 0.3)
+            )
+            ok_btn.bind(on_release=lambda *_: message_popup.dismiss())
+            message_content.add_widget(ok_btn)
+            message_popup.open()
+            popup.dismiss()
+            return
+
+        # Check if entry already has SRS data
+        try:
+            conn = dict_db.init_db(get_db_path())
+            cursor = conn.cursor()
+            cursor.execute('SELECT 1 FROM srs WHERE entry_id = ? LIMIT 1', (entry_id,))
+            has_srs = cursor.fetchone() is not None
+            conn.close()
+            if has_srs:
+                from kivy.uix.label import Label
+                message_content = BoxLayout(orientation='vertical', padding=dp(12), spacing=dp(8))
+                message_label = Label(
+                    text='Already in SRS/Queue',
+                    size_hint_y=None, height=dp(40),
+                    halign='center', valign='middle', font_size='16sp'
+                )
+                message_label.bind(size=message_label.setter('text_size'))
+                message_content.add_widget(message_label)
+                ok_btn = Button(text='OK', size_hint_y=None, height=dp(40))
+                ok_btn.background_normal = ''
+                ok_btn.background_color = (0.5, 0.5, 0.5, 1)
+                ok_btn.color = (1, 1, 1, 1)
+                message_popup = Popup(
+                    title='Already in SRS',
+                    content=message_content,
+                    size_hint=(0.7, 0.3)
+                )
+                ok_btn.bind(on_release=lambda *_: message_popup.dismiss())
+                message_content.add_widget(ok_btn)
+                message_popup.open()
+                popup.dismiss()
+                return
+        except Exception as e:
+            Logger.error(f'SpoonfedApp: Error checking SRS: {e}')
+
+        # Add to queue
+        if not hasattr(self, '_lesson_queue'):
+            self._lesson_queue = []
+
+        if entry_id not in self._lesson_queue:
+            def _do_add(position):
+                if entry_id not in self._lesson_queue:
+                    if position == 'front':
+                        self._lesson_queue.insert(0, entry_id)
+                    else:
+                        self._lesson_queue.append(entry_id)
+                    self._save_lesson_queue()
+                    Logger.info(f'SpoonfedApp: Added entry {entry_id} to queue from session')
+                popup.dismiss()
+                try:
+                    sm = self._get_screen_manager()
+                    if sm and sm.current == 'lessons':
+                        ls = self.root.ids.get('lessons_screen') if getattr(self, 'root', None) else None
+                        if ls and getattr(ls, '_current_lessons_view', None) == 'queue':
+                            Clock.schedule_once(lambda dt: self.show_my_queue(getattr(ls, '_queue_filter', 'all'), record_nav=False), 0.1)
+                except Exception as e:
+                    Logger.error(f'SpoonfedApp: Error refreshing queue: {e}')
+            self._show_queue_position_popup(_do_add)
+
     def _get_vector_status(self, entry_id, entry_kind, vector_type):
         """Get the SRS status for a specific vector.
         
@@ -19430,6 +20244,8 @@ class SpoonfedApp(App):
                     def _bg():
                         ok, msg = run_full_sync()
                         Logger.info(f'Sync: post-review sync: {msg}')
+                        if ok:
+                            Clock.schedule_once(lambda dt: self._apply_synced_data(), 0)
                     threading.Thread(target=_bg, daemon=True).start()
             except Exception as e:
                 Logger.warning(f'Sync: post-review sync skipped: {e}')
@@ -19629,7 +20445,7 @@ class SpoonfedApp(App):
                     # No SRS at all — definitely new
                     return True
 
-                srs_data = json.loads(srs_row[0])
+                srs_data = json.loads(srs_row[0] or '{}') if srs_row[0] is not None else {}
 
                 # Filter expected vector types by current handwriting settings
                 filtered_types = expected_types.copy()
@@ -19653,6 +20469,10 @@ class SpoonfedApp(App):
                         dictation_promoted = [p for p in promoted_set if p.startswith('grammar-dictation:')]
                         if len(cloze_promoted) >= _GEPE and len(scramble_promoted) >= _GEPE and len(translate_promoted) >= _GEPE and len(dictation_promoted) >= _GEPE:
                             return False
+                        # Fallback: grammar entry used basic study vectors (no DB exercises).
+                        if not cloze_promoted and not scramble_promoted and not translate_promoted and not dictation_promoted:
+                            if filtered_types.issubset(promoted_set):
+                                return False
                     elif filtered_types.issubset(promoted_set):
                         return False
 
@@ -19671,12 +20491,18 @@ class SpoonfedApp(App):
             intro_cards_by_entry = {}  # entry_id -> [teaching cards] from lesson files
             skipped_count = 0
             fully_done_items = []  # queue items where every entry is already in SRS
+            first_lesson_entry_count = 0  # entries from the first queue item (used for initial info batch)
             
             for item in self._lesson_queue:
+                _pre_item_count = len(all_entry_ids)
                 # Stop if we've reached the daily limit
                 if len(all_entry_ids) >= daily_limit:
                     Logger.info(f'LessonDrill: Reached daily limit of {daily_limit} items')
                     break
+                # Grammar entries are always studied alone — stop if we already have entries,
+                # or stop immediately after adding a grammar entry.
+                _had_entries_before_item = len(all_entry_ids) > 0
+                _added_grammar_entry = False  # set to True if a grammar entry is added this iteration
                 
                 if isinstance(item, int):
                     # Direct entry ID - check if it has new vectors
@@ -19718,6 +20544,12 @@ class SpoonfedApp(App):
                             
                             # Grammar lessons: entry_id at top level or in items
                             if lesson_data.get('lesson_type') == 'grammar':
+                                # Grammar is always studied alone — if we already have
+                                # any entries in this session, stop here. The grammar
+                                # lesson will be picked up as the start of the next session.
+                                if _had_entries_before_item:
+                                    Logger.info(f'LessonDrill: Stopping before grammar {lesson_path.name} (already have entries)')
+                                    break
                                 eid = lesson_data.get('entry_id')
                                 # If not at top level, try to get from items[0]
                                 if not eid:
@@ -19727,6 +20559,7 @@ class SpoonfedApp(App):
                                 if eid and len(all_entry_ids) < daily_limit:
                                     if has_new_vectors(eid):
                                         all_entry_ids.append(eid)
+                                        _added_grammar_entry = True
                                         intro_cards = lesson_data.get('intro_cards', [])
                                         if intro_cards:
                                             intro_cards_by_entry.setdefault(eid, []).extend(intro_cards)
@@ -19763,6 +20596,14 @@ class SpoonfedApp(App):
                                     fully_done_items.append(item)
                     except Exception as e:
                         Logger.error(f'LessonDrill: Error loading lesson file {item}: {e}')
+                # Record first lesson's entry count (for initial info card batch size)
+                if first_lesson_entry_count == 0 and len(all_entry_ids) > _pre_item_count:
+                    first_lesson_entry_count = len(all_entry_ids) - _pre_item_count
+                # Grammar is always studied alone — stop after adding it, even if more
+                # items remain in the queue.
+                if _added_grammar_entry:
+                    Logger.info(f'LessonDrill: Stopping after grammar item (grammar session isolation)')
+                    break
             
             # Remove queue items where every entry is already learned
             if fully_done_items:
@@ -19818,7 +20659,8 @@ class SpoonfedApp(App):
                 entry_kind,
                 filter_vector_type='handwriting' if self.handwriting_only_mode else None,
                 exclude_vector_type='handwriting' if not self.handwriting_mode else None,
-                enable_batched_info=True
+                enable_batched_info=True,
+                initial_batch_size=first_lesson_entry_count if first_lesson_entry_count else None
             )
             
             # Get the session data and mark vectors that already have SRS
@@ -19942,17 +20784,35 @@ class SpoonfedApp(App):
                     cursor.execute('SELECT data FROM srs WHERE entry_id = ?', (entry_id,))
                     srs_row = cursor.fetchone()
                     if srs_row:
-                        srs_data = json.loads(srs_row[0])
+                        srs_data = json.loads(srs_row[0] or '{}') if srs_row[0] is not None else {}
                         per_vector = srs_data.get('per_vector', {})
                         per_kind = srs_data.get('per_kind', {})
                         entry_kind_from_vector = vector.get('kind')
+                        vec_id = vector.get('id', '')
                         vector_in_srs = False
-                        if vector_type in per_vector:
-                            vector_in_srs = True
-                        elif entry_kind_from_vector in per_kind:
-                            kind_data = per_kind[entry_kind_from_vector]
-                            if not per_vector and vector_type in kind_data:
+                        is_grammar_exercise = bool(vector.get('grammar_category'))
+                        if is_grammar_exercise:
+                            # Grammar exercise vectors (fill-blank, scramble, translate,
+                            # dictation) each share a vector_type with multiple category-
+                            # slot variants.  per_vector['fill-blank'] is only ONE FSRS
+                            # entry shared by ALL fill-blank vectors, so we MUST NOT use
+                            # the per_vector check here — it would wrongly mark every
+                            # fill-blank as done the moment any single one is promoted.
+                            # Instead, only check the full vector ID in promoted_vectors.
+                            if entry_kind_from_vector in per_kind:
+                                promoted_list = per_kind[entry_kind_from_vector].get('promoted_vectors', [])
+                                if vec_id in promoted_list:
+                                    vector_in_srs = True
+                        else:
+                            # Non-grammar vectors: per_vector[type] is unique per entry,
+                            # so checking it is safe and handles "Mark as Known" overrides.
+                            if vector_type in per_vector:
                                 vector_in_srs = True
+                            elif entry_kind_from_vector in per_kind:
+                                kind_data = per_kind[entry_kind_from_vector]
+                                promoted_list = kind_data.get('promoted_vectors', [])
+                                if vector_type in promoted_list or vec_id in promoted_list:
+                                    vector_in_srs = True
                         if vector_in_srs:
                             vector['already_in_srs'] = True
                             Logger.info(f'LessonDrill: Vector {vector_type} for entry {entry_id} already in SRS, will skip')
@@ -19965,6 +20825,32 @@ class SpoonfedApp(App):
                 _mark_srs_vectors(batch_vecs)
             _mark_srs_vectors(data.get('remaining_vectors', []))
             
+            # If ALL immediate vectors are already in SRS (e.g. fill-blank promoted last
+            # session), inject deferred scramble/translate/dictation upfront so the user
+            # doesn't have to click through a wall of auto-passes before real work starts.
+            _immediate = data.get('in_progress', []) + data.get('pending', [])
+            _has_real = any(
+                not v.get('already_in_srs', False) and not v.get('is_filler', False)
+                for v in _immediate
+            )
+            if not _has_real:
+                _deferred = [v for v in data.get('remaining_vectors', [])
+                             if not v.get('already_in_srs', False) and not v.get('is_filler', False)]
+                if _deferred:
+                    import random as _rnd
+                    _rnd.shuffle(_deferred)
+                    data['in_progress'] = _deferred[:7]   # 7 = MAX_ACTIVE_ENTRIES
+                    data['pending'] = _deferred[7:]
+                    data['remaining_vectors'] = []
+                    Logger.info(f'LessonDrill: All immediate vectors already in SRS; injecting {len(_deferred)} deferred vectors upfront')
+                else:
+                    # All immediate AND all remaining vectors are already in SRS.
+                    # Clear remaining_vectors so the session-complete check can fire
+                    # (it checks `not remaining_vectors`; stale already_in_srs entries
+                    # would block it otherwise and leave the session stuck).
+                    data['remaining_vectors'] = []
+                    Logger.info('LessonDrill: All vectors (immediate + deferred) already in SRS; clearing remaining_vectors')
+
             # Set metadata to mark this as a lesson drill (enables SRS promotion for new vectors)
             data['meta']['drill_type'] = 'lesson'
             # Count non-SRS and non-filler vectors as the total (only new vectors to learn)
@@ -20093,14 +20979,15 @@ class SpoonfedApp(App):
         
         return True
     
-    def _format_meanings_truncated(self, meanings_text):
-        """Truncate meanings to first 3 entries with clickable ... to expand.
+    def _format_meanings_truncated(self, meanings_text, max_chars=80):
+        """Truncate meanings to fit roughly 2 visual lines with clickable ... to expand.
         
         Args:
             meanings_text: String with meanings separated by semicolons like "yes; that is correct; right; um; errr"
+            max_chars: Maximum character length before truncation (default ~2 lines)
         
         Returns:
-            Formatted string with first 3 meanings, plus blue "..." if more exist
+            Formatted string fitting within limit, plus blue "..." if truncated
         """
         if not meanings_text:
             return meanings_text
@@ -20111,7 +20998,17 @@ class SpoonfedApp(App):
         # Split by semicolon and clean up
         meanings = [m.strip() for m in meanings_text.split(';') if m.strip()]
         
-        if len(meanings) <= 3:
+        # Build result one meaning at a time, stop when we'd exceed the limit
+        kept = []
+        current_len = 0
+        for m in meanings:
+            sep_len = len('; ') if kept else 0
+            if current_len + sep_len + len(m) > max_chars and kept:
+                break
+            kept.append(m)
+            current_len += sep_len + len(m)
+        
+        if len(kept) >= len(meanings):
             # No truncation needed
             self._meanings_truncated = False
             return meanings_text
@@ -20120,9 +21017,7 @@ class SpoonfedApp(App):
         self._meanings_full = meanings_text
         self._meanings_truncated = True
         
-        # Show first 3 meanings with blue clickable ellipsis
-        truncated_meanings = meanings[:3]
-        result = '; '.join(truncated_meanings) + '; [color=4a90e2]...[/color]'
+        result = '; '.join(kept) + '; [color=4a90e2]...[/color]'
         
         return result
     
@@ -20167,6 +21062,10 @@ class SpoonfedApp(App):
         """Load the current drill vector into the UI."""
         conn = None
         try:
+            # Consume the skip-rotation flag (set by undo to preserve the exact exercise)
+            skip_rotation = getattr(self, '_skip_exercise_rotation', False)
+            self._skip_exercise_rotation = False
+
             if not hasattr(self, '_current_drill_session_id'):
                 Logger.error('Drill: No active drill session')
                 return
@@ -20466,7 +21365,7 @@ class SpoonfedApp(App):
                             self._grammar_exercise_pools[eid] = eid_pool
                     except Exception:
                         pass
-                if eid_pool and vector.get('grammar_category'):
+                if eid_pool and vector.get('grammar_category') and not skip_rotation:
                     learning.pick_fresh_grammar_exercise(vector, eid_pool)
 
                 exercise_data = vector.get('exercise_data', {})
@@ -20526,7 +21425,7 @@ class SpoonfedApp(App):
                             self._grammar_exercise_pools[eid] = eid_pool
                     except Exception:
                         pass
-                if eid_pool and vector.get('grammar_category'):
+                if eid_pool and vector.get('grammar_category') and not skip_rotation:
                     learning.pick_fresh_grammar_exercise(vector, eid_pool)
 
                 exercise_data = vector.get('exercise_data', {})
@@ -20585,7 +21484,7 @@ class SpoonfedApp(App):
                             self._grammar_exercise_pools[eid] = eid_pool
                     except Exception:
                         pass
-                if eid_pool and vector.get('grammar_category'):
+                if eid_pool and vector.get('grammar_category') and not skip_rotation:
                     learning.pick_fresh_grammar_exercise(vector, eid_pool)
 
                 exercise_data = vector.get('exercise_data', {})
@@ -20625,7 +21524,7 @@ class SpoonfedApp(App):
                             self._grammar_exercise_pools[eid] = eid_pool
                     except Exception:
                         pass
-                if eid_pool and vector.get('grammar_category'):
+                if eid_pool and vector.get('grammar_category') and not skip_rotation:
                     learning.pick_fresh_grammar_exercise(vector, eid_pool)
 
                 exercise_data = vector.get('exercise_data', {})
@@ -20639,8 +21538,9 @@ class SpoonfedApp(App):
                 prompt = '\ue050'  # Material Symbols volume_up icon
                 prompt_text = 'Write what you hear:'
 
-                # Auto-play TTS on load
-                Clock.schedule_once(lambda dt: self.play_audio(dictation_sentence), 0.3)
+                # Auto-play TTS on load — queue after any currently-playing
+                # after-answer TTS so the previous sentence finishes first.
+                Clock.schedule_once(lambda dt: self.play_audio(dictation_sentence, queue_add=True), 0.5)
 
             elif vector_type == 'show_kana':
                 prompt_text = 'Type the reading:'
@@ -20655,18 +21555,25 @@ class SpoonfedApp(App):
                 prompt_text = 'Type the reading:'
             elif vector_type in ('orthography_to_meaning', 'kana_to_meaning'):
                 prompt_text = 'Type the meaning:'
-                # Extract parenthetical hint from first meaning if present
+                # Extract parenthetical hint from answer or use POS
                 import re as _re_hint
                 _answer_text = vector.get('answer', '') or ''
-                _first_meaning = _answer_text.split(';')[0].strip()
-                _hint_match = _re_hint.search(r'\(([^)]+)\)', _first_meaning)
+                # Search full answer text for parenthetical hint
+                _hint_match = _re_hint.search(r'\(([^)]+)\)', _answer_text)
                 if _hint_match:
                     prompt_text = f'Type the meaning: ({_hint_match.group(1)})'
-                elif vector_type == 'kana_to_meaning':
-                    # Add (katakana) hint if the prompt word is katakana
-                    kana_prompt = vector.get('prompt', '')
-                    if kana_prompt and all('\u30A0' <= c <= '\u30FF' or not c.strip() for c in kana_prompt):
-                        prompt_text = 'Type the meaning: (katakana)'
+                else:
+                    # Use simplified POS from entry as hint
+                    _pos = vector.get('pos', '') or ''
+                    if _pos:
+                        _pos_short = _pos.split(';')[0].strip()
+                        _pos_short = _re_hint.sub(r'\s*\([^)]*\)', '', _pos_short).strip()
+                        if _pos_short:
+                            prompt_text = f'Type the meaning: ({_pos_short})'
+                    elif vector_type == 'kana_to_meaning':
+                        kana_prompt = vector.get('prompt', '')
+                        if kana_prompt and all('\u30A0' <= c <= '\u30FF' or not c.strip() for c in kana_prompt):
+                            prompt_text = 'Type the meaning: (katakana)'
             else:
                 prompt_text = 'Type the answer:'
             
@@ -20723,6 +21630,11 @@ class SpoonfedApp(App):
                 # Unbind dictation tap handler if not dictation
                 if not (is_grammar and vector_type == 'dictation'):
                     question_label.unbind(on_touch_down=self._on_dictation_speaker_tap)
+                # Force synchronous texture render so the text is visible
+                # immediately when the container's opacity is restored to 1.
+                # Without this, the first render after a font load can leave
+                # texture_size at (0,0) for ~500ms on Android.
+                question_label.texture_update()
             
             if text_input:
                 text_input.text = ''
@@ -20747,6 +21659,7 @@ class SpoonfedApp(App):
                     if grammar_answer and any(0x4e00 <= ord(ch) <= 0x9fff for ch in grammar_answer):
                         self._drill_ime_mode = 'grammar_kanji'
                         self._grammar_kanji_segments = self._build_grammar_kanji_segments(grammar_answer)
+                        Logger.info(f'Drill IME: grammar_kanji mode, answer={repr(grammar_answer)[:40]}, segments={len(self._grammar_kanji_segments)}')
                     else:
                         self._drill_ime_mode = 'hiragana'
                         self._grammar_kanji_segments = []
@@ -20910,11 +21823,53 @@ class SpoonfedApp(App):
                         streak = vector.get('streak', 0)
                         streak_label.text = f'Streak: {streak}/3'
                         streak_label.color = (0.15, 0.45, 0.65, 1)
-            
+
+            # Delayed safety check: verify that the drill UI is actually visible
+            # after all setup is complete.  If the container is still at opacity 0
+            # (e.g. an obscure code-path missed the restore), fix it and log so we
+            # can diagnose later.
+            def _verify_drill_visible(dt):
+                try:
+                    sm = self._get_screen_manager()
+                    if sm and sm.current != 'drill':
+                        return  # navigated away, nothing to check
+                    _dm_chk = self.root.ids.get('drill_main_container')
+                    _ql_chk = self.root.ids.get('drill_question')
+                    _ico_chk = self.root.ids.get('info_card_overlay')
+                    # If the info card overlay is showing, drill_main is expected
+                    # to be hidden — don't interfere.
+                    if _ico_chk and not _ico_chk.disabled and _ico_chk.opacity > 0:
+                        return
+                    if _dm_chk and _dm_chk.opacity < 1:
+                        Logger.error(f'DrillSafety: drill_main_container.opacity={_dm_chk.opacity} '
+                                     f'after 1s — forcing visible. '
+                                     f'ql.text={repr(_ql_chk.text) if _ql_chk else "?"}, '
+                                     f'ql.texture_size={_ql_chk.texture_size if _ql_chk else "?"}')
+                        _dm_chk.opacity = 1
+                        _dm_chk.disabled = False
+                        _tb_chk = self.root.ids.get('global_top_bar')
+                        if _tb_chk:
+                            _tb_chk.opacity = 1
+                except Exception:
+                    pass
+            Clock.schedule_once(_verify_drill_visible, 1.0)
+
         except Exception as e:
             Logger.error(f'Drill: Error loading vector: {e}')
             import traceback
             traceback.print_exc()
+            # Safety net: restore UI visibility so the drill screen doesn't stay
+            # permanently blank if an error occurred after the opacity=0 hide.
+            try:
+                _dm_err = self.root.ids.get('drill_main_container')
+                if _dm_err:
+                    _dm_err.opacity = 1
+                    _dm_err.disabled = False
+                _tb_err = self.root.ids.get('global_top_bar')
+                if _tb_err:
+                    _tb_err.opacity = 1
+            except Exception:
+                pass
         finally:
             if conn:
                 try:
@@ -21106,11 +22061,18 @@ class SpoonfedApp(App):
         # ── Restore TTS button visibility (teaching cards hide it) ──
         tts_btn = self.root.ids.get('info_card_tts_btn')
         if tts_btn:
+            tts_btn.opacity = 1
+            tts_btn.disabled = False
+            # Walk up to the BoxLayout container and restore height
             try:
-                tts_box = tts_btn.parent.parent
-                tts_box.height = dp(40)
-                tts_box.opacity = 1
-            except (AttributeError, TypeError):
+                container = tts_btn.parent
+                while container:
+                    if hasattr(container, 'size_hint_y') and container.size_hint_y is None and container != tts_btn:
+                        container.height = dp(40)
+                        container.opacity = 1
+                        break
+                    container = container.parent
+            except Exception:
                 pass
 
         # ── Populate example sentences ──
@@ -21135,9 +22097,10 @@ class SpoonfedApp(App):
         # ── Update Next button text ──
         next_btn = self.root.ids.get('info_card_next_btn')
         if next_btn:
+            is_grammar = card.get('kind', '') == 'grammar'
             has_practice_char = bool(card.get('kanji') or card.get('kana'))
             at_last = (info_index >= total_in_batch - 1)
-            if self.handwriting_mode and has_practice_char:
+            if self.handwriting_mode and has_practice_char and not is_grammar:
                 next_btn.text = 'Practice'
             elif at_last:
                 next_btn.text = 'Start Drill'
@@ -21149,8 +22112,8 @@ class SpoonfedApp(App):
         if scroll:
             scroll.scroll_y = 1
 
-        # ── Auto TTS for vocab info cards ──
-        if self.auto_tts:
+        # ── Auto TTS for vocab/kana info cards (skip grammar) ──
+        if self.auto_tts and card.get('kind', '') != 'grammar':
             kana = card.get('kana') or ''
             tts_text = kana or card.get('kanji') or card.get('prompt', '')
             if tts_text:
@@ -21230,18 +22193,39 @@ class SpoonfedApp(App):
         # ── Body text in definition slot ──
         definition_label = self.root.ids.get('info_card_definition')
         if definition_label:
-            definition_label.text = card.get('body', '')
+            body = LessonsScreen._render_glossary_markup(card.get('body', ''))
+            if not body:
+                Logger.warning(f'InfoCard: Teaching card has empty body: {card.get("title", "?")}')
+            definition_label.text = body
+            definition_label.markup = True  # Ensure markup is on for glossary links
             definition_label.halign = 'left'
             definition_label.font_size = '15sp'
+            # Ensure text_size width is bound so text wraps properly
+            definition_label.text_size = (definition_label.width, None)
+            # Force texture recalculation so height binding updates immediately
+            definition_label.texture_update()
+            # Bind glossary link taps (method lives on LessonsScreen, not SpoonfedApp)
+            ls = self.root.ids.get('lessons_screen')
+            if ls:
+                definition_label.unbind(on_ref_press=ls._on_glossary_ref_press)
+                definition_label.bind(on_ref_press=ls._on_glossary_ref_press)
 
-        # ── Hide TTS button ──
+        # ── Hide TTS button (walk parents to hide the enclosing BoxLayout) ──
         tts_btn = self.root.ids.get('info_card_tts_btn')
         if tts_btn:
+            tts_btn.opacity = 0
+            tts_btn.disabled = True
+            # Walk up to find the BoxLayout container with size_hint_y=None
+            # (Button → AnchorLayout → BoxLayout)
             try:
-                tts_box = tts_btn.parent.parent
-                tts_box.height = 0
-                tts_box.opacity = 0
-            except (AttributeError, TypeError):
+                container = tts_btn.parent
+                while container:
+                    if hasattr(container, 'size_hint_y') and container.size_hint_y is None and container != tts_btn:
+                        container.height = 0
+                        container.opacity = 0
+                        break
+                    container = container.parent
+            except Exception:
                 pass
 
         # ── Hide examples ──
@@ -21515,7 +22499,8 @@ class SpoonfedApp(App):
 
             # Check if writing practice should be shown for this card.
             # Use kanji if present, else kana (covers hiragana/katakana cards).
-            if self.handwriting_mode and card:
+            # Skip grammar cards — handwriting practice doesn't apply to grammar.
+            if self.handwriting_mode and card and card.get('kind', '') != 'grammar':
                 practice_char = card.get('kanji') or card.get('kana') or ''
                 if practice_char:
                     self._start_writing_practice_for_card(card, info_index, total, batch_index)
@@ -22499,6 +23484,14 @@ class SpoonfedApp(App):
                     except Exception:
                         pass
                 hw_def_label.text = definition
+                # Append POS hint if available (helps disambiguate e.g., "please" for どうぞ)
+                _hw_pos = vector.get('pos', '') or ''
+                if _hw_pos and definition:
+                    import re as _re_hw
+                    _hw_pos_short = _hw_pos.split(';')[0].strip()
+                    _hw_pos_short = _re_hw.sub(r'\s*\([^)]*\)', '', _hw_pos_short).strip()
+                    if _hw_pos_short:
+                        hw_def_label.text = f'{definition} ({_hw_pos_short})'
                 # Use larger font when definition is the only clue (kana entries with no reading shown)
                 reading_visible = prompt_label and prompt_label.opacity > 0 and prompt_label.text
                 if not reading_visible:
@@ -23671,11 +24664,12 @@ class SpoonfedApp(App):
                             # User answered the wrong vector type
                             feedback_label = self.root.ids.get('drill_feedback')
                             if feedback_label:
-                                # Determine what they typed vs what's asked
-                                other_type_name = 'reading' if 'reading' in other_vec['vector_type'] or other_vec['vector_type'] in ('show_kana', 'show_romaji') else 'meaning'
-                                current_type_name = 'reading' if 'reading' in vector_type or vector_type in ('show_kana', 'show_romaji') else 'meaning'
+                                # Determine what they typed vs what's asked based on content
+                                _has_jp = any(('\u3040' <= ch <= '\u30ff') or ('\u4e00' <= ch <= '\u9fff') for ch in user_answer)
+                                typed_type = 'reading' if _has_jp else 'meaning'
+                                asked_type = 'meaning' if typed_type == 'reading' else 'reading'
                                 
-                                feedback_label.text = f"That's the {other_type_name}, this asks for the {current_type_name}"
+                                feedback_label.text = f"That's the {typed_type}, this asks for the {asked_type}"
                                 feedback_label.color = (0.9, 0.6, 0.1, 1)  # Orange/warning color
                             
                             # Clear input and keep focus so user can try again immediately
@@ -24228,6 +25222,8 @@ class SpoonfedApp(App):
                                 Logger.info(f'Drill: Removed {vector_id} from drilled_today set')
                     
                     self._drill_undo_confirm = False
+                    # Skip random exercise rotation on undo — restore the exact question
+                    self._skip_exercise_rotation = True
                     # Reload current drill
                     self._load_current_drill()
                 else:
@@ -24322,8 +25318,18 @@ class SpoonfedApp(App):
             self._hide_info_card_overlay()
             self._hide_writing_practice()
             
-            # Clear incomplete drill flag since session is finishing
-            if hasattr(self, '_incomplete_drill'):
+            # For early exit in lesson/weak_words modes, save the session as
+            # incomplete so the user can Resume from where they left off.
+            # For natural completion or other modes, clear the flag.
+            if early_exit and getattr(self, '_drill_mode', None) in ('lesson', 'weak_words'):
+                _sid = getattr(self, '_current_drill_session_id', None)
+                _mode = getattr(self, '_drill_mode', None)
+                if _sid and _mode:
+                    self._incomplete_drill = {'mode': _mode, 'session_id': _sid}
+                    Logger.info(f'Drill: Saved incomplete {_mode} session {_sid} on exit')
+                else:
+                    self._incomplete_drill = None
+            elif hasattr(self, '_incomplete_drill'):
                 self._incomplete_drill = None
                 Logger.info('Drill: Cleared incomplete drill flag')
             
@@ -29311,6 +30317,12 @@ class SpoonfedApp(App):
                         # If returning to lessons screen, check if we need to restore popup state
                         if prev_screen == 'lessons':
                             Clock.schedule_once(lambda dt: self._restore_lessons_popup_state(), 0.2)
+                        # Restore drill/review card content (may have been corrupted
+                        # by cleanup handlers that fired when leaving the screen).
+                        if prev_screen == 'drill':
+                            Clock.schedule_once(lambda dt: self._load_current_drill(), 0.05)
+                        elif prev_screen == 'review':
+                            Clock.schedule_once(lambda dt: self._load_current_review(), 0.05)
                         Clock.schedule_once(lambda dt: setattr(self, '_nav_back_in_progress', False), 0)
                     else:
                         # No history, default to dictionary
@@ -29666,23 +30678,38 @@ class SpoonfedApp(App):
             from sync.sync import ensure_updated_at_columns
             from sync import supabase_client as sb
             import os as _os
-            if _os.path.exists(get_db_path()):
+            _db_path = get_db_path()
+            _settings_path = None
+            try:
+                from dictionary.paths import get_settings_path
+                _settings_path = get_settings_path()
+            except Exception:
+                pass
+            Logger.info(f'Diag: db_path={_db_path} exists={_os.path.exists(_db_path)}')
+            Logger.info(f'Diag: settings_path={_settings_path} exists={_os.path.exists(_settings_path) if _settings_path else "N/A"}')
+            Logger.info(f'Diag: user_data_dir={getattr(self, "user_data_dir", "N/A")}')
+            if _os.path.exists(_db_path):
                 ensure_updated_at_columns()
+                # Log SRS stats for diagnostics
+                try:
+                    import sqlite3 as _sql
+                    _dconn = _sql.connect(_db_path)
+                    _srs_count = _dconn.execute('SELECT COUNT(*) FROM srs').fetchone()[0]
+                    Logger.info(f'Diag: SRS rows at startup = {_srs_count}')
+                    _dconn.close()
+                except Exception as _de:
+                    Logger.warning(f'Diag: SRS count failed: {_de}')
             sb.load_saved_session()
+            Logger.info(f'Diag: logged_in={sb.is_logged_in()} user={sb.get_user_email()}')
             # Validate saved session by refreshing the token
             if sb.is_logged_in():
                 if not sb.refresh_session():
                     Logger.info('Sync: saved session expired, clearing')
                     sb.sign_out()
             self._update_sync_btn_label()
-            # If still logged in after validation, sync in the background
-            if sb.is_logged_in():
-                import threading
-                from sync.sync import run_full_sync
-                def _bg_sync():
-                    ok, msg = run_full_sync()
-                    Logger.info(f'Sync: startup sync: {msg}')
-                threading.Thread(target=_bg_sync, daemon=True).start()
+            # NOTE: startup sync is deferred until AFTER _check_db_ready
+            # completes, so a DB update won't wipe freshly-synced data.
+            # See _run_deferred_startup_sync() called from _check_db_ready.
         except Exception as e:
             Logger.warning(f'Sync: startup init skipped: {e}')
 
@@ -29698,12 +30725,40 @@ class SpoonfedApp(App):
         from kivy.clock import Clock as _Clock
         _Clock.schedule_once(self._check_db_ready, 0.5)
 
+    def _run_deferred_startup_sync(self):
+        """Run a background sync after DB readiness is confirmed.
+        Called from _check_db_ready once we know no DB download is pending."""
+        try:
+            from sync import supabase_client as sb
+            if sb.is_logged_in():
+                import threading
+                from sync.sync import run_full_sync
+                def _bg_sync():
+                    ok, msg = run_full_sync()
+                    Logger.info(f'Sync: startup sync: {msg}')
+                    if ok:
+                        Clock.schedule_once(lambda dt: self._apply_synced_data(), 0)
+                threading.Thread(target=_bg_sync, daemon=True).start()
+        except Exception as e:
+            Logger.warning(f'Sync: deferred startup sync skipped: {e}')
+
     # ── First-launch DB download / version-update ─────────────────────────────
 
     def _get_db_version_path(self):
         """Path of the small local file that stores the current DB version string."""
         import os
         return get_db_path() + '.version'
+
+    @staticmethod
+    def _decode_version_bytes(raw: bytes) -> str:
+        """Decode a version string from raw bytes, handling UTF-16 BOM."""
+        if raw.startswith(b'\xff\xfe'):
+            return raw.decode('utf-16-le').strip()
+        if raw.startswith(b'\xfe\xff'):
+            return raw.decode('utf-16-be').strip()
+        if raw.startswith(b'\xef\xbb\xbf'):
+            return raw[3:].decode('utf-8').strip()
+        return raw.decode('utf-8', errors='replace').strip()
 
     def _read_local_db_version(self):
         """Return the locally stored version string, or None if absent."""
@@ -29731,7 +30786,14 @@ class SpoonfedApp(App):
             self._show_onboarding()
             return
         # DB exists — check quietly in the background whether a newer version exists
-        threading.Thread(target=self._version_check_worker, daemon=True).start()
+        # If no update is needed, _version_check_worker won't show a popup and
+        # we can safely sync. If an update IS needed, the download worker handles
+        # sync after restore (see _db_download_worker).
+        def _check_then_sync():
+            self._version_check_worker()
+            # If version_check_worker didn't trigger an update popup, run sync now
+            self._run_deferred_startup_sync()
+        threading.Thread(target=_check_then_sync, daemon=True).start()
 
     # ── Onboarding flow ──────────────────────────────────────────────────────
 
@@ -29885,11 +30947,17 @@ class SpoonfedApp(App):
 
             os.replace(tmp_path, db_path)
 
+            # Strip any dev/test data that may be baked into the release DB
+            try:
+                self._strip_dev_data_from_db(db_path)
+            except Exception as se:
+                Logger.warning(f'Onboarding: strip dev data: {se}')
+
             # Fetch and persist the remote version so version-check won't re-trigger
             try:
                 ver_resp = requests.get(DB_VERSION_URL, timeout=10)
                 ver_resp.raise_for_status()
-                self._write_local_db_version(ver_resp.text.strip())
+                self._write_local_db_version(self._decode_version_bytes(ver_resp.content))
             except Exception as ve:
                 Logger.warning(f'Onboarding: could not write version file: {ve}')
 
@@ -30080,13 +31148,13 @@ class SpoonfedApp(App):
         p3.add_widget(Widget(size_hint_y=None, height=dp(8)))
 
         features_text = (
-            '✦  JLPT N5 → N1 curated lessons\n'
-            '✦  Kanji stroke order & handwriting\n'
-            '✦  Reading practice with built-in dictionary\n'
-            '✦  On-device Japanese ↔ English translation\n'
-            '✦  Pitch accent information\n'
-            '✦  Detailed progress statistics\n'
-            '✦  Cloud sync across devices'
+            '✓  JLPT N5 → N1 curated lessons\n'
+            '✓  Kanji stroke order & handwriting\n'
+            '✓  Reading practice with built-in dictionary\n'
+            '✓  On-device Japanese ↔ English translation\n'
+            '✓  Pitch accent information\n'
+            '✓  Detailed progress statistics\n'
+            '✓  Cloud sync across devices'
         )
         features_lbl = Label(
             text=features_text,
@@ -30134,12 +31202,18 @@ class SpoonfedApp(App):
         try:
             resp = requests.get(DB_VERSION_URL, timeout=10)
             resp.raise_for_status()
-            remote_version = resp.text.strip()
+            remote_version = self._decode_version_bytes(resp.content)
         except Exception as e:
             Logger.info(f'DBVersion: could not fetch remote version: {e}')
             return
         local_version = self._read_local_db_version()
         Logger.info(f'DBVersion: local={local_version!r}  remote={remote_version!r}')
+        if local_version is None:
+            # DB exists but no .version file (migrated from older app version)
+            # — write it now so the popup doesn't repeat every launch
+            self._write_local_db_version(remote_version)
+            Logger.info('DBVersion: wrote missing version file (migration)')
+            return
         if remote_version != local_version:
             Clock.schedule_once(
                 lambda dt: self._show_db_download_popup(is_update=True, remote_version=remote_version),
@@ -30263,6 +31337,136 @@ class SpoonfedApp(App):
 
         download_btn.bind(on_release=on_download)
 
+    # ── User-data preservation during DB replacement ──────────────────────────
+
+    # Tables that contain user progress / settings (NOT dictionary content).
+    _USER_DATA_TABLES = [
+        'srs', 'custom_lessons', 'custom_lesson_items',
+        'daily_activity_log', 'drill_stats', 'time_attack_high_scores',
+        'grammar_phase_progress', 'custom_reading_materials',
+        'reading_tokens', 'reading_ranges', 'reading_stats',
+        'sync_meta', 'example_sentences', 'learning_sessions',
+    ]
+
+    def _backup_user_data(self, db_path: str, backup_path: str):
+        """Dump all user-data tables from *db_path* into a small SQLite file
+        at *backup_path*. Only tables that actually exist are backed up.
+        """
+        import sqlite3, os
+        if not os.path.exists(db_path):
+            return
+        src = sqlite3.connect(db_path)
+        # Collect existing user-data tables
+        existing = {r[0] for r in src.execute(
+            "SELECT name FROM sqlite_master WHERE type='table'"
+        ).fetchall()}
+        tables_to_backup = [t for t in self._USER_DATA_TABLES if t in existing]
+        if not tables_to_backup:
+            src.close()
+            return
+        # Create a fresh backup DB
+        if os.path.exists(backup_path):
+            os.remove(backup_path)
+        dst = sqlite3.connect(backup_path)
+        for tbl in tables_to_backup:
+            try:
+                # Read schema
+                schema_row = src.execute(
+                    "SELECT sql FROM sqlite_master WHERE type='table' AND name=?", (tbl,)
+                ).fetchone()
+                if not schema_row or not schema_row[0]:
+                    continue
+                dst.execute(schema_row[0])
+                # Copy rows
+                rows = src.execute(f'SELECT * FROM [{tbl}]').fetchall()
+                if rows:
+                    cols = [d[0] for d in src.execute(f'SELECT * FROM [{tbl}] LIMIT 0').description]
+                    placeholders = ','.join(['?'] * len(cols))
+                    dst.executemany(
+                        f'INSERT OR REPLACE INTO [{tbl}] ({",".join(cols)}) VALUES ({placeholders})',
+                        rows,
+                    )
+            except Exception as e:
+                Logger.warning(f'DBBackup: skipping {tbl}: {e}')
+        dst.commit()
+        dst.close()
+        src.close()
+        Logger.info(f'DBBackup: backed up {len(tables_to_backup)} tables → {backup_path}')
+
+    def _restore_user_data(self, db_path: str, backup_path: str):
+        """Restore user-data tables from *backup_path* into *db_path*.
+        Existing rows in the new DB are preserved (INSERT OR REPLACE).
+        """
+        import sqlite3, os
+        if not os.path.exists(backup_path):
+            return
+        bak = sqlite3.connect(backup_path)
+        bak_tables = {r[0] for r in bak.execute(
+            "SELECT name FROM sqlite_master WHERE type='table'"
+        ).fetchall()}
+        if not bak_tables:
+            bak.close()
+            return
+        dst = sqlite3.connect(db_path)
+        # Ensure target tables exist (they may already, or may need creation)
+        dst_tables = {r[0] for r in dst.execute(
+            "SELECT name FROM sqlite_master WHERE type='table'"
+        ).fetchall()}
+        restored = 0
+        for tbl in bak_tables:
+            try:
+                rows = bak.execute(f'SELECT * FROM [{tbl}]').fetchall()
+                cols = [d[0] for d in bak.execute(f'SELECT * FROM [{tbl}] LIMIT 0').description]
+                if tbl not in dst_tables:
+                    # Recreate the table from backup schema
+                    schema_row = bak.execute(
+                        "SELECT sql FROM sqlite_master WHERE type='table' AND name=?", (tbl,)
+                    ).fetchone()
+                    if schema_row and schema_row[0]:
+                        dst.execute(schema_row[0])
+                if rows:
+                    placeholders = ','.join(['?'] * len(cols))
+                    dst.executemany(
+                        f'INSERT OR REPLACE INTO [{tbl}] ({",".join(cols)}) VALUES ({placeholders})',
+                        rows,
+                    )
+                    restored += 1
+            except Exception as e:
+                Logger.warning(f'DBRestore: skipping {tbl}: {e}')
+        dst.commit()
+        dst.close()
+        bak.close()
+        # Clean up backup file
+        try:
+            os.remove(backup_path)
+        except Exception:
+            pass
+        Logger.info(f'DBRestore: restored {restored} tables from backup')
+
+    def _strip_dev_data_from_db(self, db_path: str):
+        """Remove any dev/test data from user-data tables in a freshly
+        downloaded dictionary.db. This prevents the developer's personal
+        progress from leaking into users' apps."""
+        import sqlite3
+        conn = sqlite3.connect(db_path)
+        existing = {r[0] for r in conn.execute(
+            "SELECT name FROM sqlite_master WHERE type='table'"
+        ).fetchall()}
+        cleared = []
+        for tbl in self._USER_DATA_TABLES:
+            if tbl in existing:
+                try:
+                    count = conn.execute(f'SELECT COUNT(*) FROM [{tbl}]').fetchone()[0]
+                    if count > 0:
+                        conn.execute(f'DELETE FROM [{tbl}]')
+                        cleared.append(f'{tbl}({count})')
+                except Exception:
+                    pass
+        conn.commit()
+        conn.close()
+        if cleared:
+            Logger.info(f'DBStrip: cleared dev data from: {", ".join(cleared)}')
+
     def _db_download_worker(self, popup, progress_bar, status_lbl, btn, remote_version=None):
         """Background thread: stream dictionary.db from GitHub Releases."""
         import os
@@ -30285,9 +31489,19 @@ class SpoonfedApp(App):
 
         db_path = get_db_path()
         tmp_path = db_path + '.tmp'
+        backup_path = db_path + '.userdata.bak'
 
         try:
             os.makedirs(os.path.dirname(db_path) or '.', exist_ok=True)
+
+            # Back up user data before replacing the DB
+            if os.path.exists(db_path):
+                ui(0, 'Backing up your progress…')
+                try:
+                    self._backup_user_data(db_path, backup_path)
+                except Exception as be:
+                    Logger.warning(f'DBDownload: backup failed: {be}')
+
             ui(0, 'Connecting…')
             resp = requests.get(url, stream=True, timeout=60)
             resp.raise_for_status()
@@ -30309,11 +31523,36 @@ class SpoonfedApp(App):
                             ui(0, f'{downloaded / 1048576:.1f} MB downloaded…')
 
             os.replace(tmp_path, db_path)
+
+            # Strip any dev/test data that may be baked into the release DB
+            try:
+                self._strip_dev_data_from_db(db_path)
+            except Exception as se:
+                Logger.warning(f'DBDownload: strip dev data: {se}')
+
+            # Restore user data into the new DB
+            if os.path.exists(backup_path):
+                ui(100, 'Restoring your progress…')
+                try:
+                    self._restore_user_data(db_path, backup_path)
+                except Exception as re:
+                    Logger.error(f'DBDownload: restore failed: {re}')
+
             # Persist the version so we don't re-download until the next release
             if remote_version:
                 self._write_local_db_version(remote_version)
             ui(100, 'Download complete! Starting app…')
             Clock.schedule_once(lambda dt: popup.dismiss(), 1.0)
+
+            # Sync after DB update to ensure cloud data is merged
+            try:
+                from sync import supabase_client as sb
+                if sb.is_logged_in():
+                    from sync.sync import run_full_sync
+                    ok, msg = run_full_sync()
+                    Logger.info(f'Sync: post-DB-update sync: {msg}')
+            except Exception:
+                pass
 
         except Exception as exc:
             Logger.error(f'DBDownload: {exc}')
@@ -30598,7 +31837,7 @@ class SpoonfedApp(App):
         try:
             resp = requests.get(DB_VERSION_URL, timeout=10)
             resp.raise_for_status()
-            remote_version = resp.text.strip()
+            remote_version = self._decode_version_bytes(resp.content)
         except Exception as e:
             def _err(dt):
                 btn = self.root.ids.get('download_data_db_btn') if self.root else None
@@ -30662,9 +31901,19 @@ class SpoonfedApp(App):
         url = DB_DOWNLOAD_URL
         db_path = get_db_path()
         tmp_path = db_path + '.tmp'
+        backup_path = db_path + '.userdata.bak'
 
         try:
             os.makedirs(os.path.dirname(db_path) or '.', exist_ok=True)
+
+            # Back up user data before replacing the DB
+            if os.path.exists(db_path):
+                ui(0, 'Backing up your progress…')
+                try:
+                    self._backup_user_data(db_path, backup_path)
+                except Exception as be:
+                    Logger.warning(f'DownloadData DB: backup failed: {be}')
+
             ui(0, 'Connecting…')
             resp = requests.get(url, stream=True, timeout=60)
             resp.raise_for_status()
@@ -30683,6 +31932,21 @@ class SpoonfedApp(App):
                             ui(pct, f'Downloading… {mb_done:.1f} / {mb_total:.1f} MB  ({pct}%)')
 
             os.replace(tmp_path, db_path)
+
+            # Strip any dev/test data that may be baked into the release DB
+            try:
+                self._strip_dev_data_from_db(db_path)
+            except Exception as se:
+                Logger.warning(f'DownloadData DB: strip dev data: {se}')
+
+            # Restore user data into the new DB
+            if os.path.exists(backup_path):
+                ui(100, 'Restoring your progress…')
+                try:
+                    self._restore_user_data(db_path, backup_path)
+                except Exception as re:
+                    Logger.error(f'DownloadData DB: restore failed: {re}')
+
             if remote_version:
                 self._write_local_db_version(remote_version)
             else:
@@ -30690,9 +31954,19 @@ class SpoonfedApp(App):
                 try:
                     r = requests.get(DB_VERSION_URL, timeout=10)
                     r.raise_for_status()
-                    self._write_local_db_version(r.text.strip())
+                    self._write_local_db_version(self._decode_version_bytes(r.content))
                 except Exception:
                     pass
+
+            # Sync after DB update to ensure cloud data is merged
+            try:
+                from sync import supabase_client as sb
+                if sb.is_logged_in():
+                    from sync.sync import run_full_sync
+                    ok, msg = run_full_sync()
+                    Logger.info(f'Sync: post-DB-update sync: {msg}')
+            except Exception:
+                pass
 
             def _done(dt):
                 self._refresh_download_data_status()
@@ -30843,7 +32117,7 @@ class SpoonfedApp(App):
 
         FONT = 'fonts/NotoSansJP-Regular.ttf'
 
-        content = BoxLayout(orientation='vertical', padding=dp(24), spacing=dp(14))
+        content = BoxLayout(orientation='vertical', padding=[dp(24), dp(36), dp(24), dp(24)], spacing=dp(14))
 
         title_lbl = Label(
             text='Translation Model Needed',
@@ -31415,7 +32689,7 @@ class SpoonfedApp(App):
                     content = BoxLayout(orientation='vertical', spacing=dp(8), padding=dp(16))
                     
                     label = Label(
-                        text='All items in this lesson are already mastered.\nYou have already learned all available vectors for this lesson.',
+                        text='All items in this lesson are already\nin your study queue.',
                         size_hint_y=None,
                         height=dp(80),
                         halign='center',
@@ -31428,7 +32702,7 @@ class SpoonfedApp(App):
                     buttons = BoxLayout(size_hint_y=None, height=dp(44), spacing=dp(8))
                     
                     popup = Popup(
-                        title='Already Mastered',
+                        title='Already Added',
                         content=content,
                         size_hint=(0.8, None),
                         height=dp(200),
@@ -31829,6 +33103,17 @@ class SpoonfedApp(App):
                             to_add.append(p)
                         else:
                             skipped_count += 1
+            # Also add N4 graded readings
+            try:
+                import glob as _glob
+                for _rpath in sorted(_glob.glob('readings/n4/*.json')):
+                    if os.path.basename(_rpath).startswith('_'):
+                        continue
+                    _rq = f'graded:{_rpath}'
+                    if _rq not in self._lesson_queue:
+                        to_add.append(_rq)
+            except Exception:
+                pass
             if not to_add:
                 Logger.info(f'N4: No new lessons to add, skipped {skipped_count}')
                 return
@@ -31878,6 +33163,8 @@ class SpoonfedApp(App):
                         p = _norm(types['grammar'])
                     if p and p in self._lesson_queue:
                         self._lesson_queue.remove(p)
+            # Also remove N4 graded readings
+            self._lesson_queue = [q for q in self._lesson_queue if not q.startswith('graded:readings/n4/') and not q.startswith('graded:readings\\n4\\')]
         except Exception:
             pass
         from kivy.clock import Clock
@@ -31920,6 +33207,17 @@ class SpoonfedApp(App):
                             to_add.append(p)
                         else:
                             skipped_count += 1
+            # Also add N3 graded readings
+            try:
+                import glob as _glob
+                for _rpath in sorted(_glob.glob('readings/n3/*.json')):
+                    if os.path.basename(_rpath).startswith('_'):
+                        continue
+                    _rq = f'graded:{_rpath}'
+                    if _rq not in self._lesson_queue:
+                        to_add.append(_rq)
+            except Exception:
+                pass
             if not to_add:
                 Logger.info(f'N3: No new lessons to add, skipped {skipped_count}')
                 return
@@ -31969,6 +33267,8 @@ class SpoonfedApp(App):
                         p = _norm(types['grammar'])
                     if p and p in self._lesson_queue:
                         self._lesson_queue.remove(p)
+            # Also remove N3 graded readings
+            self._lesson_queue = [q for q in self._lesson_queue if not q.startswith('graded:readings/n3/') and not q.startswith('graded:readings\\n3\\')]
         except Exception:
             pass
         from kivy.clock import Clock
@@ -32011,6 +33311,17 @@ class SpoonfedApp(App):
                             to_add.append(p)
                         else:
                             skipped_count += 1
+            # Also add N2 graded readings
+            try:
+                import glob as _glob
+                for _rpath in sorted(_glob.glob('readings/n2/*.json')):
+                    if os.path.basename(_rpath).startswith('_'):
+                        continue
+                    _rq = f'graded:{_rpath}'
+                    if _rq not in self._lesson_queue:
+                        to_add.append(_rq)
+            except Exception:
+                pass
             if not to_add:
                 Logger.info(f'N2: No new lessons to add, skipped {skipped_count}')
                 return
@@ -32060,6 +33371,8 @@ class SpoonfedApp(App):
                         p = _norm(types['grammar'])
                     if p and p in self._lesson_queue:
                         self._lesson_queue.remove(p)
+            # Also remove N2 graded readings
+            self._lesson_queue = [q for q in self._lesson_queue if not q.startswith('graded:readings/n2/') and not q.startswith('graded:readings\\n2\\')]
         except Exception:
             pass
         from kivy.clock import Clock
@@ -32091,7 +33404,7 @@ class SpoonfedApp(App):
             to_add = []
             skipped_count = 0
             for num, types in idx.items():
-                if 1318 <= int(num) <= 2050:
+                if 1362 <= int(num) <= 2156:
                     p = None
                     if 'vocab' in types:
                         p = _norm(types['vocab'])
@@ -32102,6 +33415,17 @@ class SpoonfedApp(App):
                             to_add.append(p)
                         else:
                             skipped_count += 1
+            # Also add N1 graded readings
+            try:
+                import glob as _glob
+                for _rpath in sorted(_glob.glob('readings/n1/*.json')):
+                    if os.path.basename(_rpath).startswith('_'):
+                        continue
+                    _rq = f'graded:{_rpath}'
+                    if _rq not in self._lesson_queue:
+                        to_add.append(_rq)
+            except Exception:
+                pass
             if not to_add:
                 Logger.info(f'N1: No new lessons to add, skipped {skipped_count}')
                 return
@@ -32143,7 +33467,7 @@ class SpoonfedApp(App):
             if not hasattr(self, '_lesson_queue'):
                 self._lesson_queue = []
             for num, types in idx.items():
-                if 1318 <= int(num) <= 2050:
+                if 1362 <= int(num) <= 2156:
                     p = None
                     if 'vocab' in types:
                         p = _norm(types['vocab'])
@@ -32151,6 +33475,8 @@ class SpoonfedApp(App):
                         p = _norm(types['grammar'])
                     if p and p in self._lesson_queue:
                         self._lesson_queue.remove(p)
+            # Also remove N1 graded readings
+            self._lesson_queue = [q for q in self._lesson_queue if not q.startswith('graded:readings/n1/') and not q.startswith('graded:readings\\n1\\')]
         except Exception:
             pass
         from kivy.clock import Clock
@@ -34133,6 +35459,55 @@ class SpoonfedApp(App):
             import traceback
             Logger.error(traceback.format_exc())
 
+    def _show_info_card_popup(self, title, body):
+        """Show a popup displaying an info card's title and body text."""
+        from kivy.uix.popup import Popup
+        from kivy.uix.scrollview import ScrollView
+        from kivy.uix.label import Label
+        from kivy.uix.button import Button
+        from kivy.metrics import dp
+
+        content = BoxLayout(orientation='vertical', spacing=dp(8), padding=dp(12))
+
+        scroll = ScrollView(size_hint=(1, 1), do_scroll_x=False)
+        body_rendered = LessonsScreen._render_glossary_markup(body or '')
+        body_label = Label(
+            text=body_rendered,
+            font_name='fonts/NotoSansJP-Regular.ttf',
+            font_size='15sp',
+            markup=True,
+            halign='left',
+            valign='top',
+            size_hint_y=None,
+            color=(0.90, 0.88, 0.85, 1),
+        )
+        body_label.bind(width=lambda inst, val: setattr(inst, 'text_size', (val - dp(8), None)))
+        body_label.bind(texture_size=lambda inst, val: setattr(inst, 'height', val[1] + dp(12)))
+        # Bind glossary ref press
+        ls = self.root.ids.get('lessons_screen')
+        if ls:
+            body_label.bind(on_ref_press=ls._on_glossary_ref_press)
+        scroll.add_widget(body_label)
+        content.add_widget(scroll)
+
+        close_btn = Button(
+            text='Close', size_hint_y=None, height=dp(44),
+            background_normal='', background_color=(0.30, 0.30, 0.35, 1),
+            color=(1, 1, 1, 1), font_name='fonts/NotoSansJP-Regular.ttf',
+        )
+        content.add_widget(close_btn)
+
+        popup = Popup(
+            title=title or 'Info Card',
+            title_font='fonts/NotoSansJP-Regular.ttf',
+            title_size='18sp',
+            content=content,
+            size_hint=(0.9, 0.7),
+            auto_dismiss=True,
+        )
+        close_btn.bind(on_release=lambda *_: popup.dismiss())
+        popup.open()
+
     def _show_lesson_page(self, lesson_path):
         """Open dictionary screen with lesson items, or dictionary entry for grammar lessons."""
         from pathlib import Path
@@ -34145,20 +35520,6 @@ class SpoonfedApp(App):
         
         with open(lesson_file, 'r', encoding='utf-8') as f:
             lesson_data = json.load(f)
-        
-        # Check if this is a grammar lesson - navigate to its dictionary entry
-        if lesson_data.get('lesson_type') == 'grammar':
-            entry_id = lesson_data.get('entry_id')
-            if not entry_id:
-                items = lesson_data.get('items', [])
-                if items and items[0].get('entry_id'):
-                    entry_id = items[0]['entry_id']
-            if entry_id:
-                Logger.info(f'Opening grammar entry {entry_id} in dictionary')
-                self.show_entry_detail(entry_id)
-            else:
-                Logger.error(f'Grammar lesson has no entry_id: {lesson_path}')
-            return
         
         items = lesson_data.get('items', [])
         Logger.info(f'Opening dictionary with {len(items)} lesson items')
@@ -34188,6 +35549,17 @@ class SpoonfedApp(App):
         # Prepare data for RecycleView
         conn = None
         data = []
+
+        # Prepend intro cards (teaching cards) as InfoCardRow items
+        intro_cards = lesson_data.get('intro_cards', [])
+        for card in intro_cards:
+            if card.get('card_type') == 'teaching' and card.get('title'):
+                data.append({
+                    'viewclass': 'InfoCardRow',
+                    'card_title': card.get('title', ''),
+                    'card_body': card.get('body', ''),
+                })
+
         try:
             conn = dict_db.init_db(get_db_path())
             
@@ -34693,6 +36065,14 @@ class SpoonfedApp(App):
             except Exception:
                 pass
         
+        if value == 'lessons':
+            try:
+                if getattr(self, '_lessons_needs_reload', False):
+                    self._lessons_needs_reload = False
+                    self._refresh_lesson_menus()
+            except Exception:
+                pass
+
         if value == 'custom_lessons':
             try:
                 # Only reload if data changed (flag-based reload for performance)
@@ -34716,6 +36096,7 @@ class SpoonfedApp(App):
 
     def on_pause(self):
         """Save state and push sync when app is paused (Android background)."""
+        Logger.info('App: on_pause called')
         try:
             self._save_lesson_queue()
         except Exception:
@@ -34725,37 +36106,65 @@ class SpoonfedApp(App):
             if sb.is_logged_in() and sb.is_configured():
                 import threading
                 from sync.sync import run_full_sync
-                threading.Thread(target=run_full_sync, daemon=True).start()
+                def _bg():
+                    ok, msg = run_full_sync()
+                    Logger.info(f'Sync: on_pause sync: {msg}')
+                threading.Thread(target=_bg, daemon=True).start()
         except Exception:
             pass
         return True
 
     def on_resume(self):
-        """Restore keyboard when the user switches back to the app mid-drill.
+        """Restore keyboard when the user switches back to the app mid-drill/review.
 
         Android dismisses the IME whenever the app goes to the background.
-        If the user was on a typing drill question, we reschedule focus after
+        If the user was on a typing question, we defocus then refocus after
         a short delay so the window has fully restored before the IME appears.
+        Without the defocus-refocus cycle, Android may keep the TextInput
+        focused but with no keyboard visible, confusing the user.
         """
+        def _refocus_input(text_input):
+            """Defocus then refocus a TextInput to trigger the Android IME.
+
+            Uses a two-stage schedule: first defocus, then refocus after a
+            generous delay (0.5s) to ensure the Android window has fully
+            restored.  A second attempt fires at 1.0s as a safety net for
+            slower devices.
+            """
+            if not text_input:
+                return
+            # Skip if the input is readonly/disabled — nothing to focus
+            if getattr(text_input, 'readonly', False) or getattr(text_input, 'disabled', False):
+                return
+            text_input.focus = False
+            def _do_refocus(dt):
+                if getattr(text_input, 'readonly', False) or getattr(text_input, 'disabled', False):
+                    return
+                text_input.focus = True
+            Clock.schedule_once(_do_refocus, 0.5)
+            # Safety-net retry for slow devices
+            Clock.schedule_once(_do_refocus, 1.0)
+
         try:
             sm = self._get_screen_manager()
-            if not sm or sm.current != 'drill':
-                return
-            vec = getattr(self, '_current_drill_vector', None)
-            if not vec:
-                return
-            if vec.get('vector_type') == 'handwriting':
-                return
-            if getattr(self, '_drill_waiting_continue', False):
-                return
-            text_input = self.root.ids.get('drill_input')
-            if text_input:
-                # 350 ms gives Android time to fully restore the window before
-                # the IME is requested, avoiding a missed-focus race.
-                Clock.schedule_once(
-                    lambda dt: setattr(text_input, 'focus', True), 0.35)
+            if not sm:
+                pass
+            elif sm.current == 'drill':
+                # Don't refocus if info card overlay is visible (no text input there)
+                overlay = self.root.ids.get('info_card_overlay')
+                if overlay and getattr(overlay, 'opacity', 0) > 0:
+                    pass
+                else:
+                    vec = getattr(self, '_current_drill_vector', None)
+                    if vec and vec.get('vector_type') != 'handwriting' and not getattr(self, '_drill_waiting_continue', False):
+                        text_input = self.root.ids.get('drill_input')
+                        _refocus_input(text_input)
+            elif sm.current == 'review':
+                if not getattr(self, '_review_waiting_continue', False):
+                    text_input = self.root.ids.get('review_input')
+                    _refocus_input(text_input)
         except Exception as e:
-            Logger.warning(f'Resume: Error restoring drill keyboard: {e}')
+            Logger.warning(f'Resume: Error restoring keyboard: {e}')
         # Background sync on resume to pull any changes from other devices
         try:
             from sync import supabase_client as sb
@@ -34765,9 +36174,40 @@ class SpoonfedApp(App):
                 def _bg():
                     ok, msg = run_full_sync()
                     Logger.info(f'Sync: on_resume sync: {msg}')
+                    if ok:
+                        Clock.schedule_once(lambda dt: self._apply_synced_data(), 0)
                 threading.Thread(target=_bg, daemon=True).start()
         except Exception:
             pass
+
+    def _apply_synced_data(self):
+        """Reload in-memory state from disk after a successful sync pull.
+
+        Called on the main thread so it's safe to touch Kivy properties.
+        Only reloads if the user is still logged in — a background sync
+        that outlives a session expiry must not overwrite local state.
+        Preserves the lesson queue if the reload would empty it (defensive
+        guard against sync edge cases that could erase progress).
+        """
+        try:
+            from sync import supabase_client as sb
+            if not sb.is_logged_in():
+                Logger.info('Sync: skipping apply — user is no longer logged in')
+                return
+            # Snapshot current queue before reloading
+            prev_queue = list(getattr(self, '_lesson_queue', []))
+            self._load_study_settings()
+            self._load_lesson_queue()
+            self._load_dark_mode_preference()
+            # Guard: don't lose a non-empty queue due to sync
+            new_queue = getattr(self, '_lesson_queue', [])
+            if prev_queue and not new_queue:
+                Logger.warning(f'Sync: apply would erase {len(prev_queue)} queue items — restoring')
+                self._lesson_queue = prev_queue
+                self._save_lesson_queue()
+            Logger.info('Sync: applied synced data to running app')
+        except Exception as e:
+            Logger.warning(f'Sync: error applying synced data: {e}')
 
     # ===== Tools Drill Mode Methods =====
     
@@ -35029,28 +36469,67 @@ class SpoonfedApp(App):
         self._drill_cfg['grammar'] = cb_grammar
         self._drill_cfg['grammar_only'] = cb_grammar_only
 
-        # ── SOURCE ──
+        # ── SOURCE (multi-select checkboxes, not radio) ──
         grid.add_widget(_make_section('SOURCE'))
 
-        mywords_text = f'My Words  ({total_srs} available)'
-        row_mywords, cb_mywords = _make_row(
-            mywords_text, group='drill_cfg_source', active=True
+        # 1. Sakubo Lessons
+        row_sakubo, cb_sakubo = _make_row('Sakubo Lessons', subtitle='Kana, Vocab, Grammar lessons')
+        grid.add_widget(row_sakubo)
+        self._drill_cfg['source_sakubo'] = cb_sakubo
+
+        # Sakubo Lessons picker container (shown/hidden based on checkbox)
+        self._drill_cfg_sakubo_label = Label(
+            text='No lessons selected',
+            halign='left', valign='middle',
+            font_name=FONT, font_size='12sp',
+            color=(0.50, 0.50, 0.50, 1),
+            size_hint_y=None, height=dp(20),
+            padding=[dp(12), 0]
         )
-        weak_text = f'Weak Words  ({total_weak} available)'
-        row_weak, cb_weak = _make_row(
-            weak_text, group='drill_cfg_source'
+        self._drill_cfg_sakubo_label.bind(size=self._drill_cfg_sakubo_label.setter('text_size'))
+
+        sakubo_select_btn = Button(
+            text='Select Sakubo Lessons...',
+            size_hint_y=None, height=dp(48),
+            font_name=FONT,
+            background_normal='', background_down='',
+            background_color=(0.18, 0.40, 0.60, 1),
+            color=(1, 1, 1, 1)
         )
-        row_custom, cb_custom = _make_row(
-            'Custom Lesson', group='drill_cfg_source'
+        sakubo_select_btn.bind(on_release=lambda inst: self._show_drill_sakubo_picker())
+
+        self._drill_cfg_sakubo_container = BoxLayout(
+            orientation='vertical', size_hint_y=None, height=dp(76),
+            spacing=dp(4), padding=[dp(12), dp(4)]
         )
-        grid.add_widget(row_mywords)
-        grid.add_widget(row_weak)
+        self._drill_cfg_sakubo_container.add_widget(sakubo_select_btn)
+        self._drill_cfg_sakubo_container.add_widget(self._drill_cfg_sakubo_label)
+        self._drill_cfg_sakubo_inserted = False
+
+        def _on_sakubo_toggle(inst, val):
+            if val and not self._drill_cfg_sakubo_inserted:
+                children = list(grid.children)
+                idx = None
+                for i, c in enumerate(children):
+                    if c is row_sakubo:
+                        idx = i
+                        break
+                if idx is not None:
+                    grid.add_widget(self._drill_cfg_sakubo_container, index=idx)
+                else:
+                    grid.add_widget(self._drill_cfg_sakubo_container)
+                self._drill_cfg_sakubo_inserted = True
+            elif not val and self._drill_cfg_sakubo_inserted:
+                grid.remove_widget(self._drill_cfg_sakubo_container)
+                self._drill_cfg_sakubo_inserted = False
+        cb_sakubo.bind(active=_on_sakubo_toggle)
+
+        # 2. Custom Lessons
+        row_custom, cb_custom = _make_row('Custom Lessons', subtitle='Your custom word lists')
         grid.add_widget(row_custom)
-        self._drill_cfg['source_mywords'] = cb_mywords
-        self._drill_cfg['source_weak'] = cb_weak
         self._drill_cfg['source_custom'] = cb_custom
 
-        # ── SELECT LESSONS BUTTON (shown below Custom Lesson radio) ──
+        # Custom Lessons picker container
         self._drill_cfg_select_btn_label = Label(
             text='No lessons selected',
             halign='left', valign='middle',
@@ -35062,7 +36541,7 @@ class SpoonfedApp(App):
         self._drill_cfg_select_btn_label.bind(size=self._drill_cfg_select_btn_label.setter('text_size'))
 
         select_btn = Button(
-            text='Select Lessons...',
+            text='Select Custom Lessons...',
             size_hint_y=None, height=dp(48),
             font_name=FONT,
             background_normal='', background_down='',
@@ -35071,33 +36550,17 @@ class SpoonfedApp(App):
         )
         select_btn.bind(on_release=lambda inst: self._show_drill_lesson_picker())
 
-        # Wrap in a container that we show/hide
         self._drill_cfg_select_container = BoxLayout(
             orientation='vertical', size_hint_y=None, height=dp(76),
             spacing=dp(4), padding=[dp(12), dp(4)]
         )
         self._drill_cfg_select_container.add_widget(select_btn)
         self._drill_cfg_select_container.add_widget(self._drill_cfg_select_btn_label)
+        self._drill_cfg_container_inserted = False
 
-        # Track insertion anchor: the container goes right after the custom lesson row
-        self._drill_cfg_grid_ref = grid
-        self._drill_cfg_container_inserted = False  # starts hidden
-
-        # Listen to source radio changes — add/remove the container entirely
-        def _on_source_change_mywords(inst, val):
-            if val and self._drill_cfg_container_inserted:
-                grid.remove_widget(self._drill_cfg_select_container)
-                self._drill_cfg_container_inserted = False
-
-        def _on_source_change_weak(inst, val):
-            if val and self._drill_cfg_container_inserted:
-                grid.remove_widget(self._drill_cfg_select_container)
-                self._drill_cfg_container_inserted = False
-
-        def _on_source_change_custom(inst, val):
+        def _on_custom_toggle(inst, val):
             if val and not self._drill_cfg_container_inserted:
-                # Insert right after the custom lesson row widget
-                children = list(grid.children)  # reversed render order
+                children = list(grid.children)
                 idx = None
                 for i, c in enumerate(children):
                     if c is row_custom:
@@ -35108,10 +36571,22 @@ class SpoonfedApp(App):
                 else:
                     grid.add_widget(self._drill_cfg_select_container)
                 self._drill_cfg_container_inserted = True
+            elif not val and self._drill_cfg_container_inserted:
+                grid.remove_widget(self._drill_cfg_select_container)
+                self._drill_cfg_container_inserted = False
+        cb_custom.bind(active=_on_custom_toggle)
 
-        cb_mywords.bind(active=_on_source_change_mywords)
-        cb_weak.bind(active=_on_source_change_weak)
-        cb_custom.bind(active=_on_source_change_custom)
+        # 3. Weak Words
+        weak_text = f'Weak Words  ({total_weak} available)'
+        row_weak, cb_weak = _make_row(weak_text)
+        grid.add_widget(row_weak)
+        self._drill_cfg['source_weak'] = cb_weak
+
+        # 4. My Words
+        mywords_text = f'My Words  ({total_srs} available)'
+        row_mywords, cb_mywords = _make_row(mywords_text, active=True)
+        grid.add_widget(row_mywords)
+        self._drill_cfg['source_mywords'] = cb_mywords
 
         # ── SPACER ──
         grid.add_widget(Widget(size_hint_y=None, height=dp(24)))
@@ -35359,6 +36834,238 @@ class SpoonfedApp(App):
                         lbl.text = ', '.join(names)
                     else:
                         lbl.text = f'{len(names)} lessons selected'
+                else:
+                    lbl.text = 'No lessons selected'
+            popup.dismiss()
+
+        done_btn.bind(on_release=_on_done)
+        outer.add_widget(done_btn)
+
+        popup.open()
+
+    # ------------------------------------------------------------------
+    def _show_drill_sakubo_picker(self):
+        """Show popup to pick Sakubo lessons (Kana/N5/N4/N3/N2/N1) for drill."""
+        from kivy.uix.popup import Popup
+        from kivy.uix.boxlayout import BoxLayout
+        from kivy.uix.label import Label
+        from kivy.uix.button import Button
+        from kivy.uix.checkbox import CheckBox
+        from kivy.uix.scrollview import ScrollView
+        from kivy.uix.gridlayout import GridLayout
+        from kivy.graphics import Color, Rectangle
+        from pathlib import Path
+        import json as _json
+
+        FONT = 'fonts/NotoSansJP-Regular.ttf'
+        FONT_M = 'fonts/NotoSansJP-Medium.ttf'
+        LABEL_COLOR = (0.90, 0.88, 0.85, 1)
+        SUB_COLOR = (0.55, 0.55, 0.55, 1)
+        BG_SECTION = (0.26, 0.26, 0.30, 1)
+        BG_ROW = (0.22, 0.22, 0.25, 1)
+
+        # Level ranges
+        LEVEL_RANGES = [
+            ('Kana', 1, 50),
+            ('JLPT N5', 51, 271),
+            ('JLPT N4', 272, 482),
+            ('JLPT N3', 483, 908),
+            ('JLPT N2', 909, 1361),
+            ('JLPT N1', 1362, 2093),
+        ]
+
+        # Load index
+        lessons_root = Path('dictionary') / 'lessons' / 'spoonfed_japanese'
+        index_file = lessons_root / 'index.json'
+        idx_data = {}
+        if index_file.exists():
+            try:
+                idx_data = self._load_lesson_json(index_file).get('lessons', {})
+            except Exception:
+                pass
+
+        # Previously selected paths  
+        cfg = getattr(self, '_drill_cfg', {})
+        prev_selected = set(cfg.get('selected_sakubo_paths', []))
+
+        checked_set = set(prev_selected)
+        cb_map = {}  # lesson_path -> CheckBox
+        level_cbs = {}  # level_name -> (CheckBox, [lesson_paths])
+        _guard = [False]
+
+        outer = BoxLayout(orientation='vertical', spacing=dp(8), padding=dp(8))
+        scroll = ScrollView(do_scroll_x=False)
+        grid = GridLayout(cols=1, spacing=dp(2), size_hint_y=None, padding=0)
+        grid.bind(minimum_height=grid.setter('height'))
+
+        for level_name, min_num, max_num in LEVEL_RANGES:
+            # Collect lessons in this range
+            level_lessons = []
+            for num_str, types in idx_data.items():
+                num = int(num_str)
+                if min_num <= num <= max_num:
+                    for lesson_type, path_str in types.items():
+                        path_norm = str(Path(path_str))
+                        # Load title
+                        title = f'Lesson {num}'
+                        try:
+                            ld = self._load_lesson_json(path_str)
+                            title = ld.get('title', title)
+                        except Exception:
+                            pass
+                        level_lessons.append({
+                            'num': num,
+                            'type': lesson_type,
+                            'path': path_norm,
+                            'title': title,
+                        })
+            level_lessons.sort(key=lambda l: (l['num'], l['type']))
+
+            if not level_lessons:
+                continue
+
+            level_paths = [l['path'] for l in level_lessons]
+
+            # Level header row (acts as select-all toggle)
+            header_row = BoxLayout(size_hint_y=None, height=dp(44), spacing=dp(8),
+                                   padding=[dp(12), 0])
+            with header_row.canvas.before:
+                Color(*BG_SECTION)
+                _hrect = Rectangle(pos=header_row.pos, size=header_row.size)
+            header_row.bind(
+                pos=lambda inst, val, r=_hrect: setattr(r, 'pos', inst.pos),
+                size=lambda inst, val, r=_hrect: setattr(r, 'size', inst.size)
+            )
+
+            all_checked = all(p in checked_set for p in level_paths) if level_paths else False
+            level_cb = CheckBox(
+                active=all_checked,
+                size_hint_x=None, width=dp(44),
+                color=[0.5, 0.7, 1.0, 1]
+            )
+
+            level_lbl = Label(
+                text=f'{level_name}  ({len(level_lessons)} lessons)',
+                halign='left', valign='middle',
+                font_name=FONT_M, font_size='14sp', color=LABEL_COLOR,
+                size_hint_x=1
+            )
+            level_lbl.bind(size=level_lbl.setter('text_size'))
+
+            header_row.add_widget(level_cb)
+            header_row.add_widget(level_lbl)
+            grid.add_widget(header_row)
+
+            level_cbs[level_name] = (level_cb, level_paths)
+
+            # Individual lesson rows (collapsed by default — expand on level toggle)
+            lesson_rows_container = BoxLayout(orientation='vertical', size_hint_y=None,
+                                              spacing=dp(1))
+            lesson_rows_container.bind(minimum_height=lesson_rows_container.setter('height'))
+
+            for lesson_info in level_lessons:
+                lpath = lesson_info['path']
+                ltype = lesson_info['type']
+                ltitle = lesson_info['title']
+                lnum = lesson_info['num']
+
+                row = BoxLayout(size_hint_y=None, height=dp(40), spacing=dp(4),
+                                padding=[dp(28), 0, dp(4), 0])
+                with row.canvas.before:
+                    Color(*BG_ROW)
+                    _rrect = Rectangle(pos=row.pos, size=row.size)
+                row.bind(
+                    pos=lambda inst, val, r=_rrect: setattr(r, 'pos', inst.pos),
+                    size=lambda inst, val, r=_rrect: setattr(r, 'size', inst.size)
+                )
+
+                type_tag = f'({ltype.capitalize()})' if ltype not in ('vocab',) else ''
+                display = f'{lnum}. {ltitle}'
+                if type_tag:
+                    display += f'  {type_tag}'
+
+                name_lbl = Label(
+                    text=display, halign='left', valign='middle',
+                    font_name=FONT, font_size='13sp', color=LABEL_COLOR,
+                    size_hint_x=1
+                )
+                name_lbl.bind(size=name_lbl.setter('text_size'))
+
+                lcb = CheckBox(
+                    active=(lpath in checked_set),
+                    size_hint_x=None, width=dp(44),
+                    color=[0.5, 0.7, 1.0, 1]
+                )
+                cb_map[lpath] = lcb
+
+                def _on_lesson_toggle(inst, val, _lpath=lpath, _level=level_name):
+                    if _guard[0]:
+                        return
+                    if val:
+                        checked_set.add(_lpath)
+                    else:
+                        checked_set.discard(_lpath)
+                    # Update level checkbox
+                    _lcb, _lpaths = level_cbs[_level]
+                    _guard[0] = True
+                    try:
+                        _lcb.active = all(cb_map.get(p) and cb_map[p].active for p in _lpaths)
+                    finally:
+                        _guard[0] = False
+
+                lcb.bind(active=_on_lesson_toggle)
+                row.add_widget(name_lbl)
+                row.add_widget(lcb)
+                lesson_rows_container.add_widget(row)
+
+            grid.add_widget(lesson_rows_container)
+
+            # Level checkbox toggles all children
+            def _on_level_toggle(inst, val, _lpaths=level_paths):
+                if _guard[0]:
+                    return
+                _guard[0] = True
+                try:
+                    for p in _lpaths:
+                        if val:
+                            checked_set.add(p)
+                        else:
+                            checked_set.discard(p)
+                        lcb_ref = cb_map.get(p)
+                        if lcb_ref:
+                            lcb_ref.active = val
+                finally:
+                    _guard[0] = False
+
+            level_cb.bind(active=_on_level_toggle)
+
+        scroll.add_widget(grid)
+        outer.add_widget(scroll)
+
+        # Done button
+        done_btn = Button(
+            text='Done',
+            size_hint_y=None, height=dp(48),
+            font_name=FONT_M,
+            background_normal='', background_down='',
+            background_color=(0.15, 0.55, 0.15, 1),
+            color=(1, 1, 1, 1)
+        )
+
+        popup = Popup(
+            title='Select Sakubo Lessons',
+            content=outer,
+            size_hint=(0.92, 0.8),
+            auto_dismiss=True
+        )
+
+        def _on_done(inst):
+            selected = list(checked_set)
+            cfg['selected_sakubo_paths'] = selected
+            lbl = getattr(self, '_drill_cfg_sakubo_label', None)
+            if lbl:
+                if selected:
+                    lbl.text = f'{len(selected)} lessons selected'
                 else:
                     lbl.text = 'No lessons selected'
             popup.dismiss()
@@ -35702,6 +37409,7 @@ class SpoonfedApp(App):
     # ------------------------------------------------------------------
     def _start_drill_from_config(self):
         """Read config page state and launch the appropriate drill session.
+        Supports multi-source selection (Sakubo + Custom + Weak + My Words).
         Shows a brief loading overlay, then defers heavy work to the next frame."""
         from kivy.uix.popup import Popup
         from kivy.uix.label import Label
@@ -35713,8 +37421,16 @@ class SpoonfedApp(App):
 
         is_time_attack = cfg.get('mode_ta') and cfg['mode_ta'].active
         is_unlimited = cfg.get('unlimited') and cfg['unlimited'].active
+
+        # Source toggles (now independent checkboxes, not radio)
+        is_sakubo = cfg.get('source_sakubo') and cfg['source_sakubo'].active
         is_custom = cfg.get('source_custom') and cfg['source_custom'].active
+        is_weak = cfg.get('source_weak') and cfg['source_weak'].active
         is_mywords = cfg.get('source_mywords') and cfg['source_mywords'].active
+
+        # Must have at least one source
+        if not any([is_sakubo, is_custom, is_weak, is_mywords]):
+            return
 
         # Store unlimited flag for the running session
         self._drill_config_unlimited = bool(is_unlimited)
@@ -35746,45 +37462,16 @@ class SpoonfedApp(App):
 
         def _do_start(dt):
             try:
-                if is_time_attack:
-                    mode = 'unlimited' if is_unlimited else 'regular'
-                    if is_custom:
-                        lesson_ids = cfg.get('selected_lesson_ids', [])
-                        if not lesson_ids:
-                            loading_popup.dismiss()
-                            return
-                        self._start_time_attack_multi(lesson_ids, mode)
-                    elif is_mywords:
-                        count = cfg.get('total_srs', 0)
-                        if count <= 0:
-                            loading_popup.dismiss()
-                            return
-                        self._start_time_attack('my_words', count, None, mode)
-                    else:
-                        count = cfg.get('total_weak', 14)
-                        if count <= 0:
-                            loading_popup.dismiss()
-                            return
-                        self._start_time_attack('weak_words', count, None, mode)
-                else:
-                    if is_custom:
-                        lesson_ids = cfg.get('selected_lesson_ids', [])
-                        if not lesson_ids:
-                            loading_popup.dismiss()
-                            return
-                        self._start_tools_custom_drill_multi(lesson_ids)
-                    elif is_mywords:
-                        count = cfg.get('total_srs', 0)
-                        if count <= 0:
-                            loading_popup.dismiss()
-                            return
-                        self._start_tools_mywords_drill(count)
-                    else:
-                        count = cfg.get('total_weak', 14)
-                        if count <= 0:
-                            loading_popup.dismiss()
-                            return
-                        self._start_tools_weak_drill(count)
+                self._start_drill_combined(
+                    is_time_attack=is_time_attack,
+                    is_unlimited=is_unlimited,
+                    is_sakubo=is_sakubo,
+                    is_custom=is_custom,
+                    is_weak=is_weak,
+                    is_mywords=is_mywords,
+                    sakubo_paths=cfg.get('selected_sakubo_paths', []),
+                    custom_ids=cfg.get('selected_lesson_ids', []),
+                )
             except Exception as e:
                 Logger.error(f'DrillConfig: Error starting drill: {e}')
             finally:
@@ -35792,6 +37479,228 @@ class SpoonfedApp(App):
 
         # Defer to next frame so the loading popup renders first
         Clock.schedule_once(_do_start, 0.15)
+
+    # ------------------------------------------------------------------
+    def _start_drill_combined(self, *, is_time_attack, is_unlimited,
+                              is_sakubo, is_custom, is_weak, is_mywords,
+                              sakubo_paths, custom_ids):
+        """Start a drill/time-attack session combining entries from multiple sources."""
+        import json as _json
+        import random
+        from datetime import datetime
+        from pathlib import Path
+        import dictionary.learning as learning
+
+        conn = None
+        try:
+            conn = dict_db.init_db(get_db_path())
+            dict_db.ensure_learning_table(conn)
+            cursor = conn.cursor()
+
+            seen_entry_ids = set()
+            all_vectors = []
+            source_labels = []
+
+            # 1. Sakubo Lessons — load entry_ids from lesson JSON files
+            if is_sakubo and sakubo_paths:
+                sakubo_entry_ids = []
+                for path_str in sakubo_paths:
+                    try:
+                        ld = self._load_lesson_json(path_str)
+                        items = ld.get('items', [])
+                        for item in items:
+                            eid = item.get('entry_id') if isinstance(item, dict) else item
+                            if eid and eid not in seen_entry_ids:
+                                seen_entry_ids.add(eid)
+                                sakubo_entry_ids.append(eid)
+                    except Exception:
+                        pass
+                if sakubo_entry_ids:
+                    vecs = learning.make_vectors_for_entries(conn, sakubo_entry_ids, 'vocab')
+                    all_vectors.extend(vecs)
+                    source_labels.append(f'Sakubo({len(sakubo_entry_ids)})')
+
+            # 2. Custom Lessons — load entry_ids from DB
+            if is_custom and custom_ids:
+                custom_entry_ids = []
+                for lid in custom_ids:
+                    for eid in dict_db.get_custom_lesson_entry_ids(conn, lid):
+                        if eid not in seen_entry_ids:
+                            seen_entry_ids.add(eid)
+                            custom_entry_ids.append(eid)
+                if custom_entry_ids:
+                    vecs = learning.make_vectors_for_entries(conn, custom_entry_ids, 'vocab')
+                    all_vectors.extend(vecs)
+                    source_labels.append(f'Custom({len(custom_entry_ids)})')
+
+            # 3. Weak Words — get pre-built weak vectors
+            if is_weak:
+                weak_vectors = dict_db.get_tools_drill_weak_vectors(conn, limit=500)
+                for wv in weak_vectors:
+                    eid = wv.get('entry_id') or wv.get('id')
+                    if eid not in seen_entry_ids:
+                        seen_entry_ids.add(eid)
+                        all_vectors.append(wv)
+                if weak_vectors:
+                    source_labels.append(f'Weak({len(weak_vectors)})')
+
+            # 4. My Words — build vectors from all SRS entries
+            if is_mywords:
+                cursor.execute('''
+                    SELECT s.entry_id, s.data, e.kind, e.kanji, e.kana, e.gloss, e.study_vectors
+                    FROM srs s JOIN entries e ON e.id = s.entry_id
+                    GROUP BY s.entry_id
+                ''')
+                for entry_id, data_str, entry_kind, kanji, kana, gloss, study_vectors_str in cursor.fetchall():
+                    if entry_id in seen_entry_ids:
+                        continue
+                    seen_entry_ids.add(entry_id)
+                    try:
+                        srs_data = _json.loads(data_str or '{}')
+                    except Exception:
+                        srs_data = {}
+                    per_kind = srs_data.get('per_kind', {})
+                    per_vector = srs_data.get('per_vector', {})
+                    vectors = learning.make_vectors_from_row(
+                        entry_id, entry_kind, kanji, kana, gloss, study_vectors_str
+                    )
+                    for vec in vectors:
+                        vector_type = vec.get('vector_type')
+                        stability = 0
+                        if per_vector:
+                            pv = per_vector.get(vector_type, {})
+                            stability = max(stability, pv.get('stability', 0))
+                        for kind_data in per_kind.values():
+                            pv = kind_data.get('per_vector', {}).get(vector_type, {})
+                            stability = max(stability, pv.get('stability', 0))
+                        v = vec.copy()
+                        v['stability'] = max(stability, 0.1)
+                        v['streak'] = 0
+                        all_vectors.append(v)
+                source_labels.append('MyWords')
+
+            if not all_vectors:
+                Logger.info('DrillConfig: No vectors from any source')
+                return
+
+            # Apply handwriting / grammar filters
+            if self.handwriting_only_mode and self._drill_grammar_only_mode:
+                all_vectors = [v for v in all_vectors if v.get('vector_type') == 'handwriting' or v.get('kind') == 'grammar']
+            elif self.handwriting_only_mode:
+                all_vectors = [v for v in all_vectors if v.get('vector_type') == 'handwriting']
+            elif self._drill_grammar_only_mode:
+                all_vectors = [v for v in all_vectors if v.get('kind') == 'grammar']
+            else:
+                if not self.handwriting_mode:
+                    all_vectors = [v for v in all_vectors if v.get('vector_type') != 'handwriting']
+                if not self._drill_grammar_mode:
+                    all_vectors = [v for v in all_vectors if v.get('kind') != 'grammar']
+
+            if not all_vectors:
+                Logger.info('DrillConfig: No vectors after filtering')
+                return
+
+            random.shuffle(all_vectors)
+            Logger.info(f'DrillConfig: {len(all_vectors)} vectors from {", ".join(source_labels)}')
+
+            DEFAULT_SLOTS = 7
+            in_progress = all_vectors[:DEFAULT_SLOTS]
+            pending = all_vectors[DEFAULT_SLOTS:]
+
+            if len(in_progress) < DEFAULT_SLOTS and in_progress:
+                first_kind = in_progress[0].get('kind', 'vocab')
+                exclude = {v.get('entry_id') or v.get('id') for v in in_progress}
+                filter_type = 'handwriting' if self.handwriting_only_mode else None
+                exclude_type = 'handwriting' if not self.handwriting_mode else None
+                fillers = learning._select_fillers(
+                    conn, first_kind, DEFAULT_SLOTS - len(in_progress),
+                    exclude_ids=exclude, filter_vector_type=filter_type,
+                    exclude_vector_type=exclude_type)
+                in_progress.extend(fillers)
+
+            random.shuffle(in_progress)
+
+            kind = all_vectors[0].get('kind', 'vocab')
+
+            if is_time_attack:
+                mode = 'unlimited' if is_unlimited else 'regular'
+                data = {
+                    'info': [], 'info_index': 0, 'phase': 'drill',
+                    'pending': pending, 'in_progress': in_progress,
+                    'meta': {
+                        'created_by': 'time_attack',
+                        'num_slots': DEFAULT_SLOTS,
+                        'created_at': datetime.utcnow().isoformat(),
+                        'attack_type': 'combined',
+                        'sources': source_labels,
+                        'mode': mode,
+                        'total_vectors': len(all_vectors),
+                        'all_vectors': all_vectors,
+                        'filter_vector_type': 'handwriting' if self.handwriting_only_mode else None,
+                        'exclude_vector_type': 'handwriting' if not self.handwriting_mode else None,
+                    },
+                    'history': []
+                }
+
+                session_id = dict_db.create_learning_session(conn, kind, data)
+                dict_db.update_learning_session(conn, session_id, data)
+
+                self._current_drill_session_id = session_id
+                self._drill_mode = 'time_attack'
+                self._drill_completed_count = 0
+                self._drill_start_time = __import__('time').time()
+
+                self._time_attack_timer = 60.0
+                self._time_attack_correct_count = 0
+                self._time_attack_total_attempts = 0
+                self._time_attack_completed_items = set()
+                self._time_attack_mode = mode
+                self._time_attack_type = 'combined'
+                self._time_attack_lesson_id = None
+
+                from kivy.clock import Clock
+                self._time_attack_clock = Clock.schedule_interval(self._update_time_attack_timer, 0.1)
+            else:
+                data = {
+                    'info': [], 'info_index': 0, 'phase': 'drill',
+                    'pending': pending, 'in_progress': in_progress,
+                    'meta': {
+                        'created_by': 'tools_drill',
+                        'num_slots': DEFAULT_SLOTS,
+                        'created_at': datetime.utcnow().isoformat(),
+                        'drill_type': 'tools_combined',
+                        'sources': source_labels,
+                        'total_vectors': len([v for v in all_vectors if not v.get('is_filler', False)]),
+                        'filter_vector_type': 'handwriting' if self.handwriting_only_mode else None,
+                        'exclude_vector_type': 'handwriting' if not self.handwriting_mode else None,
+                    },
+                    'history': []
+                }
+
+                session_id = dict_db.create_learning_session(conn, kind, data)
+                dict_db.update_learning_session(conn, session_id, data)
+
+                self._current_drill_session_id = session_id
+                self._drill_mode = 'tools_drill'
+                self._drill_completed_count = 0
+                self._drill_start_time = __import__('time').time()
+                self._cleanup_time_attack_state()
+
+            sm = self._get_screen_manager()
+            if sm:
+                sm.current = 'drill'
+                self._load_current_drill()
+
+        except Exception as e:
+            Logger.error(f'DrillConfig: Error in combined drill: {e}')
+            import traceback
+            traceback.print_exc()
+        finally:
+            if conn:
+                try:
+                    conn.close()
+                except Exception:
+                    pass
 
     # ------------------------------------------------------------------
     def show_drill_stats(self):
@@ -36803,7 +38712,13 @@ class SpoonfedApp(App):
             return
         
         # First time: show loading overlay while recognizer loads
+        self._handwriting_loading_cancelled = False
         loading = self._show_loading_overlay('Preparing handwriting recognition...')
+
+        def _on_loading_dismissed(*_args):
+            self._handwriting_loading_cancelled = True
+        loading['modal'].bind(on_dismiss=_on_loading_dismissed)
+        loading['modal'].auto_dismiss = True
         
         def load_handwriting():
             try:
@@ -36812,6 +38727,8 @@ class SpoonfedApp(App):
                 def show_screen(dt):
                     try:
                         loading['dismiss']()
+                        if getattr(self, '_handwriting_loading_cancelled', False):
+                            return
                         self._handwriting_auto_recognize = True
                         sm = self._get_screen_manager()
                         if sm:
@@ -36866,7 +38783,13 @@ class SpoonfedApp(App):
             return
         
         # First time: show loading overlay while recognizer loads
+        self._handwriting_loading_cancelled = False
         loading = self._show_loading_overlay('Preparing handwriting recognition...')
+
+        def _on_loading_dismissed(*_args):
+            self._handwriting_loading_cancelled = True
+        loading['modal'].bind(on_dismiss=_on_loading_dismissed)
+        loading['modal'].auto_dismiss = True
         
         def load_handwriting():
             try:
@@ -36876,6 +38799,8 @@ class SpoonfedApp(App):
                 def show_screen(dt):
                     try:
                         loading['dismiss']()
+                        if getattr(self, '_handwriting_loading_cancelled', False):
+                            return
                         sm = self._get_screen_manager()
                         if sm:
                             self._clear_handwriting_results()
@@ -37261,9 +39186,32 @@ class SpoonfedApp(App):
                 if hasattr(self, '_handwriting_return_screen'):
                     delattr(self, '_handwriting_return_screen')
                 
-                # Insert text and navigate
                 target_input = self.root.ids.get(target_id)
-                
+
+                # Pre-fill the search text BEFORE switching screens so the
+                # search box already contains the query when it becomes visible.
+                if target_input:
+                    target_input.text = search_text
+
+                # Trigger immediate search BEFORE the screen switch so results
+                # are ready when the dictionary screen becomes visible.
+                if target_id == 'dict_search_input':
+                    ds = self.root.ids.get('dict_screen') if getattr(self, 'root', None) else None
+                    if ds and hasattr(ds, 'on_search'):
+                        ds.on_search()
+
+                # Cover the screen with a dark overlay to mask the layout
+                # reflow (top bar going from height 0 → 48dp).
+                from kivy.uix.widget import Widget
+                from kivy.graphics import Color as GColor, Rectangle as GRect
+                _cover = Widget(size_hint=(1, 1))
+                with _cover.canvas:
+                    GColor(0.11, 0.11, 0.12, 1)
+                    _cover_rect = GRect(pos=_cover.pos, size=Window.size)
+                _cover.bind(pos=lambda w, p: setattr(_cover_rect, 'pos', p),
+                            size=lambda w, s: setattr(_cover_rect, 'size', s))
+                self.root.add_widget(_cover)
+
                 # Pre-set current_screen so top bar resizes before the visual switch
                 self.current_screen = return_screen
                 
@@ -37272,15 +39220,16 @@ class SpoonfedApp(App):
                 if sm:
                     sm.current = return_screen
                 
+                # Remove the cover after two frames so layout has settled
+                def _remove_cover(dt):
+                    try:
+                        self.root.remove_widget(_cover)
+                    except Exception:
+                        pass
+                Clock.schedule_once(lambda dt: Clock.schedule_once(_remove_cover, 0), 0)
+
                 if target_input:
-                    target_input.text = search_text
                     Logger.info(f'Handwriting: Inserted "{search_text}" into {target_id}')
-                    
-                    # Trigger immediate search (not debounced) to avoid stale results flash
-                    if target_id == 'dict_search_input':
-                        ds = self.root.ids.get('dict_screen') if getattr(self, 'root', None) else None
-                        if ds and hasattr(ds, 'on_search'):
-                            ds.on_search()
             else:
                 # Standalone mode: navigate to dictionary and search
                 sm = self._get_screen_manager()

@@ -7,5 +7,12 @@
     {
       "entry_id": 325502
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Temporal Marker: とき (When)",
+      "body": "とき (時) means 'when' — at the time of an event or action.\n\nWith nouns: [noun]のとき\n• 子供のとき、よく泳いだ。(When I was a child, I often swam.)\n\nWith verbs — tense matters:\n• [non-past] + とき = when about to do / when doing\n  食べるとき、手を洗います。(When eating, I wash my hands.)\n• [past] + とき = when/after having done\n  着いたとき、電話した。(When I arrived, I called.)\n\n• 来るとき (when coming — not yet arrived)\n• 来たとき (when they arrived — already happened)"
+    }
   ]
 }

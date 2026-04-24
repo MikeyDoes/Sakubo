@@ -7,5 +7,12 @@
     {
       "entry_id": 325480
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Comparison: より〜ほうが",
+      "body": "より〜ほうが compares two options — '[B] is more ~ than [A].'\n\nPattern: [A]より [B]のほうが [adjective]\n\n• バスよりタクシーのほうが速い。\n(A taxi is faster than a bus.)\n• 映画より本のほうが好きです。(I prefer books to movies.)\n\nThis pattern emphasizes the chosen item (B).\n\nComparison patterns summary:\n• AはBより〜 — A is more ~ (emphasizes A)\n• BよりAのほうが〜 — A is more ~ than B (emphasizes A)\n\nPreference question:\n• AとBとどちらのほうが好きですか？"
+    }
   ]
 }

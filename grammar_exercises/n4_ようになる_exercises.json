@@ -75,9 +75,9 @@
           "position": 4
         },
         {
-          "japanese": "日本の食べ物が好きになるようになりました。",
-          "japanese_with_blank": "日本の食べ物が好きになる[___]。",
-          "english": "I came to like Japanese food.",
+          "japanese": "日本の食べ物を食べるようになりました。",
+          "japanese_with_blank": "日本の食べ物を食べる[___]。",
+          "english": "I started eating Japanese food.",
           "target_answer": "ようになりました",
           "alternative_answers": [],
           "hint": "came to be",
@@ -85,11 +85,11 @@
             "日本",
             "の",
             "食べ物",
-            "が",
-            "好きになる",
+            "を",
+            "食べる",
             "ようになりました"
           ],
-          "audio_text": "日本の食べ物が好きになるようになりました。",
+          "audio_text": "日本の食べ物を食べるようになりました。",
           "notes": "",
           "position": 5
         },

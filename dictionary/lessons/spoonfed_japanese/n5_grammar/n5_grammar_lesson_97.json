@@ -7,5 +7,12 @@
     {
       "entry_id": 325505
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Quotation Particle: と",
+      "body": "と marks what was said, thought, or felt — the content of a quote or thought.\n\nDirect/indirect quotation:\n• 「行きたい」と言いました。(I said 'I want to go.')\n• 彼は来ると言っていた。(He said he would come.)\n\nWith 言う (say):\n• おいしいと言いました。(They said it was delicious.)\n• 来ると言っていた。(He said he would come.)\n\n⚠ Always use plain form before と (not ます/です form):\n• ✓ おいしいと言いました\n• ✗ おいしいですと言いました"
+    }
   ]
 }

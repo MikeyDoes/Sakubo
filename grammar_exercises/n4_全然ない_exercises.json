@@ -53,18 +53,18 @@
           "position": 3
         },
         {
-          "japanese": "全然大丈夫です。",
-          "japanese_with_blank": "[___]大丈夫です。",
-          "english": "It's totally fine.",
+          "japanese": "全然痛くないです。",
+          "japanese_with_blank": "[___]痛くないです。",
+          "english": "It doesn't hurt at all.",
           "target_answer": "全然",
           "alternative_answers": [],
-          "hint": "not at all / totally",
+          "hint": "not at all",
           "scramble_blocks": [
             "全然",
-            "大丈夫",
+            "痛くない",
             "です"
           ],
-          "audio_text": "全然大丈夫です。",
+          "audio_text": "全然痛くないです。",
           "notes": "",
           "position": 4
         },

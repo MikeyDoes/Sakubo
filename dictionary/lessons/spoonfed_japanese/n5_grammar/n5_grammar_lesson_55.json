@@ -7,5 +7,12 @@
     {
       "entry_id": 325479
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Comparison: は〜より",
+      "body": "は〜より is used to compare two things — '[A] is more ~ than [B].'\n\nPattern: [A]は [B]より [adjective]\n\n• 東京は大阪より大きいです。(Tokyo is bigger than Osaka.)\n• 電車はバスより速いです。(The train is faster than the bus.)\n• 今日は昨日より寒いです。(Today is colder than yesterday.)\n\nYou can reverse the word order using より〜ほうが:\n• 東京のほうが大阪より大きい。(same meaning)\n\nTo say 'the same as': 〜と同じくらい"
+    }
   ]
 }

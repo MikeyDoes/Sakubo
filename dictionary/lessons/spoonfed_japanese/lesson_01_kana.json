@@ -5,7 +5,7 @@
     {
       "card_type": "teaching",
       "title": "Welcome to Hiragana",
-      "body": "Hiragana is one of three Japanese writing systems. It's a syllabary — unlike an alphabet where each letter is a single sound (like 'b' or 'a'), each hiragana character represents a whole syllable (like 'ka' or 'shi').\n\nJapanese has no spaces between words. You'll learn to recognize word boundaries through practice.\n\nThere are 46 basic hiragana characters. Let's start with the five vowels: あ, い, う, え, お."
+      "body": "Hiragana is one of three Japanese writing systems. Known as a {glossary:syllabary}, each character represents a whole syllable (like 'ka' or 'shi') rather than a single sound.\n\nJapanese has no spaces between words. You'll learn to recognize word boundaries through practice.\n\nThere are 46 basic hiragana characters. Let's start with the five vowels: あ, い, う, え, お."
     }
   ],
   "items": [

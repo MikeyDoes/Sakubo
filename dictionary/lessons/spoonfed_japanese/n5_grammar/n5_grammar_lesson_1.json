@@ -3,6 +3,13 @@
   "lesson_number": 57,
   "lesson_type": "grammar",
   "jlpt_level": "N5",
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "は and へ as Particles",
+      "body": "Two characters change pronunciation when used as grammar particles:\n\nは is normally 'ha,' but as a topic particle it's pronounced 'wa.'\nへ is normally 'he,' but as a direction particle it's pronounced 'e.'\n\nThese changes only apply when the character functions as a particle. In regular words like はな (flower) or へた (unskillful), the normal pronunciation is used.\n\nYou'll see は as 'wa' in nearly every Japanese sentence."
+    }
+  ],
   "items": [
     {
       "entry_id": 325425

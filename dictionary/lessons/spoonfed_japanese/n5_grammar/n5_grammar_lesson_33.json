@@ -7,5 +7,12 @@
     {
       "entry_id": 325518
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "The Te-Form (~て)",
+      "body": "The te-form is the most versatile verb form in Japanese.\n\nFormation rules:\n• く → いて: 書く→書いて • ぐ → いで: 泳ぐ→泳いで\n• す → して: 話す→話して\n• つ・う・る → って: 持つ→持って, 買う→買って, 取る→取って\n• ぬ・む・ぶ → んで: 飲む→飲んで, 遊ぶ→遊んで\n• ru-verbs: drop る, add て: 食べ→食べて, 見→見て\n• Irregulars: する→して, くる→きて\n\n⚠ 行く→行って (not 行いて!)\n\nUses: connecting actions, ている, てください, てから, and more."
+    }
   ]
 }

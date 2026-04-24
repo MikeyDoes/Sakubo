@@ -7,5 +7,12 @@
     {
       "entry_id": 325437
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "Particle や: Non-Exhaustive 'And'",
+      "body": "や connects nouns like と ('and'), but implies the list is not complete.\n\n• 机の上に本やペンがあります。\n(On the desk there are books, pens, and so on.)\n• 野菜や果物を買いました。\n(I bought vegetables and fruit — among other things.)\n\nと vs や:\n• と — exhaustive: lists everything\n• や — non-exhaustive: suggests more items exist\n\nやなど (や + など) reinforces the 'and so on' meaning:\n• 本やノートなどを買った。(I bought books, notebooks, and so on.)"
+    }
   ]
 }

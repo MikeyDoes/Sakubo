@@ -7,5 +7,12 @@
     {
       "entry_id": 325509
     }
+  ],
+  "intro_cards": [
+    {
+      "card_type": "teaching",
+      "title": "でも with Question Words: 'Any ~'",
+      "body": "でも after a question word creates an 'any-' word — unlimited scope.\n\nPattern: [question word] + でも\n\n• 何でも食べます。(I'll eat anything.)\n• 誰でもいいです。(Anyone is fine.)\n• いつでも来てください。(Come anytime.)\n• どこでも住めます。(I can live anywhere.)\n\nContrast with も (with negative):\n• 何も食べない (don't eat anything — negative)\n• 何でも食べる (eat anything — affirmative)\n\nNote: でも here (any-) is different from でも ('but') — context clarifies."
+    }
   ]
 }
