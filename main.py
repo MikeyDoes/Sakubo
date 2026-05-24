@@ -202,12 +202,12 @@ import tempfile
 #      to a new GitHub Release.
 #   2. The /latest/ URLs below never change — GitHub redirects automatically.
 #
-# Replace YOUR_USERNAME and YOUR_REPO below, then leave the URLs as-is forever.
-DB_VERSION_URL   = 'https://github.com/mikeydoes/sakubo/releases/latest/download/db_version.txt'
-DB_DOWNLOAD_URL  = 'https://github.com/mikeydoes/sakubo/releases/latest/download/dictionary.db'
+# DB_DOWNLOAD_URL must be updated in code whenever a new DB release is published.
+DB_VERSION_URL   = 'https://raw.githubusercontent.com/MikeyDoes/Sakubo/main/db_version.txt'
+DB_DOWNLOAD_URL  = 'https://github.com/MikeyDoes/Sakubo/releases/download/db-2026-04-15/dictionary.db'
 APP_VERSION      = '0.9.7'
 APP_VERSION_URL  = 'https://raw.githubusercontent.com/MikeyDoes/Sakubo/main/app_version.txt'
-APP_DOWNLOAD_URL = 'https://github.com/MikeyDoes/Sakubo/releases/latest'
+APP_DOWNLOAD_URL = 'https://github.com/MikeyDoes/Sakubo/releases/latest/download/Sakubo-Setup.exe'
 
 def simplify_pos(pos: str) -> str:
     if not pos:
