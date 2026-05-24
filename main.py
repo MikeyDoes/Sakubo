@@ -1,8 +1,22 @@
 from kivy.config import Config
+import os as _os_plat, sys as _sys_plat
+_IS_ANDROID = 'ANDROID_ROOT' in _os_plat.environ
+del _os_plat, _sys_plat
 # Configure window size before other imports (19.5:9 aspect ratio - common modern smartphone)
-Config.set('graphics', 'width', '360')
-Config.set('graphics', 'height', '780')
-Config.set('graphics', 'resizable', False)
+if _IS_ANDROID:
+    Config.set('graphics', 'width', '360')
+    Config.set('graphics', 'height', '780')
+    Config.set('graphics', 'resizable', False)
+else:
+    # Desktop: square window, resizable
+    Config.set('graphics', 'width', '853')
+    Config.set('graphics', 'height', '640')
+    Config.set('graphics', 'resizable', True)
+    Config.set('graphics', 'minimum_width', '853')
+    Config.set('graphics', 'minimum_height', '320')
+    # Desktop mouse should behave like a normal pointer device, not a multitouch source.
+    # This prevents the red multitouch marker artifact on right/mouse-side clicks.
+    Config.set('input', 'mouse', 'mouse,disable_multitouch')
 
 # SDL2 IME hints — must be set before SDL/Window init for CJK keyboard support on Android
 import os as _os
@@ -15,6 +29,16 @@ del _os
 from kivy.app import App
 from kivy.lang import Builder
 from kivy.uix.boxlayout import BoxLayout
+
+
+def _app_content_width():
+    """Effective app content width for popup sizing.
+    On desktop this is the fixed content column, not the resizable OS window."""
+    if _IS_ANDROID:
+        from kivy.core.window import Window
+        return Window.width
+    return DesktopWrapper.CONTENT_WIDTH  # defined below; fine at call time
+from kivy.uix.floatlayout import FloatLayout
 from kivy.uix.popup import Popup
 from kivy.uix.scrollview import ScrollView
 from kivy.uix.gridlayout import GridLayout
@@ -26,6 +50,14 @@ import os
 # Pin CWD to the app directory so ALL relative paths (dictionary/*, kanjivg.zip, etc.)
 # resolve correctly on Android where CWD is not guaranteed to be the app folder.
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
+# Keep terminal output readable by suppressing per-request chatter.
+try:
+    import logging as _py_logging
+    _py_logging.getLogger('urllib3').setLevel(_py_logging.WARNING)
+    _py_logging.getLogger('requests').setLevel(_py_logging.WARNING)
+except Exception:
+    pass
 
 import dictionary.handwriting_drill as handwriting_drill
 
@@ -171,8 +203,11 @@ import tempfile
 #   2. The /latest/ URLs below never change — GitHub redirects automatically.
 #
 # Replace YOUR_USERNAME and YOUR_REPO below, then leave the URLs as-is forever.
-DB_VERSION_URL  = 'https://github.com/mikeydoes/sakubo/releases/latest/download/db_version.txt'
-DB_DOWNLOAD_URL = 'https://github.com/mikeydoes/sakubo/releases/latest/download/dictionary.db'
+DB_VERSION_URL   = 'https://github.com/mikeydoes/sakubo/releases/latest/download/db_version.txt'
+DB_DOWNLOAD_URL  = 'https://github.com/mikeydoes/sakubo/releases/latest/download/dictionary.db'
+APP_VERSION      = '0.9.7'
+APP_VERSION_URL  = 'https://raw.githubusercontent.com/MikeyDoes/Sakubo/main/app_version.txt'
+APP_DOWNLOAD_URL = 'https://github.com/MikeyDoes/Sakubo/releases/latest'
 
 def simplify_pos(pos: str) -> str:
     if not pos:
@@ -227,7 +262,8 @@ Builder.load_string('''
         spacing: dp(8)
 
         Button:
-            text: root.lesson_title
+            markup: True
+            text: ('[font=fonts/MaterialSymbolsOutlined.ttf]lock[/font]  ' + root.lesson_title) if root.is_locked else root.lesson_title
             font_name: 'fonts/NotoSansJP-Regular.ttf'
             halign: 'left'
             valign: 'center'
@@ -237,8 +273,8 @@ Builder.load_string('''
             size_hint_x: 1.0
             background_normal: ''
             background_down: ''
-            background_color: (0.10, 0.10, 0.12, 1) if root.is_locked else (0.18, 0.20, 0.24, 1)
-            color: (0.40, 0.38, 0.36, 1) if root.is_locked else (0.90, 0.88, 0.85, 1)
+            background_color: (0.16, 0.14, 0.20, 1) if root.is_locked else (0.35, 0.35, 0.38, 1)
+            color: (0.58, 0.55, 0.62, 1) if root.is_locked else (0.90, 0.88, 0.85, 1)
             on_release: root.on_lesson_press()
 
         Button:
@@ -248,8 +284,8 @@ Builder.load_string('''
             font_name: 'fonts/NotoSansJP-Regular.ttf'
             background_normal: ''
             background_down: ''
-            background_color: (0.12, 0.12, 0.14, 1) if root.is_locked else ((0.20, 0.45, 0.25, 1) if root.is_queued else (0.22, 0.22, 0.25, 1))
-            color: (0.35, 0.33, 0.31, 1) if root.is_locked else (0.90, 0.88, 0.85, 1)
+            background_color: (0.16, 0.14, 0.20, 1) if root.is_locked else ((0.20, 0.45, 0.25, 1) if root.is_queued else (0.22, 0.22, 0.25, 1))
+            color: (0.50, 0.48, 0.54, 1) if root.is_locked else (0.90, 0.88, 0.85, 1)
             on_release: root.on_queue_press()
 
     BoxLayout:
@@ -690,11 +726,8 @@ class LessonsScreen(BoxLayout):
             elif view == 'sakubo_reading_level':
                 lv = self._view_payload.get('level', 'n5')
                 self.show_sakubo_reading_level(lv, query=q, record_nav=False)
-            else:
-                # On the main/submenu views, only search when there is actually a query
-                # (guard: clearing search on Back triggers on_text → don't auto-navigate)
-                if q:
-                    self.show_spoonfed_menu(query=q, record_nav=False)
+            # else: on main/submenu/navigation views there is nothing to search;
+            # ignore the input so typing doesn't forcibly navigate to Sakubo Lessons.
         except Exception:
             pass
 
@@ -937,11 +970,10 @@ class LessonsScreen(BoxLayout):
 
     def _show_glossary_popup(self, term: dict):
         """Show a detailed popup for a glossary term."""
-        from kivy.uix.popup import Popup
         from kivy.uix.scrollview import ScrollView
 
         # Approximate available width for text wrapping (88% of window minus padding)
-        avail_w = Window.width * 0.88 - dp(40)
+        avail_w = _app_content_width() * 0.88 - dp(40)
 
         inner = BoxLayout(orientation='vertical', spacing=dp(8), padding=dp(12),
                           size_hint_y=None)
@@ -1088,7 +1120,9 @@ class LessonsScreen(BoxLayout):
         anchor = AnchorLayout(anchor_x='center', anchor_y='top')
         outer = BoxLayout(orientation='vertical', spacing=4, padding=8)
 
-        # Header row (fixed at top)
+        # Header row (fixed at top) — detach from any previous parent first
+        if header_widget.parent is not None:
+            header_widget.parent.remove_widget(header_widget)
         outer.add_widget(header_widget)
 
         if rv_data:
@@ -1126,6 +1160,69 @@ class LessonsScreen(BoxLayout):
                         pass
                 # Wait 2 frames for layout to settle
                 Clock.schedule_once(lambda dt: Clock.schedule_once(_apply_scroll, 0), 0)
+
+    def _build_lesson_group_picker(self, header_widget, rv_data, back_handler,
+                                   no_data_msg, query=''):
+        """Show a group-of-100 picker before the flat lesson list.
+
+        If query is set, or there are ≤100 items, jumps straight to the flat
+        RecycleView.  Otherwise shows labelled group buttons so the user can
+        jump directly to the 100-lesson block they care about.
+        """
+        from kivy.uix.anchorlayout import AnchorLayout
+        from kivy.uix.scrollview import ScrollView
+
+        GROUP_SIZE = 100
+        if query or len(rv_data) <= GROUP_SIZE:
+            self._build_sakubo_lessons_rv(header_widget, rv_data, back_handler,
+                                          no_data_msg)
+            return
+
+        qa = self._get_quick_area()
+        if qa is None:
+            return
+        qa.clear_widgets()
+
+        groups = [rv_data[i:i + GROUP_SIZE]
+                  for i in range(0, len(rv_data), GROUP_SIZE)]
+        if len(groups) > 1 and len(groups[-1]) < GROUP_SIZE:
+            groups[-2] = groups[-2] + groups[-1]
+            groups.pop()
+
+        anchor = AnchorLayout(anchor_x='center', anchor_y='top')
+        outer  = BoxLayout(orientation='vertical', spacing=4, padding=8)
+
+        sv   = ScrollView(do_scroll_x=False)
+        grid = BoxLayout(orientation='vertical', size_hint_y=None, spacing=dp(6))
+        grid.bind(minimum_height=grid.setter('height'))
+
+        def _group_back():
+            self._build_lesson_group_picker(header_widget, rv_data,
+                                            back_handler, no_data_msg, query=query)
+
+        for grp in groups:
+            first_num    = grp[0].get('lesson_num', 0)
+            last_num     = grp[-1].get('lesson_num', first_num)
+            is_last      = (grp is groups[-1])
+            last_display = last_num if is_last else (last_num + 9) // 10 * 10
+            btn = Button(
+                text=f'Lessons {first_num}\u2013{last_display}',
+                size_hint_y=None, height=dp(56),
+                font_name='fonts/NotoSansJP-Regular.ttf',
+                background_normal='', background_down='',
+                background_color=(0.35, 0.35, 0.38, 1),
+                color=(0.90, 0.88, 0.85, 1),
+            )
+            btn.bind(on_release=lambda inst, _grp=grp:
+                     self._build_sakubo_lessons_rv(
+                         header_widget, _grp, _group_back, no_data_msg))
+            grid.add_widget(btn)
+
+        sv.add_widget(grid)
+        outer.add_widget(sv)
+        outer.add_widget(self._make_menu_button('Back', back_handler, height_dp=48))
+        anchor.add_widget(outer)
+        qa.add_widget(anchor)
 
     def show_main_menu(self, record_nav: bool = True):
         # Show two buttons: Sakubo Lessons and Custom Lessons
@@ -1313,7 +1410,6 @@ class LessonsScreen(BoxLayout):
     def show_add_reading_material_popup(self):
         """Show popup to add reading material."""
         try:
-            from kivy.uix.popup import Popup
             from kivy.uix.label import Label
             from kivy.metrics import dp
             
@@ -1362,7 +1458,6 @@ class LessonsScreen(BoxLayout):
     def show_paste_add_screen(self):
         """Show screen for pasting Japanese text."""
         try:
-            from kivy.uix.popup import Popup
             from kivy.uix.textinput import TextInput
             from kivy.uix.label import Label
             from kivy.metrics import dp
@@ -1435,7 +1530,6 @@ class LessonsScreen(BoxLayout):
 
     def _process_pasted_text(self, popup, title: str, text: str):
         """Process pasted Japanese text and save to database."""
-        from kivy.uix.popup import Popup
         from kivy.uix.label import Label
         from kivy.uix.progressbar import ProgressBar
         from kivy.clock import Clock
@@ -1523,7 +1617,6 @@ class LessonsScreen(BoxLayout):
 
     def _show_processing_complete(self, material_id: int):
         """Show completion message with stats."""
-        from kivy.uix.popup import Popup
         from kivy.uix.label import Label
         from reading.db_schema import get_reading_material
         
@@ -1551,7 +1644,6 @@ class LessonsScreen(BoxLayout):
     def _on_import_file(self, popup):
         """Handle Import File button — not yet implemented."""
         popup.dismiss()
-        from kivy.uix.popup import Popup
         from kivy.uix.label import Label
         msg_popup = Popup(
             title='Import File',
@@ -1864,7 +1956,6 @@ class LessonsScreen(BoxLayout):
 
     def _confirm_delete_reading_material(self, material_id: int, material_name: str):
         """Show confirmation popup before deleting a custom reading material."""
-        from kivy.uix.popup import Popup
         from kivy.metrics import dp
         
         content = BoxLayout(orientation='vertical', padding=dp(20), spacing=dp(15))
@@ -1903,6 +1994,10 @@ class LessonsScreen(BoxLayout):
                     self._save_lesson_queue()
                 from kivy.logger import Logger
                 Logger.info(f'Reading: Deleted material {material_id}')
+                try:
+                    app._request_background_sync(reason='reading-delete', apply_on_success=False, min_interval_s=0)
+                except Exception:
+                    pass
             except Exception as e:
                 from kivy.logger import Logger
                 Logger.error(f'Reading: Error deleting material: {e}')
@@ -1919,7 +2014,6 @@ class LessonsScreen(BoxLayout):
 
     def _show_reading_action_menu(self, material_id: int, material_name: str):
         """Show action menu popup for a reading material."""
-        from kivy.uix.popup import Popup
         from kivy.metrics import dp
 
         app = App.get_running_app()
@@ -2015,7 +2109,6 @@ class LessonsScreen(BoxLayout):
     def _pick_lesson_for_reading(self, material_id: int, material_name: str):
         """Show popup to pick a custom lesson to add this reading to.
         Uses the same styled picker as the dictionary 'Add to Custom Lesson'."""
-        from kivy.uix.popup import Popup
         from kivy.uix.scrollview import ScrollView
         from kivy.uix.gridlayout import GridLayout
         from kivy.uix.widget import Widget
@@ -2130,7 +2223,7 @@ class LessonsScreen(BoxLayout):
                        size=lambda i, v: setattr(i._border_line, 'rounded_rectangle', (i.x, i.y, i.width, i.height, dp(4))))
 
         picker_popup = Popup(title='Select Custom Lesson', content=layout,
-                            size_hint=(None, None), size=(min(dp(400), Window.width*0.9), min(dp(500), Window.height*0.7)),
+                            size_hint=(None, None), size=(min(dp(400), _app_content_width() * 0.9), min(dp(500), Window.height*0.7)),
                             auto_dismiss=True)
         close_btn.bind(on_release=lambda *_: picker_popup.dismiss())
         layout.add_widget(close_btn)
@@ -2144,7 +2237,6 @@ class LessonsScreen(BoxLayout):
     def _pick_reading_collection_lessons(self, material_id, material_name, collection_id, parent_popup):
         """Show lessons within a collection for reading assignment."""
         parent_popup.dismiss()
-        from kivy.uix.popup import Popup
         from kivy.uix.scrollview import ScrollView
         from kivy.uix.gridlayout import GridLayout
         from kivy.metrics import dp
@@ -2202,7 +2294,7 @@ class LessonsScreen(BoxLayout):
                        size=lambda i, v: setattr(i._border_line, 'rounded_rectangle', (i.x, i.y, i.width, i.height, dp(4))))
 
         coll_popup = Popup(title='Select Lesson', content=layout,
-                          size_hint=(None, None), size=(min(dp(400), Window.width*0.9), min(dp(500), Window.height*0.7)),
+                          size_hint=(None, None), size=(min(dp(400), _app_content_width() * 0.9), min(dp(500), Window.height*0.7)),
                           auto_dismiss=True)
         close_btn.bind(on_release=lambda *_: coll_popup.dismiss())
         layout.add_widget(close_btn)
@@ -2246,7 +2338,6 @@ class LessonsScreen(BoxLayout):
     def _on_clear_all_reading_materials(self):
         """Show double confirmation and delete all custom reading materials."""
         try:
-            from kivy.uix.popup import Popup
             from kivy.uix.widget import Widget
             from kivy.metrics import dp
             
@@ -2319,6 +2410,11 @@ class LessonsScreen(BoxLayout):
                     try:
                         from reading.db_schema import delete_all_reading_materials
                         count = delete_all_reading_materials(get_db_path())
+                        try:
+                            app = App.get_running_app()
+                            app._request_background_sync(reason='reading-delete-all', apply_on_success=False, min_interval_s=0)
+                        except Exception:
+                            pass
                         from kivy.logger import Logger
                         Logger.info(f'Reading: Deleted all {count} reading materials')
                         popup2.dismiss()
@@ -2362,7 +2458,6 @@ class LessonsScreen(BoxLayout):
             material = get_reading_material(db_path, material_id)
             
             if not material:
-                from kivy.uix.popup import Popup
                 error_popup = Popup(
                     title='Error',
                     content=Label(text='Reading material not found'),
@@ -2934,7 +3029,6 @@ class LessonsScreen(BoxLayout):
         except Exception as e:
             from kivy.logger import Logger
             Logger.error(f'LessonsScreen: Error opening reading material: {e}')
-            from kivy.uix.popup import Popup
             error_popup = Popup(
                 title='Error',
                 content=Label(text=f'Error loading reading material:\n{str(e)}'),
@@ -2948,7 +3042,6 @@ class LessonsScreen(BoxLayout):
             if not paragraph_text or not paragraph_text.strip():
                 return
             
-            from kivy.uix.popup import Popup
             from kivy.uix.label import Label
             from kivy.clock import Clock
             import threading
@@ -2966,11 +3059,28 @@ class LessonsScreen(BoxLayout):
             def translate():
                 from reading.translation import translate_text
                 translation = translate_text(paragraph_text)
-                
+
                 def show_result(dt):
                     loading_popup.dismiss()
-                    self._show_translation_result(paragraph_text, translation)
-                
+                    if translation.startswith('error:'):
+                        from kivy.uix.label import Label as _Lbl
+                        err_detail = translation[6:]
+                        err_popup = Popup(
+                            title='Translation unavailable',
+                            content=_Lbl(
+                                text=err_detail,
+                                font_name='fonts/NotoSansJP-Regular.ttf',
+                                halign='center',
+                                valign='middle',
+                            ),
+                            size_hint=(None, None),
+                            size=(_app_content_width() * 0.85, dp(160)),
+                            auto_dismiss=True,
+                        )
+                        err_popup.open()
+                    else:
+                        self._show_translation_result(paragraph_text, translation)
+
                 Clock.schedule_once(show_result, 0)
             
             thread = threading.Thread(target=translate, daemon=True)
@@ -2982,7 +3092,6 @@ class LessonsScreen(BoxLayout):
 
     def _show_reading_mode_popup(self):
         """Show popup to select reading mode: Reading, Listening, or Dictation."""
-        from kivy.uix.popup import Popup
         from kivy.uix.button import Button
         from kivy.uix.label import Label
         from kivy.metrics import dp
@@ -3763,7 +3872,6 @@ class LessonsScreen(BoxLayout):
                 return
             
             # Show loading popup
-            from kivy.uix.popup import Popup
             from kivy.uix.label import Label
             from kivy.uix.progressbar import ProgressBar
             from kivy.clock import Clock
@@ -3805,7 +3913,6 @@ class LessonsScreen(BoxLayout):
     def _mark_paragraph_read(self, start_pos, end_pos, label, p_tokens):
         """Mark a specific paragraph as read."""
         try:
-            from kivy.uix.popup import Popup
             from kivy.uix.label import Label
             
             # Identify unread words in this paragraph
@@ -3884,7 +3991,6 @@ class LessonsScreen(BoxLayout):
 
     def _confirm_unmark_paragraph(self, start_pos, end_pos, label, p_tokens, button):
         """Show confirmation popup to unmark a paragraph as read."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         from kivy.uix.label import Label
@@ -4028,7 +4134,6 @@ class LessonsScreen(BoxLayout):
             
             if not selected or not selected.strip() or not positions:
                 # No selection - show message
-                from kivy.uix.popup import Popup
                 from kivy.uix.label import Label
                 popup = Popup(
                     title='No Selection',
@@ -4052,7 +4157,6 @@ class LessonsScreen(BoxLayout):
             # Check if this range overlaps with already-read ranges
             for read_start, read_end in read_ranges:
                 if not (end <= read_start or start >= read_end):  # Ranges overlap
-                    from kivy.uix.popup import Popup
                     from kivy.uix.label import Label
                     popup = Popup(
                         title='Already Marked',
@@ -4075,7 +4179,6 @@ class LessonsScreen(BoxLayout):
             word_count = sum(1 for token in tokens if token.get('pos') and 'Symbol' not in token.get('pos', ''))
             
             if word_count == 0:
-                from kivy.uix.popup import Popup
                 from kivy.uix.label import Label
                 popup = Popup(
                     title='No Words',
@@ -4104,7 +4207,6 @@ class LessonsScreen(BoxLayout):
                 self.open_reading_material(material_id)
             
             # Show confirmation
-            from kivy.uix.popup import Popup
             from kivy.uix.label import Label
             popup = Popup(
                 title='Marked as Read',
@@ -4235,7 +4337,6 @@ class LessonsScreen(BoxLayout):
     def _mark_all_as_read(self):
         """Mark all unread words in the current reading as read."""
         try:
-            from kivy.uix.popup import Popup
             from kivy.uix.label import Label
             
             # Check for multiple paragraph labels
@@ -4447,7 +4548,6 @@ class LessonsScreen(BoxLayout):
 
     def _confirm_read_again(self, material_id: int):
         """Show popup confirming re-read will count towards total words read."""
-        from kivy.uix.popup import Popup
         from kivy.metrics import dp
 
         content = BoxLayout(orientation='vertical', spacing=dp(12), padding=dp(16))
@@ -4564,7 +4664,6 @@ class LessonsScreen(BoxLayout):
             
             if not selected or not selected.strip():
                 # No selection - show message
-                from kivy.uix.popup import Popup
                 from kivy.uix.label import Label
                 popup = Popup(
                     title='No Selection',
@@ -4591,7 +4690,6 @@ class LessonsScreen(BoxLayout):
         """Actually perform the translation."""
         try:
             if not selected_text or not selected_text.strip():
-                from kivy.uix.popup import Popup
                 from kivy.uix.label import Label
                 error_popup = Popup(
                     title='No Text',
@@ -4606,7 +4704,6 @@ class LessonsScreen(BoxLayout):
                 input_popup.dismiss()
             
             # Show loading popup
-            from kivy.uix.popup import Popup
             from kivy.uix.label import Label
             from kivy.uix.progressbar import ProgressBar
             from kivy.clock import Clock
@@ -4647,7 +4744,6 @@ class LessonsScreen(BoxLayout):
 
     def _show_translation_result(self, original: str, translation: str):
         """Show translation result popup with clickable words in original text."""
-        from kivy.uix.popup import Popup
         from kivy.uix.label import Label
         from kivy.uix.scrollview import ScrollView
         from kivy.metrics import dp
@@ -4856,7 +4952,6 @@ class LessonsScreen(BoxLayout):
     
     def _show_srs_status_for_word(self, entry_id: int, entry: dict, token: dict, parent_popup=None):
         """Show SRS vector management popup for a word."""
-        from kivy.uix.popup import Popup
         from kivy.uix.label import Label
         from kivy.uix.button import Button
         from kivy.uix.checkbox import CheckBox
@@ -5007,7 +5102,6 @@ class LessonsScreen(BoxLayout):
             
             if already_in_srs:
                 # Show warning popup
-                from kivy.uix.popup import Popup
                 from kivy.uix.label import Label
                 from kivy.uix.button import Button
                 
@@ -5075,7 +5169,6 @@ class LessonsScreen(BoxLayout):
         """Add word to custom lesson."""
         try:
             import dictionary.db as dict_db
-            from kivy.uix.popup import Popup
             from kivy.uix.button import Button
             from kivy.uix.label import Label
             from kivy.uix.scrollview import ScrollView
@@ -5239,7 +5332,7 @@ class LessonsScreen(BoxLayout):
             close_btn.bind(pos=update_close_btn_border, size=update_close_btn_border)
             
             picker_popup = Popup(title='Select Custom Lesson', content=layout, 
-                               size_hint=(None, None), size=(min(dp(400), Window.width*0.9), min(dp(500), Window.height*0.7)))
+                               size_hint=(None, None), size=(min(dp(400), _app_content_width() * 0.9), min(dp(500), Window.height*0.7)))
             close_btn.bind(on_release=lambda *_: picker_popup.dismiss())
             layout.add_widget(close_btn)
             picker_popup.open()
@@ -5256,7 +5349,6 @@ class LessonsScreen(BoxLayout):
         
         try:
             import dictionary.db as dict_db
-            from kivy.uix.popup import Popup
             from kivy.uix.button import Button
             from kivy.uix.label import Label
             from kivy.uix.scrollview import ScrollView
@@ -5353,7 +5445,7 @@ class LessonsScreen(BoxLayout):
             back_btn.bind(pos=update_back_btn_border, size=update_back_btn_border)
             
             coll_popup = Popup(title='Select Lesson', content=layout, 
-                             size_hint=(None, None), size=(min(dp(400), Window.width*0.9), min(dp(500), Window.height*0.7)))
+                             size_hint=(None, None), size=(min(dp(400), _app_content_width() * 0.9), min(dp(500), Window.height*0.7)))
             back_btn.bind(on_release=lambda *_: (coll_popup.dismiss(), self._add_word_to_lesson(entry_id)))
             layout.add_widget(back_btn)
             coll_popup.open()
@@ -5368,7 +5460,6 @@ class LessonsScreen(BoxLayout):
         """Add the entry to the selected custom lesson."""
         try:
             import dictionary.db as dict_db
-            from kivy.uix.popup import Popup
             from kivy.uix.button import Button
             from kivy.uix.label import Label
             
@@ -5402,7 +5493,6 @@ class LessonsScreen(BoxLayout):
 
     def _mark_word_known(self, entry_id: int):
         """Mark word as known — not yet implemented."""
-        from kivy.uix.popup import Popup
         from kivy.uix.label import Label
         popup = Popup(
             title='Mark Known',
@@ -5461,7 +5551,6 @@ class LessonsScreen(BoxLayout):
     def _rename_reading_material(self, material_id: int):
         """Show popup to rename reading material."""
         try:
-            from kivy.uix.popup import Popup
             from kivy.uix.textinput import TextInput
             from kivy.uix.button import Button
             from kivy.metrics import dp
@@ -5536,7 +5625,6 @@ class LessonsScreen(BoxLayout):
             
             new_title = new_title.strip()
             if not new_title:
-                from kivy.uix.popup import Popup
                 from kivy.uix.label import Label
                 error_popup = Popup(
                     title='Error',
@@ -5565,7 +5653,6 @@ class LessonsScreen(BoxLayout):
         except Exception as e:
             from kivy.logger import Logger
             Logger.error(f'LessonsScreen: Error saving renamed reading: {e}')
-            from kivy.uix.popup import Popup
             from kivy.uix.label import Label
             error_popup = Popup(
                 title='Error',
@@ -5577,7 +5664,6 @@ class LessonsScreen(BoxLayout):
     def _lookup_token_in_dictionary(self, token_data, word_label):
         """Look up a token in the dictionary and show popup with options."""
         try:
-            from kivy.uix.popup import Popup
             from kivy.uix.boxlayout import BoxLayout
             from kivy.uix.button import Button
             from kivy.uix.label import Label
@@ -5729,7 +5815,6 @@ class LessonsScreen(BoxLayout):
     def _add_entry_to_lessons(self, entry_id, surface):
         """Add a dictionary entry to user's lessons."""
         try:
-            from kivy.uix.popup import Popup
             from kivy.uix.label import Label
             
             # Add to user's study list
@@ -5960,6 +6045,18 @@ class LessonsScreen(BoxLayout):
                     content.bind(minimum_height=content.setter('height'))
 
                     if readings:
+                        # Compute premium lock threshold for this level
+                        try:
+                            from sync.subscription import has_premium_access as _hpa
+                            _rd_has_premium = _hpa()
+                        except Exception:
+                            _rd_has_premium = True  # fail open
+                        if level == 'n5':
+                            _rd_threshold = 69
+                        else:
+                            _all_lnums = sorted([r.get('lesson_number', 0) for r in readings if r.get('lesson_number')])
+                            _rd_threshold = _all_lnums[4] if len(_all_lnums) >= 5 else (_all_lnums[-1] if _all_lnums else 0)
+
                         g_readings = [r for r in readings if r['_filename'].startswith('G')]
                         s_readings = [r for r in readings if r['_filename'].startswith('S')]
 
@@ -6006,7 +6103,8 @@ class LessonsScreen(BoxLayout):
 
                             for r in filtered:
                                 _sfx = _suffix_map.get(r['_filename'], '')
-                                row = self._make_graded_reading_row(r, _completed, _mat_stats, suffix=_sfx)
+                                _row_locked = (not _rd_has_premium and r.get('lesson_number', 0) > _rd_threshold)
+                                row = self._make_graded_reading_row(r, _completed, _mat_stats, suffix=_sfx, is_locked=_row_locked)
                                 content.add_widget(row)
                     else:
                         placeholder = Label(
@@ -6074,7 +6172,7 @@ class LessonsScreen(BoxLayout):
         label = '(Extra Reading)' if is_supp else '(Reading)'
         return f'Lesson {lesson_num}{suffix}. {label} {title_ja} ({title_en})'
 
-    def _make_graded_reading_row(self, reading: dict, completed: set, mat_stats: dict = None, suffix: str = ''):
+    def _make_graded_reading_row(self, reading: dict, completed: set, mat_stats: dict = None, suffix: str = '', is_locked: bool = False):
         """Build a row for a graded reading, matching Custom Reading row style."""
         from kivy.metrics import dp
         from kivy.uix.label import Label
@@ -6133,14 +6231,20 @@ class LessonsScreen(BoxLayout):
         # Card row: button + action btn
         row = BoxLayout(size_hint_y=None, height=dp(58), spacing=dp(4))
 
-        bg = (0.20, 0.30, 0.22, 1) if is_done else (0.25, 0.25, 0.28, 1)
+        if is_locked:
+            bg = (0.14, 0.14, 0.17, 1)
+        elif is_done:
+            bg = (0.20, 0.30, 0.22, 1)
+        else:
+            bg = (0.25, 0.25, 0.28, 1)
         btn = Button(
             text=collapsed_text,
             markup=True, font_size='15sp',
             size_hint_x=1.0,
             background_normal='', background_color=bg,
             halign='left', valign='top',
-            padding=[16, 8]
+            padding=[16, 8],
+            color=(0.50, 0.48, 0.46, 1) if is_locked else (0.90, 0.88, 0.85, 1),
         )
         btn.bind(size=btn.setter('text_size'))
         btn._collapsed = collapsed_text
@@ -6155,31 +6259,49 @@ class LessonsScreen(BoxLayout):
             if value == 'normal':
                 instance.background_color = _bg
             else:
-                instance.background_color = (0.18, 0.18, 0.20, 1)
+                instance.background_color = (0.12, 0.12, 0.14, 1)
         btn.bind(state=update_btn_color)
 
         filepath = reading['_filepath']
-        btn.bind(on_release=lambda *_, fp=filepath: self.open_graded_reading(fp))
+        if is_locked:
+            btn.bind(on_release=lambda *_: App.get_running_app()._show_handwriting_paywall())
+        else:
+            btn.bind(on_release=lambda *_, fp=filepath: self.open_graded_reading(fp))
         row.add_widget(btn)
 
-        # Action menu button (grey +) pinned to top
+        # Action menu button (lock icon if locked, grey + otherwise) pinned to top
         x_anchor = AnchorLayout(anchor_x='center', anchor_y='top',
                                 size_hint=(None, 1.0), width=dp(44))
-        action_btn = Button(
-            text='+',
-            size_hint=(None, None), width=dp(44), height=dp(44),
-            background_normal='', background_down='',
-            background_color=(0.40, 0.40, 0.42, 1),
-            color=(0.90, 0.88, 0.85, 1),
-            font_size='24sp'
-        )
+        if is_locked:
+            action_btn = Button(
+                text='\ue897',  # lock icon (Material Symbols)
+                size_hint=(None, None), width=dp(44), height=dp(44),
+                background_normal='', background_down='',
+                background_color=(0.14, 0.14, 0.17, 1),
+                color=(0.55, 0.53, 0.50, 1),
+                font_size='20sp'
+            )
+            try:
+                action_btn.font_name = 'fonts/MaterialSymbolsOutlined.ttf'
+            except Exception:
+                pass
+            action_btn.bind(on_release=lambda *_: App.get_running_app()._show_handwriting_paywall())
+        else:
+            action_btn = Button(
+                text='+',
+                size_hint=(None, None), width=dp(44), height=dp(44),
+                background_normal='', background_down='',
+                background_color=(0.40, 0.40, 0.42, 1),
+                color=(0.90, 0.88, 0.85, 1),
+                font_size='24sp'
+            )
 
-        def make_action_handler(fn, tja, ten, fp):
-            def handler(*args):
-                self._show_graded_reading_action_menu(fn, f'{tja} ({ten})', fp)
-            return handler
+            def make_action_handler(fn, tja, ten, fp):
+                def handler(*args):
+                    self._show_graded_reading_action_menu(fn, f'{tja} ({ten})', fp)
+                return handler
 
-        action_btn.bind(on_release=make_action_handler(fname, title_ja, title_en, filepath))
+            action_btn.bind(on_release=make_action_handler(fname, title_ja, title_en, filepath))
         x_anchor.add_widget(action_btn)
         row.add_widget(x_anchor)
 
@@ -6250,7 +6372,6 @@ class LessonsScreen(BoxLayout):
 
     def _show_graded_reading_action_menu(self, filename: str, display_name: str, filepath: str):
         """Show action menu for a graded reading — Add to Queue, Add to Lesson, Close."""
-        from kivy.uix.popup import Popup
         from kivy.metrics import dp
 
         app = App.get_running_app()
@@ -6332,7 +6453,6 @@ class LessonsScreen(BoxLayout):
 
     def _pick_lesson_for_graded_reading(self, filepath: str, display_name: str):
         """Show popup to pick a custom lesson to add this graded reading to."""
-        from kivy.uix.popup import Popup
         from kivy.uix.scrollview import ScrollView
         from kivy.uix.gridlayout import GridLayout
         from kivy.uix.widget import Widget
@@ -6494,7 +6614,7 @@ class LessonsScreen(BoxLayout):
                 # Import via ReadingProcessor
                 from reading.processor import ReadingProcessor
                 processor = ReadingProcessor(get_db_path())
-                material_id = processor.process_text(title, full_text)
+                material_id = processor.process_text(title, full_text, source_type='graded')
                 self._set_graded_material_id(fname, material_id)
 
             # Invalidate mat stats cache so back-nav refreshes with latest progress
@@ -6663,7 +6783,11 @@ class LessonsScreen(BoxLayout):
                 # Collection button
                 collection_btn = Button(
                     text=name,
-                    size_hint_x=1.0
+                    size_hint_x=1.0,
+                    background_normal='', background_down='',
+                    background_color=(0.35, 0.35, 0.38, 1),
+                    color=(0.90, 0.88, 0.85, 1),
+                    font_name='fonts/NotoSansJP-Regular.ttf',
                 )
                 collection_btn.bind(on_release=lambda *_, h=show_handler: h())
                 row.add_widget(collection_btn)
@@ -6988,7 +7112,6 @@ class LessonsScreen(BoxLayout):
 
     def _show_loading_popup(self, message='Please wait...'):
         """Show a modal loading popup. Returns the popup so caller can dismiss it."""
-        from kivy.uix.popup import Popup
         from kivy.uix.label import Label
         lbl = Label(text=message, halign='center', valign='middle')
         lbl.bind(size=lbl.setter('text_size'))
@@ -7139,7 +7262,6 @@ class LessonsScreen(BoxLayout):
 
     def _confirm_queue_action(self, title, message, confirm_label, confirm_color, action_fn):
         """Generic confirmation popup for queue add/remove actions."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         from kivy.uix.label import Label
@@ -7186,7 +7308,6 @@ class LessonsScreen(BoxLayout):
 
     def _confirm_add_all_spoonfed(self):
         """Show confirmation popup before adding all Sakubo lessons to queue."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         from kivy.uix.label import Label
@@ -7388,6 +7509,9 @@ class LessonsScreen(BoxLayout):
                 rv_data = []
                 for num in sorted(level_lessons.keys(), key=lambda x: int(x)):
                     types = level_lessons[num]
+                    _lesson_type = ('vocab' if 'vocab' in types
+                                    else 'grammar' if 'grammar' in types
+                                    else list(types.keys())[0])
                     lesson_path = _norm(types.get('vocab') or types.get('grammar') or list(types.values())[0])
                     try:
                         lesson_data = app._load_lesson_json(lesson_path)
@@ -7415,7 +7539,11 @@ class LessonsScreen(BoxLayout):
                         'in_srs_pct': in_srs_count / total if total > 0 else 0,
                         'unknown_pct': unknown_count / total if total > 0 else 0,
                         'has_progress': total > 0,
-                        'is_locked': not _has_premium and _free_threshold is not None and int(num) > _free_threshold,
+                        'is_locked': (_lesson_type != 'vocab'
+                                      and not _has_premium
+                                      and _free_threshold is not None
+                                      and int(num) > _free_threshold),
+                        'lesson_num': int(num),
                     })
                     # Interleave graded readings for this lesson
                     if has_readings:
@@ -7460,6 +7588,7 @@ class LessonsScreen(BoxLayout):
                                 'unknown_pct': 1.0 - _r_known,
                                 'has_progress': True,
                                 'is_locked': not _has_premium and _free_threshold is not None and _rd.get('lesson_number', 0) > _free_threshold,
+                                'lesson_num': _num_int,
                             })
                 return {
                     'rv_data': rv_data,
@@ -7510,10 +7639,11 @@ class LessonsScreen(BoxLayout):
                     header.add_widget(add_all_btn)
 
                     qa.clear_widgets()
-                    self._build_sakubo_lessons_rv(
+                    self._build_lesson_group_picker(
                         header, rv_data,
                         lambda: self.show_spoonfed_menu(record_nav=False),
-                        f'No {level.upper()} vocabulary lessons found.')
+                        f'No {level.upper()} vocabulary lessons found.',
+                        query=q)
                 except Exception:
                     pass
 
@@ -7941,7 +8071,11 @@ class DictionaryScreen(BoxLayout):
         
         # Only return early for empty query if grammar filter is NOT active
         if not q:
-            if kind != 'grammar':
+            if kind == 'grammar':
+                # Grammar browse: show JLPT level selector (N5 → N1)
+                self._show_grammar_level_selector()
+                return
+            else:
                 self._full_results = []
                 self._results_shown = 0
                 rv = self.results_rv or self.ids.get('results_rv')
@@ -7986,6 +8120,140 @@ class DictionaryScreen(BoxLayout):
         App.get_running_app()._ensure_fts_cached(self._search_conn)
         return self._search_conn
 
+    def _grammar_browse_worker(self, sid):
+        """Load ALL grammar entries in lesson order for the grammar browse view."""
+        import json as _j
+        from pathlib import Path as _P
+        data = []
+        try:
+            conn = self._get_search_conn()
+            idx_file = _P('dictionary/lessons/spoonfed_japanese/index.json')
+            if not idx_file.exists():
+                Clock.schedule_once(lambda dt: self._set_results([], sid), 0)
+                return
+            idx = _j.loads(idx_file.read_text(encoding='utf-8')).get('lessons', {})
+            ordered_eids = []
+            for num in sorted(idx.keys(), key=lambda k: int(k)):
+                lesson_info = idx[num]
+                if 'grammar' not in lesson_info:
+                    continue
+                lpath = _P(lesson_info['grammar'])
+                if not lpath.exists():
+                    continue
+                try:
+                    ld = _j.loads(lpath.read_text(encoding='utf-8'))
+                    for item in ld.get('items', []):
+                        eid = item.get('entry_id')
+                        if eid and eid not in ordered_eids:
+                            ordered_eids.append(eid)
+                except Exception:
+                    pass
+            if not ordered_eids:
+                Clock.schedule_once(lambda dt: self._set_results([], sid), 0)
+                return
+            entries_map = dict_db.get_entries_by_ids(conn, ordered_eids)
+            rows = []
+            for eid in ordered_eids:
+                entry = entries_map.get(eid)
+                if entry:
+                    rows.append((eid, entry.get('kanji'), entry.get('kana'), entry.get('gloss'), entry.get('kind')))
+            data = self._build_result_data(conn, rows)
+        except Exception as e:
+            Logger.error(f'DictionaryScreen: Grammar browse worker error: {e}')
+            data = []
+        Clock.schedule_once(lambda dt: self._set_results(data, sid), 0)
+
+    def _show_grammar_level_selector(self):
+        """Show JLPT grammar level cards (N5 → N1) for the browse-by-level view."""
+        self._grammar_browse_level = None
+        sid = getattr(self, '_search_id', 0) + 1
+        self._search_id = sid
+        levels = [
+            ('N5', 'Foundation — particles, verb forms, basic sentence structure'),
+            ('N4', 'Elementary — て-form, causative, passive, giving & receiving'),
+            ('N3', 'Intermediate — complex conjunctions, keigo intro, nuanced connectors'),
+            ('N2', 'Upper-intermediate — formal writing, literary patterns, nuanced usage'),
+            ('N1', 'Advanced — classical grammar, literary and written expressions'),
+        ]
+        data = [
+            {
+                'viewclass': 'GrammarLevelCard',
+                'level_name': lname,
+                'description': ldesc,
+                'height': dp(80),
+            }
+            for lname, ldesc in levels
+        ]
+        self._full_results = data
+        self._results_shown = len(data)
+        rv = self.results_rv or self.ids.get('results_rv')
+        if rv is not None:
+            rv.data = data
+
+    def browse_grammar_level(self, level_name):
+        """Load all grammar for a specific JLPT level in lesson order."""
+        self._grammar_browse_level = level_name
+        sid = getattr(self, '_search_id', 0) + 1
+        self._search_id = sid
+        th = threading.Thread(
+            target=self._grammar_level_worker, args=(level_name, sid), daemon=True
+        )
+        th.start()
+
+    def _grammar_level_worker(self, level_name, sid):
+        """Background worker: load grammar for one JLPT level in lesson order."""
+        import json as _j
+        from pathlib import Path as _P
+        _RANGES = {
+            'N5': (51, 271),
+            'N4': (272, 482),
+            'N3': (483, 908),
+            'N2': (909, 1361),
+            'N1': (1362, 2093),
+        }
+        lo, hi = _RANGES.get(level_name, (0, 0))
+        data = []
+        try:
+            conn = self._get_search_conn()
+            idx_file = _P('dictionary/lessons/spoonfed_japanese/index.json')
+            if not idx_file.exists():
+                Clock.schedule_once(lambda dt: self._set_results([], sid), 0)
+                return
+            idx = _j.loads(idx_file.read_text(encoding='utf-8')).get('lessons', {})
+            ordered_eids = []
+            for num in sorted(idx.keys(), key=lambda k: int(k)):
+                lesson_info = idx[num]
+                if 'grammar' not in lesson_info or 'vocab' in lesson_info:
+                    continue
+                lpath = _P(lesson_info['grammar'])
+                if not lpath.exists():
+                    continue
+                try:
+                    ld = _j.loads(lpath.read_text(encoding='utf-8'))
+                    lnum = ld.get('lesson_number') or int(num)
+                    if lo <= lnum <= hi:
+                        for item in ld.get('items', []):
+                            eid = item.get('entry_id')
+                            if eid and eid not in ordered_eids:
+                                ordered_eids.append(eid)
+                except Exception:
+                    pass
+            if not ordered_eids:
+                Clock.schedule_once(lambda dt: self._set_results([], sid), 0)
+                return
+            entries_map = dict_db.get_entries_by_ids(conn, ordered_eids)
+            rows = []
+            for eid in ordered_eids:
+                entry = entries_map.get(eid)
+                if entry:
+                    rows.append((eid, entry.get('kanji'), entry.get('kana'), entry.get('gloss'), entry.get('kind')))
+            result_data = self._build_result_data(conn, rows)
+            data = result_data
+        except Exception as e:
+            Logger.error(f'DictionaryScreen: Grammar level worker error: {e}')
+            data = []
+        Clock.schedule_once(lambda dt: self._set_results(data, sid), 0)
+
     def _search_worker(self, q, sid, kind=None):
         """Background worker for dictionary search. Builds display data off-main-thread."""
         data = []
@@ -8021,7 +8289,9 @@ class DictionaryScreen(BoxLayout):
                 # Filter to only SRS entries
                 rows = [r for r in rows if r[0] in srs_entry_ids]
             else:
-                rows = dict_db.search_entries(conn, q, limit=50, kind=kind)
+                # Use larger limit for grammar filter searches (948 total grammar entries)
+                _limit = 1000 if kind == 'grammar' else 50
+                rows = dict_db.search_entries(conn, q, limit=_limit, kind=kind)
             _t2 = _time.perf_counter()
             
             # Build display data entirely in background thread (no main-thread DB)
@@ -8234,12 +8504,16 @@ class DictionaryScreen(BoxLayout):
         results_widget.data = page
 
     def show_more_results(self):
-        """Extend displayed results by one page."""
+        """Extend displayed results by one page, or all items when browsing a grammar level."""
         full = getattr(self, '_full_results', [])
-        self._results_shown = min(
-            getattr(self, '_results_shown', 0) + self._SEARCH_PAGE_SIZE,
-            len(full),
-        )
+        # When inside a specific JLPT level view, reveal all remaining items at once
+        if getattr(self, '_grammar_browse_level', None):
+            self._results_shown = len(full)
+        else:
+            self._results_shown = min(
+                getattr(self, '_results_shown', 0) + self._SEARCH_PAGE_SIZE,
+                len(full),
+            )
         self._update_results_view()
 
     def open_entry(self, entry_id):
@@ -8497,7 +8771,7 @@ class DictionaryScreen(BoxLayout):
             btn.color = (1, 1, 1, 1)
         except Exception:
             pass
-        popup = Popup(title='', content=layout, size_hint=(None, None), size=(min(dp(760), Window.width*0.9), min(dp(560), Window.height*0.85)), auto_dismiss=False)
+        popup = Popup(title='', content=layout, size_hint=(None, None), size=(min(dp(760), _app_content_width() * 0.9), min(dp(560), Window.height*0.85)), auto_dismiss=False)
         btn.bind(on_release=lambda *_: popup.dismiss())
         layout.add_widget(btn)
         popup.open()
@@ -8717,7 +8991,11 @@ class DictionaryScreen(BoxLayout):
         
         # Check if entry is in queue
         is_in_queue = hasattr(app, '_lesson_queue') and entry_id in app._lesson_queue
-        
+
+        # Grammar lock check
+        entry_kind = (entry or {}).get('kind', '')
+        _grammar_locked = (entry_kind == 'grammar' and app._is_grammar_entry_locked(entry_id))
+
         # Check which lessons contain this entry
         lessons_with_entry = []
         try:
@@ -8749,16 +9027,22 @@ class DictionaryScreen(BoxLayout):
         layout.add_widget(srs_btn)
         
         # Add to Queue or Remove from Queue button
-        queue_btn_text = 'Remove from Queue' if is_in_queue else 'Add to Queue'
-        add_queue_btn = Button(text=queue_btn_text, size_hint_y=None, height=dp(48))
+        if _grammar_locked:
+            queue_btn_text = '[font=fonts/MaterialSymbolsOutlined.ttf]lock[/font]  Add to Queue'
+        else:
+            queue_btn_text = 'Remove from Queue' if is_in_queue else 'Add to Queue'
+        add_queue_btn = Button(text=queue_btn_text, markup=True, size_hint_y=None, height=dp(48))
         try:
             add_queue_btn.background_normal = ''
             add_queue_btn.background_down = ''
-            if is_in_queue:
+            if _grammar_locked:
+                add_queue_btn.background_color = (0.22, 0.22, 0.25, 1)
+                add_queue_btn.color = (0.55, 0.53, 0.50, 1)
+            elif is_in_queue:
                 add_queue_btn.background_color = (0.7, 0.3, 0.2, 1)  # Red for remove
             else:
                 add_queue_btn.background_color = (0.07, 0.6, 0.2, 1)  # Green for add
-            add_queue_btn.color = (1, 1, 1, 1)
+            add_queue_btn.color = (1, 1, 1, 1) if not _grammar_locked else (0.55, 0.53, 0.50, 1)
         except Exception:
             pass
         
@@ -8777,10 +9061,12 @@ class DictionaryScreen(BoxLayout):
             pass
         
         popup = Popup(title='Entry Actions', content=layout, size_hint=(None, None), 
-                     size=(min(dp(360), Window.width*0.8), min(dp(300), Window.height*0.45)), 
+                     size=(min(dp(360), _app_content_width() * 0.8), min(dp(300), Window.height*0.45)), 
                      auto_dismiss=True)
         
-        if is_in_queue:
+        if _grammar_locked:
+            add_queue_btn.bind(on_release=lambda *_: (popup.dismiss(), app._show_handwriting_paywall()))
+        elif is_in_queue:
             add_queue_btn.bind(on_release=lambda *_: self._remove_entry_from_queue(entry_id, popup))
         else:
             add_queue_btn.bind(on_release=lambda *_: self._add_entry_to_queue(entry_id, entry, popup))
@@ -8817,7 +9103,14 @@ class DictionaryScreen(BoxLayout):
             Logger.error('Dictionary: Could not get app instance')
             popup.dismiss()
             return
-        
+
+        # Grammar lock safety check
+        if (entry or {}).get('kind') == 'grammar':
+            if app._is_grammar_entry_locked(entry_id):
+                popup.dismiss()
+                app._show_handwriting_paywall()
+                return
+
         # Check if entry already has COMPLETE SRS data (all vectors)
         try:
             conn = dict_db.init_db(get_db_path())
@@ -8977,6 +9270,7 @@ class DictionaryScreen(BoxLayout):
         
         if hasattr(app, '_lesson_queue') and entry_id in app._lesson_queue:
             app._lesson_queue.remove(entry_id)
+            app._save_lesson_queue()
             Logger.info(f'Dictionary: Removed entry {entry_id} from queue')
             
             # Show success message briefly before auto-closing
@@ -9019,7 +9313,6 @@ class DictionaryScreen(BoxLayout):
         
         from kivy.uix.scrollview import ScrollView
         from kivy.uix.gridlayout import GridLayout
-        from kivy.uix.popup import Popup
         
         layout = BoxLayout(orientation='vertical', spacing=dp(8), padding=dp(12))
         
@@ -9070,7 +9363,7 @@ class DictionaryScreen(BoxLayout):
             title='Word in Lessons',
             content=layout,
             size_hint=(None, None),
-            size=(min(dp(360), Window.width*0.8), min(dp(400), Window.height*0.6)),
+            size=(min(dp(360), _app_content_width() * 0.8), min(dp(400), Window.height*0.6)),
             auto_dismiss=True
         )
         close_btn.bind(on_release=lambda *_: existing_popup.dismiss())
@@ -9089,7 +9382,6 @@ class DictionaryScreen(BoxLayout):
             
             if not lessons:
                 # No custom lessons exist
-                from kivy.uix.popup import Popup
                 msg_layout = BoxLayout(orientation='vertical', padding=dp(12), spacing=dp(8))
                 msg_label = Label(text='No custom lessons found.\nCreate one first in the Lessons tab.', halign='center')
                 msg_label.bind(size=msg_label.setter('text_size'))
@@ -9114,7 +9406,6 @@ class DictionaryScreen(BoxLayout):
             # Create scrollable list
             from kivy.uix.scrollview import ScrollView
             from kivy.uix.gridlayout import GridLayout
-            from kivy.uix.popup import Popup
             
             layout = BoxLayout(orientation='vertical', spacing=dp(8), padding=dp(12))
             
@@ -9261,7 +9552,7 @@ class DictionaryScreen(BoxLayout):
             close_btn.bind(pos=update_close_btn_border, size=update_close_btn_border)
             
             picker_popup = Popup(title='Select Custom Lesson', content=layout, 
-                               size_hint=(None, None), size=(min(dp(400), Window.width*0.9), min(dp(500), Window.height*0.7)), 
+                               size_hint=(None, None), size=(min(dp(400), _app_content_width() * 0.9), min(dp(500), Window.height*0.7)), 
                                auto_dismiss=True)
             close_btn.bind(on_release=lambda *_: picker_popup.dismiss())
             layout.add_widget(close_btn)
@@ -9286,7 +9577,6 @@ class DictionaryScreen(BoxLayout):
             collection_lessons = [l for l in all_lessons if l['parent_id'] == collection_id]
             
             if not collection_lessons:
-                from kivy.uix.popup import Popup
                 msg_layout = BoxLayout(orientation='vertical', padding=dp(12), spacing=dp(8))
                 msg_label = Label(text='This collection has no lessons.', halign='center')
                 msg_label.bind(size=msg_label.setter('text_size'))
@@ -9307,7 +9597,6 @@ class DictionaryScreen(BoxLayout):
             # Create scrollable list of lessons in collection
             from kivy.uix.scrollview import ScrollView
             from kivy.uix.gridlayout import GridLayout
-            from kivy.uix.popup import Popup
             
             layout = BoxLayout(orientation='vertical', spacing=dp(8), padding=dp(12))
             
@@ -9382,7 +9671,7 @@ class DictionaryScreen(BoxLayout):
             back_btn.bind(pos=update_back_btn_border, size=update_back_btn_border)
             
             coll_popup = Popup(title='Select Lesson', content=layout, 
-                             size_hint=(None, None), size=(min(dp(400), Window.width*0.9), min(dp(500), Window.height*0.7)), 
+                             size_hint=(None, None), size=(min(dp(400), _app_content_width() * 0.9), min(dp(500), Window.height*0.7)), 
                              auto_dismiss=True)
             back_btn.bind(on_release=lambda *_: (coll_popup.dismiss(), self._show_custom_lesson_picker(entry_id, coll_popup)))
             layout.add_widget(back_btn)
@@ -9914,6 +10203,7 @@ class EntryDetailScreen(BoxLayout):
                 font_size='14sp',
                 color=(0.9, 0.9, 0.9, 1) if app.dark_mode else (0.1, 0.1, 0.1, 1)
             )
+            def_label.font_name = 'fonts/NotoSansJP-Regular.ttf'
             def_label.bind(
                 width=lambda instance, value: setattr(instance, 'text_size', (value, None)),
                 texture_size=lambda instance, value: setattr(instance, 'height', value[1])
@@ -11019,7 +11309,6 @@ class EntryDetailScreen(BoxLayout):
         """Show stroke order diagram for a kanji character."""
         try:
             from app.widgets.stroke_order_widget import StrokeOrderWidget
-            from kivy.uix.popup import Popup
             from kivy.uix.button import Button
             from kivy.uix.boxlayout import BoxLayout
             from kivy.uix.label import Label
@@ -11416,7 +11705,6 @@ class EntryDetailScreen(BoxLayout):
         if source_widget is not None:
             self._flash_opacity(source_widget)
 
-        from kivy.uix.popup import Popup
         from kivy.uix.gridlayout import GridLayout
         import sqlite3
         import dictionary.db as dict_db
@@ -11840,7 +12128,6 @@ class EntryDetailScreen(BoxLayout):
             
             if not lessons:
                 # No custom lessons exist
-                from kivy.uix.popup import Popup
                 msg_layout = BoxLayout(orientation='vertical', padding=dp(12), spacing=dp(8))
                 msg_label = Label(text='No custom lessons found.\\nCreate one first in the Lessons tab.', halign='center')
                 msg_label.bind(size=msg_label.setter('text_size'))
@@ -11865,7 +12152,6 @@ class EntryDetailScreen(BoxLayout):
             # Create scrollable list
             from kivy.uix.scrollview import ScrollView
             from kivy.uix.gridlayout import GridLayout
-            from kivy.uix.popup import Popup
             from kivy.core.window import Window
             
             layout = BoxLayout(orientation='vertical', spacing=dp(8), padding=dp(12))
@@ -11930,7 +12216,7 @@ class EntryDetailScreen(BoxLayout):
                              background_normal='', background_color=(0.22, 0.22, 0.25, 1), color=(0.90, 0.88, 0.85, 1))
             
             picker_popup = Popup(title='Select Custom Lesson', content=layout, 
-                               size_hint=(None, None), size=(min(dp(400), Window.width*0.9), min(dp(500), Window.height*0.7)))
+                               size_hint=(None, None), size=(min(dp(400), _app_content_width() * 0.9), min(dp(500), Window.height*0.7)))
             close_btn.bind(on_release=lambda *_: picker_popup.dismiss())
             layout.add_widget(close_btn)
             picker_popup.open()
@@ -11945,7 +12231,6 @@ class EntryDetailScreen(BoxLayout):
         parent_popup.dismiss()
         
         try:
-            from kivy.uix.popup import Popup
             from kivy.uix.scrollview import ScrollView
             from kivy.uix.gridlayout import GridLayout
             from kivy.core.window import Window
@@ -12000,7 +12285,7 @@ class EntryDetailScreen(BoxLayout):
                              background_normal='', background_color=(0.22, 0.22, 0.25, 1))
             
             picker_popup = Popup(title='Select Custom Lesson', content=layout, 
-                               size_hint=(None, None), size=(min(dp(400), Window.width*0.9), min(dp(500), Window.height*0.7)))
+                               size_hint=(None, None), size=(min(dp(400), _app_content_width() * 0.9), min(dp(500), Window.height*0.7)))
             close_btn.bind(on_release=lambda *_: picker_popup.dismiss())
             layout.add_widget(close_btn)
             picker_popup.open()
@@ -12013,7 +12298,6 @@ class EntryDetailScreen(BoxLayout):
     def _add_entry_to_custom_lesson(self, entry_id, lesson_id, lesson_name, popup):
         """Add the entry to the selected custom lesson."""
         try:
-            from kivy.uix.popup import Popup
             
             conn = dict_db.init_db(get_db_path())
             dict_db.add_item_to_custom_lesson(conn, lesson_id, entry_id)
@@ -12949,11 +13233,17 @@ class EntryDetailScreen(BoxLayout):
         vectors_btn.background_color = (0.35, 0.30, 0.55, 1)  # Purple
         vectors_btn.color = (1, 1, 1, 1)
         
-        # Add to Queue button
+        # Add to Queue button (locked for premium-gated grammar entries)
+        _grammar_locked = (entry_kind == 'grammar' and
+                           App.get_running_app()._is_grammar_entry_locked(entry_id))
         add_queue_btn = Button(text='Add to Queue', size_hint_y=None, height=dp(48))
         add_queue_btn.background_normal = ''
-        add_queue_btn.background_color = (0.07, 0.6, 0.2, 1)
-        add_queue_btn.color = (1, 1, 1, 1)
+        if _grammar_locked:
+            add_queue_btn.background_color = (0.22, 0.22, 0.25, 1)
+            add_queue_btn.color = (0.55, 0.53, 0.50, 1)
+        else:
+            add_queue_btn.background_color = (0.07, 0.6, 0.2, 1)
+            add_queue_btn.color = (1, 1, 1, 1)
         
         # Add to Custom Lesson button
         add_lesson_btn = Button(text='Add to Custom Lesson', size_hint_y=None, height=dp(48))
@@ -12965,14 +13255,17 @@ class EntryDetailScreen(BoxLayout):
             title='Entry Actions',
             content=layout,
             size_hint=(None, None),
-            size=(min(dp(360), Window.width*0.8), min(dp(310), Window.height*0.5)),
+            size=(min(dp(360), _app_content_width() * 0.8), min(dp(310), Window.height*0.5)),
             auto_dismiss=True
         )
         
         vectors_btn.bind(on_release=lambda *_: (popup.dismiss(), self._show_vector_management_popup(entry_id, entry)))
         layout.add_widget(vectors_btn)
         
-        add_queue_btn.bind(on_release=lambda *_: self._add_entry_to_queue(entry_id, entry, popup))
+        if _grammar_locked:
+            add_queue_btn.bind(on_release=lambda *_: (popup.dismiss(), App.get_running_app()._show_handwriting_paywall()))
+        else:
+            add_queue_btn.bind(on_release=lambda *_: self._add_entry_to_queue(entry_id, entry, popup))
         layout.add_widget(add_queue_btn)
         
         add_lesson_btn.bind(on_release=lambda *_: self._show_custom_lesson_picker_detail(entry_id, popup))
@@ -13098,7 +13391,7 @@ class EntryDetailScreen(BoxLayout):
             title='Manage Study Vectors',
             content=main_layout,
             size_hint=(None, None),
-            size=(min(dp(400), Window.width*0.9), min(dp(500), Window.height*0.7)),
+            size=(min(dp(400), _app_content_width() * 0.9), min(dp(500), Window.height*0.7)),
             auto_dismiss=True
         )
         
@@ -13326,7 +13619,7 @@ class EntryDetailScreen(BoxLayout):
             title='Confirm Reset',
             content=confirm_layout,
             size_hint=(None, None),
-            size=(min(dp(360), Window.width*0.85), min(dp(250), Window.height*0.4)),
+            size=(min(dp(360), _app_content_width() * 0.85), min(dp(250), Window.height*0.4)),
             auto_dismiss=False
         )
         
@@ -13477,6 +13770,13 @@ class EntryDetailScreen(BoxLayout):
             popup.dismiss()
             return
         
+        # Grammar lock safety check (belt-and-suspenders: also checked in the popup UI)
+        if (entry or {}).get('kind') == 'grammar':
+            if app._is_grammar_entry_locked(entry_id):
+                popup.dismiss()
+                app._show_handwriting_paywall()
+                return
+        
         # Check if already in queue
         if hasattr(app, '_lesson_queue') and entry_id in app._lesson_queue:
             # Show "Already in Queue" message
@@ -13589,7 +13889,6 @@ class EntryDetailScreen(BoxLayout):
             conn.close()
             
             if not lessons:
-                from kivy.uix.popup import Popup
                 msg_layout = BoxLayout(orientation='vertical', padding=dp(12), spacing=dp(8))
                 msg_label = Label(text='No custom lessons found.\nCreate one first in the Lessons tab.', halign='center')
                 msg_label.bind(size=msg_label.setter('text_size'))
@@ -13612,7 +13911,6 @@ class EntryDetailScreen(BoxLayout):
             
             from kivy.uix.scrollview import ScrollView
             from kivy.uix.gridlayout import GridLayout
-            from kivy.uix.popup import Popup
             
             layout = BoxLayout(orientation='vertical', spacing=dp(8), padding=dp(12))
             
@@ -13750,7 +14048,7 @@ class EntryDetailScreen(BoxLayout):
             close_btn.bind(pos=update_close_btn_border, size=update_close_btn_border)
             
             picker_popup = Popup(title='Select Custom Lesson', content=layout, 
-                               size_hint=(None, None), size=(min(dp(400), Window.width*0.9), min(dp(500), Window.height*0.7)), 
+                               size_hint=(None, None), size=(min(dp(400), _app_content_width() * 0.9), min(dp(500), Window.height*0.7)), 
                                auto_dismiss=True)
             close_btn.bind(on_release=lambda *_: picker_popup.dismiss())
             layout.add_widget(close_btn)
@@ -13774,7 +14072,6 @@ class EntryDetailScreen(BoxLayout):
             collection_lessons = [l for l in all_lessons if l['parent_id'] == collection_id]
             
             if not collection_lessons:
-                from kivy.uix.popup import Popup
                 msg_layout = BoxLayout(orientation='vertical', padding=dp(12), spacing=dp(8))
                 msg_label = Label(text='This collection has no lessons.', halign='center')
                 msg_label.bind(size=msg_label.setter('text_size'))
@@ -13794,7 +14091,6 @@ class EntryDetailScreen(BoxLayout):
             
             from kivy.uix.scrollview import ScrollView
             from kivy.uix.gridlayout import GridLayout
-            from kivy.uix.popup import Popup
             
             layout = BoxLayout(orientation='vertical', spacing=dp(8), padding=dp(12))
             
@@ -13868,7 +14164,7 @@ class EntryDetailScreen(BoxLayout):
             back_btn.bind(pos=update_back_btn_border, size=update_back_btn_border)
             
             coll_popup = Popup(title='Select Lesson', content=layout, 
-                             size_hint=(None, None), size=(min(dp(400), Window.width*0.9), min(dp(500), Window.height*0.7)), 
+                             size_hint=(None, None), size=(min(dp(400), _app_content_width() * 0.9), min(dp(500), Window.height*0.7)), 
                              auto_dismiss=True)
             back_btn.bind(on_release=lambda *_: (coll_popup.dismiss(), self._show_custom_lesson_picker_detail(entry_id, coll_popup)))
             layout.add_widget(back_btn)
@@ -13930,6 +14226,53 @@ class EntryDetailScreen(BoxLayout):
             Logger.error(traceback.format_exc())
 
 
+class DesktopWrapper(FloatLayout):
+    """On desktop: centers a fixed-width KV root within the resizable window.
+    Proxies .ids so all app.root.ids.* lookups work unchanged.
+    """
+    CONTENT_WIDTH = 853
+
+    def __init__(self, kv_root, **kwargs):
+        super().__init__(**kwargs)
+        self._kv_root = kv_root
+        kv_root.size_hint = (None, 1)
+        kv_root.width = self.CONTENT_WIDTH
+        kv_root.pos_hint = {'center_x': 0.5, 'top': 1}
+        self.add_widget(kv_root)
+
+    @property
+    def ids(self):
+        return self._kv_root.ids
+
+
+# On desktop, Kivy Popup sizes are relative to the OS window, which grows when
+# maximized. Patch kivy.uix.popup.Popup at the source so all local imports
+# (from kivy.uix.popup import Popup) also get the desktop-aware subclass.
+if not _IS_ANDROID:
+    _OriginalPopup = Popup
+    class Popup(_OriginalPopup):
+        _CONTENT_W = 853
+        _CONTENT_H = 640
+        def __init__(self, **kwargs):
+            # Expand size_hint tuple into components so we can process each axis
+            if 'size_hint' in kwargs:
+                sh = kwargs.pop('size_hint')
+                kwargs.setdefault('size_hint_x', sh[0])
+                kwargs.setdefault('size_hint_y', sh[1])
+            # Convert proportional x hint to absolute width based on content column
+            shx = kwargs.get('size_hint_x')
+            if shx is not None:
+                kwargs['size_hint_x'] = None
+                kwargs.setdefault('width', self._CONTENT_W * shx)
+            # Convert proportional y hint to absolute height (capped at content height)
+            shy = kwargs.get('size_hint_y')
+            if shy is not None:
+                from kivy.core.window import Window
+                kwargs['size_hint_y'] = None
+                kwargs.setdefault('height', min(Window.height, self._CONTENT_H) * shy)
+            super().__init__(**kwargs)
+
+
 class RootWidget(BoxLayout):
     def on_touch_down(self, touch):
         # Give the global top bar first priority for touches in its area.
@@ -13972,6 +14315,9 @@ class SpoonfedApp(App):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
+        self._configure_desktop_scrolling()
+        self._close_in_progress = False
+        self._close_sync_done = False
         # System TTS is initialized on first use
         self._current_audio = None
         self._audio_temp_file = None
@@ -13990,6 +14336,119 @@ class SpoonfedApp(App):
         self._load_study_settings()
         # Initialize dev mode
         self.dev_mode = False
+
+    def _configure_desktop_scrolling(self):
+        """Apply native-feeling scroll tuning on desktop, especially Windows."""
+        if _IS_ANDROID:
+            return
+        try:
+            import time
+            from kivy.uix.scrollview import ScrollView
+            from kivy.effects.scroll import ScrollEffect
+
+            # Kivy default is 25 px per wheel notch, which feels small on desktop.
+            wheel_lines = 3
+            wheel_page_scroll = False
+            if os.name == 'nt':
+                try:
+                    import ctypes
+                    SPI_GETWHEELSCROLLLINES = 0x0068
+                    lines = ctypes.c_uint(0)
+                    ok = ctypes.windll.user32.SystemParametersInfoW(
+                        SPI_GETWHEELSCROLLLINES, 0, ctypes.byref(lines), 0
+                    )
+                    if ok:
+                        wheel_lines = int(lines.value)
+                        # WHEEL_PAGESCROLL uses UINT_MAX.
+                        if wheel_lines >= 0xFFFFFFFF:
+                            wheel_page_scroll = True
+                            wheel_lines = 3
+                        wheel_lines = max(1, min(wheel_lines, 12))
+                except Exception:
+                    wheel_lines = 3
+
+            # Use deterministic desktop wheel behavior (no kinetic carry-over).
+            ScrollView.scroll_wheel_distance = float(40 * wheel_lines)
+            ScrollView.smooth_scroll_end = None
+            # Desktop should feel like native/web scrolling: no mobile bounce.
+            ScrollView.effect_cls = ScrollEffect
+            ScrollView.always_overscroll = False
+
+            # Kivy's default wheel path still applies touch-like physics in some cases.
+            # Patch wheel handling once to enforce fixed-step Windows-style scrolling.
+            if not getattr(ScrollView, '_desktop_native_wheel_patched', False):
+                _orig_on_touch_down = ScrollView.on_touch_down
+                _last_ts = 0.0
+                _last_dir = 0
+                _burst = 1.0
+
+                def _desktop_native_on_touch_down(self_sv, touch):
+                    nonlocal _last_ts, _last_dir, _burst
+                    btn = getattr(touch, 'button', None)
+                    if btn in ('scrollup', 'scrolldown'):
+                        if not self_sv.collide_point(*touch.pos):
+                            return _orig_on_touch_down(self_sv, touch)
+                        if not self_sv.do_scroll_y:
+                            return _orig_on_touch_down(self_sv, touch)
+
+                        # Some Windows/Kivy stacks report wheel button labels inverted.
+                        # Force the mapping that matches native content movement here.
+                        dir_down = (btn == 'scrollup')
+
+                        now = time.perf_counter()
+                        dt = (now - _last_ts) if _last_ts else 999.0
+                        dir_sign = 1 if dir_down else -1
+
+                        # Ignore tiny opposite-direction flips that happen in the same burst.
+                        if _last_dir != 0 and dir_sign != _last_dir and dt < 0.055:
+                            return True
+
+                        # Fast wheel bursts should move farther, not less.
+                        if dir_sign == _last_dir and dt < 0.11:
+                            _burst = min(4.0, _burst + 0.45)
+                        else:
+                            _burst = 1.0
+                        _last_ts = now
+                        _last_dir = dir_sign
+
+                        viewport = getattr(self_sv, '_viewport', None)
+                        if viewport is None:
+                            return True
+                        scrollable = float(max(0.0, viewport.height - self_sv.height))
+                        if scrollable <= 0.0:
+                            return True
+
+                        # Kill any residual kinetic velocity to prevent bounce or back-jumps.
+                        effect_y = getattr(self_sv, 'effect_y', None)
+                        if effect_y is not None and hasattr(effect_y, 'velocity'):
+                            effect_y.velocity = 0.0
+
+                        # Windows "lines per notch" converted to pixels.
+                        line_px = 22.0
+                        if wheel_page_scroll:
+                            # WHEEL_PAGESCROLL: one near-page per notch.
+                            step_px = max(1.0, self_sv.height * 0.9)
+                        else:
+                            step_px = max(1.0, wheel_lines * line_px * _burst)
+
+                        delta = step_px / scrollable
+                        if dir_down:
+                            self_sv.scroll_y = max(0.0, self_sv.scroll_y - delta)
+                        else:
+                            self_sv.scroll_y = min(1.0, self_sv.scroll_y + delta)
+                        return True
+
+                    return _orig_on_touch_down(self_sv, touch)
+
+                ScrollView.on_touch_down = _desktop_native_on_touch_down
+                ScrollView._desktop_native_wheel_patched = True
+
+            Logger.info(
+                f'UI: desktop scroll tuned (wheel_lines={wheel_lines}, '
+                f'wheel_distance={ScrollView.scroll_wheel_distance})'
+            )
+        except Exception as e:
+            Logger.warning(f'UI: desktop scroll tuning skipped: {e}')
 
     def show_native_input(self, hint_text='', current_text='', callback=None):
         """Show Android's native text input dialog with full IME support.
@@ -14293,19 +14752,10 @@ class SpoonfedApp(App):
     def _load_handwriting_mode_preference(self):
         """Load handwriting mode preferences from settings file."""
         try:
-            import json
-            from dictionary.paths import get_settings_path
-            settings_file = get_settings_path()
-            if os.path.exists(settings_file):
-                with open(settings_file, 'r') as f:
-                    settings = json.load(f)
-                    self.handwriting_mode = settings.get('handwriting_mode', False)
-                    self.handwriting_only_mode = settings.get('handwriting_only_mode', False)
-                    self._remember_my_stuff_position = settings.get('remember_my_stuff_position', False)
-            else:
-                self.handwriting_mode = False
-                self.handwriting_only_mode = False
-                self._remember_my_stuff_position = False
+            settings = self._load_settings_json()
+            self.handwriting_mode = settings.get('handwriting_mode', False)
+            self.handwriting_only_mode = settings.get('handwriting_only_mode', False)
+            self._remember_my_stuff_position = settings.get('remember_my_stuff_position', False)
             # If handwriting is locked (no subscription), force modes off
             from sync.subscription import has_handwriting_access
             if not has_handwriting_access():
@@ -14320,19 +14770,12 @@ class SpoonfedApp(App):
     def _save_handwriting_mode_preference(self):
         """Save handwriting mode preferences to settings file."""
         try:
-            import json
-            from dictionary.paths import get_settings_path
-            settings_file = get_settings_path()
-            settings = {}
-            if os.path.exists(settings_file):
-                with open(settings_file, 'r') as f:
-                    settings = json.load(f)
+            settings = self._load_settings_json()
             settings['handwriting_mode'] = self.handwriting_mode
             settings['handwriting_only_mode'] = self.handwriting_only_mode
             settings['remember_my_stuff_position'] = getattr(self, '_remember_my_stuff_position', False)
             settings['_settings_dirty'] = True
-            with open(settings_file, 'w') as f:
-                json.dump(settings, f, indent=2)
+            self._write_settings_json(settings)
         except Exception as e:
             Logger.error(f'Settings: Error saving handwriting mode preference: {e}')
     
@@ -14374,8 +14817,120 @@ class SpoonfedApp(App):
                 lock.size = (dp(28), dp(28))
                 lock.opacity = 1
 
+    def _build_grammar_lesson_cache(self):
+        """Build a mapping of grammar entry_id → lesson_number from index.json. Cached."""
+        if hasattr(self, '_grammar_lesson_cache'):
+            return self._grammar_lesson_cache
+        cache = {}
+        try:
+            from pathlib import Path
+            import json as _j
+            idx_file = Path('dictionary/lessons/spoonfed_japanese/index.json')
+            if idx_file.exists():
+                idx = _j.loads(idx_file.read_text(encoding='utf-8')).get('lessons', {})
+                for num, lesson_info in idx.items():
+                    if 'grammar' in lesson_info and 'vocab' not in lesson_info:
+                        lpath = Path(lesson_info['grammar'])
+                        if not lpath.exists():
+                            lpath = Path('dictionary') / str(lpath)
+                        if lpath.exists():
+                            try:
+                                ld = _j.loads(lpath.read_text(encoding='utf-8'))
+                                lnum = ld.get('lesson_number') or int(num)
+                                for item in ld.get('items', []):
+                                    eid = item.get('entry_id')
+                                    if eid:
+                                        cache[eid] = lnum
+                            except Exception:
+                                pass
+        except Exception:
+            pass
+        self._grammar_lesson_cache = cache
+        return cache
+
+    def _is_grammar_entry_locked(self, entry_id) -> bool:
+        """Return True if this grammar entry's lesson requires premium access."""
+        try:
+            from sync.subscription import has_premium_access
+            if has_premium_access():
+                return False
+            cache = self._build_grammar_lesson_cache()
+            lesson_num = cache.get(int(entry_id))
+            if lesson_num is None:
+                return False  # unknown → allow
+            if lesson_num <= 50:
+                return False  # kana range, always free
+            elif 51 <= lesson_num <= 271:  # N5
+                return lesson_num > 69
+            elif 272 <= lesson_num <= 482:  # N4
+                _n4_keys = sorted(set(k for k in cache.values() if 272 <= k <= 482))
+                thresh = _n4_keys[4] if len(_n4_keys) >= 5 else (_n4_keys[-1] if _n4_keys else 272)
+                return lesson_num > thresh
+            elif 483 <= lesson_num <= 908:  # N3
+                _n3_keys = sorted(set(k for k in cache.values() if 483 <= k <= 908))
+                thresh = _n3_keys[4] if len(_n3_keys) >= 5 else (_n3_keys[-1] if _n3_keys else 483)
+                return lesson_num > thresh
+            elif 909 <= lesson_num <= 1361:  # N2
+                _n2_keys = sorted(set(k for k in cache.values() if 909 <= k <= 1361))
+                thresh = _n2_keys[4] if len(_n2_keys) >= 5 else (_n2_keys[-1] if _n2_keys else 909)
+                return lesson_num > thresh
+            else:  # N1
+                _n1_keys = sorted(set(k for k in cache.values() if k >= 1362))
+                thresh = _n1_keys[4] if len(_n1_keys) >= 5 else (_n1_keys[-1] if _n1_keys else 1362)
+                return lesson_num > thresh
+        except Exception:
+            return False
+
+    def _show_locked_items_notice(self, count: int):
+        """Show a brief popup informing the user that some items were skipped due to lock."""
+        from kivy.uix.boxlayout import BoxLayout
+        from kivy.uix.label import Label
+        from kivy.uix.button import Button
+        from kivy.metrics import dp
+        content = BoxLayout(orientation='vertical', spacing=dp(10), padding=dp(12))
+        content.add_widget(Label(
+            text=(
+                f'{count} item{"s were" if count != 1 else " was"} not added because\n'
+                'they require the full version.'
+            ),
+            halign='center', valign='middle',
+            size_hint_y=None, height=dp(64),
+        ))
+        ok_btn = Button(text='OK', size_hint_y=None, height=dp(44),
+                        background_normal='', background_color=(0.22, 0.22, 0.25, 1),
+                        color=(1, 1, 1, 1))
+        upgrade_btn = Button(text='Upgrade', size_hint_y=None, height=dp(44),
+                             background_normal='', background_color=(0.18, 0.55, 0.95, 1),
+                             color=(1, 1, 1, 1))
+        btn_row = BoxLayout(size_hint_y=None, height=dp(44), spacing=dp(8))
+        btn_row.add_widget(ok_btn)
+        btn_row.add_widget(upgrade_btn)
+        content.add_widget(btn_row)
+        popup = Popup(
+            title='Some Items Require Full Version',
+            content=content,
+            size_hint=(0.82, None), height=dp(200),
+            auto_dismiss=True,
+        )
+        ok_btn.bind(on_release=popup.dismiss)
+        def _on_upgrade(*_):
+            popup.dismiss()
+            self._show_handwriting_paywall()
+        upgrade_btn.bind(on_release=_on_upgrade)
+        popup.open()
+
     def _show_handwriting_paywall(self):
-        """Show the upgrade popup for handwriting access."""
+        """Show the upgrade popup for handwriting access.
+
+        Routes to the status screen if the user already has an active paid plan,
+        so they see their subscription info instead of purchase options.
+        """
+        from sync.subscription import get_status, PLAN_LIFETIME, PLAN_MONTHLY
+        _cur = get_status()
+        if _cur.get('plan') in (PLAN_LIFETIME, PLAN_MONTHLY):
+            self._show_subscription_status_screen()
+            return
+
         from kivy.uix.modalview import ModalView
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.label import Label
@@ -14392,7 +14947,7 @@ class SpoonfedApp(App):
         GREEN = (0.20, 0.45, 0.25, 1)
 
         modal = ModalView(
-            size_hint=(0.92, None), height=dp(480),
+            size_hint=(None, None), width=_app_content_width() * 0.92, height=dp(480),
             auto_dismiss=True,
             background_color=(0, 0, 0, 0),
         )
@@ -14422,15 +14977,36 @@ class SpoonfedApp(App):
 
         root.add_widget(Widget(size_hint_y=None, height=dp(4)))
 
-        # Description
-        desc = Label(
-            text='Unlock all lessons, levels,\nand handwriting practice.',
-            font_name=FONT, font_size=sp(14),
-            color=(0.72, 0.70, 0.67, 1), size_hint_y=None, height=dp(38),
-            halign='center', valign='middle',
-        )
-        desc.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
-        root.add_widget(desc)
+        # Trial status banner — shown only when user is in an active trial
+        from sync.subscription import PLAN_TRIAL
+        _trial_status = _cur  # already fetched before the early-return check
+        if _trial_status.get('plan') == PLAN_TRIAL:
+            _trial_exp = _trial_status.get('trial_expires_at', '')
+            try:
+                from datetime import datetime, timezone
+                _dt = datetime.fromisoformat(_trial_exp.replace('Z', '+00:00'))
+                _trial_date_str = _dt.strftime('%b %d, %Y')
+            except Exception:
+                _trial_date_str = '?'
+            trial_banner = Label(
+                text=f'Trial active until {_trial_date_str} — upgrade below to keep access.',
+                font_name=FONT, font_size=sp(12),
+                color=(0.55, 0.85, 0.60, 1),
+                size_hint_y=None, height=dp(24),
+                halign='center', valign='middle',
+            )
+            trial_banner.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+            root.add_widget(trial_banner)
+        else:
+            # Description only shown when not in trial
+            desc = Label(
+                text='Unlock all lessons, levels,\nand handwriting practice.',
+                font_name=FONT, font_size=sp(14),
+                color=(0.72, 0.70, 0.67, 1), size_hint_y=None, height=dp(38),
+                halign='center', valign='middle',
+            )
+            desc.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+            root.add_widget(desc)
 
         root.add_widget(Widget(size_hint_y=None, height=dp(2)))
 
@@ -14456,6 +15032,11 @@ class SpoonfedApp(App):
                 return True
             return False
 
+        _STRIPE_LINKS = {
+            'monthly':  'https://buy.stripe.com/dRmaEQ0SA3Qo82l5sA00000',
+            'lifetime': 'https://buy.stripe.com/3cI8wI6cUcmUeqJ2go00001',
+        }
+
         def _launch_purchase(plan_type):
             from sync import supabase_client as sb
             if not sb.is_logged_in():
@@ -14463,9 +15044,40 @@ class SpoonfedApp(App):
                 status_lbl.color = (1, 0.4, 0.4, 1)
                 status_lbl.text = 'Sign in first to make a purchase.'
                 return
+
+            if not _IS_ANDROID:
+                # Windows: open Stripe Checkout in system browser
+                import webbrowser
+                url = _STRIPE_LINKS[plan_type]
+                uid   = sb.get_user_id()
+                email = sb.get_user_email() or ''
+                if uid:
+                    url += f'?client_reference_id={uid}'
+                    if email:
+                        url += f'&prefilled_email={email}'
+                webbrowser.open(url)
+                status_lbl.height = dp(20)
+                status_lbl.color  = (0.7, 0.7, 0.7, 1)
+                status_lbl.text   = 'Complete payment in browser, then tap below.'
+                check_btn.height  = dp(44)
+                check_btn.opacity = 1
+                check_btn.disabled = False
+                root.height = dp(490)
+                return
+
             status_lbl.height = dp(20)
             status_lbl.color = (0.7, 0.7, 0.7, 1)
             status_lbl.text = 'Connecting to Google Play...'
+
+            # JNI FindClass() uses bootstrap classloader on native-spawned threads.
+            # Pre-load BillingBridge on the main thread so pyjnius caches it; bg()
+            # then gets the cached class without needing FindClass() again.
+            if _IS_ANDROID:
+                try:
+                    from jnius import autoclass as _bb_prewarm
+                    _bb_prewarm('com.sakubo.BillingBridge')
+                except Exception as _bb_e:
+                    Logger.warning('Billing: prewarm failed: %s' % _bb_e)
 
             def bg():
                 try:
@@ -14491,7 +15103,8 @@ class SpoonfedApp(App):
                         result, plan_type), 0)
                 except Exception as e:
                     from kivy.clock import Clock
-                    Clock.schedule_once(lambda dt: _purchase_error(str(e)), 0)
+                    err_msg = str(e)
+                    Clock.schedule_once(lambda dt, m=err_msg: _purchase_error(m), 0)
 
             threading.Thread(target=bg, daemon=True).start()
 
@@ -14517,7 +15130,9 @@ class SpoonfedApp(App):
         def _purchase_error(msg):
             status_lbl.height = dp(20)
             status_lbl.color = (1, 0.4, 0.4, 1)
-            status_lbl.text = 'Purchase failed. Try again later.'
+            # Show the actual error (truncated) so it's diagnosable on-device
+            short = str(msg)[:80]
+            status_lbl.text = short
             Logger.warning('Billing: %s' % msg)
 
         # Monthly card — centered content, tappable
@@ -14572,28 +15187,12 @@ class SpoonfedApp(App):
 
         # Free trial section
         trial_lbl = Label(
-            text='Start 7-day free trial', font_name=FONT, font_size=sp(14),
-            color=(0.82, 0.80, 0.77, 1), halign='left',
+            text='7 Day Free Trial', font_name=FONT, font_size=sp(14),
+            color=(0.82, 0.80, 0.77, 1), halign='center',
             size_hint_y=None, height=dp(24),
         )
         trial_lbl.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
         root.add_widget(trial_lbl)
-
-        # Auto-renew checkbox
-        renew_row = BoxLayout(size_hint_y=None, height=dp(42), spacing=dp(6))
-        renew_cb = CheckBox(
-            active=False, size_hint=(None, None), size=(dp(42), dp(42)),
-            color=(0.5, 0.65, 0.9, 1),
-        )
-        renew_lbl = Label(
-            text='Auto-renew after trial ($5.99/mo)',
-            font_name=FONT, font_size=sp(12),
-            color=(0.55, 0.53, 0.50, 1), halign='left', valign='middle',
-        )
-        renew_lbl.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
-        renew_row.add_widget(renew_cb)
-        renew_row.add_widget(renew_lbl)
-        root.add_widget(renew_row)
 
         # Status label (for errors/success) — zero height when empty
         status_lbl = Label(
@@ -14602,7 +15201,39 @@ class SpoonfedApp(App):
             halign='center',
         )
         status_lbl.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+        # Check payment button (Windows/Stripe — hidden until purchase link opened)
+        check_btn = Button(
+            text='I Completed Payment — Check Status',
+            font_name=FONT, font_size=sp(13),
+            size_hint_y=None, height=dp(0), opacity=0,
+            background_normal='', background_color=(0.20, 0.45, 0.25, 1),
+            color=(1, 1, 1, 1), disabled=True,
+        )
+
+        def _check_stripe_payment(*_):
+            check_btn.disabled = True
+            status_lbl.height = dp(20)
+            status_lbl.color = (0.7, 0.7, 0.7, 1)
+            status_lbl.text = 'Checking…'
+            def bg():
+                from sync.subscription import refresh_status, has_premium_access
+                refresh_status()
+                def ui(dt):
+                    if has_premium_access():
+                        status_lbl.color = (0.3, 0.9, 0.4, 1)
+                        status_lbl.text = 'Purchase confirmed! Features unlocked.'
+                        Clock.schedule_once(lambda dt2: modal.dismiss(), 1.5)
+                    else:
+                        check_btn.disabled = False
+                        status_lbl.color = (1, 0.4, 0.4, 1)
+                        status_lbl.text = 'Payment not found yet. Try again after completing.'
+                Clock.schedule_once(ui, 0)
+            threading.Thread(target=bg, daemon=True).start()
+
+        check_btn.bind(on_release=_check_stripe_payment)
+
         root.add_widget(status_lbl)
+        root.add_widget(check_btn)
 
         # Buttons
         trial_btn = Button(
@@ -14627,11 +15258,10 @@ class SpoonfedApp(App):
                 return
             trial_btn.disabled = True
             trial_btn.text = 'Starting…'
-            auto_renew = renew_cb.active
 
             def bg():
                 from sync.subscription import start_trial
-                result = start_trial(auto_renew=auto_renew)
+                result = start_trial(auto_renew=False)
                 from kivy.clock import Clock
                 def ui(dt):
                     if result['ok']:
@@ -14653,6 +15283,435 @@ class SpoonfedApp(App):
 
         root.add_widget(trial_btn)
         root.add_widget(close_btn)
+
+        outer.add_widget(root)
+        modal.add_widget(outer)
+        modal.open()
+
+    def _show_subscription_status_screen(self):
+        """Show subscription status/management for users who already have premium."""
+        from kivy.uix.modalview import ModalView
+        from kivy.uix.boxlayout import BoxLayout
+        from kivy.uix.anchorlayout import AnchorLayout
+        from kivy.uix.label import Label
+        from kivy.uix.button import Button
+        from kivy.uix.widget import Widget
+        from kivy.metrics import dp, sp
+        from kivy.graphics import Color, Rectangle, RoundedRectangle
+        from kivy.clock import Clock
+        import threading
+
+        FONT = 'fonts/NotoSansJP-Regular.ttf'
+        BG   = (0.09, 0.09, 0.11, 1)
+
+        modal = ModalView(
+            size_hint=(None, None), width=_app_content_width() * 0.92, height=dp(300),
+            auto_dismiss=True,
+            background_color=(0, 0, 0, 0),
+        )
+
+        outer = AnchorLayout(anchor_x='center', anchor_y='center')
+        with outer.canvas.before:
+            Color(*BG)
+            outer._bg = Rectangle(size=outer.size, pos=outer.pos)
+        outer.bind(
+            size=lambda w, v: setattr(w._bg, 'size', v),
+            pos=lambda w, v: setattr(w._bg, 'pos', v),
+        )
+
+        root = BoxLayout(
+            orientation='vertical', padding=(dp(24), dp(16)),
+            spacing=dp(10), size_hint_y=None, height=dp(260),
+        )
+
+        from sync.subscription import (
+            get_status, refresh_status, PLAN_LIFETIME, PLAN_MONTHLY,
+            cancel_stripe_subscription, reactivate_stripe_subscription,
+        )
+
+        # Mutable container so nested closures can update msg_lbl reference
+        _lbl = [None]
+
+        def _fmt_date(iso_str):
+            try:
+                from datetime import datetime, timezone
+                dt = datetime.fromisoformat(iso_str.replace('Z', '+00:00'))
+                return dt.strftime('%b %d, %Y')
+            except Exception:
+                return (iso_str or '?')[:10]
+
+        def _days_remaining(iso_str):
+            try:
+                from datetime import datetime, timezone
+                dt = datetime.fromisoformat(iso_str.replace('Z', '+00:00'))
+                d = (dt - datetime.now(timezone.utc)).days
+                return max(0, d)
+            except Exception:
+                return None
+
+        def _make_status_card(bg_color):
+            card = AnchorLayout(
+                anchor_x='center', anchor_y='center',
+                size_hint_y=None, height=dp(72),
+            )
+            with card.canvas.before:
+                Color(*bg_color)
+                card._bg = RoundedRectangle(size=card.size, pos=card.pos, radius=[dp(10)])
+            card.bind(
+                size=lambda w, v: setattr(w._bg, 'size', v),
+                pos=lambda w, v: setattr(w._bg, 'pos', v),
+            )
+            return card
+
+        def _build_content(status):
+            """Rebuild the root layout to reflect current status."""
+            root.clear_widgets()
+
+            plan           = status.get('plan', 'none')
+            expires_at     = status.get('expires_at')
+            auto_renew     = status.get('auto_renew', False)
+            purchase_token = status.get('purchase_token', '') or ''
+
+            # Title
+            title_lbl = Label(
+                text='Sakubo Japanese', font_name=FONT, font_size=sp(17), bold=True,
+                color=(0.95, 0.93, 0.90, 1), size_hint_y=None, height=dp(26),
+                halign='center', valign='middle',
+            )
+            title_lbl.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+            root.add_widget(title_lbl)
+
+            is_stripe_sub = purchase_token.startswith('sub_')
+
+            if plan == PLAN_LIFETIME:
+                card = _make_status_card((0.10, 0.26, 0.13, 1))
+                inner = BoxLayout(orientation='vertical', spacing=dp(2),
+                                  size_hint=(None, None), width=dp(260), height=dp(52))
+                inner.add_widget(Label(
+                    text='✓  Full Access — Lifetime',
+                    font_name=FONT, font_size=sp(15), bold=True,
+                    color=(0.40, 0.95, 0.50, 1),
+                    size_hint_y=None, height=dp(28), halign='center',
+                ))
+                inner.add_widget(Label(
+                    text='Permanent access to all Sakubo Japanese features',
+                    font_name=FONT, font_size=sp(11),
+                    color=(0.58, 0.88, 0.65, 1),
+                    size_hint_y=None, height=dp(18), halign='center',
+                ))
+                card.add_widget(inner)
+                root.add_widget(card)
+                root.add_widget(Widget(size_hint_y=None, height=dp(4)))
+
+            elif plan == PLAN_MONTHLY:
+                if auto_renew:
+                    # Active — will auto-renew
+                    renew_str = _fmt_date(expires_at) if expires_at else None
+                    _days = _days_remaining(expires_at) if expires_at else None
+                    _d_str = (f'{_days} day{"s" if _days != 1 else ""} left · ' if _days is not None else '')
+                    card = _make_status_card((0.09, 0.18, 0.36, 1))
+                    inner = BoxLayout(orientation='vertical', spacing=dp(2),
+                                      size_hint=(None, None), width=dp(260), height=dp(52))
+                    inner.add_widget(Label(
+                        text='✓  Full Access — Monthly',
+                        font_name=FONT, font_size=sp(15), bold=True,
+                        color=(0.40, 0.72, 1.0, 1),
+                        size_hint_y=None, height=dp(28), halign='center',
+                    ))
+                    inner.add_widget(Label(
+                        text=f'{_d_str}Renews {renew_str}' if renew_str else 'Active',
+                        font_name=FONT, font_size=sp(11),
+                        color=(0.60, 0.80, 1.0, 1),
+                        size_hint_y=None, height=dp(18), halign='center',
+                    ))
+                    card.add_widget(inner)
+                    root.add_widget(card)
+
+                    # Cancellation row: behaviour depends on subscription platform × current device
+                    if is_stripe_sub and not _IS_ANDROID:
+                        # PC + Stripe subscription → in-app cancel via API
+                        cancel_lbl = Label(
+                            text='Cancel subscription',
+                            font_name=FONT, font_size=sp(12),
+                            color=(0.68, 0.32, 0.32, 1),
+                            size_hint_y=None, height=dp(26), halign='center',
+                        )
+                        cancel_lbl.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+                        cancel_lbl.bind(on_touch_down=lambda w, t: (
+                            _show_cancel_confirm(renew_str) if w.collide_point(*t.pos) else None
+                        ))
+                        root.add_widget(cancel_lbl)
+                    elif not is_stripe_sub and _IS_ANDROID:
+                        # Android + Google Play subscription → open Play Store subscriptions
+                        gp_btn = Button(
+                            text='Cancel in Google Play',
+                            font_name=FONT, font_size=sp(12),
+                            size_hint_y=None, height=dp(36),
+                            background_normal='',
+                            background_color=(0.18, 0.18, 0.22, 1),
+                            color=(0.60, 0.75, 0.95, 1),
+                        )
+                        gp_btn.bind(on_release=lambda *_: _open_play_subscriptions())
+                        root.add_widget(gp_btn)
+                    elif is_stripe_sub and _IS_ANDROID:
+                        # Subscribed on PC, viewing on Android
+                        note_lbl = Label(
+                            text='Subscribed on desktop \u2014 to cancel, open the app on your PC',
+                            font_name=FONT, font_size=sp(11),
+                            color=(0.62, 0.62, 0.62, 1),
+                            size_hint_y=None, height=dp(26), halign='center',
+                        )
+                        note_lbl.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+                        root.add_widget(note_lbl)
+                    else:
+                        # Subscribed on Android, viewing on PC
+                        note_lbl = Label(
+                            text='Subscribed via Android \u2014 to cancel, open Google Play \u2192 Subscriptions',
+                            font_name=FONT, font_size=sp(11),
+                            color=(0.62, 0.62, 0.62, 1),
+                            size_hint_y=None, height=dp(26), halign='center',
+                        )
+                        note_lbl.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+                        root.add_widget(note_lbl)
+                else:
+                    # Cancelled — access until expiry
+                    end_str = _fmt_date(expires_at) if expires_at else None
+                    _days = _days_remaining(expires_at) if expires_at else None
+                    _d_sub = (f'{_days} day{"s" if _days != 1 else ""} remaining' if _days is not None else 'Subscription cancelled')
+                    card = _make_status_card((0.28, 0.22, 0.08, 1))
+                    inner = BoxLayout(orientation='vertical', spacing=dp(2),
+                                      size_hint=(None, None), width=dp(260), height=dp(52))
+                    inner.add_widget(Label(
+                        text=f'Access Until {end_str}' if end_str else 'Subscription Cancelled',
+                        font_name=FONT, font_size=sp(15), bold=True,
+                        color=(1.0, 0.82, 0.28, 1),
+                        size_hint_y=None, height=dp(28), halign='center',
+                    ))
+                    inner.add_widget(Label(
+                        text=_d_sub,
+                        font_name=FONT, font_size=sp(11),
+                        color=(0.90, 0.78, 0.45, 1),
+                        size_hint_y=None, height=dp(18), halign='center',
+                    ))
+                    card.add_widget(inner)
+                    root.add_widget(card)
+                    root.add_widget(Widget(size_hint_y=None, height=dp(4)))
+
+                    # Resubscribe row: depends on subscription platform × current device
+                    if is_stripe_sub and not _IS_ANDROID:
+                        # PC + Stripe: offer in-app reactivation
+                        resub_btn = Button(
+                            text='Resubscribe',
+                            font_name=FONT, font_size=sp(12),
+                            size_hint_y=None, height=dp(36),
+                            background_normal='',
+                            background_color=(0.18, 0.40, 0.18, 1),
+                            color=(0.55, 0.90, 0.55, 1),
+                        )
+                        resub_btn.bind(on_release=lambda *_: _show_resubscribe_confirm())
+                        root.add_widget(resub_btn)
+                    elif not is_stripe_sub and _IS_ANDROID:
+                        # Android + Google Play: open Play Store subscriptions page
+                        gp_btn = Button(
+                            text='Resubscribe on Google Play',
+                            font_name=FONT, font_size=sp(12),
+                            size_hint_y=None, height=dp(36),
+                            background_normal='',
+                            background_color=(0.18, 0.18, 0.22, 1),
+                            color=(0.60, 0.75, 0.95, 1),
+                        )
+                        gp_btn.bind(on_release=lambda *_: _open_play_subscriptions())
+                        root.add_widget(gp_btn)
+                    elif is_stripe_sub and _IS_ANDROID:
+                        note_lbl = Label(
+                            text='Subscribed on desktop \u2014 to resubscribe, open the app on your PC',
+                            font_name=FONT, font_size=sp(11),
+                            color=(0.62, 0.62, 0.62, 1),
+                            size_hint_y=None, height=dp(26), halign='center',
+                        )
+                        note_lbl.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+                        root.add_widget(note_lbl)
+                    else:
+                        note_lbl = Label(
+                            text='Subscribed via Android \u2014 to resubscribe, open Google Play \u2192 Subscriptions',
+                            font_name=FONT, font_size=sp(11),
+                            color=(0.62, 0.62, 0.62, 1),
+                            size_hint_y=None, height=dp(26), halign='center',
+                        )
+                        note_lbl.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+                        root.add_widget(note_lbl)
+
+            # Status message label (errors / loading)
+            msg_lbl = Label(
+                text='', font_name=FONT, font_size=sp(12),
+                color=(1, 0.4, 0.4, 1), size_hint_y=None, height=dp(0),
+                halign='center',
+            )
+            msg_lbl.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+            root.add_widget(msg_lbl)
+            _lbl[0] = msg_lbl
+
+            root.add_widget(Widget(size_hint=(1, 1)))
+
+            close_btn = Button(
+                text='Close', font_name=FONT, font_size=sp(14),
+                size_hint_y=None, height=dp(40),
+                background_normal='', background_color=(0.22, 0.22, 0.25, 1),
+                color=(0.72, 0.70, 0.67, 1),
+            )
+            close_btn.bind(on_release=lambda *_: modal.dismiss())
+            root.add_widget(close_btn)
+
+        def _open_play_subscriptions():
+            import webbrowser
+            webbrowser.open(
+                'https://play.google.com/store/account/subscriptions'
+                '?sku=sakubo_monthly&package=com.sakubo.sakubo'
+            )
+
+        def _show_resubscribe_confirm():
+            content = BoxLayout(orientation='vertical', spacing=dp(8), padding=dp(16))
+            content.add_widget(Label(
+                text='Resubscribe?\n\nYour subscription will resume\nauto-renewal at the next billing date.',
+                font_name=FONT, font_size=sp(13),
+                color=(0.90, 0.88, 0.85, 1),
+                halign='center', valign='middle',
+                size_hint_y=None, height=dp(88),
+            ))
+            btn_row = BoxLayout(size_hint_y=None, height=dp(44), spacing=dp(8))
+            no_btn = Button(
+                text='Not Now',
+                font_name=FONT, font_size=sp(13),
+                background_normal='', background_color=(0.22, 0.22, 0.25, 1),
+                color=(0.72, 0.70, 0.67, 1),
+            )
+            yes_btn = Button(
+                text='Yes, Resubscribe',
+                font_name=FONT, font_size=sp(13),
+                background_normal='', background_color=(0.18, 0.40, 0.18, 1),
+                color=(0.55, 0.90, 0.55, 1),
+            )
+            btn_row.add_widget(no_btn)
+            btn_row.add_widget(yes_btn)
+            content.add_widget(btn_row)
+            confirm = Popup(
+                title='Resubscribe',
+                content=content,
+                size_hint=(0.88, None), height=dp(220),
+                auto_dismiss=True,
+            )
+            no_btn.bind(on_release=confirm.dismiss)
+
+            def _do_reactivate(*_):
+                confirm.dismiss()
+                _call_reactivate_api()
+
+            yes_btn.bind(on_release=_do_reactivate)
+            confirm.open()
+
+        def _call_reactivate_api():
+            ml = _lbl[0]
+            if ml:
+                ml.height = dp(20)
+                ml.color  = (0.7, 0.7, 0.7, 1)
+                ml.text   = 'Resubscribing…'
+
+            def bg():
+                result = reactivate_stripe_subscription()
+
+                def ui(dt):
+                    if result.get('ok'):
+                        new_status = refresh_status()
+                        _build_content(new_status)
+                    else:
+                        ml2 = _lbl[0]
+                        if ml2:
+                            ml2.height = dp(20)
+                            ml2.color  = (1, 0.4, 0.4, 1)
+                            ml2.text   = result.get('error', 'Resubscription failed.')[:60]
+
+                Clock.schedule_once(ui, 0)
+
+            threading.Thread(target=bg, daemon=True).start()
+
+        def _show_cancel_confirm(renew_date):
+            content = BoxLayout(orientation='vertical', spacing=dp(8), padding=dp(16))
+            content.add_widget(Label(
+                text=(
+                    'Cancel your subscription?\n\n'
+                    f"You'll keep access until {renew_date},\n"
+                    'then it ends automatically.'
+                ),
+                font_name=FONT, font_size=sp(13),
+                color=(0.90, 0.88, 0.85, 1),
+                halign='center', valign='middle',
+                size_hint_y=None, height=dp(88),
+            ))
+            btn_row = BoxLayout(size_hint_y=None, height=dp(44), spacing=dp(8))
+            keep_btn = Button(
+                text='Keep Subscription',
+                font_name=FONT, font_size=sp(13),
+                background_normal='', background_color=(0.18, 0.55, 0.95, 1),
+                color=(1, 1, 1, 1),
+            )
+            yes_btn = Button(
+                text='Yes, Cancel',
+                font_name=FONT, font_size=sp(13),
+                background_normal='', background_color=(0.22, 0.22, 0.25, 1),
+                color=(0.88, 0.32, 0.32, 1),
+            )
+            btn_row.add_widget(keep_btn)
+            btn_row.add_widget(yes_btn)
+            content.add_widget(btn_row)
+            confirm = Popup(
+                title='Cancel Subscription',
+                content=content,
+                size_hint=(0.88, None), height=dp(220),
+                auto_dismiss=True,
+            )
+            keep_btn.bind(on_release=confirm.dismiss)
+
+            def _do_cancel(*_):
+                confirm.dismiss()
+                _call_cancel_api()
+
+            yes_btn.bind(on_release=_do_cancel)
+            confirm.open()
+
+        def _call_cancel_api():
+            ml = _lbl[0]
+            if ml:
+                ml.height = dp(20)
+                ml.color  = (0.7, 0.7, 0.7, 1)
+                ml.text   = 'Cancelling…'
+
+            def bg():
+                result = cancel_stripe_subscription()
+
+                def ui(dt):
+                    if result.get('ok'):
+                        new_status = refresh_status()
+                        _build_content(new_status)
+                    else:
+                        ml2 = _lbl[0]
+                        if ml2:
+                            ml2.height = dp(20)
+                            ml2.color  = (1, 0.4, 0.4, 1)
+                            ml2.text   = result.get('error', 'Cancellation failed.')[:60]
+
+                Clock.schedule_once(ui, 0)
+
+            threading.Thread(target=bg, daemon=True).start()
+
+        # Build initial content from cache
+        _build_content(get_status())
+
+        # Refresh from Supabase in background and update if anything changed
+        def _bg_refresh():
+            new = refresh_status()
+            Clock.schedule_once(lambda dt: _build_content(new), 0)
+
+        threading.Thread(target=_bg_refresh, daemon=True).start()
 
         outer.add_widget(root)
         modal.add_widget(outer)
@@ -14798,7 +15857,6 @@ class SpoonfedApp(App):
     
     def _confirm_handwriting_setting_change(self, setting_name, new_value):
         """Show confirmation popup when changing handwriting settings during active session."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         from kivy.uix.label import Label
@@ -14931,38 +15989,82 @@ class SpoonfedApp(App):
     def _save_lesson_queue(self):
         """Save lesson queue to settings file for persistence."""
         try:
-            import json
-            from dictionary.paths import get_settings_path
-            settings_file = get_settings_path()
-            settings = {}
-            if os.path.exists(settings_file):
-                with open(settings_file, 'r') as f:
-                    settings = json.load(f)
+            settings = self._load_settings_json()
             # Convert any Path objects to strings
             queue = getattr(self, '_lesson_queue', [])
             settings['lesson_queue'] = [str(item) if not isinstance(item, (int, str)) else item for item in queue]
             settings['_queue_dirty'] = True
-            with open(settings_file, 'w') as f:
-                json.dump(settings, f, indent=2)
+            self._write_settings_json(settings)
             Logger.info(f'LessonQueue: Saved {len(queue)} items to disk')
         except Exception as e:
             Logger.error(f'LessonQueue: Error saving queue: {e}')
+
+    def _load_settings_json(self):
+        """Load app settings with corruption recovery for trailing garbage."""
+        import json
+        from dictionary.paths import get_settings_path
+
+        settings_file = get_settings_path()
+        if not os.path.exists(settings_file):
+            return {}
+
+        try:
+            with open(settings_file, 'r', encoding='utf-8-sig') as f:
+                return json.load(f)
+        except json.JSONDecodeError as e:
+            try:
+                with open(settings_file, 'r', encoding='utf-8-sig') as f:
+                    raw = f.read()
+
+                raw = raw.lstrip('\ufeff')
+
+                stripped = raw.lstrip()
+                decoder = json.JSONDecoder()
+                obj, end = decoder.raw_decode(stripped)
+
+                if isinstance(obj, dict):
+                    backup_path = settings_file + '.corrupt'
+                    try:
+                        with open(backup_path, 'w', encoding='utf-8') as bf:
+                            bf.write(raw)
+                    except Exception:
+                        pass
+
+                    with open(settings_file, 'w', encoding='utf-8') as f:
+                        json.dump(obj, f, indent=2, ensure_ascii=False)
+
+                    trailing = stripped[end:].strip()
+                    if trailing:
+                        Logger.warning('Settings: repaired malformed app_settings.json by dropping trailing data')
+                    else:
+                        Logger.warning('Settings: repaired malformed app_settings.json')
+                    return obj
+            except Exception as recover_err:
+                Logger.error(f'Settings: failed to recover malformed settings file: {recover_err}')
+
+            Logger.error(f'Settings: invalid settings JSON: {e}')
+            return {}
+        except Exception as e:
+            Logger.error(f'Settings: error loading settings JSON: {e}')
+            return {}
+
+    def _write_settings_json(self, settings):
+        """Write app settings atomically enough for current usage."""
+        import json
+        from dictionary.paths import get_settings_path
+
+        settings_file = get_settings_path()
+        payload = settings if isinstance(settings, dict) else {}
+        with open(settings_file, 'w', encoding='utf-8') as f:
+            json.dump(payload, f, indent=2, ensure_ascii=False)
     
     def _load_lesson_queue(self):
         """Load lesson queue from settings file."""
         try:
-            import json
-            from dictionary.paths import get_settings_path
-            settings_file = get_settings_path()
-            if os.path.exists(settings_file):
-                with open(settings_file, 'r') as f:
-                    settings = json.load(f)
-                    saved_queue = settings.get('lesson_queue', [])
-                    # Restore the queue
-                    self._lesson_queue = saved_queue
-                    Logger.info(f'LessonQueue: Loaded {len(saved_queue)} items from disk')
-            else:
-                self._lesson_queue = []
+            settings = self._load_settings_json()
+            saved_queue = settings.get('lesson_queue', [])
+            self._lesson_queue = saved_queue if isinstance(saved_queue, list) else []
+            Logger.info(f'LessonQueue: Loaded {len(self._lesson_queue)} items from disk')
         except Exception as e:
             Logger.error(f'LessonQueue: Error loading queue: {e}')
             self._lesson_queue = []
@@ -14970,15 +16072,8 @@ class SpoonfedApp(App):
     def _load_dark_mode_preference(self):
         """Load dark mode preference from settings file."""
         try:
-            import json
-            from dictionary.paths import get_settings_path
-            settings_file = get_settings_path()
-            if os.path.exists(settings_file):
-                with open(settings_file, 'r') as f:
-                    settings = json.load(f)
-                    self.dark_mode = settings.get('dark_mode', True)
-            else:
-                self.dark_mode = True  # Default to dark mode
+            settings = self._load_settings_json()
+            self.dark_mode = settings.get('dark_mode', True)
         except Exception as e:
             Logger.error(f'Settings: Error loading dark mode preference: {e}')
             self.dark_mode = True
@@ -14986,39 +16081,22 @@ class SpoonfedApp(App):
     def _save_dark_mode_preference(self):
         """Save dark mode preference to settings file."""
         try:
-            import json
-            from dictionary.paths import get_settings_path
-            settings_file = get_settings_path()
-            settings = {}
-            if os.path.exists(settings_file):
-                with open(settings_file, 'r') as f:
-                    settings = json.load(f)
+            settings = self._load_settings_json()
             settings['dark_mode'] = self.dark_mode
             settings['_settings_dirty'] = True
-            with open(settings_file, 'w') as f:
-                json.dump(settings, f, indent=2)
+            self._write_settings_json(settings)
         except Exception as e:
             Logger.error(f'Settings: Error saving dark mode preference: {e}')
     
     def _load_study_settings(self):
         """Load study settings from settings file."""
         try:
-            import json
-            from dictionary.paths import get_settings_path
-            settings_file = get_settings_path()
-            if os.path.exists(settings_file):
-                with open(settings_file, 'r') as f:
-                    settings = json.load(f)
-                    self.daily_new_items_limit = settings.get('daily_new_items_limit', 8)
-                    self.study_max_low_stability_vectors = settings.get('study_max_low_stability_vectors', 125)
-                    self.home_screen = settings.get('home_screen', 'dictionary')
-                    self.auto_tts = settings.get('auto_tts', True)
-                    self.hide_review_counter = settings.get('hide_review_counter', False)
-            else:
-                self.daily_new_items_limit = 8
-                self.study_max_low_stability_vectors = 125
-                self.home_screen = 'dictionary'
-                self.auto_tts = True
+            settings = self._load_settings_json()
+            self.daily_new_items_limit = settings.get('daily_new_items_limit', 8)
+            self.study_max_low_stability_vectors = settings.get('study_max_low_stability_vectors', 125)
+            self.home_screen = settings.get('home_screen', 'dictionary')
+            self.auto_tts = settings.get('auto_tts', True)
+            self.hide_review_counter = settings.get('hide_review_counter', False)
         except Exception as e:
             Logger.error(f'Settings: Error loading study settings: {e}')
             self.daily_new_items_limit = 8
@@ -15029,21 +16107,14 @@ class SpoonfedApp(App):
     def _save_study_settings(self):
         """Save study settings to settings file."""
         try:
-            import json
-            from dictionary.paths import get_settings_path
-            settings_file = get_settings_path()
-            settings = {}
-            if os.path.exists(settings_file):
-                with open(settings_file, 'r') as f:
-                    settings = json.load(f)
+            settings = self._load_settings_json()
             settings['daily_new_items_limit'] = int(self.daily_new_items_limit)
             settings['study_max_low_stability_vectors'] = int(self.study_max_low_stability_vectors)
             settings['home_screen'] = self.home_screen
             settings['auto_tts'] = bool(self.auto_tts)
             settings['hide_review_counter'] = bool(self.hide_review_counter)
             settings['_settings_dirty'] = True
-            with open(settings_file, 'w') as f:
-                json.dump(settings, f, indent=2)
+            self._write_settings_json(settings)
         except Exception as e:
             Logger.error(f'Settings: Error saving study settings: {e}')
 
@@ -15066,14 +16137,7 @@ class SpoonfedApp(App):
                 except Exception:
                     pass
                 # Run an immediate background sync after signing in
-                import threading
-                from sync.sync import run_full_sync
-                def bg():
-                    ok, msg = run_full_sync()
-                    Logger.info(f'Sync: post-login sync: {msg}')
-                    if ok:
-                        Clock.schedule_once(lambda dt: self._apply_synced_data(), 0)
-                threading.Thread(target=bg, daemon=True).start()
+                self._request_background_sync('post-login', apply_on_success=True)
                 self._update_sync_btn_label()
 
             if sb.is_logged_in():
@@ -15097,7 +16161,7 @@ class SpoonfedApp(App):
         GREEN = (0.07, 0.6, 0.2, 1)
 
         modal = ModalView(
-            size_hint=(0.92, None), height=dp(380),
+            size_hint=(None, None), width=_app_content_width() * 0.92, height=dp(380),
             background='', background_color=(0, 0, 0, 0),
             auto_dismiss=True,
         )
@@ -15246,6 +16310,36 @@ class SpoonfedApp(App):
         except Exception:
             pass
 
+    def _last_sync_stamp_path(self):
+        return os.path.join(
+            os.path.dirname(os.path.abspath(__file__)),
+            'dictionary',
+            '.last_sync_success',
+        )
+
+    def _read_last_sync_timestamp(self):
+        ts = float(getattr(self, '_last_bg_sync_ts', 0.0) or 0.0)
+        if ts > 0:
+            return ts
+        try:
+            path = self._last_sync_stamp_path()
+            if os.path.exists(path):
+                with open(path, 'r', encoding='utf-8') as f:
+                    return float((f.read() or '0').strip() or '0')
+        except Exception:
+            pass
+        return 0.0
+
+    def _record_sync_success(self):
+        try:
+            import time
+            ts = time.time()
+            self._last_bg_sync_ts = ts
+            with open(self._last_sync_stamp_path(), 'w', encoding='utf-8') as f:
+                f.write(str(ts))
+        except Exception:
+            pass
+
     def toggle_dark_mode(self):
         """Toggle between light and dark mode."""
         try:
@@ -15253,7 +16347,6 @@ class SpoonfedApp(App):
             self._save_dark_mode_preference()
             
             # Show popup that app needs restart
-            from kivy.uix.popup import Popup
             from kivy.uix.boxlayout import BoxLayout
             from kivy.uix.label import Label
             from kivy.uix.button import Button
@@ -15302,15 +16395,8 @@ class SpoonfedApp(App):
     def _load_tts_voice_preference(self):
         """Load TTS voice preference from settings file."""
         try:
-            import json
-            from dictionary.paths import get_settings_path
-            settings_file = get_settings_path()
-            if os.path.exists(settings_file):
-                with open(settings_file, 'r') as f:
-                    settings = json.load(f)
-                    self.tts_voice = settings.get('tts_voice', 'female')
-            else:
-                self.tts_voice = 'female'
+            settings = self._load_settings_json()
+            self.tts_voice = settings.get('tts_voice', 'female')
         except Exception as e:
             Logger.error(f'Settings: Error loading tts_voice: {e}')
             self.tts_voice = 'female'
@@ -15318,23 +16404,15 @@ class SpoonfedApp(App):
     def _save_tts_voice_preference(self):
         """Save TTS voice preference to settings file."""
         try:
-            import json
-            from dictionary.paths import get_settings_path
-            settings_file = get_settings_path()
-            settings = {}
-            if os.path.exists(settings_file):
-                with open(settings_file, 'r') as f:
-                    settings = json.load(f)
+            settings = self._load_settings_json()
             settings['tts_voice'] = self.tts_voice
             settings['_settings_dirty'] = True
-            with open(settings_file, 'w') as f:
-                json.dump(settings, f, indent=2)
+            self._write_settings_json(settings)
         except Exception as e:
             Logger.error(f'Settings: Error saving tts_voice: {e}')
 
     def _on_japanese_tts_unavailable(self, engine_name: str):
         """Show a help popup when Android TTS can't speak Japanese."""
-        from kivy.uix.popup import Popup
         from kivy.uix.scrollview import ScrollView
 
         # Friendly engine name
@@ -15369,7 +16447,7 @@ class SpoonfedApp(App):
                 '5. Restart this app'
             )
 
-        avail_w = Window.width * 0.88 - dp(40)
+        avail_w = _app_content_width() * 0.88 - dp(40)
 
         inner = BoxLayout(orientation='vertical', spacing=dp(10), padding=dp(14),
                           size_hint_y=None)
@@ -18291,7 +19369,6 @@ class SpoonfedApp(App):
                 return
             
             # Show confirmation popup
-            from kivy.uix.popup import Popup
             from kivy.uix.boxlayout import BoxLayout
             from kivy.uix.label import Label
             from kivy.uix.button import Button
@@ -19099,7 +20176,6 @@ class SpoonfedApp(App):
             if not entry:
                 return
 
-            from kivy.uix.popup import Popup
             from kivy.uix.gridlayout import GridLayout
 
             entry_kind = entry['kind'] or 'vocab'
@@ -19499,7 +20575,7 @@ class SpoonfedApp(App):
             title='Entry Actions',
             content=layout,
             size_hint=(None, None),
-            size=(min(dp(360), Window.width*0.8), min(dp(310), Window.height*0.5)),
+            size=(min(dp(360), _app_content_width() * 0.8), min(dp(310), Window.height*0.5)),
             auto_dismiss=True
         )
         
@@ -19774,7 +20850,7 @@ class SpoonfedApp(App):
             title='Manage Study Vectors',
             content=main_layout,
             size_hint=(None, None),
-            size=(min(dp(400), Window.width*0.9), min(dp(500), Window.height*0.7)),
+            size=(min(dp(400), _app_content_width() * 0.9), min(dp(500), Window.height*0.7)),
             auto_dismiss=True
         )
         
@@ -20237,16 +21313,7 @@ class SpoonfedApp(App):
             
             # Background sync after review session
             try:
-                from sync import supabase_client as sb
-                if sb.is_logged_in() and sb.is_configured():
-                    import threading
-                    from sync.sync import run_full_sync
-                    def _bg():
-                        ok, msg = run_full_sync()
-                        Logger.info(f'Sync: post-review sync: {msg}')
-                        if ok:
-                            Clock.schedule_once(lambda dt: self._apply_synced_data(), 0)
-                    threading.Thread(target=_bg, daemon=True).start()
+                self._request_background_sync('post-review', apply_on_success=True, min_interval_s=60)
             except Exception as e:
                 Logger.warning(f'Sync: post-review sync skipped: {e}')
         except Exception as e:
@@ -24233,7 +25300,6 @@ class SpoonfedApp(App):
                 return
             
             # Show confirmation popup
-            from kivy.uix.popup import Popup
             from kivy.uix.boxlayout import BoxLayout
             from kivy.uix.label import Label
             from kivy.uix.button import Button
@@ -26357,7 +27423,6 @@ class SpoonfedApp(App):
     
     def _show_custom_lesson_action_popup(self, lesson_queue_id: str, lesson_name: str, is_collection: bool, raw_id: int):
         """Show action popup for a custom lesson/collection row."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         from kivy.uix.label import Label
@@ -26454,7 +27519,6 @@ class SpoonfedApp(App):
     
     def _show_add_to_collection_picker(self, lesson_id: int, lesson_name: str):
         """Show popup to pick a collection to add a lesson to."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.scrollview import ScrollView
         from kivy.uix.gridlayout import GridLayout
@@ -26542,7 +27606,6 @@ class SpoonfedApp(App):
 
     def _confirm_delete_custom_lesson(self, lesson_id: int, lesson_name: str):
         """Show confirmation popup before deleting a custom lesson."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         from kivy.uix.label import Label
@@ -26612,11 +27675,15 @@ class SpoonfedApp(App):
             app = App.get_running_app()
             if lesson_queue_id in getattr(app, '_lesson_queue', []):
                 app._lesson_queue.remove(lesson_queue_id)
-                app.save_lesson_queue()
+                app._save_lesson_queue()
             
             # Delete the lesson
             dict_db.delete_custom_lesson(conn, lesson_id)
             conn.close()
+            try:
+                app._request_background_sync(reason='custom-lesson-delete', apply_on_success=False, min_interval_s=0)
+            except Exception:
+                pass
             
             # Reload the list
             self._custom_lessons_needs_reload = True
@@ -26631,7 +27698,6 @@ class SpoonfedApp(App):
     
     def _confirm_delete_custom_lesson_from_detail(self, lesson_id: int, lesson_name: str):
         """Show confirmation popup before deleting a custom lesson from detail screen."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         from kivy.uix.label import Label
@@ -26701,11 +27767,15 @@ class SpoonfedApp(App):
             app = App.get_running_app()
             if lesson_queue_id in getattr(app, '_lesson_queue', []):
                 app._lesson_queue.remove(lesson_queue_id)
-                app.save_lesson_queue()
+                app._save_lesson_queue()
             
             # Delete the lesson
             dict_db.delete_custom_lesson(conn, lesson_id)
             conn.close()
+            try:
+                app._request_background_sync(reason='custom-lesson-delete', apply_on_success=False, min_interval_s=0)
+            except Exception:
+                pass
             
             Logger.info(f'CustomLessons: Deleted lesson {lesson_id}')
             
@@ -26778,7 +27848,6 @@ class SpoonfedApp(App):
     def on_create_custom_lesson(self):
         """Show popup to choose between creating a lesson or collection."""
         try:
-            from kivy.uix.popup import Popup
             from kivy.uix.button import Button
             from kivy.metrics import dp
             
@@ -26839,7 +27908,6 @@ class SpoonfedApp(App):
     def _show_create_lesson_dialog(self, is_collection=False):
         """Show dialog to create a lesson or collection with name input."""
         try:
-            from kivy.uix.popup import Popup
             from kivy.uix.textinput import TextInput
             from kivy.uix.widget import Widget
             
@@ -26976,7 +28044,6 @@ class SpoonfedApp(App):
     def _show_create_lesson_dialog_for_collection(self, collection_id):
         """Show dialog to create a new lesson and add it to the specified collection."""
         try:
-            from kivy.uix.popup import Popup
             from kivy.uix.textinput import TextInput
             from kivy.uix.widget import Widget
             
@@ -27062,7 +28129,6 @@ class SpoonfedApp(App):
     def on_clear_all_custom_lessons(self):
         """Show double confirmation and delete all custom lessons."""
         try:
-            from kivy.uix.popup import Popup
             from kivy.uix.widget import Widget
             
             # First confirmation
@@ -27168,6 +28234,11 @@ class SpoonfedApp(App):
                         conn = dict_db.init_db(get_db_path())
                         count = dict_db.delete_all_custom_lessons(conn)
                         conn.close()
+                        try:
+                            app = App.get_running_app()
+                            app._request_background_sync(reason='custom-lessons-delete-all', apply_on_success=False, min_interval_s=0)
+                        except Exception:
+                            pass
                         Logger.info(f'CustomLessons: Deleted all {count} custom lessons')
                         popup2.dismiss()
                         self._custom_lessons_needs_reload = True
@@ -27240,7 +28311,7 @@ class SpoonfedApp(App):
             
             if not child_lessons:
                 label = Label(
-                    text='No lessons in this collection yet.',
+                    text='No lessons in this collection yet.\nClick "Options" → "Add a Lesson" to add lessons.',
                     size_hint_y=None,
                     height=dp(60),
                     halign='center',
@@ -27250,6 +28321,20 @@ class SpoonfedApp(App):
                 )
                 label.bind(size=label.setter('text_size'))
                 grid.add_widget(label)
+                # Populate bottom bar even when empty so Options (Add a Lesson) is accessible
+                bottom_bar = self.root.ids.get('collection_detail_bottom_bar')
+                if bottom_bar:
+                    bottom_bar.clear_widgets()
+                    options_btn = Button(
+                        text='Options',
+                        size_hint_x=1,
+                        background_normal='', background_down='',
+                        background_color=(0.22, 0.38, 0.55, 1),
+                        color=(0.90, 0.88, 0.85, 1),
+                        font_name='fonts/NotoSansJP-Regular.ttf'
+                    )
+                    options_btn.bind(on_release=lambda *_: self._show_collection_options_popup(collection_id))
+                    bottom_bar.add_widget(options_btn)
                 return
             
             # Display each lesson
@@ -27438,7 +28523,6 @@ class SpoonfedApp(App):
 
     def _show_collection_options_popup(self, collection_id: int):
         """Show Options popup for a collection with Add Lesson, Add to Queue, Reorder, Delete."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         from kivy.metrics import dp
@@ -27523,7 +28607,6 @@ class SpoonfedApp(App):
 
     def _show_collection_lesson_action_popup(self, lesson_queue_id: str, lesson_name: str, raw_id: int, collection_id: int):
         """Show action popup for a lesson inside a collection detail view."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         
@@ -27639,7 +28722,6 @@ class SpoonfedApp(App):
     def _confirm_clear_collection(self, collection_id: int):
         """Show confirmation popup before clearing all lessons from a collection."""
         try:
-            from kivy.uix.popup import Popup
             from kivy.uix.boxlayout import BoxLayout
             from kivy.uix.button import Button
             from kivy.uix.label import Label
@@ -27737,7 +28819,6 @@ class SpoonfedApp(App):
             if collection_id is None:
                 return
             
-            from kivy.uix.popup import Popup
             from kivy.uix.boxlayout import BoxLayout
             from kivy.uix.scrollview import ScrollView
             from kivy.uix.gridlayout import GridLayout
@@ -27913,7 +28994,6 @@ class SpoonfedApp(App):
             if not collection:
                 return
             
-            from kivy.uix.popup import Popup
             from kivy.uix.textinput import TextInput
             
             layout = BoxLayout(orientation='vertical', padding=dp(12), spacing=dp(8))
@@ -28022,6 +29102,21 @@ class SpoonfedApp(App):
                 )
                 label.bind(size=label.setter('text_size'))
                 grid.add_widget(label)
+
+                # Keep Options reachable even when search has no matches.
+                bottom_bar = self.root.ids.get('collection_detail_bottom_bar')
+                if bottom_bar:
+                    bottom_bar.clear_widgets()
+                    options_btn = Button(
+                        text='Options',
+                        size_hint_x=1,
+                        background_normal='', background_down='',
+                        background_color=(0.22, 0.38, 0.55, 1),
+                        color=(0.90, 0.88, 0.85, 1),
+                        font_name='fonts/NotoSansJP-Regular.ttf'
+                    )
+                    options_btn.bind(on_release=lambda *_: self._show_collection_options_popup(collection_id))
+                    bottom_bar.add_widget(options_btn)
                 return
             
             for lesson in child_lessons:
@@ -28230,7 +29325,7 @@ class SpoonfedApp(App):
             if not items:
                 # Show empty state
                 label = Label(
-                    text='No items in this lesson yet.\nClick "Add Items" to add dictionary entries.',
+                    text='No items in this lesson yet.\nClick "Options" → "Add Items" to add dictionary entries.',
                     size_hint_y=None,
                     height=dp(100),
                     halign='center',
@@ -28244,6 +29339,20 @@ class SpoonfedApp(App):
                     pass
                 grid.add_widget(label)
                 conn.close()
+                # Populate bottom bar even when empty so Options (Add Items) is accessible
+                bottom_bar = self.root.ids.get('custom_lesson_detail_bottom_bar')
+                if bottom_bar:
+                    bottom_bar.clear_widgets()
+                    options_btn = Button(
+                        text='Options',
+                        size_hint_x=1,
+                        background_normal='', background_down='',
+                        background_color=(0.22, 0.38, 0.55, 1),
+                        color=(0.90, 0.88, 0.85, 1),
+                        font_name='fonts/NotoSansJP-Regular.ttf'
+                    )
+                    options_btn.bind(on_release=lambda *_: self._show_lesson_options_popup(lesson_id))
+                    bottom_bar.add_widget(options_btn)
                 return
             
             # Display each item (similar to queue screen)
@@ -28424,7 +29533,6 @@ class SpoonfedApp(App):
 
     def _show_lesson_options_popup(self, lesson_id: int):
         """Show Options popup for a custom lesson with Add Items, Queue, Reorder, Delete."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         from kivy.metrics import dp
@@ -28896,7 +30004,6 @@ class SpoonfedApp(App):
             if not lesson:
                 return
             
-            from kivy.uix.popup import Popup
             from kivy.uix.textinput import TextInput
             
             layout = BoxLayout(orientation='vertical', padding=dp(12), spacing=dp(8))
@@ -29007,6 +30114,21 @@ class SpoonfedApp(App):
                 except Exception:
                     pass
                 grid.add_widget(label)
+
+                # Keep Options reachable even when search has no matches.
+                bottom_bar = self.root.ids.get('custom_lesson_detail_bottom_bar')
+                if bottom_bar:
+                    bottom_bar.clear_widgets()
+                    options_btn = Button(
+                        text='Options',
+                        size_hint_x=1,
+                        background_normal='', background_down='',
+                        background_color=(0.22, 0.38, 0.55, 1),
+                        color=(0.90, 0.88, 0.85, 1),
+                        font_name='fonts/NotoSansJP-Regular.ttf'
+                    )
+                    options_btn.bind(on_release=lambda *_: self._show_lesson_options_popup(lesson_id))
+                    bottom_bar.add_widget(options_btn)
                 conn.close()
                 return
             
@@ -29124,7 +30246,6 @@ class SpoonfedApp(App):
     
     def on_delete_custom_lesson_from_detail(self):
         """Handle delete button click from custom lesson detail screen."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         from kivy.uix.label import Label
@@ -29218,11 +30339,15 @@ class SpoonfedApp(App):
             lesson_queue_id = f"custom_lesson:{lesson_id}"
             if lesson_queue_id in getattr(self, '_lesson_queue', []):
                 self._lesson_queue.remove(lesson_queue_id)
-                self.save_lesson_queue()
+                self._save_lesson_queue()
             
             # Delete the lesson
             dict_db.delete_custom_lesson(conn, lesson_id)
             conn.close()
+            try:
+                self._request_background_sync(reason='custom-lesson-delete', apply_on_success=False, min_interval_s=0)
+            except Exception:
+                pass
             
             Logger.info(f'CustomLessons: Deleted lesson {lesson_id}')
             
@@ -29378,7 +30503,6 @@ class SpoonfedApp(App):
     def _confirm_clear_lesson_items(self, lesson_id: int):
         """Show confirmation popup before clearing all items from a lesson."""
         try:
-            from kivy.uix.popup import Popup
             layout = BoxLayout(orientation='vertical', spacing=dp(12), padding=dp(16))
             msg = Label(
                 text='Remove ALL items from this lesson?\n\nThis cannot be undone.',
@@ -29831,7 +30955,6 @@ class SpoonfedApp(App):
 
     def on_erase_srs_data(self):
         """Show triple-confirmation dialogs before erasing all SRS data."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.label import Label
         from kivy.uix.button import Button
@@ -29946,8 +31069,12 @@ class SpoonfedApp(App):
             except Exception as e:
                 Logger.warning(f'Settings: remote SRS delete error: {e}')
 
+            try:
+                self._request_background_sync(reason='erase-srs', apply_on_success=True, min_interval_s=0)
+            except Exception:
+                pass
+
             # Show success notification
-            from kivy.uix.popup import Popup
             from kivy.uix.boxlayout import BoxLayout
             from kivy.uix.label import Label
             from kivy.uix.button import Button
@@ -29990,7 +31117,6 @@ class SpoonfedApp(App):
     def _confirm_exit_drill(self):
         """Show confirmation popup when user tries to leave an active drill/time attack session."""
         try:
-            from kivy.uix.popup import Popup
             from kivy.uix.boxlayout import BoxLayout
             from kivy.uix.label import Label
             from kivy.uix.button import Button
@@ -30104,7 +31230,6 @@ class SpoonfedApp(App):
     def _confirm_close_app(self):
         """Show confirmation popup when user tries to close the app from dictionary page."""
         try:
-            from kivy.uix.popup import Popup
             from kivy.uix.boxlayout import BoxLayout
             from kivy.uix.label import Label
             from kivy.uix.button import Button
@@ -30139,18 +31264,11 @@ class SpoonfedApp(App):
 
             def on_yes(instance):
                 popup.dismiss()
-                # Actually close the app
+                # Use unified close flow with syncing indicator.
                 try:
-                    from kivy.utils import platform
-                    if platform == 'android':
-                        from jnius import autoclass
-                        PythonActivity = autoclass('org.kivy.android.PythonActivity')
-                        activity = PythonActivity.mActivity
-                        activity.moveTaskToBack(True)
-                    else:
-                        App.get_running_app().stop()
+                    self._begin_app_close()
                 except Exception as e:
-                    Logger.error('_confirm_close_app: collapse failed: %s', e)
+                    Logger.error('_confirm_close_app: close flow failed: %s', e)
                     try:
                         App.get_running_app().stop()
                     except Exception as e2:
@@ -30267,7 +31385,19 @@ class SpoonfedApp(App):
                         
                         Clock.schedule_once(lambda dt: setattr(self, '_nav_back_in_progress', False), 0)
                         return
-                    
+
+                    # Check if we're browsing a specific grammar level — go back to level selector
+                    try:
+                        ds = self.root.ids.get('dict_screen') if getattr(self, 'root', None) else None
+                        if ds is None:
+                            sm_dict = sm.get_screen('dictionary')
+                            ds = sm_dict.children[0] if sm_dict and sm_dict.children else None
+                        if ds and getattr(ds, '_grammar_browse_level', None):
+                            ds._show_grammar_level_selector()
+                            return
+                    except Exception as e:
+                        Logger.error(f'go_back: grammar level check failed: {e}')
+
                     # Show confirmation popup before closing app
                     Logger.info('go_back: on dictionary — showing close confirmation')
                     self._confirm_close_app()
@@ -30515,6 +31645,83 @@ class SpoonfedApp(App):
             Logger.exception('nav: on_keyboard handler failed: %s', e)
         return False
 
+    def _on_window_mouse_down(self, window, x, y, button, modifiers):
+        """Handle desktop mouse side buttons for browser-like back navigation."""
+        try:
+            # Kivy backend names vary by platform/driver; handle common aliases.
+            if str(button).lower() in {'x1', 'button4', 'mouse4'}:
+                self.go_back_ui()
+                return True
+        except Exception as e:
+            Logger.exception('nav: on_mouse_down handler failed: %s', e)
+        return False
+
+    def _filter_side_button_touches(self, window, touch):
+        """Consume on_touch_down events from mouse side-buttons (X1/X2).
+
+        Kivy's MouseInputProvider creates a touch for every mouse button press,
+        including mouse4 (X1/back) and mouse5 (X2/forward), regardless of whether
+        the on_mouse_down handler already handled the button.  Without this filter
+        the touch propagates to the widget hierarchy and may activate the widget
+        that happens to be under the cursor (e.g. a Licenses button on the
+        Settings screen).
+
+        Returning True from a Window.bind(on_touch_down=...) handler stops
+        Window.dispatch() before it calls Window.on_touch_down, so the touch
+        never reaches any child widget.
+        """
+        try:
+            if getattr(touch, 'button', None) in ('mouse4', 'mouse5',
+                                                   'x1', 'x2',
+                                                   'button4', 'button5'):
+                return True
+        except Exception as e:
+            Logger.exception('nav: side-button touch filter error: %s', e)
+        return False
+
+    def _on_window_request_close(self, *args):
+        """Intercept window X close and route through app confirmation flow."""
+        try:
+            if _IS_ANDROID:
+                return False
+            if getattr(self, '_close_in_progress', False):
+                # Close already confirmed and in progress; allow final close.
+                return False
+            self._confirm_close_app()
+            # Consume the request until user confirms.
+            return True
+        except Exception as e:
+            Logger.exception('nav: on_request_close handler failed: %s', e)
+            return False
+
+    def _begin_app_close(self):
+        """Show syncing/closing indicator, sync in background, then close app."""
+        if getattr(self, '_close_in_progress', False):
+            return
+        self._close_in_progress = True
+        overlay = self._show_loading_overlay('Closing')
+
+        import threading
+
+        def _worker():
+            try:
+                # Skip network sync on close to keep shutdown fast and reliable.
+                self._close_sync_done = True
+            except Exception as e:
+                Logger.warning(f'Sync: close flow sync skipped: {e}')
+                self._close_sync_done = True
+
+            def _finish(dt):
+                try:
+                    overlay['dismiss']()
+                except Exception:
+                    pass
+                App.get_running_app().stop()
+
+            Clock.schedule_once(_finish, 0)
+
+        threading.Thread(target=_worker, daemon=True).start()
+
     def _bind_back_handlers(self):
         """Ensure the top-left back button + hardware back key are wired."""
         try:
@@ -30540,6 +31747,27 @@ class SpoonfedApp(App):
                 Logger.info('nav: bound Window.on_keyboard')
             except Exception as e:
                 Logger.exception('nav: failed binding Window.on_keyboard: %s', e)
+
+            # 3) Desktop mouse back button (X1)
+            try:
+                Window.bind(on_mouse_down=self._on_window_mouse_down)
+                Logger.info('nav: bound Window.on_mouse_down')
+            except Exception as e:
+                Logger.exception('nav: failed binding Window.on_mouse_down: %s', e)
+
+            # 4) Filter side-button touches so they don't reach widgets
+            try:
+                Window.bind(on_touch_down=self._filter_side_button_touches)
+                Logger.info('nav: bound Window.on_touch_down side-button filter')
+            except Exception as e:
+                Logger.exception('nav: failed binding touch filter: %s', e)
+
+            # 5) Desktop window close button (X)
+            try:
+                Window.bind(on_request_close=self._on_window_request_close)
+                Logger.info('nav: bound Window.on_request_close')
+            except Exception as e:
+                Logger.exception('nav: failed binding Window.on_request_close: %s', e)
         except Exception as e:
             Logger.exception('nav: failed binding back handlers: %s', e)
 
@@ -30724,23 +31952,68 @@ class SpoonfedApp(App):
         # Check DB exists; prompt download if not (first launch on a new device)
         from kivy.clock import Clock as _Clock
         _Clock.schedule_once(self._check_db_ready, 0.5)
+        # Warm up handwriting lookup recognizer in the background to reduce
+        # first-use latency when users open handwriting search.
+        _Clock.schedule_once(lambda dt: self._prewarm_handwriting_lookup_silent(), 1.5)
+        # Periodic background sync keeps device-to-device state fresh.
+        sync_interval_s = 5 * 60 if _IS_ANDROID else 10 * 60
+        _Clock.schedule_interval(
+            lambda dt: self._request_background_sync(
+                reason='periodic', apply_on_success=True, min_interval_s=sync_interval_s
+            ),
+            sync_interval_s,
+        )
 
     def _run_deferred_startup_sync(self):
         """Run a background sync after DB readiness is confirmed.
         Called from _check_db_ready once we know no DB download is pending."""
         try:
             from sync import supabase_client as sb
-            if sb.is_logged_in():
-                import threading
-                from sync.sync import run_full_sync
-                def _bg_sync():
-                    ok, msg = run_full_sync()
-                    Logger.info(f'Sync: startup sync: {msg}')
-                    if ok:
-                        Clock.schedule_once(lambda dt: self._apply_synced_data(), 0)
-                threading.Thread(target=_bg_sync, daemon=True).start()
+            if not (sb.is_logged_in() and sb.is_configured()):
+                return
+
+            # Immediate startup sync improves cross-device handoff while staying non-blocking.
+            self._request_background_sync('startup', apply_on_success=True, min_interval_s=0)
         except Exception as e:
             Logger.warning(f'Sync: deferred startup sync skipped: {e}')
+
+    def _request_background_sync(self, reason='background', apply_on_success=True, min_interval_s=0):
+        """Run a guarded background sync without blocking UI or app close."""
+        try:
+            import time
+            import threading
+            from sync import supabase_client as sb
+            if not (sb.is_logged_in() and sb.is_configured()):
+                return False
+
+            now = time.time()
+            last = float(getattr(self, '_last_bg_sync_ts', 0.0) or 0.0)
+            if min_interval_s > 0 and (now - last) < float(min_interval_s):
+                return False
+            if getattr(self, '_bg_sync_running', False):
+                return False
+
+            self._bg_sync_running = True
+
+            def _bg():
+                try:
+                    from sync.sync import run_full_sync
+                    ok, msg = run_full_sync()
+                    Logger.info(f'Sync: {reason} sync: {msg}')
+                    if ok:
+                        self._record_sync_success()
+                        if apply_on_success:
+                            Clock.schedule_once(lambda dt: self._apply_synced_data(), 0)
+                except Exception as e:
+                    Logger.warning(f'Sync: {reason} sync skipped: {e}')
+                finally:
+                    self._bg_sync_running = False
+
+            threading.Thread(target=_bg, daemon=True).start()
+            return True
+        except Exception as e:
+            Logger.warning(f'Sync: {reason} sync request failed: {e}')
+            return False
 
     # ── First-launch DB download / version-update ─────────────────────────────
 
@@ -30791,6 +32064,8 @@ class SpoonfedApp(App):
         # sync after restore (see _db_download_worker).
         def _check_then_sync():
             self._version_check_worker()
+            if not _IS_ANDROID:
+                self._app_update_check_worker()
             # If version_check_worker didn't trigger an update popup, run sync now
             self._run_deferred_startup_sync()
         threading.Thread(target=_check_then_sync, daemon=True).start()
@@ -30962,17 +32237,21 @@ class SpoonfedApp(App):
                 Logger.warning(f'Onboarding: could not write version file: {ve}')
 
             ui(100, 'Download complete!')
-            Logger.info('Onboarding: download finished, scheduling tutorial')
+            Logger.info('Onboarding: download finished, scheduling next page')
 
-            # Transition to tutorial after a brief pause
-            def _safe_show_tutorial(dt):
-                try:
-                    self._show_onboarding_tutorial()
-                except Exception as e:
-                    Logger.error(f'Onboarding: tutorial transition error: {e}')
-                    import traceback
-                    traceback.print_exc()
-            Clock.schedule_once(_safe_show_tutorial, 1.0)
+            # Desktop: show setup wizard (TTS + Translation) before tutorial.
+            # Android: go straight to tutorial.
+            if _IS_ANDROID:
+                def _safe_show_tutorial(dt):
+                    try:
+                        self._show_onboarding_tutorial()
+                    except Exception as e:
+                        Logger.error(f'Onboarding: tutorial transition error: {e}')
+                        import traceback
+                        traceback.print_exc()
+                Clock.schedule_once(_safe_show_tutorial, 1.0)
+            else:
+                Clock.schedule_once(lambda dt: self._show_desktop_setup_page(), 1.0)
 
         except Exception as exc:
             Logger.error(f'Onboarding: download error: {exc}')
@@ -30988,6 +32267,218 @@ class SpoonfedApp(App):
                 btn.text = 'Retry'
 
             Clock.schedule_once(show_error, 0)
+
+    def _show_desktop_setup_page(self):
+        """Desktop-only onboarding step: check TTS voice + Translation model."""
+        from kivy.uix.boxlayout import BoxLayout
+        from kivy.uix.label import Label
+        from kivy.uix.button import Button
+        from kivy.uix.widget import Widget
+        from kivy.metrics import dp, sp
+        from kivy.graphics import Color, Rectangle, RoundedRectangle
+        from kivy.clock import Clock
+        import threading
+
+        FONT   = 'fonts/NotoSansJP-Regular.ttf'
+        BG     = (0.09, 0.09, 0.11, 1)
+        ACCENT = (0.18, 0.55, 0.95, 1)
+        CARD_BG = (0.14, 0.14, 0.17, 1)
+        GREEN  = (0.40, 0.80, 0.40, 1)
+        ORANGE = (0.90, 0.50, 0.30, 1)
+        GREY   = (0.55, 0.53, 0.50, 1)
+
+        modal = self._onboarding_modal
+        modal.clear_widgets()
+
+        page = BoxLayout(orientation='vertical', padding=dp(28), spacing=dp(14))
+        with page.canvas.before:
+            Color(*BG)
+            page._bg_rect = Rectangle(size=page.size, pos=page.pos)
+        page.bind(
+            size=lambda w, v: setattr(w._bg_rect, 'size', v),
+            pos=lambda w, v:  setattr(w._bg_rect, 'pos',  v),
+        )
+
+        page.add_widget(Widget(size_hint_y=0.06))
+
+        title = Label(
+            text='Almost Ready',
+            font_name=FONT, font_size=sp(26), bold=True,
+            color=(0.95, 0.93, 0.90, 1),
+            size_hint_y=None, height=dp(44), halign='center',
+        )
+        title.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+        page.add_widget(title)
+
+        sub = Label(
+            text='Optional: set up Japanese voice and translation',
+            font_name=FONT, font_size=sp(13),
+            color=(0.60, 0.58, 0.55, 1),
+            size_hint_y=None, height=dp(28), halign='center',
+        )
+        sub.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+        page.add_widget(sub)
+        page.add_widget(Widget(size_hint_y=None, height=dp(8)))
+
+        # ── Row builder ───────────────────────────────────────────────────────
+        def _make_row(icon_char, label_text):
+            card = BoxLayout(
+                orientation='horizontal', spacing=dp(12),
+                padding=(dp(16), dp(0)),
+                size_hint=(1, None), height=dp(68),
+            )
+            with card.canvas.before:
+                Color(*CARD_BG)
+                card._bg = RoundedRectangle(size=card.size, pos=card.pos, radius=[dp(12)])
+            card.bind(
+                size=lambda w, v: setattr(w._bg, 'size', v),
+                pos=lambda w, v:  setattr(w._bg, 'pos',  v),
+            )
+            icon = Label(
+                text=icon_char,
+                font_name='fonts/MaterialSymbolsOutlined.ttf',
+                font_size=sp(28), color=(0.40, 0.70, 1.0, 1),
+                size_hint=(None, 1), width=dp(40),
+            )
+            card.add_widget(icon)
+            text_col = BoxLayout(orientation='vertical', spacing=dp(2), size_hint_x=1)
+            name_lbl = Label(
+                text=label_text,
+                font_name=FONT, font_size=sp(14), bold=True,
+                color=(0.90, 0.88, 0.85, 1),
+                size_hint_y=None, height=dp(22),
+                halign='left', valign='middle',
+            )
+            name_lbl.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+            status_lbl = Label(
+                text='Checking…',
+                font_name=FONT, font_size=sp(12), color=GREY,
+                size_hint_y=None, height=dp(20),
+                halign='left', valign='middle',
+            )
+            status_lbl.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+            text_col.add_widget(name_lbl)
+            text_col.add_widget(status_lbl)
+            card.add_widget(text_col)
+            action_btn = Button(
+                text='', font_name=FONT, font_size=sp(11),
+                size_hint=(None, None), size=(dp(100), dp(32)),
+                pos_hint={'center_y': 0.5},
+                background_normal='', background_color=ACCENT,
+                opacity=0, disabled=True,
+            )
+            card.add_widget(action_btn)
+            return card, status_lbl, action_btn
+
+        # ── Row 1: Dictionary (always done at this point) ──────────────────────
+        dict_card, dict_status, _ = _make_row('', 'Dictionary')  # storage
+        dict_status.text  = '✓  Downloaded'
+        dict_status.color = GREEN
+        page.add_widget(dict_card)
+
+        # ── Row 2: Japanese Voice (desktop only) ──────────────────────────────
+        tts_card = tts_status = tts_btn = None
+        if not _IS_ANDROID:
+            tts_card, tts_status, tts_btn = _make_row('', 'Japanese Voice')  # record_voice_over
+            page.add_widget(tts_card)
+
+        # ── Row 3: Translation ─────────────────────────────────────────────────
+        trans_card, trans_status, trans_btn = _make_row('', 'Translation')  # translate
+        page.add_widget(trans_card)
+
+        page.add_widget(Widget(size_hint_y=1))
+
+        note = Label(
+            text='You can complete these any time from the Download Data screen.',
+            font_name=FONT, font_size=sp(11),
+            color=(0.45, 0.43, 0.40, 1),
+            size_hint_y=None, height=dp(24), halign='center',
+        )
+        note.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+        page.add_widget(note)
+
+        continue_btn = Button(
+            text='Continue →',
+            font_name=FONT, font_size=sp(17),
+            size_hint=(0.65, None), height=dp(52),
+            pos_hint={'center_x': 0.5},
+            background_normal='', background_color=ACCENT,
+            color=(1, 1, 1, 1),
+        )
+        continue_btn.bind(on_release=lambda btn: self._show_onboarding_tutorial())
+        page.add_widget(continue_btn)
+        page.add_widget(Widget(size_hint_y=0.06))
+
+        modal.add_widget(page)
+
+        # ── Background: check TTS (desktop only) ─────────────────────────────
+        if not _IS_ANDROID:
+            def _check_tts():
+                from dictionary.tts import best_japanese_voice_id
+                vid = best_japanese_voice_id()
+                def _upd(dt):
+                    if vid:
+                        tts_status.text  = '✓  Installed'
+                        tts_status.color = GREEN
+                        tts_btn.opacity  = 0
+                        tts_btn.disabled = True
+                    else:
+                        tts_status.text  = 'Not installed — tap to set up'
+                        tts_status.color = ORANGE
+                        tts_btn.text     = 'Set Up'
+                        tts_btn.opacity  = 1
+                        tts_btn.disabled = False
+                Clock.schedule_once(_upd, 0)
+            tts_btn.bind(on_release=lambda btn: self.download_data_tts_pressed())
+            threading.Thread(target=_check_tts, daemon=True).start()
+
+        # ── Background: check Translation ─────────────────────────────────────
+        def _check_trans():
+            try:
+                from reading.translation import _gguf_model_path
+                installed = _gguf_model_path() is not None
+            except Exception:
+                installed = False
+            def _upd(dt):
+                if installed:
+                    trans_status.text  = '✓  Ready (offline)'
+                    trans_status.color = GREEN
+                    trans_btn.opacity  = 0
+                    trans_btn.disabled = True
+                else:
+                    trans_status.text  = 'Not downloaded (~229 MB)'
+                    trans_status.color = ORANGE
+                    trans_btn.text     = 'Download'
+                    trans_btn.opacity  = 1
+                    trans_btn.disabled = False
+            Clock.schedule_once(_upd, 0)
+
+        def _download_trans(btn):
+            trans_btn.disabled = True
+            trans_btn.text     = 'Downloading…'
+            trans_status.text  = 'Downloading… (a few minutes)'
+            trans_status.color = (0.9, 0.8, 0.3, 1)
+            def _worker():
+                from reading.translation import _gguf_download_model
+                result = _gguf_download_model()
+                def _done(dt):
+                    if result == 'OK':
+                        trans_status.text  = '✓  Ready (offline)'
+                        trans_status.color = GREEN
+                        trans_btn.opacity  = 0
+                        trans_btn.disabled = True
+                    else:
+                        msg = result[6:] if result.startswith('error:') else result
+                        trans_status.text  = f'Error: {msg}'
+                        trans_status.color = ORANGE
+                        trans_btn.text     = 'Retry'
+                        trans_btn.disabled = False
+                        trans_btn.opacity  = 1
+                Clock.schedule_once(_done, 0)
+            threading.Thread(target=_worker, daemon=True).start()
+
+        trans_btn.bind(on_release=_download_trans)
+        threading.Thread(target=_check_trans, daemon=True).start()
 
     def _show_onboarding_tutorial(self):
         """Replace download page with swipeable tutorial → Get Started."""
@@ -31195,14 +32686,34 @@ class SpoonfedApp(App):
 
     def _version_check_worker(self):
         """Fetch the remote version string; show update popup if it differs."""
+        import time
         import requests
         from kivy.clock import Clock
         if not DB_VERSION_URL or 'YOUR_USERNAME' in DB_VERSION_URL:
             return  # Not configured yet
+
+        # Throttle network check to once per day.
+        ts_path = os.path.join(
+            os.path.dirname(os.path.abspath(__file__)), 'dictionary', '.db_version_checked'
+        )
+        try:
+            if os.path.exists(ts_path):
+                with open(ts_path, 'r', encoding='utf-8') as f:
+                    last = float((f.read() or '0').strip() or '0')
+                if time.time() - last < 86400:
+                    return
+        except Exception:
+            pass
+
         try:
             resp = requests.get(DB_VERSION_URL, timeout=10)
             resp.raise_for_status()
             remote_version = self._decode_version_bytes(resp.content)
+            try:
+                with open(ts_path, 'w', encoding='utf-8') as f:
+                    f.write(str(time.time()))
+            except Exception:
+                pass
         except Exception as e:
             Logger.info(f'DBVersion: could not fetch remote version: {e}')
             return
@@ -31220,10 +32731,135 @@ class SpoonfedApp(App):
                 0,
             )
 
+    def _app_update_check_worker(self):
+        """Desktop only: check if a newer app version is available (once per day)."""
+        import time, json
+        from kivy.clock import Clock
+
+        # Throttle: only check once per day using a timestamp file
+        ts_path = os.path.join(
+            os.path.dirname(os.path.abspath(__file__)), 'dictionary', '.app_update_checked'
+        )
+        try:
+            if os.path.exists(ts_path):
+                last = float(open(ts_path).read().strip())
+                if time.time() - last < 86400:  # 24 hours
+                    return
+        except Exception:
+            pass
+
+        remote = None
+        try:
+            import requests
+            resp = requests.get(APP_VERSION_URL, timeout=8)
+            if resp.ok:
+                remote = (resp.text or '').strip()
+            else:
+                Logger.debug(f'AppUpdate: app_version.txt unavailable ({resp.status_code})')
+        except Exception as e:
+            Logger.debug(f'AppUpdate: version fetch failed: {e}')
+
+        if not remote:
+            Logger.debug('AppUpdate: no remote version found')
+            # Write timestamp so we don't spam failed checks.
+            try:
+                open(ts_path, 'w').write(str(time.time()))
+            except Exception:
+                pass
+            return
+
+        # Write timestamp regardless of outcome so we don't spam on error
+        try:
+            open(ts_path, 'w').write(str(time.time()))
+        except Exception:
+            pass
+
+        def _parse(v):
+            try:
+                return tuple(int(x) for x in v.split('.'))
+            except Exception:
+                return (0,)
+
+        if _parse(remote) > _parse(APP_VERSION):
+            Logger.info(f'AppUpdate: new version available: {remote}')
+            Clock.schedule_once(lambda dt: self._show_app_update_banner(remote), 0)
+
+    def _show_app_update_banner(self, remote_version: str):
+        """Show a non-blocking update banner at the top of the home screen."""
+        from kivy.uix.boxlayout import BoxLayout
+        from kivy.uix.label import Label
+        from kivy.uix.button import Button
+        from kivy.metrics import dp, sp
+        from kivy.graphics import Color, Rectangle
+        import webbrowser
+
+        FONT = 'fonts/NotoSansJP-Regular.ttf'
+
+        # Find the root layout to inject the banner into
+        if not self.root:
+            return
+        root = self.root
+
+        banner = BoxLayout(
+            orientation='horizontal',
+            size_hint=(1, None), height=dp(44),
+            padding=(dp(12), dp(6)),
+            spacing=dp(8),
+            pos_hint={'top': 1},
+        )
+        with banner.canvas.before:
+            Color(0.18, 0.45, 0.22, 1)
+            banner._bg = Rectangle(size=banner.size, pos=banner.pos)
+        banner.bind(
+            size=lambda w, v: setattr(w._bg, 'size', v),
+            pos=lambda w, v: setattr(w._bg, 'pos', v),
+        )
+
+        msg = Label(
+            text=f'Sakubo {remote_version} is available',
+            font_name=FONT, font_size=sp(13),
+            color=(0.9, 0.98, 0.9, 1),
+            size_hint_x=1, halign='left', valign='middle',
+        )
+        msg.bind(size=lambda i, v: setattr(i, 'text_size', v))
+
+        dl_btn = Button(
+            text='Download',
+            font_name=FONT, font_size=sp(12),
+            size_hint=(None, 1), width=dp(90),
+            background_normal='', background_color=(0.28, 0.72, 0.35, 1),
+            color=(1, 1, 1, 1),
+        )
+        dismiss_btn = Button(
+            text='✕',
+            font_name=FONT, font_size=sp(13),
+            size_hint=(None, 1), width=dp(36),
+            background_normal='', background_color=(0.25, 0.25, 0.28, 1),
+            color=(0.7, 0.7, 0.7, 1),
+        )
+
+        def _download(btn):
+            webbrowser.open(APP_DOWNLOAD_URL)
+
+        def _dismiss(btn):
+            try:
+                root.remove_widget(banner)
+            except Exception:
+                pass
+
+        dl_btn.bind(on_release=_download)
+        dismiss_btn.bind(on_release=_dismiss)
+
+        banner.add_widget(msg)
+        banner.add_widget(dl_btn)
+        banner.add_widget(dismiss_btn)
+
+        # Insert at the very top of the root layout
+        root.add_widget(banner, index=len(root.children))
+
     def _show_db_download_popup(self, is_update=False, remote_version=None):
         """Popup that downloads/updates dictionary.db."""
         import threading
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.label import Label
         from kivy.uix.button import Button
@@ -31315,7 +32951,8 @@ class SpoonfedApp(App):
             title='',
             separator_height=0,
             content=content,
-            size_hint=(0.92, None),
+            size_hint=(None, None),
+            width=_app_content_width() * 0.92,
             height=popup_height,
             auto_dismiss=False,
         )
@@ -31551,6 +33188,8 @@ class SpoonfedApp(App):
                     from sync.sync import run_full_sync
                     ok, msg = run_full_sync()
                     Logger.info(f'Sync: post-DB-update sync: {msg}')
+                    if ok:
+                        self._record_sync_success()
             except Exception:
                 pass
 
@@ -31583,7 +33222,6 @@ class SpoonfedApp(App):
 
     def show_licenses_credits(self):
         """Show a scrollable popup with third-party license attributions."""
-        from kivy.uix.popup import Popup
         from kivy.uix.scrollview import ScrollView
         from kivy.uix.label import Label
         from kivy.uix.boxlayout import BoxLayout
@@ -31613,8 +33251,16 @@ class SpoonfedApp(App):
             "License: CC BY-SA 4.0\n\n"
 
             "[b]Translation[/b]\n"
-            "Liquid AI LEAP SDK — LFM2-350M-ENJP-MT\n"
+            "[i](Android)[/i] Liquid AI LEAP SDK — LFM2-350M-ENJP-MT\n"
             "Copyright © 2025 Liquid AI, Inc.\n\n"
+            "[i](Windows)[/i] Liquid AI LFM2-350M-ENJP-MT (GGUF via llama-cpp-python)\n"
+            "Copyright \u00a9 2025 Liquid AI, Inc.\n\n"
+
+            "[b]Text-to-Speech[/b]\n"
+            "[i](Windows)[/i] Microsoft SAPI5 — Windows built-in speech engine\n"
+            "pyttsx3 — voice enumeration\n"
+            "License: MIT\n\n"
+            "[i](Android)[/i] Android TTS Engine — device built-in\n\n"
 
             "[b]Fonts[/b]\n"
             "Noto Sans JP — Google (OFL 1.1)\n"
@@ -31622,7 +33268,8 @@ class SpoonfedApp(App):
 
             "[b]Frameworks & Libraries[/b]\n"
             "Kivy (MIT) • Pyjnius (MIT)\n"
-            "Pillow (HPND) • Requests (Apache 2.0)"
+            "Pillow (HPND) • Requests (Apache 2.0)\n"
+            "llama-cpp-python (MIT) • pyttsx3 (MIT)"
         )
 
         from kivy.uix.button import Button
@@ -31675,6 +33322,9 @@ class SpoonfedApp(App):
         if not self.root:
             return
 
+        # Android uses built-in device TTS, so hide this section completely.
+        self._set_download_tts_section_visible(not _IS_ANDROID)
+
         # ── DB status ──
         db_status_lbl = self.root.ids.get('download_data_db_status')
         db_btn = self.root.ids.get('download_data_db_btn')
@@ -31714,27 +33364,60 @@ class SpoonfedApp(App):
 
         threading.Thread(target=self._check_llm_status_worker, daemon=True).start()
 
+        # ── TTS status (desktop only) ──
+        tts_status_lbl = self.root.ids.get('download_data_tts_status')
+        tts_btn        = self.root.ids.get('download_data_tts_btn')
+        tts_progress   = self.root.ids.get('download_data_tts_progress')
+        if _IS_ANDROID:
+            return
+        if tts_status_lbl:
+            tts_status_lbl.text  = 'Checking…'
+            tts_status_lbl.color = (0.65, 0.63, 0.60, 1)
+        if tts_btn:
+            tts_btn.disabled = True
+        if tts_progress:
+            tts_progress.value   = 0
+            tts_progress.opacity = 0
+        threading.Thread(target=self._check_tts_status_worker, daemon=True).start()
+
+    def _set_download_tts_section_visible(self, visible: bool):
+        """Show/hide the TTS controls block on the Download Data screen."""
+        if not self.root:
+            return
+
+        defaults = {
+            'download_data_tts_separator': 1,
+            'download_data_tts_header': 32,
+            'download_data_tts_status': 24,
+            'download_data_tts_btn': 50,
+            'download_data_tts_progress': 6,
+            'download_data_tts_spacer': 40,
+        }
+
+        for widget_id, default_height in defaults.items():
+            w = self.root.ids.get(widget_id)
+            if not w:
+                continue
+
+            if visible:
+                w.height = default_height
+                w.opacity = 1 if widget_id != 'download_data_tts_progress' else 0
+                if hasattr(w, 'disabled'):
+                    w.disabled = False
+            else:
+                w.height = 0
+                w.opacity = 0
+                if hasattr(w, 'disabled'):
+                    w.disabled = True
+
     def _check_llm_status_worker(self):
         """Background: query LLM download/load status and update UI."""
         from kivy.clock import Clock
         try:
-            from reading.translation import get_download_status, is_model_loaded, _is_android
-            if not _is_android():
-                def _set(dt):
-                    lbl = self.root.ids.get('download_data_llm_status') if self.root else None
-                    btn = self.root.ids.get('download_data_llm_btn') if self.root else None
-                    if lbl:
-                        lbl.text = 'Not available (desktop)'
-                        lbl.color = (0.65, 0.63, 0.60, 1)
-                    if btn:
-                        btn.text = 'Not available'
-                        btn.disabled = True
-                        btn.background_color = (0.22, 0.22, 0.25, 1)
-                Clock.schedule_once(_set, 0)
-                return
-
+            from reading.translation import get_download_status, is_model_loaded, desktop_last_error
             status = get_download_status()
             loaded = is_model_loaded()
+            runtime_err = desktop_last_error() if not _IS_ANDROID else None
 
             def _update(dt):
                 if not self.root:
@@ -31751,11 +33434,18 @@ class SpoonfedApp(App):
                     btn.disabled = True
                     btn.background_color = (0.22, 0.22, 0.25, 1)
                 elif status == 'downloaded':
-                    lbl.text = 'Downloaded (loads on first translation)'
-                    lbl.color = (0.4, 0.8, 0.4, 1)
-                    btn.text = 'Already Downloaded'
-                    btn.disabled = True
-                    btn.background_color = (0.22, 0.22, 0.25, 1)
+                    if runtime_err:
+                        lbl.text = f'Downloaded, but runtime failed: {runtime_err}'
+                        lbl.color = (0.9, 0.5, 0.3, 1)
+                        btn.text = 'Retry Setup'
+                        btn.disabled = False
+                        btn.background_color = (0.18, 0.55, 0.95, 1)
+                    else:
+                        lbl.text = 'Downloaded (loads on first translation)'
+                        lbl.color = (0.4, 0.8, 0.4, 1)
+                        btn.text = 'Already Downloaded'
+                        btn.disabled = True
+                        btn.background_color = (0.22, 0.22, 0.25, 1)
                 elif status == 'downloading':
                     lbl.text = 'Downloading…'
                     lbl.color = (0.9, 0.8, 0.3, 1)
@@ -31763,21 +33453,240 @@ class SpoonfedApp(App):
                     btn.disabled = True
                     btn.background_color = (0.22, 0.22, 0.25, 1)
                 elif status == 'not_downloaded':
-                    lbl.text = 'Not installed (~220 MB)'
+                    size_str = '~220 MB' if _IS_ANDROID else '~229 MB'
+                    lbl.text = f'Not installed ({size_str})'
                     lbl.color = (0.9, 0.5, 0.3, 1)
                     btn.text = 'Download Translation Model'
                     btn.disabled = False
                     btn.background_color = (0.18, 0.55, 0.95, 1)
-                else:
-                    lbl.text = f'Status: {status}'
-                    lbl.color = (0.9, 0.5, 0.3, 1)
-                    btn.text = 'Download Translation Model'
-                    btn.disabled = False
-                    btn.background_color = (0.18, 0.55, 0.95, 1)
+                elif status == 'unavailable':
+                    lbl.text = 'Translation not available on this platform'
+                    lbl.color = (0.55, 0.55, 0.55, 1)
+                    btn.text = 'Unavailable'
+                    btn.disabled = True
+                    btn.background_color = (0.22, 0.22, 0.25, 1)
 
             Clock.schedule_once(_update, 0)
         except Exception as e:
             Logger.error(f'DownloadData: LLM status check: {e}')
+
+    def _check_tts_status_worker(self):
+        """Background: check Windows Japanese voice install state and update UI."""
+        from kivy.clock import Clock
+        try:
+            if _IS_ANDROID:
+                def _android(dt):
+                    if not self.root:
+                        return
+                    lbl = self.root.ids.get('download_data_tts_status')
+                    btn = self.root.ids.get('download_data_tts_btn')
+                    if lbl:
+                        lbl.text  = 'Using device voice (Android)'
+                        lbl.color = (0.4, 0.8, 0.4, 1)
+                    if btn:
+                        btn.text     = 'No action needed'
+                        btn.disabled = True
+                        btn.background_color = (0.22, 0.22, 0.25, 1)
+                Clock.schedule_once(_android, 0)
+                return
+
+            from dictionary.tts import best_japanese_voice_id
+            voice_id = best_japanese_voice_id()
+
+            def _set(dt, _vid=voice_id):
+                if not self.root:
+                    return
+                lbl = self.root.ids.get('download_data_tts_status')
+                btn = self.root.ids.get('download_data_tts_btn')
+                bar = self.root.ids.get('download_data_tts_progress')
+                if bar:
+                    bar.opacity = 0
+                if lbl:
+                    if _vid:
+                        lbl.text  = 'Ready — Windows Japanese voice installed'
+                        lbl.color = (0.4, 0.8, 0.4, 1)
+                    else:
+                        lbl.text  = 'Not installed — Japanese language pack required'
+                        lbl.color = (0.9, 0.5, 0.3, 1)
+                if btn:
+                    if _vid:
+                        btn.text     = 'Already Installed'
+                        btn.disabled = True
+                        btn.background_color = (0.22, 0.22, 0.25, 1)
+                    else:
+                        btn.text     = 'Open Windows Language Settings'
+                        btn.disabled = False
+                        btn.background_color = (0.18, 0.55, 0.95, 1)
+            Clock.schedule_once(_set, 0)
+        except Exception as e:
+            Logger.error(f'DownloadData: TTS status check: {e}')
+
+    def download_data_tts_pressed(self):
+        """Show TTS install instructions then open Windows Language Settings."""
+        if _IS_ANDROID:
+            # Android uses device TTS; this action is desktop-only.
+            try:
+                from kivy.uix.label import Label
+                from kivy.metrics import dp
+                Popup(
+                    title='Android TTS',
+                    content=Label(
+                        text='Sakubo uses your device built-in TTS on Android.\nNo download is needed.',
+                        font_name='fonts/NotoSansJP-Regular.ttf',
+                        halign='center',
+                        valign='middle',
+                    ),
+                    size_hint=(None, None),
+                    size=(dp(420), dp(180)),
+                    auto_dismiss=True,
+                ).open()
+            except Exception as e:
+                Logger.error(f'DownloadData: Android TTS info popup failed: {e}')
+            return
+
+        import subprocess
+        from kivy.uix.boxlayout import BoxLayout
+        from kivy.uix.label import Label
+        from kivy.uix.button import Button
+        from kivy.metrics import dp
+
+        FONT = 'fonts/NotoSansJP-Regular.ttf'
+
+        instructions = (
+            'To install the Japanese voice:\n\n'
+            '1.  Click [b]Add a language[/b] in the window that opens\n'
+            '2.  Search for [b]Japanese[/b] and install it\n'
+            '3.  Once installed, click [b]Japanese[/b] → [b]Language options[/b]\n'
+            '4.  Under [b]Speech[/b], click [b]Download[/b]\n'
+            '5.  Wait for the download to finish, then tap [b]Check Again[/b] below'
+        )
+
+        layout = BoxLayout(orientation='vertical', spacing=dp(12), padding=dp(16))
+
+        lbl = Label(
+            text=instructions,
+            markup=True,
+            font_name=FONT,
+            font_size=dp(13),
+            halign='left',
+            valign='top',
+            size_hint_y=None,
+        )
+        lbl.bind(texture_size=lambda inst, val: setattr(inst, 'height', val[1]))
+        lbl.bind(width=lambda inst, val: setattr(inst, 'text_size', (val, None)))
+        layout.add_widget(lbl)
+
+        btn_row = BoxLayout(size_hint_y=None, height=dp(44), spacing=dp(10))
+
+        open_btn = Button(
+            text='Open Language Settings',
+            font_name=FONT,
+            background_color=(0.18, 0.55, 0.95, 1),
+            size_hint_x=0.6,
+        )
+        check_btn = Button(
+            text='Check Again',
+            font_name=FONT,
+            background_color=(0.28, 0.65, 0.35, 1),
+            size_hint_x=0.4,
+        )
+        btn_row.add_widget(open_btn)
+        btn_row.add_widget(check_btn)
+        layout.add_widget(btn_row)
+
+        popup = Popup(
+            title='Install Japanese TTS Voice',
+            content=layout,
+            size_hint=(None, None),
+            size=(dp(440), dp(300)),
+            auto_dismiss=True,
+        )
+
+        def _open_settings(inst):
+            try:
+                import os as _os
+                _os.startfile('ms-settings:regionlanguage')
+            except Exception as e:
+                Logger.error(f'DownloadData: could not open Language Settings: {e}')
+
+        def _check_again(inst):
+            popup.dismiss()
+            import threading
+            threading.Thread(target=self._check_tts_status_worker, daemon=True).start()
+
+        open_btn.bind(on_release=_open_settings)
+        check_btn.bind(on_release=_check_again)
+        popup.open()
+
+    def _download_tts_worker(self):
+        """Background: download VOICEVOX engine with progress updates."""
+        from kivy.clock import Clock
+        from dictionary.voicevox import download_engine
+
+        def _progress(pct):
+            def _upd(dt, p=pct):
+                if not self.root:
+                    return
+                lbl = self.root.ids.get('download_data_tts_status')
+                bar = self.root.ids.get('download_data_tts_progress')
+                if lbl:
+                    lbl.text  = f'Downloading… {int(p)}%'
+                    lbl.color = (0.9, 0.8, 0.3, 1)
+                if bar:
+                    bar.value = p
+            Clock.schedule_once(_upd, 0)
+
+        result = download_engine(progress_cb=_progress)
+
+        def _finish(dt):
+            if not self.root:
+                return
+            btn = self.root.ids.get('download_data_tts_btn')
+            lbl = self.root.ids.get('download_data_tts_status')
+            bar = self.root.ids.get('download_data_tts_progress')
+            if result == 'OK':
+                if lbl:
+                    lbl.text  = 'Download complete — starting engine…'
+                    lbl.color = (0.9, 0.8, 0.3, 1)
+                if btn:
+                    btn.text     = 'Already Downloaded'
+                    btn.disabled = True
+                    btn.background_color = (0.22, 0.22, 0.25, 1)
+                if bar:
+                    bar.value = 100
+                import threading
+                threading.Thread(target=self._voicevox_start_and_update, daemon=True).start()
+            else:
+                msg = result[6:] if result.startswith('error:') else result
+                if lbl:
+                    lbl.text  = f'Error: {msg}'
+                    lbl.color = (0.9, 0.4, 0.3, 1)
+                if btn:
+                    btn.text     = 'Retry'
+                    btn.disabled = False
+                    btn.background_color = (0.18, 0.55, 0.95, 1)
+                if bar:
+                    bar.opacity = 0
+        Clock.schedule_once(_finish, 0)
+
+    def _voicevox_start_and_update(self):
+        """Start VOICEVOX engine after download and update status label."""
+        from kivy.clock import Clock
+        from dictionary.voicevox import start_engine
+        ok = start_engine()
+
+        def _upd(dt, _ok=ok):
+            if not self.root:
+                return
+            lbl = self.root.ids.get('download_data_tts_status')
+            if lbl:
+                if _ok:
+                    lbl.text  = 'Installed — offline TTS ready'
+                    lbl.color = (0.4, 0.8, 0.4, 1)
+                else:
+                    lbl.text  = 'Installed (restart app to activate TTS)'
+                    lbl.color = (0.9, 0.8, 0.3, 1)
+        Clock.schedule_once(_upd, 0)
 
     def download_data_db_pressed(self):
         """Handle DB download/update button press on the Download Data screen."""
@@ -31965,6 +33874,8 @@ class SpoonfedApp(App):
                     from sync.sync import run_full_sync
                     ok, msg = run_full_sync()
                     Logger.info(f'Sync: post-DB-update sync: {msg}')
+                    if ok:
+                        self._record_sync_success()
             except Exception:
                 pass
 
@@ -31995,7 +33906,7 @@ class SpoonfedApp(App):
             Clock.schedule_once(_err, 0)
 
     def download_data_llm_pressed(self):
-        """Handle LLM download button press on the Download Data screen."""
+        """Handle LLM/translation model download button press on the Download Data screen."""
         import threading
         if not self.root:
             return
@@ -32014,7 +33925,116 @@ class SpoonfedApp(App):
             llm_progress.opacity = 1
             llm_progress.value = 0
 
-        threading.Thread(target=self._download_data_llm_worker, daemon=True).start()
+        if not _IS_ANDROID:
+            threading.Thread(target=self._download_data_gguf_worker, daemon=True).start()
+        else:
+            threading.Thread(target=self._download_data_llm_worker, daemon=True).start()
+
+    def _download_data_gguf_worker(self):
+        """Background: download LFM2-350M-ENJP-MT GGUF model (~229 MB)."""
+        from kivy.clock import Clock
+
+        def _installing(dt):
+            if not self.root:
+                return
+            lbl = self.root.ids.get('download_data_llm_status')
+            if lbl:
+                lbl.text = 'Downloading… (this may take a few minutes)'
+                lbl.color = (0.9, 0.8, 0.3, 1)
+        Clock.schedule_once(_installing, 0)
+
+        try:
+            from reading.translation import (
+                start_model_download,
+                get_download_status,
+                desktop_download_progress,
+                _desktop_ensure_model_loaded,
+                desktop_last_error,
+            )
+
+            result = start_model_download()
+            if result.startswith('error:'):
+                def _err(dt):
+                    if not self.root:
+                        return
+                    btn = self.root.ids.get('download_data_llm_btn')
+                    lbl = self.root.ids.get('download_data_llm_status')
+                    if lbl:
+                        lbl.text = f'Error: {result[6:]}'
+                        lbl.color = (0.9, 0.4, 0.3, 1)
+                    if btn:
+                        btn.text = 'Retry'
+                        btn.disabled = False
+                        btn.background_color = (0.18, 0.55, 0.95, 1)
+                Clock.schedule_once(_err, 0)
+                return
+
+            import time
+            start = time.time()
+            while time.time() - start < 900:
+                time.sleep(1)
+                status = get_download_status()
+                pct, done_b, total_b = desktop_download_progress()
+
+                def _prog(dt, s=status, p=pct, d=done_b, t=total_b):
+                    if not self.root:
+                        return
+                    lbl = self.root.ids.get('download_data_llm_status')
+                    bar = self.root.ids.get('download_data_llm_progress')
+                    if bar:
+                        bar.opacity = 1
+                        bar.value = max(0, min(100, p))
+                    if lbl and s == 'downloading':
+                        if t > 0:
+                            lbl.text = f'Downloading… {p}% ({d / (1024 * 1024):.1f}/{t / (1024 * 1024):.1f} MB)'
+                        else:
+                            lbl.text = f'Downloading… {p}%'
+                        lbl.color = (0.9, 0.8, 0.3, 1)
+                Clock.schedule_once(_prog, 0)
+
+                if status == 'downloaded':
+                    break
+
+            def _finalizing(dt):
+                if not self.root:
+                    return
+                lbl = self.root.ids.get('download_data_llm_status')
+                if lbl:
+                    lbl.text = 'Finalizing model…'
+                    lbl.color = (0.9, 0.8, 0.3, 1)
+            Clock.schedule_once(_finalizing, 0)
+
+            result = _desktop_ensure_model_loaded()
+        except Exception as e:
+            result = f'error:{e}'
+            desktop_last_error = lambda: str(e)
+
+        def _finish(dt):
+            if not self.root:
+                return
+            btn = self.root.ids.get('download_data_llm_btn')
+            lbl = self.root.ids.get('download_data_llm_status')
+            bar = self.root.ids.get('download_data_llm_progress')
+            if result == 'OK':
+                if lbl:
+                    lbl.text = 'Installed and ready (offline)'
+                    lbl.color = (0.4, 0.8, 0.4, 1)
+                if btn:
+                    btn.text = 'Already Downloaded'
+                    btn.disabled = True
+                    btn.background_color = (0.22, 0.22, 0.25, 1)
+                if bar:
+                    bar.value = 100
+            else:
+                err_text = desktop_last_error() or (result[6:] if result.startswith('error:') else result)
+                if lbl:
+                    lbl.text = f'Error: {err_text}'
+                    lbl.color = (0.9, 0.4, 0.3, 1)
+                if btn:
+                    btn.text = 'Retry'
+                    btn.disabled = False
+                    btn.background_color = (0.18, 0.55, 0.95, 1)
+        Clock.schedule_once(_finish, 0)
 
     def _download_data_llm_worker(self):
         """Background: start LLM download and poll status until complete."""
@@ -32109,7 +34129,6 @@ class SpoonfedApp(App):
         on_complete_callback(success: bool) is called when download finishes or is skipped.
         """
         import threading
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.label import Label
         from kivy.uix.button import Button
@@ -32133,7 +34152,7 @@ class SpoonfedApp(App):
         msg_lbl = Label(
             text=(
                 'The translator needs to download a language\n'
-                'model before it can work offline (~220 MB).\n\n'
+                'model before it can work offline (~229 MB).\n\n'
                 'This is a one-time download.\n'
                 'Connect to Wi-Fi for the best experience.'
             ),
@@ -32204,7 +34223,7 @@ class SpoonfedApp(App):
             def _worker():
                 from kivy.clock import Clock
                 try:
-                    from reading.translation import start_model_download, get_download_status
+                    from reading.translation import start_model_download, get_download_status, desktop_download_progress
                     result = start_model_download()
                     if result.startswith('error:'):
                         def _e(dt):
@@ -32220,12 +34239,20 @@ class SpoonfedApp(App):
                     while time.time() - start < 900:
                         time.sleep(3)
                         status = get_download_status()
-                        def _u(dt, s=status):
+                        progress = desktop_download_progress() if not _IS_ANDROID else (0, 0, 0)
+
+                        def _u(dt, s=status, p=progress):
                             if s == 'downloaded':
                                 status_lbl.text = 'Download complete!'
                                 status_lbl.color = (0.4, 0.8, 0.4, 1)
                             elif s == 'downloading':
-                                status_lbl.text = 'Downloading… please wait'
+                                pct, done_b, total_b = p
+                                if total_b > 0:
+                                    done_mb = done_b / (1024 * 1024)
+                                    total_mb = total_b / (1024 * 1024)
+                                    status_lbl.text = f'Downloading… {pct}% ({done_mb:.1f}/{total_mb:.1f} MB)'
+                                else:
+                                    status_lbl.text = f'Downloading… {pct}%'
                         Clock.schedule_once(_u, 0)
 
                         if status == 'downloaded':
@@ -32256,8 +34283,27 @@ class SpoonfedApp(App):
 
         download_btn.bind(on_release=on_download)
 
+    def _show_gguf_download_prompt(self, input_text: str, direction: str):
+        """Desktop: prompt user to download GGUF model, then translate when ready."""
+        def _on_done(success):
+            if success:
+                self._show_translation_loading(input_text, direction)
+                import threading
+                threading.Thread(
+                    target=self._translate_text_thread,
+                    args=(input_text, direction),
+                    daemon=True,
+                ).start()
+        self._show_llm_download_popup(on_complete_callback=_on_done)
+
     def on_stop(self):
         """Save state when app closes."""
+        # Proactively close desktop LLM runtime to avoid close-time cleanup crashes.
+        try:
+            from reading.translation import shutdown_desktop_runtime
+            shutdown_desktop_runtime()
+        except Exception as e:
+            Logger.warning(f'App: Translation runtime shutdown skipped: {e}')
         try:
             # Save lesson queue to disk
             self._save_lesson_queue()
@@ -32271,15 +34317,20 @@ class SpoonfedApp(App):
                 ls._stop_reading_timer()
         except Exception as e:
             Logger.error(f'App: Error stopping reading timer on close: {e}')
-        # Push data to Supabase before closing (blocking, short timeout)
+        # Avoid network work in on_stop; blocking requests make close feel hung.
         try:
-            from sync import supabase_client as sb
-            if sb.is_logged_in() and sb.is_configured():
-                from sync.sync import run_full_sync
-                ok, msg = run_full_sync()
-                Logger.info(f'Sync: on_stop sync: {msg}')
+            if getattr(self, '_close_sync_done', False):
+                Logger.info('Sync: on_stop sync skipped (already done in close flow)')
+            else:
+                Logger.info('Sync: on_stop network sync skipped to keep shutdown fast')
         except Exception as e:
             Logger.warning(f'Sync: on_stop sync skipped: {e}')
+        # On desktop: bypass Python's atexit/GC cleanup phase to prevent native-
+        # library crashes (pyttsx3 COM STA thread, llama_cpp C++ threads, etc.)
+        # being torn down non-deterministically.  The OS reclaims everything cleanly.
+        if not _IS_ANDROID:
+            import os as _os
+            _os._exit(0)
         return True
 
         # Optional touch debug: helps diagnose invisible overlays stealing clicks.
@@ -32464,7 +34515,6 @@ class SpoonfedApp(App):
     def _show_queue_position_popup(self, on_chosen):
         """Show a popup asking user whether to add to front or back of queue.
         Calls on_chosen('front') or on_chosen('back')."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         from kivy.uix.widget import Widget
@@ -32591,7 +34641,6 @@ class SpoonfedApp(App):
                     
                     if lesson and len(lesson.get('items', [])) == 0:
                         # Show popup informing user
-                        from kivy.uix.popup import Popup
                         from kivy.uix.widget import Widget
                         
                         content = BoxLayout(orientation='vertical', spacing=dp(8), padding=dp(8))
@@ -32667,7 +34716,7 @@ class SpoonfedApp(App):
                                 except Exception:
                                     pass
                                 layout.add_widget(btn)
-                                popup = Popup(title='Study limit prevents adding', content=layout, size_hint=(None, None), size=(min(dp(520), Window.width*0.8), min(dp(300), Window.height*0.4)), auto_dismiss=False)
+                                popup = Popup(title='Study limit prevents adding', content=layout, size_hint=(None, None), size=(min(dp(520), _app_content_width() * 0.8), min(dp(300), Window.height*0.4)), auto_dismiss=False)
                                 btn.bind(on_release=lambda *_: popup.dismiss())
                                 popup.open()
                             except Exception:
@@ -32683,7 +34732,6 @@ class SpoonfedApp(App):
                 Logger.info(f'LessonQueue: Lesson {p} has no new vectors (all already in SRS)')
                 # Show popup informing user
                 try:
-                    from kivy.uix.popup import Popup
                     from kivy.core.window import Window
                     
                     content = BoxLayout(orientation='vertical', spacing=dp(8), padding=dp(16))
@@ -32865,8 +34913,23 @@ class SpoonfedApp(App):
                         return
                 except Exception:
                     pass
+            # Premium / lock check — grammar-only lessons past threshold are skipped
+            from sync.subscription import has_premium_access as _hpa
+            _has_premium = _hpa()
+            # Precompute free threshold for each level range
+            def _get_threshold(num_int):
+                if num_int <= 50:
+                    return None  # kana: always free
+                if num_int <= 271:
+                    return 69    # N5
+                for _lo, _hi in [(272, 482), (483, 908), (909, 1361), (1362, 2093)]:
+                    if _lo <= num_int <= _hi:
+                        _ks = sorted([int(k) for k in idx.keys() if _lo <= int(k) <= _hi])
+                        return _ks[4] if len(_ks) >= 5 else (_ks[-1] if _ks else 0)
+                return 0
             to_add = []
             skipped_count = 0
+            locked_skipped = 0
             def _norm(p):
                 sp = str(p)
                 if sp.lower().startswith('dictionary'):
@@ -32880,6 +34943,10 @@ class SpoonfedApp(App):
                 elif 'vocab' in types:
                     p = _norm(types['vocab'])
                 elif 'grammar' in types:
+                    _thr = _get_threshold(int(num))
+                    if not _has_premium and _thr is not None and int(num) > _thr:
+                        locked_skipped += 1
+                        continue
                     p = _norm(types['grammar'])
                 if p:
                     if p not in self._lesson_queue:
@@ -32887,9 +34954,13 @@ class SpoonfedApp(App):
                             to_add.append(p)
                         else:
                             skipped_count += 1
-            if not to_add:
+            if not to_add and locked_skipped == 0:
                 Logger.info(f'Spoonfed: No new lessons to add, skipped {skipped_count}')
                 return
+            if not to_add:
+                self._show_locked_items_notice(locked_skipped)
+                return
+            _locked_skipped_ref = locked_skipped
             def _do_add(position):
                 if position == 'front':
                     for i, p in enumerate(to_add):
@@ -32907,6 +34978,9 @@ class SpoonfedApp(App):
                     except Exception:
                         pass
                 Clock.schedule_once(_refresh, 0)
+                if _locked_skipped_ref > 0:
+                    from kivy.clock import Clock as _Clk
+                    _Clk.schedule_once(lambda dt: self._show_locked_items_notice(_locked_skipped_ref), 0.15)
             self._show_queue_position_popup(_do_add)
         except Exception as e:
             Logger.error(f'Spoonfed: Error adding to queue: {e}')
@@ -32983,33 +35057,53 @@ class SpoonfedApp(App):
                         return
                 except Exception:
                     pass
+            from sync.subscription import has_premium_access as _hpa
+            _has_premium = _hpa()
+            _free_threshold = 69  # N5: lessons 1-69 are free
             to_add = []
             skipped_count = 0
-            # Filter for N5 lessons (51-251) - both vocab and grammar
+            locked_skipped = 0
+            # Filter for N5 lessons (51-251) - vocab always free, grammar checked
             for num, types in idx.items():
                 if 51 <= int(num) <= 251:
                     p = None
                     if 'vocab' in types:
                         p = _norm(types['vocab'])
                     elif 'grammar' in types:
+                        if not _has_premium and int(num) > _free_threshold:
+                            locked_skipped += 1
+                            continue
                         p = _norm(types['grammar'])
                     if p and p not in self._lesson_queue:
                         if self._lesson_has_new_vectors(p):
                             to_add.append(p)
                         else:
                             skipped_count += 1
-            # Also add N5 graded readings
+            # Also add N5 graded readings (respecting lock)
             try:
                 import glob as _glob
+                import json as _rjson
                 for _rpath in sorted(_glob.glob('readings/n5/*.json')):
+                    try:
+                        with open(_rpath, 'r', encoding='utf-8') as _rf:
+                            _rln = _rjson.load(_rf).get('lesson_number', 0)
+                        if not _has_premium and _rln > _free_threshold:
+                            locked_skipped += 1
+                            continue
+                    except Exception:
+                        pass
                     _rq = f'graded:{_rpath}'
                     if _rq not in self._lesson_queue:
                         to_add.append(_rq)
             except Exception:
                 pass
-            if not to_add:
+            if not to_add and locked_skipped == 0:
                 Logger.info(f'N5: No new lessons to add, skipped {skipped_count}')
                 return
+            if not to_add:
+                self._show_locked_items_notice(locked_skipped)
+                return
+            _locked_ref = locked_skipped
             def _do_add(position):
                 if position == 'front':
                     for i, p in enumerate(to_add):
@@ -33027,6 +35121,9 @@ class SpoonfedApp(App):
                     except Exception:
                         pass
                 Clock.schedule_once(_refresh, 0)
+                if _locked_ref > 0:
+                    from kivy.clock import Clock as _Clk
+                    _Clk.schedule_once(lambda dt: self._show_locked_items_notice(_locked_ref), 0.15)
             self._show_queue_position_popup(_do_add)
         except Exception:
             pass
@@ -33089,34 +35186,55 @@ class SpoonfedApp(App):
         try:
             if not hasattr(self, '_lesson_queue'):
                 self._lesson_queue = []
+            from sync.subscription import has_premium_access as _hpa
+            _has_premium = _hpa()
+            _n4_keys = sorted([int(k) for k in idx.keys() if 272 <= int(k) <= 482])
+            _free_threshold = _n4_keys[4] if len(_n4_keys) >= 5 else (_n4_keys[-1] if _n4_keys else 0)
             to_add = []
             skipped_count = 0
+            locked_skipped = 0
             for num, types in idx.items():
                 if 252 <= int(num) <= 431:
                     p = None
                     if 'vocab' in types:
                         p = _norm(types['vocab'])
                     elif 'grammar' in types:
+                        if not _has_premium and int(num) > _free_threshold:
+                            locked_skipped += 1
+                            continue
                         p = _norm(types['grammar'])
                     if p and p not in self._lesson_queue:
                         if self._lesson_has_new_vectors(p):
                             to_add.append(p)
                         else:
                             skipped_count += 1
-            # Also add N4 graded readings
+            # Also add N4 graded readings (respecting lock)
             try:
                 import glob as _glob
+                import json as _rjson
                 for _rpath in sorted(_glob.glob('readings/n4/*.json')):
                     if os.path.basename(_rpath).startswith('_'):
                         continue
+                    try:
+                        with open(_rpath, 'r', encoding='utf-8') as _rf:
+                            _rln = _rjson.load(_rf).get('lesson_number', 0)
+                        if not _has_premium and _rln > _free_threshold:
+                            locked_skipped += 1
+                            continue
+                    except Exception:
+                        pass
                     _rq = f'graded:{_rpath}'
                     if _rq not in self._lesson_queue:
                         to_add.append(_rq)
             except Exception:
                 pass
-            if not to_add:
+            if not to_add and locked_skipped == 0:
                 Logger.info(f'N4: No new lessons to add, skipped {skipped_count}')
                 return
+            if not to_add:
+                self._show_locked_items_notice(locked_skipped)
+                return
+            _locked_ref = locked_skipped
             def _do_add(position):
                 if position == 'front':
                     for i, p in enumerate(to_add):
@@ -33134,6 +35252,9 @@ class SpoonfedApp(App):
                     except Exception:
                         pass
                 Clock.schedule_once(_refresh, 0)
+                if _locked_ref > 0:
+                    from kivy.clock import Clock as _Clk
+                    _Clk.schedule_once(lambda dt: self._show_locked_items_notice(_locked_ref), 0.15)
             self._show_queue_position_popup(_do_add)
         except Exception:
             pass
@@ -33193,34 +35314,55 @@ class SpoonfedApp(App):
         try:
             if not hasattr(self, '_lesson_queue'):
                 self._lesson_queue = []
+            from sync.subscription import has_premium_access as _hpa
+            _has_premium = _hpa()
+            _n3_keys = sorted([int(k) for k in idx.keys() if 483 <= int(k) <= 908])
+            _free_threshold = _n3_keys[4] if len(_n3_keys) >= 5 else (_n3_keys[-1] if _n3_keys else 0)
             to_add = []
             skipped_count = 0
+            locked_skipped = 0
             for num, types in idx.items():
                 if 432 <= int(num) <= 862:
                     p = None
                     if 'vocab' in types:
                         p = _norm(types['vocab'])
                     elif 'grammar' in types:
+                        if not _has_premium and int(num) > _free_threshold:
+                            locked_skipped += 1
+                            continue
                         p = _norm(types['grammar'])
                     if p and p not in self._lesson_queue:
                         if self._lesson_has_new_vectors(p):
                             to_add.append(p)
                         else:
                             skipped_count += 1
-            # Also add N3 graded readings
+            # Also add N3 graded readings (respecting lock)
             try:
                 import glob as _glob
+                import json as _rjson
                 for _rpath in sorted(_glob.glob('readings/n3/*.json')):
                     if os.path.basename(_rpath).startswith('_'):
                         continue
+                    try:
+                        with open(_rpath, 'r', encoding='utf-8') as _rf:
+                            _rln = _rjson.load(_rf).get('lesson_number', 0)
+                        if not _has_premium and _rln > _free_threshold:
+                            locked_skipped += 1
+                            continue
+                    except Exception:
+                        pass
                     _rq = f'graded:{_rpath}'
                     if _rq not in self._lesson_queue:
                         to_add.append(_rq)
             except Exception:
                 pass
-            if not to_add:
+            if not to_add and locked_skipped == 0:
                 Logger.info(f'N3: No new lessons to add, skipped {skipped_count}')
                 return
+            if not to_add:
+                self._show_locked_items_notice(locked_skipped)
+                return
+            _locked_ref = locked_skipped
             def _do_add(position):
                 if position == 'front':
                     for i, p in enumerate(to_add):
@@ -33238,6 +35380,9 @@ class SpoonfedApp(App):
                     except Exception:
                         pass
                 Clock.schedule_once(_refresh, 0)
+                if _locked_ref > 0:
+                    from kivy.clock import Clock as _Clk
+                    _Clk.schedule_once(lambda dt: self._show_locked_items_notice(_locked_ref), 0.15)
             self._show_queue_position_popup(_do_add)
         except Exception:
             pass
@@ -33297,34 +35442,55 @@ class SpoonfedApp(App):
         try:
             if not hasattr(self, '_lesson_queue'):
                 self._lesson_queue = []
+            from sync.subscription import has_premium_access as _hpa
+            _has_premium = _hpa()
+            _n2_keys = sorted([int(k) for k in idx.keys() if 909 <= int(k) <= 1361])
+            _free_threshold = _n2_keys[4] if len(_n2_keys) >= 5 else (_n2_keys[-1] if _n2_keys else 0)
             to_add = []
             skipped_count = 0
+            locked_skipped = 0
             for num, types in idx.items():
                 if 863 <= int(num) <= 1317:
                     p = None
                     if 'vocab' in types:
                         p = _norm(types['vocab'])
                     elif 'grammar' in types:
+                        if not _has_premium and int(num) > _free_threshold:
+                            locked_skipped += 1
+                            continue
                         p = _norm(types['grammar'])
                     if p and p not in self._lesson_queue:
                         if self._lesson_has_new_vectors(p):
                             to_add.append(p)
                         else:
                             skipped_count += 1
-            # Also add N2 graded readings
+            # Also add N2 graded readings (respecting lock)
             try:
                 import glob as _glob
+                import json as _rjson
                 for _rpath in sorted(_glob.glob('readings/n2/*.json')):
                     if os.path.basename(_rpath).startswith('_'):
                         continue
+                    try:
+                        with open(_rpath, 'r', encoding='utf-8') as _rf:
+                            _rln = _rjson.load(_rf).get('lesson_number', 0)
+                        if not _has_premium and _rln > _free_threshold:
+                            locked_skipped += 1
+                            continue
+                    except Exception:
+                        pass
                     _rq = f'graded:{_rpath}'
                     if _rq not in self._lesson_queue:
                         to_add.append(_rq)
             except Exception:
                 pass
-            if not to_add:
+            if not to_add and locked_skipped == 0:
                 Logger.info(f'N2: No new lessons to add, skipped {skipped_count}')
                 return
+            if not to_add:
+                self._show_locked_items_notice(locked_skipped)
+                return
+            _locked_ref = locked_skipped
             def _do_add(position):
                 if position == 'front':
                     for i, p in enumerate(to_add):
@@ -33342,6 +35508,9 @@ class SpoonfedApp(App):
                     except Exception:
                         pass
                 Clock.schedule_once(_refresh, 0)
+                if _locked_ref > 0:
+                    from kivy.clock import Clock as _Clk
+                    _Clk.schedule_once(lambda dt: self._show_locked_items_notice(_locked_ref), 0.15)
             self._show_queue_position_popup(_do_add)
         except Exception:
             pass
@@ -33401,34 +35570,55 @@ class SpoonfedApp(App):
         try:
             if not hasattr(self, '_lesson_queue'):
                 self._lesson_queue = []
+            from sync.subscription import has_premium_access as _hpa
+            _has_premium = _hpa()
+            _n1_keys = sorted([int(k) for k in idx.keys() if 1362 <= int(k) <= 2093])
+            _free_threshold = _n1_keys[4] if len(_n1_keys) >= 5 else (_n1_keys[-1] if _n1_keys else 0)
             to_add = []
             skipped_count = 0
+            locked_skipped = 0
             for num, types in idx.items():
                 if 1362 <= int(num) <= 2156:
                     p = None
                     if 'vocab' in types:
                         p = _norm(types['vocab'])
                     elif 'grammar' in types:
+                        if not _has_premium and int(num) > _free_threshold:
+                            locked_skipped += 1
+                            continue
                         p = _norm(types['grammar'])
                     if p and p not in self._lesson_queue:
                         if self._lesson_has_new_vectors(p):
                             to_add.append(p)
                         else:
                             skipped_count += 1
-            # Also add N1 graded readings
+            # Also add N1 graded readings (respecting lock)
             try:
                 import glob as _glob
+                import json as _rjson
                 for _rpath in sorted(_glob.glob('readings/n1/*.json')):
                     if os.path.basename(_rpath).startswith('_'):
                         continue
+                    try:
+                        with open(_rpath, 'r', encoding='utf-8') as _rf:
+                            _rln = _rjson.load(_rf).get('lesson_number', 0)
+                        if not _has_premium and _rln > _free_threshold:
+                            locked_skipped += 1
+                            continue
+                    except Exception:
+                        pass
                     _rq = f'graded:{_rpath}'
                     if _rq not in self._lesson_queue:
                         to_add.append(_rq)
             except Exception:
                 pass
-            if not to_add:
+            if not to_add and locked_skipped == 0:
                 Logger.info(f'N1: No new lessons to add, skipped {skipped_count}')
                 return
+            if not to_add:
+                self._show_locked_items_notice(locked_skipped)
+                return
+            _locked_ref = locked_skipped
             def _do_add(position):
                 if position == 'front':
                     for i, p in enumerate(to_add):
@@ -33446,6 +35636,9 @@ class SpoonfedApp(App):
                     except Exception:
                         pass
                 Clock.schedule_once(_refresh, 0)
+                if _locked_ref > 0:
+                    from kivy.clock import Clock as _Clk
+                    _Clk.schedule_once(lambda dt: self._show_locked_items_notice(_locked_ref), 0.15)
             self._show_queue_position_popup(_do_add)
         except Exception:
             pass
@@ -34021,7 +36214,7 @@ class SpoonfedApp(App):
                             text=("You have no items in your queue. To add items to your queue, "
                                   "press the + icon to add lessons or dictionary entries to your queue."),
                             size_hint=(None, None),
-                            size=(Window.width * 0.7, dp(100)),
+                            size=(_app_content_width() * 0.7, dp(100)),
                             halign='center',
                             valign='middle'
                         )
@@ -34671,7 +36864,7 @@ class SpoonfedApp(App):
             title='Clear Queue?',
             content=layout,
             size_hint=(None, None),
-            size=(min(dp(400), Window.width*0.8), min(dp(220), Window.height*0.4)),
+            size=(min(dp(400), _app_content_width() * 0.8), min(dp(220), Window.height*0.4)),
             auto_dismiss=False
         )
         
@@ -34734,7 +36927,7 @@ class SpoonfedApp(App):
             title='Final Warning',
             content=layout,
             size_hint=(None, None),
-            size=(min(dp(400), Window.width*0.8), min(dp(220), Window.height*0.4)),
+            size=(min(dp(400), _app_content_width() * 0.8), min(dp(220), Window.height*0.4)),
             auto_dismiss=False
         )
         
@@ -35074,7 +37267,6 @@ class SpoonfedApp(App):
         explanation = hint_explanations.get(ref, f'{ref}\n\nA grammatical style marker.')
         
         # Show popup with explanation
-        from kivy.uix.popup import Popup
         from kivy.uix.label import Label
         from kivy.uix.button import Button
         from kivy.uix.boxlayout import BoxLayout
@@ -35143,7 +37335,6 @@ class SpoonfedApp(App):
         from kivy.uix.textinput import TextInput
         from kivy.uix.button import Button
         from kivy.uix.scrollview import ScrollView
-        from kivy.uix.popup import Popup
         from kivy.metrics import dp
         from kivy.core.window import Window
         
@@ -35461,7 +37652,6 @@ class SpoonfedApp(App):
 
     def _show_info_card_popup(self, title, body):
         """Show a popup displaying an info card's title and body text."""
-        from kivy.uix.popup import Popup
         from kivy.uix.scrollview import ScrollView
         from kivy.uix.label import Label
         from kivy.uix.button import Button
@@ -35837,7 +38027,7 @@ class SpoonfedApp(App):
                     msg.color = (0.65, 0.65, 0.65, 1)
                 except Exception:
                     pass
-                msg.text_size = (Window.width * 0.7, None)
+                msg.text_size = (_app_content_width() * 0.7, None)
                 layout.add_widget(msg)
             btns = BoxLayout(size_hint_y=None, height=dp(48), spacing=8)
             clear = Button(text='Clear Queue')
@@ -35856,7 +38046,7 @@ class SpoonfedApp(App):
             btns.add_widget(clear)
             btns.add_widget(close)
             layout.add_widget(btns)
-            popup = Popup(title='My Lesson Queue', content=layout, size_hint=(None, None), size=(min(dp(640), Window.width*0.85), min(dp(520), Window.height*0.85)), auto_dismiss=False)
+            popup = Popup(title='My Lesson Queue', content=layout, size_hint=(None, None), size=(min(dp(640), _app_content_width() * 0.85), min(dp(520), Window.height*0.85)), auto_dismiss=False)
 
             def _clear_queue(*_):
                 try:
@@ -36089,6 +38279,8 @@ class SpoonfedApp(App):
             # flashes during adjustResize window-height changes (keyboard show/hide).
             Window.clearcolor = (0.11, 0.11, 0.12, 1)
             root = Builder.load_file(KV_PATH)
+            if not _IS_ANDROID:
+                return DesktopWrapper(root)
             return root
         except Exception as e:
             Logger.error(f'App: Error loading KV or building root: {e}')
@@ -36102,14 +38294,11 @@ class SpoonfedApp(App):
         except Exception:
             pass
         try:
-            from sync import supabase_client as sb
-            if sb.is_logged_in() and sb.is_configured():
-                import threading
-                from sync.sync import run_full_sync
-                def _bg():
-                    ok, msg = run_full_sync()
-                    Logger.info(f'Sync: on_pause sync: {msg}')
-                threading.Thread(target=_bg, daemon=True).start()
+            self._request_background_sync(
+                'on_pause',
+                apply_on_success=False,
+                min_interval_s=0 if _IS_ANDROID else 60,
+            )
         except Exception:
             pass
         return True
@@ -36123,6 +38312,14 @@ class SpoonfedApp(App):
         Without the defocus-refocus cycle, Android may keep the TextInput
         focused but with no keyboard visible, confusing the user.
         """
+        # Check for a returning Google OAuth callback (Android deep link)
+        if _IS_ANDROID:
+            try:
+                from sync import supabase_client as _sb
+                _sb.check_android_oauth_intent()
+            except Exception:
+                pass
+
         def _refocus_input(text_input):
             """Defocus then refocus a TextInput to trigger the Android IME.
 
@@ -36167,16 +38364,11 @@ class SpoonfedApp(App):
             Logger.warning(f'Resume: Error restoring keyboard: {e}')
         # Background sync on resume to pull any changes from other devices
         try:
-            from sync import supabase_client as sb
-            if sb.is_logged_in() and sb.is_configured():
-                import threading
-                from sync.sync import run_full_sync
-                def _bg():
-                    ok, msg = run_full_sync()
-                    Logger.info(f'Sync: on_resume sync: {msg}')
-                    if ok:
-                        Clock.schedule_once(lambda dt: self._apply_synced_data(), 0)
-                threading.Thread(target=_bg, daemon=True).start()
+            self._request_background_sync(
+                'on_resume',
+                apply_on_success=True,
+                min_interval_s=30 if _IS_ANDROID else 60,
+            )
         except Exception:
             pass
 
@@ -36608,7 +38800,6 @@ class SpoonfedApp(App):
     # ------------------------------------------------------------------
     def _show_drill_lesson_picker(self):
         """Show popup to pick which custom lessons/collections to drill (multi-select)."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.label import Label
         from kivy.uix.button import Button
@@ -36845,38 +39036,39 @@ class SpoonfedApp(App):
 
     # ------------------------------------------------------------------
     def _show_drill_sakubo_picker(self):
-        """Show popup to pick Sakubo lessons (Kana/N5/N4/N3/N2/N1) for drill."""
-        from kivy.uix.popup import Popup
+        """Lazy multi-page Sakubo lesson picker.
+        Screen 1: 6 JLPT level rows (checkbox + nav arrow).
+        Screen 2: Sub-groups of 100 lessons (checkbox + nav arrow).
+        Screen 3: Individual lesson checkboxes (~100 rows max).
+        Titles are loaded on demand — never creates more than ~110 widgets at once.
+        """
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.label import Label
         from kivy.uix.button import Button
         from kivy.uix.checkbox import CheckBox
         from kivy.uix.scrollview import ScrollView
-        from kivy.uix.gridlayout import GridLayout
         from kivy.graphics import Color, Rectangle
         from pathlib import Path
-        import json as _json
 
-        FONT = 'fonts/NotoSansJP-Regular.ttf'
+        FONT   = 'fonts/NotoSansJP-Regular.ttf'
         FONT_M = 'fonts/NotoSansJP-Medium.ttf'
         LABEL_COLOR = (0.90, 0.88, 0.85, 1)
-        SUB_COLOR = (0.55, 0.55, 0.55, 1)
-        BG_SECTION = (0.26, 0.26, 0.30, 1)
-        BG_ROW = (0.22, 0.22, 0.25, 1)
-
-        # Level ranges
+        BG_LEVEL = (0.26, 0.26, 0.30, 1)
+        BG_GROUP = (0.20, 0.20, 0.24, 1)
+        BG_ROW   = (0.14, 0.14, 0.17, 1)
+        GROUP_SIZE = 100
         LEVEL_RANGES = [
-            ('Kana', 1, 50),
-            ('JLPT N5', 51, 271),
+            ('Kana',    1,    50),
+            ('JLPT N5', 51,  271),
             ('JLPT N4', 272, 482),
             ('JLPT N3', 483, 908),
             ('JLPT N2', 909, 1361),
             ('JLPT N1', 1362, 2093),
         ]
 
-        # Load index
+        # ── Load flat lesson index (no per-lesson file I/O yet) ───────────────
         lessons_root = Path('dictionary') / 'lessons' / 'spoonfed_japanese'
-        index_file = lessons_root / 'index.json'
+        index_file   = lessons_root / 'index.json'
         idx_data = {}
         if index_file.exists():
             try:
@@ -36884,201 +39076,325 @@ class SpoonfedApp(App):
             except Exception:
                 pass
 
-        # Previously selected paths  
-        cfg = getattr(self, '_drill_cfg', {})
-        prev_selected = set(cfg.get('selected_sakubo_paths', []))
+        # level_data: name → sorted [{num, type, path}]  (no titles yet)
+        level_data = {}
+        for lname, lo, hi in LEVEL_RANGES:
+            rows = []
+            for ns, types in idx_data.items():
+                n = int(ns)
+                if lo <= n <= hi:
+                    for lt, ps in types.items():
+                        rows.append({'num': n, 'type': lt, 'path': str(Path(ps))})
+            rows.sort(key=lambda r: (r['num'], r['type']))
+            if rows:
+                level_data[lname] = rows
 
-        checked_set = set(prev_selected)
-        cb_map = {}  # lesson_path -> CheckBox
-        level_cbs = {}  # level_name -> (CheckBox, [lesson_paths])
-        _guard = [False]
+        # ── Selection state ───────────────────────────────────────────────────
+        cfg         = getattr(self, '_drill_cfg', {})
+        prev_sel    = set(cfg.get('selected_sakubo_paths', []))
+        checked_set = set(prev_sel)
 
-        outer = BoxLayout(orientation='vertical', spacing=dp(8), padding=dp(8))
-        scroll = ScrollView(do_scroll_x=False)
-        grid = GridLayout(cols=1, spacing=dp(2), size_hint_y=None, padding=0)
-        grid.bind(minimum_height=grid.setter('height'))
-
-        for level_name, min_num, max_num in LEVEL_RANGES:
-            # Collect lessons in this range
-            level_lessons = []
-            for num_str, types in idx_data.items():
-                num = int(num_str)
-                if min_num <= num <= max_num:
-                    for lesson_type, path_str in types.items():
-                        path_norm = str(Path(path_str))
-                        # Load title
-                        title = f'Lesson {num}'
-                        try:
-                            ld = self._load_lesson_json(path_str)
-                            title = ld.get('title', title)
-                        except Exception:
-                            pass
-                        level_lessons.append({
-                            'num': num,
-                            'type': lesson_type,
-                            'path': path_norm,
-                            'title': title,
-                        })
-            level_lessons.sort(key=lambda l: (l['num'], l['type']))
-
-            if not level_lessons:
-                continue
-
-            level_paths = [l['path'] for l in level_lessons]
-
-            # Level header row (acts as select-all toggle)
-            header_row = BoxLayout(size_hint_y=None, height=dp(44), spacing=dp(8),
-                                   padding=[dp(12), 0])
-            with header_row.canvas.before:
-                Color(*BG_SECTION)
-                _hrect = Rectangle(pos=header_row.pos, size=header_row.size)
-            header_row.bind(
-                pos=lambda inst, val, r=_hrect: setattr(r, 'pos', inst.pos),
-                size=lambda inst, val, r=_hrect: setattr(r, 'size', inst.size)
-            )
-
-            all_checked = all(p in checked_set for p in level_paths) if level_paths else False
-            level_cb = CheckBox(
-                active=all_checked,
-                size_hint_x=None, width=dp(44),
-                color=[0.5, 0.7, 1.0, 1]
-            )
-
-            level_lbl = Label(
-                text=f'{level_name}  ({len(level_lessons)} lessons)',
-                halign='left', valign='middle',
-                font_name=FONT_M, font_size='14sp', color=LABEL_COLOR,
-                size_hint_x=1
-            )
-            level_lbl.bind(size=level_lbl.setter('text_size'))
-
-            header_row.add_widget(level_cb)
-            header_row.add_widget(level_lbl)
-            grid.add_widget(header_row)
-
-            level_cbs[level_name] = (level_cb, level_paths)
-
-            # Individual lesson rows (collapsed by default — expand on level toggle)
-            lesson_rows_container = BoxLayout(orientation='vertical', size_hint_y=None,
-                                              spacing=dp(1))
-            lesson_rows_container.bind(minimum_height=lesson_rows_container.setter('height'))
-
-            for lesson_info in level_lessons:
-                lpath = lesson_info['path']
-                ltype = lesson_info['type']
-                ltitle = lesson_info['title']
-                lnum = lesson_info['num']
-
-                row = BoxLayout(size_hint_y=None, height=dp(40), spacing=dp(4),
-                                padding=[dp(28), 0, dp(4), 0])
-                with row.canvas.before:
-                    Color(*BG_ROW)
-                    _rrect = Rectangle(pos=row.pos, size=row.size)
-                row.bind(
-                    pos=lambda inst, val, r=_rrect: setattr(r, 'pos', inst.pos),
-                    size=lambda inst, val, r=_rrect: setattr(r, 'size', inst.size)
-                )
-
-                type_tag = f'({ltype.capitalize()})' if ltype not in ('vocab',) else ''
-                display = f'{lnum}. {ltitle}'
-                if type_tag:
-                    display += f'  {type_tag}'
-
-                name_lbl = Label(
-                    text=display, halign='left', valign='middle',
-                    font_name=FONT, font_size='13sp', color=LABEL_COLOR,
-                    size_hint_x=1
-                )
-                name_lbl.bind(size=name_lbl.setter('text_size'))
-
-                lcb = CheckBox(
-                    active=(lpath in checked_set),
-                    size_hint_x=None, width=dp(44),
-                    color=[0.5, 0.7, 1.0, 1]
-                )
-                cb_map[lpath] = lcb
-
-                def _on_lesson_toggle(inst, val, _lpath=lpath, _level=level_name):
-                    if _guard[0]:
-                        return
-                    if val:
-                        checked_set.add(_lpath)
-                    else:
-                        checked_set.discard(_lpath)
-                    # Update level checkbox
-                    _lcb, _lpaths = level_cbs[_level]
-                    _guard[0] = True
-                    try:
-                        _lcb.active = all(cb_map.get(p) and cb_map[p].active for p in _lpaths)
-                    finally:
-                        _guard[0] = False
-
-                lcb.bind(active=_on_lesson_toggle)
-                row.add_widget(name_lbl)
-                row.add_widget(lcb)
-                lesson_rows_container.add_widget(row)
-
-            grid.add_widget(lesson_rows_container)
-
-            # Level checkbox toggles all children
-            def _on_level_toggle(inst, val, _lpaths=level_paths):
-                if _guard[0]:
-                    return
-                _guard[0] = True
-                try:
-                    for p in _lpaths:
-                        if val:
-                            checked_set.add(p)
-                        else:
-                            checked_set.discard(p)
-                        lcb_ref = cb_map.get(p)
-                        if lcb_ref:
-                            lcb_ref.active = val
-                finally:
-                    _guard[0] = False
-
-            level_cb.bind(active=_on_level_toggle)
-
-        scroll.add_widget(grid)
-        outer.add_widget(scroll)
-
-        # Done button
+        # ── Popup shell ───────────────────────────────────────────────────────
+        outer = BoxLayout(orientation='vertical', spacing=dp(6), padding=dp(8))
+        popup = Popup(
+            title='Select Sakubo Lessons',
+            content=outer,
+            size_hint=(0.92, 0.88),
+            auto_dismiss=True,
+        )
+        screen_area = BoxLayout(orientation='vertical', size_hint_y=1)
+        count_lbl = Label(
+            text=f'{len(checked_set)} lessons selected',
+            font_name=FONT, font_size='12sp',
+            color=(0.60, 0.60, 0.63, 1),
+            size_hint_y=None, height=dp(18),
+            halign='left', valign='middle',
+        )
+        count_lbl.bind(size=count_lbl.setter('text_size'))
         done_btn = Button(
             text='Done',
             size_hint_y=None, height=dp(48),
             font_name=FONT_M,
             background_normal='', background_down='',
             background_color=(0.15, 0.55, 0.15, 1),
-            color=(1, 1, 1, 1)
+            color=(1, 1, 1, 1),
         )
 
-        popup = Popup(
-            title='Select Sakubo Lessons',
-            content=outer,
-            size_hint=(0.92, 0.8),
-            auto_dismiss=True
-        )
+        def _update_count():
+            count_lbl.text = f'{len(checked_set)} lessons selected'
 
         def _on_done(inst):
             selected = list(checked_set)
             cfg['selected_sakubo_paths'] = selected
             lbl = getattr(self, '_drill_cfg_sakubo_label', None)
             if lbl:
-                if selected:
-                    lbl.text = f'{len(selected)} lessons selected'
-                else:
-                    lbl.text = 'No lessons selected'
+                lbl.text = f'{len(selected)} lessons selected' if selected \
+                    else 'No lessons selected'
             popup.dismiss()
 
         done_btn.bind(on_release=_on_done)
+        outer.add_widget(screen_area)
+        outer.add_widget(count_lbl)
         outer.add_widget(done_btn)
 
+        # ── Widget helpers ────────────────────────────────────────────────────
+        from kivy.uix.behaviors import ButtonBehavior
+
+        class _NavBox(ButtonBehavior, BoxLayout):
+            """A BoxLayout that fires on_release when tapped — no label overlay."""
+            pass
+
+        def _bg(w, color):
+            with w.canvas.before:
+                Color(*color)
+                r = Rectangle(pos=w.pos, size=w.size)
+            w.bind(
+                pos=lambda i, v, _r=r: setattr(_r, 'pos', v),
+                size=lambda i, v, _r=r: setattr(_r, 'size', v),
+            )
+
+        def _show_screen(build_fn, back_widget=None):
+            screen_area.clear_widgets()
+            sv   = ScrollView(do_scroll_x=False)
+            grid = BoxLayout(orientation='vertical', size_hint_y=None, spacing=dp(2))
+            grid.bind(minimum_height=grid.setter('height'))
+            build_fn(grid)
+            sv.add_widget(grid)
+            screen_area.add_widget(sv)
+            if back_widget is not None:
+                screen_area.add_widget(back_widget)
+
+        def _back_btn(label, on_back):
+            btn = Button(
+                text=f'\u2190 {label}',
+                size_hint_y=None, height=dp(44),
+                font_name=FONT, font_size='13sp',
+                background_normal='', background_down='',
+                background_color=(0.22, 0.22, 0.26, 1),
+                color=LABEL_COLOR,
+            )
+            btn.bind(on_release=lambda *_: on_back())
+            return btn
+
+        def _sel_all_row(label, paths, on_toggle):
+            row = BoxLayout(size_hint_y=None, height=dp(38), spacing=dp(8),
+                            padding=[dp(12), 0])
+            _bg(row, (0.18, 0.18, 0.22, 1))
+            cb = CheckBox(
+                active=bool(paths) and all(p in checked_set for p in paths),
+                size_hint_x=None, width=dp(36),
+                color=[0.5, 0.7, 1.0, 1],
+            )
+            lbl = Label(text=label, halign='left', valign='middle',
+                        font_name=FONT_M, font_size='12sp',
+                        color=(0.70, 0.68, 0.65, 1), size_hint_x=1)
+            lbl.bind(size=lbl.setter('text_size'))
+            cb.bind(active=lambda i, v, _ot=on_toggle: _ot(v))
+            row.add_widget(cb)
+            row.add_widget(lbl)
+            return row
+
+        # ── Screen 1: Level overview ──────────────────────────────────────────
+        def _show_levels():
+            def build(grid):
+                for lname, _, __ in LEVEL_RANGES:
+                    lessons = level_data.get(lname, [])
+                    if not lessons:
+                        continue
+                    paths = [l['path'] for l in lessons]
+                    n_sel = sum(1 for p in paths if p in checked_set)
+
+                    row = BoxLayout(size_hint_y=None, height=dp(56), spacing=dp(6),
+                                    padding=[dp(8), dp(4)])
+                    _bg(row, BG_LEVEL)
+                    sel_cb = CheckBox(
+                        active=(n_sel == len(lessons) and bool(lessons)),
+                        size_hint_x=None, width=dp(36),
+                        color=[0.5, 0.7, 1.0, 1],
+                    )
+                    nav_box = _NavBox(orientation='vertical', size_hint_x=1,
+                                      padding=[dp(4), 0])
+                    nl = Label(text=lname, halign='left', valign='middle',
+                               font_name=FONT_M, font_size='14sp',
+                               color=LABEL_COLOR, size_hint_y=None, height=dp(26))
+                    nl.bind(size=nl.setter('text_size'))
+                    sl = Label(text=f'{n_sel}/{len(lessons)} selected',
+                               halign='left', valign='middle',
+                               font_name=FONT, font_size='11sp',
+                               color=(0.55, 0.55, 0.55, 1),
+                               size_hint_y=None, height=dp(18))
+                    sl.bind(size=sl.setter('text_size'))
+                    nav_box.add_widget(nl)
+                    nav_box.add_widget(sl)
+
+                    def _on_sel(i, v, _ps=paths, _sl=sl, _llen=len(lessons)):
+                        if v:
+                            checked_set.update(_ps)
+                        else:
+                            checked_set.difference_update(_ps)
+                        _sl.text = (f'{sum(1 for p in _ps if p in checked_set)}'
+                                    f'/{_llen} selected')
+                        _update_count()
+
+                    sel_cb.bind(active=_on_sel)
+                    nav_box.bind(on_release=lambda i, _ln=lname: _show_groups(_ln))
+                    row.add_widget(sel_cb)
+                    row.add_widget(nav_box)
+                    grid.add_widget(row)
+
+            _show_screen(build)
+
+        # ── Screen 2: Sub-groups of 100 within a level ────────────────────────
+        def _show_groups(lname):
+            lessons = level_data.get(lname, [])
+            groups  = [lessons[i:i + GROUP_SIZE]
+                       for i in range(0, len(lessons), GROUP_SIZE)]
+            if len(groups) > 1 and len(groups[-1]) < GROUP_SIZE:
+                groups[-2] = groups[-2] + groups[-1]
+                groups.pop()
+
+            def build(grid):
+                all_lpaths = [l['path'] for l in lessons]
+
+                def _on_sel_all_level(v):
+                    if v:
+                        checked_set.update(all_lpaths)
+                    else:
+                        checked_set.difference_update(all_lpaths)
+                    _update_count()
+
+                grid.add_widget(_sel_all_row(
+                    f'Select All  ({len(lessons)} lessons)',
+                    all_lpaths, _on_sel_all_level))
+
+                for grp in groups:
+                    g_paths      = [l['path'] for l in grp]
+                    first_num    = grp[0]['num']
+                    last_num     = grp[-1]['num']
+                    is_last_grp  = (grp is groups[-1])
+                    last_display = last_num if is_last_grp else (last_num + 9) // 10 * 10
+                    n_sel        = sum(1 for p in g_paths if p in checked_set)
+
+                    row = BoxLayout(size_hint_y=None, height=dp(56), spacing=dp(6),
+                                    padding=[dp(8), dp(4)])
+                    _bg(row, BG_GROUP)
+                    g_cb = CheckBox(
+                        active=(n_sel == len(grp) and bool(grp)),
+                        size_hint_x=None, width=dp(36),
+                        color=[0.5, 0.7, 1.0, 1],
+                    )
+                    nav_box = _NavBox(orientation='vertical', size_hint_x=1,
+                                      padding=[dp(4), 0])
+                    rl = Label(text=f'Lessons {first_num}\u2013{last_display}',
+                               halign='left', valign='middle',
+                               font_name=FONT_M, font_size='13sp',
+                               color=LABEL_COLOR, size_hint_y=None, height=dp(26))
+                    rl.bind(size=rl.setter('text_size'))
+                    sgl = Label(text=f'{n_sel}/{len(grp)} selected',
+                                halign='left', valign='middle',
+                                font_name=FONT, font_size='11sp',
+                                color=(0.55, 0.55, 0.55, 1),
+                                size_hint_y=None, height=dp(18))
+                    sgl.bind(size=sgl.setter('text_size'))
+                    nav_box.add_widget(rl)
+                    nav_box.add_widget(sgl)
+
+                    def _on_g_sel(i, v, _gp=g_paths, _sgl=sgl, _glen=len(grp)):
+                        if v:
+                            checked_set.update(_gp)
+                        else:
+                            checked_set.difference_update(_gp)
+                        _sgl.text = (f'{sum(1 for p in _gp if p in checked_set)}'
+                                     f'/{_glen} selected')
+                        _update_count()
+
+                    g_cb.bind(active=_on_g_sel)
+                    nav_box.bind(on_release=lambda i, _grp=grp, _ln=lname:
+                                 _show_lessons(_ln, _grp))
+                    row.add_widget(g_cb)
+                    row.add_widget(nav_box)
+                    grid.add_widget(row)
+
+            _show_screen(build, back_widget=_back_btn(lname, _show_levels))
+
+        # ── Screen 3: Individual lessons in one sub-group ─────────────────────
+        def _show_lessons(lname, group_lessons):
+            # Load titles lazily — only ~100 file reads
+            for l in group_lessons:
+                if 'title' not in l:
+                    try:
+                        ld = self._load_lesson_json(l['path'])
+                        l['title'] = ld.get('title', f"Lesson {l['num']}")
+                    except Exception:
+                        l['title'] = f"Lesson {l['num']}"
+
+            g_paths   = [l['path'] for l in group_lessons]
+            first_num = group_lessons[0]['num']
+            last_num  = group_lessons[-1]['num']
+
+            def build(grid):
+                lesson_cbs = []  # [(path, CheckBox)]  — populated in loop below
+
+                def _on_sel_all(v):
+                    if v:
+                        checked_set.update(g_paths)
+                    else:
+                        checked_set.difference_update(g_paths)
+                    for lp, lcb in lesson_cbs:
+                        lcb.active = (lp in checked_set)
+                    _update_count()
+
+                grid.add_widget(_sel_all_row(
+                    f'Select All  (Lessons {first_num}\u2013{last_num})',
+                    g_paths, _on_sel_all))
+
+                for l in group_lessons:
+                    lpath  = l['path']
+                    lnum   = l['num']
+                    ltype  = l['type']
+                    ltitle = l.get('title', f'Lesson {lnum}')
+
+                    row = BoxLayout(size_hint_y=None, height=dp(44), spacing=dp(4),
+                                    padding=[dp(12), 0, dp(4), 0])
+                    _bg(row, BG_ROW)
+                    type_tag = (f'  ({ltype.capitalize()})'
+                                if ltype not in ('vocab',) else '')
+                    lbl = Label(
+                        text=f'{lnum}. {ltitle}{type_tag}',
+                        halign='left', valign='middle',
+                        font_name=FONT, font_size='13sp', color=LABEL_COLOR,
+                        size_hint_x=1,
+                    )
+                    lbl.bind(size=lbl.setter('text_size'))
+                    lcb = CheckBox(
+                        active=(lpath in checked_set),
+                        size_hint_x=None, width=dp(44),
+                        color=[0.5, 0.7, 1.0, 1],
+                    )
+                    lesson_cbs.append((lpath, lcb))
+
+                    def _on_lcb(i, v, _lp=lpath):
+                        if v:
+                            checked_set.add(_lp)
+                        else:
+                            checked_set.discard(_lp)
+                        _update_count()
+
+                    lcb.bind(active=_on_lcb)
+                    row.add_widget(lbl)
+                    row.add_widget(lcb)
+                    grid.add_widget(row)
+
+            _show_screen(build,
+                         back_widget=_back_btn(lname, lambda: _show_groups(lname)))
+
+        # ── Launch at level overview screen ───────────────────────────────────
+        _show_levels()
         popup.open()
 
     # ------------------------------------------------------------------
     def _drill_picker_preview(self, lesson_id, is_collection):
         """Show a small popup previewing the contents of a lesson or collection."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.label import Label
         from kivy.uix.scrollview import ScrollView
@@ -37411,7 +39727,6 @@ class SpoonfedApp(App):
         """Read config page state and launch the appropriate drill session.
         Supports multi-source selection (Sakubo + Custom + Weak + My Words).
         Shows a brief loading overlay, then defers heavy work to the next frame."""
-        from kivy.uix.popup import Popup
         from kivy.uix.label import Label
         from kivy.clock import Clock
 
@@ -37705,7 +40020,6 @@ class SpoonfedApp(App):
     # ------------------------------------------------------------------
     def show_drill_stats(self):
         """Show a popup with aggregate drill / time-attack statistics."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.label import Label
         from kivy.uix.button import Button
@@ -38306,7 +40620,7 @@ class SpoonfedApp(App):
             # On Android, check whether the model is available before translating.
             # If not downloaded, show a friendly download prompt instead of blocking.
             try:
-                from reading.translation import _is_android, get_download_status, is_model_loaded
+                from reading.translation import _is_android, get_download_status, is_model_loaded, _gguf_model_path
                 if _is_android() and not is_model_loaded():
                     status = get_download_status()
                     if status not in ('downloaded', 'downloading'):
@@ -38320,6 +40634,19 @@ class SpoonfedApp(App):
                                 t.daemon = True
                                 t.start()
                         self._show_llm_download_popup(on_complete_callback=_on_download_done)
+                        return
+                elif not _is_android() and _gguf_model_path() is None:
+                    # Desktop: model not yet downloaded — show a prompt
+                    status = get_download_status()
+                    if status == 'downloading':
+                        self._update_translation_output(
+                            input_text,
+                            'Translation model is downloading. Please wait for it to finish (Settings > Download Data).',
+                            direction,
+                        )
+                        return
+                    if status != 'downloading':
+                        self._show_gguf_download_prompt(input_text, direction)
                         return
             except Exception as e:
                 Logger.warning(f'Translator: model status check: {e}')
@@ -38685,142 +41012,61 @@ class SpoonfedApp(App):
         Args:
             target_input_id: ID of the TextInput widget to insert text into
         """
-        from kivy.clock import Clock
-        import threading
-        
         # Store the target input ID for when Search button is clicked
         self._handwriting_target_input = target_input_id
-        
-        # Initialize canvas if not already done (do it now, before screen switch)
-        if not hasattr(self, '_handwriting_canvas'):
-            self._init_handwriting_canvas()
-        
-        # If recognizer already loaded, switch immediately without popup
-        if getattr(self, '_handwriting_recognizer_loaded', False):
-            self._handwriting_auto_recognize = True
-            sm = self._get_screen_manager()
-            if sm:
-                self._handwriting_return_screen = sm.current
-                self._clear_handwriting_results()
-                search_input = self.root.ids.get('handwriting_search_input')
-                if search_input:
-                    search_input.text = ''
-                candidates_label = self.root.ids.get('handwriting_candidates_label')
-                if candidates_label:
-                    candidates_label.text = 'Write characters (auto-recognizing...)'
-                sm.current = 'handwriting'
-            return
-        
-        # First time: show loading overlay while recognizer loads
-        self._handwriting_loading_cancelled = False
-        loading = self._show_loading_overlay('Preparing handwriting recognition...')
 
-        def _on_loading_dismissed(*_args):
-            self._handwriting_loading_cancelled = True
-        loading['modal'].bind(on_dismiss=_on_loading_dismissed)
-        loading['modal'].auto_dismiss = True
-        
-        def load_handwriting():
-            try:
-                self._preload_handwriting_recognizer()
-                
-                def show_screen(dt):
-                    try:
-                        loading['dismiss']()
-                        if getattr(self, '_handwriting_loading_cancelled', False):
-                            return
-                        self._handwriting_auto_recognize = True
-                        sm = self._get_screen_manager()
-                        if sm:
-                            self._handwriting_return_screen = sm.current
-                            self._clear_handwriting_results()
-                            search_input = self.root.ids.get('handwriting_search_input')
-                            if search_input:
-                                search_input.text = ''
-                            candidates_label = self.root.ids.get('handwriting_candidates_label')
-                            if candidates_label:
-                                candidates_label.text = 'Write characters (auto-recognizing...)'
-                            sm.current = 'handwriting'
-                    except Exception as e:
-                        Logger.error(f'Handwriting: Error showing screen: {e}')
-                
-                Clock.schedule_once(show_screen, 0)
-            except Exception as e:
-                Logger.error(f'Handwriting: Error loading handwriting: {e}')
-                Clock.schedule_once(lambda dt: loading['dismiss'](), 0)
-        
-        thread = threading.Thread(target=load_handwriting, daemon=True)
-        thread.start()
+        self._handwriting_auto_recognize = True
+        sm = self._get_screen_manager()
+        if sm:
+            self._handwriting_return_screen = sm.current
+            self._clear_handwriting_results()
+            search_input = self.root.ids.get('handwriting_search_input')
+            if search_input:
+                search_input.text = ''
+            candidates_label = self.root.ids.get('handwriting_candidates_label')
+            if candidates_label:
+                if getattr(self, '_handwriting_recognizer_loaded', False):
+                    candidates_label.text = 'Write characters (auto-recognizing...)'
+                else:
+                    candidates_label.text = 'Preparing recognition in background...'
+            sm.current = 'handwriting'
+
+        # Initialize canvas after the screen switch so first tap always opens immediately.
+        if not hasattr(self, '_handwriting_canvas'):
+            Clock.schedule_once(lambda dt: self._init_handwriting_canvas(), 0)
+
+        if not getattr(self, '_handwriting_recognizer_loaded', False):
+            self._prewarm_handwriting_lookup_silent()
     
     def show_handwriting(self):
         """Show the handwriting lookup screen."""
-        from kivy.clock import Clock
-        import threading
-        
         # Clear flags for standalone mode
         if hasattr(self, '_handwriting_target_input'):
             delattr(self, '_handwriting_target_input')
         if hasattr(self, '_handwriting_return_screen'):
             delattr(self, '_handwriting_return_screen')
         
-        # Initialize canvas if not already done
-        if not hasattr(self, '_handwriting_canvas'):
-            self._init_handwriting_canvas()
-        
-        # If recognizer already loaded, switch immediately
-        if getattr(self, '_handwriting_recognizer_loaded', False):
-            self._handwriting_auto_recognize = True
-            sm = self._get_screen_manager()
-            if sm:
-                self._clear_handwriting_results()
-                search_input = self.root.ids.get('handwriting_search_input')
-                if search_input:
-                    search_input.text = ''
-                candidates_label = self.root.ids.get('handwriting_candidates_label')
-                if candidates_label:
+        self._handwriting_auto_recognize = True
+        sm = self._get_screen_manager()
+        if sm:
+            self._clear_handwriting_results()
+            search_input = self.root.ids.get('handwriting_search_input')
+            if search_input:
+                search_input.text = ''
+            candidates_label = self.root.ids.get('handwriting_candidates_label')
+            if candidates_label:
+                if getattr(self, '_handwriting_recognizer_loaded', False):
                     candidates_label.text = 'Write characters (auto-recognizing...)'
-                sm.current = 'handwriting'
-            return
-        
-        # First time: show loading overlay while recognizer loads
-        self._handwriting_loading_cancelled = False
-        loading = self._show_loading_overlay('Preparing handwriting recognition...')
+                else:
+                    candidates_label.text = 'Preparing recognition in background...'
+            sm.current = 'handwriting'
 
-        def _on_loading_dismissed(*_args):
-            self._handwriting_loading_cancelled = True
-        loading['modal'].bind(on_dismiss=_on_loading_dismissed)
-        loading['modal'].auto_dismiss = True
-        
-        def load_handwriting():
-            try:
-                self._handwriting_auto_recognize = True
-                self._preload_handwriting_recognizer()
-                
-                def show_screen(dt):
-                    try:
-                        loading['dismiss']()
-                        if getattr(self, '_handwriting_loading_cancelled', False):
-                            return
-                        sm = self._get_screen_manager()
-                        if sm:
-                            self._clear_handwriting_results()
-                            search_input = self.root.ids.get('handwriting_search_input')
-                            if search_input:
-                                search_input.text = ''
-                            candidates_label = self.root.ids.get('handwriting_candidates_label')
-                            if candidates_label:
-                                candidates_label.text = 'Write characters (auto-recognizing...)'
-                            sm.current = 'handwriting'
-                    except Exception as e:
-                        Logger.error(f'Handwriting: Error showing screen: {e}')
-                
-                Clock.schedule_once(show_screen, 0)
-            except Exception as e:
-                Logger.error(f'Handwriting: Error loading handwriting: {e}')
-                Clock.schedule_once(lambda dt: loading['dismiss'](), 0)
-        
-        thread = threading.Thread(target=load_handwriting, daemon=True)
-        thread.start()
+        # Initialize canvas after the screen switch so first tap always opens immediately.
+        if not hasattr(self, '_handwriting_canvas'):
+            Clock.schedule_once(lambda dt: self._init_handwriting_canvas(), 0)
+
+        if not getattr(self, '_handwriting_recognizer_loaded', False):
+            self._prewarm_handwriting_lookup_silent()
     
     def _preload_handwriting_recognizer(self):
         """Pre-load the handwriting recognizer to avoid freeze on first use."""
@@ -38836,6 +41082,33 @@ class SpoonfedApp(App):
                     Logger.warning('Handwriting: Recognizer not available')
         except Exception as e:
             Logger.error(f'Handwriting: Error pre-loading recognizer: {e}')
+
+    def _prewarm_handwriting_lookup_silent(self):
+        """Warm up handwriting lookup recognizer in the background once per app run."""
+        if getattr(self, '_handwriting_recognizer_loaded', False):
+            return
+        if getattr(self, '_handwriting_lookup_prewarming', False):
+            return
+
+        self._handwriting_lookup_prewarming = True
+
+        import threading
+
+        def _load():
+            try:
+                from handwriting_recognizer import get_recognizer
+                recognizer = get_recognizer()
+                self._handwriting_recognizer_loaded = bool(recognizer and recognizer.is_available())
+                if self._handwriting_recognizer_loaded:
+                    Logger.info('Handwriting: Silent prewarm complete')
+                else:
+                    Logger.warning('Handwriting: Silent prewarm recognizer unavailable')
+            except Exception as e:
+                Logger.warning(f'Handwriting: Silent prewarm failed: {e}')
+            finally:
+                self._handwriting_lookup_prewarming = False
+
+        threading.Thread(target=_load, daemon=True).start()
     
     def _init_handwriting_canvas(self):
         """Initialize the handwriting canvas widget."""
@@ -38909,6 +41182,15 @@ class SpoonfedApp(App):
                     candidates_label = self.root.ids.get('handwriting_candidates_label')
                     if candidates_label:
                         candidates_label.text = 'Please draw a character first'
+                return
+
+            # Never block UI while recognizer is still warming.
+            if not getattr(self, '_handwriting_recognizer_loaded', False):
+                self._prewarm_handwriting_lookup_silent()
+                if self.root:
+                    candidates_label = self.root.ids.get('handwriting_candidates_label')
+                    if candidates_label:
+                        candidates_label.text = 'Still loading recognition... try again in a moment'
                 return
             
             # Get recognizer
@@ -39264,7 +41546,6 @@ class SpoonfedApp(App):
     
     def _show_drill_type_popup(self):
         """Show drill type selection popup (Weak Words or Custom)."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         
@@ -39307,7 +41588,6 @@ class SpoonfedApp(App):
     
     def _show_tools_custom_lesson_picker(self):
         """Show popup to pick which custom lesson to drill."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         from kivy.uix.label import Label
@@ -39499,7 +41779,6 @@ class SpoonfedApp(App):
     
     def _show_tools_weak_words_setup(self):
         """Show setup popup for Tools Drill Mode - Weak Words."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.label import Label
         from kivy.uix.textinput import TextInput
@@ -39820,7 +42099,6 @@ class SpoonfedApp(App):
     
     def _show_time_attack_type_popup(self):
         """Show time attack type selection popup (Weak Words or Custom)."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         from kivy.uix.label import Label
@@ -39881,7 +42159,6 @@ class SpoonfedApp(App):
     
     def _show_time_attack_weak_words_setup(self):
         """Show setup popup for Time Attack - Weak Words."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.label import Label
         from kivy.uix.textinput import TextInput
@@ -39975,7 +42252,6 @@ class SpoonfedApp(App):
     
     def _show_time_attack_custom_lesson_picker(self):
         """Show popup to pick which custom lesson for time attack."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         from kivy.uix.label import Label
@@ -40059,7 +42335,6 @@ class SpoonfedApp(App):
     
     def _show_time_attack_mode_choice(self, attack_type: str, count: int | None, lesson_id: int | None):
         """Show popup to choose Regular or Unlimited mode."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.button import Button
         
@@ -40349,7 +42624,6 @@ class SpoonfedApp(App):
     
     def _show_time_attack_results(self, score: int, accuracy: float, time_left: float):
         """Show time attack results popup."""
-        from kivy.uix.popup import Popup
         from kivy.uix.boxlayout import BoxLayout
         from kivy.uix.label import Label
         from kivy.uix.button import Button
