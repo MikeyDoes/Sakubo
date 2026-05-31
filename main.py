@@ -85,6 +85,15 @@ class RomajiIMETextInput(TextInput):
     def set_ime_enabled(self, enabled: bool):
         self.ime_enabled = enabled
 
+    def keyboard_on_textinput(self, window, text):
+        # Windows IME double-commit guard: if the composition text is still
+        # present in self.text (window_on_textedit hasn't cleaned it up yet
+        # before the SDL_TEXTINPUT event fires), strip it first so the
+        # committed text isn't appended on top of the composition text.
+        if self._ime_composition:
+            self.window_on_textedit(window, '')
+        return super().keyboard_on_textinput(window, text)
+
     def insert_text(self, substring, from_undo=False):
         if not self.ime_enabled or not substring:
             return super().insert_text(substring, from_undo=from_undo)
@@ -172,6 +181,23 @@ class RomajiIMETextInput(TextInput):
                 total += rem
         return total
 
+# ── Global Windows IME double-commit fix ─────────────────────────────────────
+# When SDL_TEXTINPUT fires before SDL_TEXTEDITING(''), the composition text is
+# still in _lines.  insert_text() reads _lines at the current cursor position
+# (which is after the composition), so the committed text gets appended on top
+# of the composition → double.  Fix: in keyboard_on_textinput, if
+# _ime_composition is still set, force the cleanup first.
+_orig_TextInput_keyboard_on_textinput = TextInput.keyboard_on_textinput
+def _patched_keyboard_on_textinput(self, window, text):
+    if self._ime_composition:
+        self.window_on_textedit(window, '')
+    return _orig_TextInput_keyboard_on_textinput(self, window, text)
+# Kivy's WeakMethod stores func.__name__ and uses getattr(instance, name) to
+# call it — so the name must match the actual class attribute name.
+_patched_keyboard_on_textinput.__name__ = 'keyboard_on_textinput'
+TextInput.keyboard_on_textinput = _patched_keyboard_on_textinput
+# ─────────────────────────────────────────────────────────────────────────────
+
 from kivy.metrics import dp
 from kivy.core.window import Window
 from kivy.core.audio import SoundLoader
@@ -205,7 +231,7 @@ import tempfile
 # DB_DOWNLOAD_URL must be updated in code whenever a new DB release is published.
 DB_VERSION_URL   = 'https://raw.githubusercontent.com/MikeyDoes/Sakubo/main/db_version.txt'
 DB_DOWNLOAD_URL  = 'https://github.com/MikeyDoes/Sakubo/releases/download/db-2026-04-15/dictionary.db'
-APP_VERSION      = '0.9.7'
+APP_VERSION      = '0.9.82'
 APP_VERSION_URL  = 'https://raw.githubusercontent.com/MikeyDoes/Sakubo/main/app_version.txt'
 APP_DOWNLOAD_URL = 'https://github.com/MikeyDoes/Sakubo/releases/latest/download/Sakubo-Setup.exe'
 
@@ -594,6 +620,11 @@ class LessonsScreen(BoxLayout):
             view = getattr(self, '_current_lessons_view', 'main') or 'main'
             if view == 'main':
                 return False
+            # Stop TTS and reading timer when leaving any subview
+            try:
+                tts.stop_tts()
+            except Exception:
+                pass
             # Stop reading timer when leaving the reading view
             if view == 'reading_view':
                 self._stop_reading_timer()
@@ -1143,7 +1174,10 @@ class LessonsScreen(BoxLayout):
             outer.add_widget(Label(text=no_data_msg, size_hint_y=1))
 
         # Back button (fixed at bottom)
-        outer.add_widget(self._make_menu_button('Back', back_handler, height_dp=48))
+        def _back_and_stop():
+            tts.stop_tts()
+            back_handler()
+        outer.add_widget(self._make_menu_button('Back', _back_and_stop, height_dp=48))
 
         anchor.add_widget(outer)
         qa.add_widget(anchor)
@@ -1163,16 +1197,16 @@ class LessonsScreen(BoxLayout):
 
     def _build_lesson_group_picker(self, header_widget, rv_data, back_handler,
                                    no_data_msg, query=''):
-        """Show a group-of-100 picker before the flat lesson list.
+        """Show a group-of-50 picker before the flat lesson list.
 
-        If query is set, or there are ≤100 items, jumps straight to the flat
+        If query is set, or there are ≤50 items, jumps straight to the flat
         RecycleView.  Otherwise shows labelled group buttons so the user can
-        jump directly to the 100-lesson block they care about.
+        jump directly to the 50-lesson block they care about.
         """
         from kivy.uix.anchorlayout import AnchorLayout
         from kivy.uix.scrollview import ScrollView
 
-        GROUP_SIZE = 100
+        GROUP_SIZE = 50
         if query or len(rv_data) <= GROUP_SIZE:
             self._build_sakubo_lessons_rv(header_widget, rv_data, back_handler,
                                           no_data_msg)
@@ -1204,7 +1238,7 @@ class LessonsScreen(BoxLayout):
             first_num    = grp[0].get('lesson_num', 0)
             last_num     = grp[-1].get('lesson_num', first_num)
             is_last      = (grp is groups[-1])
-            last_display = last_num if is_last else (last_num + 9) // 10 * 10
+            last_display = last_num if is_last else (last_num + 49) // 50 * 50
             btn = Button(
                 text=f'Lessons {first_num}\u2013{last_display}',
                 size_hint_y=None, height=dp(56),
@@ -1213,9 +1247,11 @@ class LessonsScreen(BoxLayout):
                 background_color=(0.35, 0.35, 0.38, 1),
                 color=(0.90, 0.88, 0.85, 1),
             )
-            btn.bind(on_release=lambda inst, _grp=grp:
-                     self._build_sakubo_lessons_rv(
-                         header_widget, _grp, _group_back, no_data_msg))
+            def _click_group(inst, _grp=grp):
+                self._push_view_state()
+                self._build_sakubo_lessons_rv(
+                    header_widget, _grp, _group_back, no_data_msg)
+            btn.bind(on_release=_click_group)
             grid.add_widget(btn)
 
         sv.add_widget(grid)
@@ -2798,7 +2834,7 @@ class LessonsScreen(BoxLayout):
                     size=(dp(36), dp(36)),
                     background_color=(0.07, 0.6, 0.2, 1)
                 )
-                
+
                 def make_tts_handler(para_tokens, button):
                     def on_tts(instance):
                         para_text = ''.join(t['surface'].replace('\n', '') for idx, t in para_tokens)
@@ -3380,6 +3416,11 @@ class LessonsScreen(BoxLayout):
     def _on_dictation_text_change(self, instance, value):
         """Auto-promote kana→kanji/katakana based on expected text segments."""
         if getattr(self, '_dictation_ime_updating', False):
+            return
+        # Never promote during active Windows IME composition: doing so rewrites
+        # _lines without updating _ime_cursor, causing Kivy's cleanup check to
+        # fail and the committed text to be double-inserted.
+        if getattr(instance, '_ime_composition', ''):
             return
         card_idx = getattr(self, '_dictation_card_index', 0)
         card_states = getattr(self, '_dictation_card_states', None)
@@ -6077,6 +6118,7 @@ class LessonsScreen(BoxLayout):
                                 _suffix_map[_sfn] = chr(_letter)
                                 _letter += 1
 
+                        READING_GROUP_SIZE = 25
                         for group_label, group in [('Grammar Readings', g_readings), ('Supplementary Readings', s_readings)]:
                             filtered = group
                             if q:
@@ -6101,11 +6143,65 @@ class LessonsScreen(BoxLayout):
                                 pass
                             content.add_widget(sec_label)
 
-                            for r in filtered:
-                                _sfx = _suffix_map.get(r['_filename'], '')
-                                _row_locked = (not _rd_has_premium and r.get('lesson_number', 0) > _rd_threshold)
-                                row = self._make_graded_reading_row(r, _completed, _mat_stats, suffix=_sfx, is_locked=_row_locked)
-                                content.add_widget(row)
+                            if not q and len(filtered) > READING_GROUP_SIZE:
+                                r_groups = [filtered[i:i + READING_GROUP_SIZE]
+                                            for i in range(0, len(filtered), READING_GROUP_SIZE)]
+                                if len(r_groups) > 1 and len(r_groups[-1]) < READING_GROUP_SIZE:
+                                    r_groups[-2] = r_groups[-2] + r_groups[-1]
+                                    r_groups.pop()
+
+                                r_section = BoxLayout(orientation='vertical', size_hint_y=None, spacing=dp(4))
+                                r_section.bind(minimum_height=r_section.setter('height'))
+                                content.add_widget(r_section)
+
+                                def _show_r_picker(_rs=r_section, _rg=r_groups,
+                                                   _comp=_completed, _mstats=_mat_stats,
+                                                   _smap=_suffix_map, _thresh=_rd_threshold,
+                                                   _prem=_rd_has_premium):
+                                    _rs.clear_widgets()
+                                    _offset = 0
+                                    for _grp in _rg:
+                                        _fi = _offset + 1
+                                        _li = _offset + len(_grp)
+                                        _offset += len(_grp)
+                                        _btn = Button(
+                                            text=f'Readings {_fi}\u2013{_li}',
+                                            size_hint_y=None, height=dp(52),
+                                            font_name='fonts/NotoSansJP-Regular.ttf',
+                                            background_normal='', background_down='',
+                                            background_color=(0.35, 0.35, 0.38, 1),
+                                            color=(0.90, 0.88, 0.85, 1),
+                                        )
+                                        def _on_r_btn(inst, _g=_grp, _rs=_rs,
+                                                      _back_fn=_show_r_picker,
+                                                      _comp=_comp, _mstats=_mstats,
+                                                      _smap=_smap, _thresh=_thresh, _prem=_prem):
+                                            _rs.clear_widgets()
+                                            _back = Button(
+                                                text='\u2190 Back to groups',
+                                                size_hint_y=None, height=dp(44),
+                                                font_name='fonts/NotoSansJP-Regular.ttf',
+                                                background_normal='', background_down='',
+                                                background_color=(0.22, 0.22, 0.26, 1),
+                                                color=(0.90, 0.88, 0.85, 1),
+                                            )
+                                            _back.bind(on_release=lambda *_: _back_fn())
+                                            _rs.add_widget(_back)
+                                            for _r in _g:
+                                                _sfx = _smap.get(_r['_filename'], '')
+                                                _rl = (not _prem and _r.get('lesson_number', 0) > _thresh)
+                                                _row = self._make_graded_reading_row(_r, _comp, _mstats, suffix=_sfx, is_locked=_rl)
+                                                _rs.add_widget(_row)
+                                        _btn.bind(on_release=_on_r_btn)
+                                        _rs.add_widget(_btn)
+
+                                _show_r_picker()
+                            else:
+                                for r in filtered:
+                                    _sfx = _suffix_map.get(r['_filename'], '')
+                                    _row_locked = (not _rd_has_premium and r.get('lesson_number', 0) > _rd_threshold)
+                                    row = self._make_graded_reading_row(r, _completed, _mat_stats, suffix=_sfx, is_locked=_row_locked)
+                                    content.add_widget(row)
                     else:
                         placeholder = Label(
                             text=f'No graded readings found for {level.upper()}.',
@@ -6613,7 +6709,10 @@ class LessonsScreen(BoxLayout):
             if material_id is None:
                 # Import via ReadingProcessor
                 from reading.processor import ReadingProcessor
-                processor = ReadingProcessor(get_db_path())
+                from reading.db_schema import create_reading_tables
+                _graded_db_path = get_db_path()
+                create_reading_tables(_graded_db_path)
+                processor = ReadingProcessor(_graded_db_path)
                 material_id = processor.process_text(title, full_text, source_type='graded')
                 self._set_graded_material_id(fname, material_id)
 
@@ -8505,16 +8604,38 @@ class DictionaryScreen(BoxLayout):
 
     def show_more_results(self):
         """Extend displayed results by one page, or all items when browsing a grammar level."""
+        results_widget = self.results_rv or self.ids.get('results_rv')
         full = getattr(self, '_full_results', [])
+        old_shown = getattr(self, '_results_shown', 0)
+
+        # Capture exact pixel offset from top before the data changes.
+        # (scroll_y is a fraction 0=bottom, 1=top, so pixel offset = (1-scroll_y)*(content_h-viewport_h))
+        _DEFAULT_H = dp(88)
+        if results_widget:
+            old_content_h = sum(item.get('height', _DEFAULT_H) for item in results_widget.data)
+            viewport_h = results_widget.height
+            old_offset_px = (1.0 - results_widget.scroll_y) * max(0.0, old_content_h - viewport_h)
+        else:
+            old_offset_px = 0.0
+            viewport_h = 0.0
+
         # When inside a specific JLPT level view, reveal all remaining items at once
         if getattr(self, '_grammar_browse_level', None):
             self._results_shown = len(full)
         else:
             self._results_shown = min(
-                getattr(self, '_results_shown', 0) + self._SEARCH_PAGE_SIZE,
+                old_shown + self._SEARCH_PAGE_SIZE,
                 len(full),
             )
         self._update_results_view()
+
+        # Restore scroll so the same content stays in place — new items just extend below.
+        if results_widget and old_offset_px > 0:
+            def _restore_scroll(dt):
+                new_content_h = sum(item.get('height', _DEFAULT_H) for item in results_widget.data)
+                new_max = max(0.0, new_content_h - viewport_h)
+                results_widget.scroll_y = max(0.0, 1.0 - old_offset_px / new_max) if new_max > 0 else 1.0
+            Clock.schedule_once(_restore_scroll)
 
     def open_entry(self, entry_id):
         """Navigate to entry detail screen instead of popup."""
@@ -14292,6 +14413,8 @@ class RootWidget(BoxLayout):
 FEEDBACK_DURATION = 0.6
 
 class SpoonfedApp(App):
+
+    icon = 'sakubo_icon.png'
 
     # Study settings
     study_limit_new_lessons = BooleanProperty(False)
@@ -31319,6 +31442,20 @@ class SpoonfedApp(App):
         - Pressing Back on the Dictionary collapses the app (minimize on Android).
         """
         try:
+            # If any popup/modal is currently open, dismiss it and stop — do not
+            # also navigate the screen manager (which would leave the popup orphaned
+            # on the wrong screen).
+            from kivy.uix.modalview import ModalView
+            from kivy.core.window import Window as _Window
+            for child in reversed(list(_Window.children)):
+                if isinstance(child, ModalView):
+                    Logger.info('go_back: dismissing open modal/popup')
+                    child.dismiss()
+                    return
+        except Exception as e:
+            Logger.exception('go_back: popup-dismiss check failed: %s', e)
+
+        try:
             sm = self._get_screen_manager()
             if sm is None:
                 Logger.info('go_back: no screen manager')
@@ -32572,16 +32709,29 @@ class SpoonfedApp(App):
         )
         p1.add_widget(Widget(size_hint_y=0.15))
 
-        # Swipe hint
-        swipe_lbl = Label(
-            text='Swipe to continue →',
-            font_name=FONT, font_size=sp(12),
-            color=(0.45, 0.43, 0.40, 1),
-            size_hint_y=None, height=dp(30),
-            halign='center',
-        )
-        swipe_lbl.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
-        p1.add_widget(swipe_lbl)
+        # Swipe hint / Next button
+        if _IS_ANDROID:
+            swipe_lbl = Label(
+                text='Swipe to continue →',
+                font_name=FONT, font_size=sp(12),
+                color=(0.45, 0.43, 0.40, 1),
+                size_hint_y=None, height=dp(30),
+                halign='center',
+            )
+            swipe_lbl.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+            p1.add_widget(swipe_lbl)
+        else:
+            next_btn1 = Button(
+                text='Next →',
+                font_name=FONT, font_size=sp(15),
+                size_hint=(0.5, None), height=dp(42),
+                pos_hint={'center_x': 0.5},
+                background_normal='', background_down='',
+                background_color=ACCENT,
+                color=(1, 1, 1, 1),
+            )
+            next_btn1.bind(on_release=lambda *_: carousel.load_next())
+            p1.add_widget(next_btn1)
 
         carousel.add_widget(p1)
 
@@ -32611,15 +32761,28 @@ class SpoonfedApp(App):
         )
         p2.add_widget(Widget(size_hint_y=0.15))
 
-        swipe_lbl2 = Label(
-            text='Swipe to continue →',
-            font_name=FONT, font_size=sp(12),
-            color=(0.45, 0.43, 0.40, 1),
-            size_hint_y=None, height=dp(30),
-            halign='center',
-        )
-        swipe_lbl2.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
-        p2.add_widget(swipe_lbl2)
+        if _IS_ANDROID:
+            swipe_lbl2 = Label(
+                text='Swipe to continue →',
+                font_name=FONT, font_size=sp(12),
+                color=(0.45, 0.43, 0.40, 1),
+                size_hint_y=None, height=dp(30),
+                halign='center',
+            )
+            swipe_lbl2.bind(width=lambda i, v: setattr(i, 'text_size', (v, None)))
+            p2.add_widget(swipe_lbl2)
+        else:
+            next_btn2 = Button(
+                text='Next →',
+                font_name=FONT, font_size=sp(15),
+                size_hint=(0.5, None), height=dp(42),
+                pos_hint={'center_x': 0.5},
+                background_normal='', background_down='',
+                background_color=ACCENT,
+                color=(1, 1, 1, 1),
+            )
+            next_btn2.bind(on_release=lambda *_: carousel.load_next())
+            p2.add_widget(next_btn2)
 
         carousel.add_widget(p2)
 
@@ -37757,18 +37920,23 @@ class SpoonfedApp(App):
             all_entry_ids = [item.get('entry_id') for item in items if item.get('entry_id')]
             srs_map = {}
             if all_entry_ids:
-                placeholders = ','.join('?' * len(all_entry_ids))
-                cur = conn.cursor()
-                cur.execute(
-                    f'SELECT entry_id, interval, data FROM srs WHERE entry_id IN ({placeholders})',
-                    all_entry_ids
-                )
-                for srs_eid, top_interval, data_json in cur.fetchall():
-                    try:
-                        srs_data = json.loads(data_json or '{}')
-                    except Exception:
-                        srs_data = {}
-                    srs_map[srs_eid] = (srs_data, top_interval or 0)
+                try:
+                    placeholders = ','.join('?' * len(all_entry_ids))
+                    cur = conn.cursor()
+                    cur.execute(
+                        f'SELECT entry_id, interval, data FROM srs WHERE entry_id IN ({placeholders})',
+                        all_entry_ids
+                    )
+                    for srs_eid, top_interval, data_json in cur.fetchall():
+                        try:
+                            srs_data = json.loads(data_json or '{}')
+                        except Exception:
+                            srs_data = {}
+                        srs_map[srs_eid] = (srs_data, top_interval or 0)
+                except Exception as e:
+                    # If srs table is missing/corrupt, still render lesson entries.
+                    Logger.warning(f'LessonPage: SRS batch unavailable, continuing without SRS statuses: {e}')
+                    srs_map = {}
             
             for item in items:
                 entry_id = item.get('entry_id')
@@ -38134,7 +38302,7 @@ class SpoonfedApp(App):
 
         # Stop any playing TTS when changing screens
         try:
-            tts.stop()
+            tts.stop_tts()
         except Exception:
             pass
 
@@ -39056,7 +39224,7 @@ class SpoonfedApp(App):
         BG_LEVEL = (0.26, 0.26, 0.30, 1)
         BG_GROUP = (0.20, 0.20, 0.24, 1)
         BG_ROW   = (0.14, 0.14, 0.17, 1)
-        GROUP_SIZE = 100
+        GROUP_SIZE = 50
         LEVEL_RANGES = [
             ('Kana',    1,    50),
             ('JLPT N5', 51,  271),
@@ -39244,7 +39412,7 @@ class SpoonfedApp(App):
 
             _show_screen(build)
 
-        # ── Screen 2: Sub-groups of 100 within a level ────────────────────────
+        # ── Screen 2: Sub-groups of 50 within a level ─────────────────────────
         def _show_groups(lname):
             lessons = level_data.get(lname, [])
             groups  = [lessons[i:i + GROUP_SIZE]
@@ -39272,7 +39440,7 @@ class SpoonfedApp(App):
                     first_num    = grp[0]['num']
                     last_num     = grp[-1]['num']
                     is_last_grp  = (grp is groups[-1])
-                    last_display = last_num if is_last_grp else (last_num + 9) // 10 * 10
+                    last_display = last_num if is_last_grp else (last_num + 49) // 50 * 50
                     n_sel        = sum(1 for p in g_paths if p in checked_set)
 
                     row = BoxLayout(size_hint_y=None, height=dp(56), spacing=dp(6),
